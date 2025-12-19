@@ -1,0 +1,846 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Models.Conversation
+  commentId: T:WeAutoCommon.Models.Conversation
+  id: Conversation
+  parent: WeAutoCommon.Models
+  children:
+  - WeAutoCommon.Models.Conversation.#ctor
+  - WeAutoCommon.Models.Conversation.ConversationContent
+  - WeAutoCommon.Models.Conversation.ConversationTitle
+  - WeAutoCommon.Models.Conversation.ConversationType
+  - WeAutoCommon.Models.Conversation.HasNotRead
+  - WeAutoCommon.Models.Conversation.ImageButton
+  - WeAutoCommon.Models.Conversation.IsCompanyGroup
+  - WeAutoCommon.Models.Conversation.IsDoNotDisturb
+  - WeAutoCommon.Models.Conversation.IsTop
+  - WeAutoCommon.Models.Conversation.Time
+  - WeAutoCommon.Models.Conversation.ToString
+  langs:
+  - csharp
+  - vb
+  name: Conversation
+  nameWithType: Conversation
+  fullName: WeAutoCommon.Models.Conversation
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话
+  example: []
+  syntax:
+    content: public class Conversation
+    content.vb: Public Class Conversation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Models.Conversation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Models.Conversation.ToString
+  commentId: M:WeAutoCommon.Models.Conversation.ToString
+  id: ToString
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Conversation.ToString()
+  fullName: WeAutoCommon.Models.Conversation.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WeAutoCommon.Models.Conversation.ToString*
+- uid: WeAutoCommon.Models.Conversation.#ctor
+  commentId: M:WeAutoCommon.Models.Conversation.#ctor
+  id: '#ctor'
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: Conversation()
+  nameWithType: Conversation.Conversation()
+  fullName: WeAutoCommon.Models.Conversation.Conversation()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public Conversation()
+    content.vb: Public Sub New()
+  overload: WeAutoCommon.Models.Conversation.#ctor*
+  nameWithType.vb: Conversation.New()
+  fullName.vb: WeAutoCommon.Models.Conversation.New()
+  name.vb: New()
+- uid: WeAutoCommon.Models.Conversation.ConversationType
+  commentId: P:WeAutoCommon.Models.Conversation.ConversationType
+  id: ConversationType
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: ConversationType
+  nameWithType: Conversation.ConversationType
+  fullName: WeAutoCommon.Models.Conversation.ConversationType
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话类型
+  example: []
+  syntax:
+    content: public ConversationType ConversationType { get; set; }
+    parameters: []
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+    content.vb: Public Property ConversationType As ConversationType
+  overload: WeAutoCommon.Models.Conversation.ConversationType*
+- uid: WeAutoCommon.Models.Conversation.ConversationTitle
+  commentId: P:WeAutoCommon.Models.Conversation.ConversationTitle
+  id: ConversationTitle
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: ConversationTitle
+  nameWithType: Conversation.ConversationTitle
+  fullName: WeAutoCommon.Models.Conversation.ConversationTitle
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话标题
+  example: []
+  syntax:
+    content: public string ConversationTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConversationTitle As String
+  overload: WeAutoCommon.Models.Conversation.ConversationTitle*
+- uid: WeAutoCommon.Models.Conversation.ConversationContent
+  commentId: P:WeAutoCommon.Models.Conversation.ConversationContent
+  id: ConversationContent
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: ConversationContent
+  nameWithType: Conversation.ConversationContent
+  fullName: WeAutoCommon.Models.Conversation.ConversationContent
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话内容
+  example: []
+  syntax:
+    content: public string ConversationContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConversationContent As String
+  overload: WeAutoCommon.Models.Conversation.ConversationContent*
+- uid: WeAutoCommon.Models.Conversation.IsCompanyGroup
+  commentId: P:WeAutoCommon.Models.Conversation.IsCompanyGroup
+  id: IsCompanyGroup
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: IsCompanyGroup
+  nameWithType: Conversation.IsCompanyGroup
+  fullName: WeAutoCommon.Models.Conversation.IsCompanyGroup
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 是否是企业群
+  example: []
+  syntax:
+    content: public bool IsCompanyGroup { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCompanyGroup As Boolean
+  overload: WeAutoCommon.Models.Conversation.IsCompanyGroup*
+- uid: WeAutoCommon.Models.Conversation.ImageButton
+  commentId: P:WeAutoCommon.Models.Conversation.ImageButton
+  id: ImageButton
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: ImageButton
+  nameWithType: Conversation.ImageButton
+  fullName: WeAutoCommon.Models.Conversation.ImageButton
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话头像按钮
+  example: []
+  syntax:
+    content: public Button ImageButton { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.Button
+    content.vb: Public Property ImageButton As Button
+  overload: WeAutoCommon.Models.Conversation.ImageButton*
+- uid: WeAutoCommon.Models.Conversation.HasNotRead
+  commentId: P:WeAutoCommon.Models.Conversation.HasNotRead
+  id: HasNotRead
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: HasNotRead
+  nameWithType: Conversation.HasNotRead
+  fullName: WeAutoCommon.Models.Conversation.HasNotRead
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 是否有未读消息
+  example: []
+  syntax:
+    content: public bool HasNotRead { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasNotRead As Boolean
+  overload: WeAutoCommon.Models.Conversation.HasNotRead*
+- uid: WeAutoCommon.Models.Conversation.Time
+  commentId: P:WeAutoCommon.Models.Conversation.Time
+  id: Time
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: Conversation.Time
+  fullName: WeAutoCommon.Models.Conversation.Time
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 会话时间
+  example: []
+  syntax:
+    content: public string Time { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Time As String
+  overload: WeAutoCommon.Models.Conversation.Time*
+- uid: WeAutoCommon.Models.Conversation.IsDoNotDisturb
+  commentId: P:WeAutoCommon.Models.Conversation.IsDoNotDisturb
+  id: IsDoNotDisturb
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: IsDoNotDisturb
+  nameWithType: Conversation.IsDoNotDisturb
+  fullName: WeAutoCommon.Models.Conversation.IsDoNotDisturb
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 是否免打扰
+  example: []
+  syntax:
+    content: public bool IsDoNotDisturb { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDoNotDisturb As Boolean
+  overload: WeAutoCommon.Models.Conversation.IsDoNotDisturb*
+- uid: WeAutoCommon.Models.Conversation.IsTop
+  commentId: P:WeAutoCommon.Models.Conversation.IsTop
+  id: IsTop
+  parent: WeAutoCommon.Models.Conversation
+  langs:
+  - csharp
+  - vb
+  name: IsTop
+  nameWithType: Conversation.IsTop
+  fullName: WeAutoCommon.Models.Conversation.IsTop
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Conversation.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 是否置顶
+  example: []
+  syntax:
+    content: public bool IsTop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTop As Boolean
+  overload: WeAutoCommon.Models.Conversation.IsTop*
+references:
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.Conversation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Conversation>(Conversation)
+  nameWithType: FunctionalExtensions.ToMaybe<Conversation>(Conversation)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Models.Conversation>(WeAutoCommon.Models.Conversation)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Conversation)(Conversation)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Models.Conversation)(WeAutoCommon.Models.Conversation)
+  name.vb: ToMaybe(Of Conversation)(Conversation)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Conversation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Models.Conversation
+    name: Conversation
+    isExternal: true
+    href: WeAutoCommon.Models.Conversation.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Conversation
+    name: Conversation
+    isExternal: true
+    href: WeAutoCommon.Models.Conversation.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Conversation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Conversation
+    name: Conversation
+    isExternal: true
+    href: WeAutoCommon.Models.Conversation.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Conversation
+    name: Conversation
+    isExternal: true
+    href: WeAutoCommon.Models.Conversation.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.Conversation.ToString*
+  commentId: Overload:WeAutoCommon.Models.Conversation.ToString
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_ToString
+  name: ToString
+  nameWithType: Conversation.ToString
+  fullName: WeAutoCommon.Models.Conversation.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Models.Conversation.#ctor*
+  commentId: Overload:WeAutoCommon.Models.Conversation.#ctor
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation__ctor
+  name: Conversation
+  nameWithType: Conversation.Conversation
+  fullName: WeAutoCommon.Models.Conversation.Conversation
+  nameWithType.vb: Conversation.New
+  fullName.vb: WeAutoCommon.Models.Conversation.New
+  name.vb: New
+- uid: WeAutoCommon.Models.Conversation.ConversationType*
+  commentId: Overload:WeAutoCommon.Models.Conversation.ConversationType
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_ConversationType
+  name: ConversationType
+  nameWithType: Conversation.ConversationType
+  fullName: WeAutoCommon.Models.Conversation.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType
+  commentId: T:WeAutoCommon.Enums.ConversationType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ConversationType.html
+  name: ConversationType
+  nameWithType: ConversationType
+  fullName: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Models.Conversation.ConversationTitle*
+  commentId: Overload:WeAutoCommon.Models.Conversation.ConversationTitle
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_ConversationTitle
+  name: ConversationTitle
+  nameWithType: Conversation.ConversationTitle
+  fullName: WeAutoCommon.Models.Conversation.ConversationTitle
+- uid: WeAutoCommon.Models.Conversation.ConversationContent*
+  commentId: Overload:WeAutoCommon.Models.Conversation.ConversationContent
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_ConversationContent
+  name: ConversationContent
+  nameWithType: Conversation.ConversationContent
+  fullName: WeAutoCommon.Models.Conversation.ConversationContent
+- uid: WeAutoCommon.Models.Conversation.IsCompanyGroup*
+  commentId: Overload:WeAutoCommon.Models.Conversation.IsCompanyGroup
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_IsCompanyGroup
+  name: IsCompanyGroup
+  nameWithType: Conversation.IsCompanyGroup
+  fullName: WeAutoCommon.Models.Conversation.IsCompanyGroup
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeAutoCommon.Models.Conversation.ImageButton*
+  commentId: Overload:WeAutoCommon.Models.Conversation.ImageButton
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_ImageButton
+  name: ImageButton
+  nameWithType: Conversation.ImageButton
+  fullName: WeAutoCommon.Models.Conversation.ImageButton
+- uid: FlaUI.Core.AutomationElements.Button
+  commentId: T:FlaUI.Core.AutomationElements.Button
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: FlaUI.Core.AutomationElements.Button
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Models.Conversation.HasNotRead*
+  commentId: Overload:WeAutoCommon.Models.Conversation.HasNotRead
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_HasNotRead
+  name: HasNotRead
+  nameWithType: Conversation.HasNotRead
+  fullName: WeAutoCommon.Models.Conversation.HasNotRead
+- uid: WeAutoCommon.Models.Conversation.Time*
+  commentId: Overload:WeAutoCommon.Models.Conversation.Time
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_Time
+  name: Time
+  nameWithType: Conversation.Time
+  fullName: WeAutoCommon.Models.Conversation.Time
+- uid: WeAutoCommon.Models.Conversation.IsDoNotDisturb*
+  commentId: Overload:WeAutoCommon.Models.Conversation.IsDoNotDisturb
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_IsDoNotDisturb
+  name: IsDoNotDisturb
+  nameWithType: Conversation.IsDoNotDisturb
+  fullName: WeAutoCommon.Models.Conversation.IsDoNotDisturb
+- uid: WeAutoCommon.Models.Conversation.IsTop*
+  commentId: Overload:WeAutoCommon.Models.Conversation.IsTop
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html#WeAutoCommon_Models_Conversation_IsTop
+  name: IsTop
+  nameWithType: Conversation.IsTop
+  fullName: WeAutoCommon.Models.Conversation.IsTop

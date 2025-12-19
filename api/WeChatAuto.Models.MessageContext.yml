@@ -1,0 +1,1892 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Models.MessageContext
+  commentId: T:WeChatAuto.Models.MessageContext
+  id: MessageContext
+  parent: WeChatAuto.Models
+  children:
+  - WeChatAuto.Models.MessageContext.#ctor(System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},WeChatAuto.Components.Sender,WeChatAuto.Components.WeChatClient,WeChatAuto.Components.WeChatClientFactory,System.IServiceProvider,System.String)
+  - WeChatAuto.Models.MessageContext.AllMessages
+  - WeChatAuto.Models.MessageContext.GetAllMessages
+  - WeChatAuto.Models.MessageContext.GetLLMContextMessages
+  - WeChatAuto.Models.MessageContext.GetLLMContextMessages(System.Int32)
+  - WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple
+  - WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(System.Int32)
+  - WeChatAuto.Models.MessageContext.GetLastMessages(System.Int32)
+  - WeChatAuto.Models.MessageContext.GetNewMessages
+  - WeChatAuto.Models.MessageContext.IsBeAt
+  - WeChatAuto.Models.MessageContext.IsBeReferenced
+  - WeChatAuto.Models.MessageContext.IsBeTap
+  - WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
+  - WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced
+  - WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing
+  - WeChatAuto.Models.MessageContext.NewMessages
+  - WeChatAuto.Models.MessageContext.OwnerClient
+  - WeChatAuto.Models.MessageContext.OwnerNickName
+  - WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf{System.Int32,System.String},System.Collections.Generic.List{System.String})
+  - WeChatAuto.Models.MessageContext.SendEmojiToFriend(System.String,OneOf.OneOf{System.Int32,System.String},OneOf.OneOf{System.String,System.String[]})
+  - WeChatAuto.Models.MessageContext.SendFile(System.String[])
+  - WeChatAuto.Models.MessageContext.SendFileToFriend(System.String,System.String[])
+  - WeChatAuto.Models.MessageContext.SendMessage(System.String,System.Collections.Generic.List{System.String})
+  - WeChatAuto.Models.MessageContext.SendMessageToFriend(System.String,System.String,OneOf.OneOf{System.String,System.String[]})
+  - WeChatAuto.Models.MessageContext.Sender
+  - WeChatAuto.Models.MessageContext.ServiceProvider
+  - WeChatAuto.Models.MessageContext.SystemClientFactory
+  langs:
+  - csharp
+  - vb
+  name: MessageContext
+  nameWithType: MessageContext
+  fullName: WeChatAuto.Models.MessageContext
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  syntax:
+    content: public sealed class MessageContext
+    content.vb: Public NotInheritable Class MessageContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Models.MessageContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Models.MessageContext.#ctor(System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},WeChatAuto.Components.Sender,WeChatAuto.Components.WeChatClient,WeChatAuto.Components.WeChatClientFactory,System.IServiceProvider,System.String)
+  commentId: M:WeChatAuto.Models.MessageContext.#ctor(System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},WeChatAuto.Components.Sender,WeChatAuto.Components.WeChatClient,WeChatAuto.Components.WeChatClientFactory,System.IServiceProvider,System.String)
+  id: '#ctor(System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},System.Collections.Generic.List{WeChatAuto.Components.MessageBubble},WeChatAuto.Components.Sender,WeChatAuto.Components.WeChatClient,WeChatAuto.Components.WeChatClientFactory,System.IServiceProvider,System.String)'
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: MessageContext(List<MessageBubble>, List<MessageBubble>, Sender, WeChatClient, WeChatClientFactory, IServiceProvider, string)
+  nameWithType: MessageContext.MessageContext(List<MessageBubble>, List<MessageBubble>, Sender, WeChatClient, WeChatClientFactory, IServiceProvider, string)
+  fullName: WeChatAuto.Models.MessageContext.MessageContext(System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, WeChatAuto.Components.Sender, WeChatAuto.Components.WeChatClient, WeChatAuto.Components.WeChatClientFactory, System.IServiceProvider, string)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  syntax:
+    content: public MessageContext(List<MessageBubble> newMessages, List<MessageBubble> allMessages, Sender sender, WeChatClient ownerClient, WeChatClientFactory systemClientFactory, IServiceProvider serviceProvider, string ownerNickName)
+    parameters:
+    - id: newMessages
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    - id: allMessages
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    - id: sender
+      type: WeChatAuto.Components.Sender
+    - id: ownerClient
+      type: WeChatAuto.Components.WeChatClient
+    - id: systemClientFactory
+      type: WeChatAuto.Components.WeChatClientFactory
+    - id: serviceProvider
+      type: System.IServiceProvider
+    - id: ownerNickName
+      type: System.String
+    content.vb: Public Sub New(newMessages As List(Of MessageBubble), allMessages As List(Of MessageBubble), sender As Sender, ownerClient As WeChatClient, systemClientFactory As WeChatClientFactory, serviceProvider As IServiceProvider, ownerNickName As String)
+  overload: WeChatAuto.Models.MessageContext.#ctor*
+  nameWithType.vb: MessageContext.New(List(Of MessageBubble), List(Of MessageBubble), Sender, WeChatClient, WeChatClientFactory, IServiceProvider, String)
+  fullName.vb: WeChatAuto.Models.MessageContext.New(System.Collections.Generic.List(Of WeChatAuto.Components.MessageBubble), System.Collections.Generic.List(Of WeChatAuto.Components.MessageBubble), WeChatAuto.Components.Sender, WeChatAuto.Components.WeChatClient, WeChatAuto.Components.WeChatClientFactory, System.IServiceProvider, String)
+  name.vb: New(List(Of MessageBubble), List(Of MessageBubble), Sender, WeChatClient, WeChatClientFactory, IServiceProvider, String)
+- uid: WeChatAuto.Models.MessageContext.GetNewMessages
+  commentId: M:WeChatAuto.Models.MessageContext.GetNewMessages
+  id: GetNewMessages
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetNewMessages()
+  nameWithType: MessageContext.GetNewMessages()
+  fullName: WeChatAuto.Models.MessageContext.GetNewMessages()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取新消息
+  example: []
+  syntax:
+    content: public List<MessageBubble> GetNewMessages()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 新消息列表,参考<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetNewMessages() As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.GetNewMessages*
+- uid: WeChatAuto.Models.MessageContext.GetAllMessages
+  commentId: M:WeChatAuto.Models.MessageContext.GetAllMessages
+  id: GetAllMessages
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetAllMessages()
+  nameWithType: MessageContext.GetAllMessages()
+  fullName: WeChatAuto.Models.MessageContext.GetAllMessages()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取所有消息
+  example: []
+  syntax:
+    content: public List<MessageBubble> GetAllMessages()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 所有消息列表,参考<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetAllMessages() As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.GetAllMessages*
+- uid: WeChatAuto.Models.MessageContext.GetLastMessages(System.Int32)
+  commentId: M:WeChatAuto.Models.MessageContext.GetLastMessages(System.Int32)
+  id: GetLastMessages(System.Int32)
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetLastMessages(int)
+  nameWithType: MessageContext.GetLastMessages(int)
+  fullName: WeChatAuto.Models.MessageContext.GetLastMessages(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取最后几条消息
+  example: []
+  syntax:
+    content: public List<MessageBubble> GetLastMessages(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: 最后几条消息的数量
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 最后几条消息列表,参考<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetLastMessages(count As Integer) As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.GetLastMessages*
+  nameWithType.vb: MessageContext.GetLastMessages(Integer)
+  fullName.vb: WeChatAuto.Models.MessageContext.GetLastMessages(Integer)
+  name.vb: GetLastMessages(Integer)
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessages
+  commentId: M:WeChatAuto.Models.MessageContext.GetLLMContextMessages
+  id: GetLLMContextMessages
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetLLMContextMessages()
+  nameWithType: MessageContext.GetLLMContextMessages()
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取LLM上下文消息
+  example: []
+  syntax:
+    content: public List<string> GetLLMContextMessages()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: LLM上下文消息列表
+    content.vb: Public Function GetLLMContextMessages() As List(Of String)
+  overload: WeChatAuto.Models.MessageContext.GetLLMContextMessages*
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessages(System.Int32)
+  commentId: M:WeChatAuto.Models.MessageContext.GetLLMContextMessages(System.Int32)
+  id: GetLLMContextMessages(System.Int32)
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetLLMContextMessages(int)
+  nameWithType: MessageContext.GetLLMContextMessages(int)
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取最后几条LLM上下文消息
+  example: []
+  syntax:
+    content: public List<string> GetLLMContextMessages(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: 最后几条消息的数量
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 最后几条LLM上下文消息列表
+    content.vb: Public Function GetLLMContextMessages(count As Integer) As List(Of String)
+  overload: WeChatAuto.Models.MessageContext.GetLLMContextMessages*
+  nameWithType.vb: MessageContext.GetLLMContextMessages(Integer)
+  fullName.vb: WeChatAuto.Models.MessageContext.GetLLMContextMessages(Integer)
+  name.vb: GetLLMContextMessages(Integer)
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple
+  commentId: M:WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple
+  id: GetLLMContextMessagesTuple
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetLLMContextMessagesTuple()
+  nameWithType: MessageContext.GetLLMContextMessagesTuple()
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取LLM上下文消息元组
+  example: []
+  syntax:
+    content: public List<(string who, string message)> GetLLMContextMessagesTuple()
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+      description: LLM上下文消息元组列表
+    content.vb: Public Function GetLLMContextMessagesTuple() As List(Of (who As String, message As String))
+  overload: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple*
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(System.Int32)
+  commentId: M:WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(System.Int32)
+  id: GetLLMContextMessagesTuple(System.Int32)
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: GetLLMContextMessagesTuple(int)
+  nameWithType: MessageContext.GetLLMContextMessagesTuple(int)
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取最后几条LLM上下文消息元组
+  example: []
+  syntax:
+    content: public List<(string who, string message)> GetLLMContextMessagesTuple(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: 最后几条消息的数量
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+      description: 最后几条LLM上下文消息元组列表
+    content.vb: Public Function GetLLMContextMessagesTuple(count As Integer) As List(Of (who As String, message As String))
+  overload: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple*
+  nameWithType.vb: MessageContext.GetLLMContextMessagesTuple(Integer)
+  fullName.vb: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(Integer)
+  name.vb: GetLLMContextMessagesTuple(Integer)
+- uid: WeChatAuto.Models.MessageContext.IsBeTap
+  commentId: M:WeChatAuto.Models.MessageContext.IsBeTap
+  id: IsBeTap
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: IsBeTap()
+  nameWithType: MessageContext.IsBeTap()
+  fullName: WeChatAuto.Models.MessageContext.IsBeTap()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 是否被人拍一拍
+  example: []
+  syntax:
+    content: public bool IsBeTap()
+    return:
+      type: System.Boolean
+      description: 是否被人拍一拍
+    content.vb: Public Function IsBeTap() As Boolean
+  overload: WeChatAuto.Models.MessageContext.IsBeTap*
+- uid: WeChatAuto.Models.MessageContext.IsBeAt
+  commentId: M:WeChatAuto.Models.MessageContext.IsBeAt
+  id: IsBeAt
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: IsBeAt()
+  nameWithType: MessageContext.IsBeAt()
+  fullName: WeChatAuto.Models.MessageContext.IsBeAt()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 是否被@
+  example: []
+  syntax:
+    content: public bool IsBeAt()
+    return:
+      type: System.Boolean
+      description: 是否被@
+    content.vb: Public Function IsBeAt() As Boolean
+  overload: WeChatAuto.Models.MessageContext.IsBeAt*
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
+  commentId: M:WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
+  id: MessageBubbleIsBeAt
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: MessageBubbleIsBeAt()
+  nameWithType: MessageContext.MessageBubbleIsBeAt()
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取被@的消息气泡列表
+  example: []
+  syntax:
+    content: public List<MessageBubble> MessageBubbleIsBeAt()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 被@的消息气泡列表
+    content.vb: Public Function MessageBubbleIsBeAt() As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt*
+- uid: WeChatAuto.Models.MessageContext.IsBeReferenced
+  commentId: M:WeChatAuto.Models.MessageContext.IsBeReferenced
+  id: IsBeReferenced
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: IsBeReferenced()
+  nameWithType: MessageContext.IsBeReferenced()
+  fullName: WeChatAuto.Models.MessageContext.IsBeReferenced()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 是否被引用
+  example: []
+  syntax:
+    content: public bool IsBeReferenced()
+    return:
+      type: System.Boolean
+      description: 是否被引用
+    content.vb: Public Function IsBeReferenced() As Boolean
+  overload: WeChatAuto.Models.MessageContext.IsBeReferenced*
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced
+  commentId: M:WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced
+  id: MessageBubbleIsReferenced
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: MessageBubbleIsReferenced()
+  nameWithType: MessageContext.MessageBubbleIsReferenced()
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取新消息中我被引用的消息气泡列表
+  example: []
+  syntax:
+    content: public List<MessageBubble> MessageBubbleIsReferenced()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 新消息中我被引用的消息气泡列表
+    content.vb: Public Function MessageBubbleIsReferenced() As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced*
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing
+  commentId: M:WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing
+  id: MessageBubbleIsReferencing
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: MessageBubbleIsReferencing()
+  nameWithType: MessageContext.MessageBubbleIsReferencing()
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 获取新消息中引用我的消息气泡列表中我发送的消息气泡列表
+  example: []
+  syntax:
+    content: public List<MessageBubble> MessageBubbleIsReferencing()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 新消息中引用我的消息气泡列表中我发送的消息气泡列表
+    content.vb: Public Function MessageBubbleIsReferencing() As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing*
+- uid: WeChatAuto.Models.MessageContext.SendMessage(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:WeChatAuto.Models.MessageContext.SendMessage(System.String,System.Collections.Generic.List{System.String})
+  id: SendMessage(System.String,System.Collections.Generic.List{System.String})
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(string, List<string>)
+  nameWithType: MessageContext.SendMessage(string, List<string>)
+  fullName: WeChatAuto.Models.MessageContext.SendMessage(string, System.Collections.Generic.List<string>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 发送消息
+  example: []
+  syntax:
+    content: public void SendMessage(string message, List<string> atUserList = null)
+    parameters:
+    - id: message
+      type: System.String
+      description: 消息内容
+    - id: atUserList
+      type: System.Collections.Generic.List{System.String}
+      description: 被@的用户列表
+    content.vb: Public Sub SendMessage(message As String, atUserList As List(Of String) = Nothing)
+  overload: WeChatAuto.Models.MessageContext.SendMessage*
+  nameWithType.vb: MessageContext.SendMessage(String, List(Of String))
+  fullName.vb: WeChatAuto.Models.MessageContext.SendMessage(String, System.Collections.Generic.List(Of String))
+  name.vb: SendMessage(String, List(Of String))
+- uid: WeChatAuto.Models.MessageContext.SendFile(System.String[])
+  commentId: M:WeChatAuto.Models.MessageContext.SendFile(System.String[])
+  id: SendFile(System.String[])
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendFile(string[])
+  nameWithType: MessageContext.SendFile(string[])
+  fullName: WeChatAuto.Models.MessageContext.SendFile(string[])
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 发送文件
+  example: []
+  syntax:
+    content: public void SendFile(string[] files)
+    parameters:
+    - id: files
+      type: System.String[]
+      description: 文件路径列表
+    content.vb: Public Sub SendFile(files As String())
+  overload: WeChatAuto.Models.MessageContext.SendFile*
+  nameWithType.vb: MessageContext.SendFile(String())
+  fullName.vb: WeChatAuto.Models.MessageContext.SendFile(String())
+  name.vb: SendFile(String())
+- uid: WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf{System.Int32,System.String},System.Collections.Generic.List{System.String})
+  commentId: M:WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf{System.Int32,System.String},System.Collections.Generic.List{System.String})
+  id: SendEmoji(OneOf.OneOf{System.Int32,System.String},System.Collections.Generic.List{System.String})
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendEmoji(OneOf<int, string>, List<string>)
+  nameWithType: MessageContext.SendEmoji(OneOf<int, string>, List<string>)
+  fullName: WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf<int, string>, System.Collections.Generic.List<string>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 发送表情
+  example: []
+  syntax:
+    content: public void SendEmoji(OneOf<int, string> emoji, List<string> atUserList = null)
+    parameters:
+    - id: emoji
+      type: OneOf.OneOf{System.Int32,System.String}
+      description: 表情名称或者描述或者索引
+    - id: atUserList
+      type: System.Collections.Generic.List{System.String}
+      description: 被@的用户列表
+    content.vb: Public Sub SendEmoji(emoji As OneOf(Of Integer, String), atUserList As List(Of String) = Nothing)
+  overload: WeChatAuto.Models.MessageContext.SendEmoji*
+  nameWithType.vb: MessageContext.SendEmoji(OneOf(Of Integer, String), List(Of String))
+  fullName.vb: WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf(Of Integer, String), System.Collections.Generic.List(Of String))
+  name.vb: SendEmoji(OneOf(Of Integer, String), List(Of String))
+- uid: WeChatAuto.Models.MessageContext.SendMessageToFriend(System.String,System.String,OneOf.OneOf{System.String,System.String[]})
+  commentId: M:WeChatAuto.Models.MessageContext.SendMessageToFriend(System.String,System.String,OneOf.OneOf{System.String,System.String[]})
+  id: SendMessageToFriend(System.String,System.String,OneOf.OneOf{System.String,System.String[]})
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendMessageToFriend(string, string, OneOf<string, string[]>)
+  nameWithType: MessageContext.SendMessageToFriend(string, string, OneOf<string, string[]>)
+  fullName: WeChatAuto.Models.MessageContext.SendMessageToFriend(string, string, OneOf.OneOf<string, string[]>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 向聊天好友外的好友发送消息
+  example: []
+  syntax:
+    content: public Task SendMessageToFriend(string who, string message, OneOf<string, string[]> atUser = default)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友名称
+    - id: message
+      type: System.String
+      description: 消息内容
+    - id: atUser
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SendMessageToFriend(who As String, message As String, atUser As OneOf(Of String, String()) = Nothing) As Task
+  overload: WeChatAuto.Models.MessageContext.SendMessageToFriend*
+  nameWithType.vb: MessageContext.SendMessageToFriend(String, String, OneOf(Of String, String()))
+  fullName.vb: WeChatAuto.Models.MessageContext.SendMessageToFriend(String, String, OneOf.OneOf(Of String, String()))
+  name.vb: SendMessageToFriend(String, String, OneOf(Of String, String()))
+- uid: WeChatAuto.Models.MessageContext.SendFileToFriend(System.String,System.String[])
+  commentId: M:WeChatAuto.Models.MessageContext.SendFileToFriend(System.String,System.String[])
+  id: SendFileToFriend(System.String,System.String[])
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendFileToFriend(string, string[])
+  nameWithType: MessageContext.SendFileToFriend(string, string[])
+  fullName: WeChatAuto.Models.MessageContext.SendFileToFriend(string, string[])
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 向聊天好友外的好友发送文件
+  example: []
+  syntax:
+    content: public Task SendFileToFriend(string who, string[] files)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友名称
+    - id: files
+      type: System.String[]
+      description: 文件路径列表
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SendFileToFriend(who As String, files As String()) As Task
+  overload: WeChatAuto.Models.MessageContext.SendFileToFriend*
+  nameWithType.vb: MessageContext.SendFileToFriend(String, String())
+  fullName.vb: WeChatAuto.Models.MessageContext.SendFileToFriend(String, String())
+  name.vb: SendFileToFriend(String, String())
+- uid: WeChatAuto.Models.MessageContext.SendEmojiToFriend(System.String,OneOf.OneOf{System.Int32,System.String},OneOf.OneOf{System.String,System.String[]})
+  commentId: M:WeChatAuto.Models.MessageContext.SendEmojiToFriend(System.String,OneOf.OneOf{System.Int32,System.String},OneOf.OneOf{System.String,System.String[]})
+  id: SendEmojiToFriend(System.String,OneOf.OneOf{System.Int32,System.String},OneOf.OneOf{System.String,System.String[]})
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SendEmojiToFriend(string, OneOf<int, string>, OneOf<string, string[]>)
+  nameWithType: MessageContext.SendEmojiToFriend(string, OneOf<int, string>, OneOf<string, string[]>)
+  fullName: WeChatAuto.Models.MessageContext.SendEmojiToFriend(string, OneOf.OneOf<int, string>, OneOf.OneOf<string, string[]>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 向聊天好友外的好友发送表情
+  example: []
+  syntax:
+    content: public Task SendEmojiToFriend(string who, OneOf<int, string> emoji, OneOf<string, string[]> atUser = default)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友名称
+    - id: emoji
+      type: OneOf.OneOf{System.Int32,System.String}
+      description: 表情名称或者描述或者索引
+    - id: atUser
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SendEmojiToFriend(who As String, emoji As OneOf(Of Integer, String), atUser As OneOf(Of String, String()) = Nothing) As Task
+  overload: WeChatAuto.Models.MessageContext.SendEmojiToFriend*
+  nameWithType.vb: MessageContext.SendEmojiToFriend(String, OneOf(Of Integer, String), OneOf(Of String, String()))
+  fullName.vb: WeChatAuto.Models.MessageContext.SendEmojiToFriend(String, OneOf.OneOf(Of Integer, String), OneOf.OneOf(Of String, String()))
+  name.vb: SendEmojiToFriend(String, OneOf(Of Integer, String), OneOf(Of String, String()))
+- uid: WeChatAuto.Models.MessageContext.OwnerNickName
+  commentId: P:WeChatAuto.Models.MessageContext.OwnerNickName
+  id: OwnerNickName
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: OwnerNickName
+  nameWithType: MessageContext.OwnerNickName
+  fullName: WeChatAuto.Models.MessageContext.OwnerNickName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 当前我的微信昵称
+  example: []
+  syntax:
+    content: public string OwnerNickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerNickName As String
+  overload: WeChatAuto.Models.MessageContext.OwnerNickName*
+- uid: WeChatAuto.Models.MessageContext.NewMessages
+  commentId: P:WeChatAuto.Models.MessageContext.NewMessages
+  id: NewMessages
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: NewMessages
+  nameWithType: MessageContext.NewMessages
+  fullName: WeChatAuto.Models.MessageContext.NewMessages
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    新消息气泡列表
+
+    参考<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public List<MessageBubble> NewMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public Property NewMessages As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.NewMessages*
+- uid: WeChatAuto.Models.MessageContext.AllMessages
+  commentId: P:WeChatAuto.Models.MessageContext.AllMessages
+  id: AllMessages
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: AllMessages
+  nameWithType: MessageContext.AllMessages
+  fullName: WeChatAuto.Models.MessageContext.AllMessages
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    所有消息气泡列表
+
+    参考<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public List<MessageBubble> AllMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public Property AllMessages As List(Of MessageBubble)
+  overload: WeChatAuto.Models.MessageContext.AllMessages*
+- uid: WeChatAuto.Models.MessageContext.Sender
+  commentId: P:WeChatAuto.Models.MessageContext.Sender
+  id: Sender
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: Sender
+  nameWithType: MessageContext.Sender
+  fullName: WeChatAuto.Models.MessageContext.Sender
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    发送者,调用此类可以发送消息、发送文件、发送表情等
+
+    参考<xref href="WeChatAuto.Models.MessageContext.Sender" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public Sender Sender { get; set; }
+    parameters: []
+    return:
+      type: WeChatAuto.Components.Sender
+    content.vb: Public Property Sender As Sender
+  overload: WeChatAuto.Models.MessageContext.Sender*
+- uid: WeChatAuto.Models.MessageContext.OwnerClient
+  commentId: P:WeChatAuto.Models.MessageContext.OwnerClient
+  id: OwnerClient
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: OwnerClient
+  nameWithType: MessageContext.OwnerClient
+  fullName: WeChatAuto.Models.MessageContext.OwnerClient
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    当前微信客户端
+
+    参考<xref href="WeChatAuto.Components.WeChatClient" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public WeChatClient OwnerClient { get; set; }
+    parameters: []
+    return:
+      type: WeChatAuto.Components.WeChatClient
+    content.vb: Public Property OwnerClient As WeChatClient
+  overload: WeChatAuto.Models.MessageContext.OwnerClient*
+- uid: WeChatAuto.Models.MessageContext.SystemClientFactory
+  commentId: P:WeChatAuto.Models.MessageContext.SystemClientFactory
+  id: SystemClientFactory
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: SystemClientFactory
+  nameWithType: MessageContext.SystemClientFactory
+  fullName: WeChatAuto.Models.MessageContext.SystemClientFactory
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    系统微信客户端工厂,可以通过WeChatClientFactory获取其他微信客户端,发送消息、发送文件、发送表情等
+
+    参考<xref href="WeChatAuto.Components.WeChatClientFactory" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public WeChatClientFactory SystemClientFactory { get; set; }
+    parameters: []
+    return:
+      type: WeChatAuto.Components.WeChatClientFactory
+    content.vb: Public Property SystemClientFactory As WeChatClientFactory
+  overload: WeChatAuto.Models.MessageContext.SystemClientFactory*
+- uid: WeChatAuto.Models.MessageContext.ServiceProvider
+  commentId: P:WeChatAuto.Models.MessageContext.ServiceProvider
+  id: ServiceProvider
+  parent: WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: ServiceProvider
+  nameWithType: MessageContext.ServiceProvider
+  fullName: WeChatAuto.Models.MessageContext.ServiceProvider
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Models/MessageContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: >-
+    服务提供者，使用者可以注入自己的服务，在此处获取
+
+    参考<xref href="System.IServiceProvider" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public IServiceProvider ServiceProvider { get; set; }
+    parameters: []
+    return:
+      type: System.IServiceProvider
+    content.vb: Public Property ServiceProvider As IServiceProvider
+  overload: WeChatAuto.Models.MessageContext.ServiceProvider*
+references:
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Models.MessageContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<MessageContext>(MessageContext)
+  nameWithType: FunctionalExtensions.ToMaybe<MessageContext>(MessageContext)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Models.MessageContext>(WeChatAuto.Models.MessageContext)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of MessageContext)(MessageContext)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Models.MessageContext)(WeChatAuto.Models.MessageContext)
+  name.vb: ToMaybe(Of MessageContext)(MessageContext)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.MessageContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.MessageContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Models.MessageContext.#ctor*
+  commentId: Overload:WeChatAuto.Models.MessageContext.#ctor
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext__ctor_System_Collections_Generic_List_WeChatAuto_Components_MessageBubble__System_Collections_Generic_List_WeChatAuto_Components_MessageBubble__WeChatAuto_Components_Sender_WeChatAuto_Components_WeChatClient_WeChatAuto_Components_WeChatClientFactory_System_IServiceProvider_System_String_
+  name: MessageContext
+  nameWithType: MessageContext.MessageContext
+  fullName: WeChatAuto.Models.MessageContext.MessageContext
+  nameWithType.vb: MessageContext.New
+  fullName.vb: WeChatAuto.Models.MessageContext.New
+  name.vb: New
+- uid: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+  commentId: T:System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MessageBubble>
+  nameWithType: List<MessageBubble>
+  fullName: System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>
+  nameWithType.vb: List(Of MessageBubble)
+  fullName.vb: System.Collections.Generic.List(Of WeChatAuto.Components.MessageBubble)
+  name.vb: List(Of MessageBubble)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+- uid: WeChatAuto.Components.Sender
+  commentId: T:WeChatAuto.Components.Sender
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.Sender.html
+  name: Sender
+  nameWithType: Sender
+  fullName: WeChatAuto.Components.Sender
+- uid: WeChatAuto.Components.WeChatClient
+  commentId: T:WeChatAuto.Components.WeChatClient
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClient.html
+  name: WeChatClient
+  nameWithType: WeChatClient
+  fullName: WeChatAuto.Components.WeChatClient
+- uid: WeChatAuto.Components.WeChatClientFactory
+  commentId: T:WeChatAuto.Components.WeChatClientFactory
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html
+  name: WeChatClientFactory
+  nameWithType: WeChatClientFactory
+  fullName: WeChatAuto.Components.WeChatClientFactory
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: WeChatAuto.Components.MessageBubble
+  commentId: T:WeChatAuto.Components.MessageBubble
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html
+  name: MessageBubble
+  nameWithType: MessageBubble
+  fullName: WeChatAuto.Components.MessageBubble
+- uid: WeChatAuto.Models.MessageContext.GetNewMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.GetNewMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_GetNewMessages
+  name: GetNewMessages
+  nameWithType: MessageContext.GetNewMessages
+  fullName: WeChatAuto.Models.MessageContext.GetNewMessages
+- uid: WeChatAuto.Models.MessageContext.GetAllMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.GetAllMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_GetAllMessages
+  name: GetAllMessages
+  nameWithType: MessageContext.GetAllMessages
+  fullName: WeChatAuto.Models.MessageContext.GetAllMessages
+- uid: WeChatAuto.Models.MessageContext.GetLastMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.GetLastMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_GetLastMessages_System_Int32_
+  name: GetLastMessages
+  nameWithType: MessageContext.GetLastMessages
+  fullName: WeChatAuto.Models.MessageContext.GetLastMessages
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.GetLLMContextMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_GetLLMContextMessages
+  name: GetLLMContextMessages
+  nameWithType: MessageContext.GetLLMContextMessages
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple*
+  commentId: Overload:WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_GetLLMContextMessagesTuple
+  name: GetLLMContextMessagesTuple
+  nameWithType: MessageContext.GetLLMContextMessagesTuple
+  fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple
+- uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<(string who, string message)>
+  nameWithType: List<(string who, string message)>
+  fullName: System.Collections.Generic.List<(string who, string message)>
+  nameWithType.vb: List(Of (who As String, message As String))
+  fullName.vb: System.Collections.Generic.List(Of (who As String, message As String))
+  name.vb: List(Of (who As String, message As String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.who
+    name: who
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.who
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.message
+    name: message
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.message
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String}.who
+    name: who
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.who
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.message
+    name: message
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.message
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: WeChatAuto.Models.MessageContext.IsBeTap*
+  commentId: Overload:WeChatAuto.Models.MessageContext.IsBeTap
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_IsBeTap
+  name: IsBeTap
+  nameWithType: MessageContext.IsBeTap
+  fullName: WeChatAuto.Models.MessageContext.IsBeTap
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Models.MessageContext.IsBeAt*
+  commentId: Overload:WeChatAuto.Models.MessageContext.IsBeAt
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_IsBeAt
+  name: IsBeAt
+  nameWithType: MessageContext.IsBeAt
+  fullName: WeChatAuto.Models.MessageContext.IsBeAt
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt*
+  commentId: Overload:WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_MessageBubbleIsBeAt
+  name: MessageBubbleIsBeAt
+  nameWithType: MessageContext.MessageBubbleIsBeAt
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
+- uid: WeChatAuto.Models.MessageContext.IsBeReferenced*
+  commentId: Overload:WeChatAuto.Models.MessageContext.IsBeReferenced
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_IsBeReferenced
+  name: IsBeReferenced
+  nameWithType: MessageContext.IsBeReferenced
+  fullName: WeChatAuto.Models.MessageContext.IsBeReferenced
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced*
+  commentId: Overload:WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_MessageBubbleIsReferenced
+  name: MessageBubbleIsReferenced
+  nameWithType: MessageContext.MessageBubbleIsReferenced
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced
+- uid: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing*
+  commentId: Overload:WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_MessageBubbleIsReferencing
+  name: MessageBubbleIsReferencing
+  nameWithType: MessageContext.MessageBubbleIsReferencing
+  fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing
+- uid: WeChatAuto.Models.MessageContext.SendMessage*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendMessage
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendMessage_System_String_System_Collections_Generic_List_System_String__
+  name: SendMessage
+  nameWithType: MessageContext.SendMessage
+  fullName: WeChatAuto.Models.MessageContext.SendMessage
+- uid: WeChatAuto.Models.MessageContext.SendFile*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendFile
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendFile_System_String___
+  name: SendFile
+  nameWithType: MessageContext.SendFile
+  fullName: WeChatAuto.Models.MessageContext.SendFile
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: WeChatAuto.Models.MessageContext.SendEmoji*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendEmoji
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendEmoji_OneOf_OneOf_System_Int32_System_String__System_Collections_Generic_List_System_String__
+  name: SendEmoji
+  nameWithType: MessageContext.SendEmoji
+  fullName: WeChatAuto.Models.MessageContext.SendEmoji
+- uid: OneOf.OneOf{System.Int32,System.String}
+  commentId: T:OneOf.OneOf{System.Int32,System.String}
+  parent: OneOf
+  definition: OneOf.OneOf`2
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: OneOf<int, string>
+  nameWithType: OneOf<int, string>
+  fullName: OneOf.OneOf<int, string>
+  nameWithType.vb: OneOf(Of Integer, String)
+  fullName.vb: OneOf.OneOf(Of Integer, String)
+  name.vb: OneOf(Of Integer, String)
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: OneOf.OneOf`2
+  commentId: T:OneOf.OneOf`2
+  isExternal: true
+  name: OneOf<T0, T1>
+  nameWithType: OneOf<T0, T1>
+  fullName: OneOf.OneOf<T0, T1>
+  nameWithType.vb: OneOf(Of T0, T1)
+  fullName.vb: OneOf.OneOf(Of T0, T1)
+  name.vb: OneOf(Of T0, T1)
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: )
+- uid: OneOf
+  commentId: N:OneOf
+  isExternal: true
+  name: OneOf
+  nameWithType: OneOf
+  fullName: OneOf
+- uid: WeChatAuto.Models.MessageContext.SendMessageToFriend*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendMessageToFriend
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendMessageToFriend_System_String_System_String_OneOf_OneOf_System_String_System_String____
+  name: SendMessageToFriend
+  nameWithType: MessageContext.SendMessageToFriend
+  fullName: WeChatAuto.Models.MessageContext.SendMessageToFriend
+- uid: OneOf.OneOf{System.String,System.String[]}
+  commentId: T:OneOf.OneOf{System.String,System.String[]}
+  parent: OneOf
+  definition: OneOf.OneOf`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: OneOf<string, string[]>
+  nameWithType: OneOf<string, string[]>
+  fullName: OneOf.OneOf<string, string[]>
+  nameWithType.vb: OneOf(Of String, String())
+  fullName.vb: OneOf.OneOf(Of String, String())
+  name.vb: OneOf(Of String, String())
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: WeChatAuto.Models.MessageContext.SendFileToFriend*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendFileToFriend
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendFileToFriend_System_String_System_String___
+  name: SendFileToFriend
+  nameWithType: MessageContext.SendFileToFriend
+  fullName: WeChatAuto.Models.MessageContext.SendFileToFriend
+- uid: WeChatAuto.Models.MessageContext.SendEmojiToFriend*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SendEmojiToFriend
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SendEmojiToFriend_System_String_OneOf_OneOf_System_Int32_System_String__OneOf_OneOf_System_String_System_String____
+  name: SendEmojiToFriend
+  nameWithType: MessageContext.SendEmojiToFriend
+  fullName: WeChatAuto.Models.MessageContext.SendEmojiToFriend
+- uid: WeChatAuto.Models.MessageContext.OwnerNickName*
+  commentId: Overload:WeChatAuto.Models.MessageContext.OwnerNickName
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_OwnerNickName
+  name: OwnerNickName
+  nameWithType: MessageContext.OwnerNickName
+  fullName: WeChatAuto.Models.MessageContext.OwnerNickName
+- uid: WeChatAuto.Models.MessageContext.NewMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.NewMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_NewMessages
+  name: NewMessages
+  nameWithType: MessageContext.NewMessages
+  fullName: WeChatAuto.Models.MessageContext.NewMessages
+- uid: WeChatAuto.Models.MessageContext.AllMessages*
+  commentId: Overload:WeChatAuto.Models.MessageContext.AllMessages
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_AllMessages
+  name: AllMessages
+  nameWithType: MessageContext.AllMessages
+  fullName: WeChatAuto.Models.MessageContext.AllMessages
+- uid: WeChatAuto.Models.MessageContext.Sender
+  commentId: P:WeChatAuto.Models.MessageContext.Sender
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_Sender
+  name: Sender
+  nameWithType: MessageContext.Sender
+  fullName: WeChatAuto.Models.MessageContext.Sender
+- uid: WeChatAuto.Models.MessageContext.Sender*
+  commentId: Overload:WeChatAuto.Models.MessageContext.Sender
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_Sender
+  name: Sender
+  nameWithType: MessageContext.Sender
+  fullName: WeChatAuto.Models.MessageContext.Sender
+- uid: WeChatAuto.Models.MessageContext.OwnerClient*
+  commentId: Overload:WeChatAuto.Models.MessageContext.OwnerClient
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_OwnerClient
+  name: OwnerClient
+  nameWithType: MessageContext.OwnerClient
+  fullName: WeChatAuto.Models.MessageContext.OwnerClient
+- uid: WeChatAuto.Models.MessageContext.SystemClientFactory*
+  commentId: Overload:WeChatAuto.Models.MessageContext.SystemClientFactory
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_SystemClientFactory
+  name: SystemClientFactory
+  nameWithType: MessageContext.SystemClientFactory
+  fullName: WeChatAuto.Models.MessageContext.SystemClientFactory
+- uid: WeChatAuto.Models.MessageContext.ServiceProvider*
+  commentId: Overload:WeChatAuto.Models.MessageContext.ServiceProvider
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html#WeChatAuto_Models_MessageContext_ServiceProvider
+  name: ServiceProvider
+  nameWithType: MessageContext.ServiceProvider
+  fullName: WeChatAuto.Models.MessageContext.ServiceProvider

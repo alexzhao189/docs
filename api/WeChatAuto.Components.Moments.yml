@@ -1,0 +1,1402 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.Moments
+  commentId: T:WeChatAuto.Components.Moments
+  id: Moments
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.Moments.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  - WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}},System.Boolean,System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider})
+  - WeChatAuto.Components.Moments.Dispose
+  - WeChatAuto.Components.Moments.Dispose(System.Boolean)
+  - WeChatAuto.Components.Moments.Finalize
+  - WeChatAuto.Components.Moments.GetMomentsList(System.Int32)
+  - WeChatAuto.Components.Moments.GetMomentsListSilence
+  - WeChatAuto.Components.Moments.GetShortMomentsList
+  - WeChatAuto.Components.Moments.IsMomentsOpen
+  - WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf{System.String,System.String[]})
+  - WeChatAuto.Components.Moments.OpenMoments
+  - WeChatAuto.Components.Moments.RefreshMomentsList
+  - WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf{System.String,System.String[]},System.String)
+  - WeChatAuto.Components.Moments.StopMomentsListener
+  langs:
+  - csharp
+  - vb
+  name: Moments
+  nameWithType: Moments
+  fullName: WeChatAuto.Components.Moments
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 朋友圈
+  example: []
+  syntax:
+    content: 'public class Moments : IDisposable'
+    content.vb: Public Class Moments Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.Moments.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.Moments.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.Moments.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)'
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: Moments(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  nameWithType: Moments.Moments(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  fullName: WeChatAuto.Components.Moments.Moments(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public Moments(Window window, WeChatMainWindow wxWindow, UIThreadInvoker mainUIThreadInvoker, IServiceProvider serviceProvider)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+    - id: wxWindow
+      type: WeChatAuto.Components.WeChatMainWindow
+    - id: mainUIThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(window As Window, wxWindow As WeChatMainWindow, mainUIThreadInvoker As UIThreadInvoker, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.Moments.#ctor*
+  nameWithType.vb: Moments.New(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.Moments.New(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  name.vb: New(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+- uid: WeChatAuto.Components.Moments.IsMomentsOpen
+  commentId: M:WeChatAuto.Components.Moments.IsMomentsOpen
+  id: IsMomentsOpen
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: IsMomentsOpen()
+  nameWithType: Moments.IsMomentsOpen()
+  fullName: WeChatAuto.Components.Moments.IsMomentsOpen()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 判断朋友圈是否打开
+  example: []
+  syntax:
+    content: public bool IsMomentsOpen()
+    return:
+      type: System.Boolean
+      description: 是否打开
+    content.vb: Public Function IsMomentsOpen() As Boolean
+  overload: WeChatAuto.Components.Moments.IsMomentsOpen*
+- uid: WeChatAuto.Components.Moments.OpenMoments
+  commentId: M:WeChatAuto.Components.Moments.OpenMoments
+  id: OpenMoments
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: OpenMoments()
+  nameWithType: Moments.OpenMoments()
+  fullName: WeChatAuto.Components.Moments.OpenMoments()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 打开朋友圈
+  example: []
+  syntax:
+    content: public void OpenMoments()
+    content.vb: Public Sub OpenMoments()
+  overload: WeChatAuto.Components.Moments.OpenMoments*
+- uid: WeChatAuto.Components.Moments.GetMomentsList(System.Int32)
+  commentId: M:WeChatAuto.Components.Moments.GetMomentsList(System.Int32)
+  id: GetMomentsList(System.Int32)
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: GetMomentsList(int)
+  nameWithType: Moments.GetMomentsList(int)
+  fullName: WeChatAuto.Components.Moments.GetMomentsList(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取朋友圈内容列表
+
+    注意：此方法会让朋友圈窗口获取焦点,可能会导致其他窗口失去焦点.
+  example: []
+  syntax:
+    content: public List<MomentItem> GetMomentsList(int count = 20)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: 鼠标滚动次数,一次滚动5行
+    return:
+      type: System.Collections.Generic.List{WeAutoCommon.Models.MomentItem}
+      description: 朋友圈内容列表<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetMomentsList(count As Integer = 20) As List(Of MomentItem)
+  overload: WeChatAuto.Components.Moments.GetMomentsList*
+  nameWithType.vb: Moments.GetMomentsList(Integer)
+  fullName.vb: WeChatAuto.Components.Moments.GetMomentsList(Integer)
+  name.vb: GetMomentsList(Integer)
+- uid: WeChatAuto.Components.Moments.GetMomentsListSilence
+  commentId: M:WeChatAuto.Components.Moments.GetMomentsListSilence
+  id: GetMomentsListSilence
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: GetMomentsListSilence()
+  nameWithType: Moments.GetMomentsListSilence()
+  fullName: WeChatAuto.Components.Moments.GetMomentsListSilence()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取朋友圈内容列表,静默模式
+  example: []
+  syntax:
+    content: public List<MomentItem> GetMomentsListSilence()
+    return:
+      type: System.Collections.Generic.List{WeAutoCommon.Models.MomentItem}
+      description: 朋友圈内容列表<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetMomentsListSilence() As List(Of MomentItem)
+  overload: WeChatAuto.Components.Moments.GetMomentsListSilence*
+- uid: WeChatAuto.Components.Moments.GetShortMomentsList
+  commentId: M:WeChatAuto.Components.Moments.GetShortMomentsList
+  id: GetShortMomentsList
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: GetShortMomentsList()
+  nameWithType: Moments.GetShortMomentsList()
+  fullName: WeChatAuto.Components.Moments.GetShortMomentsList()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取朋友圈内容列表,静默模式,简单模式
+
+    从性能角度考虑，仅比较有不同.
+  example: []
+  syntax:
+    content: public List<MomentItem> GetShortMomentsList()
+    return:
+      type: System.Collections.Generic.List{WeAutoCommon.Models.MomentItem}
+      description: 朋友圈内容列表<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetShortMomentsList() As List(Of MomentItem)
+  overload: WeChatAuto.Components.Moments.GetShortMomentsList*
+- uid: WeChatAuto.Components.Moments.RefreshMomentsList
+  commentId: M:WeChatAuto.Components.Moments.RefreshMomentsList
+  id: RefreshMomentsList
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: RefreshMomentsList()
+  nameWithType: Moments.RefreshMomentsList()
+  fullName: WeChatAuto.Components.Moments.RefreshMomentsList()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 刷新朋友圈
+  example: []
+  syntax:
+    content: public void RefreshMomentsList()
+    content.vb: Public Sub RefreshMomentsList()
+  overload: WeChatAuto.Components.Moments.RefreshMomentsList*
+- uid: WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf{System.String,System.String[]})
+  commentId: M:WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf{System.String,System.String[]})
+  id: LikeMoments(OneOf.OneOf{System.String,System.String[]})
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: LikeMoments(OneOf<string, string[]>)
+  nameWithType: Moments.LikeMoments(OneOf<string, string[]>)
+  fullName: WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf<string, string[]>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 点赞朋友圈
+  example: []
+  syntax:
+    content: public void LikeMoments(OneOf<string, string[]> nickNames)
+    parameters:
+    - id: nickNames
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 好友名称或好友名称列表
+    content.vb: Public Sub LikeMoments(nickNames As OneOf(Of String, String()))
+  overload: WeChatAuto.Components.Moments.LikeMoments*
+  nameWithType.vb: Moments.LikeMoments(OneOf(Of String, String()))
+  fullName.vb: WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf(Of String, String()))
+  name.vb: LikeMoments(OneOf(Of String, String()))
+- uid: WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf{System.String,System.String[]},System.String)
+  commentId: M:WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf{System.String,System.String[]},System.String)
+  id: ReplyMoments(OneOf.OneOf{System.String,System.String[]},System.String)
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: ReplyMoments(OneOf<string, string[]>, string)
+  nameWithType: Moments.ReplyMoments(OneOf<string, string[]>, string)
+  fullName: WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf<string, string[]>, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 回复朋友圈
+  example: []
+  syntax:
+    content: public void ReplyMoments(OneOf<string, string[]> nickNames, string replyContent)
+    parameters:
+    - id: nickNames
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 好友名称或好友名称列表
+    - id: replyContent
+      type: System.String
+      description: 回复内容
+    content.vb: Public Sub ReplyMoments(nickNames As OneOf(Of String, String()), replyContent As String)
+  overload: WeChatAuto.Components.Moments.ReplyMoments*
+  nameWithType.vb: Moments.ReplyMoments(OneOf(Of String, String()), String)
+  fullName.vb: WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf(Of String, String()), String)
+  name.vb: ReplyMoments(OneOf(Of String, String()), String)
+- uid: WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}},System.Boolean,System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider})
+  commentId: M:WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}},System.Boolean,System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider})
+  id: AddMomentsListener(OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}},System.Boolean,System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider})
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: AddMomentsListener(OneOf<string, List<string>>, bool, Action<MomentsContext, IServiceProvider>)
+  nameWithType: Moments.AddMomentsListener(OneOf<string, List<string>>, bool, Action<MomentsContext, IServiceProvider>)
+  fullName: WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf<string, System.Collections.Generic.List<string>>, bool, System.Action<WeChatAuto.Utils.MomentsContext, System.IServiceProvider>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加朋友圈监听,当监听到指定的好友发朋友圈时，可以自动点赞，或者执行其他操作，如：回复评论等
+  example: []
+  syntax:
+    content: public void AddMomentsListener(OneOf<string, List<string>> nickNameOrNickNames, bool autoLike = true, Action<MomentsContext, IServiceProvider> action = null)
+    parameters:
+    - id: nickNameOrNickNames
+      type: OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}}
+      description: 监听的好友名称或好友名称列表
+    - id: autoLike
+      type: System.Boolean
+      description: 是否自动点赞
+    - id: action
+      type: System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider}
+      description: 回调函数,参数：朋友圈上下文<xref href="WeChatAuto.Utils.MomentsContext" data-throw-if-not-resolved="false"></xref>,服务提供者<xref href="System.IServiceProvider" data-throw-if-not-resolved="false"></xref>，适用于使用者获取自己注入的服务
+    content.vb: Public Sub AddMomentsListener(nickNameOrNickNames As OneOf(Of String, List(Of String)), autoLike As Boolean = True, action As Action(Of MomentsContext, IServiceProvider) = Nothing)
+  overload: WeChatAuto.Components.Moments.AddMomentsListener*
+  nameWithType.vb: Moments.AddMomentsListener(OneOf(Of String, List(Of String)), Boolean, Action(Of MomentsContext, IServiceProvider))
+  fullName.vb: WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf(Of String, System.Collections.Generic.List(Of String)), Boolean, System.Action(Of WeChatAuto.Utils.MomentsContext, System.IServiceProvider))
+  name.vb: AddMomentsListener(OneOf(Of String, List(Of String)), Boolean, Action(Of MomentsContext, IServiceProvider))
+- uid: WeChatAuto.Components.Moments.StopMomentsListener
+  commentId: M:WeChatAuto.Components.Moments.StopMomentsListener
+  id: StopMomentsListener
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: StopMomentsListener()
+  nameWithType: Moments.StopMomentsListener()
+  fullName: WeChatAuto.Components.Moments.StopMomentsListener()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public void StopMomentsListener()
+    content.vb: Public Sub StopMomentsListener()
+  overload: WeChatAuto.Components.Moments.StopMomentsListener*
+- uid: WeChatAuto.Components.Moments.Dispose
+  commentId: M:WeChatAuto.Components.Moments.Dispose
+  id: Dispose
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Moments.Dispose()
+  fullName: WeChatAuto.Components.Moments.Dispose()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: WeChatAuto.Components.Moments.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: WeChatAuto.Components.Moments.Finalize
+  commentId: M:WeChatAuto.Components.Moments.Finalize
+  id: Finalize
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: ~Moments()
+  nameWithType: Moments.~Moments()
+  fullName: WeChatAuto.Components.Moments.~Moments()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: protected ~Moments()
+    content.vb: 'Protected '
+  overload: WeChatAuto.Components.Moments.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: WeChatAuto.Components.Moments.Dispose(System.Boolean)
+  commentId: M:WeChatAuto.Components.Moments.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: WeChatAuto.Components.Moments
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: Moments.Dispose(bool)
+  fullName: WeChatAuto.Components.Moments.Dispose(bool)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Moments.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: WeChatAuto.Components.Moments.Dispose*
+  nameWithType.vb: Moments.Dispose(Boolean)
+  fullName.vb: WeChatAuto.Components.Moments.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.Moments.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Moments>(Moments)
+  nameWithType: FunctionalExtensions.ToMaybe<Moments>(Moments)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.Moments>(WeChatAuto.Components.Moments)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Moments)(Moments)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.Moments)(WeChatAuto.Components.Moments)
+  name.vb: ToMaybe(Of Moments)(Moments)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Moments)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.Moments
+    name: Moments
+    isExternal: true
+    href: WeChatAuto.Components.Moments.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.Moments
+    name: Moments
+    isExternal: true
+    href: WeChatAuto.Components.Moments.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Moments)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.Moments
+    name: Moments
+    isExternal: true
+    href: WeChatAuto.Components.Moments.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.Moments
+    name: Moments
+    isExternal: true
+    href: WeChatAuto.Components.Moments.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.Moments.#ctor*
+  commentId: Overload:WeChatAuto.Components.Moments.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments__ctor_FlaUI_Core_AutomationElements_Window_WeChatAuto_Components_WeChatMainWindow_WeAutoCommon_Utils_UIThreadInvoker_System_IServiceProvider_
+  name: Moments
+  nameWithType: Moments.Moments
+  fullName: WeChatAuto.Components.Moments.Moments
+  nameWithType.vb: Moments.New
+  fullName.vb: WeChatAuto.Components.Moments.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: WeChatAuto.Components.WeChatMainWindow
+  commentId: T:WeChatAuto.Components.WeChatMainWindow
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatMainWindow.html
+  name: WeChatMainWindow
+  nameWithType: WeChatMainWindow
+  fullName: WeChatAuto.Components.WeChatMainWindow
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: WeChatAuto.Components.Moments.IsMomentsOpen*
+  commentId: Overload:WeChatAuto.Components.Moments.IsMomentsOpen
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_IsMomentsOpen
+  name: IsMomentsOpen
+  nameWithType: Moments.IsMomentsOpen
+  fullName: WeChatAuto.Components.Moments.IsMomentsOpen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.Moments.OpenMoments*
+  commentId: Overload:WeChatAuto.Components.Moments.OpenMoments
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_OpenMoments
+  name: OpenMoments
+  nameWithType: Moments.OpenMoments
+  fullName: WeChatAuto.Components.Moments.OpenMoments
+- uid: WeAutoCommon.Models.MomentItem
+  commentId: T:WeAutoCommon.Models.MomentItem
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.MomentItem.html
+  name: MomentItem
+  nameWithType: MomentItem
+  fullName: WeAutoCommon.Models.MomentItem
+- uid: WeChatAuto.Components.Moments.GetMomentsList*
+  commentId: Overload:WeChatAuto.Components.Moments.GetMomentsList
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_GetMomentsList_System_Int32_
+  name: GetMomentsList
+  nameWithType: Moments.GetMomentsList
+  fullName: WeChatAuto.Components.Moments.GetMomentsList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{WeAutoCommon.Models.MomentItem}
+  commentId: T:System.Collections.Generic.List{WeAutoCommon.Models.MomentItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MomentItem>
+  nameWithType: List<MomentItem>
+  fullName: System.Collections.Generic.List<WeAutoCommon.Models.MomentItem>
+  nameWithType.vb: List(Of MomentItem)
+  fullName.vb: System.Collections.Generic.List(Of WeAutoCommon.Models.MomentItem)
+  name.vb: List(Of MomentItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: WeAutoCommon.Models.MomentItem
+    name: MomentItem
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/MomentItem.cs
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.MomentItem
+    name: MomentItem
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/MomentItem.cs
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components.Moments.GetMomentsListSilence*
+  commentId: Overload:WeChatAuto.Components.Moments.GetMomentsListSilence
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_GetMomentsListSilence
+  name: GetMomentsListSilence
+  nameWithType: Moments.GetMomentsListSilence
+  fullName: WeChatAuto.Components.Moments.GetMomentsListSilence
+- uid: WeChatAuto.Components.Moments.GetShortMomentsList*
+  commentId: Overload:WeChatAuto.Components.Moments.GetShortMomentsList
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_GetShortMomentsList
+  name: GetShortMomentsList
+  nameWithType: Moments.GetShortMomentsList
+  fullName: WeChatAuto.Components.Moments.GetShortMomentsList
+- uid: WeChatAuto.Components.Moments.RefreshMomentsList*
+  commentId: Overload:WeChatAuto.Components.Moments.RefreshMomentsList
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_RefreshMomentsList
+  name: RefreshMomentsList
+  nameWithType: Moments.RefreshMomentsList
+  fullName: WeChatAuto.Components.Moments.RefreshMomentsList
+- uid: WeChatAuto.Components.Moments.LikeMoments*
+  commentId: Overload:WeChatAuto.Components.Moments.LikeMoments
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_LikeMoments_OneOf_OneOf_System_String_System_String____
+  name: LikeMoments
+  nameWithType: Moments.LikeMoments
+  fullName: WeChatAuto.Components.Moments.LikeMoments
+- uid: OneOf.OneOf{System.String,System.String[]}
+  commentId: T:OneOf.OneOf{System.String,System.String[]}
+  parent: OneOf
+  definition: OneOf.OneOf`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: OneOf<string, string[]>
+  nameWithType: OneOf<string, string[]>
+  fullName: OneOf.OneOf<string, string[]>
+  nameWithType.vb: OneOf(Of String, String())
+  fullName.vb: OneOf.OneOf(Of String, String())
+  name.vb: OneOf(Of String, String())
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: OneOf.OneOf`2
+  commentId: T:OneOf.OneOf`2
+  isExternal: true
+  name: OneOf<T0, T1>
+  nameWithType: OneOf<T0, T1>
+  fullName: OneOf.OneOf<T0, T1>
+  nameWithType.vb: OneOf(Of T0, T1)
+  fullName.vb: OneOf.OneOf(Of T0, T1)
+  name.vb: OneOf(Of T0, T1)
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: )
+- uid: OneOf
+  commentId: N:OneOf
+  isExternal: true
+  name: OneOf
+  nameWithType: OneOf
+  fullName: OneOf
+- uid: WeChatAuto.Components.Moments.ReplyMoments*
+  commentId: Overload:WeChatAuto.Components.Moments.ReplyMoments
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_ReplyMoments_OneOf_OneOf_System_String_System_String____System_String_
+  name: ReplyMoments
+  nameWithType: Moments.ReplyMoments
+  fullName: WeChatAuto.Components.Moments.ReplyMoments
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Utils.MomentsContext
+  commentId: T:WeChatAuto.Utils.MomentsContext
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html
+  name: MomentsContext
+  nameWithType: MomentsContext
+  fullName: WeChatAuto.Utils.MomentsContext
+- uid: WeChatAuto.Components.Moments.AddMomentsListener*
+  commentId: Overload:WeChatAuto.Components.Moments.AddMomentsListener
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_AddMomentsListener_OneOf_OneOf_System_String_System_Collections_Generic_List_System_String___System_Boolean_System_Action_WeChatAuto_Utils_MomentsContext_System_IServiceProvider__
+  name: AddMomentsListener
+  nameWithType: Moments.AddMomentsListener
+  fullName: WeChatAuto.Components.Moments.AddMomentsListener
+- uid: OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}}
+  commentId: T:OneOf.OneOf{System.String,System.Collections.Generic.List{System.String}}
+  parent: OneOf
+  definition: OneOf.OneOf`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: OneOf<string, List<string>>
+  nameWithType: OneOf<string, List<string>>
+  fullName: OneOf.OneOf<string, System.Collections.Generic.List<string>>
+  nameWithType.vb: OneOf(Of String, List(Of String))
+  fullName.vb: OneOf.OneOf(Of String, System.Collections.Generic.List(Of String))
+  name.vb: OneOf(Of String, List(Of String))
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider}
+  commentId: T:System.Action{WeChatAuto.Utils.MomentsContext,System.IServiceProvider}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<MomentsContext, IServiceProvider>
+  nameWithType: Action<MomentsContext, IServiceProvider>
+  fullName: System.Action<WeChatAuto.Utils.MomentsContext, System.IServiceProvider>
+  nameWithType.vb: Action(Of MomentsContext, IServiceProvider)
+  fullName.vb: System.Action(Of WeChatAuto.Utils.MomentsContext, System.IServiceProvider)
+  name.vb: Action(Of MomentsContext, IServiceProvider)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: WeChatAuto.Components.Moments.StopMomentsListener*
+  commentId: Overload:WeChatAuto.Components.Moments.StopMomentsListener
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_StopMomentsListener
+  name: StopMomentsListener
+  nameWithType: Moments.StopMomentsListener
+  fullName: WeChatAuto.Components.Moments.StopMomentsListener
+- uid: WeChatAuto.Components.Moments.Dispose*
+  commentId: Overload:WeChatAuto.Components.Moments.Dispose
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_Dispose
+  name: Dispose
+  nameWithType: Moments.Dispose
+  fullName: WeChatAuto.Components.Moments.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.Moments.Finalize*
+  commentId: Overload:WeChatAuto.Components.Moments.Finalize
+  isExternal: true
+  href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_Finalize
+  name: ~Moments
+  nameWithType: Moments.~Moments
+  fullName: WeChatAuto.Components.Moments.~Moments
+  spec.csharp:
+  - name: "~"
+  - uid: WeChatAuto.Components.Moments.Finalize*
+    name: Moments
+    isExternal: true
+    href: WeChatAuto.Components.Moments.html#WeChatAuto_Components_Moments_Finalize

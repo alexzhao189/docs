@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Configs
+  commentId: N:WxAutoCommon.Configs
+  id: WxAutoCommon.Configs
+  children:
+  - WxAutoCommon.Configs.Language
+  - WxAutoCommon.Configs.WeChatConfig
+  - WxAutoCommon.Configs.WeMettingConfig
+  langs:
+  - csharp
+  - vb
+  name: WxAutoCommon.Configs
+  nameWithType: WxAutoCommon.Configs
+  fullName: WxAutoCommon.Configs
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WxAutoCommon.Configs.WeChatConfig
+  commentId: T:WxAutoCommon.Configs.WeChatConfig
+  parent: WxAutoCommon.Configs
+  isExternal: true
+  href: WxAutoCommon.Configs.WeChatConfig.html
+  name: WeChatConfig
+  nameWithType: WeChatConfig
+  fullName: WxAutoCommon.Configs.WeChatConfig
+- uid: WxAutoCommon.Configs.Language
+  commentId: T:WxAutoCommon.Configs.Language
+  isExternal: true
+  href: WxAutoCommon.Configs.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: WxAutoCommon.Configs.Language
+- uid: WxAutoCommon.Configs.WeMettingConfig
+  commentId: T:WxAutoCommon.Configs.WeMettingConfig
+  isExternal: true
+  href: WxAutoCommon.Configs.WeMettingConfig.html
+  name: WeMettingConfig
+  nameWithType: WeMettingConfig
+  fullName: WxAutoCommon.Configs.WeMettingConfig
+- uid: WxAutoCommon.Configs
+  commentId: N:WxAutoCommon.Configs
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Configs
+  nameWithType: WxAutoCommon.Configs
+  fullName: WxAutoCommon.Configs
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WxAutoCommon.Configs.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WxAutoCommon.Configs.html

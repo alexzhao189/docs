@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  id: WeAutoCommon.Utils
+  children:
+  - WeAutoCommon.Utils.AutomationValid
+  - WeAutoCommon.Utils.EmojiListHelper
+  - WeAutoCommon.Utils.FriendListenerOptions
+  - WeAutoCommon.Utils.IMEHelper
+  - WeAutoCommon.Utils.RandomWait
+  - WeAutoCommon.Utils.TextIdentifier
+  - WeAutoCommon.Utils.UIThreadInvoker
+  - WeAutoCommon.Utils.WeChatConstant
+  - WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WeAutoCommon.Utils.AutomationValid
+  commentId: T:WeAutoCommon.Utils.AutomationValid
+  isExternal: true
+  href: WeAutoCommon.Utils.AutomationValid.html
+  name: AutomationValid
+  nameWithType: AutomationValid
+  fullName: WeAutoCommon.Utils.AutomationValid
+- uid: WeAutoCommon.Utils.EmojiListHelper
+  commentId: T:WeAutoCommon.Utils.EmojiListHelper
+  isExternal: true
+  href: WeAutoCommon.Utils.EmojiListHelper.html
+  name: EmojiListHelper
+  nameWithType: EmojiListHelper
+  fullName: WeAutoCommon.Utils.EmojiListHelper
+- uid: WeAutoCommon.Utils.FriendListenerOptions
+  commentId: T:WeAutoCommon.Utils.FriendListenerOptions
+  isExternal: true
+  href: WeAutoCommon.Utils.FriendListenerOptions.html
+  name: FriendListenerOptions
+  nameWithType: FriendListenerOptions
+  fullName: WeAutoCommon.Utils.FriendListenerOptions
+- uid: WeAutoCommon.Utils.IMEHelper
+  commentId: T:WeAutoCommon.Utils.IMEHelper
+  isExternal: true
+  href: WeAutoCommon.Utils.IMEHelper.html
+  name: IMEHelper
+  nameWithType: IMEHelper
+  fullName: WeAutoCommon.Utils.IMEHelper
+- uid: WeAutoCommon.Utils.RandomWait
+  commentId: T:WeAutoCommon.Utils.RandomWait
+  isExternal: true
+  href: WeAutoCommon.Utils.RandomWait.html
+  name: RandomWait
+  nameWithType: RandomWait
+  fullName: WeAutoCommon.Utils.RandomWait
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: WeAutoCommon.Utils.WeChatConstant
+  commentId: T:WeAutoCommon.Utils.WeChatConstant
+  isExternal: true
+  href: WeAutoCommon.Utils.WeChatConstant.html
+  name: WeChatConstant
+  nameWithType: WeChatConstant
+  fullName: WeAutoCommon.Utils.WeChatConstant
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers
+  commentId: T:WeAutoCommon.Utils.WeChatTextIdentifiers
+  isExternal: true
+  href: WeAutoCommon.Utils.WeChatTextIdentifiers.html
+  name: WeChatTextIdentifiers
+  nameWithType: WeChatTextIdentifiers
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers
+- uid: WeAutoCommon.Utils.TextIdentifier
+  commentId: T:WeAutoCommon.Utils.TextIdentifier
+  isExternal: true
+  href: WeAutoCommon.Utils.TextIdentifier.html
+  name: TextIdentifier
+  nameWithType: TextIdentifier
+  fullName: WeAutoCommon.Utils.TextIdentifier
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html

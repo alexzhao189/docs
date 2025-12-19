@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Utils.IMEHelper
+  commentId: T:WxAutoCommon.Utils.IMEHelper
+  id: IMEHelper
+  parent: WxAutoCommon.Utils
+  children:
+  - WxAutoCommon.Utils.IMEHelper.#ctor
+  - WxAutoCommon.Utils.IMEHelper.DisableImeForProcess(System.Int32)
+  - WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(System.String)
+  - WxAutoCommon.Utils.IMEHelper.DisableImeForWin11
+  - WxAutoCommon.Utils.IMEHelper.DisableImeForWindow(System.IntPtr)
+  - WxAutoCommon.Utils.IMEHelper.ImmAssociateContext(System.IntPtr,System.IntPtr)
+  - WxAutoCommon.Utils.IMEHelper.ImmDisableIME(System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: IMEHelper
+  nameWithType: IMEHelper
+  fullName: WxAutoCommon.Utils.IMEHelper
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  summary: Win11专用IME控制工具类
+  example: []
+  syntax:
+    content: public class IMEHelper
+    content.vb: Public Class IMEHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WxAutoCommon.Utils.IMEHelper.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext(System.IntPtr,System.IntPtr)
+  commentId: M:WxAutoCommon.Utils.IMEHelper.ImmAssociateContext(System.IntPtr,System.IntPtr)
+  id: ImmAssociateContext(System.IntPtr,System.IntPtr)
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: ImmAssociateContext(nint, nint)
+  nameWithType: IMEHelper.ImmAssociateContext(nint, nint)
+  fullName: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext(nint, nint)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  syntax:
+    content: public static extern nint ImmAssociateContext(nint hwnd, nint hImc)
+    parameters:
+    - id: hwnd
+      type: System.IntPtr
+    - id: hImc
+      type: System.IntPtr
+    return:
+      type: System.IntPtr
+    content.vb: Public Shared Function ImmAssociateContext(hwnd As IntPtr, hImc As IntPtr) As IntPtr
+  overload: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext*
+  nameWithType.vb: IMEHelper.ImmAssociateContext(IntPtr, IntPtr)
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext(System.IntPtr, System.IntPtr)
+  name.vb: ImmAssociateContext(IntPtr, IntPtr)
+- uid: WxAutoCommon.Utils.IMEHelper.ImmDisableIME(System.UInt32)
+  commentId: M:WxAutoCommon.Utils.IMEHelper.ImmDisableIME(System.UInt32)
+  id: ImmDisableIME(System.UInt32)
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: ImmDisableIME(uint)
+  nameWithType: IMEHelper.ImmDisableIME(uint)
+  fullName: WxAutoCommon.Utils.IMEHelper.ImmDisableIME(uint)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  syntax:
+    content: public static extern bool ImmDisableIME(uint idThread)
+    parameters:
+    - id: idThread
+      type: System.UInt32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ImmDisableIME(idThread As UInteger) As Boolean
+  overload: WxAutoCommon.Utils.IMEHelper.ImmDisableIME*
+  nameWithType.vb: IMEHelper.ImmDisableIME(UInteger)
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.ImmDisableIME(UInteger)
+  name.vb: ImmDisableIME(UInteger)
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess(System.Int32)
+  commentId: M:WxAutoCommon.Utils.IMEHelper.DisableImeForProcess(System.Int32)
+  id: DisableImeForProcess(System.Int32)
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: DisableImeForProcess(int)
+  nameWithType: IMEHelper.DisableImeForProcess(int)
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  summary: 禁用指定进程的IME输入法（适用于自动化第三方应用程序）
+  example: []
+  syntax:
+    content: public static bool DisableImeForProcess(int processId)
+    parameters:
+    - id: processId
+      type: System.Int32
+      description: 目标进程ID
+    return:
+      type: System.Boolean
+      description: 是否成功禁用IME
+    content.vb: Public Shared Function DisableImeForProcess(processId As Integer) As Boolean
+  overload: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess*
+  nameWithType.vb: IMEHelper.DisableImeForProcess(Integer)
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess(Integer)
+  name.vb: DisableImeForProcess(Integer)
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(System.String)
+  commentId: M:WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(System.String)
+  id: DisableImeForProcessByName(System.String)
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: DisableImeForProcessByName(string)
+  nameWithType: IMEHelper.DisableImeForProcessByName(string)
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  summary: 通过进程名称禁用IME（适用于自动化第三方应用程序）
+  example: []
+  syntax:
+    content: public static bool DisableImeForProcessByName(string processName)
+    parameters:
+    - id: processName
+      type: System.String
+      description: 进程名称（不包含.exe）
+    return:
+      type: System.Boolean
+      description: 是否成功禁用IME
+    content.vb: Public Shared Function DisableImeForProcessByName(processName As String) As Boolean
+  overload: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName*
+  nameWithType.vb: IMEHelper.DisableImeForProcessByName(String)
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(String)
+  name.vb: DisableImeForProcessByName(String)
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow(System.IntPtr)
+  commentId: M:WxAutoCommon.Utils.IMEHelper.DisableImeForWindow(System.IntPtr)
+  id: DisableImeForWindow(System.IntPtr)
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: DisableImeForWindow(nint)
+  nameWithType: IMEHelper.DisableImeForWindow(nint)
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow(nint)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  syntax:
+    content: public static void DisableImeForWindow(nint hwnd)
+    parameters:
+    - id: hwnd
+      type: System.IntPtr
+    content.vb: Public Shared Sub DisableImeForWindow(hwnd As IntPtr)
+  overload: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow*
+  nameWithType.vb: IMEHelper.DisableImeForWindow(IntPtr)
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow(System.IntPtr)
+  name.vb: DisableImeForWindow(IntPtr)
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForWin11
+  commentId: M:WxAutoCommon.Utils.IMEHelper.DisableImeForWin11
+  id: DisableImeForWin11
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: DisableImeForWin11()
+  nameWithType: IMEHelper.DisableImeForWin11()
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForWin11()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  summary: >-
+    Win11专用IME禁用方法
+
+    该方法通过多种方式组合来禁用IME，适用于Windows 11系统
+  example: []
+  syntax:
+    content: public static void DisableImeForWin11()
+    content.vb: Public Shared Sub DisableImeForWin11()
+  overload: WxAutoCommon.Utils.IMEHelper.DisableImeForWin11*
+- uid: WxAutoCommon.Utils.IMEHelper.#ctor
+  commentId: M:WxAutoCommon.Utils.IMEHelper.#ctor
+  id: '#ctor'
+  parent: WxAutoCommon.Utils.IMEHelper
+  langs:
+  - csharp
+  - vb
+  name: IMEHelper()
+  nameWithType: IMEHelper.IMEHelper()
+  fullName: WxAutoCommon.Utils.IMEHelper.IMEHelper()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Utils/IMEHelper.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Utils
+  syntax:
+    content: public IMEHelper()
+    content.vb: Public Sub New()
+  overload: WxAutoCommon.Utils.IMEHelper.#ctor*
+  nameWithType.vb: IMEHelper.New()
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.New()
+  name.vb: New()
+references:
+- uid: WxAutoCommon.Utils
+  commentId: N:WxAutoCommon.Utils
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Utils
+  nameWithType: WxAutoCommon.Utils
+  fullName: WxAutoCommon.Utils
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WxAutoCommon.Utils.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WxAutoCommon.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WxAutoCommon.Utils.IMEHelper.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<IMEHelper>(IMEHelper)
+  nameWithType: FunctionalExtensions.ToMaybe<IMEHelper>(IMEHelper)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WxAutoCommon.Utils.IMEHelper>(WxAutoCommon.Utils.IMEHelper)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of IMEHelper)(IMEHelper)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WxAutoCommon.Utils.IMEHelper)(WxAutoCommon.Utils.IMEHelper)
+  name.vb: ToMaybe(Of IMEHelper)(IMEHelper)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Utils.IMEHelper)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WxAutoCommon.Utils.IMEHelper
+    name: IMEHelper
+    isExternal: true
+    href: WxAutoCommon.Utils.IMEHelper.html
+  - name: '>'
+  - name: (
+  - uid: WxAutoCommon.Utils.IMEHelper
+    name: IMEHelper
+    isExternal: true
+    href: WxAutoCommon.Utils.IMEHelper.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Utils.IMEHelper)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WxAutoCommon.Utils.IMEHelper
+    name: IMEHelper
+    isExternal: true
+    href: WxAutoCommon.Utils.IMEHelper.html
+  - name: )
+  - name: (
+  - uid: WxAutoCommon.Utils.IMEHelper
+    name: IMEHelper
+    isExternal: true
+    href: WxAutoCommon.Utils.IMEHelper.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.ImmAssociateContext
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_ImmAssociateContext_System_IntPtr_System_IntPtr_
+  name: ImmAssociateContext
+  nameWithType: IMEHelper.ImmAssociateContext
+  fullName: WxAutoCommon.Utils.IMEHelper.ImmAssociateContext
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: WxAutoCommon.Utils.IMEHelper.ImmDisableIME*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.ImmDisableIME
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_ImmDisableIME_System_UInt32_
+  name: ImmDisableIME
+  nameWithType: IMEHelper.ImmDisableIME
+  fullName: WxAutoCommon.Utils.IMEHelper.ImmDisableIME
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.DisableImeForProcess
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_DisableImeForProcess_System_Int32_
+  name: DisableImeForProcess
+  nameWithType: IMEHelper.DisableImeForProcess
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForProcess
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_DisableImeForProcessByName_System_String_
+  name: DisableImeForProcessByName
+  nameWithType: IMEHelper.DisableImeForProcessByName
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForProcessByName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.DisableImeForWindow
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_DisableImeForWindow_System_IntPtr_
+  name: DisableImeForWindow
+  nameWithType: IMEHelper.DisableImeForWindow
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForWindow
+- uid: WxAutoCommon.Utils.IMEHelper.DisableImeForWin11*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.DisableImeForWin11
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper_DisableImeForWin11
+  name: DisableImeForWin11
+  nameWithType: IMEHelper.DisableImeForWin11
+  fullName: WxAutoCommon.Utils.IMEHelper.DisableImeForWin11
+- uid: WxAutoCommon.Utils.IMEHelper.#ctor*
+  commentId: Overload:WxAutoCommon.Utils.IMEHelper.#ctor
+  isExternal: true
+  href: WxAutoCommon.Utils.IMEHelper.html#WxAutoCommon_Utils_IMEHelper__ctor
+  name: IMEHelper
+  nameWithType: IMEHelper.IMEHelper
+  fullName: WxAutoCommon.Utils.IMEHelper.IMEHelper
+  nameWithType.vb: IMEHelper.New
+  fullName.vb: WxAutoCommon.Utils.IMEHelper.New
+  name.vb: New

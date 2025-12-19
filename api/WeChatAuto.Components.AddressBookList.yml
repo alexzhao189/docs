@@ -1,0 +1,1090 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.AddressBookList
+  commentId: T:WeChatAuto.Components.AddressBookList
+  id: AddressBookList
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.AddressBookList.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  - WeChatAuto.Components.AddressBookList.AddFriend(System.String,System.String)
+  - WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List{System.String},System.String)
+  - WeChatAuto.Components.AddressBookList.GetAllFriends
+  - WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
+  - WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(System.String)
+  - WeChatAuto.Components.AddressBookList.LocateFriend(System.String)
+  - WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
+  - WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AddressBookList
+  nameWithType: AddressBookList
+  fullName: WeChatAuto.Components.AddressBookList
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 通讯录列表
+  example: []
+  syntax:
+    content: public class AddressBookList
+    content.vb: Public Class AddressBookList
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.AddressBookList.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.AddressBookList.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.AddressBookList.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)'
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: AddressBookList(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  nameWithType: AddressBookList.AddressBookList(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  fullName: WeChatAuto.Components.AddressBookList.AddressBookList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public AddressBookList(Window window, WeChatMainWindow wxWindow, UIThreadInvoker uiThreadInvoker, IServiceProvider serviceProvider)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+    - id: wxWindow
+      type: WeChatAuto.Components.WeChatMainWindow
+    - id: uiThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(window As Window, wxWindow As WeChatMainWindow, uiThreadInvoker As UIThreadInvoker, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.AddressBookList.#ctor*
+  nameWithType.vb: AddressBookList.New(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.AddressBookList.New(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  name.vb: New(Window, WeChatMainWindow, UIThreadInvoker, IServiceProvider)
+- uid: WeChatAuto.Components.AddressBookList.GetAllFriends
+  commentId: M:WeChatAuto.Components.AddressBookList.GetAllFriends
+  id: GetAllFriends
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: GetAllFriends()
+  nameWithType: AddressBookList.GetAllFriends()
+  fullName: WeChatAuto.Components.AddressBookList.GetAllFriends()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取所有好友
+  example: []
+  syntax:
+    content: public List<string> GetAllFriends()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 好友列表
+    content.vb: Public Function GetAllFriends() As List(Of String)
+  overload: WeChatAuto.Components.AddressBookList.GetAllFriends*
+- uid: WeChatAuto.Components.AddressBookList.LocateFriend(System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.LocateFriend(System.String)
+  id: LocateFriend(System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: LocateFriend(string)
+  nameWithType: AddressBookList.LocateFriend(string)
+  fullName: WeChatAuto.Components.AddressBookList.LocateFriend(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 定位好友
+  example: []
+  syntax:
+    content: public bool LocateFriend(string friendName)
+    parameters:
+    - id: friendName
+      type: System.String
+      description: 好友名称
+    return:
+      type: System.Boolean
+      description: 是否存在
+    content.vb: Public Function LocateFriend(friendName As String) As Boolean
+  overload: WeChatAuto.Components.AddressBookList.LocateFriend*
+  nameWithType.vb: AddressBookList.LocateFriend(String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.LocateFriend(String)
+  name.vb: LocateFriend(String)
+- uid: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
+  commentId: M:WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
+  id: GetAllOfficialAccount
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: GetAllOfficialAccount()
+  nameWithType: AddressBookList.GetAllOfficialAccount()
+  fullName: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取所有公众号
+  example: []
+  syntax:
+    content: public List<string> GetAllOfficialAccount()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 公众号列表
+    content.vb: Public Function GetAllOfficialAccount() As List(Of String)
+  overload: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount*
+- uid: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(System.String)
+  id: GetAllWillAddFriends(System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: GetAllWillAddFriends(string)
+  nameWithType: AddressBookList.GetAllWillAddFriends(string)
+  fullName: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取所有待添加好友
+  example: []
+  syntax:
+    content: public List<string> GetAllWillAddFriends(string keyWord = null)
+    parameters:
+    - id: keyWord
+      type: System.String
+      description: 关键字,如果设置关键字，则返回包含关键字的新好友，如果没有设置，则返回所有新好友
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 待添加好友昵称列表
+    content.vb: Public Function GetAllWillAddFriends(keyWord As String = Nothing) As List(Of String)
+  overload: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends*
+  nameWithType.vb: AddressBookList.GetAllWillAddFriends(String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(String)
+  name.vb: GetAllWillAddFriends(String)
+- uid: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
+  id: PassedAllNewFriend(System.String,System.String,System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: PassedAllNewFriend(string, string, string)
+  nameWithType: AddressBookList.PassedAllNewFriend(string, string, string)
+  fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(string, string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 通过新好友
+  example: []
+  syntax:
+    content: public List<string> PassedAllNewFriend(string keyWord = null, string suffix = null, string label = null)
+    parameters:
+    - id: keyWord
+      type: System.String
+      description: 关键字,如果设置关键字，则通过包含关键字的新好友，如果没有设置，则通过所有新好友
+    - id: suffix
+      type: System.String
+      description: 后缀,如果设置后缀，则在此好友昵称后添加后缀
+    - id: label
+      type: System.String
+      description: 用户标签
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 通过的新好友昵称列表
+    content.vb: Public Function PassedAllNewFriend(keyWord As String = Nothing, suffix As String = Nothing, label As String = Nothing) As List(Of String)
+  overload: WeChatAuto.Components.AddressBookList.PassedAllNewFriend*
+  nameWithType.vb: AddressBookList.PassedAllNewFriend(String, String, String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(String, String, String)
+  name.vb: PassedAllNewFriend(String, String, String)
+- uid: WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
+  id: RemoveFriend(System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: RemoveFriend(string)
+  nameWithType: AddressBookList.RemoveFriend(string)
+  fullName: WeChatAuto.Components.AddressBookList.RemoveFriend(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 移除好友
+  example: []
+  syntax:
+    content: public bool RemoveFriend(string nickName)
+    parameters:
+    - id: nickName
+      type: System.String
+      description: 好友昵称
+    return:
+      type: System.Boolean
+      description: 是否成功
+    content.vb: Public Function RemoveFriend(nickName As String) As Boolean
+  overload: WeChatAuto.Components.AddressBookList.RemoveFriend*
+  nameWithType.vb: AddressBookList.RemoveFriend(String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.RemoveFriend(String)
+  name.vb: RemoveFriend(String)
+- uid: WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List{System.String},System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List{System.String},System.String)
+  id: AddFriends(System.Collections.Generic.List{System.String},System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: AddFriends(List<string>, string)
+  nameWithType: AddressBookList.AddFriends(List<string>, string)
+  fullName: WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List<string>, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加好友
+  example: []
+  syntax:
+    content: public List<(string friendName, bool isSuccess, string errMessage)> AddFriends(List<string> friendNames, string label = "")
+    parameters:
+    - id: friendNames
+      type: System.Collections.Generic.List{System.String}
+      description: 微信号/手机号列表
+    - id: label
+      type: System.String
+      description: 用户标签
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.Boolean,System.String}}
+      description: 好友名称列表和是否成功
+    content.vb: Public Function AddFriends(friendNames As List(Of String), label As String = "") As List(Of (friendName As String, isSuccess As Boolean, errMessage As String))
+  overload: WeChatAuto.Components.AddressBookList.AddFriends*
+  nameWithType.vb: AddressBookList.AddFriends(List(Of String), String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List(Of String), String)
+  name.vb: AddFriends(List(Of String), String)
+- uid: WeChatAuto.Components.AddressBookList.AddFriend(System.String,System.String)
+  commentId: M:WeChatAuto.Components.AddressBookList.AddFriend(System.String,System.String)
+  id: AddFriend(System.String,System.String)
+  parent: WeChatAuto.Components.AddressBookList
+  langs:
+  - csharp
+  - vb
+  name: AddFriend(string, string)
+  nameWithType: AddressBookList.AddFriend(string, string)
+  fullName: WeChatAuto.Components.AddressBookList.AddFriend(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/AddressBookList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    添加好友
+
+    注意：不能添加太频繁，否则可能会触发微信的风控机制，导致加好友失败
+  example: []
+  syntax:
+    content: public bool AddFriend(string friendName, string label = "")
+    parameters:
+    - id: friendName
+      type: System.String
+      description: 微信号/手机号
+    - id: label
+      type: System.String
+      description: 用户标签
+    return:
+      type: System.Boolean
+      description: 是否成功
+    content.vb: Public Function AddFriend(friendName As String, label As String = "") As Boolean
+  overload: WeChatAuto.Components.AddressBookList.AddFriend*
+  nameWithType.vb: AddressBookList.AddFriend(String, String)
+  fullName.vb: WeChatAuto.Components.AddressBookList.AddFriend(String, String)
+  name.vb: AddFriend(String, String)
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.AddressBookList.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<AddressBookList>(AddressBookList)
+  nameWithType: FunctionalExtensions.ToMaybe<AddressBookList>(AddressBookList)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.AddressBookList>(WeChatAuto.Components.AddressBookList)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of AddressBookList)(AddressBookList)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.AddressBookList)(WeChatAuto.Components.AddressBookList)
+  name.vb: ToMaybe(Of AddressBookList)(AddressBookList)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.AddressBookList)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.AddressBookList
+    name: AddressBookList
+    isExternal: true
+    href: WeChatAuto.Components.AddressBookList.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.AddressBookList
+    name: AddressBookList
+    isExternal: true
+    href: WeChatAuto.Components.AddressBookList.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.AddressBookList)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.AddressBookList
+    name: AddressBookList
+    isExternal: true
+    href: WeChatAuto.Components.AddressBookList.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.AddressBookList
+    name: AddressBookList
+    isExternal: true
+    href: WeChatAuto.Components.AddressBookList.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.AddressBookList.#ctor*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList__ctor_FlaUI_Core_AutomationElements_Window_WeChatAuto_Components_WeChatMainWindow_WeAutoCommon_Utils_UIThreadInvoker_System_IServiceProvider_
+  name: AddressBookList
+  nameWithType: AddressBookList.AddressBookList
+  fullName: WeChatAuto.Components.AddressBookList.AddressBookList
+  nameWithType.vb: AddressBookList.New
+  fullName.vb: WeChatAuto.Components.AddressBookList.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: WeChatAuto.Components.WeChatMainWindow
+  commentId: T:WeChatAuto.Components.WeChatMainWindow
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatMainWindow.html
+  name: WeChatMainWindow
+  nameWithType: WeChatMainWindow
+  fullName: WeChatAuto.Components.WeChatMainWindow
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: WeChatAuto.Components.AddressBookList.GetAllFriends*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.GetAllFriends
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_GetAllFriends
+  name: GetAllFriends
+  nameWithType: AddressBookList.GetAllFriends
+  fullName: WeChatAuto.Components.AddressBookList.GetAllFriends
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components.AddressBookList.LocateFriend*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.LocateFriend
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_LocateFriend_System_String_
+  name: LocateFriend
+  nameWithType: AddressBookList.LocateFriend
+  fullName: WeChatAuto.Components.AddressBookList.LocateFriend
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_GetAllOfficialAccount
+  name: GetAllOfficialAccount
+  nameWithType: AddressBookList.GetAllOfficialAccount
+  fullName: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
+- uid: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.GetAllWillAddFriends
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_GetAllWillAddFriends_System_String_
+  name: GetAllWillAddFriends
+  nameWithType: AddressBookList.GetAllWillAddFriends
+  fullName: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends
+- uid: WeChatAuto.Components.AddressBookList.PassedAllNewFriend*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.PassedAllNewFriend
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_PassedAllNewFriend_System_String_System_String_System_String_
+  name: PassedAllNewFriend
+  nameWithType: AddressBookList.PassedAllNewFriend
+  fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend
+- uid: WeChatAuto.Components.AddressBookList.RemoveFriend*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.RemoveFriend
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_RemoveFriend_System_String_
+  name: RemoveFriend
+  nameWithType: AddressBookList.RemoveFriend
+  fullName: WeChatAuto.Components.AddressBookList.RemoveFriend
+- uid: WeChatAuto.Components.AddressBookList.AddFriends*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.AddFriends
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_AddFriends_System_Collections_Generic_List_System_String__System_String_
+  name: AddFriends
+  nameWithType: AddressBookList.AddFriends
+  fullName: WeChatAuto.Components.AddressBookList.AddFriends
+- uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.Boolean,System.String}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.Boolean,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<(string friendName, bool isSuccess, string errMessage)>
+  nameWithType: List<(string friendName, bool isSuccess, string errMessage)>
+  fullName: System.Collections.Generic.List<(string friendName, bool isSuccess, string errMessage)>
+  nameWithType.vb: List(Of (friendName As String, isSuccess As Boolean, errMessage As String))
+  fullName.vb: System.Collections.Generic.List(Of (friendName As String, isSuccess As Boolean, errMessage As String))
+  name.vb: List(Of (friendName As String, isSuccess As Boolean, errMessage As String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.friendName
+    name: friendName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.friendname
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.isSuccess
+    name: isSuccess
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.issuccess
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.errMessage
+    name: errMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.errmessage
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.friendName
+    name: friendName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.friendname
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.isSuccess
+    name: isSuccess
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.issuccess
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Boolean,System.String}.errMessage
+    name: errMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.string-.errmessage
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: WeChatAuto.Components.AddressBookList.AddFriend*
+  commentId: Overload:WeChatAuto.Components.AddressBookList.AddFriend
+  isExternal: true
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_AddFriend_System_String_System_String_
+  name: AddFriend
+  nameWithType: AddressBookList.AddFriend
+  fullName: WeChatAuto.Components.AddressBookList.AddFriend

@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Interface.IWeChatWindow
+  commentId: T:WeAutoCommon.Interface.IWeChatWindow
+  id: IWeChatWindow
+  parent: WeAutoCommon.Interface
+  children:
+  - WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  - WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  langs:
+  - csharp
+  - vb
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow
+  type: Interface
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Interface
+  summary: 微信窗口接口
+  example: []
+  syntax:
+    content: public interface IWeChatWindow
+    content.vb: Public Interface IWeChatWindow
+  extensionMethods:
+  - WeAutoCommon.Interface.IWeChatWindow.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  commentId: P:WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  id: SelfWindow
+  parent: WeAutoCommon.Interface.IWeChatWindow
+  langs:
+  - csharp
+  - vb
+  name: SelfWindow
+  nameWithType: IWeChatWindow.SelfWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Interface
+  syntax:
+    content: Window SelfWindow { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.Window
+    content.vb: Property SelfWindow As Window
+  overload: WeAutoCommon.Interface.IWeChatWindow.SelfWindow*
+- uid: WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  commentId: P:WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  id: ProcessId
+  parent: WeAutoCommon.Interface.IWeChatWindow
+  langs:
+  - csharp
+  - vb
+  name: ProcessId
+  nameWithType: IWeChatWindow.ProcessId
+  fullName: WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Interface
+  syntax:
+    content: int ProcessId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ProcessId As Integer
+  overload: WeAutoCommon.Interface.IWeChatWindow.ProcessId*
+references:
+- uid: WeAutoCommon.Interface
+  commentId: N:WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Interface
+  nameWithType: WeAutoCommon.Interface
+  fullName: WeAutoCommon.Interface
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+- uid: WeAutoCommon.Interface.IWeChatWindow.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<IWeChatWindow>(IWeChatWindow)
+  nameWithType: FunctionalExtensions.ToMaybe<IWeChatWindow>(IWeChatWindow)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Interface.IWeChatWindow>(WeAutoCommon.Interface.IWeChatWindow)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of IWeChatWindow)(IWeChatWindow)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Interface.IWeChatWindow)(WeAutoCommon.Interface.IWeChatWindow)
+  name.vb: ToMaybe(Of IWeChatWindow)(IWeChatWindow)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Interface.IWeChatWindow)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: WeAutoCommon.Interface.IWeChatWindow.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: WeAutoCommon.Interface.IWeChatWindow.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Interface.IWeChatWindow)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: WeAutoCommon.Interface.IWeChatWindow.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: WeAutoCommon.Interface.IWeChatWindow.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Interface.IWeChatWindow.SelfWindow*
+  commentId: Overload:WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html#WeAutoCommon_Interface_IWeChatWindow_SelfWindow
+  name: SelfWindow
+  nameWithType: IWeChatWindow.SelfWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Interface.IWeChatWindow.ProcessId*
+  commentId: Overload:WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html#WeAutoCommon_Interface_IWeChatWindow_ProcessId
+  name: ProcessId
+  nameWithType: IWeChatWindow.ProcessId
+  fullName: WeAutoCommon.Interface.IWeChatWindow.ProcessId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

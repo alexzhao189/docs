@@ -1,0 +1,918 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers
+  commentId: T:WeAutoCommon.Utils.WeChatTextIdentifiers
+  id: WeChatTextIdentifiers
+  parent: WeAutoCommon.Utils
+  children:
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.EMOTION_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier},System.String)
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.IMAGE_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.MENU_OPTIONS
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.MESSAGES
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENTS
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENT_PRIVACY
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_CARD
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_WINDOW
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_BROWSER
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CHAT_BOX
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_MAIN
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SESSION_BOX
+  - WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SYSTEM
+  langs:
+  - csharp
+  - vb
+  name: WeChatTextIdentifiers
+  nameWithType: WeChatTextIdentifiers
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信界面文本标识符集合
+  example: []
+  syntax:
+    content: public static class WeChatTextIdentifiers
+    content.vb: Public Module WeChatTextIdentifiers
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_MAIN
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_MAIN
+  id: WECHAT_MAIN
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_MAIN
+  nameWithType: WeChatTextIdentifiers.WECHAT_MAIN
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_MAIN
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信主界面文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_MAIN
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_MAIN As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SYSTEM
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SYSTEM
+  id: WECHAT_SYSTEM
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM
+  nameWithType: WeChatTextIdentifiers.WECHAT_SYSTEM
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SYSTEM
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_SYSTEM
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CHAT_BOX
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CHAT_BOX
+  id: WECHAT_CHAT_BOX
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX
+  nameWithType: WeChatTextIdentifiers.WECHAT_CHAT_BOX
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CHAT_BOX
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信聊天框文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_CHAT_BOX
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SESSION_BOX
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SESSION_BOX
+  id: WECHAT_SESSION_BOX
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SESSION_BOX
+  nameWithType: WeChatTextIdentifiers.WECHAT_SESSION_BOX
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SESSION_BOX
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信会话框文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_SESSION_BOX
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_SESSION_BOX As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
+  id: WECHAT_NAVIGATION_BOX
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_BOX
+  nameWithType: WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信导航框文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_NAVIGATION_BOX
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_BOX As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.EMOTION_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.EMOTION_WINDOW
+  id: EMOTION_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: EMOTION_WINDOW
+  nameWithType: WeChatTextIdentifiers.EMOTION_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.EMOTION_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 表情窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> EMOTION_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly EMOTION_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENT_PRIVACY
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENT_PRIVACY
+  id: MOMENT_PRIVACY
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: MOMENT_PRIVACY
+  nameWithType: WeChatTextIdentifiers.MOMENT_PRIVACY
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENT_PRIVACY
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 朋友圈隐私设置文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> MOMENT_PRIVACY
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly MOMENT_PRIVACY As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_CARD
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_CARD
+  id: PROFILE_CARD
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: PROFILE_CARD
+  nameWithType: WeChatTextIdentifiers.PROFILE_CARD
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_CARD
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 个人资料卡片文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> PROFILE_CARD
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly PROFILE_CARD As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.MESSAGES
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.MESSAGES
+  id: MESSAGES
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES
+  nameWithType: WeChatTextIdentifiers.MESSAGES
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MESSAGES
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 消息类型文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> MESSAGES
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly MESSAGES As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
+  id: CHATROOM_DETAIL_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: CHATROOM_DETAIL_WINDOW
+  nameWithType: WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 群聊详情窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> CHATROOM_DETAIL_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly CHATROOM_DETAIL_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_WINDOW
+  id: PROFILE_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: PROFILE_WINDOW
+  nameWithType: WeChatTextIdentifiers.PROFILE_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 个人资料窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> PROFILE_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly PROFILE_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
+  id: ADD_NEW_FRIEND_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ADD_NEW_FRIEND_WINDOW
+  nameWithType: WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 添加新朋友窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> ADD_NEW_FRIEND_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly ADD_NEW_FRIEND_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
+  id: ADD_GROUP_MEMBER_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ADD_GROUP_MEMBER_WINDOW
+  nameWithType: WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 添加群成员窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> ADD_GROUP_MEMBER_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly ADD_GROUP_MEMBER_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.IMAGE_WINDOW
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.IMAGE_WINDOW
+  id: IMAGE_WINDOW
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: IMAGE_WINDOW
+  nameWithType: WeChatTextIdentifiers.IMAGE_WINDOW
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.IMAGE_WINDOW
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 图片窗口文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> IMAGE_WINDOW
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly IMAGE_WINDOW As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.MENU_OPTIONS
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.MENU_OPTIONS
+  id: MENU_OPTIONS
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: MENU_OPTIONS
+  nameWithType: WeChatTextIdentifiers.MENU_OPTIONS
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MENU_OPTIONS
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 菜单选项文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> MENU_OPTIONS
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly MENU_OPTIONS As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENTS
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENTS
+  id: MOMENTS
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: MOMENTS
+  nameWithType: WeChatTextIdentifiers.MOMENTS
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENTS
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 朋友圈文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> MOMENTS
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly MOMENTS As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
+  id: NEW_FRIEND_ELEMENT
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: NEW_FRIEND_ELEMENT
+  nameWithType: WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 新朋友元素文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> NEW_FRIEND_ELEMENT
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly NEW_FRIEND_ELEMENT As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_BROWSER
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_BROWSER
+  id: WECHAT_BROWSER
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_BROWSER
+  nameWithType: WeChatTextIdentifiers.WECHAT_BROWSER
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_BROWSER
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 微信浏览器文本标识符
+  example: []
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_BROWSER
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_BROWSER As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
+  commentId: F:WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
+  id: WECHAT_CONVERSATION_TITLE
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_TITLE
+  nameWithType: WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly Dictionary<string, TextIdentifier> WECHAT_CONVERSATION_TITLE
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_TITLE As Dictionary(Of String, TextIdentifier)
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier},System.String)
+  commentId: M:WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier},System.String)
+  id: GetText(System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier},System.String)
+  parent: WeAutoCommon.Utils.WeChatTextIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: GetText(Dictionary<string, TextIdentifier>, string)
+  nameWithType: WeChatTextIdentifiers.GetText(Dictionary<string, TextIdentifier>, string)
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary<string, WeAutoCommon.Utils.TextIdentifier>, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string GetText(Dictionary<string, TextIdentifier> textIdentifiers, string key)
+    parameters:
+    - id: textIdentifiers
+      type: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetText(textIdentifiers As Dictionary(Of String, TextIdentifier), key As String) As String
+  overload: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText*
+  nameWithType.vb: WeChatTextIdentifiers.GetText(Dictionary(Of String, TextIdentifier), String)
+  fullName.vb: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary(Of String, WeAutoCommon.Utils.TextIdentifier), String)
+  name.vb: GetText(Dictionary(Of String, TextIdentifier), String)
+references:
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,WeAutoCommon.Utils.TextIdentifier}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, TextIdentifier>
+  nameWithType: Dictionary<string, TextIdentifier>
+  fullName: System.Collections.Generic.Dictionary<string, WeAutoCommon.Utils.TextIdentifier>
+  nameWithType.vb: Dictionary(Of String, TextIdentifier)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, WeAutoCommon.Utils.TextIdentifier)
+  name.vb: Dictionary(Of String, TextIdentifier)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Utils.TextIdentifier
+    name: TextIdentifier
+    isExternal: true
+    href: WeAutoCommon.Utils.TextIdentifier.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Utils.TextIdentifier
+    name: TextIdentifier
+    isExternal: true
+    href: WeAutoCommon.Utils.TextIdentifier.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText*
+  commentId: Overload:WeAutoCommon.Utils.WeChatTextIdentifiers.GetText
+  isExternal: true
+  href: WeAutoCommon.Utils.WeChatTextIdentifiers.html#WeAutoCommon_Utils_WeChatTextIdentifiers_GetText_System_Collections_Generic_Dictionary_System_String_WeAutoCommon_Utils_TextIdentifier__System_String_
+  name: GetText
+  nameWithType: WeChatTextIdentifiers.GetText
+  fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

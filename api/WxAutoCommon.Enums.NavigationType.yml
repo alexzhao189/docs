@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Enums.NavigationType
+  commentId: T:WxAutoCommon.Enums.NavigationType
+  id: NavigationType
+  parent: WxAutoCommon.Enums
+  children:
+  - WxAutoCommon.Enums.NavigationType.小程序面板
+  - WxAutoCommon.Enums.NavigationType.手机
+  - WxAutoCommon.Enums.NavigationType.搜一搜
+  - WxAutoCommon.Enums.NavigationType.收藏
+  - WxAutoCommon.Enums.NavigationType.朋友圈
+  - WxAutoCommon.Enums.NavigationType.看一看
+  - WxAutoCommon.Enums.NavigationType.聊天
+  - WxAutoCommon.Enums.NavigationType.聊天文件
+  - WxAutoCommon.Enums.NavigationType.视频号
+  - WxAutoCommon.Enums.NavigationType.设置及其他
+  - WxAutoCommon.Enums.NavigationType.通讯录
+  langs:
+  - csharp
+  - vb
+  name: NavigationType
+  nameWithType: NavigationType
+  fullName: WxAutoCommon.Enums.NavigationType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  summary: 导航栏类型
+  example: []
+  syntax:
+    content: public enum NavigationType
+    content.vb: Public Enum NavigationType
+  extensionMethods:
+  - WxAutoCommon.Enums.NavigationType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WxAutoCommon.Enums.NavigationType.聊天
+  commentId: F:WxAutoCommon.Enums.NavigationType.聊天
+  id: 聊天
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 聊天
+  nameWithType: NavigationType.聊天
+  fullName: WxAutoCommon.Enums.NavigationType.聊天
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 聊天 = 0
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.通讯录
+  commentId: F:WxAutoCommon.Enums.NavigationType.通讯录
+  id: 通讯录
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 通讯录
+  nameWithType: NavigationType.通讯录
+  fullName: WxAutoCommon.Enums.NavigationType.通讯录
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 通讯录 = 1
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.收藏
+  commentId: F:WxAutoCommon.Enums.NavigationType.收藏
+  id: 收藏
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 收藏
+  nameWithType: NavigationType.收藏
+  fullName: WxAutoCommon.Enums.NavigationType.收藏
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 收藏 = 2
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.聊天文件
+  commentId: F:WxAutoCommon.Enums.NavigationType.聊天文件
+  id: 聊天文件
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 聊天文件
+  nameWithType: NavigationType.聊天文件
+  fullName: WxAutoCommon.Enums.NavigationType.聊天文件
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 聊天文件 = 3
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.朋友圈
+  commentId: F:WxAutoCommon.Enums.NavigationType.朋友圈
+  id: 朋友圈
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 朋友圈
+  nameWithType: NavigationType.朋友圈
+  fullName: WxAutoCommon.Enums.NavigationType.朋友圈
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 朋友圈 = 4
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.搜一搜
+  commentId: F:WxAutoCommon.Enums.NavigationType.搜一搜
+  id: 搜一搜
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 搜一搜
+  nameWithType: NavigationType.搜一搜
+  fullName: WxAutoCommon.Enums.NavigationType.搜一搜
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 搜一搜 = 5
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.视频号
+  commentId: F:WxAutoCommon.Enums.NavigationType.视频号
+  id: 视频号
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 视频号
+  nameWithType: NavigationType.视频号
+  fullName: WxAutoCommon.Enums.NavigationType.视频号
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 视频号 = 6
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.看一看
+  commentId: F:WxAutoCommon.Enums.NavigationType.看一看
+  id: 看一看
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 看一看
+  nameWithType: NavigationType.看一看
+  fullName: WxAutoCommon.Enums.NavigationType.看一看
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 看一看 = 7
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.小程序面板
+  commentId: F:WxAutoCommon.Enums.NavigationType.小程序面板
+  id: 小程序面板
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 小程序面板
+  nameWithType: NavigationType.小程序面板
+  fullName: WxAutoCommon.Enums.NavigationType.小程序面板
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 小程序面板 = 8
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.手机
+  commentId: F:WxAutoCommon.Enums.NavigationType.手机
+  id: 手机
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 手机
+  nameWithType: NavigationType.手机
+  fullName: WxAutoCommon.Enums.NavigationType.手机
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 手机 = 9
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums.NavigationType.设置及其他
+  commentId: F:WxAutoCommon.Enums.NavigationType.设置及其他
+  id: 设置及其他
+  parent: WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: 设置及其他
+  nameWithType: NavigationType.设置及其他
+  fullName: WxAutoCommon.Enums.NavigationType.设置及其他
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/NavigationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 设置及其他 = 10
+    return:
+      type: WxAutoCommon.Enums.NavigationType
+references:
+- uid: WxAutoCommon.Enums
+  commentId: N:WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Enums
+  nameWithType: WxAutoCommon.Enums
+  fullName: WxAutoCommon.Enums
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+- uid: WxAutoCommon.Enums.NavigationType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<NavigationType>(NavigationType)
+  nameWithType: FunctionalExtensions.ToMaybe<NavigationType>(NavigationType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WxAutoCommon.Enums.NavigationType>(WxAutoCommon.Enums.NavigationType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of NavigationType)(NavigationType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WxAutoCommon.Enums.NavigationType)(WxAutoCommon.Enums.NavigationType)
+  name.vb: ToMaybe(Of NavigationType)(NavigationType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.NavigationType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WxAutoCommon.Enums.NavigationType
+    name: NavigationType
+    isExternal: true
+    href: WxAutoCommon.Enums.NavigationType.html
+  - name: '>'
+  - name: (
+  - uid: WxAutoCommon.Enums.NavigationType
+    name: NavigationType
+    isExternal: true
+    href: WxAutoCommon.Enums.NavigationType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.NavigationType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WxAutoCommon.Enums.NavigationType
+    name: NavigationType
+    isExternal: true
+    href: WxAutoCommon.Enums.NavigationType.html
+  - name: )
+  - name: (
+  - uid: WxAutoCommon.Enums.NavigationType
+    name: NavigationType
+    isExternal: true
+    href: WxAutoCommon.Enums.NavigationType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WxAutoCommon.Enums.NavigationType
+  commentId: T:WxAutoCommon.Enums.NavigationType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.NavigationType.html
+  name: NavigationType
+  nameWithType: NavigationType
+  fullName: WxAutoCommon.Enums.NavigationType

@@ -1,0 +1,1081 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Utils.MomentsContext
+  commentId: T:WeChatAuto.Utils.MomentsContext
+  id: MomentsContext
+  parent: WeChatAuto.Utils
+  children:
+  - WeChatAuto.Utils.MomentsContext.#ctor(WeAutoCommon.Models.MomentItem,System.Double,FlaUI.Core.AutomationElements.ListBox,FlaUI.Core.Patterns.IScrollPattern,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  - WeChatAuto.Utils.MomentsContext.DoLike
+  - WeChatAuto.Utils.MomentsContext.DoReply(System.String)
+  - WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems
+  - WeChatAuto.Utils.MomentsContext.GetMomentContent
+  - WeChatAuto.Utils.MomentsContext.GetMomentItem
+  - WeChatAuto.Utils.MomentsContext.GetMomentKey
+  - WeChatAuto.Utils.MomentsContext.GetScrollAmount
+  - WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
+  - WeChatAuto.Utils.MomentsContext.IsMyEndReply
+  - WeChatAuto.Utils.MomentsContext.IsMyLiked
+  - WeChatAuto.Utils.MomentsContext.Moment
+  langs:
+  - csharp
+  - vb
+  name: MomentsContext
+  nameWithType: MomentsContext
+  fullName: WeChatAuto.Utils.MomentsContext
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    朋友圈上下文
+
+    最主要提供给终端用户使用，用于获取朋友圈内容列表，并进行点赞、回复评论等操作
+  example: []
+  syntax:
+    content: public class MomentsContext
+    content.vb: Public Class MomentsContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Utils.MomentsContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.MomentsContext.#ctor(WeAutoCommon.Models.MomentItem,System.Double,FlaUI.Core.AutomationElements.ListBox,FlaUI.Core.Patterns.IScrollPattern,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  commentId: M:WeChatAuto.Utils.MomentsContext.#ctor(WeAutoCommon.Models.MomentItem,System.Double,FlaUI.Core.AutomationElements.ListBox,FlaUI.Core.Patterns.IScrollPattern,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  id: '#ctor(WeAutoCommon.Models.MomentItem,System.Double,FlaUI.Core.AutomationElements.ListBox,FlaUI.Core.Patterns.IScrollPattern,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)'
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: MomentsContext(MomentItem, double, ListBox, IScrollPattern, Window, IServiceProvider)
+  nameWithType: MomentsContext.MomentsContext(MomentItem, double, ListBox, IScrollPattern, Window, IServiceProvider)
+  fullName: WeChatAuto.Utils.MomentsContext.MomentsContext(WeAutoCommon.Models.MomentItem, double, FlaUI.Core.AutomationElements.ListBox, FlaUI.Core.Patterns.IScrollPattern, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public MomentsContext(MomentItem moment, double scrollAmount, ListBox rootListBox, IScrollPattern pattern, Window momentWindow, IServiceProvider serviceProvider)
+    parameters:
+    - id: moment
+      type: WeAutoCommon.Models.MomentItem
+    - id: scrollAmount
+      type: System.Double
+    - id: rootListBox
+      type: FlaUI.Core.AutomationElements.ListBox
+    - id: pattern
+      type: FlaUI.Core.Patterns.IScrollPattern
+    - id: momentWindow
+      type: FlaUI.Core.AutomationElements.Window
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(moment As MomentItem, scrollAmount As Double, rootListBox As ListBox, pattern As IScrollPattern, momentWindow As Window, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Utils.MomentsContext.#ctor*
+  nameWithType.vb: MomentsContext.New(MomentItem, Double, ListBox, IScrollPattern, Window, IServiceProvider)
+  fullName.vb: WeChatAuto.Utils.MomentsContext.New(WeAutoCommon.Models.MomentItem, Double, FlaUI.Core.AutomationElements.ListBox, FlaUI.Core.Patterns.IScrollPattern, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
+  name.vb: New(MomentItem, Double, ListBox, IScrollPattern, Window, IServiceProvider)
+- uid: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems
+  commentId: M:WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems
+  id: GetHistoryReplyItems
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryReplyItems()
+  nameWithType: MomentsContext.GetHistoryReplyItems()
+  fullName: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    获取历史回复列表
+
+    此历史回复列表可以做为给大模型提供上下文信息。
+  example: []
+  syntax:
+    content: public List<ReplyItem> GetHistoryReplyItems()
+    return:
+      type: System.Collections.Generic.List{WeAutoCommon.Models.ReplyItem}
+      description: 历史回复列表<xref href="WeAutoCommon.Models.ReplyItem" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetHistoryReplyItems() As List(Of ReplyItem)
+  overload: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems*
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentItem
+  commentId: M:WeChatAuto.Utils.MomentsContext.GetMomentItem
+  id: GetMomentItem
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: GetMomentItem()
+  nameWithType: MomentsContext.GetMomentItem()
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentItem()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    获取朋友圈内容项
+
+    此内容项可以做为大模型提供上下文信息。
+
+    如：朋友圈发表内容、朋友圈时间等。
+  example: []
+  syntax:
+    content: public MomentItem GetMomentItem()
+    return:
+      type: WeAutoCommon.Models.MomentItem
+      description: 朋友圈内容项<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetMomentItem() As MomentItem
+  overload: WeChatAuto.Utils.MomentsContext.GetMomentItem*
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentContent
+  commentId: M:WeChatAuto.Utils.MomentsContext.GetMomentContent
+  id: GetMomentContent
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: GetMomentContent()
+  nameWithType: MomentsContext.GetMomentContent()
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentContent()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    获取朋友圈内容
+
+    此内容可以做为大模型提供上下文信息。
+
+    如：朋友圈发表内容、朋友圈时间等。
+  example: []
+  syntax:
+    content: public string GetMomentContent()
+    return:
+      type: System.String
+      description: 朋友圈内容
+    content.vb: Public Function GetMomentContent() As String
+  overload: WeChatAuto.Utils.MomentsContext.GetMomentContent*
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentKey
+  commentId: M:WeChatAuto.Utils.MomentsContext.GetMomentKey
+  id: GetMomentKey
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: GetMomentKey()
+  nameWithType: MomentsContext.GetMomentKey()
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentKey()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    获取朋友圈列表项唯一标识
+
+    此标识可以做为大模型提供上下文信息。
+
+    如：朋友圈记录唯一标识。
+  example: []
+  syntax:
+    content: public string GetMomentKey()
+    return:
+      type: System.String
+      description: 朋友圈列表项唯一标识
+    content.vb: Public Function GetMomentKey() As String
+  overload: WeChatAuto.Utils.MomentsContext.GetMomentKey*
+- uid: WeChatAuto.Utils.MomentsContext.IsMyEndReply
+  commentId: M:WeChatAuto.Utils.MomentsContext.IsMyEndReply
+  id: IsMyEndReply
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: IsMyEndReply()
+  nameWithType: MomentsContext.IsMyEndReply()
+  fullName: WeChatAuto.Utils.MomentsContext.IsMyEndReply()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 是否是我最后一个回复的人，供大模型自动回复时参考。
+  example: []
+  syntax:
+    content: public bool IsMyEndReply()
+    return:
+      type: System.Boolean
+      description: 是否是我最后一个回复的人
+    content.vb: Public Function IsMyEndReply() As Boolean
+  overload: WeChatAuto.Utils.MomentsContext.IsMyEndReply*
+- uid: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
+  commentId: M:WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
+  id: IsIncludeMyReply
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: IsIncludeMyReply()
+  nameWithType: MomentsContext.IsIncludeMyReply()
+  fullName: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 是否包含我的回复，供大模型自动回复时参考。
+  example: []
+  syntax:
+    content: public bool IsIncludeMyReply()
+    return:
+      type: System.Boolean
+      description: 是否包含我的回复
+    content.vb: Public Function IsIncludeMyReply() As Boolean
+  overload: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply*
+- uid: WeChatAuto.Utils.MomentsContext.IsMyLiked
+  commentId: M:WeChatAuto.Utils.MomentsContext.IsMyLiked
+  id: IsMyLiked
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: IsMyLiked()
+  nameWithType: MomentsContext.IsMyLiked()
+  fullName: WeChatAuto.Utils.MomentsContext.IsMyLiked()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 是否是我点赞的，供大模型自动回复时参考。
+  example: []
+  syntax:
+    content: public bool IsMyLiked()
+    return:
+      type: System.Boolean
+      description: 是否是我点赞的
+    content.vb: Public Function IsMyLiked() As Boolean
+  overload: WeChatAuto.Utils.MomentsContext.IsMyLiked*
+- uid: WeChatAuto.Utils.MomentsContext.DoReply(System.String)
+  commentId: M:WeChatAuto.Utils.MomentsContext.DoReply(System.String)
+  id: DoReply(System.String)
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: DoReply(string)
+  nameWithType: MomentsContext.DoReply(string)
+  fullName: WeChatAuto.Utils.MomentsContext.DoReply(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 回复朋友圈
+  example: []
+  syntax:
+    content: public void DoReply(string replyContent)
+    parameters:
+    - id: replyContent
+      type: System.String
+      description: 回复内容
+    content.vb: Public Sub DoReply(replyContent As String)
+  overload: WeChatAuto.Utils.MomentsContext.DoReply*
+  nameWithType.vb: MomentsContext.DoReply(String)
+  fullName.vb: WeChatAuto.Utils.MomentsContext.DoReply(String)
+  name.vb: DoReply(String)
+- uid: WeChatAuto.Utils.MomentsContext.DoLike
+  commentId: M:WeChatAuto.Utils.MomentsContext.DoLike
+  id: DoLike
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: DoLike()
+  nameWithType: MomentsContext.DoLike()
+  fullName: WeChatAuto.Utils.MomentsContext.DoLike()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 点赞朋友圈
+  example: []
+  syntax:
+    content: public void DoLike()
+    content.vb: Public Sub DoLike()
+  overload: WeChatAuto.Utils.MomentsContext.DoLike*
+- uid: WeChatAuto.Utils.MomentsContext.GetScrollAmount
+  commentId: M:WeChatAuto.Utils.MomentsContext.GetScrollAmount
+  id: GetScrollAmount
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: GetScrollAmount()
+  nameWithType: MomentsContext.GetScrollAmount()
+  fullName: WeChatAuto.Utils.MomentsContext.GetScrollAmount()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public double GetScrollAmount()
+    return:
+      type: System.Double
+    content.vb: Public Function GetScrollAmount() As Double
+  overload: WeChatAuto.Utils.MomentsContext.GetScrollAmount*
+- uid: WeChatAuto.Utils.MomentsContext.Moment
+  commentId: P:WeChatAuto.Utils.MomentsContext.Moment
+  id: Moment
+  parent: WeChatAuto.Utils.MomentsContext
+  langs:
+  - csharp
+  - vb
+  name: Moment
+  nameWithType: MomentsContext.Moment
+  fullName: WeChatAuto.Utils.MomentsContext.Moment
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public MomentItem Moment { get; }
+    parameters: []
+    return:
+      type: WeAutoCommon.Models.MomentItem
+    content.vb: Public ReadOnly Property Moment As MomentItem
+  overload: WeChatAuto.Utils.MomentsContext.Moment*
+references:
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Utils.MomentsContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<MomentsContext>(MomentsContext)
+  nameWithType: FunctionalExtensions.ToMaybe<MomentsContext>(MomentsContext)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.MomentsContext>(WeChatAuto.Utils.MomentsContext)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of MomentsContext)(MomentsContext)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.MomentsContext)(WeChatAuto.Utils.MomentsContext)
+  name.vb: ToMaybe(Of MomentsContext)(MomentsContext)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.MomentsContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.MomentsContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    isExternal: true
+    href: WeChatAuto.Utils.MomentsContext.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.MomentsContext.#ctor*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.#ctor
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext__ctor_WeAutoCommon_Models_MomentItem_System_Double_FlaUI_Core_AutomationElements_ListBox_FlaUI_Core_Patterns_IScrollPattern_FlaUI_Core_AutomationElements_Window_System_IServiceProvider_
+  name: MomentsContext
+  nameWithType: MomentsContext.MomentsContext
+  fullName: WeChatAuto.Utils.MomentsContext.MomentsContext
+  nameWithType.vb: MomentsContext.New
+  fullName.vb: WeChatAuto.Utils.MomentsContext.New
+  name.vb: New
+- uid: WeAutoCommon.Models.MomentItem
+  commentId: T:WeAutoCommon.Models.MomentItem
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.MomentItem.html
+  name: MomentItem
+  nameWithType: MomentItem
+  fullName: WeAutoCommon.Models.MomentItem
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: FlaUI.Core.AutomationElements.ListBox
+  commentId: T:FlaUI.Core.AutomationElements.ListBox
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: ListBox
+  nameWithType: ListBox
+  fullName: FlaUI.Core.AutomationElements.ListBox
+- uid: FlaUI.Core.Patterns.IScrollPattern
+  commentId: T:FlaUI.Core.Patterns.IScrollPattern
+  parent: FlaUI.Core.Patterns
+  isExternal: true
+  name: IScrollPattern
+  nameWithType: IScrollPattern
+  fullName: FlaUI.Core.Patterns.IScrollPattern
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: FlaUI.Core.Patterns
+  commentId: N:FlaUI.Core.Patterns
+  isExternal: true
+  name: FlaUI.Core.Patterns
+  nameWithType: FlaUI.Core.Patterns
+  fullName: FlaUI.Core.Patterns
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Patterns
+    name: Patterns
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Patterns
+    name: Patterns
+    isExternal: true
+- uid: WeAutoCommon.Models.ReplyItem
+  commentId: T:WeAutoCommon.Models.ReplyItem
+  isExternal: true
+  href: WeAutoCommon.Models.ReplyItem.html
+  name: ReplyItem
+  nameWithType: ReplyItem
+  fullName: WeAutoCommon.Models.ReplyItem
+- uid: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_GetHistoryReplyItems
+  name: GetHistoryReplyItems
+  nameWithType: MomentsContext.GetHistoryReplyItems
+  fullName: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems
+- uid: System.Collections.Generic.List{WeAutoCommon.Models.ReplyItem}
+  commentId: T:System.Collections.Generic.List{WeAutoCommon.Models.ReplyItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ReplyItem>
+  nameWithType: List<ReplyItem>
+  fullName: System.Collections.Generic.List<WeAutoCommon.Models.ReplyItem>
+  nameWithType.vb: List(Of ReplyItem)
+  fullName.vb: System.Collections.Generic.List(Of WeAutoCommon.Models.ReplyItem)
+  name.vb: List(Of ReplyItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: WeAutoCommon.Models.ReplyItem
+    name: ReplyItem
+    isExternal: true
+    href: WeAutoCommon.Models.ReplyItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.ReplyItem
+    name: ReplyItem
+    isExternal: true
+    href: WeAutoCommon.Models.ReplyItem.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentItem*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.GetMomentItem
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_GetMomentItem
+  name: GetMomentItem
+  nameWithType: MomentsContext.GetMomentItem
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentItem
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentContent*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.GetMomentContent
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_GetMomentContent
+  name: GetMomentContent
+  nameWithType: MomentsContext.GetMomentContent
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentContent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Utils.MomentsContext.GetMomentKey*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.GetMomentKey
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_GetMomentKey
+  name: GetMomentKey
+  nameWithType: MomentsContext.GetMomentKey
+  fullName: WeChatAuto.Utils.MomentsContext.GetMomentKey
+- uid: WeChatAuto.Utils.MomentsContext.IsMyEndReply*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.IsMyEndReply
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_IsMyEndReply
+  name: IsMyEndReply
+  nameWithType: MomentsContext.IsMyEndReply
+  fullName: WeChatAuto.Utils.MomentsContext.IsMyEndReply
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_IsIncludeMyReply
+  name: IsIncludeMyReply
+  nameWithType: MomentsContext.IsIncludeMyReply
+  fullName: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
+- uid: WeChatAuto.Utils.MomentsContext.IsMyLiked*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.IsMyLiked
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_IsMyLiked
+  name: IsMyLiked
+  nameWithType: MomentsContext.IsMyLiked
+  fullName: WeChatAuto.Utils.MomentsContext.IsMyLiked
+- uid: WeChatAuto.Utils.MomentsContext.DoReply*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.DoReply
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_DoReply_System_String_
+  name: DoReply
+  nameWithType: MomentsContext.DoReply
+  fullName: WeChatAuto.Utils.MomentsContext.DoReply
+- uid: WeChatAuto.Utils.MomentsContext.DoLike*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.DoLike
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_DoLike
+  name: DoLike
+  nameWithType: MomentsContext.DoLike
+  fullName: WeChatAuto.Utils.MomentsContext.DoLike
+- uid: WeChatAuto.Utils.MomentsContext.GetScrollAmount*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.GetScrollAmount
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_GetScrollAmount
+  name: GetScrollAmount
+  nameWithType: MomentsContext.GetScrollAmount
+  fullName: WeChatAuto.Utils.MomentsContext.GetScrollAmount
+- uid: WeChatAuto.Utils.MomentsContext.Moment*
+  commentId: Overload:WeChatAuto.Utils.MomentsContext.Moment
+  isExternal: true
+  href: WeChatAuto.Utils.MomentsContext.html#WeChatAuto_Utils_MomentsContext_Moment
+  name: Moment
+  nameWithType: MomentsContext.Moment
+  fullName: WeChatAuto.Utils.MomentsContext.Moment

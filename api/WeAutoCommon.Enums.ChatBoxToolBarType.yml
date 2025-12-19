@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType
+  commentId: T:WeAutoCommon.Enums.ChatBoxToolBarType
+  id: ChatBoxToolBarType
+  parent: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.ChatBoxToolBarType.发送文件
+  - WeAutoCommon.Enums.ChatBoxToolBarType.截图
+  - WeAutoCommon.Enums.ChatBoxToolBarType.直播
+  - WeAutoCommon.Enums.ChatBoxToolBarType.聊天记录
+  - WeAutoCommon.Enums.ChatBoxToolBarType.表情
+  - WeAutoCommon.Enums.ChatBoxToolBarType.视频聊天
+  - WeAutoCommon.Enums.ChatBoxToolBarType.语音聊天
+  langs:
+  - csharp
+  - vb
+  name: ChatBoxToolBarType
+  nameWithType: ChatBoxToolBarType
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: public enum ChatBoxToolBarType
+    content.vb: Public Enum ChatBoxToolBarType
+  extensionMethods:
+  - WeAutoCommon.Enums.ChatBoxToolBarType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.表情
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.表情
+  id: 表情
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 表情
+  nameWithType: ChatBoxToolBarType.表情
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.表情
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 表情 = 0
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.发送文件
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.发送文件
+  id: 发送文件
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 发送文件
+  nameWithType: ChatBoxToolBarType.发送文件
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.发送文件
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 发送文件 = 1
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.截图
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.截图
+  id: 截图
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 截图
+  nameWithType: ChatBoxToolBarType.截图
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.截图
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 截图 = 2
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.聊天记录
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.聊天记录
+  id: 聊天记录
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 聊天记录
+  nameWithType: ChatBoxToolBarType.聊天记录
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.聊天记录
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 聊天记录 = 3
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.直播
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.直播
+  id: 直播
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 直播
+  nameWithType: ChatBoxToolBarType.直播
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.直播
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 直播 = 4
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.语音聊天
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.语音聊天
+  id: 语音聊天
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 语音聊天
+  nameWithType: ChatBoxToolBarType.语音聊天
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.语音聊天
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 语音聊天 = 5
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.视频聊天
+  commentId: F:WeAutoCommon.Enums.ChatBoxToolBarType.视频聊天
+  id: 视频聊天
+  parent: WeAutoCommon.Enums.ChatBoxToolBarType
+  langs:
+  - csharp
+  - vb
+  name: 视频聊天
+  nameWithType: ChatBoxToolBarType.视频聊天
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType.视频聊天
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 视频聊天 = 6
+    return:
+      type: WeAutoCommon.Enums.ChatBoxToolBarType
+references:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<ChatBoxToolBarType>(ChatBoxToolBarType)
+  nameWithType: FunctionalExtensions.ToMaybe<ChatBoxToolBarType>(ChatBoxToolBarType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Enums.ChatBoxToolBarType>(WeAutoCommon.Enums.ChatBoxToolBarType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ChatBoxToolBarType)(ChatBoxToolBarType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Enums.ChatBoxToolBarType)(WeAutoCommon.Enums.ChatBoxToolBarType)
+  name.vb: ToMaybe(Of ChatBoxToolBarType)(ChatBoxToolBarType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.ChatBoxToolBarType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Enums.ChatBoxToolBarType
+    name: ChatBoxToolBarType
+    isExternal: true
+    href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Enums.ChatBoxToolBarType
+    name: ChatBoxToolBarType
+    isExternal: true
+    href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.ChatBoxToolBarType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Enums.ChatBoxToolBarType
+    name: ChatBoxToolBarType
+    isExternal: true
+    href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Enums.ChatBoxToolBarType
+    name: ChatBoxToolBarType
+    isExternal: true
+    href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType
+  commentId: T:WeAutoCommon.Enums.ChatBoxToolBarType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  name: ChatBoxToolBarType
+  nameWithType: ChatBoxToolBarType
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType

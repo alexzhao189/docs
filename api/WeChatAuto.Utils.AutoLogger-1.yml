@@ -1,0 +1,1055 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Utils.AutoLogger`1
+  commentId: T:WeChatAuto.Utils.AutoLogger`1
+  id: AutoLogger`1
+  parent: WeChatAuto.Utils
+  children:
+  - WeChatAuto.Utils.AutoLogger`1.#ctor(Microsoft.Extensions.Logging.ILogger{`0})
+  - WeChatAuto.Utils.AutoLogger`1.Debug(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Debug(System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Error(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Error(System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Fatal(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Fatal(System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Info(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Info(System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Trace(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Trace(System.String,System.Exception)
+  - WeChatAuto.Utils.AutoLogger`1.Warn(System.String)
+  - WeChatAuto.Utils.AutoLogger`1.Warn(System.String,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: AutoLogger<T>
+  nameWithType: AutoLogger<T>
+  fullName: WeChatAuto.Utils.AutoLogger<T>
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 自动化日志类
+  example: []
+  syntax:
+    content: public class AutoLogger<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Class AutoLogger(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Utils.AutoLogger`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  nameWithType.vb: AutoLogger(Of T)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T)
+  name.vb: AutoLogger(Of T)
+- uid: WeChatAuto.Utils.AutoLogger`1.#ctor(Microsoft.Extensions.Logging.ILogger{`0})
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.#ctor(Microsoft.Extensions.Logging.ILogger{`0})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{`0})'
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: AutoLogger(ILogger<T>)
+  nameWithType: AutoLogger<T>.AutoLogger(ILogger<T>)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.AutoLogger(Microsoft.Extensions.Logging.ILogger<T>)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public AutoLogger(ILogger<T> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{{T}}
+    content.vb: Public Sub New(logger As ILogger(Of T))
+  overload: WeChatAuto.Utils.AutoLogger`1.#ctor*
+  nameWithType.vb: AutoLogger(Of T).New(ILogger(Of T))
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).New(Microsoft.Extensions.Logging.ILogger(Of T))
+  name.vb: New(ILogger(Of T))
+- uid: WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String)
+  id: Log(Microsoft.Extensions.Logging.LogLevel,System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Log(LogLevel, string)
+  nameWithType: AutoLogger<T>.Log(LogLevel, string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Log(Microsoft.Extensions.Logging.LogLevel, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Log(LogLevel level, string message)
+    parameters:
+    - id: level
+      type: Microsoft.Extensions.Logging.LogLevel
+    - id: message
+      type: System.String
+    content.vb: Public Sub Log(level As LogLevel, message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Log*
+  nameWithType.vb: AutoLogger(Of T).Log(LogLevel, String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Log(Microsoft.Extensions.Logging.LogLevel, String)
+  name.vb: Log(LogLevel, String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Log(Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception)
+  id: Log(Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Log(LogLevel, string, Exception)
+  nameWithType: AutoLogger<T>.Log(LogLevel, string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Log(Microsoft.Extensions.Logging.LogLevel, string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Log(LogLevel level, string message, Exception exception)
+    parameters:
+    - id: level
+      type: Microsoft.Extensions.Logging.LogLevel
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Log(level As LogLevel, message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Log*
+  nameWithType.vb: AutoLogger(Of T).Log(LogLevel, String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Log(Microsoft.Extensions.Logging.LogLevel, String, System.Exception)
+  name.vb: Log(LogLevel, String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Trace(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Trace(System.String)
+  id: Trace(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Trace(string)
+  nameWithType: AutoLogger<T>.Trace(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Trace(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Trace(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Trace(message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Trace*
+  nameWithType.vb: AutoLogger(Of T).Trace(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Trace(String)
+  name.vb: Trace(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Trace(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Trace(System.String,System.Exception)
+  id: Trace(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Trace(string, Exception)
+  nameWithType: AutoLogger<T>.Trace(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Trace(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Trace(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Trace(message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Trace*
+  nameWithType.vb: AutoLogger(Of T).Trace(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Trace(String, System.Exception)
+  name.vb: Trace(String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Debug(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Debug(System.String)
+  id: Debug(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Debug(string)
+  nameWithType: AutoLogger<T>.Debug(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Debug(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Debug(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Debug(message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Debug*
+  nameWithType.vb: AutoLogger(Of T).Debug(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Debug(String)
+  name.vb: Debug(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Debug(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Debug(System.String,System.Exception)
+  id: Debug(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Debug(string, Exception)
+  nameWithType: AutoLogger<T>.Debug(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Debug(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Debug(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Debug(message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Debug*
+  nameWithType.vb: AutoLogger(Of T).Debug(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Debug(String, System.Exception)
+  name.vb: Debug(String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Info(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Info(System.String)
+  id: Info(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Info(string)
+  nameWithType: AutoLogger<T>.Info(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Info(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Info(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Info(message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Info*
+  nameWithType.vb: AutoLogger(Of T).Info(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Info(String)
+  name.vb: Info(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Info(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Info(System.String,System.Exception)
+  id: Info(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Info(string, Exception)
+  nameWithType: AutoLogger<T>.Info(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Info(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Info(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Info(message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Info*
+  nameWithType.vb: AutoLogger(Of T).Info(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Info(String, System.Exception)
+  name.vb: Info(String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Warn(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Warn(System.String)
+  id: Warn(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Warn(string)
+  nameWithType: AutoLogger<T>.Warn(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Warn(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Warn(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Warn(message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Warn*
+  nameWithType.vb: AutoLogger(Of T).Warn(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Warn(String)
+  name.vb: Warn(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Warn(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Warn(System.String,System.Exception)
+  id: Warn(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Warn(string, Exception)
+  nameWithType: AutoLogger<T>.Warn(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Warn(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Warn(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Warn(message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Warn*
+  nameWithType.vb: AutoLogger(Of T).Warn(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Warn(String, System.Exception)
+  name.vb: Warn(String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Error(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Error(System.String)
+  id: Error(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Error(string)
+  nameWithType: AutoLogger<T>.Error(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Error(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Error(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub [Error](message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Error*
+  nameWithType.vb: AutoLogger(Of T).Error(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Error(String)
+  name.vb: Error(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Error(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Error(System.String,System.Exception)
+  id: Error(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Error(string, Exception)
+  nameWithType: AutoLogger<T>.Error(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Error(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Error(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub [Error](message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Error*
+  nameWithType.vb: AutoLogger(Of T).Error(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Error(String, System.Exception)
+  name.vb: Error(String, Exception)
+- uid: WeChatAuto.Utils.AutoLogger`1.Fatal(System.String)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Fatal(System.String)
+  id: Fatal(System.String)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Fatal(string)
+  nameWithType: AutoLogger<T>.Fatal(string)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Fatal(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Fatal(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Fatal(message As String)
+  overload: WeChatAuto.Utils.AutoLogger`1.Fatal*
+  nameWithType.vb: AutoLogger(Of T).Fatal(String)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Fatal(String)
+  name.vb: Fatal(String)
+- uid: WeChatAuto.Utils.AutoLogger`1.Fatal(System.String,System.Exception)
+  commentId: M:WeChatAuto.Utils.AutoLogger`1.Fatal(System.String,System.Exception)
+  id: Fatal(System.String,System.Exception)
+  parent: WeChatAuto.Utils.AutoLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Fatal(string, Exception)
+  nameWithType: AutoLogger<T>.Fatal(string, Exception)
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Fatal(string, System.Exception)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/AutoLogger.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public void Fatal(string message, Exception exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub Fatal(message As String, exception As Exception)
+  overload: WeChatAuto.Utils.AutoLogger`1.Fatal*
+  nameWithType.vb: AutoLogger(Of T).Fatal(String, Exception)
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Fatal(String, System.Exception)
+  name.vb: Fatal(String, Exception)
+references:
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Utils.AutoLogger`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<AutoLogger<T>>(AutoLogger<T>)
+  nameWithType: FunctionalExtensions.ToMaybe<AutoLogger<T>>(AutoLogger<T>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.AutoLogger<T>>(WeChatAuto.Utils.AutoLogger<T>)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of AutoLogger(Of T))(AutoLogger(Of T))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.AutoLogger(Of T))(WeChatAuto.Utils.AutoLogger(Of T))
+  name.vb: ToMaybe(Of AutoLogger(Of T))(AutoLogger(Of T))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.AutoLogger{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Utils.AutoLogger`1
+    name: AutoLogger
+    isExternal: true
+    href: WeChatAuto.Utils.AutoLogger-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Utils.AutoLogger`1
+    name: AutoLogger
+    isExternal: true
+    href: WeChatAuto.Utils.AutoLogger-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.AutoLogger{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Utils.AutoLogger`1
+    name: AutoLogger
+    isExternal: true
+    href: WeChatAuto.Utils.AutoLogger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Utils.AutoLogger`1
+    name: AutoLogger
+    isExternal: true
+    href: WeChatAuto.Utils.AutoLogger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.AutoLogger`1.#ctor*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.#ctor
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1__ctor_Microsoft_Extensions_Logging_ILogger__0__
+  name: AutoLogger
+  nameWithType: AutoLogger<T>.AutoLogger
+  fullName: WeChatAuto.Utils.AutoLogger<T>.AutoLogger
+  nameWithType.vb: AutoLogger(Of T).New
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{{T}}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{`0}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<T>
+  nameWithType: ILogger<T>
+  fullName: Microsoft.Extensions.Logging.ILogger<T>
+  nameWithType.vb: ILogger(Of T)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of T)
+  name.vb: ILogger(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: WeChatAuto.Utils.AutoLogger`1.Log*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Log
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Log_Microsoft_Extensions_Logging_LogLevel_System_String_
+  name: Log
+  nameWithType: AutoLogger<T>.Log
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Log
+  nameWithType.vb: AutoLogger(Of T).Log
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Log
+- uid: Microsoft.Extensions.Logging.LogLevel
+  commentId: T:Microsoft.Extensions.Logging.LogLevel
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.loglevel
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Microsoft.Extensions.Logging.LogLevel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: WeChatAuto.Utils.AutoLogger`1.Trace*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Trace
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Trace_System_String_
+  name: Trace
+  nameWithType: AutoLogger<T>.Trace
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Trace
+  nameWithType.vb: AutoLogger(Of T).Trace
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Trace
+- uid: WeChatAuto.Utils.AutoLogger`1.Debug*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Debug
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Debug_System_String_
+  name: Debug
+  nameWithType: AutoLogger<T>.Debug
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Debug
+  nameWithType.vb: AutoLogger(Of T).Debug
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Debug
+- uid: WeChatAuto.Utils.AutoLogger`1.Info*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Info
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Info_System_String_
+  name: Info
+  nameWithType: AutoLogger<T>.Info
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Info
+  nameWithType.vb: AutoLogger(Of T).Info
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Info
+- uid: WeChatAuto.Utils.AutoLogger`1.Warn*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Warn
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Warn_System_String_
+  name: Warn
+  nameWithType: AutoLogger<T>.Warn
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Warn
+  nameWithType.vb: AutoLogger(Of T).Warn
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Warn
+- uid: WeChatAuto.Utils.AutoLogger`1.Error*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Error
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Error_System_String_
+  name: Error
+  nameWithType: AutoLogger<T>.Error
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Error
+  nameWithType.vb: AutoLogger(Of T).Error
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Error
+- uid: WeChatAuto.Utils.AutoLogger`1.Fatal*
+  commentId: Overload:WeChatAuto.Utils.AutoLogger`1.Fatal
+  isExternal: true
+  href: WeChatAuto.Utils.AutoLogger-1.html#WeChatAuto_Utils_AutoLogger_1_Fatal_System_String_
+  name: Fatal
+  nameWithType: AutoLogger<T>.Fatal
+  fullName: WeChatAuto.Utils.AutoLogger<T>.Fatal
+  nameWithType.vb: AutoLogger(Of T).Fatal
+  fullName.vb: WeChatAuto.Utils.AutoLogger(Of T).Fatal

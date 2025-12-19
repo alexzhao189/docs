@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Exceptions
+  commentId: N:WeAutoCommon.Exceptions
+  id: WeAutoCommon.Exceptions
+  children:
+  - WeAutoCommon.Exceptions.WindowNotExsitException
+  langs:
+  - csharp
+  - vb
+  name: WeAutoCommon.Exceptions
+  nameWithType: WeAutoCommon.Exceptions
+  fullName: WeAutoCommon.Exceptions
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WeAutoCommon.Exceptions.WindowNotExsitException
+  commentId: T:WeAutoCommon.Exceptions.WindowNotExsitException
+  isExternal: true
+  href: WeAutoCommon.Exceptions.WindowNotExsitException.html
+  name: WindowNotExsitException
+  nameWithType: WindowNotExsitException
+  fullName: WeAutoCommon.Exceptions.WindowNotExsitException

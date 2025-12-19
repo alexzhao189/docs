@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Enums.ChatContentType
+  commentId: T:WxAutoCommon.Enums.ChatContentType
+  id: ChatContentType
+  parent: WxAutoCommon.Enums
+  children:
+  - WxAutoCommon.Enums.ChatContentType.Inline
+  - WxAutoCommon.Enums.ChatContentType.SubWindow
+  langs:
+  - csharp
+  - vb
+  name: ChatContentType
+  nameWithType: ChatContentType
+  fullName: WxAutoCommon.Enums.ChatContentType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ChatContentType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: public enum ChatContentType
+    content.vb: Public Enum ChatContentType
+  extensionMethods:
+  - WxAutoCommon.Enums.ChatContentType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WxAutoCommon.Enums.ChatContentType.Inline
+  commentId: F:WxAutoCommon.Enums.ChatContentType.Inline
+  id: Inline
+  parent: WxAutoCommon.Enums.ChatContentType
+  langs:
+  - csharp
+  - vb
+  name: Inline
+  nameWithType: ChatContentType.Inline
+  fullName: WxAutoCommon.Enums.ChatContentType.Inline
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ChatContentType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: Inline = 0
+    return:
+      type: WxAutoCommon.Enums.ChatContentType
+- uid: WxAutoCommon.Enums.ChatContentType.SubWindow
+  commentId: F:WxAutoCommon.Enums.ChatContentType.SubWindow
+  id: SubWindow
+  parent: WxAutoCommon.Enums.ChatContentType
+  langs:
+  - csharp
+  - vb
+  name: SubWindow
+  nameWithType: ChatContentType.SubWindow
+  fullName: WxAutoCommon.Enums.ChatContentType.SubWindow
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ChatContentType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: SubWindow = 1
+    return:
+      type: WxAutoCommon.Enums.ChatContentType
+references:
+- uid: WxAutoCommon.Enums
+  commentId: N:WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Enums
+  nameWithType: WxAutoCommon.Enums
+  fullName: WxAutoCommon.Enums
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+- uid: WxAutoCommon.Enums.ChatContentType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<ChatContentType>(ChatContentType)
+  nameWithType: FunctionalExtensions.ToMaybe<ChatContentType>(ChatContentType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WxAutoCommon.Enums.ChatContentType>(WxAutoCommon.Enums.ChatContentType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ChatContentType)(ChatContentType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WxAutoCommon.Enums.ChatContentType)(WxAutoCommon.Enums.ChatContentType)
+  name.vb: ToMaybe(Of ChatContentType)(ChatContentType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.ChatContentType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WxAutoCommon.Enums.ChatContentType
+    name: ChatContentType
+    isExternal: true
+    href: WxAutoCommon.Enums.ChatContentType.html
+  - name: '>'
+  - name: (
+  - uid: WxAutoCommon.Enums.ChatContentType
+    name: ChatContentType
+    isExternal: true
+    href: WxAutoCommon.Enums.ChatContentType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.ChatContentType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WxAutoCommon.Enums.ChatContentType
+    name: ChatContentType
+    isExternal: true
+    href: WxAutoCommon.Enums.ChatContentType.html
+  - name: )
+  - name: (
+  - uid: WxAutoCommon.Enums.ChatContentType
+    name: ChatContentType
+    isExternal: true
+    href: WxAutoCommon.Enums.ChatContentType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WxAutoCommon.Enums.ChatContentType
+  commentId: T:WxAutoCommon.Enums.ChatContentType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ChatContentType.html
+  name: ChatContentType
+  nameWithType: ChatContentType
+  fullName: WxAutoCommon.Enums.ChatContentType

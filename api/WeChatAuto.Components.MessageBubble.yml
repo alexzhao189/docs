@@ -1,0 +1,1486 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.MessageBubble
+  commentId: T:WeChatAuto.Components.MessageBubble
+  id: MessageBubble
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.MessageBubble.#ctor
+  - WeChatAuto.Components.MessageBubble.BeReferencedMessage
+  - WeChatAuto.Components.MessageBubble.BeReferencedPersion
+  - WeChatAuto.Components.MessageBubble.BeTap
+  - WeChatAuto.Components.MessageBubble.BubbleHash
+  - WeChatAuto.Components.MessageBubble.ClickActionButton
+  - WeChatAuto.Components.MessageBubble.Equals(System.Object)
+  - WeChatAuto.Components.MessageBubble.Equals(WeChatAuto.Components.MessageBubble)
+  - WeChatAuto.Components.MessageBubble.GetHashCode
+  - WeChatAuto.Components.MessageBubble.GroupNickName
+  - WeChatAuto.Components.MessageBubble.IsInvokable
+  - WeChatAuto.Components.MessageBubble.IsNew
+  - WeChatAuto.Components.MessageBubble.MessageContent
+  - WeChatAuto.Components.MessageBubble.MessageSource
+  - WeChatAuto.Components.MessageBubble.MessageTime
+  - WeChatAuto.Components.MessageBubble.MessageType
+  - WeChatAuto.Components.MessageBubble.RrettyPrint
+  - WeChatAuto.Components.MessageBubble.RuntimeId
+  - WeChatAuto.Components.MessageBubble.ToChatSimpleMessage
+  - WeChatAuto.Components.MessageBubble.ToString
+  - WeChatAuto.Components.MessageBubble.Who
+  langs:
+  - csharp
+  - vb
+  name: MessageBubble
+  nameWithType: MessageBubble
+  fullName: WeChatAuto.Components.MessageBubble
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 聊天内容区气泡
+  example: []
+  syntax:
+    content: 'public class MessageBubble : IEquatable<MessageBubble>'
+    content.vb: Public Class MessageBubble Implements IEquatable(Of MessageBubble)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{WeChatAuto.Components.MessageBubble}
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - WeChatAuto.Components.MessageBubble.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.MessageBubble.Equals(System.Object)
+  commentId: M:WeChatAuto.Components.MessageBubble.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: MessageBubble.Equals(object)
+  fullName: WeChatAuto.Components.MessageBubble.Equals(object)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: WeChatAuto.Components.MessageBubble.Equals*
+  nameWithType.vb: MessageBubble.Equals(Object)
+  fullName.vb: WeChatAuto.Components.MessageBubble.Equals(Object)
+  name.vb: Equals(Object)
+- uid: WeChatAuto.Components.MessageBubble.GetHashCode
+  commentId: M:WeChatAuto.Components.MessageBubble.GetHashCode
+  id: GetHashCode
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: MessageBubble.GetHashCode()
+  fullName: WeChatAuto.Components.MessageBubble.GetHashCode()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: WeChatAuto.Components.MessageBubble.GetHashCode*
+- uid: WeChatAuto.Components.MessageBubble.ToString
+  commentId: M:WeChatAuto.Components.MessageBubble.ToString
+  id: ToString
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MessageBubble.ToString()
+  fullName: WeChatAuto.Components.MessageBubble.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WeChatAuto.Components.MessageBubble.ToString*
+- uid: WeChatAuto.Components.MessageBubble.RrettyPrint
+  commentId: M:WeChatAuto.Components.MessageBubble.RrettyPrint
+  id: RrettyPrint
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: RrettyPrint()
+  nameWithType: MessageBubble.RrettyPrint()
+  fullName: WeChatAuto.Components.MessageBubble.RrettyPrint()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 格式化输出
+  example: []
+  syntax:
+    content: public string RrettyPrint()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function RrettyPrint() As String
+  overload: WeChatAuto.Components.MessageBubble.RrettyPrint*
+- uid: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage
+  commentId: M:WeChatAuto.Components.MessageBubble.ToChatSimpleMessage
+  id: ToChatSimpleMessage
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: ToChatSimpleMessage()
+  nameWithType: MessageBubble.ToChatSimpleMessage()
+  fullName: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 转换为ChatSimpleMessage
+  example: []
+  syntax:
+    content: public ChatSimpleMessage ToChatSimpleMessage()
+    return:
+      type: WeChatAuto.Models.ChatSimpleMessage
+      description: ChatSimpleMessage
+    content.vb: Public Function ToChatSimpleMessage() As ChatSimpleMessage
+  overload: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage*
+- uid: WeChatAuto.Components.MessageBubble.IsInvokable
+  commentId: M:WeChatAuto.Components.MessageBubble.IsInvokable
+  id: IsInvokable
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: IsInvokable()
+  nameWithType: MessageBubble.IsInvokable()
+  fullName: WeChatAuto.Components.MessageBubble.IsInvokable()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 是否可点击
+  example: []
+  syntax:
+    content: public bool IsInvokable()
+    return:
+      type: System.Boolean
+      description: 是否可点击
+    content.vb: Public Function IsInvokable() As Boolean
+  overload: WeChatAuto.Components.MessageBubble.IsInvokable*
+- uid: WeChatAuto.Components.MessageBubble.Equals(WeChatAuto.Components.MessageBubble)
+  commentId: M:WeChatAuto.Components.MessageBubble.Equals(WeChatAuto.Components.MessageBubble)
+  id: Equals(WeChatAuto.Components.MessageBubble)
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: Equals(MessageBubble)
+  nameWithType: MessageBubble.Equals(MessageBubble)
+  fullName: WeChatAuto.Components.MessageBubble.Equals(WeChatAuto.Components.MessageBubble)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public bool Equals(MessageBubble other)
+    parameters:
+    - id: other
+      type: WeChatAuto.Components.MessageBubble
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As MessageBubble) As Boolean
+  overload: WeChatAuto.Components.MessageBubble.Equals*
+  implements:
+  - System.IEquatable{WeChatAuto.Components.MessageBubble}.Equals(WeChatAuto.Components.MessageBubble)
+- uid: WeChatAuto.Components.MessageBubble.#ctor
+  commentId: M:WeChatAuto.Components.MessageBubble.#ctor
+  id: '#ctor'
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: MessageBubble()
+  nameWithType: MessageBubble.MessageBubble()
+  fullName: WeChatAuto.Components.MessageBubble.MessageBubble()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public MessageBubble()
+    content.vb: Public Sub New()
+  overload: WeChatAuto.Components.MessageBubble.#ctor*
+  nameWithType.vb: MessageBubble.New()
+  fullName.vb: WeChatAuto.Components.MessageBubble.New()
+  name.vb: New()
+- uid: WeChatAuto.Components.MessageBubble.MessageType
+  commentId: P:WeChatAuto.Components.MessageBubble.MessageType
+  id: MessageType
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: MessageBubble.MessageType
+  fullName: WeChatAuto.Components.MessageBubble.MessageType
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    消息类型
+
+    参见: <xref href="WeChatAuto.Components.MessageBubble.MessageType" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public MessageType MessageType { get; set; }
+    parameters: []
+    return:
+      type: WeAutoCommon.Enums.MessageType
+    content.vb: Public Property MessageType As MessageType
+  overload: WeChatAuto.Components.MessageBubble.MessageType*
+- uid: WeChatAuto.Components.MessageBubble.MessageSource
+  commentId: P:WeChatAuto.Components.MessageBubble.MessageSource
+  id: MessageSource
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: MessageSource
+  nameWithType: MessageBubble.MessageSource
+  fullName: WeChatAuto.Components.MessageBubble.MessageSource
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    消息来源类型
+
+    参见: <xref href="WeAutoCommon.Enums.MessageSourceType" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public MessageSourceType MessageSource { get; set; }
+    parameters: []
+    return:
+      type: WeAutoCommon.Enums.MessageSourceType
+    content.vb: Public Property MessageSource As MessageSourceType
+  overload: WeChatAuto.Components.MessageBubble.MessageSource*
+- uid: WeChatAuto.Components.MessageBubble.Who
+  commentId: P:WeChatAuto.Components.MessageBubble.Who
+  id: Who
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: Who
+  nameWithType: MessageBubble.Who
+  fullName: WeChatAuto.Components.MessageBubble.Who
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 发送者，好友或者群聊好友名称
+  example: []
+  syntax:
+    content: public string Who { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Who As String
+  overload: WeChatAuto.Components.MessageBubble.Who*
+- uid: WeChatAuto.Components.MessageBubble.GroupNickName
+  commentId: P:WeChatAuto.Components.MessageBubble.GroupNickName
+  id: GroupNickName
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: GroupNickName
+  nameWithType: MessageBubble.GroupNickName
+  fullName: WeChatAuto.Components.MessageBubble.GroupNickName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    群昵称
+
+    适用于群聊消息
+
+    后期做了简化：群聊中GroupNickName=who
+  example: []
+  syntax:
+    content: public string GroupNickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GroupNickName As String
+  overload: WeChatAuto.Components.MessageBubble.GroupNickName*
+- uid: WeChatAuto.Components.MessageBubble.ClickActionButton
+  commentId: P:WeChatAuto.Components.MessageBubble.ClickActionButton
+  id: ClickActionButton
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: ClickActionButton
+  nameWithType: MessageBubble.ClickActionButton
+  fullName: WeChatAuto.Components.MessageBubble.ClickActionButton
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 点击气泡后执行的操作按钮,有可能为空
+  example: []
+  syntax:
+    content: public Button ClickActionButton { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.Button
+    content.vb: Public Property ClickActionButton As Button
+  overload: WeChatAuto.Components.MessageBubble.ClickActionButton*
+- uid: WeChatAuto.Components.MessageBubble.MessageContent
+  commentId: P:WeChatAuto.Components.MessageBubble.MessageContent
+  id: MessageContent
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: MessageContent
+  nameWithType: MessageBubble.MessageContent
+  fullName: WeChatAuto.Components.MessageBubble.MessageContent
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 消息内容
+  example: []
+  syntax:
+    content: public string MessageContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageContent As String
+  overload: WeChatAuto.Components.MessageBubble.MessageContent*
+- uid: WeChatAuto.Components.MessageBubble.MessageTime
+  commentId: P:WeChatAuto.Components.MessageBubble.MessageTime
+  id: MessageTime
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: MessageTime
+  nameWithType: MessageBubble.MessageTime
+  fullName: WeChatAuto.Components.MessageBubble.MessageTime
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 消息时间
+  example: []
+  syntax:
+    content: public DateTime? MessageTime { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property MessageTime As Date?
+  overload: WeChatAuto.Components.MessageBubble.MessageTime*
+- uid: WeChatAuto.Components.MessageBubble.BeReferencedPersion
+  commentId: P:WeChatAuto.Components.MessageBubble.BeReferencedPersion
+  id: BeReferencedPersion
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: BeReferencedPersion
+  nameWithType: MessageBubble.BeReferencedPersion
+  fullName: WeChatAuto.Components.MessageBubble.BeReferencedPersion
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    被引用消息的人
+
+    适用于引用消息
+
+    注：目前只有文字消息支持引用
+  example: []
+  syntax:
+    content: public string BeReferencedPersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BeReferencedPersion As String
+  overload: WeChatAuto.Components.MessageBubble.BeReferencedPersion*
+- uid: WeChatAuto.Components.MessageBubble.BeReferencedMessage
+  commentId: P:WeChatAuto.Components.MessageBubble.BeReferencedMessage
+  id: BeReferencedMessage
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: BeReferencedMessage
+  nameWithType: MessageBubble.BeReferencedMessage
+  fullName: WeChatAuto.Components.MessageBubble.BeReferencedMessage
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    被引用消息的内容
+
+    适用于引用消息
+
+    注：目前只有文字消息支持引用
+  example: []
+  syntax:
+    content: public string BeReferencedMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BeReferencedMessage As String
+  overload: WeChatAuto.Components.MessageBubble.BeReferencedMessage*
+- uid: WeChatAuto.Components.MessageBubble.IsNew
+  commentId: P:WeChatAuto.Components.MessageBubble.IsNew
+  id: IsNew
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: MessageBubble.IsNew
+  fullName: WeChatAuto.Components.MessageBubble.IsNew
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 是否是新消息,读取列表的消息默认为旧消息
+  example: []
+  syntax:
+    content: public bool IsNew { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsNew As Boolean
+  overload: WeChatAuto.Components.MessageBubble.IsNew*
+- uid: WeChatAuto.Components.MessageBubble.BeTap
+  commentId: P:WeChatAuto.Components.MessageBubble.BeTap
+  id: BeTap
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: BeTap
+  nameWithType: MessageBubble.BeTap
+  fullName: WeChatAuto.Components.MessageBubble.BeTap
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    被拍一拍的人
+
+    适用于拍一拍消息
+  example: []
+  syntax:
+    content: public string BeTap { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BeTap As String
+  overload: WeChatAuto.Components.MessageBubble.BeTap*
+- uid: WeChatAuto.Components.MessageBubble.RuntimeId
+  commentId: P:WeChatAuto.Components.MessageBubble.RuntimeId
+  id: RuntimeId
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: RuntimeId
+  nameWithType: MessageBubble.RuntimeId
+  fullName: WeChatAuto.Components.MessageBubble.RuntimeId
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public int[] RuntimeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property RuntimeId As Integer()
+  overload: WeChatAuto.Components.MessageBubble.RuntimeId*
+- uid: WeChatAuto.Components.MessageBubble.BubbleHash
+  commentId: P:WeChatAuto.Components.MessageBubble.BubbleHash
+  id: BubbleHash
+  parent: WeChatAuto.Components.MessageBubble
+  langs:
+  - csharp
+  - vb
+  name: BubbleHash
+  nameWithType: MessageBubble.BubbleHash
+  fullName: WeChatAuto.Components.MessageBubble.BubbleHash
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubble.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public string BubbleHash { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BubbleHash As String
+  overload: WeChatAuto.Components.MessageBubble.BubbleHash*
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{WeChatAuto.Components.MessageBubble}
+  commentId: T:System.IEquatable{WeChatAuto.Components.MessageBubble}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<MessageBubble>
+  nameWithType: IEquatable<MessageBubble>
+  fullName: System.IEquatable<WeChatAuto.Components.MessageBubble>
+  nameWithType.vb: IEquatable(Of MessageBubble)
+  fullName.vb: System.IEquatable(Of WeChatAuto.Components.MessageBubble)
+  name.vb: IEquatable(Of MessageBubble)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<MessageBubble>(MessageBubble)
+  nameWithType: FunctionalExtensions.ToMaybe<MessageBubble>(MessageBubble)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.MessageBubble>(WeChatAuto.Components.MessageBubble)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of MessageBubble)(MessageBubble)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.MessageBubble)(WeChatAuto.Components.MessageBubble)
+  name.vb: ToMaybe(Of MessageBubble)(MessageBubble)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.MessageBubble)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.MessageBubble)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.Equals*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.Equals
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_Equals_System_Object_
+  name: Equals
+  nameWithType: MessageBubble.Equals
+  fullName: WeChatAuto.Components.MessageBubble.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.GetHashCode*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.GetHashCode
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_GetHashCode
+  name: GetHashCode
+  nameWithType: MessageBubble.GetHashCode
+  fullName: WeChatAuto.Components.MessageBubble.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.ToString*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.ToString
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_ToString
+  name: ToString
+  nameWithType: MessageBubble.ToString
+  fullName: WeChatAuto.Components.MessageBubble.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Components.MessageBubble.RrettyPrint*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.RrettyPrint
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_RrettyPrint
+  name: RrettyPrint
+  nameWithType: MessageBubble.RrettyPrint
+  fullName: WeChatAuto.Components.MessageBubble.RrettyPrint
+- uid: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.ToChatSimpleMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_ToChatSimpleMessage
+  name: ToChatSimpleMessage
+  nameWithType: MessageBubble.ToChatSimpleMessage
+  fullName: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage
+- uid: WeChatAuto.Models.ChatSimpleMessage
+  commentId: T:WeChatAuto.Models.ChatSimpleMessage
+  parent: WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.Models.ChatSimpleMessage.html
+  name: ChatSimpleMessage
+  nameWithType: ChatSimpleMessage
+  fullName: WeChatAuto.Models.ChatSimpleMessage
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+- uid: WeChatAuto.Components.MessageBubble.IsInvokable*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.IsInvokable
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_IsInvokable
+  name: IsInvokable
+  nameWithType: MessageBubble.IsInvokable
+  fullName: WeChatAuto.Components.MessageBubble.IsInvokable
+- uid: System.IEquatable{WeChatAuto.Components.MessageBubble}.Equals(WeChatAuto.Components.MessageBubble)
+  commentId: M:System.IEquatable{WeChatAuto.Components.MessageBubble}.Equals(WeChatAuto.Components.MessageBubble)
+  parent: System.IEquatable{WeChatAuto.Components.MessageBubble}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(MessageBubble)
+  nameWithType: IEquatable<MessageBubble>.Equals(MessageBubble)
+  fullName: System.IEquatable<WeChatAuto.Components.MessageBubble>.Equals(WeChatAuto.Components.MessageBubble)
+  nameWithType.vb: IEquatable(Of MessageBubble).Equals(MessageBubble)
+  fullName.vb: System.IEquatable(Of WeChatAuto.Components.MessageBubble).Equals(WeChatAuto.Components.MessageBubble)
+  spec.csharp:
+  - uid: System.IEquatable{WeChatAuto.Components.MessageBubble}.Equals(WeChatAuto.Components.MessageBubble)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{WeChatAuto.Components.MessageBubble}.Equals(WeChatAuto.Components.MessageBubble)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble
+  commentId: T:WeChatAuto.Components.MessageBubble
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html
+  name: MessageBubble
+  nameWithType: MessageBubble
+  fullName: WeChatAuto.Components.MessageBubble
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.#ctor*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble__ctor
+  name: MessageBubble
+  nameWithType: MessageBubble.MessageBubble
+  fullName: WeChatAuto.Components.MessageBubble.MessageBubble
+  nameWithType.vb: MessageBubble.New
+  fullName.vb: WeChatAuto.Components.MessageBubble.New
+  name.vb: New
+- uid: WeChatAuto.Components.MessageBubble.MessageType
+  commentId: P:WeChatAuto.Components.MessageBubble.MessageType
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_MessageType
+  name: MessageType
+  nameWithType: MessageBubble.MessageType
+  fullName: WeChatAuto.Components.MessageBubble.MessageType
+- uid: WeChatAuto.Components.MessageBubble.MessageType*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.MessageType
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_MessageType
+  name: MessageType
+  nameWithType: MessageBubble.MessageType
+  fullName: WeChatAuto.Components.MessageBubble.MessageType
+- uid: WeAutoCommon.Enums.MessageType
+  commentId: T:WeAutoCommon.Enums.MessageType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.MessageType.html
+  name: MessageType
+  nameWithType: MessageType
+  fullName: WeAutoCommon.Enums.MessageType
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.MessageSourceType
+  commentId: T:WeAutoCommon.Enums.MessageSourceType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.MessageSourceType.html
+  name: MessageSourceType
+  nameWithType: MessageSourceType
+  fullName: WeAutoCommon.Enums.MessageSourceType
+- uid: WeChatAuto.Components.MessageBubble.MessageSource*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.MessageSource
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_MessageSource
+  name: MessageSource
+  nameWithType: MessageBubble.MessageSource
+  fullName: WeChatAuto.Components.MessageBubble.MessageSource
+- uid: WeChatAuto.Components.MessageBubble.Who*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.Who
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_Who
+  name: Who
+  nameWithType: MessageBubble.Who
+  fullName: WeChatAuto.Components.MessageBubble.Who
+- uid: WeChatAuto.Components.MessageBubble.GroupNickName*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.GroupNickName
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_GroupNickName
+  name: GroupNickName
+  nameWithType: MessageBubble.GroupNickName
+  fullName: WeChatAuto.Components.MessageBubble.GroupNickName
+- uid: WeChatAuto.Components.MessageBubble.ClickActionButton*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.ClickActionButton
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_ClickActionButton
+  name: ClickActionButton
+  nameWithType: MessageBubble.ClickActionButton
+  fullName: WeChatAuto.Components.MessageBubble.ClickActionButton
+- uid: FlaUI.Core.AutomationElements.Button
+  commentId: T:FlaUI.Core.AutomationElements.Button
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: FlaUI.Core.AutomationElements.Button
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeChatAuto.Components.MessageBubble.MessageContent*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.MessageContent
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_MessageContent
+  name: MessageContent
+  nameWithType: MessageBubble.MessageContent
+  fullName: WeChatAuto.Components.MessageBubble.MessageContent
+- uid: WeChatAuto.Components.MessageBubble.MessageTime*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.MessageTime
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_MessageTime
+  name: MessageTime
+  nameWithType: MessageBubble.MessageTime
+  fullName: WeChatAuto.Components.MessageBubble.MessageTime
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.BeReferencedPersion*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.BeReferencedPersion
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_BeReferencedPersion
+  name: BeReferencedPersion
+  nameWithType: MessageBubble.BeReferencedPersion
+  fullName: WeChatAuto.Components.MessageBubble.BeReferencedPersion
+- uid: WeChatAuto.Components.MessageBubble.BeReferencedMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.BeReferencedMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_BeReferencedMessage
+  name: BeReferencedMessage
+  nameWithType: MessageBubble.BeReferencedMessage
+  fullName: WeChatAuto.Components.MessageBubble.BeReferencedMessage
+- uid: WeChatAuto.Components.MessageBubble.IsNew*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.IsNew
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_IsNew
+  name: IsNew
+  nameWithType: MessageBubble.IsNew
+  fullName: WeChatAuto.Components.MessageBubble.IsNew
+- uid: WeChatAuto.Components.MessageBubble.BeTap*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.BeTap
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_BeTap
+  name: BeTap
+  nameWithType: MessageBubble.BeTap
+  fullName: WeChatAuto.Components.MessageBubble.BeTap
+- uid: WeChatAuto.Components.MessageBubble.RuntimeId*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.RuntimeId
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_RuntimeId
+  name: RuntimeId
+  nameWithType: MessageBubble.RuntimeId
+  fullName: WeChatAuto.Components.MessageBubble.RuntimeId
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.MessageBubble.BubbleHash*
+  commentId: Overload:WeChatAuto.Components.MessageBubble.BubbleHash
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html#WeChatAuto_Components_MessageBubble_BubbleHash
+  name: BubbleHash
+  nameWithType: MessageBubble.BubbleHash
+  fullName: WeChatAuto.Components.MessageBubble.BubbleHash

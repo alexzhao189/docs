@@ -1,0 +1,16 @@
+- name: 📚 快速开始
+  items:
+    - name: 快速入门
+      href: quick-start.md
+    - name: 认识POM对象
+      href: glossary.md
+    - name: 架构概览
+      href: architecture-overview.md
+- name: 🚀 进阶指南
+  href: deep-guide.md
+- name: 🎈MCP Server/Client接入
+  href: mcp-server-client.md
+- name: � 常见问题
+  href: faq.md
+- name: 📚 API参考
+  href: /api/WeAutoCommon.Enums.html

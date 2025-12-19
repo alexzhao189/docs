@@ -1,0 +1,742 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.Navigation
+  commentId: T:WeChatAuto.Components.Navigation
+  id: Navigation
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.Navigation.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  - WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  - WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
+  - WeChatAuto.Components.Navigation._wxLocationCaches
+  langs:
+  - csharp
+  - vb
+  name: Navigation
+  nameWithType: Navigation
+  fullName: WeChatAuto.Components.Navigation
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public class Navigation
+    content.vb: Public Class Navigation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.Navigation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.Navigation._wxLocationCaches
+  commentId: F:WeChatAuto.Components.Navigation._wxLocationCaches
+  id: _wxLocationCaches
+  parent: WeChatAuto.Components.Navigation
+  langs:
+  - csharp
+  - vb
+  name: _wxLocationCaches
+  nameWithType: Navigation._wxLocationCaches
+  fullName: WeChatAuto.Components.Navigation._wxLocationCaches
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public WxLocationCaches _wxLocationCaches
+    return:
+      type: WeChatAuto.Utils.WxLocationCaches
+    content.vb: Public _wxLocationCaches As WxLocationCaches
+- uid: WeChatAuto.Components.Navigation.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.Navigation.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)'
+  parent: WeChatAuto.Components.Navigation
+  langs:
+  - csharp
+  - vb
+  name: Navigation(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
+  nameWithType: Navigation.Navigation(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
+  fullName: WeChatAuto.Components.Navigation.Navigation(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 导航栏构造函数
+  example: []
+  syntax:
+    content: public Navigation(Window window, IWeChatWindow wxWindow, UIThreadInvoker uiThreadInvoker, IServiceProvider serviceProvider)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: wxWindow
+      type: WeAutoCommon.Interface.IWeChatWindow
+      description: 微信窗口
+    - id: uiThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+      description: UI线程执行器
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: 服务提供者
+    content.vb: Public Sub New(window As Window, wxWindow As IWeChatWindow, uiThreadInvoker As UIThreadInvoker, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.Navigation.#ctor*
+  nameWithType.vb: Navigation.New(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.Navigation.New(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
+  name.vb: New(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
+- uid: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
+  commentId: M:WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
+  id: SwitchNavigation(WeAutoCommon.Enums.NavigationType)
+  parent: WeChatAuto.Components.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SwitchNavigation(NavigationType)
+  nameWithType: Navigation.SwitchNavigation(NavigationType)
+  fullName: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 切换导航栏
+  example: []
+  syntax:
+    content: public void SwitchNavigation(NavigationType navigationType)
+    parameters:
+    - id: navigationType
+      type: WeAutoCommon.Enums.NavigationType
+      description: 导航栏类型
+    content.vb: Public Sub SwitchNavigation(navigationType As NavigationType)
+  overload: WeChatAuto.Components.Navigation.SwitchNavigation*
+- uid: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  commentId: M:WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  id: CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  parent: WeChatAuto.Components.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CloseNavigation(NavigationType)
+  nameWithType: Navigation.CloseNavigation(NavigationType)
+  fullName: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    关闭导航栏
+
+    仅支持聊天文件、朋友圈、视频号、看一看、搜一搜、小程序面板
+  example: []
+  syntax:
+    content: public void CloseNavigation(NavigationType navigationType)
+    parameters:
+    - id: navigationType
+      type: WeAutoCommon.Enums.NavigationType
+      description: 导航栏类型
+    content.vb: Public Sub CloseNavigation(navigationType As NavigationType)
+  overload: WeChatAuto.Components.Navigation.CloseNavigation*
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.Navigation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Navigation>(Navigation)
+  nameWithType: FunctionalExtensions.ToMaybe<Navigation>(Navigation)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.Navigation>(WeChatAuto.Components.Navigation)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Navigation)(Navigation)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.Navigation)(WeChatAuto.Components.Navigation)
+  name.vb: ToMaybe(Of Navigation)(Navigation)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Navigation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.Navigation
+    name: Navigation
+    isExternal: true
+    href: WeChatAuto.Components.Navigation.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.Navigation
+    name: Navigation
+    isExternal: true
+    href: WeChatAuto.Components.Navigation.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Navigation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.Navigation
+    name: Navigation
+    isExternal: true
+    href: WeChatAuto.Components.Navigation.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.Navigation
+    name: Navigation
+    isExternal: true
+    href: WeChatAuto.Components.Navigation.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.WxLocationCaches
+  commentId: T:WeChatAuto.Utils.WxLocationCaches
+  parent: WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocationCaches.html
+  name: WxLocationCaches
+  nameWithType: WxLocationCaches
+  fullName: WeChatAuto.Utils.WxLocationCaches
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+- uid: WeChatAuto.Components.Navigation.#ctor*
+  commentId: Overload:WeChatAuto.Components.Navigation.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation__ctor_FlaUI_Core_AutomationElements_Window_WeAutoCommon_Interface_IWeChatWindow_WeAutoCommon_Utils_UIThreadInvoker_System_IServiceProvider_
+  name: Navigation
+  nameWithType: Navigation.Navigation
+  fullName: WeChatAuto.Components.Navigation.Navigation
+  nameWithType.vb: Navigation.New
+  fullName.vb: WeChatAuto.Components.Navigation.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: WeAutoCommon.Interface.IWeChatWindow
+  commentId: T:WeAutoCommon.Interface.IWeChatWindow
+  parent: WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Interface
+  commentId: N:WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Interface
+  nameWithType: WeAutoCommon.Interface
+  fullName: WeAutoCommon.Interface
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: WeChatAuto.Components.Navigation.SwitchNavigation*
+  commentId: Overload:WeChatAuto.Components.Navigation.SwitchNavigation
+  isExternal: true
+  href: WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_SwitchNavigation_WeAutoCommon_Enums_NavigationType_
+  name: SwitchNavigation
+  nameWithType: Navigation.SwitchNavigation
+  fullName: WeChatAuto.Components.Navigation.SwitchNavigation
+- uid: WeAutoCommon.Enums.NavigationType
+  commentId: T:WeAutoCommon.Enums.NavigationType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.NavigationType.html
+  name: NavigationType
+  nameWithType: NavigationType
+  fullName: WeAutoCommon.Enums.NavigationType
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeChatAuto.Components.Navigation.CloseNavigation*
+  commentId: Overload:WeChatAuto.Components.Navigation.CloseNavigation
+  isExternal: true
+  href: WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_CloseNavigation_WeAutoCommon_Enums_NavigationType_
+  name: CloseNavigation
+  nameWithType: Navigation.CloseNavigation
+  fullName: WeChatAuto.Components.Navigation.CloseNavigation

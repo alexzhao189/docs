@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Extentions
+  commentId: N:WeChatAuto.Extentions
+  id: WeChatAuto.Extentions
+  children:
+  - WeChatAuto.Extentions.AutoLoggerExtensions
+  - WeChatAuto.Extentions.AutomationElementExtensions
+  - WeChatAuto.Extentions.ClickEnhanceExtentions
+  - WeChatAuto.Extentions.KMSimulatorExtensions
+  - WeChatAuto.Extentions.SilenceActionTools
+  - WeChatAuto.Extentions.TypeNewStringExtentions
+  - WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.Extentions
+  nameWithType: WeChatAuto.Extentions
+  fullName: WeChatAuto.Extentions
+  type: Namespace
+  assemblies:
+  - WeChatAuto
+references:
+- uid: WeChatAuto.Extentions.AutoLoggerExtensions
+  commentId: T:WeChatAuto.Extentions.AutoLoggerExtensions
+  isExternal: true
+  href: WeChatAuto.Extentions.AutoLoggerExtensions.html
+  name: AutoLoggerExtensions
+  nameWithType: AutoLoggerExtensions
+  fullName: WeChatAuto.Extentions.AutoLoggerExtensions
+- uid: WeChatAuto.Extentions.AutomationElementExtensions
+  commentId: T:WeChatAuto.Extentions.AutomationElementExtensions
+  isExternal: true
+  href: WeChatAuto.Extentions.AutomationElementExtensions.html
+  name: AutomationElementExtensions
+  nameWithType: AutomationElementExtensions
+  fullName: WeChatAuto.Extentions.AutomationElementExtensions
+- uid: WeChatAuto.Extentions.ClickEnhanceExtentions
+  commentId: T:WeChatAuto.Extentions.ClickEnhanceExtentions
+  isExternal: true
+  href: WeChatAuto.Extentions.ClickEnhanceExtentions.html
+  name: ClickEnhanceExtentions
+  nameWithType: ClickEnhanceExtentions
+  fullName: WeChatAuto.Extentions.ClickEnhanceExtentions
+- uid: WeChatAuto.Extentions.KMSimulatorExtensions
+  commentId: T:WeChatAuto.Extentions.KMSimulatorExtensions
+  isExternal: true
+  href: WeChatAuto.Extentions.KMSimulatorExtensions.html
+  name: KMSimulatorExtensions
+  nameWithType: KMSimulatorExtensions
+  fullName: WeChatAuto.Extentions.KMSimulatorExtensions
+- uid: WeChatAuto.Extentions.SilenceActionTools
+  commentId: T:WeChatAuto.Extentions.SilenceActionTools
+  parent: WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html
+  name: SilenceActionTools
+  nameWithType: SilenceActionTools
+  fullName: WeChatAuto.Extentions.SilenceActionTools
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions
+  commentId: T:WeChatAuto.Extentions.TypeNewStringExtentions
+  isExternal: true
+  href: WeChatAuto.Extentions.TypeNewStringExtentions.html
+  name: TypeNewStringExtentions
+  nameWithType: TypeNewStringExtentions
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions
+- uid: WeChatAuto.Extentions.WindowSlienceAction
+  commentId: T:WeChatAuto.Extentions.WindowSlienceAction
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html
+  name: WindowSlienceAction
+  nameWithType: WindowSlienceAction
+  fullName: WeChatAuto.Extentions.WindowSlienceAction
+- uid: WeChatAuto.Extentions
+  commentId: N:WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Extentions
+  nameWithType: WeChatAuto.Extentions
+  fullName: WeChatAuto.Extentions
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html

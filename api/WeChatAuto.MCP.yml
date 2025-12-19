@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP
+  commentId: N:WeChatAuto.MCP
+  id: WeChatAuto.MCP
+  children:
+  - WeChatAuto.MCP.Program
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.MCP
+  nameWithType: WeChatAuto.MCP
+  fullName: WeChatAuto.MCP
+  type: Namespace
+  assemblies:
+  - WeChatAuto.MCP
+references:
+- uid: WeChatAuto.MCP.Program
+  commentId: T:WeChatAuto.MCP.Program
+  isExternal: true
+  href: WeChatAuto.MCP.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: WeChatAuto.MCP.Program

@@ -1,0 +1,1616 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Services.KMSimulatorService
+  commentId: T:WeChatAuto.Services.KMSimulatorService
+  id: KMSimulatorService
+  parent: WeChatAuto.Services
+  children:
+  - WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(System.String,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.CloseDevice
+  - WeChatAuto.Services.KMSimulatorService.Delay(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.DeviceData
+  - WeChatAuto.Services.KMSimulatorService.Enter(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.Init(System.Int32,System.Int32,System.String,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.IsDeviceOpen
+  - WeChatAuto.Services.KMSimulatorService.KeyDown(System.String)
+  - WeChatAuto.Services.KMSimulatorService.KeyPress(System.String)
+  - WeChatAuto.Services.KMSimulatorService.KeyPressString(System.String)
+  - WeChatAuto.Services.KMSimulatorService.KeyUp(System.String)
+  - WeChatAuto.Services.KMSimulatorService.LeftClick
+  - WeChatAuto.Services.KMSimulatorService.LeftClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.LeftClick(System.Drawing.Point)
+  - WeChatAuto.Services.KMSimulatorService.LeftClick(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Drawing.Point)
+  - WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MiddleClick
+  - WeChatAuto.Services.KMSimulatorService.MiddleClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Drawing.Point)
+  - WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32,System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MoveBy(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.MoveTo(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.OpenDevice(System.UInt32)
+  - WeChatAuto.Services.KMSimulatorService.RightClick
+  - WeChatAuto.Services.KMSimulatorService.RightClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Services.KMSimulatorService.RightClick(System.Drawing.Point)
+  - WeChatAuto.Services.KMSimulatorService.RightClick(System.Int32,System.Int32)
+  - WeChatAuto.Services.KMSimulatorService.SearchDevice(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: KMSimulatorService
+  nameWithType: KMSimulatorService
+  fullName: WeChatAuto.Services.KMSimulatorService
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 键鼠模拟器服务
+  example: []
+  syntax:
+    content: public static class KMSimulatorService
+    content.vb: Public Module KMSimulatorService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: WeChatAuto.Services.KMSimulatorService.Init(System.Int32,System.Int32,System.String,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.Init(System.Int32,System.Int32,System.String,System.Int32)
+  id: Init(System.Int32,System.Int32,System.String,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: Init(int, int, string, int)
+  nameWithType: KMSimulatorService.Init(int, int, string, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.Init(int, int, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  syntax:
+    content: public static void Init(int deviceVID, int devicePID, string verifyUserData, int outputStringType = 4)
+    parameters:
+    - id: deviceVID
+      type: System.Int32
+    - id: devicePID
+      type: System.Int32
+    - id: verifyUserData
+      type: System.String
+    - id: outputStringType
+      type: System.Int32
+    content.vb: Public Shared Sub Init(deviceVID As Integer, devicePID As Integer, verifyUserData As String, outputStringType As Integer = 4)
+  overload: WeChatAuto.Services.KMSimulatorService.Init*
+  nameWithType.vb: KMSimulatorService.Init(Integer, Integer, String, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.Init(Integer, Integer, String, Integer)
+  name.vb: Init(Integer, Integer, String, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.SearchDevice(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.SearchDevice(System.Int32,System.Int32)
+  id: SearchDevice(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: SearchDevice(int, int)
+  nameWithType: KMSimulatorService.SearchDevice(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.SearchDevice(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 搜索设备
+  example: []
+  syntax:
+    content: public static uint SearchDevice(int deviceVID, int devicePID)
+    parameters:
+    - id: deviceVID
+      type: System.Int32
+      description: 设备VID
+    - id: devicePID
+      type: System.Int32
+      description: 设备PID
+    return:
+      type: System.UInt32
+      description: 设备ID
+    content.vb: Public Shared Function SearchDevice(deviceVID As Integer, devicePID As Integer) As UInteger
+  overload: WeChatAuto.Services.KMSimulatorService.SearchDevice*
+  nameWithType.vb: KMSimulatorService.SearchDevice(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.SearchDevice(Integer, Integer)
+  name.vb: SearchDevice(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.OpenDevice(System.UInt32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.OpenDevice(System.UInt32)
+  id: OpenDevice(System.UInt32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: OpenDevice(uint)
+  nameWithType: KMSimulatorService.OpenDevice(uint)
+  fullName: WeChatAuto.Services.KMSimulatorService.OpenDevice(uint)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 打开设备
+  example: []
+  syntax:
+    content: public static void OpenDevice(uint deviceID)
+    parameters:
+    - id: deviceID
+      type: System.UInt32
+      description: 设备ID
+    content.vb: Public Shared Sub OpenDevice(deviceID As UInteger)
+  overload: WeChatAuto.Services.KMSimulatorService.OpenDevice*
+  nameWithType.vb: KMSimulatorService.OpenDevice(UInteger)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.OpenDevice(UInteger)
+  name.vb: OpenDevice(UInteger)
+- uid: WeChatAuto.Services.KMSimulatorService.CloseDevice
+  commentId: M:WeChatAuto.Services.KMSimulatorService.CloseDevice
+  id: CloseDevice
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: CloseDevice()
+  nameWithType: KMSimulatorService.CloseDevice()
+  fullName: WeChatAuto.Services.KMSimulatorService.CloseDevice()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 关闭设备
+  example: []
+  syntax:
+    content: public static void CloseDevice()
+    content.vb: Public Shared Sub CloseDevice()
+  overload: WeChatAuto.Services.KMSimulatorService.CloseDevice*
+- uid: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen
+  commentId: M:WeChatAuto.Services.KMSimulatorService.IsDeviceOpen
+  id: IsDeviceOpen
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: IsDeviceOpen()
+  nameWithType: KMSimulatorService.IsDeviceOpen()
+  fullName: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 判断设备是否打开
+  example: []
+  syntax:
+    content: public static bool IsDeviceOpen()
+    return:
+      type: System.Boolean
+      description: 是否打开
+    content.vb: Public Shared Function IsDeviceOpen() As Boolean
+  overload: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen*
+- uid: WeChatAuto.Services.KMSimulatorService.Delay(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.Delay(System.Int32,System.Int32)
+  id: Delay(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: Delay(int, int)
+  nameWithType: KMSimulatorService.Delay(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.Delay(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 随机延时
+  example: []
+  syntax:
+    content: public static void Delay(int minTime, int maxTime)
+    parameters:
+    - id: minTime
+      type: System.Int32
+      description: 最小延时
+    - id: maxTime
+      type: System.Int32
+      description: 最大延时
+    content.vb: Public Shared Sub Delay(minTime As Integer, maxTime As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.Delay*
+  nameWithType.vb: KMSimulatorService.Delay(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.Delay(Integer, Integer)
+  name.vb: Delay(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.KeyPressString(System.String)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.KeyPressString(System.String)
+  id: KeyPressString(System.String)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: KeyPressString(string)
+  nameWithType: KMSimulatorService.KeyPressString(string)
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyPressString(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 输出字符串
+  example: []
+  syntax:
+    content: public static void KeyPressString(string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: 字符串
+    content.vb: Public Shared Sub KeyPressString(str As String)
+  overload: WeChatAuto.Services.KMSimulatorService.KeyPressString*
+  nameWithType.vb: KMSimulatorService.KeyPressString(String)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.KeyPressString(String)
+  name.vb: KeyPressString(String)
+- uid: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(System.String,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(System.String,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: ClearAndTypeString(System.String,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: ClearAndTypeString(string, Window, AutomationElement)
+  nameWithType: KMSimulatorService.ClearAndTypeString(string, Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(string, FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 清空输入框并输入字符串
+  example: []
+  syntax:
+    content: public static void ClearAndTypeString(string str, Window window, AutomationElement element)
+    parameters:
+    - id: str
+      type: System.String
+      description: 字符串
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub ClearAndTypeString(str As String, window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString*
+  nameWithType.vb: KMSimulatorService.ClearAndTypeString(String, Window, AutomationElement)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(String, FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  name.vb: ClearAndTypeString(String, Window, AutomationElement)
+- uid: WeChatAuto.Services.KMSimulatorService.Enter(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.Enter(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: Enter(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: Enter(Window, AutomationElement)
+  nameWithType: KMSimulatorService.Enter(Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.Enter(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 按下回车键
+  example: []
+  syntax:
+    content: public static void Enter(Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub Enter(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.Enter*
+- uid: WeChatAuto.Services.KMSimulatorService.KeyDown(System.String)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.KeyDown(System.String)
+  id: KeyDown(System.String)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: KeyDown(string)
+  nameWithType: KMSimulatorService.KeyDown(string)
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyDown(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 键盘按下
+  example: []
+  syntax:
+    content: public static void KeyDown(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: 按键
+    content.vb: Public Shared Sub KeyDown(key As String)
+  overload: WeChatAuto.Services.KMSimulatorService.KeyDown*
+  nameWithType.vb: KMSimulatorService.KeyDown(String)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.KeyDown(String)
+  name.vb: KeyDown(String)
+- uid: WeChatAuto.Services.KMSimulatorService.KeyUp(System.String)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.KeyUp(System.String)
+  id: KeyUp(System.String)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: KeyUp(string)
+  nameWithType: KMSimulatorService.KeyUp(string)
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyUp(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 键盘弹起
+  example: []
+  syntax:
+    content: public static void KeyUp(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: 按键
+    content.vb: Public Shared Sub KeyUp(key As String)
+  overload: WeChatAuto.Services.KMSimulatorService.KeyUp*
+  nameWithType.vb: KMSimulatorService.KeyUp(String)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.KeyUp(String)
+  name.vb: KeyUp(String)
+- uid: WeChatAuto.Services.KMSimulatorService.KeyPress(System.String)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.KeyPress(System.String)
+  id: KeyPress(System.String)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: KeyPress(string)
+  nameWithType: KMSimulatorService.KeyPress(string)
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyPress(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 键盘按键
+  example: []
+  syntax:
+    content: public static void KeyPress(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: 按键
+    content.vb: Public Shared Sub KeyPress(key As String)
+  overload: WeChatAuto.Services.KMSimulatorService.KeyPress*
+  nameWithType.vb: KMSimulatorService.KeyPress(String)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.KeyPress(String)
+  name.vb: KeyPress(String)
+- uid: WeChatAuto.Services.KMSimulatorService.MoveBy(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MoveBy(System.Int32,System.Int32)
+  id: MoveBy(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MoveBy(int, int)
+  nameWithType: KMSimulatorService.MoveBy(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MoveBy(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 相对移动
+  example: []
+  syntax:
+    content: public static void MoveBy(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    content.vb: Public Shared Sub MoveBy(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.MoveBy*
+  nameWithType.vb: KMSimulatorService.MoveBy(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MoveBy(Integer, Integer)
+  name.vb: MoveBy(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.MoveTo(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MoveTo(System.Int32,System.Int32)
+  id: MoveTo(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(int, int)
+  nameWithType: KMSimulatorService.MoveTo(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MoveTo(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 绝对移动
+  example: []
+  syntax:
+    content: public static void MoveTo(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    content.vb: Public Shared Sub MoveTo(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.MoveTo*
+  nameWithType.vb: KMSimulatorService.MoveTo(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.LeftClick
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftClick
+  id: LeftClick
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftClick()
+  nameWithType: KMSimulatorService.LeftClick()
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftClick()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 左键单击
+  example: []
+  syntax:
+    content: public static void LeftClick()
+    content.vb: Public Shared Sub LeftClick()
+  overload: WeChatAuto.Services.KMSimulatorService.LeftClick*
+- uid: WeChatAuto.Services.KMSimulatorService.LeftClick(System.Drawing.Point)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftClick(System.Drawing.Point)
+  id: LeftClick(System.Drawing.Point)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftClick(Point)
+  nameWithType: KMSimulatorService.LeftClick(Point)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 左键单击
+  example: []
+  syntax:
+    content: public static void LeftClick(Point point)
+    parameters:
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    content.vb: Public Shared Sub LeftClick(point As Point)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftClick*
+- uid: WeChatAuto.Services.KMSimulatorService.LeftClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: LeftClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftClick(Window, AutomationElement)
+  nameWithType: KMSimulatorService.LeftClick(Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: >-
+    左键单击
+
+    此方法dpi感知,并且加上元素范围内的随机偏移
+  example: []
+  syntax:
+    content: public static void LeftClick(Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub LeftClick(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftClick*
+- uid: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftDblClickWithDpiAware(Window, AutomationElement)
+  nameWithType: KMSimulatorService.LeftDblClickWithDpiAware(Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: >-
+    左键双击
+
+    此方法dpi感知,并且加上元素范围内的随机偏移
+  example: []
+  syntax:
+    content: public static void LeftDblClickWithDpiAware(Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub LeftDblClickWithDpiAware(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware*
+- uid: WeChatAuto.Services.KMSimulatorService.LeftClick(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftClick(System.Int32,System.Int32)
+  id: LeftClick(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftClick(int, int)
+  nameWithType: KMSimulatorService.LeftClick(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 左键单击
+  example: []
+  syntax:
+    content: public static void LeftClick(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    content.vb: Public Shared Sub LeftClick(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftClick*
+  nameWithType.vb: KMSimulatorService.LeftClick(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.LeftClick(Integer, Integer)
+  name.vb: LeftClick(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.RightClick
+  commentId: M:WeChatAuto.Services.KMSimulatorService.RightClick
+  id: RightClick
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: RightClick()
+  nameWithType: KMSimulatorService.RightClick()
+  fullName: WeChatAuto.Services.KMSimulatorService.RightClick()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 右键单击
+  example: []
+  syntax:
+    content: public static void RightClick()
+    content.vb: Public Shared Sub RightClick()
+  overload: WeChatAuto.Services.KMSimulatorService.RightClick*
+- uid: WeChatAuto.Services.KMSimulatorService.RightClick(System.Drawing.Point)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.RightClick(System.Drawing.Point)
+  id: RightClick(System.Drawing.Point)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: RightClick(Point)
+  nameWithType: KMSimulatorService.RightClick(Point)
+  fullName: WeChatAuto.Services.KMSimulatorService.RightClick(System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 右键单击
+  example: []
+  syntax:
+    content: public static void RightClick(Point point)
+    parameters:
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    content.vb: Public Shared Sub RightClick(point As Point)
+  overload: WeChatAuto.Services.KMSimulatorService.RightClick*
+- uid: WeChatAuto.Services.KMSimulatorService.RightClick(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.RightClick(System.Int32,System.Int32)
+  id: RightClick(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: RightClick(int, int)
+  nameWithType: KMSimulatorService.RightClick(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.RightClick(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 右键单击
+  example: []
+  syntax:
+    content: public static void RightClick(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    content.vb: Public Shared Sub RightClick(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.RightClick*
+  nameWithType.vb: KMSimulatorService.RightClick(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.RightClick(Integer, Integer)
+  name.vb: RightClick(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.RightClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.RightClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: RightClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: RightClick(Window, AutomationElement)
+  nameWithType: KMSimulatorService.RightClick(Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.RightClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 右键单击
+  example: []
+  syntax:
+    content: public static void RightClick(Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub RightClick(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.RightClick*
+- uid: WeChatAuto.Services.KMSimulatorService.MiddleClick
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MiddleClick
+  id: MiddleClick
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MiddleClick()
+  nameWithType: KMSimulatorService.MiddleClick()
+  fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 中键单击
+  example: []
+  syntax:
+    content: public static void MiddleClick()
+    content.vb: Public Shared Sub MiddleClick()
+  overload: WeChatAuto.Services.KMSimulatorService.MiddleClick*
+- uid: WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Drawing.Point)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Drawing.Point)
+  id: MiddleClick(System.Drawing.Point)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MiddleClick(Point)
+  nameWithType: KMSimulatorService.MiddleClick(Point)
+  fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 中键单击
+  example: []
+  syntax:
+    content: public static void MiddleClick(Point point)
+    parameters:
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    content.vb: Public Shared Sub MiddleClick(point As Point)
+  overload: WeChatAuto.Services.KMSimulatorService.MiddleClick*
+- uid: WeChatAuto.Services.KMSimulatorService.MiddleClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MiddleClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: MiddleClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MiddleClick(Window, AutomationElement)
+  nameWithType: KMSimulatorService.MiddleClick(Window, AutomationElement)
+  fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: >-
+    中键单击
+
+    此方法dpi感知
+  example: []
+  syntax:
+    content: public static void MiddleClick(Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub MiddleClick(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Services.KMSimulatorService.MiddleClick*
+- uid: WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Int32,System.Int32)
+  id: MiddleClick(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MiddleClick(int, int)
+  nameWithType: KMSimulatorService.MiddleClick(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: >-
+    中键单击
+
+    此方法dpi感知
+  example: []
+  syntax:
+    content: public static void MiddleClick(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    content.vb: Public Shared Sub MiddleClick(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.MiddleClick*
+  nameWithType.vb: KMSimulatorService.MiddleClick(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MiddleClick(Integer, Integer)
+  name.vb: MiddleClick(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32)
+  id: MouseWheel(System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel(int)
+  nameWithType: KMSimulatorService.MouseWheel(int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 鼠标滚轮
+  example: []
+  syntax:
+    content: public static void MouseWheel(int count = 3)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: 滚轮数量
+    content.vb: Public Shared Sub MouseWheel(count As Integer = 3)
+  overload: WeChatAuto.Services.KMSimulatorService.MouseWheel*
+  nameWithType.vb: KMSimulatorService.MouseWheel(Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MouseWheel(Integer)
+  name.vb: MouseWheel(Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point,System.Int32)
+  id: MouseWheel(System.Drawing.Point,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel(Point, int)
+  nameWithType: KMSimulatorService.MouseWheel(Point, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 鼠标滚轮
+  example: []
+  syntax:
+    content: public static void MouseWheel(Point point, int count = 3)
+    parameters:
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    - id: count
+      type: System.Int32
+      description: 滚轮数量
+    content.vb: Public Shared Sub MouseWheel(point As Point, count As Integer = 3)
+  overload: WeChatAuto.Services.KMSimulatorService.MouseWheel*
+  nameWithType.vb: KMSimulatorService.MouseWheel(Point, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point, Integer)
+  name.vb: MouseWheel(Point, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,System.Int32)
+  id: MouseWheel(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel(Window, AutomationElement, int)
+  nameWithType: KMSimulatorService.MouseWheel(Window, AutomationElement, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: >-
+    鼠标滚轮
+
+    此方法dpi感知
+  example: []
+  syntax:
+    content: public static void MouseWheel(Window window, AutomationElement element, int count = 3)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    - id: count
+      type: System.Int32
+      description: 滚轮数量
+    content.vb: Public Shared Sub MouseWheel(window As Window, element As AutomationElement, count As Integer = 3)
+  overload: WeChatAuto.Services.KMSimulatorService.MouseWheel*
+  nameWithType.vb: KMSimulatorService.MouseWheel(Window, AutomationElement, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, Integer)
+  name.vb: MouseWheel(Window, AutomationElement, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32,System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Int32,System.Int32,System.Int32)
+  id: MouseWheel(System.Int32,System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel(int, int, int)
+  nameWithType: KMSimulatorService.MouseWheel(int, int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(int, int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 鼠标滚轮
+  example: []
+  syntax:
+    content: public static void MouseWheel(int x, int y, int count = 3)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: x坐标
+    - id: y
+      type: System.Int32
+      description: y坐标
+    - id: count
+      type: System.Int32
+      description: 滚轮数量
+    content.vb: Public Shared Sub MouseWheel(x As Integer, y As Integer, count As Integer = 3)
+  overload: WeChatAuto.Services.KMSimulatorService.MouseWheel*
+  nameWithType.vb: KMSimulatorService.MouseWheel(Integer, Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.MouseWheel(Integer, Integer, Integer)
+  name.vb: MouseWheel(Integer, Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Drawing.Point)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Drawing.Point)
+  id: LeftDoubleClick(System.Drawing.Point)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftDoubleClick(Point)
+  nameWithType: KMSimulatorService.LeftDoubleClick(Point)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 左键双击
+  example: []
+  syntax:
+    content: public static void LeftDoubleClick(Point point)
+    parameters:
+    - id: point
+      type: System.Drawing.Point
+      description: ''
+    content.vb: Public Shared Sub LeftDoubleClick(point As Point)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick*
+- uid: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Int32,System.Int32)
+  id: LeftDoubleClick(System.Int32,System.Int32)
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: LeftDoubleClick(int, int)
+  nameWithType: KMSimulatorService.LeftDoubleClick(int, int)
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  summary: 左键双击
+  example: []
+  syntax:
+    content: public static void LeftDoubleClick(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: ''
+    - id: y
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub LeftDoubleClick(x As Integer, y As Integer)
+  overload: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick*
+  nameWithType.vb: KMSimulatorService.LeftDoubleClick(Integer, Integer)
+  fullName.vb: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(Integer, Integer)
+  name.vb: LeftDoubleClick(Integer, Integer)
+- uid: WeChatAuto.Services.KMSimulatorService.DeviceData
+  commentId: P:WeChatAuto.Services.KMSimulatorService.DeviceData
+  id: DeviceData
+  parent: WeChatAuto.Services.KMSimulatorService
+  langs:
+  - csharp
+  - vb
+  name: DeviceData
+  nameWithType: KMSimulatorService.DeviceData
+  fullName: WeChatAuto.Services.KMSimulatorService.DeviceData
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Services/KMSimulatorService.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  syntax:
+    content: public static nint DeviceData { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Shared ReadOnly Property DeviceData As IntPtr
+  overload: WeChatAuto.Services.KMSimulatorService.DeviceData*
+references:
+- uid: WeChatAuto.Services
+  commentId: N:WeChatAuto.Services
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Services
+  nameWithType: WeChatAuto.Services
+  fullName: WeChatAuto.Services
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Services
+    name: Services
+    isExternal: true
+    href: WeChatAuto.Services.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Services
+    name: Services
+    isExternal: true
+    href: WeChatAuto.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeChatAuto.Services.KMSimulatorService.Init*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.Init
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_Init_System_Int32_System_Int32_System_String_System_Int32_
+  name: Init
+  nameWithType: KMSimulatorService.Init
+  fullName: WeChatAuto.Services.KMSimulatorService.Init
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Services.KMSimulatorService.SearchDevice*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.SearchDevice
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_SearchDevice_System_Int32_System_Int32_
+  name: SearchDevice
+  nameWithType: KMSimulatorService.SearchDevice
+  fullName: WeChatAuto.Services.KMSimulatorService.SearchDevice
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: WeChatAuto.Services.KMSimulatorService.OpenDevice*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.OpenDevice
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_OpenDevice_System_UInt32_
+  name: OpenDevice
+  nameWithType: KMSimulatorService.OpenDevice
+  fullName: WeChatAuto.Services.KMSimulatorService.OpenDevice
+- uid: WeChatAuto.Services.KMSimulatorService.CloseDevice*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.CloseDevice
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_CloseDevice
+  name: CloseDevice
+  nameWithType: KMSimulatorService.CloseDevice
+  fullName: WeChatAuto.Services.KMSimulatorService.CloseDevice
+- uid: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.IsDeviceOpen
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_IsDeviceOpen
+  name: IsDeviceOpen
+  nameWithType: KMSimulatorService.IsDeviceOpen
+  fullName: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Services.KMSimulatorService.Delay*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.Delay
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_Delay_System_Int32_System_Int32_
+  name: Delay
+  nameWithType: KMSimulatorService.Delay
+  fullName: WeChatAuto.Services.KMSimulatorService.Delay
+- uid: WeChatAuto.Services.KMSimulatorService.KeyPressString*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.KeyPressString
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_KeyPressString_System_String_
+  name: KeyPressString
+  nameWithType: KMSimulatorService.KeyPressString
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyPressString
+- uid: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.ClearAndTypeString
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_ClearAndTypeString_System_String_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: ClearAndTypeString
+  nameWithType: KMSimulatorService.ClearAndTypeString
+  fullName: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: FlaUI.Core.AutomationElements.AutomationElement
+  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: AutomationElement
+  nameWithType: AutomationElement
+  fullName: FlaUI.Core.AutomationElements.AutomationElement
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeChatAuto.Services.KMSimulatorService.Enter*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.Enter
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_Enter_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: Enter
+  nameWithType: KMSimulatorService.Enter
+  fullName: WeChatAuto.Services.KMSimulatorService.Enter
+- uid: WeChatAuto.Services.KMSimulatorService.KeyDown*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.KeyDown
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_KeyDown_System_String_
+  name: KeyDown
+  nameWithType: KMSimulatorService.KeyDown
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyDown
+- uid: WeChatAuto.Services.KMSimulatorService.KeyUp*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.KeyUp
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_KeyUp_System_String_
+  name: KeyUp
+  nameWithType: KMSimulatorService.KeyUp
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyUp
+- uid: WeChatAuto.Services.KMSimulatorService.KeyPress*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.KeyPress
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_KeyPress_System_String_
+  name: KeyPress
+  nameWithType: KMSimulatorService.KeyPress
+  fullName: WeChatAuto.Services.KMSimulatorService.KeyPress
+- uid: WeChatAuto.Services.KMSimulatorService.MoveBy*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.MoveBy
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_MoveBy_System_Int32_System_Int32_
+  name: MoveBy
+  nameWithType: KMSimulatorService.MoveBy
+  fullName: WeChatAuto.Services.KMSimulatorService.MoveBy
+- uid: WeChatAuto.Services.KMSimulatorService.MoveTo*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.MoveTo
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_MoveTo_System_Int32_System_Int32_
+  name: MoveTo
+  nameWithType: KMSimulatorService.MoveTo
+  fullName: WeChatAuto.Services.KMSimulatorService.MoveTo
+- uid: WeChatAuto.Services.KMSimulatorService.LeftClick*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.LeftClick
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_LeftClick
+  name: LeftClick
+  nameWithType: KMSimulatorService.LeftClick
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftClick
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_LeftDblClickWithDpiAware_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: LeftDblClickWithDpiAware
+  nameWithType: KMSimulatorService.LeftDblClickWithDpiAware
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware
+- uid: WeChatAuto.Services.KMSimulatorService.RightClick*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.RightClick
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_RightClick
+  name: RightClick
+  nameWithType: KMSimulatorService.RightClick
+  fullName: WeChatAuto.Services.KMSimulatorService.RightClick
+- uid: WeChatAuto.Services.KMSimulatorService.MiddleClick*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.MiddleClick
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_MiddleClick
+  name: MiddleClick
+  nameWithType: KMSimulatorService.MiddleClick
+  fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick
+- uid: WeChatAuto.Services.KMSimulatorService.MouseWheel*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.MouseWheel
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_MouseWheel_System_Int32_
+  name: MouseWheel
+  nameWithType: KMSimulatorService.MouseWheel
+  fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel
+- uid: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.LeftDoubleClick
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_LeftDoubleClick_System_Drawing_Point_
+  name: LeftDoubleClick
+  nameWithType: KMSimulatorService.LeftDoubleClick
+  fullName: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick
+- uid: WeChatAuto.Services.KMSimulatorService.DeviceData*
+  commentId: Overload:WeChatAuto.Services.KMSimulatorService.DeviceData
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html#WeChatAuto_Services_KMSimulatorService_DeviceData
+  name: DeviceData
+  nameWithType: KMSimulatorService.DeviceData
+  fullName: WeChatAuto.Services.KMSimulatorService.DeviceData
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr

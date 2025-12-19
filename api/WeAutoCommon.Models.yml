@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  id: WeAutoCommon.Models
+  children:
+  - WeAutoCommon.Models.ChatActionMessage
+  - WeAutoCommon.Models.ChatGroupOptions
+  - WeAutoCommon.Models.ChatResponse
+  - WeAutoCommon.Models.Conversation
+  - WeAutoCommon.Models.EmojiItem
+  - WeAutoCommon.Models.FunctionalExtensions
+  - WeAutoCommon.Models.Maybe`1
+  - WeAutoCommon.Models.MomentItem
+  - WeAutoCommon.Models.ReplyItem
+  - WeAutoCommon.Models.Result
+  - WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WeAutoCommon.Models.ChatActionMessage
+  commentId: T:WeAutoCommon.Models.ChatActionMessage
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.ChatActionMessage.html
+  name: ChatActionMessage
+  nameWithType: ChatActionMessage
+  fullName: WeAutoCommon.Models.ChatActionMessage
+- uid: WeAutoCommon.Models.ChatGroupOptions
+  commentId: T:WeAutoCommon.Models.ChatGroupOptions
+  isExternal: true
+  href: WeAutoCommon.Models.ChatGroupOptions.html
+  name: ChatGroupOptions
+  nameWithType: ChatGroupOptions
+  fullName: WeAutoCommon.Models.ChatGroupOptions
+- uid: WeAutoCommon.Models.ChatResponse
+  commentId: T:WeAutoCommon.Models.ChatResponse
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.ChatResponse.html
+  name: ChatResponse
+  nameWithType: ChatResponse
+  fullName: WeAutoCommon.Models.ChatResponse
+- uid: WeAutoCommon.Models.Conversation
+  commentId: T:WeAutoCommon.Models.Conversation
+  isExternal: true
+  href: WeAutoCommon.Models.Conversation.html
+  name: Conversation
+  nameWithType: Conversation
+  fullName: WeAutoCommon.Models.Conversation
+- uid: WeAutoCommon.Models.EmojiItem
+  commentId: T:WeAutoCommon.Models.EmojiItem
+  isExternal: true
+  href: WeAutoCommon.Models.EmojiItem.html
+  name: EmojiItem
+  nameWithType: EmojiItem
+  fullName: WeAutoCommon.Models.EmojiItem
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models.Maybe`1
+  commentId: T:WeAutoCommon.Models.Maybe`1
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: WeAutoCommon.Models.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.MomentItem
+  commentId: T:WeAutoCommon.Models.MomentItem
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.MomentItem.html
+  name: MomentItem
+  nameWithType: MomentItem
+  fullName: WeAutoCommon.Models.MomentItem
+- uid: WeAutoCommon.Models.ReplyItem
+  commentId: T:WeAutoCommon.Models.ReplyItem
+  isExternal: true
+  href: WeAutoCommon.Models.ReplyItem.html
+  name: ReplyItem
+  nameWithType: ReplyItem
+  fullName: WeAutoCommon.Models.ReplyItem
+- uid: WeAutoCommon.Models.Result
+  commentId: T:WeAutoCommon.Models.Result
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Result.html
+  name: Result
+  nameWithType: Result
+  fullName: WeAutoCommon.Models.Result
+- uid: WeAutoCommon.Models.Result`1
+  commentId: T:WeAutoCommon.Models.Result`1
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: WeAutoCommon.Models.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: WeAutoCommon.Models.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html

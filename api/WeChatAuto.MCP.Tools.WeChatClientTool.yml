@@ -1,0 +1,1221 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool
+  commentId: T:WeChatAuto.MCP.Tools.WeChatClientTool
+  id: WeChatClientTool
+  parent: WeChatAuto.MCP.Tools
+  children:
+  - WeChatAuto.MCP.Tools.WeChatClientTool.#ctor(WeChatClientService)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(System.String,System.String,System.Int32)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames
+  - WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(System.String,System.Int32)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName
+  - WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(System.String,System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(System.String,System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(System.String,System.String,System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(System.String,System.String,System.String[])
+  - WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(System.String[],System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(System.String)
+  - WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: WeChatClientTool
+  nameWithType: WeChatClientTool
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  syntax:
+    content: >-
+      [McpServerToolType]
+
+      public sealed class WeChatClientTool
+    content.vb: >-
+      <McpServerToolType>
+
+      Public NotInheritable Class WeChatClientTool
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.MCP.Tools.WeChatClientTool.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolTypeAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolTypeAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.#ctor(WeChatClientService)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.#ctor(WeChatClientService)
+  id: '#ctor(WeChatClientService)'
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: WeChatClientTool(WeChatClientService)
+  nameWithType: WeChatClientTool.WeChatClientTool(WeChatClientService)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.WeChatClientTool(WeChatClientService)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 微信客户端工具,提供微信客户端的获取、设置等操作
+  example: []
+  syntax:
+    content: public WeChatClientTool(WeChatClientService weChatClientService)
+    parameters:
+    - id: weChatClientService
+      type: WeChatClientService
+      description: 微信客户端服务,参考<xref href="WeChatClientService" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub New(weChatClientService As WeChatClientService)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.#ctor*
+  nameWithType.vb: WeChatClientTool.New(WeChatClientService)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.New(WeChatClientService)
+  name.vb: New(WeChatClientService)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames
+  id: GetAllWeChatClientNames
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: GetAllWeChatClientNames()
+  nameWithType: WeChatClientTool.GetAllWeChatClientNames()
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 获取本机打开的所有微信客户端名称
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> GetAllWeChatClientNames()
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 本机打开的所有微信客户端名称
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function GetAllWeChatClientNames() As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName
+  id: GetCurrentWeChatClientName
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentWeChatClientName()
+  nameWithType: WeChatClientTool.GetCurrentWeChatClientName()
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 获取当前使用的微信客户端名称,系统默认使用获得的第一个微信客户端名称作为当前微信客户端名称
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> GetCurrentWeChatClientName()
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 当前使用的微信客户端名称
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function GetCurrentWeChatClientName() As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(System.String,System.Int32)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(System.String,System.Int32)
+  id: GetChatAllHistory(System.String,System.Int32)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: GetChatAllHistory(string, int)
+  nameWithType: WeChatClientTool.GetChatAllHistory(string, int)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 获取指定好友或者群聊的所有聊天记录，默认获取10页聊天记录，如果指定页数，则获取指定页数的聊天记录
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> GetChatAllHistory(string who, int pageCount = 10)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友或者群聊昵称
+    - id: pageCount
+      type: System.Int32
+      description: 获取的聊天记录数量，默认是10页,可以指定获取的页数，如果指定页数，则获取指定页数的聊天记录
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 指定好友或者群聊的所有聊天记录
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function GetChatAllHistory(who As String, pageCount As Integer = 10) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.GetChatAllHistory(String, Integer)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(String, Integer)
+  name.vb: GetChatAllHistory(String, Integer)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(System.String,System.String)
+  id: SendMessage(System.String,System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(string, string)
+  nameWithType: WeChatClientTool.SendMessage(string, string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发送文字消息给指定好友(或者群聊昵称)。这是发送普通文字消息的标准方法，需要提供消息内容。如果只是发送文字消息，请使用此方法而不是其他方法。
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> SendMessage(string who, string message)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友或者群聊昵称
+    - id: message
+      type: System.String
+      description: 消息内容
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发送成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function SendMessage(who As String, message As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.SendMessage(String, String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(String, String)
+  name.vb: SendMessage(String, String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(System.String,System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(System.String,System.String,System.String)
+  id: SendMessageWithAtUser(System.String,System.String,System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: SendMessageWithAtUser(string, string, string)
+  nameWithType: WeChatClientTool.SendMessageWithAtUser(string, string, string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(string, string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发送文字消息给指定好友(或者群聊昵称)，并@指定一个好友,仅适用于群聊
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> SendMessageWithAtUser(string who, string message, string atUser)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友或者群聊昵称
+    - id: message
+      type: System.String
+      description: 消息内容
+    - id: atUser
+      type: System.String
+      description: 被@的用户,仅适用于群聊
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发送成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function SendMessageWithAtUser(who As String, message As String, atUser As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.SendMessageWithAtUser(String, String, String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(String, String, String)
+  name.vb: SendMessageWithAtUser(String, String, String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(System.String,System.String,System.String[])
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(System.String,System.String,System.String[])
+  id: SendMessageWithAtUsers(System.String,System.String,System.String[])
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: SendMessageWithAtUsers(string, string, string[])
+  nameWithType: WeChatClientTool.SendMessageWithAtUsers(string, string, string[])
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(string, string, string[])
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发送文字消息给指定好友(或者群聊昵称)，并@指定多个好友,仅适用于群聊
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> SendMessageWithAtUsers(string who, string message, string[] atUsers)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友或者群聊昵称
+    - id: message
+      type: System.String
+      description: 消息内容
+    - id: atUsers
+      type: System.String[]
+      description: 被@的用户列表,仅适用于群聊
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发送成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function SendMessageWithAtUsers(who As String, message As String, atUsers As String()) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.SendMessageWithAtUsers(String, String, String())
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(String, String, String())
+  name.vb: SendMessageWithAtUsers(String, String, String())
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(System.String[],System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(System.String[],System.String)
+  id: SendMessages(System.String[],System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: SendMessages(string[], string)
+  nameWithType: WeChatClientTool.SendMessages(string[], string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(string[], string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发送文字消息给指定多个好友(或者群聊昵称)
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> SendMessages(string[] whos, string message)
+    parameters:
+    - id: whos
+      type: System.String[]
+      description: 好友或者群聊昵称列表
+    - id: message
+      type: System.String
+      description: 消息内容
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发送成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function SendMessages(whos As String(), message As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.SendMessages(String(), String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(String(), String)
+  name.vb: SendMessages(String(), String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(System.String,System.String[])
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(System.String,System.String[])
+  id: StartVoiceChats(System.String,System.String[])
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: StartVoiceChats(string, string[])
+  nameWithType: WeChatClientTool.StartVoiceChats(string, string[])
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(string, string[])
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发起语音通话(语音聊天)给指定好友或者群聊。注意：这不是发送消息的方法，而是发起实时语音通话。如果需要发送文字消息，请使用SendMessage等方法。
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> StartVoiceChats(string groupName, string[] whos)
+    parameters:
+    - id: groupName
+      type: System.String
+      description: 群聊名称
+    - id: whos
+      type: System.String[]
+      description: 好友名称列表,可以指定多个好友名称
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发起成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function StartVoiceChats(groupName As String, whos As String()) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.StartVoiceChats(String, String())
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(String, String())
+  name.vb: StartVoiceChats(String, String())
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(System.String)
+  id: StartVideoChat(System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: StartVideoChat(string)
+  nameWithType: WeChatClientTool.StartVideoChat(string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发起视频通话(视频聊天)给指定好友。注意：这不是发送消息的方法，而是发起实时视频通话。如果需要发送文字消息，请使用SendMessage等方法。
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> StartVideoChat(string who)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友名称,微信好友昵称
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发起成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function StartVideoChat(who As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.StartVideoChat(String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(String)
+  name.vb: StartVideoChat(String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(System.String,System.String)
+  id: PublishGroupChatNotice(System.String,System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: PublishGroupChatNotice(string, string)
+  nameWithType: WeChatClientTool.PublishGroupChatNotice(string, string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 发布群聊公告
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> PublishGroupChatNotice(string groupName, string notice)
+    parameters:
+    - id: groupName
+      type: System.String
+      description: 微信群聊名称
+    - id: notice
+      type: System.String
+      description: 公告内容
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否发布成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function PublishGroupChatNotice(groupName As String, notice As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.PublishGroupChatNotice(String, String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(String, String)
+  name.vb: PublishGroupChatNotice(String, String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(System.String)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(System.String)
+  id: ClearChatGroupHistory(System.String)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: ClearChatGroupHistory(string)
+  nameWithType: WeChatClientTool.ClearChatGroupHistory(string)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 删除聊天记录(或者说聊天内容)
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> ClearChatGroupHistory(string groupName)
+    parameters:
+    - id: groupName
+      type: System.String
+      description: 微信好友或者群聊名称
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否删除成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function ClearChatGroupHistory(groupName As String) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.ClearChatGroupHistory(String)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(String)
+  name.vb: ClearChatGroupHistory(String)
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(System.String,System.String,System.Int32)
+  commentId: M:WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(System.String,System.String,System.Int32)
+  id: ForwardMessage(System.String,System.String,System.Int32)
+  parent: WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: ForwardMessage(string, string, int)
+  nameWithType: WeChatClientTool.ForwardMessage(string, string, int)
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(string, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Tools/WeChatClientTool.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Tools
+  summary: 转发消息,默认转发5行消息，可以指定转发行数
+  example: []
+  syntax:
+    content: >-
+      [McpServerTool]
+
+      public Task<string> ForwardMessage(string fromWho, string toWho, int rowCount = 5)
+    parameters:
+    - id: fromWho
+      type: System.String
+      description: 转发消息的来源,可以是好友名称，也可以是群聊名称
+    - id: toWho
+      type: System.String
+      description: 转发消息的接收者,可以是好友名称，也可以是群聊名称
+    - id: rowCount
+      type: System.Int32
+      description: 转发消息的行数,默认是5行,可以指定转发行数
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 是否转发成功
+    content.vb: >-
+      <McpServerTool>
+
+      Public Function ForwardMessage(fromWho As String, toWho As String, rowCount As Integer = 5) As Task(Of String)
+  overload: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerToolAttribute
+    ctor: ModelContextProtocol.Server.McpServerToolAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatClientTool.ForwardMessage(String, String, Integer)
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(String, String, Integer)
+  name.vb: ForwardMessage(String, String, Integer)
+references:
+- uid: WeChatAuto.MCP.Tools
+  commentId: N:WeChatAuto.MCP.Tools
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.MCP.Tools
+  nameWithType: WeChatAuto.MCP.Tools
+  fullName: WeChatAuto.MCP.Tools
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.MCP
+    name: MCP
+    isExternal: true
+    href: WeChatAuto.MCP.html
+  - name: .
+  - uid: WeChatAuto.MCP.Tools
+    name: Tools
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.MCP
+    name: MCP
+    isExternal: true
+    href: WeChatAuto.MCP.html
+  - name: .
+  - uid: WeChatAuto.MCP.Tools
+    name: Tools
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatClientTool>(WeChatClientTool)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatClientTool>(WeChatClientTool)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.MCP.Tools.WeChatClientTool>(WeChatAuto.MCP.Tools.WeChatClientTool)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatClientTool)(WeChatClientTool)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.MCP.Tools.WeChatClientTool)(WeChatAuto.MCP.Tools.WeChatClientTool)
+  name.vb: ToMaybe(Of WeChatClientTool)(WeChatClientTool)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.MCP.Tools.WeChatClientTool)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.MCP.Tools.WeChatClientTool
+    name: WeChatClientTool
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.WeChatClientTool.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.MCP.Tools.WeChatClientTool
+    name: WeChatClientTool
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.WeChatClientTool.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.MCP.Tools.WeChatClientTool)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.MCP.Tools.WeChatClientTool
+    name: WeChatClientTool
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.WeChatClientTool.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.MCP.Tools.WeChatClientTool
+    name: WeChatClientTool
+    isExternal: true
+    href: WeChatAuto.MCP.Tools.WeChatClientTool.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatClientService
+  commentId: T:WeChatClientService
+  isExternal: true
+  href: WeChatClientService.html
+  name: WeChatClientService
+  nameWithType: WeChatClientService
+  fullName: WeChatClientService
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.#ctor*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.#ctor
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool__ctor_WeChatClientService_
+  name: WeChatClientTool
+  nameWithType: WeChatClientTool.WeChatClientTool
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.WeChatClientTool
+  nameWithType.vb: WeChatClientTool.New
+  fullName.vb: WeChatAuto.MCP.Tools.WeChatClientTool.New
+  name.vb: New
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_GetAllWeChatClientNames
+  name: GetAllWeChatClientNames
+  nameWithType: WeChatClientTool.GetAllWeChatClientNames
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_GetCurrentWeChatClientName
+  name: GetCurrentWeChatClientName
+  nameWithType: WeChatClientTool.GetCurrentWeChatClientName
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_GetChatAllHistory_System_String_System_Int32_
+  name: GetChatAllHistory
+  nameWithType: WeChatClientTool.GetChatAllHistory
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_SendMessage_System_String_System_String_
+  name: SendMessage
+  nameWithType: WeChatClientTool.SendMessage
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_SendMessageWithAtUser_System_String_System_String_System_String_
+  name: SendMessageWithAtUser
+  nameWithType: WeChatClientTool.SendMessageWithAtUser
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_SendMessageWithAtUsers_System_String_System_String_System_String___
+  name: SendMessageWithAtUsers
+  nameWithType: WeChatClientTool.SendMessageWithAtUsers
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_SendMessages_System_String___System_String_
+  name: SendMessages
+  nameWithType: WeChatClientTool.SendMessages
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_StartVoiceChats_System_String_System_String___
+  name: StartVoiceChats
+  nameWithType: WeChatClientTool.StartVoiceChats
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_StartVideoChat_System_String_
+  name: StartVideoChat
+  nameWithType: WeChatClientTool.StartVideoChat
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_PublishGroupChatNotice_System_String_System_String_
+  name: PublishGroupChatNotice
+  nameWithType: WeChatClientTool.PublishGroupChatNotice
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_ClearChatGroupHistory_System_String_
+  name: ClearChatGroupHistory
+  nameWithType: WeChatClientTool.ClearChatGroupHistory
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage*
+  commentId: Overload:WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html#WeChatAuto_MCP_Tools_WeChatClientTool_ForwardMessage_System_String_System_String_System_Int32_
+  name: ForwardMessage
+  nameWithType: WeChatClientTool.ForwardMessage
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage

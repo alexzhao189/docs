@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Interface
+  commentId: N:WxAutoCommon.Interface
+  id: WxAutoCommon.Interface
+  children:
+  - WxAutoCommon.Interface.IWeChatWindow
+  langs:
+  - csharp
+  - vb
+  name: WxAutoCommon.Interface
+  nameWithType: WxAutoCommon.Interface
+  fullName: WxAutoCommon.Interface
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WxAutoCommon.Interface.IWeChatWindow
+  commentId: T:WxAutoCommon.Interface.IWeChatWindow
+  parent: WxAutoCommon.Interface
+  isExternal: true
+  href: WxAutoCommon.Interface.IWeChatWindow.html
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WxAutoCommon.Interface.IWeChatWindow
+- uid: WxAutoCommon.Interface
+  commentId: N:WxAutoCommon.Interface
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Interface
+  nameWithType: WxAutoCommon.Interface
+  fullName: WxAutoCommon.Interface
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WxAutoCommon.Interface.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WxAutoCommon.Interface.html

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "WeAutoCommon/bin/Debug/net10.0-windows/WeAutoCommon.dll",
+		      	"WeChatAuto/bin/Debug/net10.0-windows/WeChatAuto.dll",
+		      	"WeChatAuto.MCP/bin/Debug/net10.0-windows/WeChatAuto.MCP.dll"
+          ],
+		  "cwd": "../src"
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "LICENSE"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "_templates/modern"
+    ],
+    "globalMetadata": {
+      "_appName": "WECHATAUTO.SDK",
+      "_appTitle": "WeChatAuto.SDK",
+	    "_appLogoPath": "images/logo.png",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

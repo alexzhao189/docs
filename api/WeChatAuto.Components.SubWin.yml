@@ -1,0 +1,2341 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.SubWin
+  commentId: T:WeChatAuto.Components.SubWin
+  id: SubWin
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.SubWin.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.String,WeChatAuto.Components.SubWinList,System.IServiceProvider)
+  - WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String)
+  - WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String,System.String,System.Int32,System.Int32)
+  - WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String)
+  - WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String,System.String)
+  - WeChatAuto.Components.SubWin.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext})
+  - WeChatAuto.Components.SubWin.AddOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  - WeChatAuto.Components.SubWin.ChatContent
+  - WeChatAuto.Components.SubWin.ClearChatGroupHistory
+  - WeChatAuto.Components.SubWin.Close
+  - WeChatAuto.Components.SubWin.DeleteOwnerChatGroup
+  - WeChatAuto.Components.SubWin.Dispose
+  - WeChatAuto.Components.SubWin.GetChatGroupMemberList
+  - WeChatAuto.Components.SubWin.GetGroupOwner
+  - WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf{System.String,System.String[]},System.String)
+  - WeChatAuto.Components.SubWin.IsChatGroupMember(System.String)
+  - WeChatAuto.Components.SubWin.IsOwnerChatGroup
+  - WeChatAuto.Components.SubWin.NickName
+  - WeChatAuto.Components.SubWin.ProcessId
+  - WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice(System.String)
+  - WeChatAuto.Components.SubWin.QuitChatGroup
+  - WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  - WeChatAuto.Components.SubWin.SelfWindow
+  - WeChatAuto.Components.SubWin.StopListener
+  - WeChatAuto.Components.SubWin.UpdateChatGroupOptions(System.Action{WeAutoCommon.Models.ChatGroupOptions})
+  - WeChatAuto.Components.SubWin.UpdateGroupNotice(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SubWin
+  nameWithType: SubWin
+  fullName: WeChatAuto.Components.SubWin
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 子窗口基类
+  example: []
+  syntax:
+    content: 'public class SubWin : IWeChatWindow, IDisposable'
+    content.vb: Public Class SubWin Implements IWeChatWindow, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - WeAutoCommon.Interface.IWeChatWindow
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(FlaUI.Core.AutomationElements.AutomationElement)
+  - WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(FlaUI.Core.AutomationElements.TextBox,System.String)
+  - WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(System.String[],FlaUI.Core.AutomationElements.TextBox)
+  - WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(FlaUI.Core.AutomationElements.TextBox)
+  - WeChatAuto.Components.SubWin.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.SubWin.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.String,WeChatAuto.Components.SubWinList,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.SubWin.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.String,WeChatAuto.Components.SubWinList,System.IServiceProvider)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.String,WeChatAuto.Components.SubWinList,System.IServiceProvider)'
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: SubWin(Window, WeChatMainWindow, UIThreadInvoker, string, SubWinList, IServiceProvider)
+  nameWithType: SubWin.SubWin(Window, WeChatMainWindow, UIThreadInvoker, string, SubWinList, IServiceProvider)
+  fullName: WeChatAuto.Components.SubWin.SubWin(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, string, WeChatAuto.Components.SubWinList, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 子窗口构造函数
+  example: []
+  syntax:
+    content: public SubWin(Window window, WeChatMainWindow wxWindow, UIThreadInvoker uiMainThreadInvoker, string title, SubWinList subWinList, IServiceProvider serviceProvider)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 子窗口FlaUI的window
+    - id: wxWindow
+      type: WeChatAuto.Components.WeChatMainWindow
+      description: 主窗口的微信窗口对象<xref href="WeChatAuto.Components.WeChatMainWindow" data-throw-if-not-resolved="false"></xref>
+    - id: uiMainThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+      description: UI线程执行器<xref href="WeAutoCommon.Utils.UIThreadInvoker" data-throw-if-not-resolved="false"></xref>
+    - id: title
+      type: System.String
+      description: 子窗口标题
+    - id: subWinList
+      type: WeChatAuto.Components.SubWinList
+      description: 子窗口列表对象<xref href="WeChatAuto.Components.SubWinList" data-throw-if-not-resolved="false"></xref>
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: 服务提供者<xref href="System.IServiceProvider" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub New(window As Window, wxWindow As WeChatMainWindow, uiMainThreadInvoker As UIThreadInvoker, title As String, subWinList As SubWinList, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.SubWin.#ctor*
+  nameWithType.vb: SubWin.New(Window, WeChatMainWindow, UIThreadInvoker, String, SubWinList, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.SubWin.New(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, String, WeChatAuto.Components.SubWinList, System.IServiceProvider)
+  name.vb: New(Window, WeChatMainWindow, UIThreadInvoker, String, SubWinList, IServiceProvider)
+- uid: WeChatAuto.Components.SubWin.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext})
+  commentId: M:WeChatAuto.Components.SubWin.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext})
+  id: AddMessageListener(System.Action{WeChatAuto.Models.MessageContext})
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddMessageListener(Action<MessageContext>)
+  nameWithType: SubWin.AddMessageListener(Action<MessageContext>)
+  fullName: WeChatAuto.Components.SubWin.AddMessageListener(System.Action<WeChatAuto.Models.MessageContext>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加消息监听
+  example: []
+  syntax:
+    content: public void AddMessageListener(Action<MessageContext> callBack)
+    parameters:
+    - id: callBack
+      type: System.Action{WeChatAuto.Models.MessageContext}
+      description: 参见:<xref href="WeChatAuto.Models.MessageContext" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub AddMessageListener(callBack As Action(Of MessageContext))
+  overload: WeChatAuto.Components.SubWin.AddMessageListener*
+  nameWithType.vb: SubWin.AddMessageListener(Action(Of MessageContext))
+  fullName.vb: WeChatAuto.Components.SubWin.AddMessageListener(System.Action(Of WeChatAuto.Models.MessageContext))
+  name.vb: AddMessageListener(Action(Of MessageContext))
+- uid: WeChatAuto.Components.SubWin.StopListener
+  commentId: M:WeChatAuto.Components.SubWin.StopListener
+  id: StopListener
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: StopListener()
+  nameWithType: SubWin.StopListener()
+  fullName: WeChatAuto.Components.SubWin.StopListener()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 停止消息监听
+  example: []
+  syntax:
+    content: public void StopListener()
+    content.vb: Public Sub StopListener()
+  overload: WeChatAuto.Components.SubWin.StopListener*
+- uid: WeChatAuto.Components.SubWin.UpdateChatGroupOptions(System.Action{WeAutoCommon.Models.ChatGroupOptions})
+  commentId: M:WeChatAuto.Components.SubWin.UpdateChatGroupOptions(System.Action{WeAutoCommon.Models.ChatGroupOptions})
+  id: UpdateChatGroupOptions(System.Action{WeAutoCommon.Models.ChatGroupOptions})
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: UpdateChatGroupOptions(Action<ChatGroupOptions>)
+  nameWithType: SubWin.UpdateChatGroupOptions(Action<ChatGroupOptions>)
+  fullName: WeChatAuto.Components.SubWin.UpdateChatGroupOptions(System.Action<WeAutoCommon.Models.ChatGroupOptions>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 更新群聊选项
+  example: []
+  syntax:
+    content: public ChatResponse UpdateChatGroupOptions(Action<ChatGroupOptions> action)
+    parameters:
+    - id: action
+      type: System.Action{WeAutoCommon.Models.ChatGroupOptions}
+      description: 更新群聊选项的Action
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function UpdateChatGroupOptions(action As Action(Of ChatGroupOptions)) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.UpdateChatGroupOptions*
+  nameWithType.vb: SubWin.UpdateChatGroupOptions(Action(Of ChatGroupOptions))
+  fullName.vb: WeChatAuto.Components.SubWin.UpdateChatGroupOptions(System.Action(Of WeAutoCommon.Models.ChatGroupOptions))
+  name.vb: UpdateChatGroupOptions(Action(Of ChatGroupOptions))
+- uid: WeChatAuto.Components.SubWin.UpdateGroupNotice(System.String)
+  commentId: M:WeChatAuto.Components.SubWin.UpdateGroupNotice(System.String)
+  id: UpdateGroupNotice(System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: UpdateGroupNotice(string)
+  nameWithType: SubWin.UpdateGroupNotice(string)
+  fullName: WeChatAuto.Components.SubWin.UpdateGroupNotice(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 更新群聊公告
+  example: []
+  syntax:
+    content: public ChatResponse UpdateGroupNotice(string groupNotice)
+    parameters:
+    - id: groupNotice
+      type: System.String
+      description: 群聊公告
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+    content.vb: Public Function UpdateGroupNotice(groupNotice As String) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.UpdateGroupNotice*
+  nameWithType.vb: SubWin.UpdateGroupNotice(String)
+  fullName.vb: WeChatAuto.Components.SubWin.UpdateGroupNotice(String)
+  name.vb: UpdateGroupNotice(String)
+- uid: WeChatAuto.Components.SubWin.GetChatGroupMemberList
+  commentId: M:WeChatAuto.Components.SubWin.GetChatGroupMemberList
+  id: GetChatGroupMemberList
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: GetChatGroupMemberList()
+  nameWithType: SubWin.GetChatGroupMemberList()
+  fullName: WeChatAuto.Components.SubWin.GetChatGroupMemberList()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取群聊成员列表
+  example: []
+  syntax:
+    content: public List<string> GetChatGroupMemberList()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: 群聊成员列表
+    content.vb: Public Function GetChatGroupMemberList() As List(Of String)
+  overload: WeChatAuto.Components.SubWin.GetChatGroupMemberList*
+- uid: WeChatAuto.Components.SubWin.IsChatGroupMember(System.String)
+  commentId: M:WeChatAuto.Components.SubWin.IsChatGroupMember(System.String)
+  id: IsChatGroupMember(System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: IsChatGroupMember(string)
+  nameWithType: SubWin.IsChatGroupMember(string)
+  fullName: WeChatAuto.Components.SubWin.IsChatGroupMember(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 是否是群聊成员
+  example: []
+  syntax:
+    content: public bool IsChatGroupMember(string memberName)
+    parameters:
+    - id: memberName
+      type: System.String
+      description: 成员名称
+    return:
+      type: System.Boolean
+      description: 是否是群聊成员,True:是,False:否
+    content.vb: Public Function IsChatGroupMember(memberName As String) As Boolean
+  overload: WeChatAuto.Components.SubWin.IsChatGroupMember*
+  nameWithType.vb: SubWin.IsChatGroupMember(String)
+  fullName.vb: WeChatAuto.Components.SubWin.IsChatGroupMember(String)
+  name.vb: IsChatGroupMember(String)
+- uid: WeChatAuto.Components.SubWin.IsOwnerChatGroup
+  commentId: M:WeChatAuto.Components.SubWin.IsOwnerChatGroup
+  id: IsOwnerChatGroup
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: IsOwnerChatGroup()
+  nameWithType: SubWin.IsOwnerChatGroup()
+  fullName: WeChatAuto.Components.SubWin.IsOwnerChatGroup()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 是否是自有群
+  example: []
+  syntax:
+    content: public bool IsOwnerChatGroup()
+    return:
+      type: System.Boolean
+      description: 是否是自有群,True:是,False:否
+    content.vb: Public Function IsOwnerChatGroup() As Boolean
+  overload: WeChatAuto.Components.SubWin.IsOwnerChatGroup*
+- uid: WeChatAuto.Components.SubWin.GetGroupOwner
+  commentId: M:WeChatAuto.Components.SubWin.GetGroupOwner
+  id: GetGroupOwner
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: GetGroupOwner()
+  nameWithType: SubWin.GetGroupOwner()
+  fullName: WeChatAuto.Components.SubWin.GetGroupOwner()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取群主
+  example: []
+  syntax:
+    content: public string GetGroupOwner()
+    return:
+      type: System.String
+      description: 群主昵称
+    content.vb: Public Function GetGroupOwner() As String
+  overload: WeChatAuto.Components.SubWin.GetGroupOwner*
+- uid: WeChatAuto.Components.SubWin.ClearChatGroupHistory
+  commentId: M:WeChatAuto.Components.SubWin.ClearChatGroupHistory
+  id: ClearChatGroupHistory
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: ClearChatGroupHistory()
+  nameWithType: SubWin.ClearChatGroupHistory()
+  fullName: WeChatAuto.Components.SubWin.ClearChatGroupHistory()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 清空群聊历史
+  example: []
+  syntax:
+    content: public void ClearChatGroupHistory()
+    content.vb: Public Sub ClearChatGroupHistory()
+  overload: WeChatAuto.Components.SubWin.ClearChatGroupHistory*
+- uid: WeChatAuto.Components.SubWin.QuitChatGroup
+  commentId: M:WeChatAuto.Components.SubWin.QuitChatGroup
+  id: QuitChatGroup
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: QuitChatGroup()
+  nameWithType: SubWin.QuitChatGroup()
+  fullName: WeChatAuto.Components.SubWin.QuitChatGroup()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 退出群聊
+  example: []
+  syntax:
+    content: public void QuitChatGroup()
+    content.vb: Public Sub QuitChatGroup()
+  overload: WeChatAuto.Components.SubWin.QuitChatGroup*
+- uid: WeChatAuto.Components.SubWin.DeleteOwnerChatGroup
+  commentId: M:WeChatAuto.Components.SubWin.DeleteOwnerChatGroup
+  id: DeleteOwnerChatGroup
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: DeleteOwnerChatGroup()
+  nameWithType: SubWin.DeleteOwnerChatGroup()
+  fullName: WeChatAuto.Components.SubWin.DeleteOwnerChatGroup()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 删除群聊,与退出群聊不同，退出群聊是退出群聊，删除群聊会删除自有群的所有好友，然后退出群聊
+  example: []
+  syntax:
+    content: public ChatResponse DeleteOwnerChatGroup()
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 响应结果<xref href="WeAutoCommon.Models.ChatResponse" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function DeleteOwnerChatGroup() As ChatResponse
+  overload: WeChatAuto.Components.SubWin.DeleteOwnerChatGroup*
+- uid: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice(System.String)
+  commentId: M:WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice(System.String)
+  id: PublishOwnerChatGroupNotice(System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: PublishOwnerChatGroupNotice(string)
+  nameWithType: SubWin.PublishOwnerChatGroupNotice(string)
+  fullName: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 发送群聊公告
+  example: []
+  syntax:
+    content: public ChatResponse PublishOwnerChatGroupNotice(string notice)
+    parameters:
+    - id: notice
+      type: System.String
+      description: 公告内容
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function PublishOwnerChatGroupNotice(notice As String) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice*
+  nameWithType.vb: SubWin.PublishOwnerChatGroupNotice(String)
+  fullName.vb: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice(String)
+  name.vb: PublishOwnerChatGroupNotice(String)
+- uid: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  commentId: M:WeChatAuto.Components.SubWin.AddOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  id: AddOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddOwnerChatGroupMember(OneOf<string, string[]>)
+  nameWithType: SubWin.AddOwnerChatGroupMember(OneOf<string, string[]>)
+  fullName: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember(OneOf.OneOf<string, string[]>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加群聊成员,适用于自有群
+  example: []
+  syntax:
+    content: public ChatResponse AddOwnerChatGroupMember(OneOf<string, string[]> memberName)
+    parameters:
+    - id: memberName
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 成员名称
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function AddOwnerChatGroupMember(memberName As OneOf(Of String, String())) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember*
+  nameWithType.vb: SubWin.AddOwnerChatGroupMember(OneOf(Of String, String()))
+  fullName.vb: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember(OneOf.OneOf(Of String, String()))
+  name.vb: AddOwnerChatGroupMember(OneOf(Of String, String()))
+- uid: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  commentId: M:WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  id: RemoveOwnerChatGroupMember(OneOf.OneOf{System.String,System.String[]})
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: RemoveOwnerChatGroupMember(OneOf<string, string[]>)
+  nameWithType: SubWin.RemoveOwnerChatGroupMember(OneOf<string, string[]>)
+  fullName: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember(OneOf.OneOf<string, string[]>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 移除群聊成员,适用于自有群
+  example: []
+  syntax:
+    content: public ChatResponse RemoveOwnerChatGroupMember(OneOf<string, string[]> memberName)
+    parameters:
+    - id: memberName
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 成员名称
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果<xref href="WeAutoCommon.Models.ChatResponse" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function RemoveOwnerChatGroupMember(memberName As OneOf(Of String, String())) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember*
+  nameWithType.vb: SubWin.RemoveOwnerChatGroupMember(OneOf(Of String, String()))
+  fullName.vb: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember(OneOf.OneOf(Of String, String()))
+  name.vb: RemoveOwnerChatGroupMember(OneOf(Of String, String()))
+- uid: WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf{System.String,System.String[]},System.String)
+  commentId: M:WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf{System.String,System.String[]},System.String)
+  id: InviteChatGroupMember(OneOf.OneOf{System.String,System.String[]},System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: InviteChatGroupMember(OneOf<string, string[]>, string)
+  nameWithType: SubWin.InviteChatGroupMember(OneOf<string, string[]>, string)
+  fullName: WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf<string, string[]>, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 邀请群聊成员,适用于他有群
+  example: []
+  syntax:
+    content: public ChatResponse InviteChatGroupMember(OneOf<string, string[]> memberName, string helloText = "")
+    parameters:
+    - id: memberName
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 成员名称
+    - id: helloText
+      type: System.String
+      description: 打招呼文本
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function InviteChatGroupMember(memberName As OneOf(Of String, String()), helloText As String = "") As ChatResponse
+  overload: WeChatAuto.Components.SubWin.InviteChatGroupMember*
+  nameWithType.vb: SubWin.InviteChatGroupMember(OneOf(Of String, String()), String)
+  fullName.vb: WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf(Of String, String()), String)
+  name.vb: InviteChatGroupMember(OneOf(Of String, String()), String)
+- uid: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String)
+  commentId: M:WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String)
+  id: AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddChatGroupMemberToFriends(OneOf<string, string[]>, int, string)
+  nameWithType: SubWin.AddChatGroupMemberToFriends(OneOf<string, string[]>, int, string)
+  fullName: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf<string, string[]>, int, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加群聊里面的好友为自己的好友,适用于他有群
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("由于微信对于自动化的限制，暂时放弃此方法，修改成硬件模拟的方式")]
+
+      public ChatResponse AddChatGroupMemberToFriends(OneOf<string, string[]> memberName, int intervalSecond = 3, string helloText = "")
+    parameters:
+    - id: memberName
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 成员名称
+    - id: intervalSecond
+      type: System.Int32
+      description: 间隔时间
+    - id: helloText
+      type: System.String
+      description: 打招呼文本
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: >-
+      <Obsolete("由于微信对于自动化的限制，暂时放弃此方法，修改成硬件模拟的方式")>
+
+      Public Function AddChatGroupMemberToFriends(memberName As OneOf(Of String, String()), intervalSecond As Integer = 3, helloText As String = "") As ChatResponse
+  overload: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 由于微信对于自动化的限制，暂时放弃此方法，修改成硬件模拟的方式
+  nameWithType.vb: SubWin.AddChatGroupMemberToFriends(OneOf(Of String, String()), Integer, String)
+  fullName.vb: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf(Of String, String()), Integer, String)
+  name.vb: AddChatGroupMemberToFriends(OneOf(Of String, String()), Integer, String)
+- uid: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String,System.String)
+  commentId: M:WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String,System.String)
+  id: AddChatGroupMemberToFriends(OneOf.OneOf{System.String,System.String[]},System.Int32,System.String,System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddChatGroupMemberToFriends(OneOf<string, string[]>, int, string, string)
+  nameWithType: SubWin.AddChatGroupMemberToFriends(OneOf<string, string[]>, int, string, string)
+  fullName: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf<string, string[]>, int, string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加群聊里面的好友为自己的好友,适用于从他有群中添加好友为自己的好友
+  example: []
+  syntax:
+    content: public ChatResponse AddChatGroupMemberToFriends(OneOf<string, string[]> memberName, int intervalSecond = 3, string helloText = "", string label = "")
+    parameters:
+    - id: memberName
+      type: OneOf.OneOf{System.String,System.String[]}
+      description: 成员名称
+    - id: intervalSecond
+      type: System.Int32
+      description: 间隔时间
+    - id: helloText
+      type: System.String
+      description: 打招呼文本
+    - id: label
+      type: System.String
+      description: 好友标签,方便归类管理
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function AddChatGroupMemberToFriends(memberName As OneOf(Of String, String()), intervalSecond As Integer = 3, helloText As String = "", label As String = "") As ChatResponse
+  overload: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends*
+  nameWithType.vb: SubWin.AddChatGroupMemberToFriends(OneOf(Of String, String()), Integer, String, String)
+  fullName.vb: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends(OneOf.OneOf(Of String, String()), Integer, String, String)
+  name.vb: AddChatGroupMemberToFriends(OneOf(Of String, String()), Integer, String, String)
+- uid: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String)
+  commentId: M:WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String)
+  id: AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddAllChatGroupMemberToFriends(List<string>, int, string)
+  nameWithType: SubWin.AddAllChatGroupMemberToFriends(List<string>, int, string)
+  fullName: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List<string>, int, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  example: []
+  syntax:
+    content: public ChatResponse AddAllChatGroupMemberToFriends(List<string> exceptList = null, int intervalSecond = 3, string helloText = "")
+    parameters:
+    - id: exceptList
+      type: System.Collections.Generic.List{System.String}
+      description: 排除列表
+    - id: intervalSecond
+      type: System.Int32
+      description: 间隔时间
+    - id: helloText
+      type: System.String
+      description: 打招呼文本
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function AddAllChatGroupMemberToFriends(exceptList As List(Of String) = Nothing, intervalSecond As Integer = 3, helloText As String = "") As ChatResponse
+  overload: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends*
+  nameWithType.vb: SubWin.AddAllChatGroupMemberToFriends(List(Of String), Integer, String)
+  fullName.vb: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List(Of String), Integer, String)
+  name.vb: AddAllChatGroupMemberToFriends(List(Of String), Integer, String)
+- uid: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String,System.String,System.Int32,System.Int32)
+  id: AddAllChatGroupMemberToFriends(System.Collections.Generic.List{System.String},System.Int32,System.String,System.String,System.Int32,System.Int32)
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: AddAllChatGroupMemberToFriends(List<string>, int, string, string, int, int)
+  nameWithType: SubWin.AddAllChatGroupMemberToFriends(List<string>, int, string, string, int, int)
+  fullName: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List<string>, int, string, string, int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  example: []
+  syntax:
+    content: public ChatResponse AddAllChatGroupMemberToFriends(List<string> exceptList = null, int intervalSecond = 3, string helloText = "", string label = "", int pageNo = 1, int pageSize = 15)
+    parameters:
+    - id: exceptList
+      type: System.Collections.Generic.List{System.String}
+      description: 排除列表
+    - id: intervalSecond
+      type: System.Int32
+      description: 间隔时间
+    - id: helloText
+      type: System.String
+      description: 打招呼文本
+    - id: label
+      type: System.String
+      description: 好友标签,方便归类管理
+    - id: pageNo
+      type: System.Int32
+      description: 起始页码,从1开始,如果从0开始，表示不使用分页，全部添加好友，但容易触发微信风控机制，建议使用分页添加
+    - id: pageSize
+      type: System.Int32
+      description: 页数量
+    return:
+      type: WeAutoCommon.Models.ChatResponse
+      description: 微信响应结果
+    content.vb: Public Function AddAllChatGroupMemberToFriends(exceptList As List(Of String) = Nothing, intervalSecond As Integer = 3, helloText As String = "", label As String = "", pageNo As Integer = 1, pageSize As Integer = 15) As ChatResponse
+  overload: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends*
+  nameWithType.vb: SubWin.AddAllChatGroupMemberToFriends(List(Of String), Integer, String, String, Integer, Integer)
+  fullName.vb: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends(System.Collections.Generic.List(Of String), Integer, String, String, Integer, Integer)
+  name.vb: AddAllChatGroupMemberToFriends(List(Of String), Integer, String, String, Integer, Integer)
+- uid: WeChatAuto.Components.SubWin.Close
+  commentId: M:WeChatAuto.Components.SubWin.Close
+  id: Close
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: SubWin.Close()
+  fullName: WeChatAuto.Components.SubWin.Close()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 关闭子窗口
+  example: []
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close()
+  overload: WeChatAuto.Components.SubWin.Close*
+- uid: WeChatAuto.Components.SubWin.Dispose
+  commentId: M:WeChatAuto.Components.SubWin.Dispose
+  id: Dispose
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SubWin.Dispose()
+  fullName: WeChatAuto.Components.SubWin.Dispose()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: WeChatAuto.Components.SubWin.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: WeChatAuto.Components.SubWin.SelfWindow
+  commentId: P:WeChatAuto.Components.SubWin.SelfWindow
+  id: SelfWindow
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: SelfWindow
+  nameWithType: SubWin.SelfWindow
+  fullName: WeChatAuto.Components.SubWin.SelfWindow
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public Window SelfWindow { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.Window
+    content.vb: Public Property SelfWindow As Window
+  overload: WeChatAuto.Components.SubWin.SelfWindow*
+  implements:
+  - WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+- uid: WeChatAuto.Components.SubWin.NickName
+  commentId: P:WeChatAuto.Components.SubWin.NickName
+  id: NickName
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: SubWin.NickName
+  fullName: WeChatAuto.Components.SubWin.NickName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: WeChatAuto.Components.SubWin.NickName*
+- uid: WeChatAuto.Components.SubWin.ChatContent
+  commentId: P:WeChatAuto.Components.SubWin.ChatContent
+  id: ChatContent
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: ChatContent
+  nameWithType: SubWin.ChatContent
+  fullName: WeChatAuto.Components.SubWin.ChatContent
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public ChatContent ChatContent { get; }
+    parameters: []
+    return:
+      type: WeChatAuto.Components.ChatContent
+    content.vb: Public ReadOnly Property ChatContent As ChatContent
+  overload: WeChatAuto.Components.SubWin.ChatContent*
+- uid: WeChatAuto.Components.SubWin.ProcessId
+  commentId: P:WeChatAuto.Components.SubWin.ProcessId
+  id: ProcessId
+  parent: WeChatAuto.Components.SubWin
+  langs:
+  - csharp
+  - vb
+  name: ProcessId
+  nameWithType: SubWin.ProcessId
+  fullName: WeChatAuto.Components.SubWin.ProcessId
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/SubWin.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  example: []
+  syntax:
+    content: public int ProcessId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ProcessId As Integer
+  overload: WeChatAuto.Components.SubWin.ProcessId*
+  implements:
+  - WeAutoCommon.Interface.IWeChatWindow.ProcessId
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: WeAutoCommon.Interface.IWeChatWindow
+  commentId: T:WeAutoCommon.Interface.IWeChatWindow
+  parent: WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Extentions.SilenceActionTools
+  definition: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  name: SilenceClickExt(IWeChatWindow, AutomationElement)
+  nameWithType: SilenceActionTools.SilenceClickExt(IWeChatWindow, AutomationElement)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.AutomationElement)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+    name: SilenceClickExt
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.AutomationElement
+    name: AutomationElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+    name: SilenceClickExt
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.AutomationElement
+    name: AutomationElement
+    isExternal: true
+  - name: )
+- uid: WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(FlaUI.Core.AutomationElements.TextBox,System.String)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+  parent: WeChatAuto.Extentions.SilenceActionTools
+  definition: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  name: SilenceEnterText(IWeChatWindow, TextBox, string)
+  nameWithType: SilenceActionTools.SilenceEnterText(IWeChatWindow, TextBox, string)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox, string)
+  nameWithType.vb: SilenceActionTools.SilenceEnterText(IWeChatWindow, TextBox, String)
+  fullName.vb: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox, String)
+  name.vb: SilenceEnterText(IWeChatWindow, TextBox, String)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+    name: SilenceEnterText
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+    name: SilenceEnterText
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(System.String[],FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  parent: WeChatAuto.Extentions.SilenceActionTools
+  definition: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  name: SilencePasteSimple(IWeChatWindow, string[], TextBox)
+  nameWithType: SilenceActionTools.SilencePasteSimple(IWeChatWindow, string[], TextBox)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow, string[], FlaUI.Core.AutomationElements.TextBox)
+  nameWithType.vb: SilenceActionTools.SilencePasteSimple(IWeChatWindow, String(), TextBox)
+  fullName.vb: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow, String(), FlaUI.Core.AutomationElements.TextBox)
+  name.vb: SilencePasteSimple(IWeChatWindow, String(), TextBox)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+    name: SilencePasteSimple
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+    name: SilencePasteSimple
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+- uid: WeAutoCommon.Interface.IWeChatWindow.WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+  parent: WeChatAuto.Extentions.SilenceActionTools
+  definition: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  name: SilenceReturn(IWeChatWindow, TextBox)
+  nameWithType: SilenceActionTools.SilenceReturn(IWeChatWindow, TextBox)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+    name: SilenceReturn
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+    name: SilenceReturn
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+- uid: WeChatAuto.Components.SubWin.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<SubWin>(SubWin)
+  nameWithType: FunctionalExtensions.ToMaybe<SubWin>(SubWin)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.SubWin>(WeChatAuto.Components.SubWin)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of SubWin)(SubWin)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.SubWin)(WeChatAuto.Components.SubWin)
+  name.vb: ToMaybe(Of SubWin)(SubWin)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.SubWin)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.SubWin
+    name: SubWin
+    isExternal: true
+    href: WeChatAuto.Components.SubWin.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.SubWin
+    name: SubWin
+    isExternal: true
+    href: WeChatAuto.Components.SubWin.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.SubWin)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.SubWin
+    name: SubWin
+    isExternal: true
+    href: WeChatAuto.Components.SubWin.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.SubWin
+    name: SubWin
+    isExternal: true
+    href: WeChatAuto.Components.SubWin.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Interface
+  commentId: N:WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Interface
+  nameWithType: WeAutoCommon.Interface
+  fullName: WeAutoCommon.Interface
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+- uid: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  name: SilenceClickExt(IWeChatWindow, AutomationElement)
+  nameWithType: SilenceActionTools.SilenceClickExt(IWeChatWindow, AutomationElement)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.AutomationElement)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+    name: SilenceClickExt
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.AutomationElement
+    name: AutomationElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.AutomationElement)
+    name: SilenceClickExt
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceClickExt_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_AutomationElement_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.AutomationElement
+    name: AutomationElement
+    isExternal: true
+  - name: )
+- uid: WeChatAuto.Extentions.SilenceActionTools
+  commentId: T:WeChatAuto.Extentions.SilenceActionTools
+  parent: WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html
+  name: SilenceActionTools
+  nameWithType: SilenceActionTools
+  fullName: WeChatAuto.Extentions.SilenceActionTools
+- uid: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  name: SilenceEnterText(IWeChatWindow, TextBox, string)
+  nameWithType: SilenceActionTools.SilenceEnterText(IWeChatWindow, TextBox, string)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox, string)
+  nameWithType.vb: SilenceActionTools.SilenceEnterText(IWeChatWindow, TextBox, String)
+  fullName.vb: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox, String)
+  name.vb: SilenceEnterText(IWeChatWindow, TextBox, String)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+    name: SilenceEnterText
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox,System.String)
+    name: SilenceEnterText
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceEnterText_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_System_String_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  name: SilencePasteSimple(IWeChatWindow, string[], TextBox)
+  nameWithType: SilenceActionTools.SilencePasteSimple(IWeChatWindow, string[], TextBox)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow, string[], FlaUI.Core.AutomationElements.TextBox)
+  nameWithType.vb: SilenceActionTools.SilencePasteSimple(IWeChatWindow, String(), TextBox)
+  fullName.vb: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow, String(), FlaUI.Core.AutomationElements.TextBox)
+  name.vb: SilencePasteSimple(IWeChatWindow, String(), TextBox)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+    name: SilencePasteSimple
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow,System.String[],FlaUI.Core.AutomationElements.TextBox)
+    name: SilencePasteSimple
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilencePasteSimple_WeAutoCommon_Interface_IWeChatWindow_System_String___FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+- uid: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+  isExternal: true
+  href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  name: SilenceReturn(IWeChatWindow, TextBox)
+  nameWithType: SilenceActionTools.SilenceReturn(IWeChatWindow, TextBox)
+  fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox)
+  spec.csharp:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+    name: SilenceReturn
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow,FlaUI.Core.AutomationElements.TextBox)
+    name: SilenceReturn
+    isExternal: true
+    href: WeChatAuto.Extentions.SilenceActionTools.html#WeChatAuto_Extentions_SilenceActionTools_SilenceReturn_WeAutoCommon_Interface_IWeChatWindow_FlaUI_Core_AutomationElements_TextBox_
+  - name: (
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  - name: ','
+  - name: " "
+  - uid: FlaUI.Core.AutomationElements.TextBox
+    name: TextBox
+    isExternal: true
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeChatAuto.Extentions
+  commentId: N:WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Extentions
+  nameWithType: WeChatAuto.Extentions
+  fullName: WeChatAuto.Extentions
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.WeChatMainWindow
+  commentId: T:WeChatAuto.Components.WeChatMainWindow
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatMainWindow.html
+  name: WeChatMainWindow
+  nameWithType: WeChatMainWindow
+  fullName: WeChatAuto.Components.WeChatMainWindow
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: WeChatAuto.Components.SubWinList
+  commentId: T:WeChatAuto.Components.SubWinList
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.SubWinList.html
+  name: SubWinList
+  nameWithType: SubWinList
+  fullName: WeChatAuto.Components.SubWinList
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: WeChatAuto.Components.SubWin.#ctor*
+  commentId: Overload:WeChatAuto.Components.SubWin.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin__ctor_FlaUI_Core_AutomationElements_Window_WeChatAuto_Components_WeChatMainWindow_WeAutoCommon_Utils_UIThreadInvoker_System_String_WeChatAuto_Components_SubWinList_System_IServiceProvider_
+  name: SubWin
+  nameWithType: SubWin.SubWin
+  fullName: WeChatAuto.Components.SubWin.SubWin
+  nameWithType.vb: SubWin.New
+  fullName.vb: WeChatAuto.Components.SubWin.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeChatAuto.Models.MessageContext
+  commentId: T:WeChatAuto.Models.MessageContext
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html
+  name: MessageContext
+  nameWithType: MessageContext
+  fullName: WeChatAuto.Models.MessageContext
+- uid: WeChatAuto.Components.SubWin.AddMessageListener*
+  commentId: Overload:WeChatAuto.Components.SubWin.AddMessageListener
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_AddMessageListener_System_Action_WeChatAuto_Models_MessageContext__
+  name: AddMessageListener
+  nameWithType: SubWin.AddMessageListener
+  fullName: WeChatAuto.Components.SubWin.AddMessageListener
+- uid: System.Action{WeChatAuto.Models.MessageContext}
+  commentId: T:System.Action{WeChatAuto.Models.MessageContext}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<MessageContext>
+  nameWithType: Action<MessageContext>
+  fullName: System.Action<WeChatAuto.Models.MessageContext>
+  nameWithType.vb: Action(Of MessageContext)
+  fullName.vb: System.Action(Of WeChatAuto.Models.MessageContext)
+  name.vb: Action(Of MessageContext)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    isExternal: true
+    href: WeChatAuto.Models.MessageContext.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeChatAuto.Components.SubWin.StopListener*
+  commentId: Overload:WeChatAuto.Components.SubWin.StopListener
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_StopListener
+  name: StopListener
+  nameWithType: SubWin.StopListener
+  fullName: WeChatAuto.Components.SubWin.StopListener
+- uid: WeChatAuto.Components.SubWin.UpdateChatGroupOptions*
+  commentId: Overload:WeChatAuto.Components.SubWin.UpdateChatGroupOptions
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_UpdateChatGroupOptions_System_Action_WeAutoCommon_Models_ChatGroupOptions__
+  name: UpdateChatGroupOptions
+  nameWithType: SubWin.UpdateChatGroupOptions
+  fullName: WeChatAuto.Components.SubWin.UpdateChatGroupOptions
+- uid: System.Action{WeAutoCommon.Models.ChatGroupOptions}
+  commentId: T:System.Action{WeAutoCommon.Models.ChatGroupOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ChatGroupOptions>
+  nameWithType: Action<ChatGroupOptions>
+  fullName: System.Action<WeAutoCommon.Models.ChatGroupOptions>
+  nameWithType.vb: Action(Of ChatGroupOptions)
+  fullName.vb: System.Action(Of WeAutoCommon.Models.ChatGroupOptions)
+  name.vb: Action(Of ChatGroupOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: WeAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/ChatGroupOptions.cs
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/ChatGroupOptions.cs
+  - name: )
+- uid: WeAutoCommon.Models.ChatResponse
+  commentId: T:WeAutoCommon.Models.ChatResponse
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.ChatResponse.html
+  name: ChatResponse
+  nameWithType: ChatResponse
+  fullName: WeAutoCommon.Models.ChatResponse
+- uid: WeChatAuto.Components.SubWin.UpdateGroupNotice*
+  commentId: Overload:WeChatAuto.Components.SubWin.UpdateGroupNotice
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_UpdateGroupNotice_System_String_
+  name: UpdateGroupNotice
+  nameWithType: SubWin.UpdateGroupNotice
+  fullName: WeChatAuto.Components.SubWin.UpdateGroupNotice
+- uid: WeChatAuto.Components.SubWin.GetChatGroupMemberList*
+  commentId: Overload:WeChatAuto.Components.SubWin.GetChatGroupMemberList
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_GetChatGroupMemberList
+  name: GetChatGroupMemberList
+  nameWithType: SubWin.GetChatGroupMemberList
+  fullName: WeChatAuto.Components.SubWin.GetChatGroupMemberList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components.SubWin.IsChatGroupMember*
+  commentId: Overload:WeChatAuto.Components.SubWin.IsChatGroupMember
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_IsChatGroupMember_System_String_
+  name: IsChatGroupMember
+  nameWithType: SubWin.IsChatGroupMember
+  fullName: WeChatAuto.Components.SubWin.IsChatGroupMember
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.SubWin.IsOwnerChatGroup*
+  commentId: Overload:WeChatAuto.Components.SubWin.IsOwnerChatGroup
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_IsOwnerChatGroup
+  name: IsOwnerChatGroup
+  nameWithType: SubWin.IsOwnerChatGroup
+  fullName: WeChatAuto.Components.SubWin.IsOwnerChatGroup
+- uid: WeChatAuto.Components.SubWin.GetGroupOwner*
+  commentId: Overload:WeChatAuto.Components.SubWin.GetGroupOwner
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_GetGroupOwner
+  name: GetGroupOwner
+  nameWithType: SubWin.GetGroupOwner
+  fullName: WeChatAuto.Components.SubWin.GetGroupOwner
+- uid: WeChatAuto.Components.SubWin.ClearChatGroupHistory*
+  commentId: Overload:WeChatAuto.Components.SubWin.ClearChatGroupHistory
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_ClearChatGroupHistory
+  name: ClearChatGroupHistory
+  nameWithType: SubWin.ClearChatGroupHistory
+  fullName: WeChatAuto.Components.SubWin.ClearChatGroupHistory
+- uid: WeChatAuto.Components.SubWin.QuitChatGroup*
+  commentId: Overload:WeChatAuto.Components.SubWin.QuitChatGroup
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_QuitChatGroup
+  name: QuitChatGroup
+  nameWithType: SubWin.QuitChatGroup
+  fullName: WeChatAuto.Components.SubWin.QuitChatGroup
+- uid: WeChatAuto.Components.SubWin.DeleteOwnerChatGroup*
+  commentId: Overload:WeChatAuto.Components.SubWin.DeleteOwnerChatGroup
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_DeleteOwnerChatGroup
+  name: DeleteOwnerChatGroup
+  nameWithType: SubWin.DeleteOwnerChatGroup
+  fullName: WeChatAuto.Components.SubWin.DeleteOwnerChatGroup
+- uid: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice*
+  commentId: Overload:WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_PublishOwnerChatGroupNotice_System_String_
+  name: PublishOwnerChatGroupNotice
+  nameWithType: SubWin.PublishOwnerChatGroupNotice
+  fullName: WeChatAuto.Components.SubWin.PublishOwnerChatGroupNotice
+- uid: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember*
+  commentId: Overload:WeChatAuto.Components.SubWin.AddOwnerChatGroupMember
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_AddOwnerChatGroupMember_OneOf_OneOf_System_String_System_String____
+  name: AddOwnerChatGroupMember
+  nameWithType: SubWin.AddOwnerChatGroupMember
+  fullName: WeChatAuto.Components.SubWin.AddOwnerChatGroupMember
+- uid: OneOf.OneOf{System.String,System.String[]}
+  commentId: T:OneOf.OneOf{System.String,System.String[]}
+  parent: OneOf
+  definition: OneOf.OneOf`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: OneOf<string, string[]>
+  nameWithType: OneOf<string, string[]>
+  fullName: OneOf.OneOf<string, string[]>
+  nameWithType.vb: OneOf(Of String, String())
+  fullName.vb: OneOf.OneOf(Of String, String())
+  name.vb: OneOf(Of String, String())
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: OneOf.OneOf`2
+  commentId: T:OneOf.OneOf`2
+  isExternal: true
+  name: OneOf<T0, T1>
+  nameWithType: OneOf<T0, T1>
+  fullName: OneOf.OneOf<T0, T1>
+  nameWithType.vb: OneOf(Of T0, T1)
+  fullName.vb: OneOf.OneOf(Of T0, T1)
+  name.vb: OneOf(Of T0, T1)
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: )
+- uid: OneOf
+  commentId: N:OneOf
+  isExternal: true
+  name: OneOf
+  nameWithType: OneOf
+  fullName: OneOf
+- uid: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember*
+  commentId: Overload:WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_RemoveOwnerChatGroupMember_OneOf_OneOf_System_String_System_String____
+  name: RemoveOwnerChatGroupMember
+  nameWithType: SubWin.RemoveOwnerChatGroupMember
+  fullName: WeChatAuto.Components.SubWin.RemoveOwnerChatGroupMember
+- uid: WeChatAuto.Components.SubWin.InviteChatGroupMember*
+  commentId: Overload:WeChatAuto.Components.SubWin.InviteChatGroupMember
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_InviteChatGroupMember_OneOf_OneOf_System_String_System_String____System_String_
+  name: InviteChatGroupMember
+  nameWithType: SubWin.InviteChatGroupMember
+  fullName: WeChatAuto.Components.SubWin.InviteChatGroupMember
+- uid: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends*
+  commentId: Overload:WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_AddChatGroupMemberToFriends_OneOf_OneOf_System_String_System_String____System_Int32_System_String_
+  name: AddChatGroupMemberToFriends
+  nameWithType: SubWin.AddChatGroupMemberToFriends
+  fullName: WeChatAuto.Components.SubWin.AddChatGroupMemberToFriends
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends*
+  commentId: Overload:WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_AddAllChatGroupMemberToFriends_System_Collections_Generic_List_System_String__System_Int32_System_String_
+  name: AddAllChatGroupMemberToFriends
+  nameWithType: SubWin.AddAllChatGroupMemberToFriends
+  fullName: WeChatAuto.Components.SubWin.AddAllChatGroupMemberToFriends
+- uid: WeChatAuto.Components.SubWin.Close*
+  commentId: Overload:WeChatAuto.Components.SubWin.Close
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_Close
+  name: Close
+  nameWithType: SubWin.Close
+  fullName: WeChatAuto.Components.SubWin.Close
+- uid: WeChatAuto.Components.SubWin.Dispose*
+  commentId: Overload:WeChatAuto.Components.SubWin.Dispose
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_Dispose
+  name: Dispose
+  nameWithType: SubWin.Dispose
+  fullName: WeChatAuto.Components.SubWin.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.SubWin.SelfWindow*
+  commentId: Overload:WeChatAuto.Components.SubWin.SelfWindow
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_SelfWindow
+  name: SelfWindow
+  nameWithType: SubWin.SelfWindow
+  fullName: WeChatAuto.Components.SubWin.SelfWindow
+- uid: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  commentId: P:WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+  parent: WeAutoCommon.Interface.IWeChatWindow
+  isExternal: true
+  href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  name: SelfWindow
+  nameWithType: IWeChatWindow.SelfWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
+- uid: WeChatAuto.Components.SubWin.NickName*
+  commentId: Overload:WeChatAuto.Components.SubWin.NickName
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_NickName
+  name: NickName
+  nameWithType: SubWin.NickName
+  fullName: WeChatAuto.Components.SubWin.NickName
+- uid: WeChatAuto.Components.SubWin.ChatContent*
+  commentId: Overload:WeChatAuto.Components.SubWin.ChatContent
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_ChatContent
+  name: ChatContent
+  nameWithType: SubWin.ChatContent
+  fullName: WeChatAuto.Components.SubWin.ChatContent
+- uid: WeChatAuto.Components.ChatContent
+  commentId: T:WeChatAuto.Components.ChatContent
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.ChatContent.html
+  name: ChatContent
+  nameWithType: ChatContent
+  fullName: WeChatAuto.Components.ChatContent
+- uid: WeChatAuto.Components.SubWin.ProcessId*
+  commentId: Overload:WeChatAuto.Components.SubWin.ProcessId
+  isExternal: true
+  href: WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_ProcessId
+  name: ProcessId
+  nameWithType: SubWin.ProcessId
+  fullName: WeChatAuto.Components.SubWin.ProcessId
+- uid: WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  commentId: P:WeAutoCommon.Interface.IWeChatWindow.ProcessId
+  parent: WeAutoCommon.Interface.IWeChatWindow
+  isExternal: true
+  href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Interface/IWeChatWindow.cs
+  name: ProcessId
+  nameWithType: IWeChatWindow.ProcessId
+  fullName: WeAutoCommon.Interface.IWeChatWindow.ProcessId

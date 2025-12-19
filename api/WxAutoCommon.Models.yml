@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Models
+  commentId: N:WxAutoCommon.Models
+  id: WxAutoCommon.Models
+  children:
+  - WxAutoCommon.Models.ChatActionMessage
+  - WxAutoCommon.Models.ChatGroupOptions
+  - WxAutoCommon.Models.ChatResponse
+  - WxAutoCommon.Models.Conversation
+  - WxAutoCommon.Models.EmojiItem
+  - WxAutoCommon.Models.MomentItem
+  - WxAutoCommon.Models.ReplyItem
+  langs:
+  - csharp
+  - vb
+  name: WxAutoCommon.Models
+  nameWithType: WxAutoCommon.Models
+  fullName: WxAutoCommon.Models
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WxAutoCommon.Models.ChatActionMessage
+  commentId: T:WxAutoCommon.Models.ChatActionMessage
+  parent: WxAutoCommon.Models
+  isExternal: true
+  href: WxAutoCommon.Models.ChatActionMessage.html
+  name: ChatActionMessage
+  nameWithType: ChatActionMessage
+  fullName: WxAutoCommon.Models.ChatActionMessage
+- uid: WxAutoCommon.Models.ChatGroupOptions
+  commentId: T:WxAutoCommon.Models.ChatGroupOptions
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html
+  name: ChatGroupOptions
+  nameWithType: ChatGroupOptions
+  fullName: WxAutoCommon.Models.ChatGroupOptions
+- uid: WxAutoCommon.Models.ChatResponse
+  commentId: T:WxAutoCommon.Models.ChatResponse
+  parent: WxAutoCommon.Models
+  isExternal: true
+  href: WxAutoCommon.Models.ChatResponse.html
+  name: ChatResponse
+  nameWithType: ChatResponse
+  fullName: WxAutoCommon.Models.ChatResponse
+- uid: WxAutoCommon.Models.Conversation
+  commentId: T:WxAutoCommon.Models.Conversation
+  isExternal: true
+  href: WxAutoCommon.Models.Conversation.html
+  name: Conversation
+  nameWithType: Conversation
+  fullName: WxAutoCommon.Models.Conversation
+- uid: WxAutoCommon.Models.EmojiItem
+  commentId: T:WxAutoCommon.Models.EmojiItem
+  isExternal: true
+  href: WxAutoCommon.Models.EmojiItem.html
+  name: EmojiItem
+  nameWithType: EmojiItem
+  fullName: WxAutoCommon.Models.EmojiItem
+- uid: WxAutoCommon.Models.MomentItem
+  commentId: T:WxAutoCommon.Models.MomentItem
+  parent: WxAutoCommon.Models
+  isExternal: true
+  href: WxAutoCommon.Models.MomentItem.html
+  name: MomentItem
+  nameWithType: MomentItem
+  fullName: WxAutoCommon.Models.MomentItem
+- uid: WxAutoCommon.Models.ReplyItem
+  commentId: T:WxAutoCommon.Models.ReplyItem
+  isExternal: true
+  href: WxAutoCommon.Models.ReplyItem.html
+  name: ReplyItem
+  nameWithType: ReplyItem
+  fullName: WxAutoCommon.Models.ReplyItem
+- uid: WxAutoCommon.Models
+  commentId: N:WxAutoCommon.Models
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Models
+  nameWithType: WxAutoCommon.Models
+  fullName: WxAutoCommon.Models
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WxAutoCommon.Models.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WxAutoCommon.Models.html

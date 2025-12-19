@@ -1,0 +1,1037 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  id: UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  children:
+  - WeAutoCommon.Utils.UIThreadInvoker.#ctor(System.String)
+  - WeAutoCommon.Utils.UIThreadInvoker.Automation
+  - WeAutoCommon.Utils.UIThreadInvoker.Dispose
+  - WeAutoCommon.Utils.UIThreadInvoker.Dispose(System.Boolean)
+  - WeAutoCommon.Utils.UIThreadInvoker.Finalize
+  - WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action{FlaUI.UIA3.UIA3Automation})
+  - WeAutoCommon.Utils.UIThreadInvoker.Run``1(System.Func{FlaUI.UIA3.UIA3Automation,``0})
+  - WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+  - WeAutoCommon.Utils.UIThreadInvoker.ToString
+  langs:
+  - csharp
+  - vb
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 用于在UI线程中执行操作的类
+  example: []
+  syntax:
+    content: 'public class UIThreadInvoker : IDisposable'
+    content.vb: Public Class UIThreadInvoker Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Utils.UIThreadInvoker.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Utils.UIThreadInvoker.#ctor(System.String)
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: UIThreadInvoker(string)
+  nameWithType: UIThreadInvoker.UIThreadInvoker(string)
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.UIThreadInvoker(string)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public UIThreadInvoker(string threadName)
+    parameters:
+    - id: threadName
+      type: System.String
+    content.vb: Public Sub New(threadName As String)
+  overload: WeAutoCommon.Utils.UIThreadInvoker.#ctor*
+  nameWithType.vb: UIThreadInvoker.New(String)
+  fullName.vb: WeAutoCommon.Utils.UIThreadInvoker.New(String)
+  name.vb: New(String)
+- uid: WeAutoCommon.Utils.UIThreadInvoker.ToString
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.ToString
+  id: ToString
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UIThreadInvoker.ToString()
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WeAutoCommon.Utils.UIThreadInvoker.ToString*
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Run``1(System.Func{FlaUI.UIA3.UIA3Automation,``0})
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.Run``1(System.Func{FlaUI.UIA3.UIA3Automation,``0})
+  id: Run``1(System.Func{FlaUI.UIA3.UIA3Automation,``0})
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: Run<T>(Func<UIA3Automation, T>)
+  nameWithType: UIThreadInvoker.Run<T>(Func<UIA3Automation, T>)
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Run<T>(System.Func<FlaUI.UIA3.UIA3Automation, T>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 在UI线程中执行操作，返回结果
+  example: []
+  syntax:
+    content: public Task<T> Run<T>(Func<UIA3Automation, T> func)
+    parameters:
+    - id: func
+      type: System.Func{FlaUI.UIA3.UIA3Automation,{T}}
+      description: 要执行的操作
+    typeParameters:
+    - id: T
+      description: 返回类型
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: 返回结果
+    content.vb: Public Function Run(Of T)(func As Func(Of UIA3Automation, T)) As Task(Of T)
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Run*
+  nameWithType.vb: UIThreadInvoker.Run(Of T)(Func(Of UIA3Automation, T))
+  fullName.vb: WeAutoCommon.Utils.UIThreadInvoker.Run(Of T)(System.Func(Of FlaUI.UIA3.UIA3Automation, T))
+  name.vb: Run(Of T)(Func(Of UIA3Automation, T))
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action{FlaUI.UIA3.UIA3Automation})
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action{FlaUI.UIA3.UIA3Automation})
+  id: Run(System.Action{FlaUI.UIA3.UIA3Automation})
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: Run(Action<UIA3Automation>)
+  nameWithType: UIThreadInvoker.Run(Action<UIA3Automation>)
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action<FlaUI.UIA3.UIA3Automation>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 在UI线程中执行操作，不返回结果
+  example: []
+  syntax:
+    content: public Task Run(Action<UIA3Automation> action)
+    parameters:
+    - id: action
+      type: System.Action{FlaUI.UIA3.UIA3Automation}
+      description: 要执行的操作
+    return:
+      type: System.Threading.Tasks.Task
+      description: 返回结果
+    content.vb: Public Function Run(action As Action(Of UIA3Automation)) As Task
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Run*
+  nameWithType.vb: UIThreadInvoker.Run(Action(Of UIA3Automation))
+  fullName.vb: WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action(Of FlaUI.UIA3.UIA3Automation))
+  name.vb: Run(Action(Of UIA3Automation))
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Dispose(System.Boolean)
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: UIThreadInvoker.Dispose(bool)
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose(bool)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Public Overridable Sub Dispose(disposing As Boolean)
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Dispose*
+  nameWithType.vb: UIThreadInvoker.Dispose(Boolean)
+  fullName.vb: WeAutoCommon.Utils.UIThreadInvoker.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Finalize
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.Finalize
+  id: Finalize
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: ~UIThreadInvoker()
+  nameWithType: UIThreadInvoker.~UIThreadInvoker()
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.~UIThreadInvoker()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: protected ~UIThreadInvoker()
+    content.vb: 'Protected '
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Dispose
+  commentId: M:WeAutoCommon.Utils.UIThreadInvoker.Dispose
+  id: Dispose
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: UIThreadInvoker.Dispose()
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+  commentId: P:WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+  id: ThreadName
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: ThreadName
+  nameWithType: UIThreadInvoker.ThreadName
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public string ThreadName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ThreadName As String
+  overload: WeAutoCommon.Utils.UIThreadInvoker.ThreadName*
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Automation
+  commentId: P:WeAutoCommon.Utils.UIThreadInvoker.Automation
+  id: Automation
+  parent: WeAutoCommon.Utils.UIThreadInvoker
+  langs:
+  - csharp
+  - vb
+  name: Automation
+  nameWithType: UIThreadInvoker.Automation
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Automation
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/UIThreadInvoker.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public UIA3Automation Automation { get; }
+    parameters: []
+    return:
+      type: FlaUI.UIA3.UIA3Automation
+    content.vb: Public ReadOnly Property Automation As UIA3Automation
+  overload: WeAutoCommon.Utils.UIThreadInvoker.Automation*
+references:
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Utils.UIThreadInvoker.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<UIThreadInvoker>(UIThreadInvoker)
+  nameWithType: FunctionalExtensions.ToMaybe<UIThreadInvoker>(UIThreadInvoker)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Utils.UIThreadInvoker>(WeAutoCommon.Utils.UIThreadInvoker)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of UIThreadInvoker)(UIThreadInvoker)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Utils.UIThreadInvoker)(WeAutoCommon.Utils.UIThreadInvoker)
+  name.vb: ToMaybe(Of UIThreadInvoker)(UIThreadInvoker)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.UIThreadInvoker)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Utils.UIThreadInvoker
+    name: UIThreadInvoker
+    isExternal: true
+    href: WeAutoCommon.Utils.UIThreadInvoker.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Utils.UIThreadInvoker
+    name: UIThreadInvoker
+    isExternal: true
+    href: WeAutoCommon.Utils.UIThreadInvoker.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.UIThreadInvoker)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Utils.UIThreadInvoker
+    name: UIThreadInvoker
+    isExternal: true
+    href: WeAutoCommon.Utils.UIThreadInvoker.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Utils.UIThreadInvoker
+    name: UIThreadInvoker
+    isExternal: true
+    href: WeAutoCommon.Utils.UIThreadInvoker.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Utils.UIThreadInvoker.#ctor*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.#ctor
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker__ctor_System_String_
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker.UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.UIThreadInvoker
+  nameWithType.vb: UIThreadInvoker.New
+  fullName.vb: WeAutoCommon.Utils.UIThreadInvoker.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Utils.UIThreadInvoker.ToString*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.ToString
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_ToString
+  name: ToString
+  nameWithType: UIThreadInvoker.ToString
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.ToString
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Run*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.Run
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_Run__1_System_Func_FlaUI_UIA3_UIA3Automation___0__
+  name: Run
+  nameWithType: UIThreadInvoker.Run
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Run
+- uid: System.Func{FlaUI.UIA3.UIA3Automation,{T}}
+  commentId: T:System.Func{FlaUI.UIA3.UIA3Automation,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<UIA3Automation, T>
+  nameWithType: Func<UIA3Automation, T>
+  fullName: System.Func<FlaUI.UIA3.UIA3Automation, T>
+  nameWithType.vb: Func(Of UIA3Automation, T)
+  fullName.vb: System.Func(Of FlaUI.UIA3.UIA3Automation, T)
+  name.vb: Func(Of UIA3Automation, T)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: FlaUI.UIA3.UIA3Automation
+    name: UIA3Automation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: FlaUI.UIA3.UIA3Automation
+    name: UIA3Automation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Action{FlaUI.UIA3.UIA3Automation}
+  commentId: T:System.Action{FlaUI.UIA3.UIA3Automation}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<UIA3Automation>
+  nameWithType: Action<UIA3Automation>
+  fullName: System.Action<FlaUI.UIA3.UIA3Automation>
+  nameWithType.vb: Action(Of UIA3Automation)
+  fullName.vb: System.Action(Of FlaUI.UIA3.UIA3Automation)
+  name.vb: Action(Of UIA3Automation)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: FlaUI.UIA3.UIA3Automation
+    name: UIA3Automation
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: FlaUI.UIA3.UIA3Automation
+    name: UIA3Automation
+    isExternal: true
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Dispose*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.Dispose
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_Dispose_System_Boolean_
+  name: Dispose
+  nameWithType: UIThreadInvoker.Dispose
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Finalize*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.Finalize
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_Finalize
+  name: ~UIThreadInvoker
+  nameWithType: UIThreadInvoker.~UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.~UIThreadInvoker
+  spec.csharp:
+  - name: "~"
+  - uid: WeAutoCommon.Utils.UIThreadInvoker.Finalize*
+    name: UIThreadInvoker
+    isExternal: true
+    href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_Finalize
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Utils.UIThreadInvoker.ThreadName*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_ThreadName
+  name: ThreadName
+  nameWithType: UIThreadInvoker.ThreadName
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.ThreadName
+- uid: WeAutoCommon.Utils.UIThreadInvoker.Automation*
+  commentId: Overload:WeAutoCommon.Utils.UIThreadInvoker.Automation
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html#WeAutoCommon_Utils_UIThreadInvoker_Automation
+  name: Automation
+  nameWithType: UIThreadInvoker.Automation
+  fullName: WeAutoCommon.Utils.UIThreadInvoker.Automation
+- uid: FlaUI.UIA3.UIA3Automation
+  commentId: T:FlaUI.UIA3.UIA3Automation
+  parent: FlaUI.UIA3
+  isExternal: true
+  name: UIA3Automation
+  nameWithType: UIA3Automation
+  fullName: FlaUI.UIA3.UIA3Automation
+- uid: FlaUI.UIA3
+  commentId: N:FlaUI.UIA3
+  isExternal: true
+  name: FlaUI.UIA3
+  nameWithType: FlaUI.UIA3
+  fullName: FlaUI.UIA3
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.UIA3
+    name: UIA3
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.UIA3
+    name: UIA3
+    isExternal: true

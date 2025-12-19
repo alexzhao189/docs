@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums.MessageSourceType
+  commentId: T:WeAutoCommon.Enums.MessageSourceType
+  id: MessageSourceType
+  parent: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.MessageSourceType.其他消息
+  - WeAutoCommon.Enums.MessageSourceType.好友消息
+  - WeAutoCommon.Enums.MessageSourceType.系统消息
+  - WeAutoCommon.Enums.MessageSourceType.自己发送消息
+  langs:
+  - csharp
+  - vb
+  name: MessageSourceType
+  nameWithType: MessageSourceType
+  fullName: WeAutoCommon.Enums.MessageSourceType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/MessageSourceType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  summary: 聊天消息来源类型
+  example: []
+  syntax:
+    content: public enum MessageSourceType
+    content.vb: Public Enum MessageSourceType
+  extensionMethods:
+  - WeAutoCommon.Enums.MessageSourceType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Enums.MessageSourceType.系统消息
+  commentId: F:WeAutoCommon.Enums.MessageSourceType.系统消息
+  id: 系统消息
+  parent: WeAutoCommon.Enums.MessageSourceType
+  langs:
+  - csharp
+  - vb
+  name: 系统消息
+  nameWithType: MessageSourceType.系统消息
+  fullName: WeAutoCommon.Enums.MessageSourceType.系统消息
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/MessageSourceType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 系统消息 = 0
+    return:
+      type: WeAutoCommon.Enums.MessageSourceType
+- uid: WeAutoCommon.Enums.MessageSourceType.自己发送消息
+  commentId: F:WeAutoCommon.Enums.MessageSourceType.自己发送消息
+  id: 自己发送消息
+  parent: WeAutoCommon.Enums.MessageSourceType
+  langs:
+  - csharp
+  - vb
+  name: 自己发送消息
+  nameWithType: MessageSourceType.自己发送消息
+  fullName: WeAutoCommon.Enums.MessageSourceType.自己发送消息
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/MessageSourceType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 自己发送消息 = 1
+    return:
+      type: WeAutoCommon.Enums.MessageSourceType
+- uid: WeAutoCommon.Enums.MessageSourceType.好友消息
+  commentId: F:WeAutoCommon.Enums.MessageSourceType.好友消息
+  id: 好友消息
+  parent: WeAutoCommon.Enums.MessageSourceType
+  langs:
+  - csharp
+  - vb
+  name: 好友消息
+  nameWithType: MessageSourceType.好友消息
+  fullName: WeAutoCommon.Enums.MessageSourceType.好友消息
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/MessageSourceType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 好友消息 = 2
+    return:
+      type: WeAutoCommon.Enums.MessageSourceType
+- uid: WeAutoCommon.Enums.MessageSourceType.其他消息
+  commentId: F:WeAutoCommon.Enums.MessageSourceType.其他消息
+  id: 其他消息
+  parent: WeAutoCommon.Enums.MessageSourceType
+  langs:
+  - csharp
+  - vb
+  name: 其他消息
+  nameWithType: MessageSourceType.其他消息
+  fullName: WeAutoCommon.Enums.MessageSourceType.其他消息
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/MessageSourceType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 其他消息 = 3
+    return:
+      type: WeAutoCommon.Enums.MessageSourceType
+references:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.MessageSourceType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<MessageSourceType>(MessageSourceType)
+  nameWithType: FunctionalExtensions.ToMaybe<MessageSourceType>(MessageSourceType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Enums.MessageSourceType>(WeAutoCommon.Enums.MessageSourceType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of MessageSourceType)(MessageSourceType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Enums.MessageSourceType)(WeAutoCommon.Enums.MessageSourceType)
+  name.vb: ToMaybe(Of MessageSourceType)(MessageSourceType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.MessageSourceType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Enums.MessageSourceType
+    name: MessageSourceType
+    isExternal: true
+    href: WeAutoCommon.Enums.MessageSourceType.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Enums.MessageSourceType
+    name: MessageSourceType
+    isExternal: true
+    href: WeAutoCommon.Enums.MessageSourceType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.MessageSourceType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Enums.MessageSourceType
+    name: MessageSourceType
+    isExternal: true
+    href: WeAutoCommon.Enums.MessageSourceType.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Enums.MessageSourceType
+    name: MessageSourceType
+    isExternal: true
+    href: WeAutoCommon.Enums.MessageSourceType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Enums.MessageSourceType
+  commentId: T:WeAutoCommon.Enums.MessageSourceType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.MessageSourceType.html
+  name: MessageSourceType
+  nameWithType: MessageSourceType
+  fullName: WeAutoCommon.Enums.MessageSourceType

@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions
+  commentId: T:WeChatAuto.Extentions.TypeNewStringExtentions
+  id: TypeNewStringExtentions
+  parent: WeChatAuto.Extentions
+  children:
+  - WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.AutomationElements.Window)
+  - WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  - WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  - WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  langs:
+  - csharp
+  - vb
+  name: TypeNewStringExtentions
+  nameWithType: TypeNewStringExtentions
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  syntax:
+    content: public static class TypeNewStringExtentions
+    content.vb: Public Module TypeNewStringExtentions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  commentId: M:WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  id: TypeNewString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.TypeNewStringExtentions
+  langs:
+  - csharp
+  - vb
+  name: TypeNewString(AutomationElement, string, Window)
+  nameWithType: TypeNewStringExtentions.TypeNewString(AutomationElement, string, Window)
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 清空输入框并输入字符串
+  example: []
+  syntax:
+    content: public static void TypeNewString(this AutomationElement element, string str, Window window)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    - id: str
+      type: System.String
+      description: 字符串
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    content.vb: Public Shared Sub TypeNewString(element As AutomationElement, str As String, window As Window)
+  overload: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString*
+  nameWithType.vb: TypeNewStringExtentions.TypeNewString(AutomationElement, String, Window)
+  fullName.vb: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement, String, FlaUI.Core.AutomationElements.Window)
+  name.vb: TypeNewString(AutomationElement, String, Window)
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  commentId: M:WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  id: TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.TypeNewStringExtentions
+  langs:
+  - csharp
+  - vb
+  name: TypeNewStringAndEnter(AutomationElement, string, Window)
+  nameWithType: TypeNewStringExtentions.TypeNewStringAndEnter(AutomationElement, string, Window)
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 清空输入框并输入字符串并按下回车键
+  example: []
+  syntax:
+    content: public static void TypeNewStringAndEnter(this AutomationElement element, string str, Window window)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    - id: str
+      type: System.String
+      description: 字符串
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    content.vb: Public Shared Sub TypeNewStringAndEnter(element As AutomationElement, str As String, window As Window)
+  overload: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter*
+  nameWithType.vb: TypeNewStringExtentions.TypeNewStringAndEnter(AutomationElement, String, Window)
+  fullName.vb: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement, String, FlaUI.Core.AutomationElements.Window)
+  name.vb: TypeNewStringAndEnter(AutomationElement, String, Window)
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.AutomationElements.Window)
+  commentId: M:WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.AutomationElements.Window)
+  id: Enter(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.AutomationElements.Window)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.TypeNewStringExtentions
+  langs:
+  - csharp
+  - vb
+  name: Enter(AutomationElement, Window)
+  nameWithType: TypeNewStringExtentions.Enter(AutomationElement, Window)
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 按下回车键
+  example: []
+  syntax:
+    content: public static void Enter(this AutomationElement element, Window window)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    content.vb: Public Shared Sub Enter(element As AutomationElement, window As Window)
+  overload: WeChatAuto.Extentions.TypeNewStringExtentions.Enter*
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  commentId: M:WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  id: OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.AutomationElements.Window)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.TypeNewStringExtentions
+  langs:
+  - csharp
+  - vb
+  name: OnlyTypeString(AutomationElement, string, Window)
+  nameWithType: TypeNewStringExtentions.OnlyTypeString(AutomationElement, string, Window)
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 只输入字符串,不按下回车键,不清空输入框
+  example: []
+  syntax:
+    content: public static void OnlyTypeString(this AutomationElement element, string str, Window window)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    - id: str
+      type: System.String
+      description: 字符串
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    content.vb: Public Shared Sub OnlyTypeString(element As AutomationElement, str As String, window As Window)
+  overload: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString*
+  nameWithType.vb: TypeNewStringExtentions.OnlyTypeString(AutomationElement, String, Window)
+  fullName.vb: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement, String, FlaUI.Core.AutomationElements.Window)
+  name.vb: OnlyTypeString(AutomationElement, String, Window)
+references:
+- uid: WeChatAuto.Extentions
+  commentId: N:WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Extentions
+  nameWithType: WeChatAuto.Extentions
+  fullName: WeChatAuto.Extentions
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString*
+  commentId: Overload:WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString
+  isExternal: true
+  href: WeChatAuto.Extentions.TypeNewStringExtentions.html#WeChatAuto_Extentions_TypeNewStringExtentions_TypeNewString_FlaUI_Core_AutomationElements_AutomationElement_System_String_FlaUI_Core_AutomationElements_Window_
+  name: TypeNewString
+  nameWithType: TypeNewStringExtentions.TypeNewString
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString
+- uid: FlaUI.Core.AutomationElements.AutomationElement
+  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: AutomationElement
+  nameWithType: AutomationElement
+  fullName: FlaUI.Core.AutomationElements.AutomationElement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter*
+  commentId: Overload:WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter
+  isExternal: true
+  href: WeChatAuto.Extentions.TypeNewStringExtentions.html#WeChatAuto_Extentions_TypeNewStringExtentions_TypeNewStringAndEnter_FlaUI_Core_AutomationElements_AutomationElement_System_String_FlaUI_Core_AutomationElements_Window_
+  name: TypeNewStringAndEnter
+  nameWithType: TypeNewStringExtentions.TypeNewStringAndEnter
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.Enter*
+  commentId: Overload:WeChatAuto.Extentions.TypeNewStringExtentions.Enter
+  isExternal: true
+  href: WeChatAuto.Extentions.TypeNewStringExtentions.html#WeChatAuto_Extentions_TypeNewStringExtentions_Enter_FlaUI_Core_AutomationElements_AutomationElement_FlaUI_Core_AutomationElements_Window_
+  name: Enter
+  nameWithType: TypeNewStringExtentions.Enter
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.Enter
+- uid: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString*
+  commentId: Overload:WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString
+  isExternal: true
+  href: WeChatAuto.Extentions.TypeNewStringExtentions.html#WeChatAuto_Extentions_TypeNewStringExtentions_OnlyTypeString_FlaUI_Core_AutomationElements_AutomationElement_System_String_FlaUI_Core_AutomationElements_Window_
+  name: OnlyTypeString
+  nameWithType: TypeNewStringExtentions.OnlyTypeString
+  fullName: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString

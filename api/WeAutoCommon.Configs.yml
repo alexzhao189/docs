@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Configs
+  commentId: N:WeAutoCommon.Configs
+  id: WeAutoCommon.Configs
+  children:
+  - WeAutoCommon.Configs.Language
+  - WeAutoCommon.Configs.WeChatConfig
+  - WeAutoCommon.Configs.WeMettingConfig
+  langs:
+  - csharp
+  - vb
+  name: WeAutoCommon.Configs
+  nameWithType: WeAutoCommon.Configs
+  fullName: WeAutoCommon.Configs
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WeAutoCommon.Configs.WeChatConfig
+  commentId: T:WeAutoCommon.Configs.WeChatConfig
+  parent: WeAutoCommon.Configs
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html
+  name: WeChatConfig
+  nameWithType: WeChatConfig
+  fullName: WeAutoCommon.Configs.WeChatConfig
+- uid: WeAutoCommon.Configs.Language
+  commentId: T:WeAutoCommon.Configs.Language
+  isExternal: true
+  href: WeAutoCommon.Configs.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: WeAutoCommon.Configs.Language
+- uid: WeAutoCommon.Configs.WeMettingConfig
+  commentId: T:WeAutoCommon.Configs.WeMettingConfig
+  isExternal: true
+  href: WeAutoCommon.Configs.WeMettingConfig.html
+  name: WeMettingConfig
+  nameWithType: WeMettingConfig
+  fullName: WeAutoCommon.Configs.WeMettingConfig
+- uid: WeAutoCommon.Configs
+  commentId: N:WeAutoCommon.Configs
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Configs
+  nameWithType: WeAutoCommon.Configs
+  fullName: WeAutoCommon.Configs
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WeAutoCommon.Configs.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WeAutoCommon.Configs.html

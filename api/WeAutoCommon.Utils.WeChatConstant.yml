@@ -1,0 +1,1912 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Utils.WeChatConstant
+  commentId: T:WeAutoCommon.Utils.WeChatConstant
+  id: WeChatConstant
+  parent: WeAutoCommon.Utils
+  children:
+  - WeAutoCommon.Utils.WeChatConstant.#ctor
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_CARD
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_CHAT_RECORD
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_COLLECT
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_FILE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_I
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_IMAGE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_LINK
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_LOCATION
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_MINI_PROGRAM
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE_TEXT
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_PICK_UP
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_RECALL
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_SEND
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_REFERENCE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_VOICE
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_WECHAT_TRANSFER
+  - WeAutoCommon.Utils.WeChatConstant.MESSAGES_YOU
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_EMOTION
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_LIVE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_TOP
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_UNTOP
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_PAY
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_APP
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CHAT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_COLLECT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CONTACT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_FILE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_MOMENT
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_PHONE
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_READ
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SEARCH
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SETTING
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_VIDEO
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_CLEAR
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_SEARCH
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NAME
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TASKBAR
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
+  - WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
+  langs:
+  - csharp
+  - vb
+  name: WeChatConstant
+  nameWithType: WeChatConstant
+  fullName: WeAutoCommon.Utils.WeChatConstant
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public class WeChatConstant
+    content.vb: Public Class WeChatConstant
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Utils.WeChatConstant.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NAME
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NAME
+  id: WECHAT_SYSTEM_NAME
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_NAME
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_NAME
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NAME
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_NAME
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_NAME As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TASKBAR
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TASKBAR
+  id: WECHAT_SYSTEM_TASKBAR
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_TASKBAR
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_TASKBAR
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TASKBAR
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_TASKBAR
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_TASKBAR As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
+  id: WECHAT_SYSTEM_NOTIFY_ICON
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_NOTIFY_ICON
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_NOTIFY_ICON
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_NOTIFY_ICON As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
+  id: WECHAT_SYSTEM_MAX_BUTTON
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_MAX_BUTTON
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_MAX_BUTTON
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_MAX_BUTTON As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
+  id: WECHAT_SYSTEM_RESTORE_BUTTON
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_RESTORE_BUTTON
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_RESTORE_BUTTON
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_RESTORE_BUTTON As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
+  id: WECHAT_SYSTEM_UNTOP_BUTTON
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_UNTOP_BUTTON
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_UNTOP_BUTTON
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_UNTOP_BUTTON As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
+  id: WECHAT_SYSTEM_TOP_BUTTON
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SYSTEM_TOP_BUTTON
+  nameWithType: WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SYSTEM_TOP_BUTTON
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SYSTEM_TOP_BUTTON As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CHAT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CHAT
+  id: WECHAT_NAVIGATION_CHAT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_CHAT
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_CHAT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CHAT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_CHAT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_CHAT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CONTACT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CONTACT
+  id: WECHAT_NAVIGATION_CONTACT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_CONTACT
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_CONTACT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CONTACT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_CONTACT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_CONTACT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_COLLECT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_COLLECT
+  id: WECHAT_NAVIGATION_COLLECT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_COLLECT
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_COLLECT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_COLLECT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_COLLECT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_COLLECT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_FILE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_FILE
+  id: WECHAT_NAVIGATION_FILE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_FILE
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_FILE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_FILE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_FILE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_FILE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_MOMENT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_MOMENT
+  id: WECHAT_NAVIGATION_MOMENT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_MOMENT
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_MOMENT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_MOMENT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_MOMENT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_MOMENT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SEARCH
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SEARCH
+  id: WECHAT_NAVIGATION_SEARCH
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_SEARCH
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_SEARCH
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SEARCH
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_SEARCH
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_SEARCH As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_VIDEO
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_VIDEO
+  id: WECHAT_NAVIGATION_VIDEO
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_VIDEO
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_VIDEO
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_VIDEO
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_VIDEO
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_VIDEO As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_READ
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_READ
+  id: WECHAT_NAVIGATION_READ
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_READ
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_READ
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_READ
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_READ
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_READ As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_APP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_APP
+  id: WECHAT_NAVIGATION_APP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_APP
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_APP
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_APP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_APP
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_APP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_PHONE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_PHONE
+  id: WECHAT_NAVIGATION_PHONE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_PHONE
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_PHONE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_PHONE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_PHONE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_PHONE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SETTING
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SETTING
+  id: WECHAT_NAVIGATION_SETTING
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_SETTING
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_SETTING
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SETTING
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_SETTING
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_SETTING As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
+  id: WECHAT_NAVIGATION_NAVIGATION
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_NAVIGATION_NAVIGATION
+  nameWithType: WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_NAVIGATION_NAVIGATION
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_NAVIGATION_NAVIGATION As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_SEARCH
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_SEARCH
+  id: WECHAT_SESSION_SEARCH
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SESSION_SEARCH
+  nameWithType: WeChatConstant.WECHAT_SESSION_SEARCH
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_SEARCH
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SESSION_SEARCH
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SESSION_SEARCH As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_CLEAR
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_CLEAR
+  id: WECHAT_SESSION_CLEAR
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SESSION_CLEAR
+  nameWithType: WeChatConstant.WECHAT_SESSION_CLEAR
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_CLEAR
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SESSION_CLEAR
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SESSION_CLEAR As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_TOP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_TOP
+  id: WECHAT_CHAT_BOX_TOP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_TOP
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_TOP
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_TOP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_TOP
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_TOP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
+  id: WECHAT_SESSION_BOX_HAS_TOP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SESSION_BOX_HAS_TOP
+  nameWithType: WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SESSION_BOX_HAS_TOP
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SESSION_BOX_HAS_TOP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_UNTOP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_UNTOP
+  id: WECHAT_CHAT_BOX_UNTOP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_UNTOP
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_UNTOP
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_UNTOP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_UNTOP
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_UNTOP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
+  id: WECHAT_SESSION_BOX_CONVERSATION
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_SESSION_BOX_CONVERSATION
+  nameWithType: WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_SESSION_BOX_CONVERSATION
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_SESSION_BOX_CONVERSATION As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
+  id: WECHAT_CONVERSATION_WX_TEAM
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_WX_TEAM
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_WX_TEAM
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_WX_TEAM As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
+  id: WECHAT_CONVERSATION_SERVICE_NOTICE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_SERVICE_NOTICE
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_SERVICE_NOTICE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_SERVICE_NOTICE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_PAY
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_PAY
+  id: WECHAT_CONVERSATION_WX_PAY
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_WX_PAY
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_WX_PAY
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_PAY
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_WX_PAY
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_WX_PAY As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
+  id: WECHAT_CONVERSATION_TX_NEWS
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_TX_NEWS
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_TX_NEWS
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_TX_NEWS As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
+  id: WECHAT_CONVERSATION_SUBSCRIPTION
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_SUBSCRIPTION
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_SUBSCRIPTION
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_SUBSCRIPTION As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
+  id: WECHAT_CONVERSATION_FILE_TRANSFER
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_FILE_TRANSFER
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_FILE_TRANSFER
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_FILE_TRANSFER As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
+  id: WECHAT_CONVERSATION_COLLAPSED_GROUP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CONVERSATION_COLLAPSED_GROUP
+  nameWithType: WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CONVERSATION_COLLAPSED_GROUP
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CONVERSATION_COLLAPSED_GROUP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
+  id: WECHAT_CHAT_BOX_MESSAGE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_MESSAGE
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_MESSAGE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_MESSAGE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_LIVE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_LIVE
+  id: WECHAT_CHAT_BOX_LIVE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_LIVE
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_LIVE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_LIVE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_LIVE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_LIVE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_EMOTION
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_EMOTION
+  id: WECHAT_CHAT_BOX_EMOTION
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_EMOTION
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_EMOTION
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_EMOTION
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_EMOTION
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_EMOTION As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
+  id: WECHAT_CHAT_BOX_SEND_FILE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_SEND_FILE
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_SEND_FILE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_SEND_FILE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
+  id: WECHAT_CHAT_BOX_SCREENSHOT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_SCREENSHOT
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_SCREENSHOT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_SCREENSHOT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
+  id: WECHAT_CHAT_BOX_CHAT_RECORD
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_CHAT_RECORD
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_CHAT_RECORD
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_CHAT_RECORD As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
+  id: WECHAT_CHAT_BOX_VOICE_CHAT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_VOICE_CHAT
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_VOICE_CHAT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_VOICE_CHAT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
+  id: WECHAT_CHAT_BOX_VIDEO_CHAT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_VIDEO_CHAT
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_VIDEO_CHAT
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_VIDEO_CHAT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
+  id: WECHAT_CHAT_BOX_CONTENT_SEND
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_CONTENT_SEND
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_CONTENT_SEND
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_CONTENT_SEND As String
+- uid: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  id: WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  nameWithType: WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static readonly string WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly WECHAT_CHAT_BOX_CONTENT_LOOK_MORE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_IMAGE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_IMAGE
+  id: MESSAGES_IMAGE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_IMAGE
+  nameWithType: WeChatConstant.MESSAGES_IMAGE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_IMAGE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_IMAGE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_IMAGE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO
+  id: MESSAGES_VIDEO
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VIDEO
+  nameWithType: WeChatConstant.MESSAGES_VIDEO
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VIDEO
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VIDEO As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VOICE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VOICE
+  id: MESSAGES_VOICE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VOICE
+  nameWithType: WeChatConstant.MESSAGES_VOICE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VOICE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VOICE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VOICE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LOCATION
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_LOCATION
+  id: MESSAGES_LOCATION
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_LOCATION
+  nameWithType: WeChatConstant.MESSAGES_LOCATION
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LOCATION
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_LOCATION
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_LOCATION As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LINK
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_LINK
+  id: MESSAGES_LINK
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_LINK
+  nameWithType: WeChatConstant.MESSAGES_LINK
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LINK
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_LINK
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_LINK As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_FILE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_FILE
+  id: MESSAGES_FILE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_FILE
+  nameWithType: WeChatConstant.MESSAGES_FILE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_FILE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_FILE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_FILE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CARD
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_CARD
+  id: MESSAGES_CARD
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_CARD
+  nameWithType: WeChatConstant.MESSAGES_CARD
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CARD
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_CARD
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_CARD As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE
+  id: MESSAGES_NOTE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_NOTE
+  nameWithType: WeChatConstant.MESSAGES_NOTE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_NOTE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_NOTE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER
+  id: MESSAGES_VIDEO_NUMBER
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VIDEO_NUMBER
+  nameWithType: WeChatConstant.MESSAGES_VIDEO_NUMBER
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VIDEO_NUMBER
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VIDEO_NUMBER As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
+  id: MESSAGES_VIDEO_NUMBER_LIVE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VIDEO_NUMBER_LIVE
+  nameWithType: WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VIDEO_NUMBER_LIVE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VIDEO_NUMBER_LIVE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CHAT_RECORD
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_CHAT_RECORD
+  id: MESSAGES_CHAT_RECORD
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_CHAT_RECORD
+  nameWithType: WeChatConstant.MESSAGES_CHAT_RECORD
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CHAT_RECORD
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_CHAT_RECORD
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_CHAT_RECORD As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_PICK_UP
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_PICK_UP
+  id: MESSAGES_PICK_UP
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_PICK_UP
+  nameWithType: WeChatConstant.MESSAGES_PICK_UP
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_PICK_UP
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_PICK_UP
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_PICK_UP As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_SEND
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_SEND
+  id: MESSAGES_RED_PACKET_SEND
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_RED_PACKET_SEND
+  nameWithType: WeChatConstant.MESSAGES_RED_PACKET_SEND
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_SEND
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_RED_PACKET_SEND
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_RED_PACKET_SEND As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
+  id: MESSAGES_RED_PACKET_RECEIVE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_RED_PACKET_RECEIVE
+  nameWithType: WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_RED_PACKET_RECEIVE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_RED_PACKET_RECEIVE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_WECHAT_TRANSFER
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_WECHAT_TRANSFER
+  id: MESSAGES_WECHAT_TRANSFER
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_WECHAT_TRANSFER
+  nameWithType: WeChatConstant.MESSAGES_WECHAT_TRANSFER
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_WECHAT_TRANSFER
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_WECHAT_TRANSFER
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_WECHAT_TRANSFER As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_COLLECT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_COLLECT
+  id: MESSAGES_COLLECT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_COLLECT
+  nameWithType: WeChatConstant.MESSAGES_COLLECT
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_COLLECT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_COLLECT
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_COLLECT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE_TEXT
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE_TEXT
+  id: MESSAGES_NOTE_TEXT
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_NOTE_TEXT
+  nameWithType: WeChatConstant.MESSAGES_NOTE_TEXT
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE_TEXT
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_NOTE_TEXT
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_NOTE_TEXT As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
+  id: MESSAGES_VIDEO_NUMBER_LIVE_END
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VIDEO_NUMBER_LIVE_END
+  nameWithType: WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VIDEO_NUMBER_LIVE_END
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VIDEO_NUMBER_LIVE_END As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
+  id: MESSAGES_VIDEO_NUMBER_LIVE_ING
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_VIDEO_NUMBER_LIVE_ING
+  nameWithType: WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_VIDEO_NUMBER_LIVE_ING
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_VIDEO_NUMBER_LIVE_ING As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_I
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_I
+  id: MESSAGES_I
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_I
+  nameWithType: WeChatConstant.MESSAGES_I
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_I
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_I
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_I As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_MINI_PROGRAM
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_MINI_PROGRAM
+  id: MESSAGES_MINI_PROGRAM
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_MINI_PROGRAM
+  nameWithType: WeChatConstant.MESSAGES_MINI_PROGRAM
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_MINI_PROGRAM
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_MINI_PROGRAM
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_MINI_PROGRAM As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RECALL
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_RECALL
+  id: MESSAGES_RECALL
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_RECALL
+  nameWithType: WeChatConstant.MESSAGES_RECALL
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RECALL
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_RECALL
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_RECALL As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_YOU
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_YOU
+  id: MESSAGES_YOU
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_YOU
+  nameWithType: WeChatConstant.MESSAGES_YOU
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_YOU
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_YOU
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_YOU As String
+- uid: WeAutoCommon.Utils.WeChatConstant.MESSAGES_REFERENCE
+  commentId: F:WeAutoCommon.Utils.WeChatConstant.MESSAGES_REFERENCE
+  id: MESSAGES_REFERENCE
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: MESSAGES_REFERENCE
+  nameWithType: WeChatConstant.MESSAGES_REFERENCE
+  fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_REFERENCE
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public static string MESSAGES_REFERENCE
+    return:
+      type: System.String
+    content.vb: Public Shared MESSAGES_REFERENCE As String
+- uid: WeAutoCommon.Utils.WeChatConstant.#ctor
+  commentId: M:WeAutoCommon.Utils.WeChatConstant.#ctor
+  id: '#ctor'
+  parent: WeAutoCommon.Utils.WeChatConstant
+  langs:
+  - csharp
+  - vb
+  name: WeChatConstant()
+  nameWithType: WeChatConstant.WeChatConstant()
+  fullName: WeAutoCommon.Utils.WeChatConstant.WeChatConstant()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Utils/WeChatConstant.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  syntax:
+    content: public WeChatConstant()
+    content.vb: Public Sub New()
+  overload: WeAutoCommon.Utils.WeChatConstant.#ctor*
+  nameWithType.vb: WeChatConstant.New()
+  fullName.vb: WeAutoCommon.Utils.WeChatConstant.New()
+  name.vb: New()
+references:
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Utils.WeChatConstant.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatConstant>(WeChatConstant)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatConstant>(WeChatConstant)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Utils.WeChatConstant>(WeAutoCommon.Utils.WeChatConstant)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatConstant)(WeChatConstant)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Utils.WeChatConstant)(WeAutoCommon.Utils.WeChatConstant)
+  name.vb: ToMaybe(Of WeChatConstant)(WeChatConstant)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.WeChatConstant)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Utils.WeChatConstant
+    name: WeChatConstant
+    isExternal: true
+    href: WeAutoCommon.Utils.WeChatConstant.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Utils.WeChatConstant
+    name: WeChatConstant
+    isExternal: true
+    href: WeAutoCommon.Utils.WeChatConstant.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.WeChatConstant)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Utils.WeChatConstant
+    name: WeChatConstant
+    isExternal: true
+    href: WeAutoCommon.Utils.WeChatConstant.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Utils.WeChatConstant
+    name: WeChatConstant
+    isExternal: true
+    href: WeAutoCommon.Utils.WeChatConstant.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Utils.WeChatConstant.#ctor*
+  commentId: Overload:WeAutoCommon.Utils.WeChatConstant.#ctor
+  isExternal: true
+  href: WeAutoCommon.Utils.WeChatConstant.html#WeAutoCommon_Utils_WeChatConstant__ctor
+  name: WeChatConstant
+  nameWithType: WeChatConstant.WeChatConstant
+  fullName: WeAutoCommon.Utils.WeChatConstant.WeChatConstant
+  nameWithType.vb: WeChatConstant.New
+  fullName.vb: WeAutoCommon.Utils.WeChatConstant.New
+  name.vb: New

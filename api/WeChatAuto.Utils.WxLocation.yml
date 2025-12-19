@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Utils.WxLocation
+  commentId: T:WeChatAuto.Utils.WxLocation
+  id: WxLocation
+  parent: WeChatAuto.Utils
+  children:
+  - WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.Conditions.ConditionBase)
+  - WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.Conditions.ConditionBase,System.String)
+  - WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,System.String)
+  - WeChatAuto.Utils.WxLocation.AutomationId
+  - WeChatAuto.Utils.WxLocation.Condition
+  - WeChatAuto.Utils.WxLocation.ParentElement
+  - WeChatAuto.Utils.WxLocation.RefreshElement
+  - WeChatAuto.Utils.WxLocation.XPath
+  langs:
+  - csharp
+  - vb
+  name: WxLocation
+  nameWithType: WxLocation
+  fullName: WeChatAuto.Utils.WxLocation
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 微信元素定位信息
+  example: []
+  syntax:
+    content: public class WxLocation
+    content.vb: Public Class WxLocation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Utils.WxLocation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,System.String)
+  commentId: M:WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,System.String)
+  id: '#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,System.String)'
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: WxLocation(AutomationElement, string, string)
+  nameWithType: WxLocation.WxLocation(AutomationElement, string, string)
+  fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, string)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    构造函数
+
+    具体被使用请看<xref href="WeChatAuto.Utils.WxLocator" data-throw-if-not-resolved="false"></xref>类
+  example: []
+  syntax:
+    content: public WxLocation(AutomationElement parentElement, string automationId = "", string xPath = "")
+    parameters:
+    - id: parentElement
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 父元素
+    - id: automationId
+      type: System.String
+      description: 自动化ID
+    - id: xPath
+      type: System.String
+      description: XPath
+    content.vb: Public Sub New(parentElement As AutomationElement, automationId As String = "", xPath As String = "")
+  overload: WeChatAuto.Utils.WxLocation.#ctor*
+  nameWithType.vb: WxLocation.New(AutomationElement, String, String)
+  fullName.vb: WeChatAuto.Utils.WxLocation.New(FlaUI.Core.AutomationElements.AutomationElement, String, String)
+  name.vb: New(AutomationElement, String, String)
+- uid: WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.Conditions.ConditionBase)
+  commentId: M:WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.Conditions.ConditionBase)
+  id: '#ctor(FlaUI.Core.AutomationElements.AutomationElement,FlaUI.Core.Conditions.ConditionBase)'
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: WxLocation(AutomationElement, ConditionBase)
+  nameWithType: WxLocation.WxLocation(AutomationElement, ConditionBase)
+  fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.Conditions.ConditionBase)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    构造函数
+
+    具体被使用请看<xref href="WeChatAuto.Utils.WxLocator" data-throw-if-not-resolved="false"></xref>类
+  example: []
+  syntax:
+    content: public WxLocation(AutomationElement parentElement, ConditionBase condition)
+    parameters:
+    - id: parentElement
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 父元素
+    - id: condition
+      type: FlaUI.Core.Conditions.ConditionBase
+      description: 条件
+    content.vb: Public Sub New(parentElement As AutomationElement, condition As ConditionBase)
+  overload: WeChatAuto.Utils.WxLocation.#ctor*
+  nameWithType.vb: WxLocation.New(AutomationElement, ConditionBase)
+  fullName.vb: WeChatAuto.Utils.WxLocation.New(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.Conditions.ConditionBase)
+  name.vb: New(AutomationElement, ConditionBase)
+- uid: WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.Conditions.ConditionBase,System.String)
+  commentId: M:WeChatAuto.Utils.WxLocation.#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.Conditions.ConditionBase,System.String)
+  id: '#ctor(FlaUI.Core.AutomationElements.AutomationElement,System.String,FlaUI.Core.Conditions.ConditionBase,System.String)'
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: WxLocation(AutomationElement, string, ConditionBase, string)
+  nameWithType: WxLocation.WxLocation(AutomationElement, string, ConditionBase, string)
+  fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.Conditions.ConditionBase, string)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    构造函数
+
+    具体被使用请看<xref href="WeChatAuto.Utils.WxLocator" data-throw-if-not-resolved="false"></xref>类
+  example: []
+  syntax:
+    content: public WxLocation(AutomationElement parentElement, string automationId = "", ConditionBase condition = null, string xPath = "")
+    parameters:
+    - id: parentElement
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 父元素
+    - id: automationId
+      type: System.String
+      description: 自动化ID
+    - id: condition
+      type: FlaUI.Core.Conditions.ConditionBase
+      description: 条件
+    - id: xPath
+      type: System.String
+      description: XPath
+    content.vb: Public Sub New(parentElement As AutomationElement, automationId As String = "", condition As ConditionBase = Nothing, xPath As String = "")
+  overload: WeChatAuto.Utils.WxLocation.#ctor*
+  nameWithType.vb: WxLocation.New(AutomationElement, String, ConditionBase, String)
+  fullName.vb: WeChatAuto.Utils.WxLocation.New(FlaUI.Core.AutomationElements.AutomationElement, String, FlaUI.Core.Conditions.ConditionBase, String)
+  name.vb: New(AutomationElement, String, ConditionBase, String)
+- uid: WeChatAuto.Utils.WxLocation.RefreshElement
+  commentId: M:WeChatAuto.Utils.WxLocation.RefreshElement
+  id: RefreshElement
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: RefreshElement()
+  nameWithType: WxLocation.RefreshElement()
+  fullName: WeChatAuto.Utils.WxLocation.RefreshElement()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: 刷新元素
+  example: []
+  syntax:
+    content: public AutomationElement RefreshElement()
+    return:
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 刷新后的元素
+    content.vb: Public Function RefreshElement() As AutomationElement
+  overload: WeChatAuto.Utils.WxLocation.RefreshElement*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: 刷新失败
+- uid: WeChatAuto.Utils.WxLocation.ParentElement
+  commentId: P:WeChatAuto.Utils.WxLocation.ParentElement
+  id: ParentElement
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: ParentElement
+  nameWithType: WxLocation.ParentElement
+  fullName: WeChatAuto.Utils.WxLocation.ParentElement
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public AutomationElement ParentElement { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.AutomationElement
+    content.vb: Public Property ParentElement As AutomationElement
+  overload: WeChatAuto.Utils.WxLocation.ParentElement*
+- uid: WeChatAuto.Utils.WxLocation.AutomationId
+  commentId: P:WeChatAuto.Utils.WxLocation.AutomationId
+  id: AutomationId
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: AutomationId
+  nameWithType: WxLocation.AutomationId
+  fullName: WeChatAuto.Utils.WxLocation.AutomationId
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public string AutomationId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AutomationId As String
+  overload: WeChatAuto.Utils.WxLocation.AutomationId*
+- uid: WeChatAuto.Utils.WxLocation.Condition
+  commentId: P:WeChatAuto.Utils.WxLocation.Condition
+  id: Condition
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: Condition
+  nameWithType: WxLocation.Condition
+  fullName: WeChatAuto.Utils.WxLocation.Condition
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public ConditionBase Condition { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.Conditions.ConditionBase
+    content.vb: Public Property Condition As ConditionBase
+  overload: WeChatAuto.Utils.WxLocation.Condition*
+- uid: WeChatAuto.Utils.WxLocation.XPath
+  commentId: P:WeChatAuto.Utils.WxLocation.XPath
+  id: XPath
+  parent: WeChatAuto.Utils.WxLocation
+  langs:
+  - csharp
+  - vb
+  name: XPath
+  nameWithType: WxLocation.XPath
+  fullName: WeChatAuto.Utils.WxLocation.XPath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WxLocation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public string XPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property XPath As String
+  overload: WeChatAuto.Utils.WxLocation.XPath*
+references:
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Utils.WxLocation.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WxLocation>(WxLocation)
+  nameWithType: FunctionalExtensions.ToMaybe<WxLocation>(WxLocation)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.WxLocation>(WeChatAuto.Utils.WxLocation)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WxLocation)(WxLocation)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.WxLocation)(WeChatAuto.Utils.WxLocation)
+  name.vb: ToMaybe(Of WxLocation)(WxLocation)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WxLocation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Utils.WxLocation
+    name: WxLocation
+    isExternal: true
+    href: WeChatAuto.Utils.WxLocation.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Utils.WxLocation
+    name: WxLocation
+    isExternal: true
+    href: WeChatAuto.Utils.WxLocation.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WxLocation)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Utils.WxLocation
+    name: WxLocation
+    isExternal: true
+    href: WeChatAuto.Utils.WxLocation.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Utils.WxLocation
+    name: WxLocation
+    isExternal: true
+    href: WeChatAuto.Utils.WxLocation.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.WxLocator
+  commentId: T:WeChatAuto.Utils.WxLocator
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocator.html
+  name: WxLocator
+  nameWithType: WxLocator
+  fullName: WeChatAuto.Utils.WxLocator
+- uid: WeChatAuto.Utils.WxLocation.#ctor*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.#ctor
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation__ctor_FlaUI_Core_AutomationElements_AutomationElement_System_String_System_String_
+  name: WxLocation
+  nameWithType: WxLocation.WxLocation
+  fullName: WeChatAuto.Utils.WxLocation.WxLocation
+  nameWithType.vb: WxLocation.New
+  fullName.vb: WeChatAuto.Utils.WxLocation.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.AutomationElement
+  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: AutomationElement
+  nameWithType: AutomationElement
+  fullName: FlaUI.Core.AutomationElements.AutomationElement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: FlaUI.Core.Conditions.ConditionBase
+  commentId: T:FlaUI.Core.Conditions.ConditionBase
+  parent: FlaUI.Core.Conditions
+  isExternal: true
+  name: ConditionBase
+  nameWithType: ConditionBase
+  fullName: FlaUI.Core.Conditions.ConditionBase
+- uid: FlaUI.Core.Conditions
+  commentId: N:FlaUI.Core.Conditions
+  isExternal: true
+  name: FlaUI.Core.Conditions
+  nameWithType: FlaUI.Core.Conditions
+  fullName: FlaUI.Core.Conditions
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Conditions
+    name: Conditions
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Conditions
+    name: Conditions
+    isExternal: true
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: WeChatAuto.Utils.WxLocation.RefreshElement*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.RefreshElement
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation_RefreshElement
+  name: RefreshElement
+  nameWithType: WxLocation.RefreshElement
+  fullName: WeChatAuto.Utils.WxLocation.RefreshElement
+- uid: WeChatAuto.Utils.WxLocation.ParentElement*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.ParentElement
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation_ParentElement
+  name: ParentElement
+  nameWithType: WxLocation.ParentElement
+  fullName: WeChatAuto.Utils.WxLocation.ParentElement
+- uid: WeChatAuto.Utils.WxLocation.AutomationId*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.AutomationId
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation_AutomationId
+  name: AutomationId
+  nameWithType: WxLocation.AutomationId
+  fullName: WeChatAuto.Utils.WxLocation.AutomationId
+- uid: WeChatAuto.Utils.WxLocation.Condition*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.Condition
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation_Condition
+  name: Condition
+  nameWithType: WxLocation.Condition
+  fullName: WeChatAuto.Utils.WxLocation.Condition
+- uid: WeChatAuto.Utils.WxLocation.XPath*
+  commentId: Overload:WeChatAuto.Utils.WxLocation.XPath
+  isExternal: true
+  href: WeChatAuto.Utils.WxLocation.html#WeChatAuto_Utils_WxLocation_XPath
+  name: XPath
+  nameWithType: WxLocation.XPath
+  fullName: WeChatAuto.Utils.WxLocation.XPath

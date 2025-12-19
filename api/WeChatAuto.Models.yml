@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  id: WeChatAuto.Models
+  children:
+  - WeChatAuto.Models.AddGroupMemberOptions
+  - WeChatAuto.Models.ChatMessageInner
+  - WeChatAuto.Models.ChatSimpleMessage
+  - WeChatAuto.Models.MessageContext
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  type: Namespace
+  assemblies:
+  - WeChatAuto
+references:
+- uid: WeChatAuto.Models.AddGroupMemberOptions
+  commentId: T:WeChatAuto.Models.AddGroupMemberOptions
+  isExternal: true
+  href: WeChatAuto.Models.AddGroupMemberOptions.html
+  name: AddGroupMemberOptions
+  nameWithType: AddGroupMemberOptions
+  fullName: WeChatAuto.Models.AddGroupMemberOptions
+- uid: WeChatAuto.Models.ChatMessageInner
+  commentId: T:WeChatAuto.Models.ChatMessageInner
+  isExternal: true
+  href: WeChatAuto.Models.ChatMessageInner.html
+  name: ChatMessageInner
+  nameWithType: ChatMessageInner
+  fullName: WeChatAuto.Models.ChatMessageInner
+- uid: WeChatAuto.Models.ChatSimpleMessage
+  commentId: T:WeChatAuto.Models.ChatSimpleMessage
+  parent: WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.Models.ChatSimpleMessage.html
+  name: ChatSimpleMessage
+  nameWithType: ChatSimpleMessage
+  fullName: WeChatAuto.Models.ChatSimpleMessage
+- uid: WeChatAuto.Models.MessageContext
+  commentId: T:WeChatAuto.Models.MessageContext
+  isExternal: true
+  href: WeChatAuto.Models.MessageContext.html
+  name: MessageContext
+  nameWithType: MessageContext
+  fullName: WeChatAuto.Models.MessageContext
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html

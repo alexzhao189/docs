@@ -1,0 +1,1169 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Configs.WeChatConfig
+  commentId: T:WeAutoCommon.Configs.WeChatConfig
+  id: WeChatConfig
+  parent: WeAutoCommon.Configs
+  children:
+  - WeAutoCommon.Configs.WeChatConfig.#ctor
+  - WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+  - WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  - WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+  - WeAutoCommon.Configs.WeChatConfig.DebugMode
+  - WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+  - WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+  - WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+  - WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+  - WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  - WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  - WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+  - WeAutoCommon.Configs.WeChatConfig.ListenInterval
+  - WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+  - WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+  - WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+  - WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+  - WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+  - WeAutoCommon.Configs.WeChatConfig.OutputStringType
+  - WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
+  - WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+  langs:
+  - csharp
+  - vb
+  name: WeChatConfig
+  nameWithType: WeChatConfig
+  fullName: WeAutoCommon.Configs.WeChatConfig
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 微信自动化参数配置类
+  example: []
+  syntax:
+    content: public class WeChatConfig
+    content.vb: Public Class WeChatConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Configs.WeChatConfig.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Configs.WeChatConfig.#ctor
+  commentId: M:WeAutoCommon.Configs.WeChatConfig.#ctor
+  id: '#ctor'
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: WeChatConfig()
+  nameWithType: WeChatConfig.WeChatConfig()
+  fullName: WeAutoCommon.Configs.WeChatConfig.WeChatConfig()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  syntax:
+    content: public WeChatConfig()
+    content.vb: Public Sub New()
+  overload: WeAutoCommon.Configs.WeChatConfig.#ctor*
+  nameWithType.vb: WeChatConfig.New()
+  fullName.vb: WeAutoCommon.Configs.WeChatConfig.New()
+  name.vb: New()
+- uid: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+  id: DefaultSavePath
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: DefaultSavePath
+  nameWithType: WeChatConfig.DefaultSavePath
+  fullName: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 下载文件/图片默认保存路径
+  example: []
+  syntax:
+    content: public string DefaultSavePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultSavePath As String
+  overload: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath*
+- uid: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+  id: CheckAppRunningInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: CheckAppRunningInterval
+  nameWithType: WeChatConfig.CheckAppRunningInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    检查微信客户端是否运行的时间间隔，单位秒
+
+    用于风控退出时的重试机制
+  example: []
+  syntax:
+    content: public int CheckAppRunningInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CheckAppRunningInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+  id: AppRetryWaitTime
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: AppRetryWaitTime
+  nameWithType: WeChatConfig.AppRetryWaitTime
+  fullName: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 微信客户端退出时的重试等待时间，单位秒,默认等候10秒
+  example: []
+  syntax:
+    content: public int AppRetryWaitTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppRetryWaitTime As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime*
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+  id: EnableCheckAppRunning
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: EnableCheckAppRunning
+  nameWithType: WeChatConfig.EnableCheckAppRunning
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    是否启用检查微信客户端是否运行
+
+    默认启用
+  example: []
+  syntax:
+    content: public bool EnableCheckAppRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableCheckAppRunning As Boolean
+  overload: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning*
+- uid: WeAutoCommon.Configs.WeChatConfig.ListenInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.ListenInterval
+  id: ListenInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: ListenInterval
+  nameWithType: WeChatConfig.ListenInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ListenInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 监听消息时间间隔，单位秒
+  example: []
+  syntax:
+    content: public int ListenInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListenInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.ListenInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+  id: MomentsListenInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: MomentsListenInterval
+  nameWithType: WeChatConfig.MomentsListenInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 朋友圈监听时间间隔，单位秒
+  example: []
+  syntax:
+    content: public int MomentsListenInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MomentsListenInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+  id: NewUserListenerInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: NewUserListenerInterval
+  nameWithType: WeChatConfig.NewUserListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 新用户监听时间间隔，单位秒
+  example: []
+  syntax:
+    content: public int NewUserListenerInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NewUserListenerInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+  id: MonitorSubWinInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: MonitorSubWinInterval
+  nameWithType: WeChatConfig.MonitorSubWinInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 监听子窗口时间间隔，单位秒
+  example: []
+  syntax:
+    content: public int MonitorSubWinInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MonitorSubWinInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.DebugMode
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.DebugMode
+  id: DebugMode
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: DebugMode
+  nameWithType: WeChatConfig.DebugMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.DebugMode
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 是否启用调试模式
+  example: []
+  syntax:
+    content: public bool DebugMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DebugMode As Boolean
+  overload: WeAutoCommon.Configs.WeChatConfig.DebugMode*
+- uid: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  id: CaptureUIPath
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: CaptureUIPath
+  nameWithType: WeChatConfig.CaptureUIPath
+  fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    出错后捕获UI保存路径
+
+    默认保存到当前目录下的Capture文件夹,可以修改为其他路径
+  example: []
+  syntax:
+    content: public string CaptureUIPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CaptureUIPath As String
+  overload: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath*
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+  id: EnableRecordVideo
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: EnableRecordVideo
+  nameWithType: WeChatConfig.EnableRecordVideo
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 是否启用视频录制
+  example: []
+  syntax:
+    content: public bool EnableRecordVideo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableRecordVideo As Boolean
+  overload: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo*
+- uid: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+  id: TargetVideoPath
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: TargetVideoPath
+  nameWithType: WeChatConfig.TargetVideoPath
+  fullName: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    视频录制保存路径
+
+    默认保存到当前目录下的Video文件夹,可以修改为其他路径
+  example: []
+  syntax:
+    content: public string TargetVideoPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetVideoPath As String
+  overload: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath*
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+  id: EnableMouseKeyboardSimulator
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: EnableMouseKeyboardSimulator
+  nameWithType: WeChatConfig.EnableMouseKeyboardSimulator
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    是否启用鼠标键盘模拟器
+
+    启用后，一些普通automation操作不了功能，启用硬件模拟器后，可以操作。
+
+    注意：需要购买键鼠模拟器，并在此处启用。
+  example: []
+  syntax:
+    content: public bool EnableMouseKeyboardSimulator { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableMouseKeyboardSimulator As Boolean
+  overload: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator*
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  id: KMDeiviceVID
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: KMDeiviceVID
+  nameWithType: WeChatConfig.KMDeiviceVID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 键鼠模拟器设备VID
+  example: []
+  syntax:
+    content: public int KMDeiviceVID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property KMDeiviceVID As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID*
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  id: KMDeivicePID
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: KMDeivicePID
+  nameWithType: WeChatConfig.KMDeivicePID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 键鼠模拟器设备PID
+  example: []
+  syntax:
+    content: public int KMDeivicePID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property KMDeivicePID As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID*
+- uid: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+  id: KMVerifyUserData
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: KMVerifyUserData
+  nameWithType: WeChatConfig.KMVerifyUserData
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  syntax:
+    content: public string KMVerifyUserData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property KMVerifyUserData As String
+  overload: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData*
+- uid: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+  id: OffsetOfClick
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: OffsetOfClick
+  nameWithType: WeChatConfig.OffsetOfClick
+  fullName: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    点击偏移量,单位像素
+
+    为了避免每次点击都点击到同一个位置，可以设置一个偏移量，实际点击位置为点击位置减去偏移量的一个随机值
+  example: []
+  syntax:
+    content: public int OffsetOfClick { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OffsetOfClick As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick*
+- uid: WeAutoCommon.Configs.WeChatConfig.OutputStringType
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.OutputStringType
+  id: OutputStringType
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: OutputStringType
+  nameWithType: WeChatConfig.OutputStringType
+  fullName: WeAutoCommon.Configs.WeChatConfig.OutputStringType
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 输出字符串编码类型,默认使用剪贴板粘贴输出字符串。优点是输出字符多时速度更快且不受输入法影响
+  example: []
+  syntax:
+    content: public int OutputStringType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OutputStringType As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.OutputStringType*
+- uid: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+  id: MouseMoveMode
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: MouseMoveMode
+  nameWithType: WeChatConfig.MouseMoveMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 鼠标移动模式
+  example: []
+  syntax:
+    content: public int MouseMoveMode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MouseMoveMode As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode*
+- uid: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
+  id: ProcessDpiAwareness
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: ProcessDpiAwareness
+  nameWithType: WeChatConfig.ProcessDpiAwareness
+  fullName: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: >-
+    进程DPI感知值,如果使用库的应用已经设置DPI感知，此参数无效。
+
+    0: 不设置,进程对DPI完全不知晓，按逻辑像素绘制，可能会出现点击不准确的情况。
+
+    1: PROCESS_SYSTEM_DPI_AWARE 默认值,进程只根据主显示器DPI绘制，DPI感知生效。
+
+    2: PROCESS_PER_MONITOR_DPI_AWARE，进程根据每个显示器DPI绘制,DPI感知生效。
+  example: []
+  syntax:
+    content: public int ProcessDpiAwareness { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProcessDpiAwareness As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness*
+references:
+- uid: WeAutoCommon.Configs
+  commentId: N:WeAutoCommon.Configs
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Configs
+  nameWithType: WeAutoCommon.Configs
+  fullName: WeAutoCommon.Configs
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WeAutoCommon.Configs.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Configs
+    name: Configs
+    isExternal: true
+    href: WeAutoCommon.Configs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Configs.WeChatConfig.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatConfig>(WeChatConfig)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatConfig>(WeChatConfig)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Configs.WeChatConfig>(WeAutoCommon.Configs.WeChatConfig)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatConfig)(WeChatConfig)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Configs.WeChatConfig)(WeAutoCommon.Configs.WeChatConfig)
+  name.vb: ToMaybe(Of WeChatConfig)(WeChatConfig)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Configs.WeChatConfig)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Configs.WeChatConfig
+    name: WeChatConfig
+    isExternal: true
+    href: WeAutoCommon.Configs.WeChatConfig.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Configs.WeChatConfig
+    name: WeChatConfig
+    isExternal: true
+    href: WeAutoCommon.Configs.WeChatConfig.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Configs.WeChatConfig)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Configs.WeChatConfig
+    name: WeChatConfig
+    isExternal: true
+    href: WeAutoCommon.Configs.WeChatConfig.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Configs.WeChatConfig
+    name: WeChatConfig
+    isExternal: true
+    href: WeAutoCommon.Configs.WeChatConfig.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Configs.WeChatConfig.#ctor*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.#ctor
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig__ctor
+  name: WeChatConfig
+  nameWithType: WeChatConfig.WeChatConfig
+  fullName: WeAutoCommon.Configs.WeChatConfig.WeChatConfig
+  nameWithType.vb: WeChatConfig.New
+  fullName.vb: WeAutoCommon.Configs.WeChatConfig.New
+  name.vb: New
+- uid: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_DefaultSavePath
+  name: DefaultSavePath
+  nameWithType: WeChatConfig.DefaultSavePath
+  fullName: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_CheckAppRunningInterval
+  name: CheckAppRunningInterval
+  nameWithType: WeChatConfig.CheckAppRunningInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_AppRetryWaitTime
+  name: AppRetryWaitTime
+  nameWithType: WeChatConfig.AppRetryWaitTime
+  fullName: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableCheckAppRunning
+  name: EnableCheckAppRunning
+  nameWithType: WeChatConfig.EnableCheckAppRunning
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeAutoCommon.Configs.WeChatConfig.ListenInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.ListenInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ListenInterval
+  name: ListenInterval
+  nameWithType: WeChatConfig.ListenInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ListenInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_MomentsListenInterval
+  name: MomentsListenInterval
+  nameWithType: WeChatConfig.MomentsListenInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_NewUserListenerInterval
+  name: NewUserListenerInterval
+  nameWithType: WeChatConfig.NewUserListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_MonitorSubWinInterval
+  name: MonitorSubWinInterval
+  nameWithType: WeChatConfig.MonitorSubWinInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.DebugMode*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.DebugMode
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_DebugMode
+  name: DebugMode
+  nameWithType: WeChatConfig.DebugMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.DebugMode
+- uid: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_CaptureUIPath
+  name: CaptureUIPath
+  nameWithType: WeChatConfig.CaptureUIPath
+  fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableRecordVideo
+  name: EnableRecordVideo
+  nameWithType: WeChatConfig.EnableRecordVideo
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
+- uid: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_TargetVideoPath
+  name: TargetVideoPath
+  nameWithType: WeChatConfig.TargetVideoPath
+  fullName: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
+- uid: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableMouseKeyboardSimulator
+  name: EnableMouseKeyboardSimulator
+  nameWithType: WeChatConfig.EnableMouseKeyboardSimulator
+  fullName: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDeiviceVID
+  name: KMDeiviceVID
+  nameWithType: WeChatConfig.KMDeiviceVID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDeivicePID
+  name: KMDeivicePID
+  nameWithType: WeChatConfig.KMDeivicePID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMVerifyUserData
+  name: KMVerifyUserData
+  nameWithType: WeChatConfig.KMVerifyUserData
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
+- uid: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OffsetOfClick
+  name: OffsetOfClick
+  nameWithType: WeChatConfig.OffsetOfClick
+  fullName: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
+- uid: WeAutoCommon.Configs.WeChatConfig.OutputStringType*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.OutputStringType
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OutputStringType
+  name: OutputStringType
+  nameWithType: WeChatConfig.OutputStringType
+  fullName: WeAutoCommon.Configs.WeChatConfig.OutputStringType
+- uid: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_MouseMoveMode
+  name: MouseMoveMode
+  nameWithType: WeChatConfig.MouseMoveMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
+- uid: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ProcessDpiAwareness
+  name: ProcessDpiAwareness
+  nameWithType: WeChatConfig.ProcessDpiAwareness
+  fullName: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness

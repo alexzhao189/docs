@@ -1,0 +1,1098 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Models.Maybe`1
+  commentId: T:WeAutoCommon.Models.Maybe`1
+  id: Maybe`1
+  parent: WeAutoCommon.Models
+  children:
+  - WeAutoCommon.Models.Maybe`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})
+  - WeAutoCommon.Models.Maybe`1.GetValueOrDefault(`0)
+  - WeAutoCommon.Models.Maybe`1.HasValue
+  - WeAutoCommon.Models.Maybe`1.Map``1(System.Func{`0,``0})
+  - WeAutoCommon.Models.Maybe`1.Match``1(System.Func{`0,``0},System.Func{``0})
+  - WeAutoCommon.Models.Maybe`1.None
+  - WeAutoCommon.Models.Maybe`1.Some(`0)
+  - WeAutoCommon.Models.Maybe`1.Value
+  langs:
+  - csharp
+  - vb
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: WeAutoCommon.Models.Maybe<T>
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: Maybe类，用于封装可能存在的值
+  example: []
+  syntax:
+    content: public class Maybe<T>
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Class Maybe(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Models.Maybe`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  - WeAutoCommon.Models.Maybe`1.WeAutoCommon.Models.FunctionalExtensions.ToResult``1(System.String)
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T)
+  name.vb: Maybe(Of T)
+- uid: WeAutoCommon.Models.Maybe`1.Some(`0)
+  commentId: M:WeAutoCommon.Models.Maybe`1.Some(`0)
+  id: Some(`0)
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Some(T)
+  nameWithType: Maybe<T>.Some(T)
+  fullName: WeAutoCommon.Models.Maybe<T>.Some(T)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public static Maybe<T> Some(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    return:
+      type: WeAutoCommon.Models.Maybe`1
+    content.vb: Public Shared Function Some(value As T) As Maybe(Of T)
+  overload: WeAutoCommon.Models.Maybe`1.Some*
+  nameWithType.vb: Maybe(Of T).Some(T)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Some(T)
+- uid: WeAutoCommon.Models.Maybe`1.None
+  commentId: M:WeAutoCommon.Models.Maybe`1.None
+  id: None
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: None()
+  nameWithType: Maybe<T>.None()
+  fullName: WeAutoCommon.Models.Maybe<T>.None()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public static Maybe<T> None()
+    return:
+      type: WeAutoCommon.Models.Maybe`1
+    content.vb: Public Shared Function None() As Maybe(Of T)
+  overload: WeAutoCommon.Models.Maybe`1.None*
+  nameWithType.vb: Maybe(Of T).None()
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).None()
+- uid: WeAutoCommon.Models.Maybe`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})
+  commentId: M:WeAutoCommon.Models.Maybe`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})
+  id: Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Bind<U>(Func<T, Maybe<U>>)
+  nameWithType: Maybe<T>.Bind<U>(Func<T, Maybe<U>>)
+  fullName: WeAutoCommon.Models.Maybe<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Maybe<U>>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public Maybe<U> Bind<U>(Func<T, Maybe<U>> binder)
+    parameters:
+    - id: binder
+      type: System.Func{{T},WeAutoCommon.Models.Maybe{{U}}}
+    typeParameters:
+    - id: U
+    return:
+      type: WeAutoCommon.Models.Maybe{{U}}
+    content.vb: Public Function Bind(Of U)(binder As Func(Of T, Maybe(Of U))) As Maybe(Of U)
+  overload: WeAutoCommon.Models.Maybe`1.Bind*
+  nameWithType.vb: Maybe(Of T).Bind(Of U)(Func(Of T, Maybe(Of U)))
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Bind(Of U)(System.Func(Of T, WeAutoCommon.Models.Maybe(Of U)))
+  name.vb: Bind(Of U)(Func(Of T, Maybe(Of U)))
+- uid: WeAutoCommon.Models.Maybe`1.Map``1(System.Func{`0,``0})
+  commentId: M:WeAutoCommon.Models.Maybe`1.Map``1(System.Func{`0,``0})
+  id: Map``1(System.Func{`0,``0})
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Map<U>(Func<T, U>)
+  nameWithType: Maybe<T>.Map<U>(Func<T, U>)
+  fullName: WeAutoCommon.Models.Maybe<T>.Map<U>(System.Func<T, U>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public Maybe<U> Map<U>(Func<T, U> mapper)
+    parameters:
+    - id: mapper
+      type: System.Func{{T},{U}}
+    typeParameters:
+    - id: U
+    return:
+      type: WeAutoCommon.Models.Maybe{{U}}
+    content.vb: Public Function Map(Of U)(mapper As Func(Of T, U)) As Maybe(Of U)
+  overload: WeAutoCommon.Models.Maybe`1.Map*
+  nameWithType.vb: Maybe(Of T).Map(Of U)(Func(Of T, U))
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Map(Of U)(System.Func(Of T, U))
+  name.vb: Map(Of U)(Func(Of T, U))
+- uid: WeAutoCommon.Models.Maybe`1.Match``1(System.Func{`0,``0},System.Func{``0})
+  commentId: M:WeAutoCommon.Models.Maybe`1.Match``1(System.Func{`0,``0},System.Func{``0})
+  id: Match``1(System.Func{`0,``0},System.Func{``0})
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Match<U>(Func<T, U>, Func<U>)
+  nameWithType: Maybe<T>.Match<U>(Func<T, U>, Func<U>)
+  fullName: WeAutoCommon.Models.Maybe<T>.Match<U>(System.Func<T, U>, System.Func<U>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public U Match<U>(Func<T, U> some, Func<U> none)
+    parameters:
+    - id: some
+      type: System.Func{{T},{U}}
+    - id: none
+      type: System.Func{{U}}
+    typeParameters:
+    - id: U
+    return:
+      type: '{U}'
+    content.vb: Public Function Match(Of U)(some As Func(Of T, U), none As Func(Of U)) As U
+  overload: WeAutoCommon.Models.Maybe`1.Match*
+  nameWithType.vb: Maybe(Of T).Match(Of U)(Func(Of T, U), Func(Of U))
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Match(Of U)(System.Func(Of T, U), System.Func(Of U))
+  name.vb: Match(Of U)(Func(Of T, U), Func(Of U))
+- uid: WeAutoCommon.Models.Maybe`1.GetValueOrDefault(`0)
+  commentId: M:WeAutoCommon.Models.Maybe`1.GetValueOrDefault(`0)
+  id: GetValueOrDefault(`0)
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: GetValueOrDefault(T)
+  nameWithType: Maybe<T>.GetValueOrDefault(T)
+  fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault(T)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public T GetValueOrDefault(T defaultValue)
+    parameters:
+    - id: defaultValue
+      type: '{T}'
+    return:
+      type: '{T}'
+    content.vb: Public Function GetValueOrDefault(defaultValue As T) As T
+  overload: WeAutoCommon.Models.Maybe`1.GetValueOrDefault*
+  nameWithType.vb: Maybe(Of T).GetValueOrDefault(T)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).GetValueOrDefault(T)
+- uid: WeAutoCommon.Models.Maybe`1.Value
+  commentId: P:WeAutoCommon.Models.Maybe`1.Value
+  id: Value
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Maybe<T>.Value
+  fullName: WeAutoCommon.Models.Maybe<T>.Value
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public T Value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property Value As T
+  overload: WeAutoCommon.Models.Maybe`1.Value*
+  nameWithType.vb: Maybe(Of T).Value
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Value
+- uid: WeAutoCommon.Models.Maybe`1.HasValue
+  commentId: P:WeAutoCommon.Models.Maybe`1.HasValue
+  id: HasValue
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: HasValue
+  nameWithType: Maybe<T>.HasValue
+  fullName: WeAutoCommon.Models.Maybe<T>.HasValue
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public bool HasValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasValue As Boolean
+  overload: WeAutoCommon.Models.Maybe`1.HasValue*
+  nameWithType.vb: Maybe(Of T).HasValue
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).HasValue
+references:
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Maybe<T>>(Maybe<T>)
+  nameWithType: FunctionalExtensions.ToMaybe<Maybe<T>>(Maybe<T>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Models.Maybe<T>>(WeAutoCommon.Models.Maybe<T>)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Maybe(Of T))(Maybe(Of T))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Models.Maybe(Of T))(WeAutoCommon.Models.Maybe(Of T))
+  name.vb: ToMaybe(Of Maybe(Of T))(Maybe(Of T))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Maybe{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Maybe{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.WeAutoCommon.Models.FunctionalExtensions.ToResult``1(System.String)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  name: ToResult<T>(Maybe<T>, string)
+  nameWithType: FunctionalExtensions.ToResult<T>(Maybe<T>, string)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToResult<T>(WeAutoCommon.Models.Maybe<T>, string)
+  nameWithType.vb: FunctionalExtensions.ToResult(Of T)(Maybe(Of T), String)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToResult(Of T)(WeAutoCommon.Models.Maybe(Of T), String)
+  name.vb: ToResult(Of T)(Maybe(Of T), String)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{`0},System.String)
+    name: ToResult
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{`0},System.String)
+    name: ToResult
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  name: ToResult<T>(Maybe<T>, string)
+  nameWithType: FunctionalExtensions.ToResult<T>(Maybe<T>, string)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToResult<T>(WeAutoCommon.Models.Maybe<T>, string)
+  nameWithType.vb: FunctionalExtensions.ToResult(Of T)(Maybe(Of T), String)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToResult(Of T)(WeAutoCommon.Models.Maybe(Of T), String)
+  name.vb: ToResult(Of T)(Maybe(Of T), String)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+    name: ToResult
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToResult``1(WeAutoCommon.Models.Maybe{``0},System.String)
+    name: ToResult
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToResult__1_WeAutoCommon_Models_Maybe___0__System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.Some*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.Some
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_Some__0_
+  name: Some
+  nameWithType: Maybe<T>.Some
+  fullName: WeAutoCommon.Models.Maybe<T>.Some
+  nameWithType.vb: Maybe(Of T).Some
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Some
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: WeAutoCommon.Models.Maybe`1
+  commentId: T:WeAutoCommon.Models.Maybe`1
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html
+  name: Maybe<T>
+  nameWithType: Maybe<T>
+  fullName: WeAutoCommon.Models.Maybe<T>
+  nameWithType.vb: Maybe(Of T)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T)
+  name.vb: Maybe(Of T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: WeAutoCommon.Models.Maybe`1.None*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.None
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_None
+  name: None
+  nameWithType: Maybe<T>.None
+  fullName: WeAutoCommon.Models.Maybe<T>.None
+  nameWithType.vb: Maybe(Of T).None
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).None
+- uid: WeAutoCommon.Models.Maybe`1.Bind*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.Bind
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_Bind__1_System_Func__0_WeAutoCommon_Models_Maybe___0___
+  name: Bind
+  nameWithType: Maybe<T>.Bind
+  fullName: WeAutoCommon.Models.Maybe<T>.Bind
+  nameWithType.vb: Maybe(Of T).Bind
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Bind
+- uid: System.Func{{T},WeAutoCommon.Models.Maybe{{U}}}
+  commentId: T:System.Func{`0,WeAutoCommon.Models.Maybe{``0}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, Maybe<U>>
+  nameWithType: Func<T, Maybe<U>>
+  fullName: System.Func<T, WeAutoCommon.Models.Maybe<U>>
+  nameWithType.vb: Func(Of T, Maybe(Of U))
+  fullName.vb: System.Func(Of T, WeAutoCommon.Models.Maybe(Of U))
+  name.vb: Func(Of T, Maybe(Of U))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Maybe{{U}}
+  commentId: T:WeAutoCommon.Models.Maybe{``0}
+  parent: WeAutoCommon.Models
+  definition: WeAutoCommon.Models.Maybe`1
+  href: WeAutoCommon.Models.Maybe-1.html
+  name: Maybe<U>
+  nameWithType: Maybe<U>
+  fullName: WeAutoCommon.Models.Maybe<U>
+  nameWithType.vb: Maybe(Of U)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of U)
+  name.vb: Maybe(Of U)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.Map*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.Map
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_Map__1_System_Func__0___0__
+  name: Map
+  nameWithType: Maybe<T>.Map
+  fullName: WeAutoCommon.Models.Maybe<T>.Map
+  nameWithType.vb: Maybe(Of T).Map
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Map
+- uid: System.Func{{T},{U}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, U>
+  nameWithType: Func<T, U>
+  fullName: System.Func<T, U>
+  nameWithType.vb: Func(Of T, U)
+  fullName.vb: System.Func(Of T, U)
+  name.vb: Func(Of T, U)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.Match*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.Match
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_Match__1_System_Func__0___0__System_Func___0__
+  name: Match
+  nameWithType: Maybe<T>.Match
+  fullName: WeAutoCommon.Models.Maybe<T>.Match
+  nameWithType.vb: Maybe(Of T).Match
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Match
+- uid: System.Func{{U}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<U>
+  nameWithType: Func<U>
+  fullName: System.Func<U>
+  nameWithType.vb: Func(Of U)
+  fullName.vb: System.Func(Of U)
+  name.vb: Func(Of U)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+- uid: '{U}'
+  commentId: '!:U'
+  definition: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: WeAutoCommon.Models.Maybe`1.GetValueOrDefault*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.GetValueOrDefault
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_GetValueOrDefault__0_
+  name: GetValueOrDefault
+  nameWithType: Maybe<T>.GetValueOrDefault
+  fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault
+  nameWithType.vb: Maybe(Of T).GetValueOrDefault
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).GetValueOrDefault
+- uid: WeAutoCommon.Models.Maybe`1.Value*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.Value
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_Value
+  name: Value
+  nameWithType: Maybe<T>.Value
+  fullName: WeAutoCommon.Models.Maybe<T>.Value
+  nameWithType.vb: Maybe(Of T).Value
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).Value
+- uid: WeAutoCommon.Models.Maybe`1.HasValue*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.HasValue
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_HasValue
+  name: HasValue
+  nameWithType: Maybe<T>.HasValue
+  fullName: WeAutoCommon.Models.Maybe<T>.HasValue
+  nameWithType.vb: Maybe(Of T).HasValue
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).HasValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

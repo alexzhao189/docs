@@ -1,0 +1,1044 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Models.ChatGroupOptions
+  commentId: T:WxAutoCommon.Models.ChatGroupOptions
+  id: ChatGroupOptions
+  parent: WxAutoCommon.Models
+  children:
+  - WxAutoCommon.Models.ChatGroupOptions.#ctor
+  - WxAutoCommon.Models.ChatGroupOptions.GroupMemo
+  - WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+  - WxAutoCommon.Models.ChatGroupOptions.GroupName
+  - WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+  - WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+  - WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+  - WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+  - WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+  - WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+  - WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+  - WxAutoCommon.Models.ChatGroupOptions.Reset
+  - WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+  - WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+  - WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+  - WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+  - WxAutoCommon.Models.ChatGroupOptions.ToString
+  - WxAutoCommon.Models.ChatGroupOptions.Top
+  - WxAutoCommon.Models.ChatGroupOptions.TopChanged
+  langs:
+  - csharp
+  - vb
+  name: ChatGroupOptions
+  nameWithType: ChatGroupOptions
+  fullName: WxAutoCommon.Models.ChatGroupOptions
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public class ChatGroupOptions
+    content.vb: Public Class ChatGroupOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WxAutoCommon.Models.ChatGroupOptions.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WxAutoCommon.Models.ChatGroupOptions.Reset
+  commentId: M:WxAutoCommon.Models.ChatGroupOptions.Reset
+  id: Reset
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: ChatGroupOptions.Reset()
+  fullName: WxAutoCommon.Models.ChatGroupOptions.Reset()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 重置所有选项
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: WxAutoCommon.Models.ChatGroupOptions.Reset*
+- uid: WxAutoCommon.Models.ChatGroupOptions.ToString
+  commentId: M:WxAutoCommon.Models.ChatGroupOptions.ToString
+  id: ToString
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatGroupOptions.ToString()
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WxAutoCommon.Models.ChatGroupOptions.ToString*
+- uid: WxAutoCommon.Models.ChatGroupOptions.#ctor
+  commentId: M:WxAutoCommon.Models.ChatGroupOptions.#ctor
+  id: '#ctor'
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: ChatGroupOptions()
+  nameWithType: ChatGroupOptions.ChatGroupOptions()
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ChatGroupOptions()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public ChatGroupOptions()
+    content.vb: Public Sub New()
+  overload: WxAutoCommon.Models.ChatGroupOptions.#ctor*
+  nameWithType.vb: ChatGroupOptions.New()
+  fullName.vb: WxAutoCommon.Models.ChatGroupOptions.New()
+  name.vb: New()
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupName
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupName
+  id: GroupName
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: ChatGroupOptions.GroupName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 群聊名称
+  example: []
+  syntax:
+    content: public string GroupName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GroupName As String
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupName*
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+  id: GroupNameChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupNameChanged
+  nameWithType: ChatGroupOptions.GroupNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool GroupNameChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property GroupNameChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+  id: ShowGroupNickNameChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: ShowGroupNickNameChanged
+  nameWithType: ChatGroupOptions.ShowGroupNickNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool ShowGroupNickNameChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ShowGroupNickNameChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+  id: ShowGroupNickName
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: ShowGroupNickName
+  nameWithType: ChatGroupOptions.ShowGroupNickName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 是否显示群组昵称
+  example: []
+  syntax:
+    content: public bool ShowGroupNickName { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowGroupNickName As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName*
+- uid: WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+  id: NoDisturbChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: NoDisturbChanged
+  nameWithType: ChatGroupOptions.NoDisturbChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool NoDisturbChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property NoDisturbChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+  id: NoDisturb
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: NoDisturb
+  nameWithType: ChatGroupOptions.NoDisturb
+  fullName: WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 是否免打扰
+  example: []
+  syntax:
+    content: public bool NoDisturb { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NoDisturb As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.NoDisturb*
+- uid: WxAutoCommon.Models.ChatGroupOptions.TopChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.TopChanged
+  id: TopChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: TopChanged
+  nameWithType: ChatGroupOptions.TopChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.TopChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool TopChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property TopChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.TopChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.Top
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.Top
+  id: Top
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: ChatGroupOptions.Top
+  fullName: WxAutoCommon.Models.ChatGroupOptions.Top
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 是否置顶
+  example: []
+  syntax:
+    content: public bool Top { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Top As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.Top*
+- uid: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+  id: SaveToAddressBookChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: SaveToAddressBookChanged
+  nameWithType: ChatGroupOptions.SaveToAddressBookChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool SaveToAddressBookChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SaveToAddressBookChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+  id: SaveToAddressBook
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: SaveToAddressBook
+  nameWithType: ChatGroupOptions.SaveToAddressBook
+  fullName: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 是否保存至通讯录
+  example: []
+  syntax:
+    content: public bool SaveToAddressBook { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveToAddressBook As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook*
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+  id: GroupNoticeChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupNoticeChanged
+  nameWithType: ChatGroupOptions.GroupNoticeChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool GroupNoticeChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property GroupNoticeChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+  id: GroupNotice
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupNotice
+  nameWithType: ChatGroupOptions.GroupNotice
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 群公告
+  example: []
+  syntax:
+    content: public string GroupNotice { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GroupNotice As String
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupNotice*
+- uid: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+  id: MyGroupNickNameChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: MyGroupNickNameChanged
+  nameWithType: ChatGroupOptions.MyGroupNickNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool MyGroupNickNameChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property MyGroupNickNameChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+  id: MyGroupNickName
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: MyGroupNickName
+  nameWithType: ChatGroupOptions.MyGroupNickName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 我在群里的昵称
+  example: []
+  syntax:
+    content: public string MyGroupNickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MyGroupNickName As String
+  overload: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName*
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+  id: GroupMemoChanged
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupMemoChanged
+  nameWithType: ChatGroupOptions.GroupMemoChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  syntax:
+    content: public bool GroupMemoChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property GroupMemoChanged As Boolean
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged*
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupMemo
+  commentId: P:WxAutoCommon.Models.ChatGroupOptions.GroupMemo
+  id: GroupMemo
+  parent: WxAutoCommon.Models.ChatGroupOptions
+  langs:
+  - csharp
+  - vb
+  name: GroupMemo
+  nameWithType: ChatGroupOptions.GroupMemo
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupMemo
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Models/ChatGroupOptions.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Models
+  summary: 群备注
+  example: []
+  syntax:
+    content: public string GroupMemo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GroupMemo As String
+  overload: WxAutoCommon.Models.ChatGroupOptions.GroupMemo*
+references:
+- uid: WxAutoCommon.Models
+  commentId: N:WxAutoCommon.Models
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Models
+  nameWithType: WxAutoCommon.Models
+  fullName: WxAutoCommon.Models
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WxAutoCommon.Models.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WxAutoCommon.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WxAutoCommon.Models.ChatGroupOptions.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<ChatGroupOptions>(ChatGroupOptions)
+  nameWithType: FunctionalExtensions.ToMaybe<ChatGroupOptions>(ChatGroupOptions)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WxAutoCommon.Models.ChatGroupOptions>(WxAutoCommon.Models.ChatGroupOptions)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ChatGroupOptions)(ChatGroupOptions)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WxAutoCommon.Models.ChatGroupOptions)(WxAutoCommon.Models.ChatGroupOptions)
+  name.vb: ToMaybe(Of ChatGroupOptions)(ChatGroupOptions)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Models.ChatGroupOptions)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WxAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: WxAutoCommon.Models.ChatGroupOptions.html
+  - name: '>'
+  - name: (
+  - uid: WxAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: WxAutoCommon.Models.ChatGroupOptions.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Models.ChatGroupOptions)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WxAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: WxAutoCommon.Models.ChatGroupOptions.html
+  - name: )
+  - name: (
+  - uid: WxAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    isExternal: true
+    href: WxAutoCommon.Models.ChatGroupOptions.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WxAutoCommon.Models.ChatGroupOptions.Reset*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.Reset
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_Reset
+  name: Reset
+  nameWithType: ChatGroupOptions.Reset
+  fullName: WxAutoCommon.Models.ChatGroupOptions.Reset
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WxAutoCommon.Models.ChatGroupOptions.ToString*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.ToString
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_ToString
+  name: ToString
+  nameWithType: ChatGroupOptions.ToString
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WxAutoCommon.Models.ChatGroupOptions.#ctor*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.#ctor
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions__ctor
+  name: ChatGroupOptions
+  nameWithType: ChatGroupOptions.ChatGroupOptions
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ChatGroupOptions
+  nameWithType.vb: ChatGroupOptions.New
+  fullName.vb: WxAutoCommon.Models.ChatGroupOptions.New
+  name.vb: New
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupName*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupName
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupName
+  name: GroupName
+  nameWithType: ChatGroupOptions.GroupName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupName
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupNameChanged
+  name: GroupNameChanged
+  nameWithType: ChatGroupOptions.GroupNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNameChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_ShowGroupNickNameChanged
+  name: ShowGroupNickNameChanged
+  nameWithType: ChatGroupOptions.ShowGroupNickNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickNameChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_ShowGroupNickName
+  name: ShowGroupNickName
+  nameWithType: ChatGroupOptions.ShowGroupNickName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.ShowGroupNickName
+- uid: WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_NoDisturbChanged
+  name: NoDisturbChanged
+  nameWithType: ChatGroupOptions.NoDisturbChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.NoDisturbChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.NoDisturb*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_NoDisturb
+  name: NoDisturb
+  nameWithType: ChatGroupOptions.NoDisturb
+  fullName: WxAutoCommon.Models.ChatGroupOptions.NoDisturb
+- uid: WxAutoCommon.Models.ChatGroupOptions.TopChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.TopChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_TopChanged
+  name: TopChanged
+  nameWithType: ChatGroupOptions.TopChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.TopChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.Top*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.Top
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_Top
+  name: Top
+  nameWithType: ChatGroupOptions.Top
+  fullName: WxAutoCommon.Models.ChatGroupOptions.Top
+- uid: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_SaveToAddressBookChanged
+  name: SaveToAddressBookChanged
+  nameWithType: ChatGroupOptions.SaveToAddressBookChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBookChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_SaveToAddressBook
+  name: SaveToAddressBook
+  nameWithType: ChatGroupOptions.SaveToAddressBook
+  fullName: WxAutoCommon.Models.ChatGroupOptions.SaveToAddressBook
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupNoticeChanged
+  name: GroupNoticeChanged
+  nameWithType: ChatGroupOptions.GroupNoticeChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNoticeChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupNotice*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupNotice
+  name: GroupNotice
+  nameWithType: ChatGroupOptions.GroupNotice
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupNotice
+- uid: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_MyGroupNickNameChanged
+  name: MyGroupNickNameChanged
+  nameWithType: ChatGroupOptions.MyGroupNickNameChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickNameChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_MyGroupNickName
+  name: MyGroupNickName
+  nameWithType: ChatGroupOptions.MyGroupNickName
+  fullName: WxAutoCommon.Models.ChatGroupOptions.MyGroupNickName
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupMemoChanged
+  name: GroupMemoChanged
+  nameWithType: ChatGroupOptions.GroupMemoChanged
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupMemoChanged
+- uid: WxAutoCommon.Models.ChatGroupOptions.GroupMemo*
+  commentId: Overload:WxAutoCommon.Models.ChatGroupOptions.GroupMemo
+  isExternal: true
+  href: WxAutoCommon.Models.ChatGroupOptions.html#WxAutoCommon_Models_ChatGroupOptions_GroupMemo
+  name: GroupMemo
+  nameWithType: ChatGroupOptions.GroupMemo
+  fullName: WxAutoCommon.Models.ChatGroupOptions.GroupMemo

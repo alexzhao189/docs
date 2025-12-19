@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Services
+  commentId: N:WeChatAuto.Services
+  id: WeChatAuto.Services
+  children:
+  - WeChatAuto.Services.KMSimulatorService
+  - WeChatAuto.Services.WeAutomation
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.Services
+  nameWithType: WeChatAuto.Services
+  fullName: WeChatAuto.Services
+  type: Namespace
+  assemblies:
+  - WeChatAuto
+references:
+- uid: WeChatAuto.Services.KMSimulatorService
+  commentId: T:WeChatAuto.Services.KMSimulatorService
+  isExternal: true
+  href: WeChatAuto.Services.KMSimulatorService.html
+  name: KMSimulatorService
+  nameWithType: KMSimulatorService
+  fullName: WeChatAuto.Services.KMSimulatorService
+- uid: WeChatAuto.Services.WeAutomation
+  commentId: T:WeChatAuto.Services.WeAutomation
+  isExternal: true
+  href: WeChatAuto.Services.WeAutomation.html
+  name: WeAutomation
+  nameWithType: WeAutomation
+  fullName: WeChatAuto.Services.WeAutomation

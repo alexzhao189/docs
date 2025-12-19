@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Enums.ActionType
+  commentId: T:WxAutoCommon.Enums.ActionType
+  id: ActionType
+  parent: WxAutoCommon.Enums
+  children:
+  - WxAutoCommon.Enums.ActionType.发送文件
+  - WxAutoCommon.Enums.ActionType.发送消息
+  - WxAutoCommon.Enums.ActionType.打开子窗口
+  - WxAutoCommon.Enums.ActionType.添加好友
+  - WxAutoCommon.Enums.ActionType.自定义表情
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: ActionType
+  fullName: WxAutoCommon.Enums.ActionType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: public enum ActionType
+    content.vb: Public Enum ActionType
+  extensionMethods:
+  - WxAutoCommon.Enums.ActionType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WxAutoCommon.Enums.ActionType.发送消息
+  commentId: F:WxAutoCommon.Enums.ActionType.发送消息
+  id: 发送消息
+  parent: WxAutoCommon.Enums.ActionType
+  langs:
+  - csharp
+  - vb
+  name: 发送消息
+  nameWithType: ActionType.发送消息
+  fullName: WxAutoCommon.Enums.ActionType.发送消息
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 发送消息 = 0
+    return:
+      type: WxAutoCommon.Enums.ActionType
+- uid: WxAutoCommon.Enums.ActionType.发送文件
+  commentId: F:WxAutoCommon.Enums.ActionType.发送文件
+  id: 发送文件
+  parent: WxAutoCommon.Enums.ActionType
+  langs:
+  - csharp
+  - vb
+  name: 发送文件
+  nameWithType: ActionType.发送文件
+  fullName: WxAutoCommon.Enums.ActionType.发送文件
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 发送文件 = 1
+    return:
+      type: WxAutoCommon.Enums.ActionType
+- uid: WxAutoCommon.Enums.ActionType.自定义表情
+  commentId: F:WxAutoCommon.Enums.ActionType.自定义表情
+  id: 自定义表情
+  parent: WxAutoCommon.Enums.ActionType
+  langs:
+  - csharp
+  - vb
+  name: 自定义表情
+  nameWithType: ActionType.自定义表情
+  fullName: WxAutoCommon.Enums.ActionType.自定义表情
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 自定义表情 = 2
+    return:
+      type: WxAutoCommon.Enums.ActionType
+- uid: WxAutoCommon.Enums.ActionType.添加好友
+  commentId: F:WxAutoCommon.Enums.ActionType.添加好友
+  id: 添加好友
+  parent: WxAutoCommon.Enums.ActionType
+  langs:
+  - csharp
+  - vb
+  name: 添加好友
+  nameWithType: ActionType.添加好友
+  fullName: WxAutoCommon.Enums.ActionType.添加好友
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 添加好友 = 3
+    return:
+      type: WxAutoCommon.Enums.ActionType
+- uid: WxAutoCommon.Enums.ActionType.打开子窗口
+  commentId: F:WxAutoCommon.Enums.ActionType.打开子窗口
+  id: 打开子窗口
+  parent: WxAutoCommon.Enums.ActionType
+  langs:
+  - csharp
+  - vb
+  name: 打开子窗口
+  nameWithType: ActionType.打开子窗口
+  fullName: WxAutoCommon.Enums.ActionType.打开子窗口
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/423ac155a9cd3534342c8525de183e56ae446873/WeAutoCommon/Enums/ActionType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WxAutoCommon.Enums
+  syntax:
+    content: 打开子窗口 = 4
+    return:
+      type: WxAutoCommon.Enums.ActionType
+references:
+- uid: WxAutoCommon.Enums
+  commentId: N:WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Enums
+  nameWithType: WxAutoCommon.Enums
+  fullName: WxAutoCommon.Enums
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+- uid: WxAutoCommon.Enums.ActionType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<ActionType>(ActionType)
+  nameWithType: FunctionalExtensions.ToMaybe<ActionType>(ActionType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WxAutoCommon.Enums.ActionType>(WxAutoCommon.Enums.ActionType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ActionType)(ActionType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WxAutoCommon.Enums.ActionType)(WxAutoCommon.Enums.ActionType)
+  name.vb: ToMaybe(Of ActionType)(ActionType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.ActionType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WxAutoCommon.Enums.ActionType
+    name: ActionType
+    isExternal: true
+    href: WxAutoCommon.Enums.ActionType.html
+  - name: '>'
+  - name: (
+  - uid: WxAutoCommon.Enums.ActionType
+    name: ActionType
+    isExternal: true
+    href: WxAutoCommon.Enums.ActionType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WxAutoCommon.Enums.ActionType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WxAutoCommon.Enums.ActionType
+    name: ActionType
+    isExternal: true
+    href: WxAutoCommon.Enums.ActionType.html
+  - name: )
+  - name: (
+  - uid: WxAutoCommon.Enums.ActionType
+    name: ActionType
+    isExternal: true
+    href: WxAutoCommon.Enums.ActionType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WxAutoCommon.Enums.ActionType
+  commentId: T:WxAutoCommon.Enums.ActionType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ActionType.html
+  name: ActionType
+  nameWithType: ActionType
+  fullName: WxAutoCommon.Enums.ActionType

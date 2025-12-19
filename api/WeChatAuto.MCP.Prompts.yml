@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP.Prompts
+  commentId: N:WeChatAuto.MCP.Prompts
+  id: WeChatAuto.MCP.Prompts
+  children:
+  - WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.MCP.Prompts
+  nameWithType: WeChatAuto.MCP.Prompts
+  fullName: WeChatAuto.MCP.Prompts
+  type: Namespace
+  assemblies:
+  - WeChatAuto.MCP
+references:
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+  commentId: T:WeChatAuto.MCP.Prompts.WeChatPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html
+  name: WeChatPrompt
+  nameWithType: WeChatPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt

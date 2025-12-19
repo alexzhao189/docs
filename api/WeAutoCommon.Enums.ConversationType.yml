@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums.ConversationType
+  commentId: T:WeAutoCommon.Enums.ConversationType
+  id: ConversationType
+  parent: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.ConversationType.企业号
+  - WeAutoCommon.Enums.ConversationType.公众号
+  - WeAutoCommon.Enums.ConversationType.好友
+  - WeAutoCommon.Enums.ConversationType.好友或群聊
+  - WeAutoCommon.Enums.ConversationType.小程序
+  - WeAutoCommon.Enums.ConversationType.微信支付
+  - WeAutoCommon.Enums.ConversationType.折叠的群聊
+  - WeAutoCommon.Enums.ConversationType.文件传输助手
+  - WeAutoCommon.Enums.ConversationType.服务号
+  - WeAutoCommon.Enums.ConversationType.服务通知
+  - WeAutoCommon.Enums.ConversationType.群聊
+  - WeAutoCommon.Enums.ConversationType.腾讯新闻
+  - WeAutoCommon.Enums.ConversationType.订阅号
+  langs:
+  - csharp
+  - vb
+  name: ConversationType
+  nameWithType: ConversationType
+  fullName: WeAutoCommon.Enums.ConversationType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  summary: 会话类型
+  example: []
+  syntax:
+    content: public enum ConversationType
+    content.vb: Public Enum ConversationType
+  extensionMethods:
+  - WeAutoCommon.Enums.ConversationType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Enums.ConversationType.好友或群聊
+  commentId: F:WeAutoCommon.Enums.ConversationType.好友或群聊
+  id: 好友或群聊
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 好友或群聊
+  nameWithType: ConversationType.好友或群聊
+  fullName: WeAutoCommon.Enums.ConversationType.好友或群聊
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 好友或群聊 = 0
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.文件传输助手
+  commentId: F:WeAutoCommon.Enums.ConversationType.文件传输助手
+  id: 文件传输助手
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 文件传输助手
+  nameWithType: ConversationType.文件传输助手
+  fullName: WeAutoCommon.Enums.ConversationType.文件传输助手
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 文件传输助手 = 1
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.好友
+  commentId: F:WeAutoCommon.Enums.ConversationType.好友
+  id: 好友
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 好友
+  nameWithType: ConversationType.好友
+  fullName: WeAutoCommon.Enums.ConversationType.好友
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 好友 = 2
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.群聊
+  commentId: F:WeAutoCommon.Enums.ConversationType.群聊
+  id: 群聊
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 群聊
+  nameWithType: ConversationType.群聊
+  fullName: WeAutoCommon.Enums.ConversationType.群聊
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 群聊 = 3
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.公众号
+  commentId: F:WeAutoCommon.Enums.ConversationType.公众号
+  id: 公众号
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 公众号
+  nameWithType: ConversationType.公众号
+  fullName: WeAutoCommon.Enums.ConversationType.公众号
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 公众号 = 4
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.小程序
+  commentId: F:WeAutoCommon.Enums.ConversationType.小程序
+  id: 小程序
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 小程序
+  nameWithType: ConversationType.小程序
+  fullName: WeAutoCommon.Enums.ConversationType.小程序
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 小程序 = 5
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.订阅号
+  commentId: F:WeAutoCommon.Enums.ConversationType.订阅号
+  id: 订阅号
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 订阅号
+  nameWithType: ConversationType.订阅号
+  fullName: WeAutoCommon.Enums.ConversationType.订阅号
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 订阅号 = 6
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.服务号
+  commentId: F:WeAutoCommon.Enums.ConversationType.服务号
+  id: 服务号
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 服务号
+  nameWithType: ConversationType.服务号
+  fullName: WeAutoCommon.Enums.ConversationType.服务号
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 服务号 = 7
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.企业号
+  commentId: F:WeAutoCommon.Enums.ConversationType.企业号
+  id: 企业号
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 企业号
+  nameWithType: ConversationType.企业号
+  fullName: WeAutoCommon.Enums.ConversationType.企业号
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 企业号 = 8
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.服务通知
+  commentId: F:WeAutoCommon.Enums.ConversationType.服务通知
+  id: 服务通知
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 服务通知
+  nameWithType: ConversationType.服务通知
+  fullName: WeAutoCommon.Enums.ConversationType.服务通知
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 服务通知 = 9
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.折叠的群聊
+  commentId: F:WeAutoCommon.Enums.ConversationType.折叠的群聊
+  id: 折叠的群聊
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 折叠的群聊
+  nameWithType: ConversationType.折叠的群聊
+  fullName: WeAutoCommon.Enums.ConversationType.折叠的群聊
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 折叠的群聊 = 10
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.微信支付
+  commentId: F:WeAutoCommon.Enums.ConversationType.微信支付
+  id: 微信支付
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 微信支付
+  nameWithType: ConversationType.微信支付
+  fullName: WeAutoCommon.Enums.ConversationType.微信支付
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 微信支付 = 11
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.ConversationType.腾讯新闻
+  commentId: F:WeAutoCommon.Enums.ConversationType.腾讯新闻
+  id: 腾讯新闻
+  parent: WeAutoCommon.Enums.ConversationType
+  langs:
+  - csharp
+  - vb
+  name: 腾讯新闻
+  nameWithType: ConversationType.腾讯新闻
+  fullName: WeAutoCommon.Enums.ConversationType.腾讯新闻
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/ConversationType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: 腾讯新闻 = 12
+    return:
+      type: WeAutoCommon.Enums.ConversationType
+references:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.ConversationType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<ConversationType>(ConversationType)
+  nameWithType: FunctionalExtensions.ToMaybe<ConversationType>(ConversationType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Enums.ConversationType>(WeAutoCommon.Enums.ConversationType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ConversationType)(ConversationType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Enums.ConversationType)(WeAutoCommon.Enums.ConversationType)
+  name.vb: ToMaybe(Of ConversationType)(ConversationType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.ConversationType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Enums.ConversationType
+    name: ConversationType
+    isExternal: true
+    href: WeAutoCommon.Enums.ConversationType.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Enums.ConversationType
+    name: ConversationType
+    isExternal: true
+    href: WeAutoCommon.Enums.ConversationType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.ConversationType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Enums.ConversationType
+    name: ConversationType
+    isExternal: true
+    href: WeAutoCommon.Enums.ConversationType.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Enums.ConversationType
+    name: ConversationType
+    isExternal: true
+    href: WeAutoCommon.Enums.ConversationType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Enums.ConversationType
+  commentId: T:WeAutoCommon.Enums.ConversationType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ConversationType.html
+  name: ConversationType
+  nameWithType: ConversationType
+  fullName: WeAutoCommon.Enums.ConversationType

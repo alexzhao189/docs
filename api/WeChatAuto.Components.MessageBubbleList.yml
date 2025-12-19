@@ -1,0 +1,1813 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.MessageBubbleList
+  commentId: T:WeChatAuto.Components.MessageBubbleList
+  id: MessageBubbleList
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.MessageBubbleList.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.ChatBody,System.IServiceProvider)
+  - WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+  - WeChatAuto.Components.MessageBubbleList.Bubbles
+  - WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+  - WeChatAuto.Components.MessageBubbleList.CollectMessage(System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.CollectMessage(System.String,System.String,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.CollectMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage(System.String,System.Boolean,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.Int32,System.String)
+  - WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.String,System.String,System.String,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage,System.String,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.GetAllChatHistory(System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.GetChatType
+  - WeChatAuto.Components.MessageBubbleList.GetLastBubble
+  - WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles
+  - WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  - WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages
+  - WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles
+  - WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  - WeChatAuto.Components.MessageBubbleList.IsLoadingMore
+  - WeChatAuto.Components.MessageBubbleList.LoadMore
+  - WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.String,System.String,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList.TapWho(System.String,System.Int32)
+  - WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.CheckBox)
+  - WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.ListBoxItem,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  langs:
+  - csharp
+  - vb
+  name: MessageBubbleList
+  nameWithType: MessageBubbleList
+  fullName: WeChatAuto.Components.MessageBubbleList
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 聊天内容区气泡列表
+  example: []
+  syntax:
+    content: public class MessageBubbleList
+    content.vb: Public Class MessageBubbleList
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.MessageBubbleList.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.MessageBubbleList.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.ChatBody,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.ChatBody,System.IServiceProvider)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.ChatBody,System.IServiceProvider)'
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: MessageBubbleList(Window, AutomationElement, IWeChatWindow, string, UIThreadInvoker, ChatBody, IServiceProvider)
+  nameWithType: MessageBubbleList.MessageBubbleList(Window, AutomationElement, IWeChatWindow, string, UIThreadInvoker, ChatBody, IServiceProvider)
+  fullName: WeChatAuto.Components.MessageBubbleList.MessageBubbleList(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.ChatBody, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public MessageBubbleList(Window selfWindow, AutomationElement bubbleListRoot, IWeChatWindow wxWindow, string title, UIThreadInvoker uiThreadInvoker, ChatBody chatBody, IServiceProvider serviceProvider)
+    parameters:
+    - id: selfWindow
+      type: FlaUI.Core.AutomationElements.Window
+    - id: bubbleListRoot
+      type: FlaUI.Core.AutomationElements.AutomationElement
+    - id: wxWindow
+      type: WeAutoCommon.Interface.IWeChatWindow
+    - id: title
+      type: System.String
+    - id: uiThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    - id: chatBody
+      type: WeChatAuto.Components.ChatBody
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(selfWindow As Window, bubbleListRoot As AutomationElement, wxWindow As IWeChatWindow, title As String, uiThreadInvoker As UIThreadInvoker, chatBody As ChatBody, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.MessageBubbleList.#ctor*
+  nameWithType.vb: MessageBubbleList.New(Window, AutomationElement, IWeChatWindow, String, UIThreadInvoker, ChatBody, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.New(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.ChatBody, System.IServiceProvider)
+  name.vb: New(Window, AutomationElement, IWeChatWindow, String, UIThreadInvoker, ChatBody, IServiceProvider)
+- uid: WeChatAuto.Components.MessageBubbleList.GetChatType
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetChatType
+  id: GetChatType
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetChatType()
+  nameWithType: MessageBubbleList.GetChatType()
+  fullName: WeChatAuto.Components.MessageBubbleList.GetChatType()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取聊天类型
+  example: []
+  syntax:
+    content: public ChatType GetChatType()
+    return:
+      type: WeAutoCommon.Enums.ChatType
+      description: 聊天类型<xref href="WeAutoCommon.Enums.ChatType" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetChatType() As ChatType
+  overload: WeChatAuto.Components.MessageBubbleList.GetChatType*
+- uid: WeChatAuto.Components.MessageBubbleList.GetLastBubble
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetLastBubble
+  id: GetLastBubble
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetLastBubble()
+  nameWithType: MessageBubbleList.GetLastBubble()
+  fullName: WeChatAuto.Components.MessageBubbleList.GetLastBubble()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取最后一个气泡
+  example: []
+  syntax:
+    content: public MessageBubble GetLastBubble()
+    return:
+      type: WeChatAuto.Components.MessageBubble
+      description: 最后一个气泡
+    content.vb: Public Function GetLastBubble() As MessageBubble
+  overload: WeChatAuto.Components.MessageBubbleList.GetLastBubble*
+- uid: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory(System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetAllChatHistory(System.Int32)
+  id: GetAllChatHistory(System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetAllChatHistory(int)
+  nameWithType: MessageBubbleList.GetAllChatHistory(int)
+  fullName: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取所有气泡标题列表
+
+    注意：可能速度比较慢,但是信息比较全
+  example: []
+  syntax:
+    content: public List<ChatSimpleMessage> GetAllChatHistory(int pageCount = 10)
+    parameters:
+    - id: pageCount
+      type: System.Int32
+      description: 获取的气泡数量，默认是10页,可以指定获取的页数，如果指定为-1，则获取所有气泡
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Models.ChatSimpleMessage}
+      description: 所有气泡标题列表<xref href="WeChatAuto.Models.ChatSimpleMessage" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetAllChatHistory(pageCount As Integer = 10) As List(Of ChatSimpleMessage)
+  overload: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory*
+  nameWithType.vb: MessageBubbleList.GetAllChatHistory(Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory(Integer)
+  name.vb: GetAllChatHistory(Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.LoadMore
+  commentId: M:WeChatAuto.Components.MessageBubbleList.LoadMore
+  id: LoadMore
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: LoadMore()
+  nameWithType: MessageBubbleList.LoadMore()
+  fullName: WeChatAuto.Components.MessageBubbleList.LoadMore()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 加载更多
+  example: []
+  syntax:
+    content: public void LoadMore()
+    content.vb: Public Sub LoadMore()
+  overload: WeChatAuto.Components.MessageBubbleList.LoadMore*
+- uid: WeChatAuto.Components.MessageBubbleList.IsLoadingMore
+  commentId: M:WeChatAuto.Components.MessageBubbleList.IsLoadingMore
+  id: IsLoadingMore
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: IsLoadingMore()
+  nameWithType: MessageBubbleList.IsLoadingMore()
+  fullName: WeChatAuto.Components.MessageBubbleList.IsLoadingMore()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 是否有加载更多按钮
+  example: []
+  syntax:
+    content: public bool IsLoadingMore()
+    return:
+      type: System.Boolean
+      description: 是否有加载更多按钮
+    content.vb: Public Function IsLoadingMore() As Boolean
+  overload: WeChatAuto.Components.MessageBubbleList.IsLoadingMore*
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles
+  id: GetVisibleBubbles
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleBubbles()
+  nameWithType: MessageBubbleList.GetVisibleBubbles()
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取气泡列表,不包括系统消息
+
+    注意：可能速度比较慢,但是信息比较全
+  example: []
+  syntax:
+    content: public List<MessageBubble> GetVisibleBubbles()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public Function GetVisibleBubbles() As List(Of MessageBubble)
+  overload: WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles*
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  id: GetVisibleBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleBubblesByPolling(UIThreadInvoker)
+  nameWithType: MessageBubbleList.GetVisibleBubblesByPolling(UIThreadInvoker)
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public List<MessageBubble> GetVisibleBubblesByPolling(UIThreadInvoker privateThreadInvoker)
+    parameters:
+    - id: privateThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public Function GetVisibleBubblesByPolling(privateThreadInvoker As UIThreadInvoker) As List(Of MessageBubble)
+  overload: WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling*
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages
+  id: GetVisibleChatSimpleMessages
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleChatSimpleMessages()
+  nameWithType: MessageBubbleList.GetVisibleChatSimpleMessages()
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取可见气泡列表,仅返回气泡标题
+  example: []
+  syntax:
+    content: public List<ChatSimpleMessage> GetVisibleChatSimpleMessages()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Models.ChatSimpleMessage}
+      description: 可见气泡列表,仅返回气泡标题
+    content.vb: Public Function GetVisibleChatSimpleMessages() As List(Of ChatSimpleMessage)
+  overload: WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages*
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles
+  id: GetVisibleNativeBubbles
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleNativeBubbles()
+  nameWithType: MessageBubbleList.GetVisibleNativeBubbles()
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取气泡列表,包括系统消息
+
+    注意：速度比较慢，但是信息比较全
+  example: []
+  syntax:
+    content: public List<MessageBubble> GetVisibleNativeBubbles()
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+      description: 气泡列表<xref href="WeChatAuto.Components.MessageBubble" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetVisibleNativeBubbles() As List(Of MessageBubble)
+  overload: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles*
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  id: GetVisibleNativeBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleNativeBubblesByPolling(UIThreadInvoker)
+  nameWithType: MessageBubbleList.GetVisibleNativeBubblesByPolling(UIThreadInvoker)
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling(WeAutoCommon.Utils.UIThreadInvoker)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public List<MessageBubble> GetVisibleNativeBubblesByPolling(UIThreadInvoker privateThreadInvoker)
+    parameters:
+    - id: privateThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public Function GetVisibleNativeBubblesByPolling(privateThreadInvoker As UIThreadInvoker) As List(Of MessageBubble)
+  overload: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling*
+- uid: WeChatAuto.Components.MessageBubbleList.CollectMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.CollectMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  id: CollectMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: CollectMessage(ChatSimpleMessage, int)
+  nameWithType: MessageBubbleList.CollectMessage(ChatSimpleMessage, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.CollectMessage(WeChatAuto.Models.ChatSimpleMessage, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 收藏消息
+  example: []
+  syntax:
+    content: public void CollectMessage(ChatSimpleMessage chatSimpleMessage, int prevPageCount = 3)
+    parameters:
+    - id: chatSimpleMessage
+      type: WeChatAuto.Models.ChatSimpleMessage
+      description: 要收藏的消息<xref href="WeChatAuto.Models.ChatSimpleMessage" data-throw-if-not-resolved="false"></xref>
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub CollectMessage(chatSimpleMessage As ChatSimpleMessage, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.CollectMessage*
+  nameWithType.vb: MessageBubbleList.CollectMessage(ChatSimpleMessage, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.CollectMessage(WeChatAuto.Models.ChatSimpleMessage, Integer)
+  name.vb: CollectMessage(ChatSimpleMessage, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.CollectMessage(System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.CollectMessage(System.Int32)
+  id: CollectMessage(System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: CollectMessage(int)
+  nameWithType: MessageBubbleList.CollectMessage(int)
+  fullName: WeChatAuto.Components.MessageBubbleList.CollectMessage(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    收藏指定的消息
+
+    注意，只能收藏有的消息，不会翻页，如果消息不在当前页，则不会收藏
+  example: []
+  syntax:
+    content: public void CollectMessage(int lastRowIndex)
+    parameters:
+    - id: lastRowIndex
+      type: System.Int32
+      description: 要收藏的消息的索引
+    content.vb: Public Sub CollectMessage(lastRowIndex As Integer)
+  overload: WeChatAuto.Components.MessageBubbleList.CollectMessage*
+  nameWithType.vb: MessageBubbleList.CollectMessage(Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.CollectMessage(Integer)
+  name.vb: CollectMessage(Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.TapWho(System.String,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.TapWho(System.String,System.Int32)
+  id: TapWho(System.String,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: TapWho(string, int)
+  nameWithType: MessageBubbleList.TapWho(string, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.TapWho(string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    拍一拍
+
+    注意：此动作仅适用于群聊中,并且只能拍别人，不适用于单聊
+  example: []
+  syntax:
+    content: public void TapWho(string who, int prevPageCount = 3)
+    parameters:
+    - id: who
+      type: System.String
+      description: 要拍一拍的好友昵称
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub TapWho(who As String, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.TapWho*
+  nameWithType.vb: MessageBubbleList.TapWho(String, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.TapWho(String, Integer)
+  name.vb: TapWho(String, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.CollectMessage(System.String,System.String,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.CollectMessage(System.String,System.String,System.Int32)
+  id: CollectMessage(System.String,System.String,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: CollectMessage(string, string, int)
+  nameWithType: MessageBubbleList.CollectMessage(string, string, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.CollectMessage(string, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 收藏消息
+  example: []
+  syntax:
+    content: public void CollectMessage(string who, string message, int prevPageCount = 3)
+    parameters:
+    - id: who
+      type: System.String
+      description: 要收藏的好友昵称
+    - id: message
+      type: System.String
+      description: 要收藏的消息内容
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub CollectMessage(who As String, message As String, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.CollectMessage*
+  nameWithType.vb: MessageBubbleList.CollectMessage(String, String, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.CollectMessage(String, String, Integer)
+  name.vb: CollectMessage(String, String, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  id: ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ReferencedMessage(ChatSimpleMessage, int)
+  nameWithType: MessageBubbleList.ReferencedMessage(ChatSimpleMessage, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 引用消息
+  example: []
+  syntax:
+    content: public void ReferencedMessage(ChatSimpleMessage chatSimpleMessage, int prevPageCount = 3)
+    parameters:
+    - id: chatSimpleMessage
+      type: WeChatAuto.Models.ChatSimpleMessage
+      description: 要引用的消息<xref href="WeChatAuto.Models.ChatSimpleMessage" data-throw-if-not-resolved="false"></xref>
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub ReferencedMessage(chatSimpleMessage As ChatSimpleMessage, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.ReferencedMessage*
+  nameWithType.vb: MessageBubbleList.ReferencedMessage(ChatSimpleMessage, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(WeChatAuto.Models.ChatSimpleMessage, Integer)
+  name.vb: ReferencedMessage(ChatSimpleMessage, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.Int32)
+  id: ReferencedMessage(System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ReferencedMessage(int)
+  nameWithType: MessageBubbleList.ReferencedMessage(int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    引用最后一条消息
+
+    注意，只能引用有的消息，不会翻页，如果消息不在当前页，则不会引用
+  example: []
+  syntax:
+    content: public void ReferencedMessage(int lastRowIndex)
+    parameters:
+    - id: lastRowIndex
+      type: System.Int32
+      description: 最后一条消息的索引
+    content.vb: Public Sub ReferencedMessage(lastRowIndex As Integer)
+  overload: WeChatAuto.Components.MessageBubbleList.ReferencedMessage*
+  nameWithType.vb: MessageBubbleList.ReferencedMessage(Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(Integer)
+  name.vb: ReferencedMessage(Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.String,System.String,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ReferencedMessage(System.String,System.String,System.Int32)
+  id: ReferencedMessage(System.String,System.String,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ReferencedMessage(string, string, int)
+  nameWithType: MessageBubbleList.ReferencedMessage(string, string, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(string, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 引用消息
+  example: []
+  syntax:
+    content: public void ReferencedMessage(string who, string message, int prevPageCount = 3)
+    parameters:
+    - id: who
+      type: System.String
+      description: 要引用的好友昵称
+    - id: message
+      type: System.String
+      description: 要引用的消息内容
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub ReferencedMessage(who As String, message As String, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.ReferencedMessage*
+  nameWithType.vb: MessageBubbleList.ReferencedMessage(String, String, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ReferencedMessage(String, String, Integer)
+  name.vb: ReferencedMessage(String, String, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage(System.String,System.Boolean,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage(System.String,System.Boolean,System.Int32)
+  id: ForwardMultipleMessage(System.String,System.Boolean,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ForwardMultipleMessage(string, bool, int)
+  nameWithType: MessageBubbleList.ForwardMultipleMessage(string, bool, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage(string, bool, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    转发多条消息,默认转发最后5条消息，可以自行指定转发多少条消息
+
+    注意：
+
+    转发会做如下预处理：
+
+    1、图片，会自动测试是否能够转发，直到能转发为止;
+
+    2、视频，会自动下载，并且测试是否能够转发，直到能转发为止
+
+    3、语音，会自行语音转文字
+  example: []
+  syntax:
+    content: public void ForwardMultipleMessage(string to, bool isCapture = true, int rowCount = 5)
+    parameters:
+    - id: to
+      type: System.String
+      description: 要转发给谁
+    - id: isCapture
+      type: System.Boolean
+      description: 是否要转发的内容进行截图，默认是true
+    - id: rowCount
+      type: System.Int32
+      description: 要转发多少条消息，默认是最后的5条消息,如果当前没有十条，则转发所有消息
+    content.vb: Public Sub ForwardMultipleMessage([to] As String, isCapture As Boolean = True, rowCount As Integer = 5)
+  overload: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage*
+  nameWithType.vb: MessageBubbleList.ForwardMultipleMessage(String, Boolean, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage(String, Boolean, Integer)
+  name.vb: ForwardMultipleMessage(String, Boolean, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.ListBoxItem,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.ListBoxItem,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: _RightClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.ListBoxItem,FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: _RightClickAutomationMessageEnhance(ListBoxItem, Window, AutomationElement)
+  nameWithType: MessageBubbleList._RightClickAutomationMessageEnhance(ListBoxItem, Window, AutomationElement)
+  fullName: WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.ListBoxItem, FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    自动化右键单击增强
+
+    最主要修复窗口中长消息无法右键的问题
+  example: []
+  syntax:
+    content: public void _RightClickAutomationMessageEnhance(ListBoxItem element, Window window, AutomationElement parentElement)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.ListBoxItem
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+    - id: parentElement
+      type: FlaUI.Core.AutomationElements.AutomationElement
+    content.vb: Public Sub _RightClickAutomationMessageEnhance(element As ListBoxItem, window As Window, parentElement As AutomationElement)
+  overload: WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance*
+- uid: WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.CheckBox)
+  commentId: M:WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.CheckBox)
+  id: _ClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.CheckBox)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: _ClickAutomationMessageEnhance(CheckBox)
+  nameWithType: MessageBubbleList._ClickAutomationMessageEnhance(CheckBox)
+  fullName: WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance(FlaUI.Core.AutomationElements.CheckBox)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public void _ClickAutomationMessageEnhance(CheckBox element)
+    parameters:
+    - id: element
+      type: FlaUI.Core.AutomationElements.CheckBox
+    content.vb: Public Sub _ClickAutomationMessageEnhance(element As CheckBox)
+  overload: WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance*
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage,System.String,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage,System.String,System.Int32)
+  id: ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage,System.String,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ForwardSingleMessage(ChatSimpleMessage, string, int)
+  nameWithType: MessageBubbleList.ForwardSingleMessage(ChatSimpleMessage, string, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    转发单条消息
+
+    流程：
+
+    1. 找到这一条消息,倒序找，这里注意一点，如果找不到消息，往前翻三页找不到，则不会转发此消息,日志显示错误，但不会报错.
+
+    2. 右键点击这一条消息
+
+    3. 找到菜单
+
+    4. 找到发送人
+  example: []
+  syntax:
+    content: public void ForwardSingleMessage(ChatSimpleMessage chatSimpleMessage, string to, int prevPageCount = 3)
+    parameters:
+    - id: chatSimpleMessage
+      type: WeChatAuto.Models.ChatSimpleMessage
+      description: 要转发的消息<xref href="WeChatAuto.Models.ChatSimpleMessage" data-throw-if-not-resolved="false"></xref>
+    - id: to
+      type: System.String
+      description: 要转发给谁
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub ForwardSingleMessage(chatSimpleMessage As ChatSimpleMessage, [to] As String, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage*
+  nameWithType.vb: MessageBubbleList.ForwardSingleMessage(ChatSimpleMessage, String, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(WeChatAuto.Models.ChatSimpleMessage, String, Integer)
+  name.vb: ForwardSingleMessage(ChatSimpleMessage, String, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.Int32,System.String)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.Int32,System.String)
+  id: ForwardSingleMessage(System.Int32,System.String)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ForwardSingleMessage(int, string)
+  nameWithType: MessageBubbleList.ForwardSingleMessage(int, string)
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(int, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    转发最后的第index条消息,1表示最后一条消息，2表示倒数第二条消息
+
+    注意，只能转发有的消息，不会翻页，如果消息不在当前页，则不会转发
+  example: []
+  syntax:
+    content: public void ForwardSingleMessage(int lastRowIndex, string to)
+    parameters:
+    - id: lastRowIndex
+      type: System.Int32
+      description: 最后一条消息的索引
+    - id: to
+      type: System.String
+      description: ''
+    content.vb: Public Sub ForwardSingleMessage(lastRowIndex As Integer, [to] As String)
+  overload: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage*
+  nameWithType.vb: MessageBubbleList.ForwardSingleMessage(Integer, String)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(Integer, String)
+  name.vb: ForwardSingleMessage(Integer, String)
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.String,System.String,System.String,System.Int32)
+  commentId: M:WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(System.String,System.String,System.String,System.Int32)
+  id: ForwardSingleMessage(System.String,System.String,System.String,System.Int32)
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ForwardSingleMessage(string, string, string, int)
+  nameWithType: MessageBubbleList.ForwardSingleMessage(string, string, string, int)
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(string, string, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 转发单条消息
+  example: []
+  syntax:
+    content: public void ForwardSingleMessage(string who, string message, string to, int prevPageCount = 3)
+    parameters:
+    - id: who
+      type: System.String
+      description: 要转发的好友昵称
+    - id: message
+      type: System.String
+      description: 要转发的消息内容
+    - id: to
+      type: System.String
+      description: 要转发给谁
+    - id: prevPageCount
+      type: System.Int32
+      description: 如果当前页找不到，往前翻页的次数
+    content.vb: Public Sub ForwardSingleMessage(who As String, message As String, [to] As String, prevPageCount As Integer = 3)
+  overload: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage*
+  nameWithType.vb: MessageBubbleList.ForwardSingleMessage(String, String, String, Integer)
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage(String, String, String, Integer)
+  name.vb: ForwardSingleMessage(String, String, String, Integer)
+- uid: WeChatAuto.Components.MessageBubbleList.Bubbles
+  commentId: P:WeChatAuto.Components.MessageBubbleList.Bubbles
+  id: Bubbles
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: Bubbles
+  nameWithType: MessageBubbleList.Bubbles
+  fullName: WeChatAuto.Components.MessageBubbleList.Bubbles
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public List<MessageBubble> Bubbles { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+    content.vb: Public ReadOnly Property Bubbles As List(Of MessageBubble)
+  overload: WeChatAuto.Components.MessageBubbleList.Bubbles*
+- uid: WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+  commentId: P:WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+  id: ChatSimpleMessages
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: ChatSimpleMessages
+  nameWithType: MessageBubbleList.ChatSimpleMessages
+  fullName: WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public List<ChatSimpleMessage> ChatSimpleMessages { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{WeChatAuto.Models.ChatSimpleMessage}
+    content.vb: Public ReadOnly Property ChatSimpleMessages As List(Of ChatSimpleMessage)
+  overload: WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages*
+- uid: WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+  commentId: P:WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+  id: BubbleListRoot
+  parent: WeChatAuto.Components.MessageBubbleList
+  langs:
+  - csharp
+  - vb
+  name: BubbleListRoot
+  nameWithType: MessageBubbleList.BubbleListRoot
+  fullName: WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/MessageBubbleList.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public ListBox BubbleListRoot { get; }
+    parameters: []
+    return:
+      type: FlaUI.Core.AutomationElements.ListBox
+    content.vb: Public ReadOnly Property BubbleListRoot As ListBox
+  overload: WeChatAuto.Components.MessageBubbleList.BubbleListRoot*
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.MessageBubbleList.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<MessageBubbleList>(MessageBubbleList)
+  nameWithType: FunctionalExtensions.ToMaybe<MessageBubbleList>(MessageBubbleList)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.MessageBubbleList>(WeChatAuto.Components.MessageBubbleList)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of MessageBubbleList)(MessageBubbleList)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.MessageBubbleList)(WeChatAuto.Components.MessageBubbleList)
+  name.vb: ToMaybe(Of MessageBubbleList)(MessageBubbleList)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.MessageBubbleList)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.MessageBubbleList
+    name: MessageBubbleList
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubbleList.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubbleList
+    name: MessageBubbleList
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubbleList.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.MessageBubbleList)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.MessageBubbleList
+    name: MessageBubbleList
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubbleList.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.MessageBubbleList
+    name: MessageBubbleList
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubbleList.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.MessageBubbleList.#ctor*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList__ctor_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_WeAutoCommon_Interface_IWeChatWindow_System_String_WeAutoCommon_Utils_UIThreadInvoker_WeChatAuto_Components_ChatBody_System_IServiceProvider_
+  name: MessageBubbleList
+  nameWithType: MessageBubbleList.MessageBubbleList
+  fullName: WeChatAuto.Components.MessageBubbleList.MessageBubbleList
+  nameWithType.vb: MessageBubbleList.New
+  fullName.vb: WeChatAuto.Components.MessageBubbleList.New
+  name.vb: New
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: FlaUI.Core.AutomationElements.AutomationElement
+  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: AutomationElement
+  nameWithType: AutomationElement
+  fullName: FlaUI.Core.AutomationElements.AutomationElement
+- uid: WeAutoCommon.Interface.IWeChatWindow
+  commentId: T:WeAutoCommon.Interface.IWeChatWindow
+  parent: WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: WeChatAuto.Components.ChatBody
+  commentId: T:WeChatAuto.Components.ChatBody
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.ChatBody.html
+  name: ChatBody
+  nameWithType: ChatBody
+  fullName: WeChatAuto.Components.ChatBody
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeAutoCommon.Interface
+  commentId: N:WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Interface
+  nameWithType: WeAutoCommon.Interface
+  fullName: WeAutoCommon.Interface
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: WeAutoCommon.Enums.ChatType
+  commentId: T:WeAutoCommon.Enums.ChatType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatType.html
+  name: ChatType
+  nameWithType: ChatType
+  fullName: WeAutoCommon.Enums.ChatType
+- uid: WeChatAuto.Components.MessageBubbleList.GetChatType*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetChatType
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetChatType
+  name: GetChatType
+  nameWithType: MessageBubbleList.GetChatType
+  fullName: WeChatAuto.Components.MessageBubbleList.GetChatType
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeChatAuto.Components.MessageBubbleList.GetLastBubble*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetLastBubble
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetLastBubble
+  name: GetLastBubble
+  nameWithType: MessageBubbleList.GetLastBubble
+  fullName: WeChatAuto.Components.MessageBubbleList.GetLastBubble
+- uid: WeChatAuto.Components.MessageBubble
+  commentId: T:WeChatAuto.Components.MessageBubble
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubble.html
+  name: MessageBubble
+  nameWithType: MessageBubble
+  fullName: WeChatAuto.Components.MessageBubble
+- uid: WeChatAuto.Models.ChatSimpleMessage
+  commentId: T:WeChatAuto.Models.ChatSimpleMessage
+  parent: WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.Models.ChatSimpleMessage.html
+  name: ChatSimpleMessage
+  nameWithType: ChatSimpleMessage
+  fullName: WeChatAuto.Models.ChatSimpleMessage
+- uid: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetAllChatHistory
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetAllChatHistory_System_Int32_
+  name: GetAllChatHistory
+  nameWithType: MessageBubbleList.GetAllChatHistory
+  fullName: WeChatAuto.Components.MessageBubbleList.GetAllChatHistory
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{WeChatAuto.Models.ChatSimpleMessage}
+  commentId: T:System.Collections.Generic.List{WeChatAuto.Models.ChatSimpleMessage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ChatSimpleMessage>
+  nameWithType: List<ChatSimpleMessage>
+  fullName: System.Collections.Generic.List<WeChatAuto.Models.ChatSimpleMessage>
+  nameWithType.vb: List(Of ChatSimpleMessage)
+  fullName.vb: System.Collections.Generic.List(Of WeChatAuto.Models.ChatSimpleMessage)
+  name.vb: List(Of ChatSimpleMessage)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: WeChatAuto.Models.ChatSimpleMessage
+    name: ChatSimpleMessage
+    isExternal: true
+    href: WeChatAuto.Models.ChatSimpleMessage.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Models.ChatSimpleMessage
+    name: ChatSimpleMessage
+    isExternal: true
+    href: WeChatAuto.Models.ChatSimpleMessage.html
+  - name: )
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components.MessageBubbleList.LoadMore*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.LoadMore
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_LoadMore
+  name: LoadMore
+  nameWithType: MessageBubbleList.LoadMore
+  fullName: WeChatAuto.Components.MessageBubbleList.LoadMore
+- uid: WeChatAuto.Components.MessageBubbleList.IsLoadingMore*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.IsLoadingMore
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_IsLoadingMore
+  name: IsLoadingMore
+  nameWithType: MessageBubbleList.IsLoadingMore
+  fullName: WeChatAuto.Components.MessageBubbleList.IsLoadingMore
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetVisibleBubbles
+  name: GetVisibleBubbles
+  nameWithType: MessageBubbleList.GetVisibleBubbles
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleBubbles
+- uid: System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+  commentId: T:System.Collections.Generic.List{WeChatAuto.Components.MessageBubble}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MessageBubble>
+  nameWithType: List<MessageBubble>
+  fullName: System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>
+  nameWithType.vb: List(Of MessageBubble)
+  fullName.vb: System.Collections.Generic.List(Of WeChatAuto.Components.MessageBubble)
+  name.vb: List(Of MessageBubble)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    isExternal: true
+    href: WeChatAuto.Components.MessageBubble.html
+  - name: )
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetVisibleBubblesByPolling_WeAutoCommon_Utils_UIThreadInvoker_
+  name: GetVisibleBubblesByPolling
+  nameWithType: MessageBubbleList.GetVisibleBubblesByPolling
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleBubblesByPolling
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetVisibleChatSimpleMessages
+  name: GetVisibleChatSimpleMessages
+  nameWithType: MessageBubbleList.GetVisibleChatSimpleMessages
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleChatSimpleMessages
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetVisibleNativeBubbles
+  name: GetVisibleNativeBubbles
+  nameWithType: MessageBubbleList.GetVisibleNativeBubbles
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubbles
+- uid: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_GetVisibleNativeBubblesByPolling_WeAutoCommon_Utils_UIThreadInvoker_
+  name: GetVisibleNativeBubblesByPolling
+  nameWithType: MessageBubbleList.GetVisibleNativeBubblesByPolling
+  fullName: WeChatAuto.Components.MessageBubbleList.GetVisibleNativeBubblesByPolling
+- uid: WeChatAuto.Components.MessageBubbleList.CollectMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.CollectMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_CollectMessage_WeChatAuto_Models_ChatSimpleMessage_System_Int32_
+  name: CollectMessage
+  nameWithType: MessageBubbleList.CollectMessage
+  fullName: WeChatAuto.Components.MessageBubbleList.CollectMessage
+- uid: WeChatAuto.Components.MessageBubbleList.TapWho*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.TapWho
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_TapWho_System_String_System_Int32_
+  name: TapWho
+  nameWithType: MessageBubbleList.TapWho
+  fullName: WeChatAuto.Components.MessageBubbleList.TapWho
+- uid: WeChatAuto.Components.MessageBubbleList.ReferencedMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.ReferencedMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_ReferencedMessage_WeChatAuto_Models_ChatSimpleMessage_System_Int32_
+  name: ReferencedMessage
+  nameWithType: MessageBubbleList.ReferencedMessage
+  fullName: WeChatAuto.Components.MessageBubbleList.ReferencedMessage
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_ForwardMultipleMessage_System_String_System_Boolean_System_Int32_
+  name: ForwardMultipleMessage
+  nameWithType: MessageBubbleList.ForwardMultipleMessage
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardMultipleMessage
+- uid: WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList__RightClickAutomationMessageEnhance_FlaUI_Core_AutomationElements_ListBoxItem_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: _RightClickAutomationMessageEnhance
+  nameWithType: MessageBubbleList._RightClickAutomationMessageEnhance
+  fullName: WeChatAuto.Components.MessageBubbleList._RightClickAutomationMessageEnhance
+- uid: FlaUI.Core.AutomationElements.ListBoxItem
+  commentId: T:FlaUI.Core.AutomationElements.ListBoxItem
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: ListBoxItem
+  nameWithType: ListBoxItem
+  fullName: FlaUI.Core.AutomationElements.ListBoxItem
+- uid: WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList__ClickAutomationMessageEnhance_FlaUI_Core_AutomationElements_CheckBox_
+  name: _ClickAutomationMessageEnhance
+  nameWithType: MessageBubbleList._ClickAutomationMessageEnhance
+  fullName: WeChatAuto.Components.MessageBubbleList._ClickAutomationMessageEnhance
+- uid: FlaUI.Core.AutomationElements.CheckBox
+  commentId: T:FlaUI.Core.AutomationElements.CheckBox
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: CheckBox
+  nameWithType: CheckBox
+  fullName: FlaUI.Core.AutomationElements.CheckBox
+- uid: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_ForwardSingleMessage_WeChatAuto_Models_ChatSimpleMessage_System_String_System_Int32_
+  name: ForwardSingleMessage
+  nameWithType: MessageBubbleList.ForwardSingleMessage
+  fullName: WeChatAuto.Components.MessageBubbleList.ForwardSingleMessage
+- uid: WeChatAuto.Components.MessageBubbleList.Bubbles*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.Bubbles
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_Bubbles
+  name: Bubbles
+  nameWithType: MessageBubbleList.Bubbles
+  fullName: WeChatAuto.Components.MessageBubbleList.Bubbles
+- uid: WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_ChatSimpleMessages
+  name: ChatSimpleMessages
+  nameWithType: MessageBubbleList.ChatSimpleMessages
+  fullName: WeChatAuto.Components.MessageBubbleList.ChatSimpleMessages
+- uid: WeChatAuto.Components.MessageBubbleList.BubbleListRoot*
+  commentId: Overload:WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+  isExternal: true
+  href: WeChatAuto.Components.MessageBubbleList.html#WeChatAuto_Components_MessageBubbleList_BubbleListRoot
+  name: BubbleListRoot
+  nameWithType: MessageBubbleList.BubbleListRoot
+  fullName: WeChatAuto.Components.MessageBubbleList.BubbleListRoot
+- uid: FlaUI.Core.AutomationElements.ListBox
+  commentId: T:FlaUI.Core.AutomationElements.ListBox
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: ListBox
+  nameWithType: ListBox
+  fullName: FlaUI.Core.AutomationElements.ListBox

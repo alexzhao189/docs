@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP.Tools
+  commentId: N:WeChatAuto.MCP.Tools
+  id: WeChatAuto.MCP.Tools
+  children:
+  - WeChatAuto.MCP.Tools.WeChatClientTool
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.MCP.Tools
+  nameWithType: WeChatAuto.MCP.Tools
+  fullName: WeChatAuto.MCP.Tools
+  type: Namespace
+  assemblies:
+  - WeChatAuto.MCP
+references:
+- uid: WeChatAuto.MCP.Tools.WeChatClientTool
+  commentId: T:WeChatAuto.MCP.Tools.WeChatClientTool
+  isExternal: true
+  href: WeChatAuto.MCP.Tools.WeChatClientTool.html
+  name: WeChatClientTool
+  nameWithType: WeChatClientTool
+  fullName: WeChatAuto.MCP.Tools.WeChatClientTool

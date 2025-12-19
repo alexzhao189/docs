@@ -1,0 +1,1119 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+  commentId: T:WeChatAuto.MCP.Prompts.WeChatPrompt
+  id: WeChatPrompt
+  parent: WeChatAuto.MCP.Prompts
+  children:
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(System.String,System.String,System.Int32)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(System.String,System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(System.String,System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(System.String,System.String,System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(System.String,System.String[])
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(System.String[],System.String)
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: WeChatPrompt
+  nameWithType: WeChatPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  syntax:
+    content: >-
+      [McpServerPromptType]
+
+      public sealed class WeChatPrompt
+    content.vb: >-
+      <McpServerPromptType>
+
+      Public NotInheritable Class WeChatPrompt
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.MCP.Prompts.WeChatPrompt.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptTypeAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptTypeAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt
+  id: GetAllWeChatClientNamesPrompt
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: GetAllWeChatClientNamesPrompt()
+  nameWithType: WeChatPrompt.GetAllWeChatClientNamesPrompt()
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 获取本机打开的所有微信客户端名称的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string GetAllWeChatClientNamesPrompt()
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function GetAllWeChatClientNamesPrompt() As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt
+  id: GetCurrentWeChatClientNamePrompt
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentWeChatClientNamePrompt()
+  nameWithType: WeChatPrompt.GetCurrentWeChatClientNamePrompt()
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 获取当前使用的微信客户端名称的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string GetCurrentWeChatClientNamePrompt()
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function GetCurrentWeChatClientNamePrompt() As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(System.String)
+  id: GetChatHistoryPrompt(System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: GetChatHistoryPrompt(string)
+  nameWithType: WeChatPrompt.GetChatHistoryPrompt(string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 获取指定好友或者群聊的聊天记录的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string GetChatHistoryPrompt(string who)
+    parameters:
+    - id: who
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function GetChatHistoryPrompt(who As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.GetChatHistoryPrompt(String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(String)
+  name.vb: GetChatHistoryPrompt(String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(System.String)
+  id: GetChatHistoryAndSummaryPrompt(System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: GetChatHistoryAndSummaryPrompt(string)
+  nameWithType: WeChatPrompt.GetChatHistoryAndSummaryPrompt(string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 获取指定好友或者群聊的聊天记录并进行摘要的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string GetChatHistoryAndSummaryPrompt(string who)
+    parameters:
+    - id: who
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function GetChatHistoryAndSummaryPrompt(who As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.GetChatHistoryAndSummaryPrompt(String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(String)
+  name.vb: GetChatHistoryAndSummaryPrompt(String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(System.String,System.String)
+  id: SendMessagePrompt(System.String,System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SendMessagePrompt(string, string)
+  nameWithType: WeChatPrompt.SendMessagePrompt(string, string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 发送消息给指定好友或者群聊的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SendMessagePrompt(string who, string message)
+    parameters:
+    - id: who
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SendMessagePrompt(who As String, message As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SendMessagePrompt(String, String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(String, String)
+  name.vb: SendMessagePrompt(String, String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(System.String,System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(System.String,System.String,System.String)
+  id: SendMessageWithAtUserPrompt(System.String,System.String,System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SendMessageWithAtUserPrompt(string, string, string)
+  nameWithType: WeChatPrompt.SendMessageWithAtUserPrompt(string, string, string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(string, string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 发送消息给指定好友或者群聊，并@指定用户
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SendMessageWithAtUserPrompt(string who, string message, string atUser)
+    parameters:
+    - id: who
+      type: System.String
+    - id: message
+      type: System.String
+    - id: atUser
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SendMessageWithAtUserPrompt(who As String, message As String, atUser As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SendMessageWithAtUserPrompt(String, String, String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(String, String, String)
+  name.vb: SendMessageWithAtUserPrompt(String, String, String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(System.String[],System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(System.String[],System.String)
+  id: SendWhosPrompt(System.String[],System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SendWhosPrompt(string[], string)
+  nameWithType: WeChatPrompt.SendWhosPrompt(string[], string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(string[], string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 批量发送消息给指定多个好友或者群聊的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SendWhosPrompt(string[] whos, string message)
+    parameters:
+    - id: whos
+      type: System.String[]
+    - id: message
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SendWhosPrompt(whos As String(), message As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SendWhosPrompt(String(), String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(String(), String)
+  name.vb: SendWhosPrompt(String(), String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(System.String,System.String[])
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(System.String,System.String[])
+  id: SendVoiceChatsPrompt(System.String,System.String[])
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SendVoiceChatsPrompt(string, string[])
+  nameWithType: WeChatPrompt.SendVoiceChatsPrompt(string, string[])
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(string, string[])
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 发起语音聊天,适用于群聊中发起语音聊天，可以指定多个好友名称
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SendVoiceChatsPrompt(string groupName, string[] whos)
+    parameters:
+    - id: groupName
+      type: System.String
+    - id: whos
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SendVoiceChatsPrompt(groupName As String, whos As String()) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SendVoiceChatsPrompt(String, String())
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(String, String())
+  name.vb: SendVoiceChatsPrompt(String, String())
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(System.String)
+  id: SendVideoChatPrompt(System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SendVideoChatPrompt(string)
+  nameWithType: WeChatPrompt.SendVideoChatPrompt(string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 发起视频聊天,适用于单个好友
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SendVideoChatPrompt(string who)
+    parameters:
+    - id: who
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SendVideoChatPrompt(who As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SendVideoChatPrompt(String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(String)
+  name.vb: SendVideoChatPrompt(String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(System.String,System.String)
+  id: SummaryChatHistoryAndSendMessagePrompt(System.String,System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: SummaryChatHistoryAndSendMessagePrompt(string, string)
+  nameWithType: WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(string, string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 获取指定好友或者群聊的聊天记录并进行摘要，并发送给指定好友或者群聊的提示词
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string SummaryChatHistoryAndSendMessagePrompt(string getWho, string sendToWho)
+    parameters:
+    - id: getWho
+      type: System.String
+    - id: sendToWho
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function SummaryChatHistoryAndSendMessagePrompt(getWho As String, sendToWho As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(String, String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(String, String)
+  name.vb: SummaryChatHistoryAndSendMessagePrompt(String, String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(System.String,System.String,System.Int32)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(System.String,System.String,System.Int32)
+  id: ForwardMessagePrompt(System.String,System.String,System.Int32)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: ForwardMessagePrompt(string, string, int)
+  nameWithType: WeChatPrompt.ForwardMessagePrompt(string, string, int)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(string, string, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 转发消息,默认转发5行消息，可以指定转发行数
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string ForwardMessagePrompt(string fromWho, string toWho, int rowCount = 5)
+    parameters:
+    - id: fromWho
+      type: System.String
+    - id: toWho
+      type: System.String
+    - id: rowCount
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function ForwardMessagePrompt(fromWho As String, toWho As String, rowCount As Integer = 5) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.ForwardMessagePrompt(String, String, Integer)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(String, String, Integer)
+  name.vb: ForwardMessagePrompt(String, String, Integer)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(System.String,System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(System.String,System.String)
+  id: PublishGroupChatNoticePrompt(System.String,System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: PublishGroupChatNoticePrompt(string, string)
+  nameWithType: WeChatPrompt.PublishGroupChatNoticePrompt(string, string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(string, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 发布群聊公告
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string PublishGroupChatNoticePrompt(string groupName, string notice)
+    parameters:
+    - id: groupName
+      type: System.String
+    - id: notice
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function PublishGroupChatNoticePrompt(groupName As String, notice As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.PublishGroupChatNoticePrompt(String, String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(String, String)
+  name.vb: PublishGroupChatNoticePrompt(String, String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(System.String)
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(System.String)
+  id: ClearChatGroupHistoryPrompt(System.String)
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: ClearChatGroupHistoryPrompt(string)
+  nameWithType: WeChatPrompt.ClearChatGroupHistoryPrompt(string)
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  summary: 删除聊天记录
+  example: []
+  syntax:
+    content: >-
+      [McpServerPrompt]
+
+      public static string ClearChatGroupHistoryPrompt(string groupName)
+    parameters:
+    - id: groupName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <McpServerPrompt>
+
+      Public Shared Function ClearChatGroupHistoryPrompt(groupName As String) As String
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt*
+  attributes:
+  - type: ModelContextProtocol.Server.McpServerPromptAttribute
+    ctor: ModelContextProtocol.Server.McpServerPromptAttribute.#ctor
+    arguments: []
+  nameWithType.vb: WeChatPrompt.ClearChatGroupHistoryPrompt(String)
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(String)
+  name.vb: ClearChatGroupHistoryPrompt(String)
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor
+  commentId: M:WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor
+  id: '#ctor'
+  parent: WeChatAuto.MCP.Prompts.WeChatPrompt
+  langs:
+  - csharp
+  - vb
+  name: WeChatPrompt()
+  nameWithType: WeChatPrompt.WeChatPrompt()
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.WeChatPrompt()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+  assemblies:
+  - WeChatAuto.MCP
+  namespace: WeChatAuto.MCP.Prompts
+  syntax:
+    content: public WeChatPrompt()
+    content.vb: Public Sub New()
+  overload: WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor*
+  nameWithType.vb: WeChatPrompt.New()
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.New()
+  name.vb: New()
+references:
+- uid: WeChatAuto.MCP.Prompts
+  commentId: N:WeChatAuto.MCP.Prompts
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.MCP.Prompts
+  nameWithType: WeChatAuto.MCP.Prompts
+  fullName: WeChatAuto.MCP.Prompts
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.MCP
+    name: MCP
+    isExternal: true
+    href: WeChatAuto.MCP.html
+  - name: .
+  - uid: WeChatAuto.MCP.Prompts
+    name: Prompts
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.MCP
+    name: MCP
+    isExternal: true
+    href: WeChatAuto.MCP.html
+  - name: .
+  - uid: WeChatAuto.MCP.Prompts
+    name: Prompts
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatPrompt>(WeChatPrompt)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatPrompt>(WeChatPrompt)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.MCP.Prompts.WeChatPrompt>(WeChatAuto.MCP.Prompts.WeChatPrompt)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatPrompt)(WeChatPrompt)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.MCP.Prompts.WeChatPrompt)(WeChatAuto.MCP.Prompts.WeChatPrompt)
+  name.vb: ToMaybe(Of WeChatPrompt)(WeChatPrompt)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.MCP.Prompts.WeChatPrompt)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+    name: WeChatPrompt
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.WeChatPrompt.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+    name: WeChatPrompt
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.WeChatPrompt.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.MCP.Prompts.WeChatPrompt)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+    name: WeChatPrompt
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.WeChatPrompt.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+    name: WeChatPrompt
+    isExternal: true
+    href: WeChatAuto.MCP.Prompts.WeChatPrompt.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_GetAllWeChatClientNamesPrompt
+  name: GetAllWeChatClientNamesPrompt
+  nameWithType: WeChatPrompt.GetAllWeChatClientNamesPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_GetCurrentWeChatClientNamePrompt
+  name: GetCurrentWeChatClientNamePrompt
+  nameWithType: WeChatPrompt.GetCurrentWeChatClientNamePrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_GetChatHistoryPrompt_System_String_
+  name: GetChatHistoryPrompt
+  nameWithType: WeChatPrompt.GetChatHistoryPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_GetChatHistoryAndSummaryPrompt_System_String_
+  name: GetChatHistoryAndSummaryPrompt
+  nameWithType: WeChatPrompt.GetChatHistoryAndSummaryPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SendMessagePrompt_System_String_System_String_
+  name: SendMessagePrompt
+  nameWithType: WeChatPrompt.SendMessagePrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SendMessageWithAtUserPrompt_System_String_System_String_System_String_
+  name: SendMessageWithAtUserPrompt
+  nameWithType: WeChatPrompt.SendMessageWithAtUserPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SendWhosPrompt_System_String___System_String_
+  name: SendWhosPrompt
+  nameWithType: WeChatPrompt.SendWhosPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SendVoiceChatsPrompt_System_String_System_String___
+  name: SendVoiceChatsPrompt
+  nameWithType: WeChatPrompt.SendVoiceChatsPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SendVideoChatPrompt_System_String_
+  name: SendVideoChatPrompt
+  nameWithType: WeChatPrompt.SendVideoChatPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_SummaryChatHistoryAndSendMessagePrompt_System_String_System_String_
+  name: SummaryChatHistoryAndSendMessagePrompt
+  nameWithType: WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_ForwardMessagePrompt_System_String_System_String_System_Int32_
+  name: ForwardMessagePrompt
+  nameWithType: WeChatPrompt.ForwardMessagePrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_PublishGroupChatNoticePrompt_System_String_System_String_
+  name: PublishGroupChatNoticePrompt
+  nameWithType: WeChatPrompt.PublishGroupChatNoticePrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt_ClearChatGroupHistoryPrompt_System_String_
+  name: ClearChatGroupHistoryPrompt
+  nameWithType: WeChatPrompt.ClearChatGroupHistoryPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt
+- uid: WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor*
+  commentId: Overload:WeChatAuto.MCP.Prompts.WeChatPrompt.#ctor
+  isExternal: true
+  href: WeChatAuto.MCP.Prompts.WeChatPrompt.html#WeChatAuto_MCP_Prompts_WeChatPrompt__ctor
+  name: WeChatPrompt
+  nameWithType: WeChatPrompt.WeChatPrompt
+  fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.WeChatPrompt
+  nameWithType.vb: WeChatPrompt.New
+  fullName.vb: WeChatAuto.MCP.Prompts.WeChatPrompt.New
+  name.vb: New

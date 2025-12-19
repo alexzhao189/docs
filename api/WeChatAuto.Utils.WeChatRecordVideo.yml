@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Utils.WeChatRecordVideo
+  commentId: T:WeChatAuto.Utils.WeChatRecordVideo
+  id: WeChatRecordVideo
+  parent: WeChatAuto.Utils
+  children:
+  - WeChatAuto.Utils.WeChatRecordVideo.#ctor(System.String)
+  - WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(System.String)
+  - WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+  - WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+  langs:
+  - csharp
+  - vb
+  name: WeChatRecordVideo
+  nameWithType: WeChatRecordVideo
+  fullName: WeChatAuto.Utils.WeChatRecordVideo
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatRecordVideo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public class WeChatRecordVideo
+    content.vb: Public Class WeChatRecordVideo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Utils.WeChatRecordVideo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.WeChatRecordVideo.#ctor(System.String)
+  commentId: M:WeChatAuto.Utils.WeChatRecordVideo.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: WeChatAuto.Utils.WeChatRecordVideo
+  langs:
+  - csharp
+  - vb
+  name: WeChatRecordVideo(string)
+  nameWithType: WeChatRecordVideo.WeChatRecordVideo(string)
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.WeChatRecordVideo(string)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatRecordVideo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public WeChatRecordVideo(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub New(path As String)
+  overload: WeChatAuto.Utils.WeChatRecordVideo.#ctor*
+  nameWithType.vb: WeChatRecordVideo.New(String)
+  fullName.vb: WeChatAuto.Utils.WeChatRecordVideo.New(String)
+  name.vb: New(String)
+- uid: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(System.String)
+  commentId: M:WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(System.String)
+  id: RecordVideo(System.String)
+  parent: WeChatAuto.Utils.WeChatRecordVideo
+  langs:
+  - csharp
+  - vb
+  name: RecordVideo(string)
+  nameWithType: WeChatRecordVideo.RecordVideo(string)
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatRecordVideo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  summary: >-
+    录制视频
+
+    录制视频前，需要先下载ffmpeg(系统会自动下载ffmpeg,但是第一次会下载比较慢，请耐心等待)，并保存到当前目录下的ffmpeg文件夹
+  example: []
+  syntax:
+    content: public Task<string> RecordVideo(string fileName = "")
+    parameters:
+    - id: fileName
+      type: System.String
+      description: 文件名,默认不指定,如果不指定,则使用RecordVideo_20251109_123456.mp4作为文件名
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: 视频文件路径
+    content.vb: Public Function RecordVideo(fileName As String = "") As Task(Of String)
+  overload: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo*
+  nameWithType.vb: WeChatRecordVideo.RecordVideo(String)
+  fullName.vb: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(String)
+  name.vb: RecordVideo(String)
+- uid: WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+  commentId: P:WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+  id: TargetPath
+  parent: WeChatAuto.Utils.WeChatRecordVideo
+  langs:
+  - csharp
+  - vb
+  name: TargetPath
+  nameWithType: WeChatRecordVideo.TargetPath
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatRecordVideo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public string TargetPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetPath As String
+  overload: WeChatAuto.Utils.WeChatRecordVideo.TargetPath*
+- uid: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+  commentId: P:WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+  id: _VideoRecorder
+  parent: WeChatAuto.Utils.WeChatRecordVideo
+  langs:
+  - csharp
+  - vb
+  name: _VideoRecorder
+  nameWithType: WeChatRecordVideo._VideoRecorder
+  fullName: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatRecordVideo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public VideoRecorder _VideoRecorder { get; set; }
+    parameters: []
+    return:
+      type: FlaUI.Core.Capturing.VideoRecorder
+    content.vb: Public Property _VideoRecorder As VideoRecorder
+  overload: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder*
+references:
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Utils
+    name: Utils
+    isExternal: true
+    href: WeChatAuto.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Utils.WeChatRecordVideo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatRecordVideo>(WeChatRecordVideo)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatRecordVideo>(WeChatRecordVideo)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.WeChatRecordVideo>(WeChatAuto.Utils.WeChatRecordVideo)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatRecordVideo)(WeChatRecordVideo)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.WeChatRecordVideo)(WeChatAuto.Utils.WeChatRecordVideo)
+  name.vb: ToMaybe(Of WeChatRecordVideo)(WeChatRecordVideo)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WeChatRecordVideo)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Utils.WeChatRecordVideo
+    name: WeChatRecordVideo
+    isExternal: true
+    href: WeChatAuto.Utils.WeChatRecordVideo.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Utils.WeChatRecordVideo
+    name: WeChatRecordVideo
+    isExternal: true
+    href: WeChatAuto.Utils.WeChatRecordVideo.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WeChatRecordVideo)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Utils.WeChatRecordVideo
+    name: WeChatRecordVideo
+    isExternal: true
+    href: WeChatAuto.Utils.WeChatRecordVideo.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Utils.WeChatRecordVideo
+    name: WeChatRecordVideo
+    isExternal: true
+    href: WeChatAuto.Utils.WeChatRecordVideo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.WeChatRecordVideo.#ctor*
+  commentId: Overload:WeChatAuto.Utils.WeChatRecordVideo.#ctor
+  isExternal: true
+  href: WeChatAuto.Utils.WeChatRecordVideo.html#WeChatAuto_Utils_WeChatRecordVideo__ctor_System_String_
+  name: WeChatRecordVideo
+  nameWithType: WeChatRecordVideo.WeChatRecordVideo
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.WeChatRecordVideo
+  nameWithType.vb: WeChatRecordVideo.New
+  fullName.vb: WeChatAuto.Utils.WeChatRecordVideo.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo*
+  commentId: Overload:WeChatAuto.Utils.WeChatRecordVideo.RecordVideo
+  isExternal: true
+  href: WeChatAuto.Utils.WeChatRecordVideo.html#WeChatAuto_Utils_WeChatRecordVideo_RecordVideo_System_String_
+  name: RecordVideo
+  nameWithType: WeChatRecordVideo.RecordVideo
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: WeChatAuto.Utils.WeChatRecordVideo.TargetPath*
+  commentId: Overload:WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+  isExternal: true
+  href: WeChatAuto.Utils.WeChatRecordVideo.html#WeChatAuto_Utils_WeChatRecordVideo_TargetPath
+  name: TargetPath
+  nameWithType: WeChatRecordVideo.TargetPath
+  fullName: WeChatAuto.Utils.WeChatRecordVideo.TargetPath
+- uid: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder*
+  commentId: Overload:WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+  isExternal: true
+  href: WeChatAuto.Utils.WeChatRecordVideo.html#WeChatAuto_Utils_WeChatRecordVideo__VideoRecorder
+  name: _VideoRecorder
+  nameWithType: WeChatRecordVideo._VideoRecorder
+  fullName: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
+- uid: FlaUI.Core.Capturing.VideoRecorder
+  commentId: T:FlaUI.Core.Capturing.VideoRecorder
+  parent: FlaUI.Core.Capturing
+  isExternal: true
+  name: VideoRecorder
+  nameWithType: VideoRecorder
+  fullName: FlaUI.Core.Capturing.VideoRecorder
+- uid: FlaUI.Core.Capturing
+  commentId: N:FlaUI.Core.Capturing
+  isExternal: true
+  name: FlaUI.Core.Capturing
+  nameWithType: FlaUI.Core.Capturing
+  fullName: FlaUI.Core.Capturing
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Capturing
+    name: Capturing
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.Capturing
+    name: Capturing
+    isExternal: true

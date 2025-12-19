@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.MCP.Utils
+  commentId: N:WeChatAuto.MCP.Utils
+  id: WeChatAuto.MCP.Utils
+  children:
+  - WeChatAuto.MCP.Utils.Alert
+  langs:
+  - csharp
+  - vb
+  name: WeChatAuto.MCP.Utils
+  nameWithType: WeChatAuto.MCP.Utils
+  fullName: WeChatAuto.MCP.Utils
+  type: Namespace
+  assemblies:
+  - WeChatAuto.MCP
+references:
+- uid: WeChatAuto.MCP.Utils.Alert
+  commentId: T:WeChatAuto.MCP.Utils.Alert
+  isExternal: true
+  href: WeChatAuto.MCP.Utils.Alert.html
+  name: Alert
+  nameWithType: Alert
+  fullName: WeChatAuto.MCP.Utils.Alert

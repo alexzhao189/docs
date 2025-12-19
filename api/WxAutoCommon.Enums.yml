@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Enums
+  commentId: N:WxAutoCommon.Enums
+  id: WxAutoCommon.Enums
+  children:
+  - WxAutoCommon.Enums.ActionType
+  - WxAutoCommon.Enums.ChatBoxToolBarType
+  - WxAutoCommon.Enums.ChatContentType
+  - WxAutoCommon.Enums.ChatType
+  - WxAutoCommon.Enums.ConversationType
+  - WxAutoCommon.Enums.MessageSourceType
+  - WxAutoCommon.Enums.MessageType
+  - WxAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: WxAutoCommon.Enums
+  nameWithType: WxAutoCommon.Enums
+  fullName: WxAutoCommon.Enums
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WxAutoCommon.Enums.ActionType
+  commentId: T:WxAutoCommon.Enums.ActionType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ActionType.html
+  name: ActionType
+  nameWithType: ActionType
+  fullName: WxAutoCommon.Enums.ActionType
+- uid: WxAutoCommon.Enums.ChatBoxToolBarType
+  commentId: T:WxAutoCommon.Enums.ChatBoxToolBarType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ChatBoxToolBarType.html
+  name: ChatBoxToolBarType
+  nameWithType: ChatBoxToolBarType
+  fullName: WxAutoCommon.Enums.ChatBoxToolBarType
+- uid: WxAutoCommon.Enums.ChatContentType
+  commentId: T:WxAutoCommon.Enums.ChatContentType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ChatContentType.html
+  name: ChatContentType
+  nameWithType: ChatContentType
+  fullName: WxAutoCommon.Enums.ChatContentType
+- uid: WxAutoCommon.Enums.ChatType
+  commentId: T:WxAutoCommon.Enums.ChatType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ChatType.html
+  name: ChatType
+  nameWithType: ChatType
+  fullName: WxAutoCommon.Enums.ChatType
+- uid: WxAutoCommon.Enums.ConversationType
+  commentId: T:WxAutoCommon.Enums.ConversationType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.ConversationType.html
+  name: ConversationType
+  nameWithType: ConversationType
+  fullName: WxAutoCommon.Enums.ConversationType
+- uid: WxAutoCommon.Enums.MessageSourceType
+  commentId: T:WxAutoCommon.Enums.MessageSourceType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.MessageSourceType.html
+  name: MessageSourceType
+  nameWithType: MessageSourceType
+  fullName: WxAutoCommon.Enums.MessageSourceType
+- uid: WxAutoCommon.Enums.MessageType
+  commentId: T:WxAutoCommon.Enums.MessageType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.MessageType.html
+  name: MessageType
+  nameWithType: MessageType
+  fullName: WxAutoCommon.Enums.MessageType
+- uid: WxAutoCommon.Enums.NavigationType
+  commentId: T:WxAutoCommon.Enums.NavigationType
+  parent: WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.Enums.NavigationType.html
+  name: NavigationType
+  nameWithType: NavigationType
+  fullName: WxAutoCommon.Enums.NavigationType
+- uid: WxAutoCommon.Enums
+  commentId: N:WxAutoCommon.Enums
+  isExternal: true
+  href: WxAutoCommon.html
+  name: WxAutoCommon.Enums
+  nameWithType: WxAutoCommon.Enums
+  fullName: WxAutoCommon.Enums
+  spec.csharp:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html
+  spec.vb:
+  - uid: WxAutoCommon
+    name: WxAutoCommon
+    isExternal: true
+    href: WxAutoCommon.html
+  - name: .
+  - uid: WxAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WxAutoCommon.Enums.html

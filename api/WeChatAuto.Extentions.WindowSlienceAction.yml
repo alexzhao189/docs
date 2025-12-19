@@ -1,0 +1,764 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Extentions.WindowSlienceAction
+  commentId: T:WeChatAuto.Extentions.WindowSlienceAction
+  id: WindowSlienceAction
+  parent: WeChatAuto.Extentions
+  children:
+  - WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  - WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  - WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  - WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox,System.String)
+  - WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  - WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox)
+  langs:
+  - csharp
+  - vb
+  name: WindowSlienceAction
+  nameWithType: WindowSlienceAction
+  fullName: WeChatAuto.Extentions.WindowSlienceAction
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 静默操作的扩展
+  example: []
+  syntax:
+    content: public static class WindowSlienceAction
+    content.vb: Public Module WindowSlienceAction
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: SilenceClickExt(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: SilenceClickExt(Window, AutomationElement)
+  nameWithType: WindowSlienceAction.SilenceClickExt(Window, AutomationElement)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: >-
+    静默点击
+
+    最好保证是最近刷新的元素，这样支持窗口移动.
+
+    此方法dpi无感
+  example: []
+  syntax:
+    content: public static void SilenceClickExt(this Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口Window
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 要点击的元素<xref href="FlaUI.Core.AutomationElements.AutomationElement" data-throw-if-not-resolved="false"></xref>最好保证是最近刷新的元素
+    content.vb: Public Shared Sub SilenceClickExt(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt*
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox,System.String)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox,System.String)
+  id: SilenceEnterText(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox,System.String)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: SilenceEnterText(Window, TextBox, string)
+  nameWithType: WindowSlienceAction.SilenceEnterText(Window, TextBox, string)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox, string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 静默输入文本
+  example: []
+  syntax:
+    content: public static void SilenceEnterText(this Window wxWindow, TextBox edit, string text)
+    parameters:
+    - id: wxWindow
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口对象,<xref href="FlaUI.Core.AutomationElements.Window" data-throw-if-not-resolved="false"></xref>
+    - id: edit
+      type: FlaUI.Core.AutomationElements.TextBox
+      description: 输入框<xref href="FlaUI.Core.AutomationElements.TextBox" data-throw-if-not-resolved="false"></xref>
+    - id: text
+      type: System.String
+      description: 文本
+    content.vb: Public Shared Sub SilenceEnterText(wxWindow As Window, edit As TextBox, text As String)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText*
+  nameWithType.vb: WindowSlienceAction.SilenceEnterText(Window, TextBox, String)
+  fullName.vb: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox, String)
+  name.vb: SilenceEnterText(Window, TextBox, String)
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox)
+  id: SilenceReturn(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.TextBox)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: SilenceReturn(Window, TextBox)
+  nameWithType: WindowSlienceAction.SilenceReturn(Window, TextBox)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 静默回车
+  example: []
+  syntax:
+    content: public static void SilenceReturn(this Window wxWindow, TextBox edit)
+    parameters:
+    - id: wxWindow
+      type: FlaUI.Core.AutomationElements.Window
+      description: 微信窗口封装<xref href="WeAutoCommon.Interface.IWeChatWindow" data-throw-if-not-resolved="false"></xref>
+    - id: edit
+      type: FlaUI.Core.AutomationElements.TextBox
+      description: 输入框<xref href="FlaUI.Core.AutomationElements.TextBox" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Shared Sub SilenceReturn(wxWindow As Window, edit As TextBox)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn*
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  id: SilencePasteSimple(FlaUI.Core.AutomationElements.Window,System.String[],FlaUI.Core.AutomationElements.TextBox)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: SilencePasteSimple(Window, string[], TextBox)
+  nameWithType: WindowSlienceAction.SilencePasteSimple(Window, string[], TextBox)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window, string[], FlaUI.Core.AutomationElements.TextBox)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 使用SendKeys的简单方法
+  example: []
+  syntax:
+    content: public static void SilencePasteSimple(this Window wxWindow, string[] filePath, TextBox edit)
+    parameters:
+    - id: wxWindow
+      type: FlaUI.Core.AutomationElements.Window
+    - id: filePath
+      type: System.String[]
+    - id: edit
+      type: FlaUI.Core.AutomationElements.TextBox
+    content.vb: Public Shared Sub SilencePasteSimple(wxWindow As Window, filePath As String(), edit As TextBox)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple*
+  nameWithType.vb: WindowSlienceAction.SilencePasteSimple(Window, String(), TextBox)
+  fullName.vb: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window, String(), FlaUI.Core.AutomationElements.TextBox)
+  name.vb: SilencePasteSimple(Window, String(), TextBox)
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: ShowClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: ShowClick(Window, AutomationElement)
+  nameWithType: WindowSlienceAction.ShowClick(Window, AutomationElement)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: >-
+    显示点击
+
+    此方法dpi无感
+  example: []
+  syntax:
+    content: public static void ShowClick(this Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub ShowClick(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.ShowClick*
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  id: ShowAwareClick(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: ShowAwareClick(Window, AutomationElement)
+  nameWithType: WindowSlienceAction.ShowAwareClick(Window, AutomationElement)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 显示点击
+  example: []
+  syntax:
+    content: public static void ShowAwareClick(this Window window, AutomationElement element)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: element
+      type: FlaUI.Core.AutomationElements.AutomationElement
+      description: 元素
+    content.vb: Public Shared Sub ShowAwareClick(window As Window, element As AutomationElement)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick*
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  id: ShowClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: ShowClick(Window, Point)
+  nameWithType: WindowSlienceAction.ShowClick(Window, Point)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: >-
+    显示点击
+
+    此方法dpi无感知
+  example: []
+  syntax:
+    content: public static void ShowClick(this Window window, Point point)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    content.vb: Public Shared Sub ShowClick(window As Window, point As Point)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.ShowClick*
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  commentId: M:WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  id: ShowAwareClick(FlaUI.Core.AutomationElements.Window,System.Drawing.Point)
+  isExtensionMethod: true
+  parent: WeChatAuto.Extentions.WindowSlienceAction
+  langs:
+  - csharp
+  - vb
+  name: ShowAwareClick(Window, Point)
+  nameWithType: WindowSlienceAction.ShowAwareClick(Window, Point)
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/WindowSlienceAction.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Extentions
+  summary: 显示点击
+  example: []
+  syntax:
+    content: public static void ShowAwareClick(this Window window, Point point)
+    parameters:
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: 窗口
+    - id: point
+      type: System.Drawing.Point
+      description: 坐标
+    content.vb: Public Shared Sub ShowAwareClick(window As Window, point As Point)
+  overload: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick*
+references:
+- uid: WeChatAuto.Extentions
+  commentId: N:WeChatAuto.Extentions
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Extentions
+  nameWithType: WeChatAuto.Extentions
+  fullName: WeChatAuto.Extentions
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Extentions
+    name: Extentions
+    isExternal: true
+    href: WeChatAuto.Extentions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FlaUI.Core.AutomationElements.AutomationElement
+  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: AutomationElement
+  nameWithType: AutomationElement
+  fullName: FlaUI.Core.AutomationElements.AutomationElement
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_SilenceClickExt_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: SilenceClickExt
+  nameWithType: WindowSlienceAction.SilenceClickExt
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: FlaUI.Core.AutomationElements.TextBox
+  commentId: T:FlaUI.Core.AutomationElements.TextBox
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: TextBox
+  nameWithType: TextBox
+  fullName: FlaUI.Core.AutomationElements.TextBox
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_SilenceEnterText_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_TextBox_System_String_
+  name: SilenceEnterText
+  nameWithType: WindowSlienceAction.SilenceEnterText
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Interface.IWeChatWindow
+  commentId: T:WeAutoCommon.Interface.IWeChatWindow
+  parent: WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.Interface.IWeChatWindow.html
+  name: IWeChatWindow
+  nameWithType: IWeChatWindow
+  fullName: WeAutoCommon.Interface.IWeChatWindow
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_SilenceReturn_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_TextBox_
+  name: SilenceReturn
+  nameWithType: WindowSlienceAction.SilenceReturn
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn
+- uid: WeAutoCommon.Interface
+  commentId: N:WeAutoCommon.Interface
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Interface
+  nameWithType: WeAutoCommon.Interface
+  fullName: WeAutoCommon.Interface
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Interface
+    name: Interface
+    isExternal: true
+    href: WeAutoCommon.Interface.html
+- uid: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_SilencePasteSimple_FlaUI_Core_AutomationElements_Window_System_String___FlaUI_Core_AutomationElements_TextBox_
+  name: SilencePasteSimple
+  nameWithType: WindowSlienceAction.SilencePasteSimple
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowClick*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.ShowClick
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_ShowClick_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: ShowClick
+  nameWithType: WindowSlienceAction.ShowClick
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick
+- uid: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick*
+  commentId: Overload:WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick
+  isExternal: true
+  href: WeChatAuto.Extentions.WindowSlienceAction.html#WeChatAuto_Extentions_WindowSlienceAction_ShowAwareClick_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_
+  name: ShowAwareClick
+  nameWithType: WindowSlienceAction.ShowAwareClick
+  fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing

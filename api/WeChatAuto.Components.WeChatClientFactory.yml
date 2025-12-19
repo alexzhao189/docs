@@ -1,0 +1,957 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.WeChatClientFactory
+  commentId: T:WeChatAuto.Components.WeChatClientFactory
+  id: WeChatClientFactory
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.WeChatClientFactory.#ctor(System.IServiceProvider)
+  - WeChatAuto.Components.WeChatClientFactory.Dispose
+  - WeChatAuto.Components.WeChatClientFactory.Dispose(System.Boolean)
+  - WeChatAuto.Components.WeChatClientFactory.Finalize
+  - WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(System.String)
+  - WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList
+  - WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames
+  - WeChatAuto.Components.WeChatClientFactory.WeChatClientList
+  langs:
+  - csharp
+  - vb
+  name: WeChatClientFactory
+  nameWithType: WeChatClientFactory
+  fullName: WeChatAuto.Components.WeChatClientFactory
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 微信客户端工厂,封装的微信客户端工厂，支持多微信实例
+  example: []
+  syntax:
+    content: 'public class WeChatClientFactory : IDisposable'
+    content.vb: Public Class WeChatClientFactory Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.WeChatClientFactory.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.WeChatClientFactory.#ctor(System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.#ctor(System.IServiceProvider)
+  id: '#ctor(System.IServiceProvider)'
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: WeChatClientFactory(IServiceProvider)
+  nameWithType: WeChatClientFactory.WeChatClientFactory(IServiceProvider)
+  fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientFactory(System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 微信自动化框架构造函数
+  example: []
+  syntax:
+    content: public WeChatClientFactory(IServiceProvider serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.WeChatClientFactory.#ctor*
+  nameWithType.vb: WeChatClientFactory.New(IServiceProvider)
+  fullName.vb: WeChatAuto.Components.WeChatClientFactory.New(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames
+  id: GetWeChatClientNames
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: GetWeChatClientNames()
+  nameWithType: WeChatClientFactory.GetWeChatClientNames()
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取客户端名称列表
+  example: []
+  syntax:
+    content: public List<string> GetWeChatClientNames()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    content.vb: Public Function GetWeChatClientNames() As List(Of String)
+  overload: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames*
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(System.String)
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(System.String)
+  id: GetWeChatClient(System.String)
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: GetWeChatClient(string)
+  nameWithType: WeChatClientFactory.GetWeChatClient(string)
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 获取微信客户端
+  example: []
+  syntax:
+    content: public WeChatClient GetWeChatClient(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: 微信客户端名称
+    return:
+      type: WeChatAuto.Components.WeChatClient
+      description: 微信客户端<xref href="WeChatAuto.Components.WeChatClient" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetWeChatClient(name As String) As WeChatClient
+  overload: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: WeChatClientFactory.GetWeChatClient(String)
+  fullName.vb: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(String)
+  name.vb: GetWeChatClient(String)
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList
+  id: GetWeChatClientList
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: GetWeChatClientList()
+  nameWithType: WeChatClientFactory.GetWeChatClientList()
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: >-
+    获取微信客户端列表
+
+    微信客户端请参见<xref href="WeChatAuto.Components.WeChatClient" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public Dictionary<string, WeChatClient> GetWeChatClientList()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeChatAuto.Components.WeChatClient}
+      description: 微信客户端列表
+    content.vb: Public Function GetWeChatClientList() As Dictionary(Of String, WeChatClient)
+  overload: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList*
+- uid: WeChatAuto.Components.WeChatClientFactory.Dispose
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.Dispose
+  id: Dispose
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: WeChatClientFactory.Dispose()
+  fullName: WeChatAuto.Components.WeChatClientFactory.Dispose()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 释放资源
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: WeChatAuto.Components.WeChatClientFactory.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: WeChatAuto.Components.WeChatClientFactory.Finalize
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.Finalize
+  id: Finalize
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: ~WeChatClientFactory()
+  nameWithType: WeChatClientFactory.~WeChatClientFactory()
+  fullName: WeChatAuto.Components.WeChatClientFactory.~WeChatClientFactory()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: protected ~WeChatClientFactory()
+    content.vb: 'Protected '
+  overload: WeChatAuto.Components.WeChatClientFactory.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: WeChatAuto.Components.WeChatClientFactory.Dispose(System.Boolean)
+  commentId: M:WeChatAuto.Components.WeChatClientFactory.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: WeChatClientFactory.Dispose(bool)
+  fullName: WeChatAuto.Components.WeChatClientFactory.Dispose(bool)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: WeChatAuto.Components.WeChatClientFactory.Dispose*
+  nameWithType.vb: WeChatClientFactory.Dispose(Boolean)
+  fullName.vb: WeChatAuto.Components.WeChatClientFactory.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: WeChatAuto.Components.WeChatClientFactory.WeChatClientList
+  commentId: P:WeChatAuto.Components.WeChatClientFactory.WeChatClientList
+  id: WeChatClientList
+  parent: WeChatAuto.Components.WeChatClientFactory
+  langs:
+  - csharp
+  - vb
+  name: WeChatClientList
+  nameWithType: WeChatClientFactory.WeChatClientList
+  fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientList
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/WeChatClientFactory.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 微信客户端列表
+  example: []
+  syntax:
+    content: public Dictionary<string, WeChatClient> WeChatClientList { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,WeChatAuto.Components.WeChatClient}
+    content.vb: Public ReadOnly Property WeChatClientList As Dictionary(Of String, WeChatClient)
+  overload: WeChatAuto.Components.WeChatClientFactory.WeChatClientList*
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.WeChatClientFactory.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<WeChatClientFactory>(WeChatClientFactory)
+  nameWithType: FunctionalExtensions.ToMaybe<WeChatClientFactory>(WeChatClientFactory)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.WeChatClientFactory>(WeChatAuto.Components.WeChatClientFactory)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WeChatClientFactory)(WeChatClientFactory)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.WeChatClientFactory)(WeChatAuto.Components.WeChatClientFactory)
+  name.vb: ToMaybe(Of WeChatClientFactory)(WeChatClientFactory)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.WeChatClientFactory)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.WeChatClientFactory
+    name: WeChatClientFactory
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClientFactory.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.WeChatClientFactory
+    name: WeChatClientFactory
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClientFactory.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.WeChatClientFactory)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.WeChatClientFactory
+    name: WeChatClientFactory
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClientFactory.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.WeChatClientFactory
+    name: WeChatClientFactory
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClientFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.WeChatClientFactory.#ctor*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory__ctor_System_IServiceProvider_
+  name: WeChatClientFactory
+  nameWithType: WeChatClientFactory.WeChatClientFactory
+  fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientFactory
+  nameWithType.vb: WeChatClientFactory.New
+  fullName.vb: WeChatAuto.Components.WeChatClientFactory.New
+  name.vb: New
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_GetWeChatClientNames
+  name: GetWeChatClientNames
+  nameWithType: WeChatClientFactory.GetWeChatClientNames
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeChatAuto.Components.WeChatClient
+  commentId: T:WeChatAuto.Components.WeChatClient
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClient.html
+  name: WeChatClient
+  nameWithType: WeChatClient
+  fullName: WeChatAuto.Components.WeChatClient
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.GetWeChatClient
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_GetWeChatClient_System_String_
+  name: GetWeChatClient
+  nameWithType: WeChatClientFactory.GetWeChatClient
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_GetWeChatClientList
+  name: GetWeChatClientList
+  nameWithType: WeChatClientFactory.GetWeChatClientList
+  fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList
+- uid: System.Collections.Generic.Dictionary{System.String,WeChatAuto.Components.WeChatClient}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,WeChatAuto.Components.WeChatClient}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, WeChatClient>
+  nameWithType: Dictionary<string, WeChatClient>
+  fullName: System.Collections.Generic.Dictionary<string, WeChatAuto.Components.WeChatClient>
+  nameWithType.vb: Dictionary(Of String, WeChatClient)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, WeChatAuto.Components.WeChatClient)
+  name.vb: Dictionary(Of String, WeChatClient)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: WeChatAuto.Components.WeChatClient
+    name: WeChatClient
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClient.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: WeChatAuto.Components.WeChatClient
+    name: WeChatClient
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClient.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: WeChatAuto.Components.WeChatClientFactory.Dispose*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.Dispose
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_Dispose
+  name: Dispose
+  nameWithType: WeChatClientFactory.Dispose
+  fullName: WeChatAuto.Components.WeChatClientFactory.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.WeChatClientFactory.Finalize*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.Finalize
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_Finalize
+  name: ~WeChatClientFactory
+  nameWithType: WeChatClientFactory.~WeChatClientFactory
+  fullName: WeChatAuto.Components.WeChatClientFactory.~WeChatClientFactory
+  spec.csharp:
+  - name: "~"
+  - uid: WeChatAuto.Components.WeChatClientFactory.Finalize*
+    name: WeChatClientFactory
+    isExternal: true
+    href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_Finalize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.WeChatClientFactory.WeChatClientList*
+  commentId: Overload:WeChatAuto.Components.WeChatClientFactory.WeChatClientList
+  isExternal: true
+  href: WeChatAuto.Components.WeChatClientFactory.html#WeChatAuto_Components_WeChatClientFactory_WeChatClientList
+  name: WeChatClientList
+  nameWithType: WeChatClientFactory.WeChatClientList
+  fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientList

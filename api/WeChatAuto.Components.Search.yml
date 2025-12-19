@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Components.Search
+  commentId: T:WeChatAuto.Components.Search
+  id: Search
+  parent: WeChatAuto.Components
+  children:
+  - WeChatAuto.Components.Search.#ctor(WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  - WeChatAuto.Components.Search.ClearText
+  - WeChatAuto.Components.Search.SearchChat(System.String)
+  - WeChatAuto.Components.Search.SearchCollection(System.String)
+  - WeChatAuto.Components.Search.SearchContact(System.String)
+  - WeChatAuto.Components.Search.SearchSomething(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: Search
+  fullName: WeChatAuto.Components.Search
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public class Search
+    content.vb: Public Class Search
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Components.Search.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Components.Search.#ctor(WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  commentId: M:WeChatAuto.Components.Search.#ctor(WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)
+  id: '#ctor(WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,System.IServiceProvider)'
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: Search(WeChatMainWindow, UIThreadInvoker, Window, IServiceProvider)
+  nameWithType: Search.Search(WeChatMainWindow, UIThreadInvoker, Window, IServiceProvider)
+  fullName: WeChatAuto.Components.Search.Search(WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  syntax:
+    content: public Search(WeChatMainWindow wxWindow, UIThreadInvoker uiThreadInvoker, Window window, IServiceProvider serviceProvider)
+    parameters:
+    - id: wxWindow
+      type: WeChatAuto.Components.WeChatMainWindow
+    - id: uiThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(wxWindow As WeChatMainWindow, uiThreadInvoker As UIThreadInvoker, window As Window, serviceProvider As IServiceProvider)
+  overload: WeChatAuto.Components.Search.#ctor*
+  nameWithType.vb: Search.New(WeChatMainWindow, UIThreadInvoker, Window, IServiceProvider)
+  fullName.vb: WeChatAuto.Components.Search.New(WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
+  name.vb: New(WeChatMainWindow, UIThreadInvoker, Window, IServiceProvider)
+- uid: WeChatAuto.Components.Search.SearchSomething(System.String,System.Boolean)
+  commentId: M:WeChatAuto.Components.Search.SearchSomething(System.String,System.Boolean)
+  id: SearchSomething(System.String,System.Boolean)
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: SearchSomething(string, bool)
+  nameWithType: Search.SearchSomething(string, bool)
+  fullName: WeChatAuto.Components.Search.SearchSomething(string, bool)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 输入搜索内容，并回车
+  example: []
+  syntax:
+    content: public void SearchSomething(string text, bool isClear = false)
+    parameters:
+    - id: text
+      type: System.String
+      description: 搜索内容
+    - id: isClear
+      type: System.Boolean
+      description: 是否清空搜索框,默认是False:不清空,True:清空
+    content.vb: Public Sub SearchSomething(text As String, isClear As Boolean = False)
+  overload: WeChatAuto.Components.Search.SearchSomething*
+  nameWithType.vb: Search.SearchSomething(String, Boolean)
+  fullName.vb: WeChatAuto.Components.Search.SearchSomething(String, Boolean)
+  name.vb: SearchSomething(String, Boolean)
+- uid: WeChatAuto.Components.Search.ClearText
+  commentId: M:WeChatAuto.Components.Search.ClearText
+  id: ClearText
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: ClearText()
+  nameWithType: Search.ClearText()
+  fullName: WeChatAuto.Components.Search.ClearText()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 清空搜索框
+  example: []
+  syntax:
+    content: public void ClearText()
+    content.vb: Public Sub ClearText()
+  overload: WeChatAuto.Components.Search.ClearText*
+- uid: WeChatAuto.Components.Search.SearchChat(System.String)
+  commentId: M:WeChatAuto.Components.Search.SearchChat(System.String)
+  id: SearchChat(System.String)
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: SearchChat(string)
+  nameWithType: Search.SearchChat(string)
+  fullName: WeChatAuto.Components.Search.SearchChat(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 搜索聊天
+  example: []
+  syntax:
+    content: public void SearchChat(string who)
+    parameters:
+    - id: who
+      type: System.String
+      description: 好友名称,可以是群聊名称也可以是好友名称
+    content.vb: Public Sub SearchChat(who As String)
+  overload: WeChatAuto.Components.Search.SearchChat*
+  nameWithType.vb: Search.SearchChat(String)
+  fullName.vb: WeChatAuto.Components.Search.SearchChat(String)
+  name.vb: SearchChat(String)
+- uid: WeChatAuto.Components.Search.SearchContact(System.String)
+  commentId: M:WeChatAuto.Components.Search.SearchContact(System.String)
+  id: SearchContact(System.String)
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: SearchContact(string)
+  nameWithType: Search.SearchContact(string)
+  fullName: WeChatAuto.Components.Search.SearchContact(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 在通讯录页面搜索联系人
+  example: []
+  syntax:
+    content: public void SearchContact(string who)
+    parameters:
+    - id: who
+      type: System.String
+      description: 联系人名称
+    content.vb: Public Sub SearchContact(who As String)
+  overload: WeChatAuto.Components.Search.SearchContact*
+  nameWithType.vb: Search.SearchContact(String)
+  fullName.vb: WeChatAuto.Components.Search.SearchContact(String)
+  name.vb: SearchContact(String)
+- uid: WeChatAuto.Components.Search.SearchCollection(System.String)
+  commentId: M:WeChatAuto.Components.Search.SearchCollection(System.String)
+  id: SearchCollection(System.String)
+  parent: WeChatAuto.Components.Search
+  langs:
+  - csharp
+  - vb
+  name: SearchCollection(string)
+  nameWithType: Search.SearchCollection(string)
+  fullName: WeChatAuto.Components.Search.SearchCollection(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/Search.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 在收藏页面搜索收藏的内容
+  example: []
+  syntax:
+    content: public void SearchCollection(string content)
+    parameters:
+    - id: content
+      type: System.String
+      description: 搜索内容
+    content.vb: Public Sub SearchCollection(content As String)
+  overload: WeChatAuto.Components.Search.SearchCollection*
+  nameWithType.vb: Search.SearchCollection(String)
+  fullName.vb: WeChatAuto.Components.Search.SearchCollection(String)
+  name.vb: SearchCollection(String)
+references:
+- uid: WeChatAuto.Components
+  commentId: N:WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Components
+  nameWithType: WeChatAuto.Components
+  fullName: WeChatAuto.Components
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Components
+    name: Components
+    isExternal: true
+    href: WeChatAuto.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Components.Search.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Search>(Search)
+  nameWithType: FunctionalExtensions.ToMaybe<Search>(Search)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Components.Search>(WeChatAuto.Components.Search)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Search)(Search)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Components.Search)(WeChatAuto.Components.Search)
+  name.vb: ToMaybe(Of Search)(Search)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Search)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Components.Search
+    name: Search
+    isExternal: true
+    href: WeChatAuto.Components.Search.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Components.Search
+    name: Search
+    isExternal: true
+    href: WeChatAuto.Components.Search.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Components.Search)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.Search
+    name: Search
+    isExternal: true
+    href: WeChatAuto.Components.Search.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Components.Search
+    name: Search
+    isExternal: true
+    href: WeChatAuto.Components.Search.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Components.Search.#ctor*
+  commentId: Overload:WeChatAuto.Components.Search.#ctor
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search__ctor_WeChatAuto_Components_WeChatMainWindow_WeAutoCommon_Utils_UIThreadInvoker_FlaUI_Core_AutomationElements_Window_System_IServiceProvider_
+  name: Search
+  nameWithType: Search.Search
+  fullName: WeChatAuto.Components.Search.Search
+  nameWithType.vb: Search.New
+  fullName.vb: WeChatAuto.Components.Search.New
+  name.vb: New
+- uid: WeChatAuto.Components.WeChatMainWindow
+  commentId: T:WeChatAuto.Components.WeChatMainWindow
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.WeChatMainWindow.html
+  name: WeChatMainWindow
+  nameWithType: WeChatMainWindow
+  fullName: WeChatAuto.Components.WeChatMainWindow
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
+  parent: FlaUI.Core.AutomationElements
+  isExternal: true
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+- uid: FlaUI.Core.AutomationElements
+  commentId: N:FlaUI.Core.AutomationElements
+  isExternal: true
+  name: FlaUI.Core.AutomationElements
+  nameWithType: FlaUI.Core.AutomationElements
+  fullName: FlaUI.Core.AutomationElements
+  spec.csharp:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+  spec.vb:
+  - uid: FlaUI
+    name: FlaUI
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: FlaUI.Core.AutomationElements
+    name: AutomationElements
+    isExternal: true
+- uid: WeChatAuto.Components.Search.SearchSomething*
+  commentId: Overload:WeChatAuto.Components.Search.SearchSomething
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search_SearchSomething_System_String_System_Boolean_
+  name: SearchSomething
+  nameWithType: Search.SearchSomething
+  fullName: WeChatAuto.Components.Search.SearchSomething
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WeChatAuto.Components.Search.ClearText*
+  commentId: Overload:WeChatAuto.Components.Search.ClearText
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search_ClearText
+  name: ClearText
+  nameWithType: Search.ClearText
+  fullName: WeChatAuto.Components.Search.ClearText
+- uid: WeChatAuto.Components.Search.SearchChat*
+  commentId: Overload:WeChatAuto.Components.Search.SearchChat
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search_SearchChat_System_String_
+  name: SearchChat
+  nameWithType: Search.SearchChat
+  fullName: WeChatAuto.Components.Search.SearchChat
+- uid: WeChatAuto.Components.Search.SearchContact*
+  commentId: Overload:WeChatAuto.Components.Search.SearchContact
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search_SearchContact_System_String_
+  name: SearchContact
+  nameWithType: Search.SearchContact
+  fullName: WeChatAuto.Components.Search.SearchContact
+- uid: WeChatAuto.Components.Search.SearchCollection*
+  commentId: Overload:WeChatAuto.Components.Search.SearchCollection
+  isExternal: true
+  href: WeChatAuto.Components.Search.html#WeChatAuto_Components_Search_SearchCollection_System_String_
+  name: SearchCollection
+  nameWithType: Search.SearchCollection
+  fullName: WeChatAuto.Components.Search.SearchCollection

@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  id: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.ActionType
+  - WeAutoCommon.Enums.ChatBoxToolBarType
+  - WeAutoCommon.Enums.ChatContentType
+  - WeAutoCommon.Enums.ChatType
+  - WeAutoCommon.Enums.ConversationType
+  - WeAutoCommon.Enums.CopyType
+  - WeAutoCommon.Enums.MessageSourceType
+  - WeAutoCommon.Enums.MessageType
+  - WeAutoCommon.Enums.NavigationType
+  langs:
+  - csharp
+  - vb
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WeAutoCommon.Enums.ActionType
+  commentId: T:WeAutoCommon.Enums.ActionType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ActionType.html
+  name: ActionType
+  nameWithType: ActionType
+  fullName: WeAutoCommon.Enums.ActionType
+- uid: WeAutoCommon.Enums.ChatBoxToolBarType
+  commentId: T:WeAutoCommon.Enums.ChatBoxToolBarType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatBoxToolBarType.html
+  name: ChatBoxToolBarType
+  nameWithType: ChatBoxToolBarType
+  fullName: WeAutoCommon.Enums.ChatBoxToolBarType
+- uid: WeAutoCommon.Enums.ChatContentType
+  commentId: T:WeAutoCommon.Enums.ChatContentType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatContentType.html
+  name: ChatContentType
+  nameWithType: ChatContentType
+  fullName: WeAutoCommon.Enums.ChatContentType
+- uid: WeAutoCommon.Enums.ChatType
+  commentId: T:WeAutoCommon.Enums.ChatType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatType.html
+  name: ChatType
+  nameWithType: ChatType
+  fullName: WeAutoCommon.Enums.ChatType
+- uid: WeAutoCommon.Enums.ConversationType
+  commentId: T:WeAutoCommon.Enums.ConversationType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ConversationType.html
+  name: ConversationType
+  nameWithType: ConversationType
+  fullName: WeAutoCommon.Enums.ConversationType
+- uid: WeAutoCommon.Enums.CopyType
+  commentId: T:WeAutoCommon.Enums.CopyType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.CopyType.html
+  name: CopyType
+  nameWithType: CopyType
+  fullName: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.MessageSourceType
+  commentId: T:WeAutoCommon.Enums.MessageSourceType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.MessageSourceType.html
+  name: MessageSourceType
+  nameWithType: MessageSourceType
+  fullName: WeAutoCommon.Enums.MessageSourceType
+- uid: WeAutoCommon.Enums.MessageType
+  commentId: T:WeAutoCommon.Enums.MessageType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.MessageType.html
+  name: MessageType
+  nameWithType: MessageType
+  fullName: WeAutoCommon.Enums.MessageType
+- uid: WeAutoCommon.Enums.NavigationType
+  commentId: T:WeAutoCommon.Enums.NavigationType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.NavigationType.html
+  name: NavigationType
+  nameWithType: NavigationType
+  fullName: WeAutoCommon.Enums.NavigationType
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html

@@ -1,0 +1,322 @@
+### YamlMime:TableOfContent
+items:
+- uid: WeAutoCommon.Configs
+  name: WeAutoCommon.Configs
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Configs.Language
+    name: Language
+    type: Class
+  - uid: WeAutoCommon.Configs.WeChatConfig
+    name: WeChatConfig
+    type: Class
+  - uid: WeAutoCommon.Configs.WeMettingConfig
+    name: WeMettingConfig
+    type: Class
+- uid: WeAutoCommon.Enums
+  name: WeAutoCommon.Enums
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Enums.ActionType
+    name: ActionType
+    type: Enum
+  - uid: WeAutoCommon.Enums.ChatBoxToolBarType
+    name: ChatBoxToolBarType
+    type: Enum
+  - uid: WeAutoCommon.Enums.ChatContentType
+    name: ChatContentType
+    type: Enum
+  - uid: WeAutoCommon.Enums.ChatType
+    name: ChatType
+    type: Enum
+  - uid: WeAutoCommon.Enums.ConversationType
+    name: ConversationType
+    type: Enum
+  - uid: WeAutoCommon.Enums.CopyType
+    name: CopyType
+    type: Enum
+  - uid: WeAutoCommon.Enums.MessageSourceType
+    name: MessageSourceType
+    type: Enum
+  - uid: WeAutoCommon.Enums.MessageType
+    name: MessageType
+    type: Enum
+  - uid: WeAutoCommon.Enums.NavigationType
+    name: NavigationType
+    type: Enum
+- uid: WeAutoCommon.Exceptions
+  name: WeAutoCommon.Exceptions
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Exceptions.WindowNotExsitException
+    name: WindowNotExsitException
+    type: Class
+- uid: WeAutoCommon.Interface
+  name: WeAutoCommon.Interface
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Interface.IWeChatWindow
+    name: IWeChatWindow
+    type: Interface
+- uid: WeAutoCommon.Models
+  name: WeAutoCommon.Models
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Models.ChatActionMessage
+    name: ChatActionMessage
+    type: Class
+  - uid: WeAutoCommon.Models.ChatGroupOptions
+    name: ChatGroupOptions
+    type: Class
+  - uid: WeAutoCommon.Models.ChatResponse
+    name: ChatResponse
+    type: Class
+  - uid: WeAutoCommon.Models.Conversation
+    name: Conversation
+    type: Class
+  - uid: WeAutoCommon.Models.EmojiItem
+    name: EmojiItem
+    type: Class
+  - uid: WeAutoCommon.Models.FunctionalExtensions
+    name: FunctionalExtensions
+    type: Class
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe<T>
+    type: Class
+  - uid: WeAutoCommon.Models.MomentItem
+    name: MomentItem
+    type: Class
+  - uid: WeAutoCommon.Models.ReplyItem
+    name: ReplyItem
+    type: Class
+  - uid: WeAutoCommon.Models.Result
+    name: Result
+    type: Class
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result<T>
+    type: Class
+- uid: WeAutoCommon.Simulator
+  name: WeAutoCommon.Simulator
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Simulator.Skm
+    name: Skm
+    type: Class
+- uid: WeAutoCommon.Utils
+  name: WeAutoCommon.Utils
+  type: Namespace
+  items:
+  - uid: WeAutoCommon.Utils.AutomationValid
+    name: AutomationValid
+    type: Class
+  - uid: WeAutoCommon.Utils.EmojiListHelper
+    name: EmojiListHelper
+    type: Class
+  - uid: WeAutoCommon.Utils.FriendListenerOptions
+    name: FriendListenerOptions
+    type: Class
+  - uid: WeAutoCommon.Utils.IMEHelper
+    name: IMEHelper
+    type: Class
+  - uid: WeAutoCommon.Utils.RandomWait
+    name: RandomWait
+    type: Class
+  - uid: WeAutoCommon.Utils.TextIdentifier
+    name: TextIdentifier
+    type: Class
+  - uid: WeAutoCommon.Utils.UIThreadInvoker
+    name: UIThreadInvoker
+    type: Class
+  - uid: WeAutoCommon.Utils.WeChatConstant
+    name: WeChatConstant
+    type: Class
+  - uid: WeAutoCommon.Utils.WeChatTextIdentifiers
+    name: WeChatTextIdentifiers
+    type: Class
+- uid: WeChatAuto.Components
+  name: WeChatAuto.Components
+  type: Namespace
+  items:
+  - uid: WeChatAuto.Components.AddressBookList
+    name: AddressBookList
+    type: Class
+  - uid: WeChatAuto.Components.ChatBody
+    name: ChatBody
+    type: Class
+  - uid: WeChatAuto.Components.ChatContent
+    name: ChatContent
+    type: Class
+  - uid: WeChatAuto.Components.ChatHeader
+    name: ChatHeader
+    type: Class
+  - uid: WeChatAuto.Components.ConversationList
+    name: ConversationList
+    type: Class
+  - uid: WeChatAuto.Components.MessageBubble
+    name: MessageBubble
+    type: Class
+  - uid: WeChatAuto.Components.MessageBubbleList
+    name: MessageBubbleList
+    type: Class
+  - uid: WeChatAuto.Components.Moments
+    name: Moments
+    type: Class
+  - uid: WeChatAuto.Components.Navigation
+    name: Navigation
+    type: Class
+  - uid: WeChatAuto.Components.Search
+    name: Search
+    type: Class
+  - uid: WeChatAuto.Components.Sender
+    name: Sender
+    type: Class
+  - uid: WeChatAuto.Components.SubWin
+    name: SubWin
+    type: Class
+  - uid: WeChatAuto.Components.SubWinList
+    name: SubWinList
+    type: Class
+  - uid: WeChatAuto.Components.ToolBar
+    name: ToolBar
+    type: Class
+  - uid: WeChatAuto.Components.WeChatClient
+    name: WeChatClient
+    type: Class
+  - uid: WeChatAuto.Components.WeChatClientFactory
+    name: WeChatClientFactory
+    type: Class
+  - uid: WeChatAuto.Components.WeChatMainWindow
+    name: WeChatMainWindow
+    type: Class
+  - uid: WeChatAuto.Components.WeChatNotifyIcon
+    name: WeChatNotifyIcon
+    type: Class
+- uid: WeChatAuto.Extentions
+  name: WeChatAuto.Extentions
+  type: Namespace
+  items:
+  - uid: WeChatAuto.Extentions.AutoLoggerExtensions
+    name: AutoLoggerExtensions
+    type: Class
+  - uid: WeChatAuto.Extentions.AutomationElementExtensions
+    name: AutomationElementExtensions
+    type: Class
+  - uid: WeChatAuto.Extentions.ClickEnhanceExtentions
+    name: ClickEnhanceExtentions
+    type: Class
+  - uid: WeChatAuto.Extentions.KMSimulatorExtensions
+    name: KMSimulatorExtensions
+    type: Class
+  - uid: WeChatAuto.Extentions.SilenceActionTools
+    name: SilenceActionTools
+    type: Class
+  - uid: WeChatAuto.Extentions.TypeNewStringExtentions
+    name: TypeNewStringExtentions
+    type: Class
+  - uid: WeChatAuto.Extentions.WindowSlienceAction
+    name: WindowSlienceAction
+    type: Class
+- uid: WeChatAuto.MCP
+  name: WeChatAuto.MCP
+  type: Namespace
+  items:
+  - uid: WeChatAuto.MCP.Program
+    name: Program
+    type: Class
+- uid: WeChatAuto.MCP.Prompts
+  name: WeChatAuto.MCP.Prompts
+  type: Namespace
+  items:
+  - uid: WeChatAuto.MCP.Prompts.WeChatPrompt
+    name: WeChatPrompt
+    type: Class
+- uid: WeChatAuto.MCP.Tools
+  name: WeChatAuto.MCP.Tools
+  type: Namespace
+  items:
+  - uid: WeChatAuto.MCP.Tools.WeChatClientTool
+    name: WeChatClientTool
+    type: Class
+- uid: WeChatAuto.MCP.Utils
+  name: WeChatAuto.MCP.Utils
+  type: Namespace
+  items:
+  - uid: WeChatAuto.MCP.Utils.Alert
+    name: Alert
+    type: Class
+- uid: WeChatAuto.Models
+  name: WeChatAuto.Models
+  type: Namespace
+  items:
+  - uid: WeChatAuto.Models.AddGroupMemberOptions
+    name: AddGroupMemberOptions
+    type: Class
+  - uid: WeChatAuto.Models.ChatMessageInner
+    name: ChatMessageInner
+    type: Class
+  - uid: WeChatAuto.Models.ChatSimpleMessage
+    name: ChatSimpleMessage
+    type: Class
+  - uid: WeChatAuto.Models.MessageContext
+    name: MessageContext
+    type: Class
+- uid: WeChatAuto.Services
+  name: WeChatAuto.Services
+  type: Namespace
+  items:
+  - uid: WeChatAuto.Services.KMSimulatorService
+    name: KMSimulatorService
+    type: Class
+  - uid: WeChatAuto.Services.WeAutomation
+    name: WeAutomation
+    type: Class
+- uid: WeChatAuto.Utils
+  name: WeChatAuto.Utils
+  type: Namespace
+  items:
+  - uid: WeChatAuto.Utils.AutoLogger`1
+    name: AutoLogger<T>
+    type: Class
+  - uid: WeChatAuto.Utils.ClickHighlighter
+    name: ClickHighlighter
+    type: Class
+  - uid: WeChatAuto.Utils.ClipboardApi
+    name: ClipboardApi
+    type: Class
+  - uid: WeChatAuto.Utils.DpiAwareness
+    name: DpiAwareness
+    type: Class
+  - uid: WeChatAuto.Utils.DrawHightlightHelper
+    name: DrawHightlightHelper
+    type: Class
+  - uid: WeChatAuto.Utils.MessageBubbleParser
+    name: MessageBubbleParser
+    type: Class
+  - uid: WeChatAuto.Utils.MomentsContext
+    name: MomentsContext
+    type: Class
+  - uid: WeChatAuto.Utils.MomentsHelper
+    name: MomentsHelper
+    type: Class
+  - uid: WeChatAuto.Utils.WaitHelper
+    name: WaitHelper
+    type: Class
+  - uid: WeChatAuto.Utils.WeChatCaptureImage
+    name: WeChatCaptureImage
+    type: Class
+  - uid: WeChatAuto.Utils.WeChatRecordVideo
+    name: WeChatRecordVideo
+    type: Class
+  - uid: WeChatAuto.Utils.WinApi
+    name: WinApi
+    type: Class
+  - uid: WeChatAuto.Utils.WxLocation
+    name: WxLocation
+    type: Class
+  - uid: WeChatAuto.Utils.WxLocationCaches
+    name: WxLocationCaches
+    type: Class
+  - uid: WeChatAuto.Utils.WxLocator
+    name: WxLocator
+    type: Class
+memberLayout: SamePage

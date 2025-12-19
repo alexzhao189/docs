@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: WxAutoCommon.Simulator
+  commentId: N:WxAutoCommon.Simulator
+  id: WxAutoCommon.Simulator
+  children:
+  - WxAutoCommon.Simulator.Skm
+  langs:
+  - csharp
+  - vb
+  name: WxAutoCommon.Simulator
+  nameWithType: WxAutoCommon.Simulator
+  fullName: WxAutoCommon.Simulator
+  type: Namespace
+  assemblies:
+  - WeAutoCommon
+references:
+- uid: WxAutoCommon.Simulator.Skm
+  commentId: T:WxAutoCommon.Simulator.Skm
+  isExternal: true
+  href: WxAutoCommon.Simulator.Skm.html
+  name: Skm
+  nameWithType: Skm
+  fullName: WxAutoCommon.Simulator.Skm

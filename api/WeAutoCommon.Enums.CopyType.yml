@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums.CopyType
+  commentId: T:WeAutoCommon.Enums.CopyType
+  id: CopyType
+  parent: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.CopyType.File
+  - WeAutoCommon.Enums.CopyType.Link
+  - WeAutoCommon.Enums.CopyType.Other
+  - WeAutoCommon.Enums.CopyType.Picture
+  - WeAutoCommon.Enums.CopyType.Text
+  - WeAutoCommon.Enums.CopyType.Video
+  - WeAutoCommon.Enums.CopyType.Voice
+  langs:
+  - csharp
+  - vb
+  name: CopyType
+  nameWithType: CopyType
+  fullName: WeAutoCommon.Enums.CopyType
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  summary: 复制类型
+  example: []
+  syntax:
+    content: public enum CopyType
+    content.vb: Public Enum CopyType
+  extensionMethods:
+  - WeAutoCommon.Enums.CopyType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Enums.CopyType.Picture
+  commentId: F:WeAutoCommon.Enums.CopyType.Picture
+  id: Picture
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Picture
+  nameWithType: CopyType.Picture
+  fullName: WeAutoCommon.Enums.CopyType.Picture
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Picture = 0
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.File
+  commentId: F:WeAutoCommon.Enums.CopyType.File
+  id: File
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: CopyType.File
+  fullName: WeAutoCommon.Enums.CopyType.File
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: File = 1
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.Video
+  commentId: F:WeAutoCommon.Enums.CopyType.Video
+  id: Video
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: CopyType.Video
+  fullName: WeAutoCommon.Enums.CopyType.Video
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Video = 2
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.Voice
+  commentId: F:WeAutoCommon.Enums.CopyType.Voice
+  id: Voice
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Voice
+  nameWithType: CopyType.Voice
+  fullName: WeAutoCommon.Enums.CopyType.Voice
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Voice = 3
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.Text
+  commentId: F:WeAutoCommon.Enums.CopyType.Text
+  id: Text
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: CopyType.Text
+  fullName: WeAutoCommon.Enums.CopyType.Text
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Text = 4
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.Link
+  commentId: F:WeAutoCommon.Enums.CopyType.Link
+  id: Link
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: CopyType.Link
+  fullName: WeAutoCommon.Enums.CopyType.Link
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Link = 5
+    return:
+      type: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.CopyType.Other
+  commentId: F:WeAutoCommon.Enums.CopyType.Other
+  id: Other
+  parent: WeAutoCommon.Enums.CopyType
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: CopyType.Other
+  fullName: WeAutoCommon.Enums.CopyType.Other
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Enums/CopyType.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Other = 6
+    return:
+      type: WeAutoCommon.Enums.CopyType
+references:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.CopyType.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<CopyType>(CopyType)
+  nameWithType: FunctionalExtensions.ToMaybe<CopyType>(CopyType)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Enums.CopyType>(WeAutoCommon.Enums.CopyType)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of CopyType)(CopyType)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Enums.CopyType)(WeAutoCommon.Enums.CopyType)
+  name.vb: ToMaybe(Of CopyType)(CopyType)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.CopyType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Enums.CopyType
+    name: CopyType
+    isExternal: true
+    href: WeAutoCommon.Enums.CopyType.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Enums.CopyType
+    name: CopyType
+    isExternal: true
+    href: WeAutoCommon.Enums.CopyType.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.CopyType)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Enums.CopyType
+    name: CopyType
+    isExternal: true
+    href: WeAutoCommon.Enums.CopyType.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Enums.CopyType
+    name: CopyType
+    isExternal: true
+    href: WeAutoCommon.Enums.CopyType.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Enums.CopyType
+  commentId: T:WeAutoCommon.Enums.CopyType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.CopyType.html
+  name: CopyType
+  nameWithType: CopyType
+  fullName: WeAutoCommon.Enums.CopyType

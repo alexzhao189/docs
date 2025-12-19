@@ -1,0 +1,1928 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Models.Result`1
+  commentId: T:WeAutoCommon.Models.Result`1
+  id: Result`1
+  parent: WeAutoCommon.Models
+  children:
+  - WeAutoCommon.Models.Result`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Result{``0}})
+  - WeAutoCommon.Models.Result`1.Fail(System.String)
+  - WeAutoCommon.Models.Result`1.Map``1(System.Func{`0,``0})
+  - WeAutoCommon.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{System.String,``0})
+  - WeAutoCommon.Models.Result`1.Ok(`0)
+  - WeAutoCommon.Models.Result`1.Value
+  langs:
+  - csharp
+  - vb
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: WeAutoCommon.Models.Result<T>
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: Result的泛型类，用于封装操作结果
+  example: []
+  syntax:
+    content: 'public class Result<T> : Result'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Class Result(Of T) Inherits Result
+  inheritance:
+  - System.Object
+  - WeAutoCommon.Models.Result
+  inheritedMembers:
+  - WeAutoCommon.Models.Result.Ok
+  - WeAutoCommon.Models.Result.Success
+  - WeAutoCommon.Models.Result.Error
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(System.Func{{T},System.Threading.Tasks.Task{WeAutoCommon.Models.Result{{U}}}})
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Bind``2(System.Func{{T},WeAutoCommon.Models.Result{{U}}})
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(System.Func{{T},System.Threading.Tasks.Task{{U}}})
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Map``2(System.Func{{T},{U}})
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Match``2(System.Func{{T},{U}},System.Func{System.String,{U}})
+  - WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  nameWithType.vb: Result(Of T)
+  fullName.vb: WeAutoCommon.Models.Result(Of T)
+  name.vb: Result(Of T)
+- uid: WeAutoCommon.Models.Result`1.Ok(`0)
+  commentId: M:WeAutoCommon.Models.Result`1.Ok(`0)
+  id: Ok(`0)
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Ok(T)
+  nameWithType: Result<T>.Ok(T)
+  fullName: WeAutoCommon.Models.Result<T>.Ok(T)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public static Result<T> Ok(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    return:
+      type: WeAutoCommon.Models.Result`1
+    content.vb: Public Shared Function Ok(value As T) As Result(Of T)
+  overload: WeAutoCommon.Models.Result`1.Ok*
+  nameWithType.vb: Result(Of T).Ok(T)
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Ok(T)
+- uid: WeAutoCommon.Models.Result`1.Fail(System.String)
+  commentId: M:WeAutoCommon.Models.Result`1.Fail(System.String)
+  id: Fail(System.String)
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Fail(string)
+  nameWithType: Result<T>.Fail(string)
+  fullName: WeAutoCommon.Models.Result<T>.Fail(string)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public static Result<T> Fail(string error)
+    parameters:
+    - id: error
+      type: System.String
+    return:
+      type: WeAutoCommon.Models.Result`1
+    content.vb: Public Shared Function Fail([error] As String) As Result(Of T)
+  overload: WeAutoCommon.Models.Result`1.Fail*
+  nameWithType.vb: Result(Of T).Fail(String)
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Fail(String)
+  name.vb: Fail(String)
+- uid: WeAutoCommon.Models.Result`1.Map``1(System.Func{`0,``0})
+  commentId: M:WeAutoCommon.Models.Result`1.Map``1(System.Func{`0,``0})
+  id: Map``1(System.Func{`0,``0})
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Map<U>(Func<T, U>)
+  nameWithType: Result<T>.Map<U>(Func<T, U>)
+  fullName: WeAutoCommon.Models.Result<T>.Map<U>(System.Func<T, U>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public Result<U> Map<U>(Func<T, U> mapper)
+    parameters:
+    - id: mapper
+      type: System.Func{{T},{U}}
+    typeParameters:
+    - id: U
+    return:
+      type: WeAutoCommon.Models.Result{{U}}
+    content.vb: Public Function Map(Of U)(mapper As Func(Of T, U)) As Result(Of U)
+  overload: WeAutoCommon.Models.Result`1.Map*
+  nameWithType.vb: Result(Of T).Map(Of U)(Func(Of T, U))
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Map(Of U)(System.Func(Of T, U))
+  name.vb: Map(Of U)(Func(Of T, U))
+- uid: WeAutoCommon.Models.Result`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Result{``0}})
+  commentId: M:WeAutoCommon.Models.Result`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Result{``0}})
+  id: Bind``1(System.Func{`0,WeAutoCommon.Models.Result{``0}})
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Bind<U>(Func<T, Result<U>>)
+  nameWithType: Result<T>.Bind<U>(Func<T, Result<U>>)
+  fullName: WeAutoCommon.Models.Result<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Result<U>>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public Result<U> Bind<U>(Func<T, Result<U>> binder)
+    parameters:
+    - id: binder
+      type: System.Func{{T},WeAutoCommon.Models.Result{{U}}}
+    typeParameters:
+    - id: U
+    return:
+      type: WeAutoCommon.Models.Result{{U}}
+    content.vb: Public Function Bind(Of U)(binder As Func(Of T, Result(Of U))) As Result(Of U)
+  overload: WeAutoCommon.Models.Result`1.Bind*
+  nameWithType.vb: Result(Of T).Bind(Of U)(Func(Of T, Result(Of U)))
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Bind(Of U)(System.Func(Of T, WeAutoCommon.Models.Result(Of U)))
+  name.vb: Bind(Of U)(Func(Of T, Result(Of U)))
+- uid: WeAutoCommon.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{System.String,``0})
+  commentId: M:WeAutoCommon.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{System.String,``0})
+  id: Match``1(System.Func{`0,``0},System.Func{System.String,``0})
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Match<U>(Func<T, U>, Func<string, U>)
+  nameWithType: Result<T>.Match<U>(Func<T, U>, Func<string, U>)
+  fullName: WeAutoCommon.Models.Result<T>.Match<U>(System.Func<T, U>, System.Func<string, U>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public U Match<U>(Func<T, U> ok, Func<string, U> fail)
+    parameters:
+    - id: ok
+      type: System.Func{{T},{U}}
+    - id: fail
+      type: System.Func{System.String,{U}}
+    typeParameters:
+    - id: U
+    return:
+      type: '{U}'
+    content.vb: Public Function Match(Of U)(ok As Func(Of T, U), fail As Func(Of String, U)) As U
+  overload: WeAutoCommon.Models.Result`1.Match*
+  nameWithType.vb: Result(Of T).Match(Of U)(Func(Of T, U), Func(Of String, U))
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Match(Of U)(System.Func(Of T, U), System.Func(Of String, U))
+  name.vb: Match(Of U)(Func(Of T, U), Func(Of String, U))
+- uid: WeAutoCommon.Models.Result`1.Value
+  commentId: P:WeAutoCommon.Models.Result`1.Value
+  id: Value
+  parent: WeAutoCommon.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: WeAutoCommon.Models.Result<T>.Value
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeAutoCommon/Models/Result.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  syntax:
+    content: public T Value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property Value As T
+  overload: WeAutoCommon.Models.Result`1.Value*
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Value
+references:
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: WeAutoCommon.Models.Result
+  commentId: T:WeAutoCommon.Models.Result
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Result.html
+  name: Result
+  nameWithType: Result
+  fullName: WeAutoCommon.Models.Result
+- uid: WeAutoCommon.Models.Result.Ok
+  commentId: M:WeAutoCommon.Models.Result.Ok
+  parent: WeAutoCommon.Models.Result
+  isExternal: true
+  href: WeAutoCommon.Models.Result.html#WeAutoCommon_Models_Result_Ok
+  name: Ok()
+  nameWithType: Result.Ok()
+  fullName: WeAutoCommon.Models.Result.Ok()
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Result.Ok
+    name: Ok
+    isExternal: true
+    href: WeAutoCommon.Models.Result.html#WeAutoCommon_Models_Result_Ok
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.Result.Ok
+    name: Ok
+    isExternal: true
+    href: WeAutoCommon.Models.Result.html#WeAutoCommon_Models_Result_Ok
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.Result.Success
+  commentId: P:WeAutoCommon.Models.Result.Success
+  parent: WeAutoCommon.Models.Result
+  isExternal: true
+  href: WeAutoCommon.Models.Result.html#WeAutoCommon_Models_Result_Success
+  name: Success
+  nameWithType: Result.Success
+  fullName: WeAutoCommon.Models.Result.Success
+- uid: WeAutoCommon.Models.Result.Error
+  commentId: P:WeAutoCommon.Models.Result.Error
+  parent: WeAutoCommon.Models.Result
+  isExternal: true
+  href: WeAutoCommon.Models.Result.html#WeAutoCommon_Models_Result_Error
+  name: Error
+  nameWithType: Result.Error
+  fullName: WeAutoCommon.Models.Result.Error
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(System.Func{{T},System.Threading.Tasks.Task{WeAutoCommon.Models.Result{{U}}}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  name: BindAsync<T, U>(Result<T>, Func<T, Task<Result<U>>>)
+  nameWithType: FunctionalExtensions.BindAsync<T, U>(Result<T>, Func<T, Task<Result<U>>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.BindAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<WeAutoCommon.Models.Result<U>>>)
+  nameWithType.vb: FunctionalExtensions.BindAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of Result(Of U))))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.BindAsync(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of WeAutoCommon.Models.Result(Of U))))
+  name.vb: BindAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of Result(Of U))))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{`0},System.Func{`0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+    name: BindAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{`0},System.Func{`0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+    name: BindAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Bind``2(System.Func{{T},WeAutoCommon.Models.Result{{U}}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  name: Bind<T, U>(Result<T>, Func<T, Result<U>>)
+  nameWithType: FunctionalExtensions.Bind<T, U>(Result<T>, Func<T, Result<U>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Bind<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, WeAutoCommon.Models.Result<U>>)
+  nameWithType.vb: FunctionalExtensions.Bind(Of T, U)(Result(Of T), Func(Of T, Result(Of U)))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Bind(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, WeAutoCommon.Models.Result(Of U)))
+  name.vb: Bind(Of T, U)(Result(Of T), Func(Of T, Result(Of U)))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{`0},System.Func{`0,WeAutoCommon.Models.Result{``1}})
+    name: Bind
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{`0},System.Func{`0,WeAutoCommon.Models.Result{``1}})
+    name: Bind
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(System.Func{{T},System.Threading.Tasks.Task{{U}}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  name: MapAsync<T, U>(Result<T>, Func<T, Task<U>>)
+  nameWithType: FunctionalExtensions.MapAsync<T, U>(Result<T>, Func<T, Task<U>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.MapAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<U>>)
+  nameWithType.vb: FunctionalExtensions.MapAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of U)))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.MapAsync(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of U)))
+  name.vb: MapAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of U)))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{`0},System.Func{`0,System.Threading.Tasks.Task{``1}})
+    name: MapAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{`0},System.Func{`0,System.Threading.Tasks.Task{``1}})
+    name: MapAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Map``2(System.Func{{T},{U}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  name: Map<T, U>(Result<T>, Func<T, U>)
+  nameWithType: FunctionalExtensions.Map<T, U>(Result<T>, Func<T, U>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Map<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>)
+  nameWithType.vb: FunctionalExtensions.Map(Of T, U)(Result(Of T), Func(Of T, U))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Map(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, U))
+  name.vb: Map(Of T, U)(Result(Of T), Func(Of T, U))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{`0},System.Func{`0,``1})
+    name: Map
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{`0},System.Func{`0,``1})
+    name: Map
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.Match``2(System.Func{{T},{U}},System.Func{System.String,{U}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  name: Match<T, U>(Result<T>, Func<T, U>, Func<string, U>)
+  nameWithType: FunctionalExtensions.Match<T, U>(Result<T>, Func<T, U>, Func<string, U>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Match<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>, System.Func<string, U>)
+  nameWithType.vb: FunctionalExtensions.Match(Of T, U)(Result(Of T), Func(Of T, U), Func(Of String, U))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Match(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, U), System.Func(Of String, U))
+  name.vb: Match(Of T, U)(Result(Of T), Func(Of T, U), Func(Of String, U))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{`0},System.Func{`0,``1},System.Func{System.String,``1})
+    name: Match
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{`0},System.Func{`0,``1},System.Func{System.String,``1})
+    name: Match
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<Result<T>>(Result<T>)
+  nameWithType: FunctionalExtensions.ToMaybe<Result<T>>(Result<T>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Models.Result<T>>(WeAutoCommon.Models.Result<T>)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of Result(Of T))(Result(Of T))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Models.Result(Of T))(WeAutoCommon.Models.Result(Of T))
+  name.vb: ToMaybe(Of Result(Of T))(Result(Of T))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Result{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.Result{`0})
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  name: BindAsync<T, U>(Result<T>, Func<T, Task<Result<U>>>)
+  nameWithType: FunctionalExtensions.BindAsync<T, U>(Result<T>, Func<T, Task<Result<U>>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.BindAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<WeAutoCommon.Models.Result<U>>>)
+  nameWithType.vb: FunctionalExtensions.BindAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of Result(Of U))))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.BindAsync(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of WeAutoCommon.Models.Result(Of U))))
+  name.vb: BindAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of Result(Of U))))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+    name: BindAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.BindAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{WeAutoCommon.Models.Result{``1}}})
+    name: BindAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_BindAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task_WeAutoCommon_Models_Result___1____
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  name: Bind<T, U>(Result<T>, Func<T, Result<U>>)
+  nameWithType: FunctionalExtensions.Bind<T, U>(Result<T>, Func<T, Result<U>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Bind<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, WeAutoCommon.Models.Result<U>>)
+  nameWithType.vb: FunctionalExtensions.Bind(Of T, U)(Result(Of T), Func(Of T, Result(Of U)))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Bind(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, WeAutoCommon.Models.Result(Of U)))
+  name.vb: Bind(Of T, U)(Result(Of T), Func(Of T, Result(Of U)))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+    name: Bind
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Bind``2(WeAutoCommon.Models.Result{``0},System.Func{``0,WeAutoCommon.Models.Result{``1}})
+    name: Bind
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Bind__2_WeAutoCommon_Models_Result___0__System_Func___0_WeAutoCommon_Models_Result___1___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  name: MapAsync<T, U>(Result<T>, Func<T, Task<U>>)
+  nameWithType: FunctionalExtensions.MapAsync<T, U>(Result<T>, Func<T, Task<U>>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.MapAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<U>>)
+  nameWithType.vb: FunctionalExtensions.MapAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of U)))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.MapAsync(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of U)))
+  name.vb: MapAsync(Of T, U)(Result(Of T), Func(Of T, Task(Of U)))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+    name: MapAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.MapAsync``2(WeAutoCommon.Models.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+    name: MapAsync
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_MapAsync__2_WeAutoCommon_Models_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  name: Map<T, U>(Result<T>, Func<T, U>)
+  nameWithType: FunctionalExtensions.Map<T, U>(Result<T>, Func<T, U>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Map<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>)
+  nameWithType.vb: FunctionalExtensions.Map(Of T, U)(Result(Of T), Func(Of T, U))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Map(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, U))
+  name.vb: Map(Of T, U)(Result(Of T), Func(Of T, U))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+    name: Map
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Map``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1})
+    name: Map
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Map__2_WeAutoCommon_Models_Result___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  name: Match<T, U>(Result<T>, Func<T, U>, Func<string, U>)
+  nameWithType: FunctionalExtensions.Match<T, U>(Result<T>, Func<T, U>, Func<string, U>)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.Match<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>, System.Func<string, U>)
+  nameWithType.vb: FunctionalExtensions.Match(Of T, U)(Result(Of T), Func(Of T, U), Func(Of String, U))
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Match(Of T, U)(WeAutoCommon.Models.Result(Of T), System.Func(Of T, U), System.Func(Of String, U))
+  name.vb: Match(Of T, U)(Result(Of T), Func(Of T, U), Func(Of String, U))
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+    name: Match
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.Match``2(WeAutoCommon.Models.Result{``0},System.Func{``0,``1},System.Func{System.String,``1})
+    name: Match
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_Match__2_WeAutoCommon_Models_Result___0__System_Func___0___1__System_Func_System_String___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.Ok*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Ok
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Ok__0_
+  name: Ok
+  nameWithType: Result<T>.Ok
+  fullName: WeAutoCommon.Models.Result<T>.Ok
+  nameWithType.vb: Result(Of T).Ok
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Ok
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: WeAutoCommon.Models.Result`1
+  commentId: T:WeAutoCommon.Models.Result`1
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: WeAutoCommon.Models.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: WeAutoCommon.Models.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: WeAutoCommon.Models.Result`1.Fail*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Fail
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Fail_System_String_
+  name: Fail
+  nameWithType: Result<T>.Fail
+  fullName: WeAutoCommon.Models.Result<T>.Fail
+  nameWithType.vb: Result(Of T).Fail
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Fail
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeAutoCommon.Models.Result`1.Map*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Map
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Map__1_System_Func__0___0__
+  name: Map
+  nameWithType: Result<T>.Map
+  fullName: WeAutoCommon.Models.Result<T>.Map
+  nameWithType.vb: Result(Of T).Map
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Map
+- uid: System.Func{{T},{U}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, U>
+  nameWithType: Func<T, U>
+  fullName: System.Func<T, U>
+  nameWithType.vb: Func(Of T, U)
+  fullName.vb: System.Func(Of T, U)
+  name.vb: Func(Of T, U)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+- uid: WeAutoCommon.Models.Result{{U}}
+  commentId: T:WeAutoCommon.Models.Result{``1}
+  parent: WeAutoCommon.Models
+  definition: WeAutoCommon.Models.Result`1
+  href: WeAutoCommon.Models.Result-1.html
+  name: Result<U>
+  nameWithType: Result<U>
+  fullName: WeAutoCommon.Models.Result<U>
+  nameWithType.vb: Result(Of U)
+  fullName.vb: WeAutoCommon.Models.Result(Of U)
+  name.vb: Result(Of U)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.Bind*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Bind
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Bind__1_System_Func__0_WeAutoCommon_Models_Result___0___
+  name: Bind
+  nameWithType: Result<T>.Bind
+  fullName: WeAutoCommon.Models.Result<T>.Bind
+  nameWithType.vb: Result(Of T).Bind
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Bind
+- uid: System.Func{{T},WeAutoCommon.Models.Result{{U}}}
+  commentId: T:System.Func{``0,WeAutoCommon.Models.Result{``1}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, Result<U>>
+  nameWithType: Func<T, Result<U>>
+  fullName: System.Func<T, WeAutoCommon.Models.Result<U>>
+  nameWithType.vb: Func(Of T, Result(Of U))
+  fullName.vb: System.Func(Of T, WeAutoCommon.Models.Result(Of U))
+  name.vb: Func(Of T, Result(Of U))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: WeAutoCommon.Models.Result`1
+    name: Result
+    isExternal: true
+    href: WeAutoCommon.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Result`1.Match*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Match
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Match__1_System_Func__0___0__System_Func_System_String___0__
+  name: Match
+  nameWithType: Result<T>.Match
+  fullName: WeAutoCommon.Models.Result<T>.Match
+  nameWithType.vb: Result(Of T).Match
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Match
+- uid: System.Func{System.String,{U}}
+  commentId: T:System.Func{System.String,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<string, U>
+  nameWithType: Func<string, U>
+  fullName: System.Func<string, U>
+  nameWithType.vb: Func(Of String, U)
+  fullName.vb: System.Func(Of String, U)
+  name.vb: Func(Of String, U)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+- uid: '{U}'
+  commentId: '!:U'
+  definition: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: WeAutoCommon.Models.Result`1.Value*
+  commentId: Overload:WeAutoCommon.Models.Result`1.Value
+  isExternal: true
+  href: WeAutoCommon.Models.Result-1.html#WeAutoCommon_Models_Result_1_Value
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: WeAutoCommon.Models.Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: WeAutoCommon.Models.Result(Of T).Value
