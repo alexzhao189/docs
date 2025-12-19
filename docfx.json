@@ -43,7 +43,7 @@
     "globalMetadata": {
       "_appName": "WECHATAUTO.SDK",
       "_appTitle": "WeChatAuto.SDK",
-	  "_appLogoPath": "images/logo.png",
+	  "_appLogoPath": "Images/logo.png",
       "_enableSearch": true,
       "pdf": false
     }
