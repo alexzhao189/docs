@@ -45,7 +45,7 @@
       "source_relative_path": "LICENSE.md",
       "output": {
         ".html": {
-          "relative_path": "docs/LICENSE.html"
+          "relative_path": "LICENSE.html"
         }
       },
       "version": ""
@@ -55,7 +55,7 @@
       "source_relative_path": "api/WeAutoCommon.Configs.Language.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Configs.Language.html"
+          "relative_path": "api/WeAutoCommon.Configs.Language.html"
         }
       },
       "version": "",
@@ -69,7 +69,7 @@
       "source_relative_path": "api/WeAutoCommon.Configs.WeChatConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Configs.WeChatConfig.html"
+          "relative_path": "api/WeAutoCommon.Configs.WeChatConfig.html"
         }
       },
       "version": "",
@@ -83,7 +83,7 @@
       "source_relative_path": "api/WeAutoCommon.Configs.WeMettingConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Configs.WeMettingConfig.html"
+          "relative_path": "api/WeAutoCommon.Configs.WeMettingConfig.html"
         }
       },
       "version": "",
@@ -97,7 +97,7 @@
       "source_relative_path": "api/WeAutoCommon.Configs.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Configs.html"
+          "relative_path": "api/WeAutoCommon.Configs.html"
         }
       },
       "version": "",
@@ -111,7 +111,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.ActionType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.ActionType.html"
+          "relative_path": "api/WeAutoCommon.Enums.ActionType.html"
         }
       },
       "version": "",
@@ -125,7 +125,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.ChatBoxToolBarType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.ChatBoxToolBarType.html"
+          "relative_path": "api/WeAutoCommon.Enums.ChatBoxToolBarType.html"
         }
       },
       "version": "",
@@ -139,7 +139,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.ChatContentType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.ChatContentType.html"
+          "relative_path": "api/WeAutoCommon.Enums.ChatContentType.html"
         }
       },
       "version": "",
@@ -153,7 +153,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.ChatType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.ChatType.html"
+          "relative_path": "api/WeAutoCommon.Enums.ChatType.html"
         }
       },
       "version": "",
@@ -167,7 +167,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.ConversationType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.ConversationType.html"
+          "relative_path": "api/WeAutoCommon.Enums.ConversationType.html"
         }
       },
       "version": "",
@@ -181,7 +181,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.CopyType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.CopyType.html"
+          "relative_path": "api/WeAutoCommon.Enums.CopyType.html"
         }
       },
       "version": "",
@@ -195,7 +195,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.MessageSourceType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.MessageSourceType.html"
+          "relative_path": "api/WeAutoCommon.Enums.MessageSourceType.html"
         }
       },
       "version": "",
@@ -209,7 +209,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.MessageType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.MessageType.html"
+          "relative_path": "api/WeAutoCommon.Enums.MessageType.html"
         }
       },
       "version": "",
@@ -223,7 +223,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.NavigationType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.NavigationType.html"
+          "relative_path": "api/WeAutoCommon.Enums.NavigationType.html"
         }
       },
       "version": "",
@@ -237,7 +237,7 @@
       "source_relative_path": "api/WeAutoCommon.Enums.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Enums.html"
+          "relative_path": "api/WeAutoCommon.Enums.html"
         }
       },
       "version": "",
@@ -251,7 +251,7 @@
       "source_relative_path": "api/WeAutoCommon.Exceptions.WindowNotExsitException.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Exceptions.WindowNotExsitException.html"
+          "relative_path": "api/WeAutoCommon.Exceptions.WindowNotExsitException.html"
         }
       },
       "version": "",
@@ -265,7 +265,7 @@
       "source_relative_path": "api/WeAutoCommon.Exceptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Exceptions.html"
+          "relative_path": "api/WeAutoCommon.Exceptions.html"
         }
       },
       "version": "",
@@ -279,7 +279,7 @@
       "source_relative_path": "api/WeAutoCommon.Interface.IWeChatWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Interface.IWeChatWindow.html"
+          "relative_path": "api/WeAutoCommon.Interface.IWeChatWindow.html"
         }
       },
       "version": "",
@@ -293,7 +293,7 @@
       "source_relative_path": "api/WeAutoCommon.Interface.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Interface.html"
+          "relative_path": "api/WeAutoCommon.Interface.html"
         }
       },
       "version": "",
@@ -307,7 +307,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.ChatActionMessage.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.ChatActionMessage.html"
+          "relative_path": "api/WeAutoCommon.Models.ChatActionMessage.html"
         }
       },
       "version": "",
@@ -321,7 +321,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.ChatGroupOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.ChatGroupOptions.html"
+          "relative_path": "api/WeAutoCommon.Models.ChatGroupOptions.html"
         }
       },
       "version": "",
@@ -335,7 +335,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.ChatResponse.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.ChatResponse.html"
+          "relative_path": "api/WeAutoCommon.Models.ChatResponse.html"
         }
       },
       "version": "",
@@ -349,7 +349,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.Conversation.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.Conversation.html"
+          "relative_path": "api/WeAutoCommon.Models.Conversation.html"
         }
       },
       "version": "",
@@ -363,7 +363,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.EmojiItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.EmojiItem.html"
+          "relative_path": "api/WeAutoCommon.Models.EmojiItem.html"
         }
       },
       "version": "",
@@ -377,7 +377,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.FunctionalExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.FunctionalExtensions.html"
+          "relative_path": "api/WeAutoCommon.Models.FunctionalExtensions.html"
         }
       },
       "version": "",
@@ -391,7 +391,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.Maybe-1.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.Maybe-1.html"
+          "relative_path": "api/WeAutoCommon.Models.Maybe-1.html"
         }
       },
       "version": "",
@@ -405,7 +405,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.MomentItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.MomentItem.html"
+          "relative_path": "api/WeAutoCommon.Models.MomentItem.html"
         }
       },
       "version": "",
@@ -419,7 +419,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.ReplyItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.ReplyItem.html"
+          "relative_path": "api/WeAutoCommon.Models.ReplyItem.html"
         }
       },
       "version": "",
@@ -433,7 +433,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.Result-1.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.Result-1.html"
+          "relative_path": "api/WeAutoCommon.Models.Result-1.html"
         }
       },
       "version": "",
@@ -447,7 +447,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.Result.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.Result.html"
+          "relative_path": "api/WeAutoCommon.Models.Result.html"
         }
       },
       "version": "",
@@ -461,7 +461,7 @@
       "source_relative_path": "api/WeAutoCommon.Models.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Models.html"
+          "relative_path": "api/WeAutoCommon.Models.html"
         }
       },
       "version": "",
@@ -475,7 +475,7 @@
       "source_relative_path": "api/WeAutoCommon.Simulator.Skm.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Simulator.Skm.html"
+          "relative_path": "api/WeAutoCommon.Simulator.Skm.html"
         }
       },
       "version": "",
@@ -489,7 +489,7 @@
       "source_relative_path": "api/WeAutoCommon.Simulator.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Simulator.html"
+          "relative_path": "api/WeAutoCommon.Simulator.html"
         }
       },
       "version": "",
@@ -503,7 +503,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.AutomationValid.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.AutomationValid.html"
+          "relative_path": "api/WeAutoCommon.Utils.AutomationValid.html"
         }
       },
       "version": "",
@@ -517,7 +517,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.EmojiListHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.EmojiListHelper.html"
+          "relative_path": "api/WeAutoCommon.Utils.EmojiListHelper.html"
         }
       },
       "version": "",
@@ -531,7 +531,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.FriendListenerOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.FriendListenerOptions.html"
+          "relative_path": "api/WeAutoCommon.Utils.FriendListenerOptions.html"
         }
       },
       "version": "",
@@ -545,7 +545,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.IMEHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.IMEHelper.html"
+          "relative_path": "api/WeAutoCommon.Utils.IMEHelper.html"
         }
       },
       "version": "",
@@ -559,7 +559,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.RandomWait.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.RandomWait.html"
+          "relative_path": "api/WeAutoCommon.Utils.RandomWait.html"
         }
       },
       "version": "",
@@ -573,7 +573,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.TextIdentifier.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.TextIdentifier.html"
+          "relative_path": "api/WeAutoCommon.Utils.TextIdentifier.html"
         }
       },
       "version": "",
@@ -587,7 +587,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.UIThreadInvoker.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.UIThreadInvoker.html"
+          "relative_path": "api/WeAutoCommon.Utils.UIThreadInvoker.html"
         }
       },
       "version": "",
@@ -601,7 +601,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.WeChatConstant.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.WeChatConstant.html"
+          "relative_path": "api/WeAutoCommon.Utils.WeChatConstant.html"
         }
       },
       "version": "",
@@ -615,7 +615,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.WeChatTextIdentifiers.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.WeChatTextIdentifiers.html"
+          "relative_path": "api/WeAutoCommon.Utils.WeChatTextIdentifiers.html"
         }
       },
       "version": "",
@@ -629,7 +629,7 @@
       "source_relative_path": "api/WeAutoCommon.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.Utils.html"
+          "relative_path": "api/WeAutoCommon.Utils.html"
         }
       },
       "version": "",
@@ -643,7 +643,7 @@
       "source_relative_path": "api/WeAutoCommon.md",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeAutoCommon.html"
+          "relative_path": "api/WeAutoCommon.html"
         }
       },
       "version": ""
@@ -653,7 +653,7 @@
       "source_relative_path": "api/WeChatAuto.Components.AddressBookList.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.AddressBookList.html"
+          "relative_path": "api/WeChatAuto.Components.AddressBookList.html"
         }
       },
       "version": "",
@@ -667,7 +667,7 @@
       "source_relative_path": "api/WeChatAuto.Components.ChatBody.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.ChatBody.html"
+          "relative_path": "api/WeChatAuto.Components.ChatBody.html"
         }
       },
       "version": "",
@@ -681,7 +681,7 @@
       "source_relative_path": "api/WeChatAuto.Components.ChatContent.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.ChatContent.html"
+          "relative_path": "api/WeChatAuto.Components.ChatContent.html"
         }
       },
       "version": "",
@@ -695,7 +695,7 @@
       "source_relative_path": "api/WeChatAuto.Components.ChatHeader.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.ChatHeader.html"
+          "relative_path": "api/WeChatAuto.Components.ChatHeader.html"
         }
       },
       "version": "",
@@ -709,7 +709,7 @@
       "source_relative_path": "api/WeChatAuto.Components.ConversationList.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.ConversationList.html"
+          "relative_path": "api/WeChatAuto.Components.ConversationList.html"
         }
       },
       "version": "",
@@ -723,7 +723,7 @@
       "source_relative_path": "api/WeChatAuto.Components.MessageBubble.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.MessageBubble.html"
+          "relative_path": "api/WeChatAuto.Components.MessageBubble.html"
         }
       },
       "version": "",
@@ -737,7 +737,7 @@
       "source_relative_path": "api/WeChatAuto.Components.MessageBubbleList.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.MessageBubbleList.html"
+          "relative_path": "api/WeChatAuto.Components.MessageBubbleList.html"
         }
       },
       "version": "",
@@ -751,7 +751,7 @@
       "source_relative_path": "api/WeChatAuto.Components.Moments.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.Moments.html"
+          "relative_path": "api/WeChatAuto.Components.Moments.html"
         }
       },
       "version": "",
@@ -765,7 +765,7 @@
       "source_relative_path": "api/WeChatAuto.Components.Navigation.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.Navigation.html"
+          "relative_path": "api/WeChatAuto.Components.Navigation.html"
         }
       },
       "version": "",
@@ -779,7 +779,7 @@
       "source_relative_path": "api/WeChatAuto.Components.Search.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.Search.html"
+          "relative_path": "api/WeChatAuto.Components.Search.html"
         }
       },
       "version": "",
@@ -793,7 +793,7 @@
       "source_relative_path": "api/WeChatAuto.Components.Sender.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.Sender.html"
+          "relative_path": "api/WeChatAuto.Components.Sender.html"
         }
       },
       "version": "",
@@ -807,7 +807,7 @@
       "source_relative_path": "api/WeChatAuto.Components.SubWin.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.SubWin.html"
+          "relative_path": "api/WeChatAuto.Components.SubWin.html"
         }
       },
       "version": "",
@@ -821,7 +821,7 @@
       "source_relative_path": "api/WeChatAuto.Components.SubWinList.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.SubWinList.html"
+          "relative_path": "api/WeChatAuto.Components.SubWinList.html"
         }
       },
       "version": "",
@@ -835,7 +835,7 @@
       "source_relative_path": "api/WeChatAuto.Components.ToolBar.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.ToolBar.html"
+          "relative_path": "api/WeChatAuto.Components.ToolBar.html"
         }
       },
       "version": "",
@@ -849,7 +849,7 @@
       "source_relative_path": "api/WeChatAuto.Components.WeChatClient.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.WeChatClient.html"
+          "relative_path": "api/WeChatAuto.Components.WeChatClient.html"
         }
       },
       "version": "",
@@ -863,7 +863,7 @@
       "source_relative_path": "api/WeChatAuto.Components.WeChatClientFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.WeChatClientFactory.html"
+          "relative_path": "api/WeChatAuto.Components.WeChatClientFactory.html"
         }
       },
       "version": "",
@@ -877,7 +877,7 @@
       "source_relative_path": "api/WeChatAuto.Components.WeChatMainWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.WeChatMainWindow.html"
+          "relative_path": "api/WeChatAuto.Components.WeChatMainWindow.html"
         }
       },
       "version": "",
@@ -891,7 +891,7 @@
       "source_relative_path": "api/WeChatAuto.Components.WeChatNotifyIcon.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.WeChatNotifyIcon.html"
+          "relative_path": "api/WeChatAuto.Components.WeChatNotifyIcon.html"
         }
       },
       "version": "",
@@ -905,7 +905,7 @@
       "source_relative_path": "api/WeChatAuto.Components.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Components.html"
+          "relative_path": "api/WeChatAuto.Components.html"
         }
       },
       "version": "",
@@ -919,7 +919,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.AutoLoggerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.AutoLoggerExtensions.html"
+          "relative_path": "api/WeChatAuto.Extentions.AutoLoggerExtensions.html"
         }
       },
       "version": "",
@@ -933,7 +933,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.AutomationElementExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.AutomationElementExtensions.html"
+          "relative_path": "api/WeChatAuto.Extentions.AutomationElementExtensions.html"
         }
       },
       "version": "",
@@ -947,7 +947,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.ClickEnhanceExtentions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.ClickEnhanceExtentions.html"
+          "relative_path": "api/WeChatAuto.Extentions.ClickEnhanceExtentions.html"
         }
       },
       "version": "",
@@ -961,7 +961,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.KMSimulatorExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.KMSimulatorExtensions.html"
+          "relative_path": "api/WeChatAuto.Extentions.KMSimulatorExtensions.html"
         }
       },
       "version": "",
@@ -975,7 +975,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.SilenceActionTools.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.SilenceActionTools.html"
+          "relative_path": "api/WeChatAuto.Extentions.SilenceActionTools.html"
         }
       },
       "version": "",
@@ -989,7 +989,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.TypeNewStringExtentions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.TypeNewStringExtentions.html"
+          "relative_path": "api/WeChatAuto.Extentions.TypeNewStringExtentions.html"
         }
       },
       "version": "",
@@ -1003,7 +1003,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.WindowSlienceAction.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.WindowSlienceAction.html"
+          "relative_path": "api/WeChatAuto.Extentions.WindowSlienceAction.html"
         }
       },
       "version": "",
@@ -1017,7 +1017,7 @@
       "source_relative_path": "api/WeChatAuto.Extentions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Extentions.html"
+          "relative_path": "api/WeChatAuto.Extentions.html"
         }
       },
       "version": "",
@@ -1031,7 +1031,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Program.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Program.html"
+          "relative_path": "api/WeChatAuto.MCP.Program.html"
         }
       },
       "version": "",
@@ -1045,7 +1045,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Prompts.WeChatPrompt.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Prompts.WeChatPrompt.html"
+          "relative_path": "api/WeChatAuto.MCP.Prompts.WeChatPrompt.html"
         }
       },
       "version": "",
@@ -1059,7 +1059,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Prompts.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Prompts.html"
+          "relative_path": "api/WeChatAuto.MCP.Prompts.html"
         }
       },
       "version": "",
@@ -1073,7 +1073,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Tools.WeChatClientTool.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Tools.WeChatClientTool.html"
+          "relative_path": "api/WeChatAuto.MCP.Tools.WeChatClientTool.html"
         }
       },
       "version": "",
@@ -1087,7 +1087,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Tools.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Tools.html"
+          "relative_path": "api/WeChatAuto.MCP.Tools.html"
         }
       },
       "version": "",
@@ -1101,7 +1101,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Utils.Alert.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Utils.Alert.html"
+          "relative_path": "api/WeChatAuto.MCP.Utils.Alert.html"
         }
       },
       "version": "",
@@ -1115,7 +1115,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.Utils.html"
+          "relative_path": "api/WeChatAuto.MCP.Utils.html"
         }
       },
       "version": "",
@@ -1129,7 +1129,7 @@
       "source_relative_path": "api/WeChatAuto.MCP.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.MCP.html"
+          "relative_path": "api/WeChatAuto.MCP.html"
         }
       },
       "version": "",
@@ -1143,7 +1143,7 @@
       "source_relative_path": "api/WeChatAuto.Models.AddGroupMemberOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Models.AddGroupMemberOptions.html"
+          "relative_path": "api/WeChatAuto.Models.AddGroupMemberOptions.html"
         }
       },
       "version": "",
@@ -1157,7 +1157,7 @@
       "source_relative_path": "api/WeChatAuto.Models.ChatMessageInner.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Models.ChatMessageInner.html"
+          "relative_path": "api/WeChatAuto.Models.ChatMessageInner.html"
         }
       },
       "version": "",
@@ -1171,7 +1171,7 @@
       "source_relative_path": "api/WeChatAuto.Models.ChatSimpleMessage.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Models.ChatSimpleMessage.html"
+          "relative_path": "api/WeChatAuto.Models.ChatSimpleMessage.html"
         }
       },
       "version": "",
@@ -1185,7 +1185,7 @@
       "source_relative_path": "api/WeChatAuto.Models.MessageContext.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Models.MessageContext.html"
+          "relative_path": "api/WeChatAuto.Models.MessageContext.html"
         }
       },
       "version": "",
@@ -1199,7 +1199,7 @@
       "source_relative_path": "api/WeChatAuto.Models.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Models.html"
+          "relative_path": "api/WeChatAuto.Models.html"
         }
       },
       "version": "",
@@ -1213,7 +1213,7 @@
       "source_relative_path": "api/WeChatAuto.Services.KMSimulatorService.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Services.KMSimulatorService.html"
+          "relative_path": "api/WeChatAuto.Services.KMSimulatorService.html"
         }
       },
       "version": "",
@@ -1227,7 +1227,7 @@
       "source_relative_path": "api/WeChatAuto.Services.WeAutomation.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Services.WeAutomation.html"
+          "relative_path": "api/WeChatAuto.Services.WeAutomation.html"
         }
       },
       "version": "",
@@ -1241,7 +1241,7 @@
       "source_relative_path": "api/WeChatAuto.Services.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Services.html"
+          "relative_path": "api/WeChatAuto.Services.html"
         }
       },
       "version": "",
@@ -1255,7 +1255,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.AutoLogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.AutoLogger-1.html"
+          "relative_path": "api/WeChatAuto.Utils.AutoLogger-1.html"
         }
       },
       "version": "",
@@ -1269,7 +1269,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.ClickHighlighter.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.ClickHighlighter.html"
+          "relative_path": "api/WeChatAuto.Utils.ClickHighlighter.html"
         }
       },
       "version": "",
@@ -1283,7 +1283,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.ClipboardApi.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.ClipboardApi.html"
+          "relative_path": "api/WeChatAuto.Utils.ClipboardApi.html"
         }
       },
       "version": "",
@@ -1297,7 +1297,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.DpiAwareness.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.DpiAwareness.html"
+          "relative_path": "api/WeChatAuto.Utils.DpiAwareness.html"
         }
       },
       "version": "",
@@ -1311,7 +1311,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.DrawHightlightHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.DrawHightlightHelper.html"
+          "relative_path": "api/WeChatAuto.Utils.DrawHightlightHelper.html"
         }
       },
       "version": "",
@@ -1325,7 +1325,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.MessageBubbleParser.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.MessageBubbleParser.html"
+          "relative_path": "api/WeChatAuto.Utils.MessageBubbleParser.html"
         }
       },
       "version": "",
@@ -1339,7 +1339,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.MomentsContext.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.MomentsContext.html"
+          "relative_path": "api/WeChatAuto.Utils.MomentsContext.html"
         }
       },
       "version": "",
@@ -1353,7 +1353,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.MomentsHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.MomentsHelper.html"
+          "relative_path": "api/WeChatAuto.Utils.MomentsHelper.html"
         }
       },
       "version": "",
@@ -1367,7 +1367,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WaitHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WaitHelper.html"
+          "relative_path": "api/WeChatAuto.Utils.WaitHelper.html"
         }
       },
       "version": "",
@@ -1381,7 +1381,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WeChatCaptureImage.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WeChatCaptureImage.html"
+          "relative_path": "api/WeChatAuto.Utils.WeChatCaptureImage.html"
         }
       },
       "version": "",
@@ -1395,7 +1395,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WeChatRecordVideo.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WeChatRecordVideo.html"
+          "relative_path": "api/WeChatAuto.Utils.WeChatRecordVideo.html"
         }
       },
       "version": "",
@@ -1409,7 +1409,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WinApi.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WinApi.html"
+          "relative_path": "api/WeChatAuto.Utils.WinApi.html"
         }
       },
       "version": "",
@@ -1423,7 +1423,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WxLocation.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WxLocation.html"
+          "relative_path": "api/WeChatAuto.Utils.WxLocation.html"
         }
       },
       "version": "",
@@ -1437,7 +1437,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WxLocationCaches.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WxLocationCaches.html"
+          "relative_path": "api/WeChatAuto.Utils.WxLocationCaches.html"
         }
       },
       "version": "",
@@ -1451,7 +1451,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.WxLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.WxLocator.html"
+          "relative_path": "api/WeChatAuto.Utils.WxLocator.html"
         }
       },
       "version": "",
@@ -1465,7 +1465,7 @@
       "source_relative_path": "api/WeChatAuto.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.Utils.html"
+          "relative_path": "api/WeChatAuto.Utils.html"
         }
       },
       "version": "",
@@ -1479,7 +1479,7 @@
       "source_relative_path": "api/WeChatAuto.md",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WeChatAuto.html"
+          "relative_path": "api/WeChatAuto.html"
         }
       },
       "version": ""
@@ -1489,7 +1489,7 @@
       "source_relative_path": "api/WxAutoCommon.Configs.Language.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Configs.Language.html"
+          "relative_path": "api/WxAutoCommon.Configs.Language.html"
         }
       },
       "version": "",
@@ -1503,7 +1503,7 @@
       "source_relative_path": "api/WxAutoCommon.Configs.WeChatConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Configs.WeChatConfig.html"
+          "relative_path": "api/WxAutoCommon.Configs.WeChatConfig.html"
         }
       },
       "version": "",
@@ -1517,7 +1517,7 @@
       "source_relative_path": "api/WxAutoCommon.Configs.WeMettingConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Configs.WeMettingConfig.html"
+          "relative_path": "api/WxAutoCommon.Configs.WeMettingConfig.html"
         }
       },
       "version": "",
@@ -1531,7 +1531,7 @@
       "source_relative_path": "api/WxAutoCommon.Configs.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Configs.html"
+          "relative_path": "api/WxAutoCommon.Configs.html"
         }
       },
       "version": "",
@@ -1545,7 +1545,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.ActionType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.ActionType.html"
+          "relative_path": "api/WxAutoCommon.Enums.ActionType.html"
         }
       },
       "version": "",
@@ -1559,7 +1559,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.ChatBoxToolBarType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.ChatBoxToolBarType.html"
+          "relative_path": "api/WxAutoCommon.Enums.ChatBoxToolBarType.html"
         }
       },
       "version": "",
@@ -1573,7 +1573,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.ChatContentType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.ChatContentType.html"
+          "relative_path": "api/WxAutoCommon.Enums.ChatContentType.html"
         }
       },
       "version": "",
@@ -1587,7 +1587,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.ChatType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.ChatType.html"
+          "relative_path": "api/WxAutoCommon.Enums.ChatType.html"
         }
       },
       "version": "",
@@ -1601,7 +1601,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.ConversationType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.ConversationType.html"
+          "relative_path": "api/WxAutoCommon.Enums.ConversationType.html"
         }
       },
       "version": "",
@@ -1615,7 +1615,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.MessageSourceType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.MessageSourceType.html"
+          "relative_path": "api/WxAutoCommon.Enums.MessageSourceType.html"
         }
       },
       "version": "",
@@ -1629,7 +1629,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.MessageType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.MessageType.html"
+          "relative_path": "api/WxAutoCommon.Enums.MessageType.html"
         }
       },
       "version": "",
@@ -1643,7 +1643,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.NavigationType.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.NavigationType.html"
+          "relative_path": "api/WxAutoCommon.Enums.NavigationType.html"
         }
       },
       "version": "",
@@ -1657,7 +1657,7 @@
       "source_relative_path": "api/WxAutoCommon.Enums.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Enums.html"
+          "relative_path": "api/WxAutoCommon.Enums.html"
         }
       },
       "version": "",
@@ -1671,7 +1671,7 @@
       "source_relative_path": "api/WxAutoCommon.Exceptions.WindowNotExsitException.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Exceptions.WindowNotExsitException.html"
+          "relative_path": "api/WxAutoCommon.Exceptions.WindowNotExsitException.html"
         }
       },
       "version": "",
@@ -1685,7 +1685,7 @@
       "source_relative_path": "api/WxAutoCommon.Exceptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Exceptions.html"
+          "relative_path": "api/WxAutoCommon.Exceptions.html"
         }
       },
       "version": "",
@@ -1699,7 +1699,7 @@
       "source_relative_path": "api/WxAutoCommon.Interface.IWeChatWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Interface.IWeChatWindow.html"
+          "relative_path": "api/WxAutoCommon.Interface.IWeChatWindow.html"
         }
       },
       "version": "",
@@ -1713,7 +1713,7 @@
       "source_relative_path": "api/WxAutoCommon.Interface.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Interface.html"
+          "relative_path": "api/WxAutoCommon.Interface.html"
         }
       },
       "version": "",
@@ -1727,7 +1727,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.ChatActionMessage.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.ChatActionMessage.html"
+          "relative_path": "api/WxAutoCommon.Models.ChatActionMessage.html"
         }
       },
       "version": "",
@@ -1741,7 +1741,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.ChatGroupOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.ChatGroupOptions.html"
+          "relative_path": "api/WxAutoCommon.Models.ChatGroupOptions.html"
         }
       },
       "version": "",
@@ -1755,7 +1755,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.ChatResponse.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.ChatResponse.html"
+          "relative_path": "api/WxAutoCommon.Models.ChatResponse.html"
         }
       },
       "version": "",
@@ -1769,7 +1769,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.Conversation.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.Conversation.html"
+          "relative_path": "api/WxAutoCommon.Models.Conversation.html"
         }
       },
       "version": "",
@@ -1783,7 +1783,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.EmojiItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.EmojiItem.html"
+          "relative_path": "api/WxAutoCommon.Models.EmojiItem.html"
         }
       },
       "version": "",
@@ -1797,7 +1797,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.MomentItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.MomentItem.html"
+          "relative_path": "api/WxAutoCommon.Models.MomentItem.html"
         }
       },
       "version": "",
@@ -1811,7 +1811,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.ReplyItem.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.ReplyItem.html"
+          "relative_path": "api/WxAutoCommon.Models.ReplyItem.html"
         }
       },
       "version": "",
@@ -1825,7 +1825,7 @@
       "source_relative_path": "api/WxAutoCommon.Models.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Models.html"
+          "relative_path": "api/WxAutoCommon.Models.html"
         }
       },
       "version": "",
@@ -1839,7 +1839,7 @@
       "source_relative_path": "api/WxAutoCommon.Simulator.Skm.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Simulator.Skm.html"
+          "relative_path": "api/WxAutoCommon.Simulator.Skm.html"
         }
       },
       "version": "",
@@ -1853,7 +1853,7 @@
       "source_relative_path": "api/WxAutoCommon.Simulator.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Simulator.html"
+          "relative_path": "api/WxAutoCommon.Simulator.html"
         }
       },
       "version": "",
@@ -1867,7 +1867,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.AutomationValid.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.AutomationValid.html"
+          "relative_path": "api/WxAutoCommon.Utils.AutomationValid.html"
         }
       },
       "version": "",
@@ -1881,7 +1881,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.EmojiListHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.EmojiListHelper.html"
+          "relative_path": "api/WxAutoCommon.Utils.EmojiListHelper.html"
         }
       },
       "version": "",
@@ -1895,7 +1895,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.FriendListenerOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.FriendListenerOptions.html"
+          "relative_path": "api/WxAutoCommon.Utils.FriendListenerOptions.html"
         }
       },
       "version": "",
@@ -1909,7 +1909,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.IMEHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.IMEHelper.html"
+          "relative_path": "api/WxAutoCommon.Utils.IMEHelper.html"
         }
       },
       "version": "",
@@ -1923,7 +1923,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.RandomWait.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.RandomWait.html"
+          "relative_path": "api/WxAutoCommon.Utils.RandomWait.html"
         }
       },
       "version": "",
@@ -1937,7 +1937,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.TextIdentifier.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.TextIdentifier.html"
+          "relative_path": "api/WxAutoCommon.Utils.TextIdentifier.html"
         }
       },
       "version": "",
@@ -1951,7 +1951,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.UIThreadInvoker.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.UIThreadInvoker.html"
+          "relative_path": "api/WxAutoCommon.Utils.UIThreadInvoker.html"
         }
       },
       "version": "",
@@ -1965,7 +1965,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.WeChatConstant.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.WeChatConstant.html"
+          "relative_path": "api/WxAutoCommon.Utils.WeChatConstant.html"
         }
       },
       "version": "",
@@ -1979,7 +1979,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.WeChatTextIdentifiers.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.WeChatTextIdentifiers.html"
+          "relative_path": "api/WxAutoCommon.Utils.WeChatTextIdentifiers.html"
         }
       },
       "version": "",
@@ -1993,7 +1993,7 @@
       "source_relative_path": "api/WxAutoCommon.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/WxAutoCommon.Utils.html"
+          "relative_path": "api/WxAutoCommon.Utils.html"
         }
       },
       "version": "",
@@ -2007,10 +2007,10 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/api/toc.html"
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "docs/api/toc.json"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -2020,7 +2020,7 @@
       "source_relative_path": "content/architecture-overview.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/architecture-overview.html"
+          "relative_path": "content/architecture-overview.html"
         }
       },
       "version": ""
@@ -2030,7 +2030,7 @@
       "source_relative_path": "content/deep-guide.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/deep-guide.html"
+          "relative_path": "content/deep-guide.html"
         }
       },
       "version": ""
@@ -2040,7 +2040,7 @@
       "source_relative_path": "content/faq.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/faq.html"
+          "relative_path": "content/faq.html"
         }
       },
       "version": ""
@@ -2050,7 +2050,7 @@
       "source_relative_path": "content/glossary.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/glossary.html"
+          "relative_path": "content/glossary.html"
         }
       },
       "version": ""
@@ -2060,7 +2060,7 @@
       "source_relative_path": "content/mcp-server-client.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/mcp-server-client.html"
+          "relative_path": "content/mcp-server-client.html"
         }
       },
       "version": ""
@@ -2070,7 +2070,7 @@
       "source_relative_path": "content/quick-start.md",
       "output": {
         ".html": {
-          "relative_path": "docs/content/quick-start.html"
+          "relative_path": "content/quick-start.html"
         }
       },
       "version": ""
@@ -2080,10 +2080,10 @@
       "source_relative_path": "content/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/content/toc.html"
+          "relative_path": "content/toc.html"
         },
         ".json": {
-          "relative_path": "docs/content/toc.json"
+          "relative_path": "content/toc.json"
         }
       },
       "version": ""
@@ -2093,7 +2093,7 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "docs/index.html"
+          "relative_path": "index.html"
         }
       },
       "version": ""
@@ -2103,10 +2103,10 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/toc.html"
+          "relative_path": "toc.html"
         },
         ".json": {
-          "relative_path": "docs/toc.json"
+          "relative_path": "toc.json"
         }
       },
       "version": ""
