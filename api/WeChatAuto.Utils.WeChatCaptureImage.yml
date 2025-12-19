@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatCaptureImage
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatCaptureImage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/WeChatCaptureImage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -48,7 +48,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatCaptureImage.WeChatCaptureImage(string, bool)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatCaptureImage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/WeChatCaptureImage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -76,7 +76,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatCaptureImage.CaptureUI(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/WeChatCaptureImage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/WeChatCaptureImage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

@@ -86,7 +86,7 @@ wxClient?.SendWho("AI.Net","你好，欢迎使用AI.Net微信自动化框架！"
 
 > **注意**：  
 > 1. 本项目仅支持 Windows 系统，请务必将项目文件的 TargetFramework 设置为 netxx.0-windows（如 net10.0-windows），否则编译时会出现警告。后续不再赘述。  
-> 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者象示例一一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的库的依赖注入容器，则不存在此问题。
+> 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者象示例代码一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的依赖注入容器，则不存在此问题。
 > 3. WeAutomation.Initialize()方法有两个重载，分别适用于：加入外部依赖注入与使用内部依赖注入。
 
 
@@ -104,8 +104,6 @@ using Microsoft.Extensions.Hosting;
 using WeChatAuto.Services;
 using WeChatAuto.Components;
 using Microsoft.Extensions.DependencyInjection;
-using FlaUI.Core.Logging;
-using System.Diagnostics;
 using Microsoft.Extensions.Logging;
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -125,19 +123,20 @@ var serviceProvider = builder.Services.BuildServiceProvider();
 var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory>();
 // 得到名称为"Alex"的微信客户端实例，测试时请将AI.net替换为你自己的微信昵称
 var client = clientFactory.GetWeChatClient("Alex");
+// 监听微信群测试11
 await client.AddMessageListener("测试11", (messageContext) =>
 {
     var index = 0;
-    //显示收到的消息
+    //打印收到最新消息
     foreach (var message in messageContext.NewMessages)
     {
         index++;
         Console.WriteLine($"收到消息：{index}：{message.ToString()}");
         Console.WriteLine($"收到消息：{index}：{message.Who}：{message.MessageContent}");
     }
+    //打印收到所有消息的后十条
     var allMessages = messageContext.AllMessages.Skip(messageContext.AllMessages.Count - 10).ToList();
     index = 0;
-    //显示所有消息的后十条
     foreach (var message in allMessages)
     {
         index++;
@@ -182,7 +181,7 @@ var app = builder.Build();
 await app.RunAsync();
 
 /// <summary>
-/// 一个包含LLM服务的Service类，用于注入到依赖注入容器.
+/// 一个包含LLM服务的Service类，用于注入到MessageContext中
 /// </summary>
 public class LLMService
 {
@@ -191,12 +190,12 @@ public class LLMService
     {
         _logger = logger;
     }
-
     public void DoSomething()
     {
         _logger.LogInformation("这里是你注入的服务实例，可以在这里编写你的业务逻辑  ");
     }
 }
+
 
 ```
 
@@ -350,4 +349,5 @@ WeChatAuto.SDK的非VIP与VIP的核心代码层面完全一致，非VIP没有任
 ---
 
 **免责声明**：
-本 SDK 仅供学习和研究使用，请遵守微信使用条款，不得用于任何违法违规用途。使用本 SDK 产生的任何后果由使用者自行承担!!
+本 SDK 仅供学习和研究使用，请遵守微信使用条款，不得用于任何违法违规用途。使用本 SDK 产生的任何后果由使用者自行承担。
+

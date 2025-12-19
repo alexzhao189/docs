@@ -14,7 +14,7 @@ items:
   fullName: WeChatAuto.Extentions.KMSimulatorExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/KMSimulatorExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -44,7 +44,7 @@ items:
   fullName: WeChatAuto.Extentions.KMSimulatorExtensions.AddKMSimulator(Microsoft.Extensions.DependencyInjection.IServiceCollection, int, int, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Extentions/KMSimulatorExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

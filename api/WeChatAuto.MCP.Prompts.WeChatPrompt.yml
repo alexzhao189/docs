@@ -27,7 +27,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -67,7 +67,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetAllWeChatClientNamesPrompt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -101,7 +101,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetCurrentWeChatClientNamePrompt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -135,7 +135,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryPrompt(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -175,7 +175,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.GetChatHistoryAndSummaryPrompt(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -215,7 +215,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessagePrompt(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -257,7 +257,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendMessageWithAtUserPrompt(string, string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -301,7 +301,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendWhosPrompt(string[], string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -343,7 +343,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVoiceChatsPrompt(string, string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -385,7 +385,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SendVideoChatPrompt(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -425,7 +425,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.SummaryChatHistoryAndSendMessagePrompt(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -467,7 +467,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ForwardMessagePrompt(string, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -511,7 +511,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.PublishGroupChatNoticePrompt(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -553,7 +553,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.ClearChatGroupHistoryPrompt(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts
@@ -593,7 +593,7 @@ items:
   fullName: WeChatAuto.MCP.Prompts.WeChatPrompt.WeChatPrompt()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Prompts/WeChatPrompt.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Prompts

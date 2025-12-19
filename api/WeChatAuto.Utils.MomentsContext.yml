@@ -25,7 +25,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -61,7 +61,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.MomentsContext(WeAutoCommon.Models.MomentItem, double, FlaUI.Core.AutomationElements.ListBox, FlaUI.Core.Patterns.IScrollPattern, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -97,7 +97,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -125,7 +125,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentItem()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -155,7 +155,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentContent()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -185,7 +185,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentKey()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -215,7 +215,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsMyEndReply()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -240,7 +240,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -265,7 +265,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsMyLiked()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -290,7 +290,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.DoReply(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -319,7 +319,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.DoLike()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -341,7 +341,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetScrollAmount()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -363,7 +363,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.Moment
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

@@ -18,7 +18,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.ChatHeader(string, FlaUI.Core.AutomationElements.Button, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -85,7 +85,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.ClickChatInfoButton()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -107,7 +107,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -133,7 +133,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.Title
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -158,7 +158,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.ChatInfoButton
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/63226b16beec5c9d432dc36bdef1b8f8873a881d/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
