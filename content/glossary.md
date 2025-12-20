@@ -13,7 +13,7 @@ WeChatAuto.SDK 基于 POM（页面对象模型）设计理念，对微信的不�
 
 <span style="color: #999;">本组件无UI</span>
 
-WeChatClientFactory组件是非常重要的核心组件，负责多微信客户端的统一管理。SDK初始化后，可以通过依赖注入获取该组件。随后，可以通过WeChatClientFactory组件获取具体的微信客户端（[WeChatClient](/api/WeChatAuto.Components.WeChatClient.html)）实例，实现对不同微信账号的操作和管理。
+WeChatClientFactory组件是非常重要的核心组件，负责多微信客户端的统一管理。SDK初始化后，可以通过依赖注入获取该组件。随后，可以通过WeChatClientFactory组件获取具体的微信客户端（[WeChatClient](../api/WeChatAuto.Components.WeChatClient.html)）实例，实现对不同微信账号的操作和管理。
 
 ```csharp
 // 初始化WeAutomation服务
@@ -26,7 +26,7 @@ var serviceProvider = WeAutomation.Initialize(options =>
 using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory>();
 ```
 
-> 由于WeChatClientFactory是以```Singletion```的方式加入依赖注入容器中，所以我们可以很方便的通过构造器注入等方式获取到它,具体请参考[WeChatClientFactory](/api/WeChatAuto.Components.WeChatClientFactory.html)
+> 由于WeChatClientFactory是以```Singletion```的方式加入依赖注入容器中，所以我们可以很方便的通过构造器注入等方式获取到它,具体请参考[WeChatClientFactory](../api/WeChatAuto.Components.WeChatClientFactory.html)
 
 - WeChatClientFactory组件的Initialize()方法的参数WeChatConfig配置对象说明：
 
@@ -49,7 +49,7 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 |OffsetOfClick|点击偏移量,单位像素,为了避免每次点击都点击到同一个位置，可以设置一个偏移量，实际点击位置为点击位置减去偏移量的一个随机值|
 |ProcessDpiAwareness|进程DPI感知值,如果使用库的应用已经设置DPI感知，此参数无效，可设置参数为:0: 不设置,进程对DPI完全不知晓，按逻辑像素绘制，可能会出现点击不准确的情况。1: PROCESS_SYSTEM_DPI_AWARE 默认值,进程只根据主显示器DPI绘制，DPI感知生效。 2: PROCESS_PER_MONITOR_DPI_AWARE，进程根据每个显示器DPI绘制,DPI感知生效。|
 
-> 更具体的了解WeChatConfig配置对象，请参考: [WeChatConfig配置对象](/api/WeAutoCommon.Configs.WeChatConfig.html)
+> 更具体的了解WeChatConfig配置对象，请参考: [WeChatConfig配置对象](../api/WeAutoCommon.Configs.WeChatConfig.html)
 
 ### 2. WeChatClient组件
 
@@ -59,7 +59,7 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 - 通过WeChatClientFactory获取到WeChatClient对象
 - WeChatClient对象使用委托模式转发调用其他各个组件的方法：如：消息管理，监听等，让客户端只需与 WeChatClient 交互，而不需要了解底层组件
-- 更具体请参见[WeChatClient](/api/WeChatAuto.Components.WeChatClient.html)类
+- 更具体请参见[WeChatClient](../api/WeChatAuto.Components.WeChatClient.html)类
 
 ### 3. WeChatNotifyIcon组件
 本组件抽象了任务栏的微信图标,如下图所示:
@@ -68,7 +68,7 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 > 可以通过WeChatClient.WxNotifyIcon属性获取到WeChatNotifyIcon对象，并执行方法;
 
-更详细请参考[WeChatNotifyIcon组件](/api/WeChatAuto.Components.WeChatNotifyIcon.html)
+更详细请参考[WeChatNotifyIcon组件](../api/WeChatAuto.Components.WeChatNotifyIcon.html)
 
 ### 4. WeChatMainWindow组件
 

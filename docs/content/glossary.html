@@ -94,7 +94,7 @@
 <h2 id="-wechatautosdk的页面组件介绍">🎁 WeChatAuto.SDK的页面组件介绍</h2>
 <h3 id="1-wechatclientfactory组件">1. WeChatClientFactory组件</h3>
 <p><span style="color: #999;">本组件无UI</span></p>
-<p>WeChatClientFactory组件是非常重要的核心组件，负责多微信客户端的统一管理。SDK初始化后，可以通过依赖注入获取该组件。随后，可以通过WeChatClientFactory组件获取具体的微信客户端（<a href="/api/WeChatAuto.Components.WeChatClient.html">WeChatClient</a>）实例，实现对不同微信账号的操作和管理。</p>
+<p>WeChatClientFactory组件是非常重要的核心组件，负责多微信客户端的统一管理。SDK初始化后，可以通过依赖注入获取该组件。随后，可以通过WeChatClientFactory组件获取具体的微信客户端（<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient</a>）实例，实现对不同微信账号的操作和管理。</p>
 <pre><code class="lang-csharp">// 初始化WeAutomation服务
 var serviceProvider = WeAutomation.Initialize(options =&gt;
 {
@@ -105,7 +105,7 @@ var serviceProvider = WeAutomation.Initialize(options =&gt;
 using var clientFactory = serviceProvider.GetRequiredService&lt;WeChatClientFactory&gt;();
 </code></pre>
 <blockquote>
-<p>由于WeChatClientFactory是以<code>Singletion</code>的方式加入依赖注入容器中，所以我们可以很方便的通过构造器注入等方式获取到它,具体请参考<a href="/api/WeChatAuto.Components.WeChatClientFactory.html">WeChatClientFactory</a></p>
+<p>由于WeChatClientFactory是以<code>Singletion</code>的方式加入依赖注入容器中，所以我们可以很方便的通过构造器注入等方式获取到它,具体请参考<a href="../api/WeChatAuto.Components.WeChatClientFactory.html">WeChatClientFactory</a></p>
 </blockquote>
 <ul>
 <li>WeChatClientFactory组件的Initialize()方法的参数WeChatConfig配置对象说明：</li>
@@ -185,7 +185,7 @@ using var clientFactory = serviceProvider.GetRequiredService&lt;WeChatClientFact
 </tbody>
 </table>
 <blockquote>
-<p>更具体的了解WeChatConfig配置对象，请参考: <a href="/api/WeAutoCommon.Configs.WeChatConfig.html">WeChatConfig配置对象</a></p>
+<p>更具体的了解WeChatConfig配置对象，请参考: <a href="../api/WeAutoCommon.Configs.WeChatConfig.html">WeChatConfig配置对象</a></p>
 </blockquote>
 <h3 id="2-wechatclient组件">2. WeChatClient组件</h3>
 <p><strong>WeChatClient</strong>组件代表一个微信客户端对象</p>
@@ -193,7 +193,7 @@ using var clientFactory = serviceProvider.GetRequiredService&lt;WeChatClientFact
 <ul>
 <li>通过WeChatClientFactory获取到WeChatClient对象</li>
 <li>WeChatClient对象使用委托模式转发调用其他各个组件的方法：如：消息管理，监听等，让客户端只需与 WeChatClient 交互，而不需要了解底层组件</li>
-<li>更具体请参见<a href="/api/WeChatAuto.Components.WeChatClient.html">WeChatClient</a>类</li>
+<li>更具体请参见<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient</a>类</li>
 </ul>
 <h3 id="3-wechatnotifyicon组件">3. WeChatNotifyIcon组件</h3>
 <p>本组件抽象了任务栏的微信图标,如下图所示:</p>
@@ -201,7 +201,7 @@ using var clientFactory = serviceProvider.GetRequiredService&lt;WeChatClientFact
 <blockquote>
 <p>可以通过WeChatClient.WxNotifyIcon属性获取到WeChatNotifyIcon对象，并执行方法;</p>
 </blockquote>
-<p>更详细请参考<a href="/api/WeChatAuto.Components.WeChatNotifyIcon.html">WeChatNotifyIcon组件</a></p>
+<p>更详细请参考<a href="../api/WeChatAuto.Components.WeChatNotifyIcon.html">WeChatNotifyIcon组件</a></p>
 <h3 id="4-wechatmainwindow组件">4. WeChatMainWindow组件</h3>
 
 </article>
