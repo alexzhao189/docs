@@ -124,6 +124,14 @@ ChatHeader组件提供了获取主窗口与子窗口的聊天对象的标题，�
 
 > 具体请参考[ChatHeader组件](../api/WeChatAuto.Components.ChatHeader.html)
 
+### 9. ChatBody组件
+ChatBody组件封装了聊天体，可以用它来获取聊天列表```MessageBubbleList```与```Sender```组件,对应微信的位置如下所示：
+
+> 主窗口与子窗口都有ChatHeader组件
+
+<img src="../Images/chatbody.png" alt="ChatBody" width="700"/>
+
+> 具体请参考[ChatBody组件](../api/WeChatAuto.Components.ChatBody.html)
 
 
 
