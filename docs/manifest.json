@@ -41,6 +41,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "Images/notifyicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/notifyicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/wechatwindow.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/wechatwindow.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "LICENSE.md",
       "output": {

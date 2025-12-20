@@ -20,7 +20,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -53,7 +53,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ChatMessageInner()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -76,7 +76,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ClientName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -101,7 +101,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -126,7 +126,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ToUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -151,7 +151,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.AtUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -176,7 +176,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.IsNewWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -201,7 +201,7 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ApiKey
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models

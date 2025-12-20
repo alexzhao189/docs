@@ -67,18 +67,6 @@ references:
   fullName.vb: WeAutoCommon.Configs.WeChatConfig.New
   nameWithType: WeChatConfig.WeChatConfig
   nameWithType.vb: WeChatConfig.New
-- uid: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
-  name: AppRetryWaitTime
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_AppRetryWaitTime
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
-  fullName: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
-  nameWithType: WeChatConfig.AppRetryWaitTime
-- uid: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime*
-  name: AppRetryWaitTime
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_AppRetryWaitTime_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
-  fullName: WeAutoCommon.Configs.WeChatConfig.AppRetryWaitTime
-  nameWithType: WeChatConfig.AppRetryWaitTime
 - uid: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   name: CaptureUIPath
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_CaptureUIPath
@@ -91,18 +79,6 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   nameWithType: WeChatConfig.CaptureUIPath
-- uid: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
-  name: CheckAppRunningInterval
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_CheckAppRunningInterval
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
-  fullName: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
-  nameWithType: WeChatConfig.CheckAppRunningInterval
-- uid: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval*
-  name: CheckAppRunningInterval
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_CheckAppRunningInterval_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
-  fullName: WeAutoCommon.Configs.WeChatConfig.CheckAppRunningInterval
-  nameWithType: WeChatConfig.CheckAppRunningInterval
 - uid: WeAutoCommon.Configs.WeChatConfig.DebugMode
   name: DebugMode
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_DebugMode
@@ -6856,15 +6832,15 @@ references:
   commentId: T:WeChatAuto.Components.WeChatClient
   fullName: WeChatAuto.Components.WeChatClient
   nameWithType: WeChatClient
-- uid: WeChatAuto.Components.WeChatClient.#ctor(WeChatAuto.Components.WeChatNotifyIcon,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,System.Boolean)
-  name: WeChatClient(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider, bool)
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient__ctor_WeChatAuto_Components_WeChatNotifyIcon_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_System_Boolean_
-  commentId: M:WeChatAuto.Components.WeChatClient.#ctor(WeChatAuto.Components.WeChatNotifyIcon,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,System.Boolean)
-  name.vb: New(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider, Boolean)
-  fullName: WeChatAuto.Components.WeChatClient.WeChatClient(WeChatAuto.Components.WeChatNotifyIcon, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, bool)
-  fullName.vb: WeChatAuto.Components.WeChatClient.New(WeChatAuto.Components.WeChatNotifyIcon, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, Boolean)
-  nameWithType: WeChatClient.WeChatClient(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider, bool)
-  nameWithType.vb: WeChatClient.New(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider, Boolean)
+- uid: WeChatAuto.Components.WeChatClient.#ctor(WeChatAuto.Components.WeChatNotifyIcon,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider)
+  name: WeChatClient(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient__ctor_WeChatAuto_Components_WeChatNotifyIcon_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_
+  commentId: M:WeChatAuto.Components.WeChatClient.#ctor(WeChatAuto.Components.WeChatNotifyIcon,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider)
+  name.vb: New(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider)
+  fullName: WeChatAuto.Components.WeChatClient.WeChatClient(WeChatAuto.Components.WeChatNotifyIcon, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
+  fullName.vb: WeChatAuto.Components.WeChatClient.New(WeChatAuto.Components.WeChatNotifyIcon, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
+  nameWithType: WeChatClient.WeChatClient(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider)
+  nameWithType.vb: WeChatClient.New(WeChatNotifyIcon, WeChatMainWindow, IServiceProvider)
 - uid: WeChatAuto.Components.WeChatClient.#ctor*
   name: WeChatClient
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient__ctor_

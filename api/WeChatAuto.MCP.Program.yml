@@ -14,7 +14,7 @@ items:
   fullName: WeChatAuto.MCP.Program
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Program.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/wechatauto.mcp/Program.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP
@@ -43,7 +43,7 @@ items:
   fullName: WeChatAuto.MCP.Program.Main(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/fd5d01c9759ea211906fca696a1dd38a53bd8438/WeChatAuto.MCP/Program.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/wechatauto.mcp/Program.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP

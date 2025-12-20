@@ -4,10 +4,18 @@
       href: quick-start.md
     - name: 认识POM对象
       href: glossary.md
-    - name: 架构概览
-      href: architecture-overview.md
 - name: 🚀 进阶指南
-  href: deep-guide.md
+  items:
+    - name: 消息管理
+      href: message-operation.md
+    - name: 监听管理
+      href: listen-message.md
+    - name: 群聊管理
+      href: group-operation.md
+    - name: 通讯录管理
+      href: contact-operation.md
+    - name: 朋友圈管理
+      href: friend-circle-operation.md
 - name: 🎈MCP Server/Client接入
   href: mcp-server-client.md
 - name: � 常见问题
