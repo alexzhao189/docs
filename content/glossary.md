@@ -66,7 +66,7 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 <img src="../Images/notifyicon.png" alt="WeChatNotifyIcon" width="500"/>
 
-> 可以通过WeChatClient.WxNotifyIcon属性获取到WeChatNotifyIcon对象，并执行方法;
+> 可以通过WeChatClient.WxNotifyIcon属性获取到WeChatNotifyIcon对象，并执行方法;更详细请参考(WeChatNotifyIcon组件)[/api/WeChatAuto.Components.WeChatNotifyIcon.html]
 
 ### 4. WeChatMainWindow组件
 
