@@ -9,6 +9,11 @@ WeChatAuto.SDK 基于 POM（页面对象模型）设计理念，对微信的不�
 
 ## 🎁 WeChatAuto.SDK的页面组件介绍
 
+**基础术语**
+
+主窗口： 微信聊天的主窗口
+子窗口： 双击会话打开的弹出窗口
+
 ### 1. WeChatClientFactory组件
 
 <span style="color: #999;">本组件无UI</span>
@@ -59,10 +64,10 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 - 通过WeChatClientFactory获取到WeChatClient对象
 - WeChatClient对象使用委托模式转发调用其他各个组件的方法：如：消息管理，监听等，让客户端只需与 WeChatClient 交互，而不需要了解底层组件
-- 更具体请参见[WeChatClient](../api/WeChatAuto.Components.WeChatClient.html)类
+- 具体请参见[WeChatClient](../api/WeChatAuto.Components.WeChatClient.html)类
 
 ### 3. WeChatNotifyIcon组件
-本组件抽象了任务栏的微信图标,如下图所示:
+本组件封装并抽象了微信在任务栏中的托盘图标（NotifyIcon），如下图所示：
 
 <img src="../Images/notifyicon.png" alt="WeChatNotifyIcon" width="500"/>
 
@@ -71,5 +76,54 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 更详细请参考[WeChatNotifyIcon组件](../api/WeChatAuto.Components.WeChatNotifyIcon.html)
 
 ### 4. WeChatMainWindow组件
+
+本组件封装并抽象了微信窗口，封装的微信窗口，包含工具栏、导航栏、搜索、会话列表、通讯录、聊天窗口等,如下图所示:
+
+<img src="../Images/wechatwindow.png" alt="WeChatMainWindow" width="500"/>
+
+<br/>
+
+> 具体请参考[WeChatMainWindow组件](../api/WeChatAuto.Components.WeChatMainWindow.html)
+
+### 4. Toolbar组件
+本组件封装并抽象了微信右上角的工具栏，可以通过Toolbar组件设置置顶/取消置顶、最小化、最大化、关闭等操作,对应微信的位置如下:
+
+<img src="../Images/toolbar.png" alt="Toolbar" width="500"/>
+
+> 具体请参考[Toolbar组件](../api/WeChatAuto.Components.ToolBar.html)
+
+### 5. Navigation组件
+本组件封装并抽象了微信左侧的菜单，可以通过Navigation组件点击左侧的聊天、通讯录、收藏等按钮,对应微信位置如下:
+
+<img src="../Images/Navigation.png" alt="Navigation" width="500"/>
+
+> 具体请参考[Navigation组件](../api/WeChatAuto.Components.Navigation.html)
+
+### 6. Moments组件
+本组件封装并抽象了微信朋友圈，可以提供打开朋友圈、获取朋友圈内容列表、刷新朋友圈等操作，对应微信的位置如下：
+
+<img src="../Images/monents.png" alt="Moments" width="700"/>
+
+> 具体请参考[Moments组件](../api/WeChatAuto.Components.Moments.html)
+
+### 7. ChatContent组件
+ChatContent组件是很重要的一个组件，最主要通过它得到```ChatHeader```、```ChatBody```等组件，对应微信的位置如下：
+
+> 主窗口与子窗口都有ChatContent组件
+
+<img src="../Images/chatcontent.png" alt="ChatContent" width="500"/>
+
+> 具体请参考[ChatContent组件](../api/WeChatAuto.Components.ChatContent.html)
+
+### 8. ChatHeader组件
+ChatHeader组件提供了获取主窗口与子窗口的聊天对象的标题，对应微信的位置如下：
+
+> 主窗口与子窗口都有ChatHeader组件
+
+<img src="../Images/chatheader.png" alt="ChatHeader" width="700"/>
+
+> 具体请参考[ChatHeader组件](../api/WeChatAuto.Components.ChatHeader.html)
+
+
 
 

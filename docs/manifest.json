@@ -12,10 +12,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/ChatHeder.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/ChatHeder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Navigation.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Navigation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/article.png",
       "output": {
         "resource": {
           "relative_path": "Images/article.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/chatcontent.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/chatcontent.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/chatheader.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/chatheader.png"
         }
       },
       "version": ""
@@ -42,10 +82,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/monents.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/monents.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/notifyicon.png",
       "output": {
         "resource": {
           "relative_path": "Images/notifyicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/toolbar.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/toolbar.png"
         }
       },
       "version": ""
