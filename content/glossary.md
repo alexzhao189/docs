@@ -12,6 +12,7 @@ WeChatAuto.SDK 基于 POM（页面对象模型）设计理念，对微信的不�
 **基础术语**
 
 主窗口： 微信聊天的主窗口
+
 子窗口： 双击会话打开的弹出窗口
 
 ### 1. WeChatClientFactory组件
