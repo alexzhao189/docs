@@ -26,7 +26,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -49,7 +49,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.好友或群聊
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -69,7 +69,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.文件传输助手
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -89,7 +89,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.好友
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -109,7 +109,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.群聊
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -129,7 +129,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.公众号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -149,7 +149,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.小程序
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -169,7 +169,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.订阅号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -189,7 +189,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.服务号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -209,7 +209,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.企业号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -229,7 +229,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.服务通知
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -249,7 +249,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.折叠的群聊
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -269,7 +269,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.微信支付
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -289,7 +289,7 @@ items:
   fullName: WeAutoCommon.Enums.ConversationType.腾讯新闻
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Enums/ConversationType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Enums/ConversationType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

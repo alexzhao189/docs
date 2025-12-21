@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -78,7 +78,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.Init(int, int, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -110,7 +110,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.SearchDevice(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -145,7 +145,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.OpenDevice(uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -174,7 +174,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.CloseDevice()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -196,7 +196,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.IsDeviceOpen()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -221,7 +221,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.Delay(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -253,7 +253,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.KeyPressString(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -282,7 +282,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.ClearAndTypeString(string, FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -317,7 +317,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.Enter(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -346,7 +346,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.KeyDown(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -375,7 +375,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.KeyUp(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -404,7 +404,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.KeyPress(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -433,7 +433,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MoveBy(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -465,7 +465,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MoveTo(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -497,7 +497,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftClick()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -519,7 +519,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -545,7 +545,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -577,7 +577,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftDblClickWithDpiAware(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -609,7 +609,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftClick(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -641,7 +641,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.RightClick()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -663,7 +663,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.RightClick(System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -689,7 +689,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.RightClick(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -721,7 +721,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.RightClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -750,7 +750,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -772,7 +772,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -798,7 +798,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -830,7 +830,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MiddleClick(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -865,7 +865,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -894,7 +894,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(System.Drawing.Point, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -926,7 +926,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -964,7 +964,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.MouseWheel(int, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -999,7 +999,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -1025,7 +1025,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.LeftDoubleClick(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -1057,7 +1057,7 @@ items:
   fullName: WeChatAuto.Services.KMSimulatorService.DeviceData
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Services/KMSimulatorService.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Services/KMSimulatorService.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services

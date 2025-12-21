@@ -21,7 +21,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -56,7 +56,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientFactory(System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -84,7 +84,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -109,7 +109,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -145,7 +145,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -173,7 +173,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -197,7 +197,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.~WeChatClientFactory()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -220,7 +220,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -246,7 +246,7 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

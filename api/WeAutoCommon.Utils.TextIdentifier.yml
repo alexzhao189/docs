@@ -17,7 +17,7 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -50,7 +50,7 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.TextIdentifier()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -73,7 +73,7 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.Cn
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -98,7 +98,7 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.CnT
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -123,7 +123,7 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.En
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
