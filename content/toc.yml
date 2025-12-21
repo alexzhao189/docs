@@ -16,7 +16,7 @@
       href: contact-operation.md
     - name: 朋友圈管理
       href: friend-circle-operation.md
-- name: 🎈MCP 使用指南
+- name: 🎈MCP Server 使用指南
   href: mcp-server-client.md
 - name: � 常见问题
   href: faq.md
