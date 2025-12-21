@@ -7,6 +7,8 @@ WeChatAuto.SDK 采用页面对象模型（POM）设计理念，将微信的各�
 
 ![WeChatAuto.SDK 主要类关系示意](https://raw.githubusercontent.com/scottfly189/WeChatAuto.SDK/master/Images/class.png)
 
+> 基本上每个POM组件抽象并封装了微信的某个部位
+
 ## 🎁 WeChatAuto.SDK的页面组件介绍
 
 **🎈🎈 基础术语**
