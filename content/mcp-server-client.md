@@ -1,5 +1,7 @@
 # MCP Server介绍
 
+---
+
 MCP（Model Context Protocol，模型上下文协议）是专为大语言模型（LLM, Large Language Model）打造的服务端组件，其核心能力在于为LLM动态提供丰富的可调用工具、外部资源、结构化提示词等高阶能力，使模型不仅能处理自然语言对话，更可灵活组合、调用各类外接能力，显著扩展大模型的应用边界。
 
 MCP Server 的主要优势体现在：
