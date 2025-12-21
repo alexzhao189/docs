@@ -2,7 +2,7 @@
 
 ---
 
-## MCP Server介绍
+## 🎉 MCP Server介绍
 
 MCP（Model Context Protocol，模型上下文协议）是专为大语言模型（LLM, Large Language Model）打造的服务端组件，其核心能力在于为LLM动态提供丰富的可调用工具、外部资源、结构化提示词等高阶能力，使模型不仅能处理自然语言对话，更可灵活组合、调用各类外接能力，显著扩展大模型的应用边界。
 
@@ -15,7 +15,7 @@ MCP Server 的主要优势体现在：
 
 如果你在构建大语言模型驱动的应用或平台，MCP Server 能让你的LLM随时具备调用工具、获取知识、使用专业提示词等超强能力，是新一代智能体与大模型协作的基础设施。
 
-## WeChatAuto.SDK MCP示例 - 以Vscode为例
+## 🚀 WeChatAuto.SDK MCP示例 - 以Vscode为例
 
 > **本文主要演示vscode使用mcp server,你也可以在自己的应用加入mcp client代码，通过mcp client来调用LLM来操作微信桌面客户端.**
 
