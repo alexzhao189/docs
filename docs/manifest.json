@@ -142,6 +142,46 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/mcp.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/mcp.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/mcp1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/mcp1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/mcp2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/mcp2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/mcp3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/mcp3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/monents.png",
       "output": {
         "resource": {
