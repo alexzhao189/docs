@@ -80,7 +80,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -111,7 +111,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NAME
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -132,7 +132,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TASKBAR
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -153,7 +153,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_NOTIFY_ICON
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -174,7 +174,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_MAX_BUTTON
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -195,7 +195,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_RESTORE_BUTTON
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -216,7 +216,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_UNTOP_BUTTON
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -237,7 +237,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SYSTEM_TOP_BUTTON
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -258,7 +258,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CHAT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -279,7 +279,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_CONTACT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -300,7 +300,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_COLLECT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -321,7 +321,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_FILE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -342,7 +342,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_MOMENT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -363,7 +363,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SEARCH
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -384,7 +384,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_VIDEO
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -405,7 +405,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_READ
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -426,7 +426,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_APP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -447,7 +447,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_PHONE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -468,7 +468,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_SETTING
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -489,7 +489,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_NAVIGATION_NAVIGATION
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -510,7 +510,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_SEARCH
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -531,7 +531,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_CLEAR
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -552,7 +552,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_TOP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -573,7 +573,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_HAS_TOP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -594,7 +594,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_UNTOP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -615,7 +615,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_SESSION_BOX_CONVERSATION
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -636,7 +636,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_TEAM
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -657,7 +657,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SERVICE_NOTICE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -678,7 +678,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_WX_PAY
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -699,7 +699,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_TX_NEWS
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -720,7 +720,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_SUBSCRIPTION
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -741,7 +741,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_FILE_TRANSFER
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -762,7 +762,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CONVERSATION_COLLAPSED_GROUP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -783,7 +783,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_MESSAGE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -804,7 +804,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_LIVE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -825,7 +825,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_EMOTION
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -846,7 +846,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SEND_FILE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -867,7 +867,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_SCREENSHOT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -888,7 +888,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CHAT_RECORD
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -909,7 +909,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VOICE_CHAT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -930,7 +930,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_VIDEO_CHAT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -951,7 +951,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_SEND
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -972,7 +972,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WECHAT_CHAT_BOX_CONTENT_LOOK_MORE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -993,7 +993,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_IMAGE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1014,7 +1014,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1035,7 +1035,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VOICE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1056,7 +1056,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LOCATION
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1077,7 +1077,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_LINK
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1098,7 +1098,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_FILE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1119,7 +1119,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CARD
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1140,7 +1140,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1161,7 +1161,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1182,7 +1182,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1203,7 +1203,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_CHAT_RECORD
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1224,7 +1224,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_PICK_UP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1245,7 +1245,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_SEND
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1266,7 +1266,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RED_PACKET_RECEIVE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1287,7 +1287,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_WECHAT_TRANSFER
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1308,7 +1308,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_COLLECT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1329,7 +1329,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_NOTE_TEXT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1350,7 +1350,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_END
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1371,7 +1371,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_VIDEO_NUMBER_LIVE_ING
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1392,7 +1392,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_I
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1413,7 +1413,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_MINI_PROGRAM
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1434,7 +1434,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_RECALL
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1455,7 +1455,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_YOU
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1476,7 +1476,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.MESSAGES_REFERENCE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -1497,7 +1497,7 @@ items:
   fullName: WeAutoCommon.Utils.WeChatConstant.WeChatConstant()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Utils/WeChatConstant.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Utils/WeChatConstant.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils

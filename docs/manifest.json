@@ -22,10 +22,60 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/Conversion.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Conversion.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/MessageBubbleList.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/MessageBubbleList.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/Navigation.png",
       "output": {
         "resource": {
           "relative_path": "Images/Navigation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Search.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Sender.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Sender.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/SubWin.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/SubWin.png"
         }
       },
       "version": ""
@@ -106,6 +156,26 @@
       "output": {
         "resource": {
           "relative_path": "Images/notifyicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/subwinlist.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/subwinlist.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/template.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/template.png"
         }
       },
       "version": ""

@@ -103,18 +103,6 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   fullName: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   nameWithType: WeChatConfig.DefaultSavePath
-- uid: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
-  name: EnableCheckAppRunning
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableCheckAppRunning
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
-  fullName: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
-  nameWithType: WeChatConfig.EnableCheckAppRunning
-- uid: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning*
-  name: EnableCheckAppRunning
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableCheckAppRunning_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
-  fullName: WeAutoCommon.Configs.WeChatConfig.EnableCheckAppRunning
-  nameWithType: WeChatConfig.EnableCheckAppRunning
 - uid: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
   name: EnableMouseKeyboardSimulator
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_EnableMouseKeyboardSimulator
@@ -163,6 +151,42 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
   fullName: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
   nameWithType: WeChatConfig.KMDeiviceVID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
+  name: KMMouseMoveMode
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMMouseMoveMode
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
+  nameWithType: WeChatConfig.KMMouseMoveMode
+- uid: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode*
+  name: KMMouseMoveMode
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMMouseMoveMode_
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
+  nameWithType: WeChatConfig.KMMouseMoveMode
+- uid: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
+  name: KMOffsetOfClick
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMOffsetOfClick
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
+  nameWithType: WeChatConfig.KMOffsetOfClick
+- uid: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick*
+  name: KMOffsetOfClick
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMOffsetOfClick_
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
+  nameWithType: WeChatConfig.KMOffsetOfClick
+- uid: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
+  name: KMOutputStringType
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMOutputStringType
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
+  nameWithType: WeChatConfig.KMOutputStringType
+- uid: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType*
+  name: KMOutputStringType
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMOutputStringType_
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
+  nameWithType: WeChatConfig.KMOutputStringType
 - uid: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   name: KMVerifyUserData
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMVerifyUserData
@@ -211,18 +235,6 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
   fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
   nameWithType: WeChatConfig.MonitorSubWinInterval
-- uid: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
-  name: MouseMoveMode
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_MouseMoveMode
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
-  fullName: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
-  nameWithType: WeChatConfig.MouseMoveMode
-- uid: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode*
-  name: MouseMoveMode
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_MouseMoveMode_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
-  fullName: WeAutoCommon.Configs.WeChatConfig.MouseMoveMode
-  nameWithType: WeChatConfig.MouseMoveMode
 - uid: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
   name: NewUserListenerInterval
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_NewUserListenerInterval
@@ -235,30 +247,6 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
   fullName: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
   nameWithType: WeChatConfig.NewUserListenerInterval
-- uid: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
-  name: OffsetOfClick
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OffsetOfClick
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
-  fullName: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
-  nameWithType: WeChatConfig.OffsetOfClick
-- uid: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick*
-  name: OffsetOfClick
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OffsetOfClick_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
-  fullName: WeAutoCommon.Configs.WeChatConfig.OffsetOfClick
-  nameWithType: WeChatConfig.OffsetOfClick
-- uid: WeAutoCommon.Configs.WeChatConfig.OutputStringType
-  name: OutputStringType
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OutputStringType
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.OutputStringType
-  fullName: WeAutoCommon.Configs.WeChatConfig.OutputStringType
-  nameWithType: WeChatConfig.OutputStringType
-- uid: WeAutoCommon.Configs.WeChatConfig.OutputStringType*
-  name: OutputStringType
-  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_OutputStringType_
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.OutputStringType
-  fullName: WeAutoCommon.Configs.WeChatConfig.OutputStringType
-  nameWithType: WeChatConfig.OutputStringType
 - uid: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
   name: ProcessDpiAwareness
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ProcessDpiAwareness

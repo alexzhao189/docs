@@ -18,7 +18,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -48,7 +48,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -72,7 +72,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ReplyItem()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -95,7 +95,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -120,7 +120,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.Content
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -145,7 +145,7 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ReplyTo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

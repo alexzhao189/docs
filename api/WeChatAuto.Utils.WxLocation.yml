@@ -21,7 +21,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -54,7 +54,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -92,7 +92,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.Conditions.ConditionBase)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -127,7 +127,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.Conditions.ConditionBase, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -168,7 +168,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.RefreshElement()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -197,7 +197,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.ParentElement
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -220,7 +220,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.AutomationId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -243,7 +243,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.Condition
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -266,7 +266,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.XPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Utils/WxLocation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

@@ -17,7 +17,7 @@ items:
   fullName: WeAutoCommon.Models.ChatResponse
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/ChatResponse.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -50,7 +50,7 @@ items:
   fullName: WeAutoCommon.Models.ChatResponse.ChatResponse()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/ChatResponse.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -73,7 +73,7 @@ items:
   fullName: WeAutoCommon.Models.ChatResponse.Success
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/ChatResponse.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -98,7 +98,7 @@ items:
   fullName: WeAutoCommon.Models.ChatResponse.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/ChatResponse.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -123,7 +123,7 @@ items:
   fullName: WeAutoCommon.Models.ChatResponse.ExtendData
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeAutoCommon/Models/ChatResponse.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

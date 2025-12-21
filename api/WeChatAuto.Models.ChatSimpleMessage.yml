@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -71,7 +71,7 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.ChatSimpleMessage()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -94,7 +94,7 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -117,7 +117,7 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models

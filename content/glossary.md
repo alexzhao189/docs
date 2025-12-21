@@ -1,7 +1,7 @@
 # 认识POM对象
 ---
 
-WeChatAuto.SDK 基于 POM（页面对象模型）设计理念，对微信的不同操作场景进行了清晰、模块化的对象封装。只需要了解各个 POM 对象及其对应的微信界面组件，即可调用这些对象的公开方法和属性，简化功能实现与维护。
+WeChatAuto.SDK 采用页面对象模型（POM）设计理念，将微信的各类操作场景进行了模块化、清晰的组件封装。你只需要理解这些 POM 对象及其所对应的微信界面组件，就能便捷地调用其公开方法和属性，大幅简化功能开发和后期维护。如果你熟悉 WeChatAuto.SDK 的 POM 组件体系，基本上已经掌握了 60% 的核心用法😊。
 
 ## 🚀 WeChatAuto.SDK POM 组件结构图
 
@@ -9,11 +9,11 @@ WeChatAuto.SDK 基于 POM（页面对象模型）设计理念，对微信的不�
 
 ## 🎁 WeChatAuto.SDK的页面组件介绍
 
-**基础术语**
+**🎈🎈 基础术语**
 
-主窗口： 微信聊天的主窗口
+- 主窗口： 微信聊天的主窗口
 
-子窗口： 双击会话打开的弹出窗口
+- 子窗口： 双击会话打开的弹出窗口
 
 ### 1. WeChatClientFactory组件
 
@@ -38,8 +38,8 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 | 属性名 | 说明 |
 |--------|-----|
-| CaptureUIPath |捕获UI保存路径 默认保存到当前目录下的Capture文件夹,可以修改为其他路径|
-|ListenInterval|消息监听的时间间隔,单位：秒，默认5秒监听一次|
+| CaptureUIPath |进行截图操作时，捕获UI界面保存的路径 默认保存到当前目录下的Capture文件夹,可以修改为其他路径|
+|ListenInterval|群或者好友消息监听的时间间隔,单位：秒，默认5秒监听一次|
 |MomentsListenInterval|朋友圈监听的时间间隔,单位：秒，默认10秒监听一次|
 |NewUserListenerInterval|监听新用户的时间间隔，单位：秒，默认5秒监听一次|
 |MonitorSubWinInterval|监听子窗口时间间隔，单位秒,默认5秒监听一次|
@@ -50,21 +50,21 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 |KMDeiviceVID|配置键鼠模拟器设备VID|
 |KMDeivicePID|配置键鼠模拟器设备PID|
 |KMVerifyUserData|配置键鼠模拟器用户校验数据|
-|OutputStringType|配置键鼠模拟器输出字符串编码类型,默认使用剪贴板粘贴输出字符串。优点是输出字符多时速度更快且不受输入法影响|
-|MouseMoveMode|配置键鼠模拟器鼠标移动模式|
-|OffsetOfClick|点击偏移量,单位像素,为了避免每次点击都点击到同一个位置，可以设置一个偏移量，实际点击位置为点击位置减去偏移量的一个随机值|
+|KMOutputStringType|配置键鼠模拟器输出字符串编码类型,默认使用剪贴板粘贴输出字符串。优点是输出字符多时速度更快且不受输入法影响|
+|KMMouseMoveMode|配置键鼠模拟器鼠标移动模式|
+|KMOffsetOfClick|点击偏移量,单位像素,为了避免每次点击都点击到同一个位置，可以设置一个偏移量，实际点击位置为点击位置减去偏移量的一个随机值|
 |ProcessDpiAwareness|进程DPI感知值,如果使用库的应用已经设置DPI感知，此参数无效，可设置参数为:0: 不设置,进程对DPI完全不知晓，按逻辑像素绘制，可能会出现点击不准确的情况。1: PROCESS_SYSTEM_DPI_AWARE 默认值,进程只根据主显示器DPI绘制，DPI感知生效。 2: PROCESS_PER_MONITOR_DPI_AWARE，进程根据每个显示器DPI绘制,DPI感知生效。|
 
 > 更具体的了解WeChatConfig配置对象，请参考: [WeChatConfig配置对象](../api/WeAutoCommon.Configs.WeChatConfig.html)
 
 ### 2. WeChatClient组件
 
-**WeChatClient**组件代表一个微信客户端对象
+**WeChatClient**组件代表一个微信客户端对象，这是整个POM组件体系的**入口**，只有**先**获取```WebChatClient```,再通过```WebChatClient```获取POM的其他组件
 
 <span style="color: #999;">本组件无UI</span>
 
-- 通过WeChatClientFactory获取到WeChatClient对象
-- WeChatClient对象使用委托模式转发调用其他各个组件的方法：如：消息管理，监听等，让客户端只需与 WeChatClient 交互，而不需要了解底层组件
+- 通过```WeChatClientFactory```获取到```WeChatClient```对象
+- ```WeChatClient```对象使用委托模式转发调用其他各个组件的方法：如：消息管理，监听等，让客户端只需与 WeChatClient 交互，而不需要了解底层组件,当然更详细的API调用，还得了解```WeChatClient```包装的其他组件
 - 具体请参见[WeChatClient](../api/WeChatAuto.Components.WeChatClient.html)类
 
 ### 3. WeChatNotifyIcon组件
@@ -78,7 +78,12 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 
 ### 4. WeChatMainWindow组件
 
-本组件封装并抽象了微信窗口，封装的微信窗口，包含工具栏、导航栏、搜索、会话列表、通讯录、聊天窗口等,如下图所示:
+本组件封装并抽象了微信窗口，封装的微信窗口，包含工具栏、导航栏、搜索、会话列表、通讯录、聊天窗口等
+
+- 可以通过```WeChatClient```组件的WxMainWindow属性获取到微信客户端所属的WeChatMainWindow组件对象
+- ```WeChatMainWindow组件```可以调用丰富的属性与方法,```WeChatMainWindow组件```也是各个其他组件的入口
+
+对应微信部位如下图所示:
 
 <img src="../Images/wechatwindow.png" alt="WeChatMainWindow" width="500"/>
 
@@ -128,11 +133,73 @@ ChatHeader组件提供了获取主窗口与子窗口的聊天对象的标题，�
 ### 9. ChatBody组件
 ChatBody组件封装了聊天体，可以用它来获取聊天列表```MessageBubbleList```与```Sender```组件,对应微信的位置如下所示：
 
-> 主窗口与子窗口都有ChatHeader组件
+> 主窗口与子窗口都有ChatBody组件
 
 <img src="../Images/chatbody.png" alt="ChatBody" width="700"/>
 
 > 具体请参考[ChatBody组件](../api/WeChatAuto.Components.ChatBody.html)
+
+### 10. MessageBubbleList组件与MessageBubble组件
+```MessageBubbleList```组件封装了一个聊天列表，一个```MessageBubbleList```包含多个```MessageBubble```
+
+一个```MessageBubble```组件封装了一条消息，包括发送消息人，消息内容,时间等信息
+
+对应的微信的位置如下：
+
+> 主窗口与子窗口都有MessageBubbleList组件与MessageBubble组件
+
+<img src="../Images/MessageBubbleList.png" alt="MessageBubbleList组件与MessageBubble组件" width="500"/>
+
+> 具体请参考[MessageBubbleList组件与MessageBubble组件](../api/WeChatAuto.Components.MessageBubbleList.html)
+
+### 11. Sender组件
+
+Sender组件封装了一个发送器，可以用它来发送文本消息、Emoji字符串、文件等，对应的微信内容如下:
+
+> 主窗口与子窗口都有Sender组件
+
+<img src="../Images/Sender.png" alt="Sender组件" width="500"/>
+
+> 具体请参考[Sender组件](../api/WeChatAuto.Components.Sender.html)
+
+### 12. ConversationList会话列表组件与Conversation组件
+
+ConversationList组件封装了一个会话列表，Conversation封装了一个会话，对应微信位置如下：
+
+> 只有主窗口才有ConversationList会话列表组件与Conversation组件
+
+<img src="../Images/Conversion.png" alt="SConversationList会话列表组件与Conversation组件" width="500"/>
+
+> 具体请参考[ConversationList会话列表组件与Conversation组件](../api/WeChatAuto.Components.ConversationList.html)
+
+### 13. Search组件
+Search组件封装了微信搜索框,对应微信位置如下:
+
+> 只有主窗口才有Search组件
+
+<img src="../Images/Search.png" alt="Search组件" width="500"/>
+
+> 具体请参考[Search组件](../api/WeChatAuto.Components.Search.html)
+
+### 13. SubWinList组件
+SubWinList组件封装了所有的子窗口的操作，如：启动子窗口，关闭子窗口，监听子窗口关闭再打开等，对应位置如下:
+
+> 可以通过WeChatMainWindow组件得到SubWinList组件
+
+<img src="../Images/subwinlist.png" alt="SubWinList组件" width="700"/>
+
+> 具体请参考[SubWinList组件](../api/WeChatAuto.Components.SubWinList.html)
+
+### 13. SubWin组件
+SubWinList组件封装了一个子窗口,子窗口为双击会话弹出的窗口，可以通过SubWinList获取ChatContent,通过ChatContent获取到MessageBubbleList与Sender等子组件，对应位置如下:
+
+
+<img src="../Images/SubWin.png" alt="SubWin组件" width="700"/>
+
+> 具体请参考[SubWin组件](../api/WeChatAuto.Components.SubWin.html)
+
+
+
 
 
 

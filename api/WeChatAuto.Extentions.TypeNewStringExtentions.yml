@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Extentions/TypeNewStringExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Extentions/TypeNewStringExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -83,7 +83,7 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Extentions/TypeNewStringExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -119,7 +119,7 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Extentions/TypeNewStringExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -149,7 +149,7 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/112302cdbf18bbc131cf351eea17000a2f89e2ef/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c4b8369421307b7dc4174cb3550ef798d542bad7/WeChatAuto/Extentions/TypeNewStringExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
