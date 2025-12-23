@@ -82,6 +82,8 @@ await builder.Build().RunAsync();
 
 ### 示例一: 给好友（或群聊昵称）发送消息：
 
+> 源码请参见: ```项目根目录\Examples\demo01```
+
 - 步骤一：新建项目，如下所示:
 
 ```
@@ -131,12 +133,15 @@ wxClient?.SendWho("AI.Net","你好，欢迎使用AI.Net微信自动化框架！"
 ```
 
 > **注意**：  
-> 1. 本项目仅支持 Windows 系统，请务必将项目文件的 TargetFramework 设置为 netxx.0-windows（如 net10.0-windows），否则编译时会出现警告。后续不再赘述。  
-> 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者象示例代码一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的依赖注入容器，则不存在此问题。
-> 3. WeAutomation.Initialize()方法有两个重载，分别适用于：加入外部依赖注入与使用内部依赖注入。
+  > 1. 本项目仅支持 Windows 系统，请务必将项目文件的 TargetFramework 设置为 netxx.0-windows（如 net10.0-windows），否则编译时会出现警告。后续不再赘述。  
+  > 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者象示例代码一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的依赖注入容器，则不存在此问题。
+  > 3. WeAutomation.Initialize()方法有两个重载，分别适用于：加入外部依赖注入与使用内部依赖注入。
 
 
 ### 示例二 - 演示监听好友（或者群聊昵称）的消息,使用消息上下文获取消息并回复,并且还演示了如何通过依赖注入获取消息上下文的注入对象,执行自己的业务逻辑：
+
+> 源码请参见: ```项目根目录\Examples\demo02```
+
 - 前置步骤：安装依赖
 
 ```

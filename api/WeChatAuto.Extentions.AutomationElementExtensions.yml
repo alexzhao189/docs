@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Extentions.AutomationElementExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Extentions/AutomationElementExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Extentions/AutomationElementExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -45,7 +45,7 @@ items:
   fullName: WeChatAuto.Extentions.AutomationElementExtensions.GetSibling(FlaUI.Core.AutomationElements.AutomationElement, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Extentions/AutomationElementExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Extentions/AutomationElementExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -81,7 +81,7 @@ items:
   fullName: WeChatAuto.Extentions.AutomationElementExtensions.GetParent(FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Extentions/AutomationElementExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Extentions/AutomationElementExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

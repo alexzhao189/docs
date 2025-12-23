@@ -40,7 +40,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -70,7 +70,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageContext(System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, WeChatAuto.Components.Sender, WeChatAuto.Components.WeChatClient, WeChatAuto.Components.WeChatClientFactory, System.IServiceProvider, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -108,7 +108,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetNewMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -133,7 +133,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetAllMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -158,7 +158,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLastMessages(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -190,7 +190,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -215,7 +215,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -247,7 +247,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -272,7 +272,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -304,7 +304,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeTap()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -329,7 +329,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeAt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -354,7 +354,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -379,7 +379,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeReferenced()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -404,7 +404,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -429,7 +429,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -454,7 +454,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendMessage(string, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -486,7 +486,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendFile(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -515,7 +515,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf<int, string>, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -547,7 +547,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendMessageToFriend(string, string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -585,7 +585,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendFileToFriend(string, string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -620,7 +620,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendEmojiToFriend(string, OneOf.OneOf<int, string>, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -658,7 +658,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.OwnerNickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -683,7 +683,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.NewMessages
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -711,7 +711,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.AllMessages
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -739,7 +739,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.Sender
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -767,7 +767,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.OwnerClient
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -795,7 +795,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SystemClientFactory
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -823,7 +823,7 @@ items:
   fullName: WeChatAuto.Models.MessageContext.ServiceProvider
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/29851f94a58046df9c88688e775ce3339d03ef93/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Models/MessageContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
