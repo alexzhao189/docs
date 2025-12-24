@@ -1,7 +1,7 @@
 # 消息管理
 ---
 
-> 注：教程中"好友名称"与"好友昵称"具有同样的语意
+> 注：教程中"好友名称"与"好友昵称"具有同样的语义
 
 ## 🚀 消息发送模型
 WeChatAuto.SDK支持两种消息发送模型:
@@ -26,7 +26,7 @@ WeChatAuto.SDK支持两种消息发送模型:
  ```
  
  其中：
-   - who: 好友名称，可以是好友或者群昵昵称
+   - who: 好友名称，可以是好友或者群昵称
    - message: 消息内容
    - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
    - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -49,9 +49,9 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 var client = clientFactory.GetWeChatClient("Alex");
 //发送消息给AI.Net好友昵称，请修改成自己的好友昵称
 await client.SendWho("AI.Net", "你好，世界！");
-//发送消息给群聊"测试11"，并好友:@123321
+//发送消息给群聊"测试11"，并@好友:123321
 await client.SendWho("测试11", "你好，世界！", "123321");
-//发送消息给群聊"测试11"，并好友:@123321,@Alex
+//发送消息给群聊"测试11"，并@好友:123321,Alex
 await client.SendWho("测试11","你好，世界！",new string[]{"123321","Alex"});
  ```
 
@@ -64,7 +64,7 @@ await client.SendWho("测试11","你好，世界！",new string[]{"123321","Alex
 public async Task SendEmoji(string who, OneOf<int, string> emoji, OneOf<string, string[]> atUser = default, bool isOpenChat = false)
 ```
 其中:
-  - who: 好友名称，可以是好友或者群昵昵称
+  - who: 好友名称，可以是好友或者群昵称
   - emoji: 可以是表情名称或者描述或者索引,具体索引或者描述等请参考下面的Emoji表
   - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -185,9 +185,9 @@ public async Task SendEmoji(string who, OneOf<int, string> emoji, OneOf<string, 
 | 108 | 发抖 | [发抖] |
 | 109 | 转圈 | [转圈] |
 
-### 3. 发起语音聊天,适用于单全好友
+### 3. 发起语音聊天,适用于单个好友
 
-给**单个**好友发起语音聊天，如果是群聊，请使用下面的```SendVoiceChats```方法,参看[群聊中发起语音聊天](#4-群聊中发起语音聊天)
+给**单个**好友发起语音聊天，如果是群聊，请使用下面的```SendVoiceChats```方法,参考[群聊中发起语音聊天](#4-群聊中发起语音聊天)
 
 - 方法定义
 ```
@@ -262,8 +262,8 @@ public async Task SendWhos(string[] whos, string message, OneOf<string, string[]
 
 其中：
   - whos: 好友名称列表
-  - message: 消息列表
-  - atUser: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，微信不支持他有群@所有人
+  - message: 消息内容
+  - atUser: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，微信不支持他人群@所有人
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
 ### 9. 给多个好友发送文件
@@ -310,3 +310,177 @@ public async Task<bool> ForwardMessage(string fromWho, string toWho, int rowCoun
 
 
 ## 😁 聊天过程消息回复
+
+聊天过程回复最主要使用在**监听**中，一些使用场景如下：
+
+- 监听与好友（或者群聊）聊天过程，如果有好友发来消息，自动化回复;
+- 监听有新好友加你，WeChatAuto.SDK自动化加上好友后，自动给新好友发送一些消息，自动回复消息等。
+
+考虑如下模板代码:
+
+```
+var builder = Host.CreateApplicationBuilder(args);
+
+WeAutomation.Initialize(builder.Services, options =>
+{
+});
+
+var serviceProvider = builder.Services.BuildServiceProvider();
+var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory>();
+var client = clientFactory.GetWeChatClient("Alex");
+//监听群 "测试11" 聊天，并做自动回复.
+await client.AddMessageListener("测试11", (messageContext) =>
+{
+  //在这里messageContext使用回复、转发消息
+});
+
+
+var app = builder.Build();
+await app.RunAsync();
+```
+
+从上面代码可以看出：监听提供注入```messageContext```进行消息操作，而```messageContext```是一个[MessageContext](../api/WeChatAuto.Models.MessageContext.html)类
+
+### 1. 获取我的微信昵称
+
+```
+messageContext.OwnerNickName
+```
+
+### 2. 获取新消息列表
+
+```
+messageContext.NewMessages
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 3. 获取所有消息列表
+
+```
+messageContext.AllMessages
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 4. 获取```Sender```发送对象
+```
+messageContext.Sender
+```
+
+返回```Sender```对象，可以用此Sender对象发送消息等，具体Sender类请参考[Sender类](../api/WeChatAuto.Components.Sender.html)
+
+### 5. 获取```WeChatClient```对象
+
+```
+messageContext.OwnerClient
+```
+
+获取到```WeChatClient```对象后，可以参照前面的[单独发送消息](#-单独发送消息)的各个方法进行消息操作,具体WeChatClient类请参照:[WeChatClient类](../api/WeChatAuto.Components.WeChatClient.html)
+
+> 所以： 虽然是消息上下文，也获得了[单独发送消息](#-单独发送消息)各个能力
+
+### 6. 获取```WeChatClientFactory```客户端工厂对象
+```
+messageContext.SystemClientFactory
+```
+
+```SystemClientFactory```属性最主要用于多微信客户端场合，获取到```WeChatClientFactory```对象后，可以通过```WeChatClientFactory```对象向本机任意微信客户端发送消息,是不是很Cool!😊
+
+具体WeChatClientFactory类请参照：[WeChatClientFactory类](../api/WeChatAuto.Components.WeChatClientFactory.html)
+
+### 7. 获取```IServiceProvider```依赖注入提供者
+```
+messageContext.ServiceProvider
+```
+
+这是一个非常实用的功能。通过`IServiceProvider`，你可以灵活获取到在依赖注入容器中注册的任何服务类对象，以便在消息处理过程中调用，例如大模型自动回复服务、数据库上下文等。`messageContext.ServiceProvider` 相当于连接你的自定义业务逻辑和框架的桥梁，大大提升扩展性和可维护性。
+
+### 8. 获取新消息方法
+```
+messageContext.GetNewMessages()
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 9. 获取最近所有消息方法
+```
+messageContext.GetAllMessages()
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 10. 获取最后几条消息
+```
+messageContext.GetLastMessages(int count)
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 11. 获取LLM上下文消息
+```
+messageContext.GetLLMContextMessages
+```
+
+返回List<string>对象，以作为发给LLM的历史上下文列表
+
+### 12. 获取LLM上下文消息(重载)
+```
+messageContext.GetLLMContextMessagesTuple
+```
+
+返回```List<(string who, string message)>```元组列表,可以通过```List<(string who, string message)>```元组列表自己组建LLM的历史上下文
+
+### 13. 是否被人拍一拍
+```
+messageContext.IsBeTap()
+```
+
+返回```True```或者```False```,确定自己是否被人拍一拍
+
+### 14. 是否被其他人@我
+```
+messageContext.IsBeAt()
+```
+
+确定是否被其他人@我
+
+### 15. 获取被@的消息列表
+```
+messageContext.MessageBubbleIsBeAt()
+```
+
+获取被@的消息气泡列表,可以通过消息列表获取谁@了我，内容是什么
+
+### 16. 我的消息是否被引用
+```
+messageContext.IsBeReferenced
+```
+
+返回```True```或者```False```,确定自己消息被人引用
+
+### 17. 获取我的被引用的消息列表
+```
+messageContext.MessageBubbleIsReferenced()
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 18. 获取引用中我自己的消息列表
+```
+messageContext.MessageBubbleIsReferencing()
+```
+
+返回```List<MessageBubble>```列表,具体```MessageBubble```消息类请参考[MessageBubble](../api/WeChatAuto.Components.MessageBubble.html)
+
+### 19. 发送文字消息
+```
+messageContext.SendMessage(string message, List<string> atUserList = null)
+```
+
+其中:
+  - message: 消息内容
+  - atUserList: 被@的用户列表
+
+
+> 其他更多操作请参见```MessageContext```类： [MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
