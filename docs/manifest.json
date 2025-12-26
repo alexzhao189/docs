@@ -2237,6 +2237,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/conversation-operation.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/conversation-operation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/deep-guide.md",
       "output": {
         ".html": {
