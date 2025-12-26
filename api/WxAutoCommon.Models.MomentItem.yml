@@ -254,7 +254,7 @@ items:
   assemblies:
   - WeAutoCommon
   namespace: WxAutoCommon.Models
-  summary: 好友名称
+  summary: 好友昵称
   example: []
   syntax:
     content: public string Who { get; set; }

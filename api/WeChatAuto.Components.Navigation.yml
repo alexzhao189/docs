@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Components.Navigation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -48,7 +48,7 @@ items:
   fullName: WeChatAuto.Components.Navigation._wxLocationCaches
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -69,7 +69,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.Navigation(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -107,7 +107,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -133,7 +133,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

@@ -7048,36 +7048,36 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.CaptureUI
   fullName: WeChatAuto.Components.WeChatClient.CaptureUI
   nameWithType: WeChatClient.CaptureUI
-- uid: WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo(System.String,System.String)
-  name: ChageOwerChatGroupMemo(string, string)
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChageOwerChatGroupMemo_System_String_System_String_
-  commentId: M:WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo(System.String,System.String)
-  name.vb: ChageOwerChatGroupMemo(String, String)
-  fullName: WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo(string, string)
-  fullName.vb: WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo(String, String)
-  nameWithType: WeChatClient.ChageOwerChatGroupMemo(string, string)
-  nameWithType.vb: WeChatClient.ChageOwerChatGroupMemo(String, String)
-- uid: WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo*
-  name: ChageOwerChatGroupMemo
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChageOwerChatGroupMemo_
-  commentId: Overload:WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo
-  fullName: WeChatAuto.Components.WeChatClient.ChageOwerChatGroupMemo
-  nameWithType: WeChatClient.ChageOwerChatGroupMemo
-- uid: WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName(System.String,System.String)
-  name: ChangeOwerChatGroupName(string, string)
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwerChatGroupName_System_String_System_String_
-  commentId: M:WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName(System.String,System.String)
-  name.vb: ChangeOwerChatGroupName(String, String)
-  fullName: WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName(string, string)
-  fullName.vb: WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName(String, String)
-  nameWithType: WeChatClient.ChangeOwerChatGroupName(string, string)
-  nameWithType.vb: WeChatClient.ChangeOwerChatGroupName(String, String)
-- uid: WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName*
-  name: ChangeOwerChatGroupName
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwerChatGroupName_
-  commentId: Overload:WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName
-  fullName: WeChatAuto.Components.WeChatClient.ChangeOwerChatGroupName
-  nameWithType: WeChatClient.ChangeOwerChatGroupName
+- uid: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo(System.String,System.String)
+  name: ChangeOwnerChatGroupMemo(string, string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwnerChatGroupMemo_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo(System.String,System.String)
+  name.vb: ChangeOwnerChatGroupMemo(String, String)
+  fullName: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo(String, String)
+  nameWithType: WeChatClient.ChangeOwnerChatGroupMemo(string, string)
+  nameWithType.vb: WeChatClient.ChangeOwnerChatGroupMemo(String, String)
+- uid: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo*
+  name: ChangeOwnerChatGroupMemo
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwnerChatGroupMemo_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo
+  fullName: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupMemo
+  nameWithType: WeChatClient.ChangeOwnerChatGroupMemo
+- uid: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName(System.String,System.String)
+  name: ChangeOwnerChatGroupName(string, string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwnerChatGroupName_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName(System.String,System.String)
+  name.vb: ChangeOwnerChatGroupName(String, String)
+  fullName: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName(String, String)
+  nameWithType: WeChatClient.ChangeOwnerChatGroupName(string, string)
+  nameWithType.vb: WeChatClient.ChangeOwnerChatGroupName(String, String)
+- uid: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName*
+  name: ChangeOwnerChatGroupName
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_ChangeOwnerChatGroupName_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName
+  fullName: WeChatAuto.Components.WeChatClient.ChangeOwnerChatGroupName
+  nameWithType: WeChatClient.ChangeOwnerChatGroupName
 - uid: WeChatAuto.Components.WeChatClient.CheckFriendExist(System.String,System.Boolean)
   name: CheckFriendExist(string, bool)
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_CheckFriendExist_System_String_System_Boolean_
@@ -8344,36 +8344,36 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.AddressBook
   fullName: WeChatAuto.Components.WeChatMainWindow.AddressBook
   nameWithType: WeChatMainWindow.AddressBook
-- uid: WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo(System.String,System.String)
-  name: ChageOwerChatGroupMemo(string, string)
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChageOwerChatGroupMemo_System_String_System_String_
-  commentId: M:WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo(System.String,System.String)
-  name.vb: ChageOwerChatGroupMemo(String, String)
-  fullName: WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo(string, string)
-  fullName.vb: WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo(String, String)
-  nameWithType: WeChatMainWindow.ChageOwerChatGroupMemo(string, string)
-  nameWithType.vb: WeChatMainWindow.ChageOwerChatGroupMemo(String, String)
-- uid: WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo*
-  name: ChageOwerChatGroupMemo
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChageOwerChatGroupMemo_
-  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo
-  fullName: WeChatAuto.Components.WeChatMainWindow.ChageOwerChatGroupMemo
-  nameWithType: WeChatMainWindow.ChageOwerChatGroupMemo
-- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName(System.String,System.String)
-  name: ChangeOwerChatGroupName(string, string)
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwerChatGroupName_System_String_System_String_
-  commentId: M:WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName(System.String,System.String)
-  name.vb: ChangeOwerChatGroupName(String, String)
-  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName(string, string)
-  fullName.vb: WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName(String, String)
-  nameWithType: WeChatMainWindow.ChangeOwerChatGroupName(string, string)
-  nameWithType.vb: WeChatMainWindow.ChangeOwerChatGroupName(String, String)
-- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName*
-  name: ChangeOwerChatGroupName
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwerChatGroupName_
-  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName
-  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwerChatGroupName
-  nameWithType: WeChatMainWindow.ChangeOwerChatGroupName
+- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo(System.String,System.String)
+  name: ChangeOwnerChatGroupMemo(string, string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwnerChatGroupMemo_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo(System.String,System.String)
+  name.vb: ChangeOwnerChatGroupMemo(String, String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo(String, String)
+  nameWithType: WeChatMainWindow.ChangeOwnerChatGroupMemo(string, string)
+  nameWithType.vb: WeChatMainWindow.ChangeOwnerChatGroupMemo(String, String)
+- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo*
+  name: ChangeOwnerChatGroupMemo
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwnerChatGroupMemo_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo
+  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo
+  nameWithType: WeChatMainWindow.ChangeOwnerChatGroupMemo
+- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName(System.String,System.String)
+  name: ChangeOwnerChatGroupName(string, string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwnerChatGroupName_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName(System.String,System.String)
+  name.vb: ChangeOwnerChatGroupName(String, String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName(String, String)
+  nameWithType: WeChatMainWindow.ChangeOwnerChatGroupName(string, string)
+  nameWithType.vb: WeChatMainWindow.ChangeOwnerChatGroupName(String, String)
+- uid: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName*
+  name: ChangeOwnerChatGroupName
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ChangeOwnerChatGroupName_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName
+  fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName
+  nameWithType: WeChatMainWindow.ChangeOwnerChatGroupName
 - uid: WeChatAuto.Components.WeChatMainWindow.CheckFriendExist(System.String,System.Boolean)
   name: CheckFriendExist(string, bool)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_CheckFriendExist_System_String_System_Boolean_

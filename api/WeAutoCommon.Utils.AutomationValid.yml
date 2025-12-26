@@ -14,7 +14,7 @@ items:
   fullName: WeAutoCommon.Utils.AutomationValid
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Utils/AutomationValid.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Utils/AutomationValid.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -43,7 +43,7 @@ items:
   fullName: WeAutoCommon.Utils.AutomationValid.IsValid(FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Utils/AutomationValid.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Utils/AutomationValid.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils

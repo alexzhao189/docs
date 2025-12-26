@@ -88,6 +88,79 @@
 <h1 id="通讯录管理">通讯录管理</h1>
 
 <hr>
+<h2 id="获取通讯录所有好友">获取通讯录所有好友</h2>
+<p>方法签名:</p>
+<pre><code>public List&lt;string&gt; GetAllFriends()
+</code></pre>
+<p>返回通讯中所有好友昵称</p>
+<h2 id="定位好友">定位好友</h2>
+<p>在通讯录中定位好友，即使好友在UI界面中可见</p>
+<p>方法签名:</p>
+<pre><code>public bool LocateFriend(string friendName)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>friendName: 好友昵称
+返回:</li>
+</ul>
+<p>如果找到好友，返回<code>True</code>,否则为<code>False</code></p>
+<h2 id="获取所有公众号">获取所有公众号</h2>
+<p>在通讯录中获取所有公众号列表</p>
+<p>方法签名:</p>
+<pre><code>public List&lt;string&gt; GetAllOfficialAccount()
+</code></pre>
+<h2 id="获取所有待添加好友">获取所有待添加好友</h2>
+<p>当有其他人申请你为好友时，会在待添加好友列表中</p>
+<p>方法签名:</p>
+<pre><code>public List&lt;string&gt; GetAllWillAddFriends(string keyWord = null)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>keyWord: 关键词，待添加好友是否设定此关键词，如果设置了关键词，则仅返回添加 关键词 的好友</li>
+</ul>
+<p>返回：
+返回待添加的好友列表</p>
+<h2 id="通过新好友">通过新好友</h2>
+<p>方法签名:</p>
+<pre><code>public List&lt;string&gt; PassedAllNewFriend(string keyWord = null, string suffix = null, string label = null)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>keyWord: 可选，如果设置关键字，则通过包含关键字的新好友，如果没有设置，则通过所有新好友</li>
+<li>suffix: 可选，如果设置后缀，则在添加好友时，会在好友昵称后添加后缀,方便分类管理</li>
+<li>label: 可选，如果设置标签，则在添加好友时，会为此好友设置标签，方便分类管理</li>
+</ul>
+<h2 id="移除好友">移除好友</h2>
+<p>方法签名:</p>
+<pre><code>public bool RemoveFriend(string nickName)
+</code></pre>
+<ul>
+<li>nickName: 好友昵称</li>
+</ul>
+<h2 id="添加好友">添加好友</h2>
+<p>在已知好友微信号或者电话号码的情况下添加好</p>
+<blockquote>
+<p>注意：不能添加太频繁，否则可能会触发微信的风控机制，导致加好友失败</p>
+</blockquote>
+<pre><code>public List&lt;(string friendName, bool isSuccess, string errMessage)&gt; AddFriends(List&lt;string&gt; friendNames, string label = &quot;&quot;)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>friendNames: 微信号/手机号列表</li>
+<li>label: 可选，用户标签，如果设置了<code>label</code>,则在添加用户的时候设置标签,方便分类管理</li>
+</ul>
+<h2 id="添加好友二">添加好友二</h2>
+<p>在已知好友微信号或者电话号码的情况下添加好</p>
+<blockquote>
+<p>注意：不能添加太频繁，否则可能会触发微信的风控机制，导致加好友失败</p>
+</blockquote>
+<pre><code>    public bool AddFriend(string friendName, string label = &quot;&quot;)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>friendNames: 微信号/手机号列表</li>
+<li>label: 可选，用户标签，如果设置了<code>label</code>,则在添加用户的时候设置标签,方便分类管理</li>
+</ul>
 
 </article>
 

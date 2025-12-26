@@ -19,7 +19,7 @@ items:
   fullName: WeChatAuto.Components.Search
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Components.Search.Search(WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -82,7 +82,7 @@ items:
   fullName: WeChatAuto.Components.Search.SearchSomething(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -114,7 +114,7 @@ items:
   fullName: WeChatAuto.Components.Search.ClearText()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -136,7 +136,7 @@ items:
   fullName: WeChatAuto.Components.Search.SearchChat(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -147,7 +147,7 @@ items:
     parameters:
     - id: who
       type: System.String
-      description: 好友名称,可以是群聊名称也可以是好友名称
+      description: 好友昵称,可以是群聊名称也可以是好友昵称
     content.vb: Public Sub SearchChat(who As String)
   overload: WeChatAuto.Components.Search.SearchChat*
   nameWithType.vb: Search.SearchChat(String)
@@ -165,7 +165,7 @@ items:
   fullName: WeChatAuto.Components.Search.SearchContact(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -194,7 +194,7 @@ items:
   fullName: WeChatAuto.Components.Search.SearchCollection(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Components/Search.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeChatAuto/Components/Search.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

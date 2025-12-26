@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -54,7 +54,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.ChatActionMessage()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -77,7 +77,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Type
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -102,7 +102,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.ToUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -127,7 +127,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.AtUsers
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -150,7 +150,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -175,7 +175,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Payload
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -200,7 +200,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Tcs
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -225,7 +225,7 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.IsOpenSubWin
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/cbcd569c0a3581c73f248ad4d690414b3675e26c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

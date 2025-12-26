@@ -253,10 +253,10 @@ public Task&lt;string&gt; ForwardMessage(string fromWho, string toWho, int rowCo
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>fromWho</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>转发消息的来源,可以是好友名称，也可以是群聊名称</p>
+    <dd><p>转发消息的来源,可以是好友昵称，也可以是群聊名称</p>
 </dd>
     <dt><code>toWho</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>转发消息的接收者,可以是好友名称，也可以是群聊名称</p>
+    <dd><p>转发消息的接收者,可以是好友昵称，也可以是群聊名称</p>
 </dd>
     <dt><code>rowCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>转发消息的行数,默认是5行,可以指定转发行数</p>
@@ -631,7 +631,7 @@ public Task&lt;string&gt; StartVideoChat(string who)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>who</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>好友名称,微信好友昵称</p>
+    <dd><p>好友昵称,微信好友昵称</p>
 </dd>
   </dl>
 
@@ -674,7 +674,7 @@ public Task&lt;string&gt; StartVoiceChats(string groupName, string[] whos)</code
     <dd><p>群聊名称</p>
 </dd>
     <dt><code>whos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd><p>好友名称列表,可以指定多个好友名称</p>
+    <dd><p>好友昵称列表,可以指定多个好友昵称</p>
 </dd>
   </dl>
 

@@ -16,7 +16,7 @@ public async Task AddMessageListener(string nickName, Action<MessageContext> cal
 ```
 
 其中：
-  - nickName: 好友名称
+  - nickName: 好友昵称
   - callBack: 回调函数,由用户提供,参数请参考[MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
 
 ### 移除消息听听
@@ -31,7 +31,7 @@ public async Task AddMessageListener(string nickName, Action<MessageContext> cal
 
 其中:
 
-  - nickName: 好友名称
+  - nickName: 好友昵称
 
 ## 🚀 新好友申请监听
 

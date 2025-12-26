@@ -1,7 +1,7 @@
 # 消息管理
 ---
 
-> 注：教程中"好友名称"与"好友昵称"具有同样的语义
+> 注：教程中"好友昵称"与"好友昵称"具有同样的语义
 
 ## 🚀 消息发送模型
 WeChatAuto.SDK支持两种消息发送模型:
@@ -26,7 +26,7 @@ WeChatAuto.SDK支持两种消息发送模型:
  ```
  
  其中：
-   - who: 好友名称，可以是好友或者群昵称
+   - who: 好友昵称，可以是好友或者群昵称
    - message: 消息内容
    - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
    - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -64,7 +64,7 @@ await client.SendWho("测试11","你好，世界！",new string[]{"123321","Alex
 public async Task SendEmoji(string who, OneOf<int, string> emoji, OneOf<string, string[]> atUser = default, bool isOpenChat = false)
 ```
 其中:
-  - who: 好友名称，可以是好友或者群昵称
+  - who: 好友昵称，可以是好友或者群昵称
   - emoji: 可以是表情名称或者描述或者索引,具体索引或者描述等请参考下面的Emoji表
   - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -246,7 +246,7 @@ public async Task SendFile(string who, OneOf<string, string[]> files, bool isOpe
 ```
 
 其中：
-  - who: 好友名称
+  - who: 好友昵称
   - files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
@@ -261,7 +261,7 @@ public async Task SendWhos(string[] whos, string message, OneOf<string, string[]
 ```
 
 其中：
-  - whos: 好友名称列表
+  - whos: 好友昵称列表
   - message: 消息内容
   - atUser: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，微信不支持他人群@所有人
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -275,7 +275,7 @@ public async Task SendFiles(string[] whos, OneOf<string, string[]> files, bool i
 ```
 
 其中：
-  - whos: 好友名称列表
+  - whos: 好友昵称列表
   - files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
@@ -290,7 +290,7 @@ public List<ChatSimpleMessage> GetChatAllHistory(string who,int pageCount = 10)
 ```
 
 其中：
-  - who: 好友名称，可以是好友，也可以是群聊名称
+  - who: 好友昵称，可以是好友，也可以是群聊名称
   - pageCount: 获取的气泡数量，默认是10页,可以指定获取的页数，如果指定为-1，则获取所有气泡
 
 ### 11. 转发消息给好友
@@ -304,8 +304,8 @@ public async Task<bool> ForwardMessage(string fromWho, string toWho, int rowCoun
 ```
 
 其中：
-  - fromWho: 转发消息的来源,可以是好友名称，也可以是群聊名称
-  - toWho: 转发消息的接收者,可以是好友名称，也可以是群聊名称
+  - fromWho: 转发消息的来源,可以是好友昵称，也可以是群聊名称
+  - toWho: 转发消息的接收者,可以是好友昵称，也可以是群聊名称
   - rowCount: 转发消息的行数
 
 

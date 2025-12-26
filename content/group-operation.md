@@ -3,7 +3,7 @@
 
 群聊管理仅适用于聊天室进行管理,可以实现获取群聊成员对象，自动加好友等操作
 
-> 可以通过[WeChatClinet对象](../api/WeChatAuto.Components.WeChatClient.html)调用下面方法,当然也可以通过[WeChatMainWindow](../api/WeChatAuto.Components.WeChatMainWindow.html)类来调用。
+> 可以通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用下面方法,当然也可以通过[WeChatMainWindow](../api/WeChatAuto.Components.WeChatMainWindow.html)类来调用。
 
 ## 基础术语
 - 自有群：自己担任群主的群聊
@@ -104,7 +104,7 @@ public ChatResponse SetChatTop(string groupName, bool isTop = true)
 
 方法签名:
 ```
-public ChatResponse ChageOwerChatGroupMemo(string groupName, string newMemo)
+public ChatResponse ChangeOwnerChatGroupMemo(string groupName, string newMemo)
 ```
 
 其中:
@@ -120,7 +120,7 @@ public ChatResponse ChageOwerChatGroupMemo(string groupName, string newMemo)
 方法签名:
 
 ```
-public ChatResponse ChangeOwerChatGroupName(string oldGroupName, string newGroupName)
+public ChatResponse ChangeOwnerChatGroupName(string oldGroupName, string newGroupName)
 ```
 
 其中:
@@ -225,7 +225,7 @@ public async Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, On
 
 其中：
   - groupName: 群聊名称
-  - memberName: 要增加的群里的好友列表,可以单个好友，也可以设置多个
+  - memberName: 要添加的群里的好友列表,可以单个好友，也可以设置多个
   - intervalSecond: 间隔时间，增加每个好友时的间隔时间
   - helloText: 给要增加的好友打招呼的方式
   - label: 好友标签，方便分类管理
@@ -241,17 +241,17 @@ public async Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, On
 其中:
   - groupName: 群聊名称
   - exceptList: 可选，排除的好友列表，如：群主本来就在自己通讯录，可以设置排除
-  - intervalSecond: 间隔时间，增加每个好友时的间隔时间
+  - intervalSecond: 间隔时间，添加每个好友时的间隔时间
   - helloText: 给好友打招呼的方式
   - label: 为新增好友设置的标签，方便分类管理
   - pageNo: 起始页码,从1开始,如果从0开始，表示不使用分页，全部添加好友，但容易触发微信风控机制，建议使用分页添加
-  - pageSize: 每页数量,为增加的每页好友的数量
+  - pageSize: 每页数量,为添加的每页好友的数量
 
 ## 群里加好友三
 
 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
->  注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式增加好友。
+>  注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式添加好友。
 
 方法定义:
 ```

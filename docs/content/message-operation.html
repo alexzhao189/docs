@@ -89,7 +89,7 @@
 
 <hr>
 <blockquote>
-<p>注：教程中&quot;好友名称&quot;与&quot;好友昵称&quot;具有同样的语义</p>
+<p>注：教程中&quot;好友昵称&quot;与&quot;好友昵称&quot;具有同样的语义</p>
 </blockquote>
 <h2 id="-消息发送模型">🚀 消息发送模型</h2>
 <p>WeChatAuto.SDK支持两种消息发送模型:</p>
@@ -114,7 +114,7 @@
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>who: 好友名称，可以是好友或者群昵称</li>
+<li>who: 好友昵称，可以是好友或者群昵称</li>
 <li>message: 消息内容</li>
 <li>atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友</li>
 <li>isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开</li>
@@ -153,7 +153,7 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中:</p>
 <ul>
-<li><p>who: 好友名称，可以是好友或者群昵称</p>
+<li><p>who: 好友昵称，可以是好友或者群昵称</p>
 </li>
 <li><p>emoji: 可以是表情名称或者描述或者索引,具体索引或者描述等请参考下面的Emoji表</p>
 </li>
@@ -775,7 +775,7 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>who: 好友名称</li>
+<li>who: 好友昵称</li>
 <li>files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在</li>
 <li>isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开</li>
 </ul>
@@ -788,7 +788,7 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>whos: 好友名称列表</li>
+<li>whos: 好友昵称列表</li>
 <li>message: 消息内容</li>
 <li>atUser: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，微信不支持他人群@所有人</li>
 <li>isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开</li>
@@ -801,7 +801,7 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>whos: 好友名称列表</li>
+<li>whos: 好友昵称列表</li>
 <li>files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在</li>
 <li>isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开</li>
 </ul>
@@ -814,7 +814,7 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>who: 好友名称，可以是好友，也可以是群聊名称</li>
+<li>who: 好友昵称，可以是好友，也可以是群聊名称</li>
 <li>pageCount: 获取的气泡数量，默认是10页,可以指定获取的页数，如果指定为-1，则获取所有气泡</li>
 </ul>
 <h3 id="11-转发消息给好友">11. 转发消息给好友</h3>
@@ -826,8 +826,8 @@ await client.SendWho(&quot;测试11&quot;,&quot;你好，世界！&quot;,new str
 </code></pre>
 <p>其中：</p>
 <ul>
-<li>fromWho: 转发消息的来源,可以是好友名称，也可以是群聊名称</li>
-<li>toWho: 转发消息的接收者,可以是好友名称，也可以是群聊名称</li>
+<li>fromWho: 转发消息的来源,可以是好友昵称，也可以是群聊名称</li>
+<li>toWho: 转发消息的接收者,可以是好友昵称，也可以是群聊名称</li>
 <li>rowCount: 转发消息的行数</li>
 </ul>
 <h2 id="-聊天过程消息回复">😁 聊天过程消息回复</h2>

@@ -89,7 +89,7 @@
 <h2 id="群聊管理">群聊管理</h2>
 <p>群聊管理仅适用于聊天室进行管理,可以实现获取群聊成员对象，自动加好友等操作</p>
 <blockquote>
-<p>可以通过<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClinet对象</a>调用下面方法,当然也可以通过<a href="../api/WeChatAuto.Components.WeChatMainWindow.html">WeChatMainWindow</a>类来调用。</p>
+<p>可以通过<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient对象</a>调用下面方法,当然也可以通过<a href="../api/WeChatAuto.Components.WeChatMainWindow.html">WeChatMainWindow</a>类来调用。</p>
 </blockquote>
 <h2 id="基础术语">基础术语</h2>
 <ul>
@@ -173,7 +173,7 @@
 <p>修改自有群备注（当然...我们也修改不了外部群的备注）</p>
 </blockquote>
 <p>方法签名:</p>
-<pre><code>public ChatResponse ChageOwerChatGroupMemo(string groupName, string newMemo)
+<pre><code>public ChatResponse ChangeOwnerChatGroupMemo(string groupName, string newMemo)
 </code></pre>
 <p>其中:</p>
 <ul>
@@ -184,7 +184,7 @@
 <h2 id="修改群名">修改群名</h2>
 <p>修改群名，适用于自有群群名</p>
 <p>方法签名:</p>
-<pre><code>public ChatResponse ChangeOwerChatGroupName(string oldGroupName, string newGroupName)
+<pre><code>public ChatResponse ChangeOwnerChatGroupName(string oldGroupName, string newGroupName)
 </code></pre>
 <p>其中:</p>
 <ul>
@@ -271,7 +271,7 @@
 <p>其中：</p>
 <ul>
 <li>groupName: 群聊名称</li>
-<li>memberName: 要增加的群里的好友列表,可以单个好友，也可以设置多个</li>
+<li>memberName: 要添加的群里的好友列表,可以单个好友，也可以设置多个</li>
 <li>intervalSecond: 间隔时间，增加每个好友时的间隔时间</li>
 <li>helloText: 给要增加的好友打招呼的方式</li>
 <li>label: 好友标签，方便分类管理</li>
@@ -286,16 +286,16 @@
 <ul>
 <li>groupName: 群聊名称</li>
 <li>exceptList: 可选，排除的好友列表，如：群主本来就在自己通讯录，可以设置排除</li>
-<li>intervalSecond: 间隔时间，增加每个好友时的间隔时间</li>
+<li>intervalSecond: 间隔时间，添加每个好友时的间隔时间</li>
 <li>helloText: 给好友打招呼的方式</li>
 <li>label: 为新增好友设置的标签，方便分类管理</li>
 <li>pageNo: 起始页码,从1开始,如果从0开始，表示不使用分页，全部添加好友，但容易触发微信风控机制，建议使用分页添加</li>
-<li>pageSize: 每页数量,为增加的每页好友的数量</li>
+<li>pageSize: 每页数量,为添加的每页好友的数量</li>
 </ul>
 <h2 id="群里加好友三">群里加好友三</h2>
 <p>添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友</p>
 <blockquote>
-<p>注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式增加好友。</p>
+<p>注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式添加好友。</p>
 </blockquote>
 <p>方法定义:</p>
 <pre><code>public async Task&lt;ChatResponse&gt; AddAllChatGroupMemberToFriends(string groupName, Action&lt;AddGroupMemberOptions&gt; options)
