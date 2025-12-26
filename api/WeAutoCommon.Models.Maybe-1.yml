@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -61,7 +61,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Some(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -88,7 +88,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.None()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -112,7 +112,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Maybe<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -142,7 +142,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Map<U>(System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -172,7 +172,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Match<U>(System.Func<T, U>, System.Func<U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -204,7 +204,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -231,7 +231,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Value
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -256,7 +256,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.HasValue
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

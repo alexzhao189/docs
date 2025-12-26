@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -44,7 +44,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.好友
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -64,7 +64,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.群聊
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -84,7 +84,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.公众号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -104,7 +104,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.订阅号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -124,7 +124,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.服务通知
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -144,7 +144,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.腾讯新闻
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -164,7 +164,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.微信团队
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -184,7 +184,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatType.其他
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeAutoCommon/Enums/ChatType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeAutoCommon/Enums/ChatType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

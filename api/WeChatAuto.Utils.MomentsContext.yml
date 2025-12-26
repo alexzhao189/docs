@@ -25,14 +25,14 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
-    朋友圈上下文
+    朋友圈动态上下文
 
-    最主要提供给终端用户使用，用于获取朋友圈内容列表，并进行点赞、回复评论等操作
+    最主要提供给终端用户使用，用于获取朋友圈动态内容列表，并进行点赞、回复评论等操作
   example: []
   syntax:
     content: public class MomentsContext
@@ -61,7 +61,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.MomentsContext(WeAutoCommon.Models.MomentItem, double, FlaUI.Core.AutomationElements.ListBox, FlaUI.Core.Patterns.IScrollPattern, FlaUI.Core.AutomationElements.Window, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -97,7 +97,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetHistoryReplyItems()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -125,22 +125,22 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentItem()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
-    获取朋友圈内容项
+    获取朋友圈动态内容项
 
     此内容项可以做为大模型提供上下文信息。
 
-    如：朋友圈发表内容、朋友圈时间等。
+    如：朋友圈动态发表内容、朋友圈动态时间等。
   example: []
   syntax:
     content: public MomentItem GetMomentItem()
     return:
       type: WeAutoCommon.Models.MomentItem
-      description: 朋友圈内容项<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
+      description: 朋友圈动态内容项<xref href="WeAutoCommon.Models.MomentItem" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Function GetMomentItem() As MomentItem
   overload: WeChatAuto.Utils.MomentsContext.GetMomentItem*
 - uid: WeChatAuto.Utils.MomentsContext.GetMomentContent
@@ -155,22 +155,22 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentContent()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
-    获取朋友圈内容
+    获取朋友圈动态内容
 
     此内容可以做为大模型提供上下文信息。
 
-    如：朋友圈发表内容、朋友圈时间等。
+    如：朋友圈动态发表内容、朋友圈动态时间等。
   example: []
   syntax:
     content: public string GetMomentContent()
     return:
       type: System.String
-      description: 朋友圈内容
+      description: 朋友圈动态内容
     content.vb: Public Function GetMomentContent() As String
   overload: WeChatAuto.Utils.MomentsContext.GetMomentContent*
 - uid: WeChatAuto.Utils.MomentsContext.GetMomentKey
@@ -185,22 +185,22 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetMomentKey()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
-    获取朋友圈列表项唯一标识
+    获取朋友圈动态列表项唯一标识
 
     此标识可以做为大模型提供上下文信息。
 
-    如：朋友圈记录唯一标识。
+    如：朋友圈动态记录唯一标识。
   example: []
   syntax:
     content: public string GetMomentKey()
     return:
       type: System.String
-      description: 朋友圈列表项唯一标识
+      description: 朋友圈动态列表项唯一标识
     content.vb: Public Function GetMomentKey() As String
   overload: WeChatAuto.Utils.MomentsContext.GetMomentKey*
 - uid: WeChatAuto.Utils.MomentsContext.IsMyEndReply
@@ -215,17 +215,17 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsMyEndReply()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
-  summary: 是否是我最后一个回复的人，供大模型自动回复时参考。
+  summary: 是否是我最后一个回复的人，供大模型自动回复朋友圈动态时参考。
   example: []
   syntax:
     content: public bool IsMyEndReply()
     return:
       type: System.Boolean
-      description: 是否是我最后一个回复的人
+      description: 是否是我最后一个回复朋友圈动态的人
     content.vb: Public Function IsMyEndReply() As Boolean
   overload: WeChatAuto.Utils.MomentsContext.IsMyEndReply*
 - uid: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply
@@ -240,11 +240,11 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsIncludeMyReply()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
-  summary: 是否包含我的回复，供大模型自动回复时参考。
+  summary: 回复列表中是否包含我的回复，供大模型自动回复时参考。
   example: []
   syntax:
     content: public bool IsIncludeMyReply()
@@ -265,17 +265,17 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.IsMyLiked()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
-  summary: 是否是我点赞的，供大模型自动回复时参考。
+  summary: 是否我点赞过朋友圈动态，供大模型自动回复时参考。
   example: []
   syntax:
     content: public bool IsMyLiked()
     return:
       type: System.Boolean
-      description: 是否是我点赞的
+      description: 是否我点赞过朋友圈动态
     content.vb: Public Function IsMyLiked() As Boolean
   overload: WeChatAuto.Utils.MomentsContext.IsMyLiked*
 - uid: WeChatAuto.Utils.MomentsContext.DoReply(System.String)
@@ -290,7 +290,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.DoReply(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -319,7 +319,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.DoLike()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -341,7 +341,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.GetScrollAmount()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -363,7 +363,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsContext.Moment
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/WeChatAuto/Utils/MomentsContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/WeChatAuto/Utils/MomentsContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

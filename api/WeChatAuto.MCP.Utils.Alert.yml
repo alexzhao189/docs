@@ -14,7 +14,7 @@ items:
   fullName: WeChatAuto.MCP.Utils.Alert
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/wechatauto.mcp/Utils/Alert.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/wechatauto.mcp/Utils/Alert.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Utils
@@ -43,7 +43,7 @@ items:
   fullName: WeChatAuto.MCP.Utils.Alert.Show(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/cb2bba9243f336236a4082f42d68c4f1824461a3/wechatauto.mcp/Utils/Alert.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/4246867ad3d8c6bddef4cd3f813b26b83ccc5c34/wechatauto.mcp/Utils/Alert.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Utils

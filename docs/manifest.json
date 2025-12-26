@@ -1546,7 +1546,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "WeChatAuto.Utils.MomentsContext",
-      "Summary": "<p sourcefile=\"api/WeChatAuto.Utils.MomentsContext.yml\" sourcestartlinenumber=\"1\">朋友圈上下文\n最主要提供给终端用户使用，用于获取朋友圈内容列表，并进行点赞、回复评论等操作</p>\n"
+      "Summary": "<p sourcefile=\"api/WeChatAuto.Utils.MomentsContext.yml\" sourcestartlinenumber=\"1\">朋友圈动态上下文\n最主要提供给终端用户使用，用于获取朋友圈动态内容列表，并进行点赞、回复评论等操作</p>\n"
     },
     {
       "type": "ManagedReference",
