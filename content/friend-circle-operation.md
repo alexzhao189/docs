@@ -3,7 +3,7 @@
 
 ## 打开朋友圈
 
-方法定义
+方法定义:
 ```
 public void OpenMoments()
 ```
@@ -17,7 +17,7 @@ public void OpenMoments()
 public bool IsMomentsOpen()
 ```
 
-判断朋友圈打开状态，如果朋友窗口存在，则返回```True```,否则返回```False```
+判断朋友圈打开状态，如果朋友圈窗口存在，则返回```True```, 否则返回```False```
 
 ## 获取朋友圈内容列表
 
