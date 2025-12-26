@@ -263,7 +263,7 @@
 <h2 id="群中加好友">群中加好友</h2>
 <p>添加群聊里面的指定好友为自己的好友,适用于从他有群中添加所有好友为自己的好友</p>
 <blockquote>
-<p>注意：此方法容易引起微信风控退出，为了安全建议用下面的方法</p>
+<p>注意：此方法容易引起微信风控退出，为了安全建议用下面分页添加好友的方法： <a href="#%E7%BE%A4%E9%87%8C%E5%8A%A0%E5%A5%BD%E5%8F%8B%E4%BA%8C">分页添加好友</a></p>
 </blockquote>
 <p>方法定义:</p>
 <pre><code>public async Task&lt;ChatResponse&gt; AddChatGroupMemberToFriends(string groupName, OneOf&lt;string, string[]&gt; memberName, int intervalSecond = 5, string helloText = &quot;&quot;, string label = &quot;&quot;)

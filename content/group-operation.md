@@ -215,7 +215,7 @@ public async Task<ChatResponse> InviteChatGroupMember(string groupName, OneOf<st
 ## 群中加好友
 添加群聊里面的指定好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
 
-> 注意：此方法容易引起微信风控退出，为了安全建议用下面的方法
+> 注意：此方法容易引起微信风控退出，为了安全建议用下面分页添加好友的方法： [分页添加好友](#群里加好友二)
 
 方法定义:
 
