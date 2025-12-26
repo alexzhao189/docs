@@ -88,6 +88,56 @@
 <h1 id="朋友圈管理">朋友圈管理</h1>
 
 <hr>
+<h2 id="打开朋友圈">打开朋友圈</h2>
+<p>方法定义</p>
+<pre><code>public void OpenMoments()
+</code></pre>
+<p>通过主窗口打开朋友圈窗口</p>
+<h2 id="判断朋友圈是否打开">判断朋友圈是否打开</h2>
+<p>方法定义:</p>
+<pre><code>public bool IsMomentsOpen()
+</code></pre>
+<p>判断朋友圈打开状态，如果朋友窗口存在，则返回<code>True</code>,否则返回<code>False</code></p>
+<h2 id="获取朋友圈内容列表">获取朋友圈内容列表</h2>
+<p>方法定义:</p>
+<pre><code>public List&lt;MomentItem&gt; GetMomentsList(int count = 20)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>count: 可选，鼠标滚动次数,一次滚动5行，由于朋友圈动态可能过长，所以做了此限制</li>
+</ul>
+<p>返回:
+一个<code>MomentItem</code>对象列表，<code>MomentItem</code>包含了朋友圈动态所需要的信息，具体请参考: <a href="../api/WxAutoCommon.Models.MomentItem.html">MomentItem类</a></p>
+<h2 id="静默模式获取朋友圈内容列表">静默模式获取朋友圈内容列表</h2>
+<p>静默模式意味着在朋友圈窗口不置顶的情况下获取内容</p>
+<p>方法定义:</p>
+<pre><code>public List&lt;MomentItem&gt; GetMomentsListSilence()
+</code></pre>
+<p>返回:
+一个<code>MomentItem</code>对象列表，<code>MomentItem</code>包含了朋友圈动态所需要的信息，具体请参考: <a href="../api/WxAutoCommon.Models.MomentItem.html">MomentItem类</a></p>
+<h2 id="刷新朋友圈">刷新朋友圈</h2>
+<p>方法定义:</p>
+<pre><code>public void RefreshMomentsList()
+</code></pre>
+<p>点击朋友圈窗口的刷新按钮</p>
+<h2 id="朋友圈点赞">朋友圈点赞</h2>
+<p>对设定的好友的朋友圈动态进行自动点赞</p>
+<p>方法定义:</p>
+<pre><code>public void LikeMoments(OneOf&lt;string, string[]&gt; nickNames)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>nickNames: 好友昵称或好友昵称列表</li>
+</ul>
+<h2 id="回复朋友圈动态">回复朋友圈动态</h2>
+<p>方法定义:</p>
+<pre><code>public void ReplyMoments(OneOf&lt;string, string[]&gt; nickNames, string replyContent)
+</code></pre>
+<p>其中:</p>
+<ul>
+<li>nickNames: 好友昵称或好友昵称列表</li>
+<li>replyContent: 回复内容</li>
+</ul>
 
 </article>
 
