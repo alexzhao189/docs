@@ -459,7 +459,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     return:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SendWho(who As String, message As String, atUser As OneOf(Of String, String()) = Nothing) As Task
@@ -560,7 +560,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     return:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SendWhos(whos As String(), message As String, atUser As OneOf(Of String, String()) = Nothing) As Task
@@ -597,7 +597,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     return:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SendWhoAndOpenChat(who As String, message As String, atUser As OneOf(Of String, String()) = Nothing) As Task
@@ -634,7 +634,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     return:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SendWhosAndOpenChat(whos As String(), message As String, atUser As OneOf(Of String, String()) = Nothing) As Task
@@ -1009,7 +1009,7 @@ items:
       description: 表情名称
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口
@@ -1049,7 +1049,7 @@ items:
       description: 表情名称
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口
@@ -1855,7 +1855,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 邀请群聊成员,适用于他有群
+  summary: 邀请群聊成员,适用于外部群
   example: []
   syntax:
     content: public Task<ChatResponse> InviteChatGroupMember(string groupName, OneOf<string, string[]> memberName, string helloText = "")
@@ -1893,7 +1893,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的好友为自己的好友,适用于从他有群中添加好友为自己的好友
+  summary: 添加群聊里面的好友为自己的好友,适用于从外部群中添加好友为自己的好友
   example: []
   syntax:
     content: public Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, OneOf<string, string[]> memberName, int intervalSecond = 3, string helloText = "")
@@ -1934,7 +1934,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的好友为自己的好友,适用于从他有群中添加好友为自己的好友
+  summary: 添加群聊里面的好友为自己的好友,适用于从外部群中添加好友为自己的好友
   example: []
   syntax:
     content: public Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, OneOf<string, string[]> memberName, int intervalSecond = 5, string helloText = "", string label = "")
@@ -1978,7 +1978,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
   example: []
   syntax:
     content: public Task<ChatResponse> AddAllChatGroupMemberToFriends(string groupName, List<string> exceptList = null, int intervalSecond = 3, string helloText = "")
@@ -2020,7 +2020,7 @@ items:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
-    添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+    添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
     风控提醒：
 
@@ -2078,7 +2078,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
   example: []
   syntax:
     content: public Task<ChatResponse> AddAllChatGroupMemberToFriends(string groupName, Action<AddGroupMemberOptions> options)

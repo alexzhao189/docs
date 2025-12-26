@@ -719,7 +719,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -759,7 +759,7 @@ items:
       description: 消息内容
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -799,7 +799,7 @@ items:
       description: 表情名称或者描述或者索引,具体索引或者描述等请参考<xref href="WeAutoCommon.Utils.EmojiListHelper" data-throw-if-not-resolved="false"></xref>或者<xref href="WeAutoCommon.Models.EmojiItem" data-throw-if-not-resolved="false"></xref>
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口
@@ -839,7 +839,7 @@ items:
       description: 表情名称或者描述或者索引,具体索引或者描述等请参考<xref href="WeAutoCommon.Utils.EmojiListHelper" data-throw-if-not-resolved="false"></xref>或者<xref href="WeAutoCommon.Models.EmojiItem" data-throw-if-not-resolved="false"></xref>
     - id: atUser
       type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，他有群不能@所有人
+      description: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，外部群不能@所有人
     - id: isOpenChat
       type: System.Boolean
       description: 是否打开子聊天窗口
@@ -1980,7 +1980,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 邀请群聊成员,适用于他有群
+  summary: 邀请群聊成员,适用于外部群
   example: []
   syntax:
     content: public Task<ChatResponse> InviteChatGroupMember(string groupName, OneOf<string, string[]> memberName, string helloText = "")
@@ -2018,7 +2018,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的好友为自己的好友,适用于从他有群中添加好友为自己的好友
+  summary: 添加群聊里面的好友为自己的好友,适用于从外部群中添加好友为自己的好友
   example: []
   syntax:
     content: public Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, OneOf<string, string[]> memberName, int intervalSecond = 5, string helloText = "", string label = "")
@@ -2063,7 +2063,7 @@ items:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
-    添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+    添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
     风控提醒：
 
@@ -2122,7 +2122,7 @@ items:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
-    添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+    添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
     注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式增加好友。
   example: []

@@ -513,7 +513,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 邀请群聊成员,适用于他有群
+  summary: 邀请群聊成员,适用于外部群
   example: []
   syntax:
     content: public ChatResponse InviteChatGroupMember(OneOf<string, string[]> memberName, string helloText = "")
@@ -548,7 +548,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的好友为自己的好友,适用于他有群
+  summary: 添加群聊里面的好友为自己的好友,适用于外部群
   example: []
   syntax:
     content: >-
@@ -598,7 +598,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的好友为自己的好友,适用于从他有群中添加好友为自己的好友
+  summary: 添加群聊里面的好友为自己的好友,适用于从外部群中添加好友为自己的好友
   example: []
   syntax:
     content: public ChatResponse AddChatGroupMemberToFriends(OneOf<string, string[]> memberName, int intervalSecond = 3, string helloText = "", string label = "")
@@ -639,7 +639,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
   example: []
   syntax:
     content: public ChatResponse AddAllChatGroupMemberToFriends(List<string> exceptList = null, int intervalSecond = 3, string helloText = "")
@@ -677,7 +677,7 @@ items:
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
-  summary: 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+  summary: 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
   example: []
   syntax:
     content: public ChatResponse AddAllChatGroupMemberToFriends(List<string> exceptList = null, int intervalSecond = 3, string helloText = "", string label = "", int pageNo = 1, int pageSize = 15)

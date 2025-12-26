@@ -100,7 +100,7 @@ public ChatResponse SetChatTop(string groupName, bool isTop = true)
 
 ## 改变自有群群备注
 
-> 修改自有群备注（当然...我们也修改不了他有群的备注）
+> 修改自有群备注（当然...我们也修改不了外部群的备注）
 
 方法签名:
 ```
@@ -198,7 +198,7 @@ public async Task<ChatResponse> RemoveOwnerChatGroupMember(string groupName, One
 
 ## 邀请群聊成员
 
-适用在他有群邀请好友入群
+适用在外部群邀请好友入群
 
 方法定义:
 
@@ -213,7 +213,7 @@ public async Task<ChatResponse> InviteChatGroupMember(string groupName, OneOf<st
   - helloText: 给群主打招呼的文本
 
 ## 群中加好友
-添加群聊里面的指定好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+添加群聊里面的指定好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
 > 注意：此方法容易引起微信风控退出，为了安全建议用下面分页添加好友的方法： [分页添加好友](#群里加好友二)
 
@@ -231,7 +231,7 @@ public async Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, On
   - label: 好友标签，方便分类管理
 
 ## 群里加好友二
- 添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+ 添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
  方法定义:
  ```
@@ -249,7 +249,7 @@ public async Task<ChatResponse> AddChatGroupMemberToFriends(string groupName, On
 
 ## 群里加好友三
 
-添加群聊里面的所有好友为自己的好友,适用于从他有群中添加所有好友为自己的好友
+添加群聊里面的所有好友为自己的好友,适用于从外部群中添加所有好友为自己的好友
 
 >  注意：此方法容易触发微信风控机制，建议使用分页添加，并使用键鼠模拟器的方式增加好友。
 
