@@ -4,7 +4,7 @@
 <br/>
 
 ## 🎈 前置条件
-- 本SDK基于Window的UI Automation开发，所以仅支持Windows 操作系统，并且须将项目的```TargetFramework```修改成:目标框架-windows,如你在.net8下使用，请将```TargetFramework```修改成```net8.0-windows```;
+- 本SDK基于Windows的UI Automation开发，所以仅支持Windows 操作系统，并且需要将项目的```TargetFramework```修改成:目标框架-windows,如你在.net8下使用，请将```TargetFramework```修改成```net8.0-windows```;
 - .NET Framework 4.8+ 或 .NET 6.0+ (Windows)，支持.NET的框架有:net48;net481;net6.0-windows; net7.0-windows;net8.0-windows;net9.0-windows;net10.0-windows;
 - 微信 PC 客户端已安装并运行,本 SDK 基于微信 PC 客户端(版本号:3.9.12.55)的 UI 结构开发，不同版本可能存在兼容性问题。
 
@@ -104,7 +104,7 @@ dotnet new console -n demo01
 - 步骤三：安装依赖
 
 ```
-dotnet add package WeChatAuto.SdK
+dotnet add package WeChatAuto.SDK
 dotnet add package Microsoft.Extensions.DependencyInjection
 ```
 
@@ -125,16 +125,16 @@ var serviceProvider = WeAutomation.Initialize(options =>
 using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory>();
 Console.WriteLine($"当前客户端打开的微信客户端为：{string.Join(",", clientFactory.GetWeChatClientNames())}，共计{clientFactory.GetWeChatClientNames().Count}个微信客户端。");
 //获取当前打开的微信客户端名称列表
-var clentNames = clientFactory.GetWeChatClientNames();    
+var clientNames = clientFactory.GetWeChatClientNames();    
 //获取第一个微信客户端
-var wxClient = clientFactory.GetWeChatClient(clentNames.First());  
+var wxClient = clientFactory.GetWeChatClient(clientNames.First());  
  //通过微信客户端发送消息给好友昵称AI.Net，测试时请把AI.Net修改成自己的好友昵称
 wxClient?.SendWho("AI.Net","你好，欢迎使用AI.Net微信自动化框架！"); 
 ```
 
 > **注意**：  
   > 1. 本项目仅支持 Windows 系统，请务必将项目文件的 TargetFramework 设置为 netxx.0-windows（如 net10.0-windows），否则编译时会出现警告。后续不再赘述。  
-  > 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者象示例代码一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的依赖注入容器，则不存在此问题。
+  > 2. 如果是手动管理WeChatClientFactory,请在应用结束时运行clientFactory.Dispose(),或者像示例代码一样将代码放入using块自动释放,如果把WeChatAuto.SDK加入您的依赖注入容器，则不存在此问题。
   > 3. WeAutomation.Initialize()方法有两个重载，分别适用于：加入外部依赖注入与使用内部依赖注入。
 
 
@@ -145,7 +145,7 @@ wxClient?.SendWho("AI.Net","你好，欢迎使用AI.Net微信自动化框架！"
 - 前置步骤：安装依赖
 
 ```
-dotnet add package WeChatAuto.SdK
+dotnet add package WeChatAuto.SDK
 dotnet add package Microsoft.Extensions.Hosting
 ```
 - 将项目demo02的Program.cs修改成如下
@@ -191,7 +191,7 @@ await client.AddMessageListener("测试11", (messageContext) =>
     foreach (var message in allMessages)
     {
         index++;
-        Console.WriteLine($"...收到所有消息的前10条之第{index}条：{message.Who}：{message.MessageContent}");
+        Console.WriteLine($"...收到所有消息的后10条之第{index}条：{message.Who}：{message.MessageContent}");
         Console.WriteLine($".................详细之第{index}条：{message.ToString()}");
     }
     //是否有人@我

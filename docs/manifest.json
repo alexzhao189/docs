@@ -2247,16 +2247,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/deep-guide.md",
-      "output": {
-        ".html": {
-          "relative_path": "content/deep-guide.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "content/faq.md",
       "output": {
         ".html": {
