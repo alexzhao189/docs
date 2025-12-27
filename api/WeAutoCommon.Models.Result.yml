@@ -18,7 +18,7 @@ items:
   fullName: WeAutoCommon.Models.Result
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -53,7 +53,7 @@ items:
   fullName: WeAutoCommon.Models.Result.Result(bool, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -81,7 +81,7 @@ items:
   fullName: WeAutoCommon.Models.Result.Ok()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -103,7 +103,7 @@ items:
   fullName: WeAutoCommon.Models.Result.Fail(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -131,7 +131,7 @@ items:
   fullName: WeAutoCommon.Models.Result.Success
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -154,7 +154,7 @@ items:
   fullName: WeAutoCommon.Models.Result.Error
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Result.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

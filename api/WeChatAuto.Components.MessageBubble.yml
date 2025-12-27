@@ -34,7 +34,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -66,7 +66,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.Equals(object)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -96,7 +96,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.GetHashCode()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -120,7 +120,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -144,7 +144,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.RrettyPrint()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -169,7 +169,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.ToChatSimpleMessage()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -194,7 +194,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.IsInvokable()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -219,7 +219,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.Equals(WeChatAuto.Components.MessageBubble)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -247,7 +247,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.MessageBubble()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -270,7 +270,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.MessageType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -298,7 +298,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.MessageSource
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -326,7 +326,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -351,7 +351,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.GroupNickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -381,7 +381,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.ClickActionButton
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -406,7 +406,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.MessageContent
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -431,7 +431,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.MessageTime
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -456,7 +456,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.BeReferencedPersion
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -486,7 +486,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.BeReferencedMessage
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -516,7 +516,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.IsNew
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -541,7 +541,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.BeTap
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -569,7 +569,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.RuntimeId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -592,7 +592,7 @@ items:
   fullName: WeChatAuto.Components.MessageBubble.BubbleHash
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Components/MessageBubble.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/MessageBubble.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

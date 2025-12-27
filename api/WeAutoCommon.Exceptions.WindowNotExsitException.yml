@@ -14,7 +14,7 @@ items:
   fullName: WeAutoCommon.Exceptions.WindowNotExsitException
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Exceptions/WindowNotExsitException.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Exceptions/WindowNotExsitException.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Exceptions
@@ -60,7 +60,7 @@ items:
   fullName: WeAutoCommon.Exceptions.WindowNotExsitException.WindowNotExsitException(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeAutoCommon/Exceptions/WindowNotExsitException.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Exceptions/WindowNotExsitException.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Exceptions

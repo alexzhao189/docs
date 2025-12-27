@@ -23,7 +23,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -54,7 +54,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.WxLocationCaches()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -79,7 +79,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.GetElement(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -111,7 +111,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.GetLocation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -143,7 +143,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.RefreshElement(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -182,7 +182,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.AddLocation(string, WeChatAuto.Utils.WxLocation)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -214,7 +214,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.AddConditionLocation(string, FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.Conditions.ConditionBase)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -249,7 +249,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.AddXPathLocation(string, FlaUI.Core.AutomationElements.AutomationElement, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -284,7 +284,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.AddAutomationIdLocation(string, FlaUI.Core.AutomationElements.AutomationElement, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -319,7 +319,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.Clear()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -341,7 +341,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocationCaches.LocationNames
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/92d98f145cbd39a2b8742bc86145845bbae7076a/WeChatAuto/Utils/WxLocationCaches.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Utils/WxLocationCaches.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
