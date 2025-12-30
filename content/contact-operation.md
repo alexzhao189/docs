@@ -83,7 +83,7 @@ public List<(string friendName, bool isSuccess, string errMessage)> AddFriends(L
 
 其中:
   - friendNames: 微信号/手机号列表
-  - label: 可选，用户标签，如果设置了```label```,则在添加用户的时候设置标签,方便分类管理
+  - label: 可选好友标签，如果设置了```label```,则在添加好友的时候设置标签,方便分类管理
 
 ## 添加好友二
 在已知好友微信号或者电话号码的情况下添加好
@@ -96,5 +96,5 @@ public List<(string friendName, bool isSuccess, string errMessage)> AddFriends(L
 
 其中:
   - friendNames: 微信号/手机号列表
-  - label: 可选，用户标签，如果设置了```label```,则在添加用户的时候设置标签,方便分类管理
+  - label: 可选，好友标签，如果设置了```label```,则在添加好友的时候设置标签,方便分类管理
 
