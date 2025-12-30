@@ -263,7 +263,7 @@ public async Task SendWhos(string[] whos, string message, OneOf<string, string[]
 其中：
   - whos: 好友昵称列表
   - message: 消息内容
-  - atUser: 被@的用户,最主要用于群聊中@人,可以是一个用户，也可以是多个用户，如果是自有群，可以@所有人，也可以@单个用户，微信不支持他人群@所有人
+  - atUser: 被@的好友,最主要用于群聊中@人,可以是一个好友，也可以是多个好友，如果是自有群，可以@所有人，也可以@单个好友，微信不支持他人群@所有人
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
 ### 9. 给多个好友发送文件
@@ -279,7 +279,7 @@ public async Task SendFiles(string[] whos, OneOf<string, string[]> files, bool i
   - files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
-### 10. 获取用户所有消息列表
+### 10. 获取好友所有消息列表
 
 由于聊天内容比较长，需要指定聊天页数,如果指定为-1，则获取所有气泡,有可能被卡死
 
@@ -480,7 +480,7 @@ messageContext.SendMessage(string message, List<string> atUserList = null)
 
 其中:
   - message: 消息内容
-  - atUserList: 被@的用户列表
+  - atUserList: 被@的好友列表
 
 
 > 其他更多操作请参见```MessageContext```类： [MessageContext类](../api/WeChatAuto.Models.MessageContext.html)

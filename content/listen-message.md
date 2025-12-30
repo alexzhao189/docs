@@ -5,7 +5,7 @@
 
 ### 添加消息监听
 
-> 适用于聊天（与好友或者在群聊中)时监听用户发来的消息,需要提供一个回调函数，当消息到达时，会自动调用这个回调函数
+> 适用于聊天（与好友或者在群聊中)时监听好友发来的消息,需要提供一个回调函数，当消息到达时，会自动调用这个回调函数
 
 可以通过[WeChatClinet对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddMessageListener```方法,当然也可以通过[WeChatMainWindow](../api/WeChatAuto.Components.WeChatMainWindow.html)类来调用此方法
 
@@ -19,7 +19,7 @@ public async Task AddMessageListener(string nickName, Action<MessageContext> cal
   - nickName: 好友昵称
   - callBack: 回调函数,由用户提供,参数请参考[MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
 
-### 移除消息听听
+### 移除消息监听
 
 > 添加消息监听会启动一个```System.Threading.Timer```来监听消息，所以如果不需要这个监听的时候，请移除监听
 
@@ -72,13 +72,13 @@ public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>
 ```
 
 参数说明：
-  - callBack：自定义回调函数，当有新好友添加成功时被调用,当自动通过好友申请后，如果好友有消息发送过来，则执行此回调方法
-  - firstMessageAction: 可选, 当自动通过好友申请后，由我首次给好友发送消息
+  - callBack：自定义回调函数，当有新好友添加成功时被调用,当自动通过好友申请后，如果好友有消息发送过来，则执行此回调方法,系统注入一个 ```MessageContext```对象支持获取所有聊天信息的上下文支持，具体请参考: [MessageContext类](../api/MessageContext.html)
+  - firstMessageAction: 可选, 当自动通过好友申请后，由我首次给好友发送消息,此Action由系统自动注入一个 ```Sender```对象可以由“我”来发起打招呼等消息
   - keyWord：可选, 设定关键词；仅当好友申请内容包含此关键词时才自动通过。若为```null```，则所有好友申请均会被自动通过
   - suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类
   - label：可选，自动通过时为新好友打上的微信标签，方便分类管理
 
-### 移转新好友申请监听
+### 移除好友申请监听
 
 方法定义:
 ```

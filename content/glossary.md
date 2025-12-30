@@ -43,7 +43,7 @@ using var clientFactory = serviceProvider.GetRequiredService<WeChatClientFactory
 | CaptureUIPath |进行截图操作时，捕获UI界面保存的路径 默认保存到当前目录下的Capture文件夹,可以修改为其他路径|
 |ListenInterval|群或者好友消息监听的时间间隔,单位：秒，默认5秒监听一次|
 |MomentsListenInterval|朋友圈监听的时间间隔,单位：秒，默认10秒监听一次|
-|NewUserListenerInterval|监听新用户的时间间隔，单位：秒，默认5秒监听一次|
+|NewUserListenerInterval|监听新好友的时间间隔，单位：秒，默认5秒监听一次|
 |MonitorSubWinInterval|监听子窗口时间间隔，单位秒,默认5秒监听一次|
 |DebugMode|是否启用调试模式，启用了调试模式可以在运行时看到按钮高亮，默认false|
 |EnableRecordVideo|是否启用视频录制，如果启用，可以录制整个自动化运行过程，默认false|
