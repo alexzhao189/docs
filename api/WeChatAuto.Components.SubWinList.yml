@@ -6,7 +6,7 @@ items:
   parent: WeChatAuto.Components
   children:
   - WeChatAuto.Components.SubWinList.#ctor(FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
-  - WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String)
+  - WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String,System.Action{WeChatAuto.Components.Sender})
   - WeChatAuto.Components.SubWinList.CheckSubWinExistAndOpen(System.String)
   - WeChatAuto.Components.SubWinList.CheckSubWinIsOpen(System.String)
   - WeChatAuto.Components.SubWinList.CloseAllSubWins
@@ -27,7 +27,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -62,7 +62,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.SubWinList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -100,7 +100,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.GetAllOpenedSubWinNames()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -125,7 +125,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CheckSubWinIsOpen(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -157,7 +157,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CheckSubWinExistAndOpen(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -189,7 +189,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.GetSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -221,7 +221,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CloseAllSubWins()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -243,7 +243,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CloseSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -272,7 +272,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.RegisterMonitorSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -301,7 +301,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.UnregisterMonitorSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -318,26 +318,26 @@ items:
   nameWithType.vb: SubWinList.UnregisterMonitorSubWin(String)
   fullName.vb: WeChatAuto.Components.SubWinList.UnregisterMonitorSubWin(String)
   name.vb: UnregisterMonitorSubWin(String)
-- uid: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String)
-  commentId: M:WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String)
-  id: AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String)
+- uid: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String,System.Action{WeChatAuto.Components.Sender})
+  commentId: M:WeChatAuto.Components.SubWinList.AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String,System.Action{WeChatAuto.Components.Sender})
+  id: AddMessageListener(System.Action{WeChatAuto.Models.MessageContext},System.String,System.Action{WeChatAuto.Components.Sender})
   parent: WeChatAuto.Components.SubWinList
   langs:
   - csharp
   - vb
-  name: AddMessageListener(Action<MessageContext>, string)
-  nameWithType: SubWinList.AddMessageListener(Action<MessageContext>, string)
-  fullName: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action<WeChatAuto.Models.MessageContext>, string)
+  name: AddMessageListener(Action<MessageContext>, string, Action<Sender>)
+  nameWithType: SubWinList.AddMessageListener(Action<MessageContext>, string, Action<Sender>)
+  fullName: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action<WeChatAuto.Models.MessageContext>, string, System.Action<WeChatAuto.Components.Sender>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 添加消息监听
   example: []
   syntax:
-    content: public Task AddMessageListener(Action<MessageContext> callBack, string who)
+    content: public Task AddMessageListener(Action<MessageContext> callBack, string who, Action<Sender> firstMessageAction = null)
     parameters:
     - id: callBack
       type: System.Action{WeChatAuto.Models.MessageContext}
@@ -345,13 +345,16 @@ items:
     - id: who
       type: System.String
       description: 好友或者群聊名称
+    - id: firstMessageAction
+      type: System.Action{WeChatAuto.Components.Sender}
+      description: 适用于当开始消息监听时,发送一些信息（如：发送文字、表情、文件等）给好友的场景,参数：发送者<xref href="WeChatAuto.Components.Sender" data-throw-if-not-resolved="false"></xref>
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function AddMessageListener(callBack As Action(Of MessageContext), who As String) As Task
+    content.vb: Public Function AddMessageListener(callBack As Action(Of MessageContext), who As String, firstMessageAction As Action(Of Sender) = Nothing) As Task
   overload: WeChatAuto.Components.SubWinList.AddMessageListener*
-  nameWithType.vb: SubWinList.AddMessageListener(Action(Of MessageContext), String)
-  fullName.vb: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action(Of WeChatAuto.Models.MessageContext), String)
-  name.vb: AddMessageListener(Action(Of MessageContext), String)
+  nameWithType.vb: SubWinList.AddMessageListener(Action(Of MessageContext), String, Action(Of Sender))
+  fullName.vb: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action(Of WeChatAuto.Models.MessageContext), String, System.Action(Of WeChatAuto.Components.Sender))
+  name.vb: AddMessageListener(Action(Of MessageContext), String, Action(Of Sender))
 - uid: WeChatAuto.Components.SubWinList.StopMessageListener(System.String)
   commentId: M:WeChatAuto.Components.SubWinList.StopMessageListener(System.String)
   id: StopMessageListener(System.String)
@@ -364,7 +367,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.StopMessageListener(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -393,7 +396,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -416,7 +419,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.~SubWinList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -439,7 +442,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1226,10 +1229,18 @@ references:
   name: UnregisterMonitorSubWin
   nameWithType: SubWinList.UnregisterMonitorSubWin
   fullName: WeChatAuto.Components.SubWinList.UnregisterMonitorSubWin
+- uid: WeChatAuto.Components.Sender
+  commentId: T:WeChatAuto.Components.Sender
+  parent: WeChatAuto.Components
+  isExternal: true
+  href: WeChatAuto.Components.Sender.html
+  name: Sender
+  nameWithType: Sender
+  fullName: WeChatAuto.Components.Sender
 - uid: WeChatAuto.Components.SubWinList.AddMessageListener*
   commentId: Overload:WeChatAuto.Components.SubWinList.AddMessageListener
   isExternal: true
-  href: WeChatAuto.Components.SubWinList.html#WeChatAuto_Components_SubWinList_AddMessageListener_System_Action_WeChatAuto_Models_MessageContext__System_String_
+  href: WeChatAuto.Components.SubWinList.html#WeChatAuto_Components_SubWinList_AddMessageListener_System_Action_WeChatAuto_Models_MessageContext__System_String_System_Action_WeChatAuto_Components_Sender__
   name: AddMessageListener
   nameWithType: SubWinList.AddMessageListener
   fullName: WeChatAuto.Components.SubWinList.AddMessageListener
@@ -1267,6 +1278,41 @@ references:
     name: MessageContext
     isExternal: true
     href: WeChatAuto.Models.MessageContext.html
+  - name: )
+- uid: System.Action{WeChatAuto.Components.Sender}
+  commentId: T:System.Action{WeChatAuto.Components.Sender}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Sender>
+  nameWithType: Action<Sender>
+  fullName: System.Action<WeChatAuto.Components.Sender>
+  nameWithType.vb: Action(Of Sender)
+  fullName.vb: System.Action(Of WeChatAuto.Components.Sender)
+  name.vb: Action(Of Sender)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: WeChatAuto.Components.Sender
+    name: Sender
+    isExternal: true
+    href: WeChatAuto.Components.Sender.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.Sender
+    name: Sender
+    isExternal: true
+    href: WeChatAuto.Components.Sender.html
   - name: )
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task

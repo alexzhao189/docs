@@ -186,7 +186,6 @@ var serviceProvider = builder.Services.BuildServiceProvider();
 var clientFactory = serviceProvider.GetRequiredService&lt;WeChatClientFactory&gt;();
 // 得到名称为&quot;Alex&quot;的微信客户端实例，测试时请将AI.net替换为你自己的微信昵称
 var client = clientFactory.GetWeChatClient(&quot;Alex&quot;);
-// 监听微信群测试11
 await client.AddMessageListener(&quot;测试11&quot;, (messageContext) =&gt;
 {
     var index = 0;
@@ -237,6 +236,16 @@ await client.AddMessageListener(&quot;测试11&quot;, (messageContext) =&gt;
     //可以通过注入的服务容器获取你注入的服务实例，然后调用你的业务逻辑,一般都是LLM的自动回复逻辑
     var llmService = messageContext.ServiceProvider.GetRequiredService&lt;LLMService&gt;();
     llmService.DoSomething();
+},
+//下面的firstMessageAction可选，适用于添加消息监听时，需要我首先发送一些消息给好友的场景
+sender =&gt;
+{
+    //发送文本消息
+    sender.SendMessage(&quot;你好啊！我是AI.Net,很高兴认识你！&quot;);
+    //发送表情
+    //sender.SendEmoji(1);
+    //发送文件,改成你的文件路径
+    //sender.SendFile(new string[] { @&quot;C:\Users\Administrator\Desktop\me\avatar.png&quot; });
 });
 
 
@@ -258,7 +267,6 @@ public class LLMService
         _logger.LogInformation(&quot;这里是你注入的服务实例，可以在这里编写你的业务逻辑  &quot;);
     }
 }
-
 
 </code></pre>
 <blockquote>
@@ -613,7 +621,7 @@ public class LLMService
 </ul>
 <p><strong>😊 非 VIP 客户：</strong></p>
 <p>WeChatAuto.SDK的非VIP与VIP的核心代码层面完全一致，非VIP没有任何功能与代码层面的限制，同样欢迎非VIP通过 Issue 提问或反馈问题，我会在时间允许情况下进行处理，但响应和解决可能会有延迟，敬请谅解。</p>
-<p>如需升级成为 VIP，或了解 VIP 具体权益和支持方案，请与我联系。感谢理解与支持，让我有更多精力专注于技术创新与完善！</p>
+<p>如需升级成为 VIP，或了解 VIP 具体权益和支持方案，👉<a href="https://github.com/scottfly189/scottfly189/blob/main/vip.md">请与我联系</a>。感谢理解与支持，让我有更多精力专注于技术创新与完善！</p>
 <h2 id="-许可证">📝 许可证</h2>
 <p>本项目采用 MIT 许可证。详见 <a href="LICENSE.html">LICENSE</a> 文件。</p>
 <h2 id="-贡献">🤝 贡献</h2>

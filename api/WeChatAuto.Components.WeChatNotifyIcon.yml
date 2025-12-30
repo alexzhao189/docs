@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -52,7 +52,7 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.WeChatNotifyIcon(FlaUI.Core.AutomationElements.Button, System.IServiceProvider, WeChatAuto.Components.WeChatMainWindow)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -82,7 +82,7 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.Click()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -104,7 +104,7 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -127,7 +127,7 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.NotifyIcon
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

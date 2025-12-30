@@ -22,7 +22,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -55,7 +55,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ConversationList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -87,7 +87,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetVisibleConversations()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -115,7 +115,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetAllConversations()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -143,7 +143,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.LocateConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -178,7 +178,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ClickConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -207,7 +207,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ClickFirstConversation()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -229,7 +229,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.DoubleClickConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -258,7 +258,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetVisibleConversationTitles()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -283,7 +283,7 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetConversationRoot()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ConversationList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -809,7 +809,7 @@ references:
   - uid: WeAutoCommon.Models.Conversation
     name: Conversation
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -822,7 +822,7 @@ references:
   - uid: WeAutoCommon.Models.Conversation
     name: Conversation
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
   - name: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1

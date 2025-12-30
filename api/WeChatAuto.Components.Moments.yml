@@ -27,7 +27,7 @@ items:
   fullName: WeChatAuto.Components.Moments
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -62,7 +62,7 @@ items:
   fullName: WeChatAuto.Components.Moments.Moments(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -94,7 +94,7 @@ items:
   fullName: WeChatAuto.Components.Moments.IsMomentsOpen()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -119,7 +119,7 @@ items:
   fullName: WeChatAuto.Components.Moments.OpenMoments()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -141,7 +141,7 @@ items:
   fullName: WeChatAuto.Components.Moments.GetMomentsList(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -176,7 +176,7 @@ items:
   fullName: WeChatAuto.Components.Moments.GetMomentsListSilence()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -201,7 +201,7 @@ items:
   fullName: WeChatAuto.Components.Moments.GetShortMomentsList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -229,7 +229,7 @@ items:
   fullName: WeChatAuto.Components.Moments.RefreshMomentsList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -251,7 +251,7 @@ items:
   fullName: WeChatAuto.Components.Moments.LikeMoments(OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -280,7 +280,7 @@ items:
   fullName: WeChatAuto.Components.Moments.ReplyMoments(OneOf.OneOf<string, string[]>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -312,7 +312,7 @@ items:
   fullName: WeChatAuto.Components.Moments.AddMomentsListener(OneOf.OneOf<string, System.Collections.Generic.List<string>>, bool, System.Action<WeChatAuto.Utils.MomentsContext, System.IServiceProvider>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -347,7 +347,7 @@ items:
   fullName: WeChatAuto.Components.Moments.StopMomentsListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -367,7 +367,7 @@ items:
   fullName: WeChatAuto.Components.Moments.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -390,7 +390,7 @@ items:
   fullName: WeChatAuto.Components.Moments.~Moments()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -413,7 +413,7 @@ items:
   fullName: WeChatAuto.Components.Moments.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Moments.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Moments.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -985,7 +985,7 @@ references:
   - uid: WeAutoCommon.Models.MomentItem
     name: MomentItem
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/MomentItem.cs
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -998,7 +998,7 @@ references:
   - uid: WeAutoCommon.Models.MomentItem
     name: MomentItem
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/MomentItem.cs
   - name: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1

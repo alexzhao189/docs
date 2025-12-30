@@ -20,7 +20,6 @@ items:
   - WeAutoCommon.Simulator.Skm.HKMGetMouseMode(System.IntPtr)
   - WeAutoCommon.Simulator.Skm.HKMGetOSMouseSpeed
   - WeAutoCommon.Simulator.Skm.HKMGetSerialNumber(System.IntPtr,System.Boolean)
-  - WeAutoCommon.Simulator.Skm.HKMGetVersion
   - WeAutoCommon.Simulator.Skm.HKMIsKeyBusy(System.IntPtr)
   - WeAutoCommon.Simulator.Skm.HKMIsKeyDown(System.IntPtr,System.String)
   - WeAutoCommon.Simulator.Skm.HKMIsMouseBusy(System.IntPtr)
@@ -86,7 +85,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -105,28 +104,6 @@ items:
   - System.Object.GetHashCode
   extensionMethods:
   - WeAutoCommon.Simulator.Skm.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
-- uid: WeAutoCommon.Simulator.Skm.HKMGetVersion
-  commentId: M:WeAutoCommon.Simulator.Skm.HKMGetVersion
-  id: HKMGetVersion
-  parent: WeAutoCommon.Simulator.Skm
-  langs:
-  - csharp
-  - vb
-  name: HKMGetVersion()
-  nameWithType: Skm.HKMGetVersion()
-  fullName: WeAutoCommon.Simulator.Skm.HKMGetVersion()
-  type: Method
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
-  assemblies:
-  - WeAutoCommon
-  namespace: WeAutoCommon.Simulator
-  syntax:
-    content: public static extern uint HKMGetVersion()
-    return:
-      type: System.UInt32
-    content.vb: Public Shared Function HKMGetVersion() As UInteger
-  overload: WeAutoCommon.Simulator.Skm.HKMGetVersion*
 - uid: WeAutoCommon.Simulator.Skm.HKMSearchDevice(System.UInt32,System.UInt32,System.UInt32)
   commentId: M:WeAutoCommon.Simulator.Skm.HKMSearchDevice(System.UInt32,System.UInt32,System.UInt32)
   id: HKMSearchDevice(System.UInt32,System.UInt32,System.UInt32)
@@ -139,7 +116,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSearchDevice(uint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -171,7 +148,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSearchDevice2(uint, uint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -205,7 +182,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSearchDeviceAll(uint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -237,7 +214,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMOpen(uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -267,7 +244,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMOpen2(uint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -299,7 +276,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsOpen(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -329,7 +306,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMClose(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -357,7 +334,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetDevInfo(nint, uint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -389,7 +366,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetDevString(nint, uint, bool, ref uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -423,7 +400,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetSerialNumber(nint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -453,7 +430,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetKeyboardMode(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -481,7 +458,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetMouseMode(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -509,7 +486,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsKeyBusy(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -537,7 +514,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsMouseBusy(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -565,7 +542,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsKeyDown(nint, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -595,7 +572,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsMouseButtonDown(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -625,7 +602,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetKeyboardLEDState(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -655,7 +632,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetCursorPos(nint, ref int, ref int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -687,7 +664,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetCursorPos2(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -715,7 +692,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMode(nint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -747,7 +724,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetKeyInterval(nint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -779,7 +756,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMouseInterval(nint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -811,7 +788,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetAbsMouseScrnRes(nint, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -843,7 +820,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMousePosPrecision(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -873,7 +850,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMouseSpeed(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -903,7 +880,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMouseMoveTimeout(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -933,7 +910,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetMousePosMaxOffset(nint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -963,7 +940,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMKeyPress(nint, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -993,7 +970,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMKeyDown(nint, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1023,7 +1000,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMKeyUp(nint, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1053,7 +1030,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMoveTo(nint, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1085,7 +1062,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMoveR(nint, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1117,7 +1094,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMoveR2(nint, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1149,7 +1126,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMoveRP(nint, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1181,7 +1158,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMLeftClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1209,7 +1186,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMRightClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1237,7 +1214,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMiddleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1265,7 +1242,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn1Click(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1293,7 +1270,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn2Click(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1321,7 +1298,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMLeftDoubleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1349,7 +1326,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMRightDoubleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1377,7 +1354,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMiddleDoubleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1405,7 +1382,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn1DoubleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1433,7 +1410,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn2DoubleClick(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1461,7 +1438,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMLeftDown(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1489,7 +1466,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMRightDown(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1517,7 +1494,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMiddleDown(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1545,7 +1522,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn1Down(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1573,7 +1550,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn2Down(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1601,7 +1578,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMLeftUp(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1629,7 +1606,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMRightUp(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1657,7 +1634,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMiddleUp(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1685,7 +1662,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn1Up(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1713,7 +1690,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMXBtn2Up(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1741,7 +1718,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMouseWheel(nint, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1771,7 +1748,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMMouseWheelP(nint, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1801,7 +1778,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMReleaseKeyboard(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1829,7 +1806,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMReleaseMouse(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1857,7 +1834,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMOutputString(nint, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1887,7 +1864,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMDelayRnd(nint, uint, uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1919,7 +1896,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMVerifyUserData(nint, string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1951,7 +1928,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMVerifyUserData2(nint, string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -1983,7 +1960,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetResetMode(nint, uint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2015,7 +1992,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetResetTime(nint, uint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2047,7 +2024,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetLightMode(nint, uint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2079,7 +2056,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMIsOSMouseAccelerateEnabled()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2101,7 +2078,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMEnableOSMouseAccelerate(bool, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2131,7 +2108,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetOSMouseSpeed()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2153,7 +2130,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMSetOSMouseSpeed(int, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2183,7 +2160,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMCheckPressedKeysCS(uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2211,7 +2188,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.HKMGetDevStringCS(nint, uint, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2243,7 +2220,7 @@ items:
   fullName: WeAutoCommon.Simulator.Skm.Skm()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Simulator/Skm.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Simulator/Skm.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Simulator
@@ -2635,13 +2612,13 @@ references:
     name: Models
     isExternal: true
     href: WeAutoCommon.Models.html
-- uid: WeAutoCommon.Simulator.Skm.HKMGetVersion*
-  commentId: Overload:WeAutoCommon.Simulator.Skm.HKMGetVersion
+- uid: WeAutoCommon.Simulator.Skm.HKMSearchDevice*
+  commentId: Overload:WeAutoCommon.Simulator.Skm.HKMSearchDevice
   isExternal: true
-  href: WeAutoCommon.Simulator.Skm.html#WeAutoCommon_Simulator_Skm_HKMGetVersion
-  name: HKMGetVersion
-  nameWithType: Skm.HKMGetVersion
-  fullName: WeAutoCommon.Simulator.Skm.HKMGetVersion
+  href: WeAutoCommon.Simulator.Skm.html#WeAutoCommon_Simulator_Skm_HKMSearchDevice_System_UInt32_System_UInt32_System_UInt32_
+  name: HKMSearchDevice
+  nameWithType: Skm.HKMSearchDevice
+  fullName: WeAutoCommon.Simulator.Skm.HKMSearchDevice
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
@@ -2653,13 +2630,6 @@ references:
   nameWithType.vb: UInteger
   fullName.vb: UInteger
   name.vb: UInteger
-- uid: WeAutoCommon.Simulator.Skm.HKMSearchDevice*
-  commentId: Overload:WeAutoCommon.Simulator.Skm.HKMSearchDevice
-  isExternal: true
-  href: WeAutoCommon.Simulator.Skm.html#WeAutoCommon_Simulator_Skm_HKMSearchDevice_System_UInt32_System_UInt32_System_UInt32_
-  name: HKMSearchDevice
-  nameWithType: Skm.HKMSearchDevice
-  fullName: WeAutoCommon.Simulator.Skm.HKMSearchDevice
 - uid: WeAutoCommon.Simulator.Skm.HKMSearchDevice2*
   commentId: Overload:WeAutoCommon.Simulator.Skm.HKMSearchDevice2
   isExternal: true

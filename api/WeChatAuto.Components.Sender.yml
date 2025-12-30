@@ -16,8 +16,7 @@ items:
   - WeChatAuto.Components.Sender.SendEmoji(OneOf.OneOf{System.Int32,System.String},System.Collections.Generic.List{System.String})
   - WeChatAuto.Components.Sender.SendFile(System.String[])
   - WeChatAuto.Components.Sender.SendLiveStreaming
-  - WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[]})
-  - WeChatAuto.Components.Sender.SendMessage(System.String,System.Collections.Generic.List{System.String})
+  - WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}})
   - WeChatAuto.Components.Sender.SendVideoChat
   - WeChatAuto.Components.Sender.SendVoiceChat
   - WeChatAuto.Components.Sender.SendVoiceChats(System.String[])
@@ -30,7 +29,7 @@ items:
   fullName: WeChatAuto.Components.Sender
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -63,7 +62,7 @@ items:
   fullName: WeChatAuto.Components.Sender.Sender(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -114,7 +113,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetToolBarButton(WeAutoCommon.Enums.ChatBoxToolBarType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -143,7 +142,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVoiceChat()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -165,7 +164,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVoiceChats(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -194,7 +193,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendLiveStreaming()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -216,7 +215,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVideoChat()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -238,7 +237,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetToolBarButtons()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -263,7 +262,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetContentArea()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -288,7 +287,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetSendButton()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -301,38 +300,38 @@ items:
       description: 发送按钮
     content.vb: Public Function GetSendButton() As Button
   overload: WeChatAuto.Components.Sender.GetSendButton*
-- uid: WeChatAuto.Components.Sender.SendMessage(System.String,System.Collections.Generic.List{System.String})
-  commentId: M:WeChatAuto.Components.Sender.SendMessage(System.String,System.Collections.Generic.List{System.String})
-  id: SendMessage(System.String,System.Collections.Generic.List{System.String})
+- uid: WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}})
+  commentId: M:WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}})
+  id: SendMessage(System.String,OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}})
   parent: WeChatAuto.Components.Sender
   langs:
   - csharp
   - vb
-  name: SendMessage(string, List<string>)
-  nameWithType: Sender.SendMessage(string, List<string>)
-  fullName: WeChatAuto.Components.Sender.SendMessage(string, System.Collections.Generic.List<string>)
+  name: SendMessage(string, OneOf<string, string[], List<string>>)
+  nameWithType: Sender.SendMessage(string, OneOf<string, string[], List<string>>)
+  fullName: WeChatAuto.Components.Sender.SendMessage(string, OneOf.OneOf<string, string[], System.Collections.Generic.List<string>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 发送消息
   example: []
   syntax:
-    content: public void SendMessage(string message, List<string> atUserList = null)
+    content: public void SendMessage(string message, OneOf<string, string[], List<string>> atUser = default)
     parameters:
     - id: message
       type: System.String
       description: 消息内容
-    - id: atUserList
-      type: System.Collections.Generic.List{System.String}
-      description: 被@的用户列表
-    content.vb: Public Sub SendMessage(message As String, atUserList As List(Of String) = Nothing)
+    - id: atUser
+      type: OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}}
+      description: 被@的好友
+    content.vb: Public Sub SendMessage(message As String, atUser As OneOf(Of String, String(), List(Of String)) = Nothing)
   overload: WeChatAuto.Components.Sender.SendMessage*
-  nameWithType.vb: Sender.SendMessage(String, List(Of String))
-  fullName.vb: WeChatAuto.Components.Sender.SendMessage(String, System.Collections.Generic.List(Of String))
-  name.vb: SendMessage(String, List(Of String))
+  nameWithType.vb: Sender.SendMessage(String, OneOf(Of String, String(), List(Of String)))
+  fullName.vb: WeChatAuto.Components.Sender.SendMessage(String, OneOf.OneOf(Of String, String(), System.Collections.Generic.List(Of String)))
+  name.vb: SendMessage(String, OneOf(Of String, String(), List(Of String)))
 - uid: WeChatAuto.Components.Sender.PasteImageFiles
   commentId: M:WeChatAuto.Components.Sender.PasteImageFiles
   id: PasteImageFiles
@@ -345,7 +344,7 @@ items:
   fullName: WeChatAuto.Components.Sender.PasteImageFiles()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -355,38 +354,6 @@ items:
     content: public void PasteImageFiles()
     content.vb: Public Sub PasteImageFiles()
   overload: WeChatAuto.Components.Sender.PasteImageFiles*
-- uid: WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[]})
-  commentId: M:WeChatAuto.Components.Sender.SendMessage(System.String,OneOf.OneOf{System.String,System.String[]})
-  id: SendMessage(System.String,OneOf.OneOf{System.String,System.String[]})
-  parent: WeChatAuto.Components.Sender
-  langs:
-  - csharp
-  - vb
-  name: SendMessage(string, OneOf<string, string[]>)
-  nameWithType: Sender.SendMessage(string, OneOf<string, string[]>)
-  fullName: WeChatAuto.Components.Sender.SendMessage(string, OneOf.OneOf<string, string[]>)
-  type: Method
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Components
-  summary: 发送消息
-  example: []
-  syntax:
-    content: public void SendMessage(string message, OneOf<string, string[]> atUser = default)
-    parameters:
-    - id: message
-      type: System.String
-      description: 消息内容
-    - id: atUser
-      type: OneOf.OneOf{System.String,System.String[]}
-      description: 被@的用户
-    content.vb: Public Sub SendMessage(message As String, atUser As OneOf(Of String, String()) = Nothing)
-  overload: WeChatAuto.Components.Sender.SendMessage*
-  nameWithType.vb: Sender.SendMessage(String, OneOf(Of String, String()))
-  fullName.vb: WeChatAuto.Components.Sender.SendMessage(String, OneOf.OneOf(Of String, String()))
-  name.vb: SendMessage(String, OneOf(Of String, String()))
 - uid: WeChatAuto.Components.Sender.SendFile(System.String[])
   commentId: M:WeChatAuto.Components.Sender.SendFile(System.String[])
   id: SendFile(System.String[])
@@ -399,7 +366,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendFile(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -428,7 +395,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendEmoji(OneOf.OneOf<int, string>, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -442,7 +409,7 @@ items:
       description: 表情名称或者描述或者索引
     - id: atUserList
       type: System.Collections.Generic.List{System.String}
-      description: 被@的用户列表
+      description: 被@的好友列表
     content.vb: Public Sub SendEmoji(emoji As OneOf(Of Integer, String), atUserList As List(Of String) = Nothing)
   overload: WeChatAuto.Components.Sender.SendEmoji*
   nameWithType.vb: Sender.SendEmoji(OneOf(Of Integer, String), List(Of String))
@@ -460,7 +427,7 @@ items:
   fullName: WeChatAuto.Components.Sender.ContentArea
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -483,7 +450,7 @@ items:
   fullName: WeChatAuto.Components.Sender.ToolBarButtons
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -506,7 +473,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendButton
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1177,7 +1144,7 @@ references:
   - uid: WeAutoCommon.Enums.ChatBoxToolBarType
     name: ChatBoxToolBarType
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   - name: " "
   - uid: System.ValueTuple{WeAutoCommon.Enums.ChatBoxToolBarType,FlaUI.Core.AutomationElements.Button}.type
     name: type
@@ -1214,7 +1181,7 @@ references:
   - uid: WeAutoCommon.Enums.ChatBoxToolBarType
     name: ChatBoxToolBarType
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   - name: ','
   - name: " "
   - uid: System.ValueTuple{WeAutoCommon.Enums.ChatBoxToolBarType,FlaUI.Core.AutomationElements.Button}.button
@@ -1318,65 +1285,23 @@ references:
 - uid: WeChatAuto.Components.Sender.SendMessage*
   commentId: Overload:WeChatAuto.Components.Sender.SendMessage
   isExternal: true
-  href: WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_SendMessage_System_String_System_Collections_Generic_List_System_String__
+  href: WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_SendMessage_System_String_OneOf_OneOf_System_String_System_String___System_Collections_Generic_List_System_String___
   name: SendMessage
   nameWithType: Sender.SendMessage
   fullName: WeChatAuto.Components.Sender.SendMessage
-- uid: System.Collections.Generic.List{System.String}
-  commentId: T:System.Collections.Generic.List{System.String}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<string>
-  nameWithType: List<string>
-  fullName: System.Collections.Generic.List<string>
-  nameWithType.vb: List(Of String)
-  fullName.vb: System.Collections.Generic.List(Of String)
-  name.vb: List(Of String)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: WeChatAuto.Components.Sender.PasteImageFiles*
-  commentId: Overload:WeChatAuto.Components.Sender.PasteImageFiles
-  isExternal: true
-  href: WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_PasteImageFiles
-  name: PasteImageFiles
-  nameWithType: Sender.PasteImageFiles
-  fullName: WeChatAuto.Components.Sender.PasteImageFiles
-- uid: OneOf.OneOf{System.String,System.String[]}
-  commentId: T:OneOf.OneOf{System.String,System.String[]}
+- uid: OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}}
+  commentId: T:OneOf.OneOf{System.String,System.String[],System.Collections.Generic.List{System.String}}
   parent: OneOf
-  definition: OneOf.OneOf`2
+  definition: OneOf.OneOf`3
   href: https://learn.microsoft.com/dotnet/api/system.string
-  name: OneOf<string, string[]>
-  nameWithType: OneOf<string, string[]>
-  fullName: OneOf.OneOf<string, string[]>
-  nameWithType.vb: OneOf(Of String, String())
-  fullName.vb: OneOf.OneOf(Of String, String())
-  name.vb: OneOf(Of String, String())
+  name: OneOf<string, string[], List<string>>
+  nameWithType: OneOf<string, string[], List<string>>
+  fullName: OneOf.OneOf<string, string[], System.Collections.Generic.List<string>>
+  nameWithType.vb: OneOf(Of String, String(), List(Of String))
+  fullName.vb: OneOf.OneOf(Of String, String(), System.Collections.Generic.List(Of String))
+  name.vb: OneOf(Of String, String(), List(Of String))
   spec.csharp:
-  - uid: OneOf.OneOf`2
+  - uid: OneOf.OneOf`3
     name: OneOf
     isExternal: true
   - name: <
@@ -1392,9 +1317,21 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '['
   - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
   - name: '>'
   spec.vb:
-  - uid: OneOf.OneOf`2
+  - uid: OneOf.OneOf`3
     name: OneOf
     isExternal: true
   - name: (
@@ -1412,18 +1349,32 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: OneOf.OneOf`2
-  commentId: T:OneOf.OneOf`2
+  - name: )
+- uid: OneOf.OneOf`3
+  commentId: T:OneOf.OneOf`3
   isExternal: true
-  name: OneOf<T0, T1>
-  nameWithType: OneOf<T0, T1>
-  fullName: OneOf.OneOf<T0, T1>
-  nameWithType.vb: OneOf(Of T0, T1)
-  fullName.vb: OneOf.OneOf(Of T0, T1)
-  name.vb: OneOf(Of T0, T1)
+  name: OneOf<T0, T1, T2>
+  nameWithType: OneOf<T0, T1, T2>
+  fullName: OneOf.OneOf<T0, T1, T2>
+  nameWithType.vb: OneOf(Of T0, T1, T2)
+  fullName.vb: OneOf.OneOf(Of T0, T1, T2)
+  name.vb: OneOf(Of T0, T1, T2)
   spec.csharp:
-  - uid: OneOf.OneOf`2
+  - uid: OneOf.OneOf`3
     name: OneOf
     isExternal: true
   - name: <
@@ -1431,9 +1382,12 @@ references:
   - name: ','
   - name: " "
   - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
   - name: '>'
   spec.vb:
-  - uid: OneOf.OneOf`2
+  - uid: OneOf.OneOf`3
     name: OneOf
     isExternal: true
   - name: (
@@ -1443,6 +1397,9 @@ references:
   - name: ','
   - name: " "
   - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
   - name: )
 - uid: OneOf
   commentId: N:OneOf
@@ -1450,6 +1407,13 @@ references:
   name: OneOf
   nameWithType: OneOf
   fullName: OneOf
+- uid: WeChatAuto.Components.Sender.PasteImageFiles*
+  commentId: Overload:WeChatAuto.Components.Sender.PasteImageFiles
+  isExternal: true
+  href: WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_PasteImageFiles
+  name: PasteImageFiles
+  nameWithType: Sender.PasteImageFiles
+  fullName: WeChatAuto.Components.Sender.PasteImageFiles
 - uid: WeChatAuto.Components.Sender.SendFile*
   commentId: Overload:WeChatAuto.Components.Sender.SendFile
   isExternal: true
@@ -1508,6 +1472,72 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: OneOf.OneOf`2
+  commentId: T:OneOf.OneOf`2
+  isExternal: true
+  name: OneOf<T0, T1>
+  nameWithType: OneOf<T0, T1>
+  fullName: OneOf.OneOf<T0, T1>
+  nameWithType.vb: OneOf(Of T0, T1)
+  fullName.vb: OneOf.OneOf(Of T0, T1)
+  name.vb: OneOf(Of T0, T1)
+  spec.csharp:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
   - name: )
 - uid: WeChatAuto.Components.Sender.ContentArea*
   commentId: Overload:WeChatAuto.Components.Sender.ContentArea

@@ -20,7 +20,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -41,7 +41,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.表情
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -61,7 +61,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.发送文件
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -81,7 +81,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.截图
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -101,7 +101,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.聊天记录
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -121,7 +121,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.直播
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -141,7 +141,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.语音聊天
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -161,7 +161,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatBoxToolBarType.视频聊天
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeAutoCommon/Enums/ChatBoxToolBarType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Enums/ChatBoxToolBarType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

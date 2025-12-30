@@ -6,7 +6,7 @@ items:
   parent: WeChatAuto.Components
   children:
   - WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
-  - WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext})
+  - WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
   - WeChatAuto.Components.ChatBody.ChatContent
   - WeChatAuto.Components.ChatBody.ChatType
   - WeChatAuto.Components.ChatBody.Dispose
@@ -28,7 +28,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -61,7 +61,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.nickName
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -82,7 +82,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.ChatBody(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -112,19 +112,19 @@ items:
   nameWithType.vb: ChatBody.New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
   fullName.vb: WeChatAuto.Components.ChatBody.New(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
   name.vb: New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-- uid: WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext})
-  commentId: M:WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext})
-  id: AddListener(System.Action{WeChatAuto.Models.MessageContext})
+- uid: WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
+  commentId: M:WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
+  id: AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
   parent: WeChatAuto.Components.ChatBody
   langs:
   - csharp
   - vb
-  name: AddListener(Action<MessageContext>)
-  nameWithType: ChatBody.AddListener(Action<MessageContext>)
-  fullName: WeChatAuto.Components.ChatBody.AddListener(System.Action<WeChatAuto.Models.MessageContext>)
+  name: AddListener(Action<MessageContext>, Action<Sender>)
+  nameWithType: ChatBody.AddListener(Action<MessageContext>, Action<Sender>)
+  fullName: WeChatAuto.Components.ChatBody.AddListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -134,16 +134,19 @@ items:
     注意：消息回调函数会在新线程中执行，请注意线程安全，如果在回调函数中操作UI，请切换到UI线程.
   example: []
   syntax:
-    content: public void AddListener(Action<MessageContext> callBack)
+    content: public void AddListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null)
     parameters:
     - id: callBack
       type: System.Action{WeChatAuto.Models.MessageContext}
       description: 回调函数,参数：消息上下文<xref href="WeChatAuto.Models.MessageContext" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Sub AddListener(callBack As Action(Of MessageContext))
+    - id: firstMessageAction
+      type: System.Action{WeChatAuto.Components.Sender}
+      description: 适用于当开始消息监听时,发送一些信息（如：发送文字、表情、文件等）给好友的场景,参数：发送者<xref href="WeChatAuto.Components.ChatBody.Sender" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub AddListener(callBack As Action(Of MessageContext), firstMessageAction As Action(Of Sender) = Nothing)
   overload: WeChatAuto.Components.ChatBody.AddListener*
-  nameWithType.vb: ChatBody.AddListener(Action(Of MessageContext))
-  fullName.vb: WeChatAuto.Components.ChatBody.AddListener(System.Action(Of WeChatAuto.Models.MessageContext))
-  name.vb: AddListener(Action(Of MessageContext))
+  nameWithType.vb: ChatBody.AddListener(Action(Of MessageContext), Action(Of Sender))
+  fullName.vb: WeChatAuto.Components.ChatBody.AddListener(System.Action(Of WeChatAuto.Models.MessageContext), System.Action(Of WeChatAuto.Components.Sender))
+  name.vb: AddListener(Action(Of MessageContext), Action(Of Sender))
 - uid: WeChatAuto.Components.ChatBody.StopListener
   commentId: M:WeChatAuto.Components.ChatBody.StopListener
   id: StopListener
@@ -156,7 +159,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.StopListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -178,7 +181,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetBubbleListObject()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -203,7 +206,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetAllChatHistory(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -238,7 +241,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetSender()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -263,7 +266,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -289,7 +292,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -312,7 +315,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.~ChatBody()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -335,7 +338,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.MessageBubbleList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -358,7 +361,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Sender
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -381,7 +384,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.ChatContent
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -404,7 +407,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.ChatType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -427,7 +430,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b78780c05a08ed0584a18be90804cae0db366e57/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1028,10 +1031,17 @@ references:
   name: MessageContext
   nameWithType: MessageContext
   fullName: WeChatAuto.Models.MessageContext
+- uid: WeChatAuto.Components.ChatBody.Sender
+  commentId: P:WeChatAuto.Components.ChatBody.Sender
+  isExternal: true
+  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody_Sender
+  name: Sender
+  nameWithType: ChatBody.Sender
+  fullName: WeChatAuto.Components.ChatBody.Sender
 - uid: WeChatAuto.Components.ChatBody.AddListener*
   commentId: Overload:WeChatAuto.Components.ChatBody.AddListener
   isExternal: true
-  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody_AddListener_System_Action_WeChatAuto_Models_MessageContext__
+  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody_AddListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__
   name: AddListener
   nameWithType: ChatBody.AddListener
   fullName: WeChatAuto.Components.ChatBody.AddListener
@@ -1069,6 +1079,41 @@ references:
     name: MessageContext
     isExternal: true
     href: WeChatAuto.Models.MessageContext.html
+  - name: )
+- uid: System.Action{WeChatAuto.Components.Sender}
+  commentId: T:System.Action{WeChatAuto.Components.Sender}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Sender>
+  nameWithType: Action<Sender>
+  fullName: System.Action<WeChatAuto.Components.Sender>
+  nameWithType.vb: Action(Of Sender)
+  fullName.vb: System.Action(Of WeChatAuto.Components.Sender)
+  name.vb: Action(Of Sender)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: WeChatAuto.Components.Sender
+    name: Sender
+    isExternal: true
+    href: WeChatAuto.Components.Sender.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Components.Sender
+    name: Sender
+    isExternal: true
+    href: WeChatAuto.Components.Sender.html
   - name: )
 - uid: System.Action`1
   commentId: T:System.Action`1
@@ -1238,13 +1283,6 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: WeChatAuto.Components.ChatBody.Sender
-  commentId: P:WeChatAuto.Components.ChatBody.Sender
-  isExternal: true
-  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody_Sender
-  name: Sender
-  nameWithType: ChatBody.Sender
-  fullName: WeChatAuto.Components.ChatBody.Sender
 - uid: WeChatAuto.Components.ChatBody.GetSender*
   commentId: Overload:WeChatAuto.Components.ChatBody.GetSender
   isExternal: true

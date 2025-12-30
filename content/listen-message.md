@@ -43,12 +43,12 @@ public async Task AddMessageListener(string nickName, Action<MessageContext> cal
 
 用户只需提供一个回调函数，当检测到有新好友申请时，系统会自动通过申请，并在通过后调用用户的回调函数。
 
-> 可通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddNewFriendAutoPassedListener```方法。
+> 可通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddFriendRequestAutoAcceptListener```方法。
 
 方法定义:
 
 ```
-public void AddNewFriendAutoPassedListener(Action<List<string>> callBack, string keyWord = null, string suffix = null, string label = null)
+public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, string keyWord = null, string suffix = null, string label = null)
 ```
 
 参数说明：
@@ -57,7 +57,28 @@ public void AddNewFriendAutoPassedListener(Action<List<string>> callBack, string
   - suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类
   - label：可选，自动通过时为新好友打上的微信标签，方便分类管理
 
-### 移转新用户申请监听
+### 自动通过新好友申请-监控好友消息-也可以发送首次聊天消息
+
+用户只需提供一个回调函数，当自动通过好友申请后，如果好友有消息发送过来，会被监听到，可以通过```MessageContext```对象获取客户信息并回复等，具体请参看: [MessageContext](../api/WeChatAuto.Models.MessageContext.html)。
+
+可选的，也可以在自动通过好友后，由我首先发起聊天（让我首先给客户发送文本、表情、图片、文件等），可以通过```Sender```对象发送首次消息，具体请参考: [Sender](../api/WeChatAuto.Components.Sender.html)。
+
+> 可通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddFriendRequestAutoAcceptListener```方法。
+
+方法定义:
+
+```
+public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null, string keyWord = null, string suffix = null, string label = null)
+```
+
+参数说明：
+  - callBack：自定义回调函数，当有新好友添加成功时被调用,当自动通过好友申请后，如果好友有消息发送过来，则执行此回调方法
+  - firstMessageAction: 可选, 当自动通过好友申请后，由我首次给好友发送消息
+  - keyWord：可选, 设定关键词；仅当好友申请内容包含此关键词时才自动通过。若为```null```，则所有好友申请均会被自动通过
+  - suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类
+  - label：可选，自动通过时为新好友打上的微信标签，方便分类管理
+
+### 移转新好友申请监听
 
 方法定义:
 ```
