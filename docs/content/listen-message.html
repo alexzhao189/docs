@@ -137,7 +137,7 @@
 <p>用户只需提供一个回调函数，当自动通过好友申请后，如果好友有消息发送过来，会被监听到，可以通过<code>MessageContext</code>对象获取客户信息并回复等，具体请参看: <a href="../api/WeChatAuto.Models.MessageContext.html">MessageContext</a>。</p>
 <p>可选的，也可以在自动通过好友后，由我首先发起聊天（让我首先给客户发送文本、表情、图片、文件等），可以通过<code>Sender</code>对象发送首次消息，具体请参考: <a href="../api/WeChatAuto.Components.Sender.html">Sender</a>。</p>
 <blockquote>
-<p>可通过<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient对象</a>调用<code>AddFriendRequestAutoAcceptListener</code>方法。</p>
+<p>可通过<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient对象</a>调用<code>AddFriendRequestAutoAcceptAndOpenChatListener</code>方法。</p>
 </blockquote>
 <p>方法定义:</p>
 <pre><code>public void AddFriendRequestAutoAcceptAndOpenChatListener(Action&lt;MessageContext&gt; callBack, Action&lt;Sender&gt; firstMessageAction = null, string keyWord = null, string suffix = null, string label = null)

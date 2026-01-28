@@ -24,9 +24,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话
   example: []
@@ -56,9 +56,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   example: []
   syntax:
@@ -80,9 +80,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.Conversation()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public Conversation()
@@ -103,9 +103,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.ConversationType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话类型
   example: []
@@ -128,9 +128,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.ConversationTitle
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话标题
   example: []
@@ -153,9 +153,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.ConversationContent
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话内容
   example: []
@@ -178,9 +178,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.IsCompanyGroup
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 是否是企业群
   example: []
@@ -203,9 +203,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.ImageButton
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话头像按钮
   example: []
@@ -228,9 +228,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.HasNotRead
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 是否有未读消息
   example: []
@@ -253,9 +253,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.Time
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 会话时间
   example: []
@@ -278,9 +278,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.IsDoNotDisturb
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 是否免打扰
   example: []
@@ -303,9 +303,9 @@ items:
   fullName: WeAutoCommon.Models.Conversation.IsTop
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 是否置顶
   example: []

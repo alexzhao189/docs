@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Enums
   type: Namespace
   assemblies:
-  - WeAutoCommon
+  - weautocommon
 references:
 - uid: WeAutoCommon.Enums.ActionType
   commentId: T:WeAutoCommon.Enums.ActionType

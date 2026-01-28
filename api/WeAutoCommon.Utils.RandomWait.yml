@@ -14,9 +14,9 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/RandomWait.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static class RandomWait
@@ -43,9 +43,9 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait.Wait(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/RandomWait.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 等待随机时间
   example: []

@@ -19,9 +19,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: Result的泛型类，用于封装操作结果
   example: []
@@ -67,9 +67,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Ok(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public static Result<T> Ok(T value)
@@ -94,9 +94,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Fail(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public static Result<T> Fail(string error)
@@ -122,9 +122,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Map<U>(System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public Result<U> Map<U>(Func<T, U> mapper)
@@ -152,9 +152,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Result<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public Result<U> Bind<U>(Func<T, Result<U>> binder)
@@ -182,9 +182,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Match<U>(System.Func<T, U>, System.Func<string, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public U Match<U>(Func<T, U> ok, Func<string, U> fail)
@@ -214,9 +214,9 @@ items:
   fullName: WeAutoCommon.Models.Result<T>.Value
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/Result.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Result.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public T Value { get; set; }

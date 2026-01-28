@@ -17,9 +17,9 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/TypeNewStringExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static class TypeNewStringExtentions
@@ -47,9 +47,9 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/TypeNewStringExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 清空输入框并输入字符串
   example: []
@@ -83,9 +83,9 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.TypeNewStringAndEnter(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/TypeNewStringExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 清空输入框并输入字符串并按下回车键
   example: []
@@ -119,9 +119,9 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.Enter(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/TypeNewStringExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 按下回车键
   example: []
@@ -149,9 +149,9 @@ items:
   fullName: WeChatAuto.Extentions.TypeNewStringExtentions.OnlyTypeString(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Extentions/TypeNewStringExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/TypeNewStringExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 只输入字符串,不按下回车键,不清空输入框
   example: []

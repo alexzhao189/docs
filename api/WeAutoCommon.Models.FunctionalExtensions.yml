@@ -21,9 +21,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 函数式扩展方法
   example: []
@@ -53,9 +53,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.ToResult<T>(WeAutoCommon.Models.Maybe<T>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 将Maybe转换为Result
   example: []
@@ -92,9 +92,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 将值转换为Maybe
   example: []
@@ -127,9 +127,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Try<T>(System.Func<T>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 尝试执行函数，如果失败则返回失败，否则返回成功的结果
   example: []
@@ -163,9 +163,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Bind<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, WeAutoCommon.Models.Result<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: Result Bind，将Result转换为Result
   example: []
@@ -204,9 +204,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Map<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     Result Map，将Result转换为Result
@@ -248,9 +248,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Match<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>, System.Func<string, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     Result Match，将Result转换为Result
@@ -295,9 +295,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.BindAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<WeAutoCommon.Models.Result<U>>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     Async Result Bind，将Result转换为Result
@@ -339,9 +339,9 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.MapAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     Async Result Map，将Result转换为Result

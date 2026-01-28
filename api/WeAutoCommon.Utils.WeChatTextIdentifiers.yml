@@ -33,9 +33,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信界面文本标识符集合
   example: []
@@ -64,9 +64,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_MAIN
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信主界面文本标识符
   example: []
@@ -87,9 +87,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SYSTEM
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static readonly Dictionary<string, TextIdentifier> WECHAT_SYSTEM
@@ -108,9 +108,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CHAT_BOX
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信聊天框文本标识符
   example: []
@@ -131,9 +131,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_SESSION_BOX
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信会话框文本标识符
   example: []
@@ -154,9 +154,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_NAVIGATION_BOX
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信导航框文本标识符
   example: []
@@ -177,9 +177,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.EMOTION_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 表情窗口文本标识符
   example: []
@@ -200,9 +200,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENT_PRIVACY
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 朋友圈隐私设置文本标识符
   example: []
@@ -223,9 +223,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_CARD
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 个人资料卡片文本标识符
   example: []
@@ -246,9 +246,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MESSAGES
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 消息类型文本标识符
   example: []
@@ -269,9 +269,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.CHATROOM_DETAIL_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 群聊详情窗口文本标识符
   example: []
@@ -292,9 +292,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.PROFILE_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 个人资料窗口文本标识符
   example: []
@@ -315,9 +315,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_NEW_FRIEND_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 添加新朋友窗口文本标识符
   example: []
@@ -338,9 +338,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.ADD_GROUP_MEMBER_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 添加群成员窗口文本标识符
   example: []
@@ -361,9 +361,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.IMAGE_WINDOW
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 图片窗口文本标识符
   example: []
@@ -384,9 +384,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MENU_OPTIONS
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 菜单选项文本标识符
   example: []
@@ -407,9 +407,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.MOMENTS
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 朋友圈文本标识符
   example: []
@@ -430,9 +430,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.NEW_FRIEND_ELEMENT
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 新朋友元素文本标识符
   example: []
@@ -453,9 +453,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_BROWSER
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 微信浏览器文本标识符
   example: []
@@ -476,9 +476,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.WECHAT_CONVERSATION_TITLE
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static readonly Dictionary<string, TextIdentifier> WECHAT_CONVERSATION_TITLE
@@ -497,9 +497,9 @@ items:
   fullName: WeAutoCommon.Utils.WeChatTextIdentifiers.GetText(System.Collections.Generic.Dictionary<string, WeAutoCommon.Utils.TextIdentifier>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static string GetText(Dictionary<string, TextIdentifier> textIdentifiers, string key)

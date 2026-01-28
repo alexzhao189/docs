@@ -13,7 +13,7 @@ items:
   fullName: WeAutoCommon.Exceptions
   type: Namespace
   assemblies:
-  - WeAutoCommon
+  - weautocommon
 references:
 - uid: WeAutoCommon.Exceptions.WindowNotExsitException
   commentId: T:WeAutoCommon.Exceptions.WindowNotExsitException

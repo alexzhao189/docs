@@ -40,9 +40,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public sealed class MessageContext
@@ -70,9 +70,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageContext(System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, System.Collections.Generic.List<WeChatAuto.Components.MessageBubble>, WeChatAuto.Components.Sender, WeChatAuto.Components.WeChatClient, WeChatAuto.Components.WeChatClientFactory, System.IServiceProvider, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public MessageContext(List<MessageBubble> newMessages, List<MessageBubble> allMessages, Sender sender, WeChatClient ownerClient, WeChatClientFactory systemClientFactory, IServiceProvider serviceProvider, string ownerNickName)
@@ -108,9 +108,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetNewMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取新消息
   example: []
@@ -133,9 +133,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetAllMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取所有消息
   example: []
@@ -158,9 +158,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLastMessages(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取最后几条消息
   example: []
@@ -190,17 +190,17 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
-  summary: 获取LLM上下文消息
+  summary: 获取适用于LLM上下文的上下文消息
   example: []
   syntax:
     content: public List<string> GetLLMContextMessages()
     return:
       type: System.Collections.Generic.List{System.String}
-      description: LLM上下文消息列表
+      description: 适用于LLM上下文的上下文消息列表
     content.vb: Public Function GetLLMContextMessages() As List(Of String)
   overload: WeChatAuto.Models.MessageContext.GetLLMContextMessages*
 - uid: WeChatAuto.Models.MessageContext.GetLLMContextMessages(System.Int32)
@@ -215,9 +215,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessages(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取最后几条LLM上下文消息
   example: []
@@ -247,9 +247,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取LLM上下文消息元组
   example: []
@@ -272,9 +272,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.GetLLMContextMessagesTuple(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取最后几条LLM上下文消息元组
   example: []
@@ -304,9 +304,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeTap()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 是否被人拍一拍
   example: []
@@ -329,17 +329,17 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeAt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
-  summary: 是否被@
+  summary: 是否被其他人@我
   example: []
   syntax:
     content: public bool IsBeAt()
     return:
       type: System.Boolean
-      description: 是否被@
+      description: 是否被其他人@我
     content.vb: Public Function IsBeAt() As Boolean
   overload: WeChatAuto.Models.MessageContext.IsBeAt*
 - uid: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt
@@ -354,9 +354,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsBeAt()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取被@的消息气泡列表
   example: []
@@ -379,9 +379,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.IsBeReferenced()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 是否被引用
   example: []
@@ -404,9 +404,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferenced()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取新消息中我被引用的消息气泡列表
   example: []
@@ -429,9 +429,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.MessageBubbleIsReferencing()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 获取新消息中引用我的消息气泡列表中我发送的消息气泡列表
   example: []
@@ -454,11 +454,11 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendMessage(string, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
-  summary: 发送消息
+  summary: 发送文字消息
   example: []
   syntax:
     content: public void SendMessage(string message, List<string> atUserList = null)
@@ -486,9 +486,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendFile(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 发送文件
   example: []
@@ -515,9 +515,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendEmoji(OneOf.OneOf<int, string>, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 发送表情
   example: []
@@ -547,9 +547,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendMessageToFriend(string, string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 向聊天好友外的好友发送消息
   example: []
@@ -585,9 +585,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendFileToFriend(string, string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 向聊天好友外的好友发送文件
   example: []
@@ -620,9 +620,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SendEmojiToFriend(string, OneOf.OneOf<int, string>, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 向聊天好友外的好友发送表情
   example: []
@@ -658,9 +658,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.OwnerNickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: 当前我的微信昵称
   example: []
@@ -683,9 +683,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.NewMessages
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     新消息气泡列表
@@ -711,9 +711,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.AllMessages
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     所有消息气泡列表
@@ -739,9 +739,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.Sender
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     发送者,调用此类可以发送消息、发送文件、发送表情等
@@ -767,9 +767,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.OwnerClient
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     当前微信客户端
@@ -795,9 +795,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.SystemClientFactory
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     系统微信客户端工厂,可以通过WeChatClientFactory获取其他微信客户端,发送消息、发送文件、发送表情等
@@ -823,9 +823,9 @@ items:
   fullName: WeChatAuto.Models.MessageContext.ServiceProvider
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeChatAuto/Models/MessageContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/MessageContext.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   summary: >-
     服务提供者，使用者可以注入自己的服务，在此处获取

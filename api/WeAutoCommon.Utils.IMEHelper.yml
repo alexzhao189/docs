@@ -20,9 +20,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: Win11专用IME控制工具类
   example: []
@@ -53,9 +53,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.ImmAssociateContext(nint, nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static extern nint ImmAssociateContext(nint hwnd, nint hImc)
@@ -83,9 +83,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.ImmDisableIME(uint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static extern bool ImmDisableIME(uint idThread)
@@ -111,9 +111,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.DisableImeForProcess(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 禁用指定进程的IME输入法（适用于自动化第三方应用程序）
   example: []
@@ -143,9 +143,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.DisableImeForProcessByName(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 通过进程名称禁用IME（适用于自动化第三方应用程序）
   example: []
@@ -175,9 +175,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.DisableImeForWindow(nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static void DisableImeForWindow(nint hwnd)
@@ -201,9 +201,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.DisableImeForWin11()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: >-
     Win11专用IME禁用方法
@@ -226,9 +226,9 @@ items:
   fullName: WeAutoCommon.Utils.IMEHelper.IMEHelper()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/648a6ff85ac2e4c00358024ff4f7f7dd7f6fb61a/WeAutoCommon/Utils/IMEHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Utils/IMEHelper.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public IMEHelper()

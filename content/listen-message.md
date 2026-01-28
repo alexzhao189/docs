@@ -63,7 +63,7 @@ public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, st
 
 可选的，也可以在自动通过好友后，由我首先发起聊天（让我首先给客户发送文本、表情、图片、文件等），可以通过```Sender```对象发送首次消息，具体请参考: [Sender](../api/WeChatAuto.Components.Sender.html)。
 
-> 可通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddFriendRequestAutoAcceptListener```方法。
+> 可通过[WeChatClient对象](../api/WeChatAuto.Components.WeChatClient.html)调用```AddFriendRequestAutoAcceptAndOpenChatListener```方法。
 
 方法定义:
 
