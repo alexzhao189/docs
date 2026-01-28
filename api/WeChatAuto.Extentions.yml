@@ -19,7 +19,7 @@ items:
   fullName: WeChatAuto.Extentions
   type: Namespace
   assemblies:
-  - wechatauto
+  - WeChatAuto
 references:
 - uid: WeChatAuto.Extentions.AutoLoggerExtensions
   commentId: T:WeChatAuto.Extentions.AutoLoggerExtensions

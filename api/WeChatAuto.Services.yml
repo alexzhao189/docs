@@ -14,7 +14,7 @@ items:
   fullName: WeChatAuto.Services
   type: Namespace
   assemblies:
-  - wechatauto
+  - WeChatAuto
 references:
 - uid: WeChatAuto.Services.KMSimulatorService
   commentId: T:WeChatAuto.Services.KMSimulatorService

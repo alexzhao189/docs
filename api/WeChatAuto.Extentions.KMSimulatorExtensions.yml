@@ -16,7 +16,7 @@ items:
   source:
     href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static class KMSimulatorExtensions
@@ -46,7 +46,7 @@ items:
   source:
     href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static IServiceCollection AddKMSimulator(this IServiceCollection services, int deviceVID, int devicePID, string verifyUserData, int outputStringType = 4)

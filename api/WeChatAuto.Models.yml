@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Models
   type: Namespace
   assemblies:
-  - wechatauto
+  - WeChatAuto
 references:
 - uid: WeChatAuto.Models.AddGroupMemberOptions
   commentId: T:WeChatAuto.Models.AddGroupMemberOptions

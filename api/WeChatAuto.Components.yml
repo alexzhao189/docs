@@ -30,7 +30,7 @@ items:
   fullName: WeChatAuto.Components
   type: Namespace
   assemblies:
-  - wechatauto
+  - WeChatAuto
 references:
 - uid: WeChatAuto.Components.AddressBookList
   commentId: T:WeChatAuto.Components.AddressBookList

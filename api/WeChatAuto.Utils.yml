@@ -27,7 +27,7 @@ items:
   fullName: WeChatAuto.Utils
   type: Namespace
   assemblies:
-  - wechatauto
+  - WeChatAuto
 references:
 - uid: WeChatAuto.Utils.AutoLogger`1
   commentId: T:WeChatAuto.Utils.AutoLogger`1
