@@ -17,9 +17,9 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public class WeChatRecordVideo
@@ -48,9 +48,9 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.WeChatRecordVideo(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public WeChatRecordVideo(string path)
@@ -74,9 +74,9 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
     录制视频
@@ -109,9 +109,9 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.TargetPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public string TargetPath { get; set; }
@@ -132,9 +132,9 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public VideoRecorder _VideoRecorder { get; set; }

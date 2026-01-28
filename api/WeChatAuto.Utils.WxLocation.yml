@@ -21,9 +21,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: 微信元素定位信息
   example: []
@@ -54,9 +54,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
     构造函数
@@ -92,9 +92,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.Conditions.ConditionBase)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
     构造函数
@@ -127,9 +127,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.WxLocation(FlaUI.Core.AutomationElements.AutomationElement, string, FlaUI.Core.Conditions.ConditionBase, string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: >-
     构造函数
@@ -168,9 +168,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.RefreshElement()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: 刷新元素
   example: []
@@ -197,9 +197,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.ParentElement
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public AutomationElement ParentElement { get; set; }
@@ -220,9 +220,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.AutomationId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public string AutomationId { get; set; }
@@ -243,9 +243,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.Condition
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public ConditionBase Condition { get; set; }
@@ -266,9 +266,9 @@ items:
   fullName: WeChatAuto.Utils.WxLocation.XPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/WxLocation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/WxLocation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   syntax:
     content: public string XPath { get; set; }

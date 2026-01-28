@@ -14,9 +14,9 @@ items:
   fullName: WeChatAuto.Extentions.KMSimulatorExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/KMSimulatorExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static class KMSimulatorExtensions
@@ -44,9 +44,9 @@ items:
   fullName: WeChatAuto.Extentions.KMSimulatorExtensions.AddKMSimulator(Microsoft.Extensions.DependencyInjection.IServiceCollection, int, int, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Extentions/KMSimulatorExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/KMSimulatorExtensions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static IServiceCollection AddKMSimulator(this IServiceCollection services, int deviceVID, int devicePID, string verifyUserData, int outputStringType = 4)

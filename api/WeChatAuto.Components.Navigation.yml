@@ -17,9 +17,9 @@ items:
   fullName: WeChatAuto.Components.Navigation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/Navigation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   syntax:
     content: public class Navigation
@@ -48,9 +48,9 @@ items:
   fullName: WeChatAuto.Components.Navigation._wxLocationCaches
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/Navigation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   syntax:
     content: public WxLocationCaches _wxLocationCaches
@@ -69,9 +69,9 @@ items:
   fullName: WeChatAuto.Components.Navigation.Navigation(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/Navigation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 导航栏构造函数
   example: []
@@ -107,9 +107,9 @@ items:
   fullName: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/Navigation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 切换导航栏
   example: []
@@ -133,9 +133,9 @@ items:
   fullName: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/Navigation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
     关闭导航栏

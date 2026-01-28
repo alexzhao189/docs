@@ -20,9 +20,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 微信消息内部类
   example: []
@@ -53,9 +53,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ChatMessageInner()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   syntax:
     content: public ChatMessageInner()
@@ -76,9 +76,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ClientName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 微信客户端名称
   example: []
@@ -101,9 +101,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 消息内容
   example: []
@@ -126,9 +126,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ToUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 发送给谁,可以单人也可以群发
   example: []
@@ -151,9 +151,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.AtUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: '@谁,可以单人也可以多人'
   example: []
@@ -176,9 +176,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.IsNewWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 是否打开新窗口发送
   example: []
@@ -201,9 +201,9 @@ items:
   fullName: WeChatAuto.Models.ChatMessageInner.ApiKey
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatMessageInner.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 接口KEY
   example: []

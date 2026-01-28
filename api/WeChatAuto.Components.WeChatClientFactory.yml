@@ -21,9 +21,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 微信客户端工厂,封装的微信客户端工厂，支持多微信实例
   example: []
@@ -56,9 +56,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientFactory(System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 微信自动化框架构造函数
   example: []
@@ -84,9 +84,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientNames()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 获取客户端名称列表
   example: []
@@ -109,9 +109,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClient(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 获取微信客户端
   example: []
@@ -145,9 +145,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.GetWeChatClientList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
     获取微信客户端列表
@@ -173,9 +173,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 释放资源
   example: []
@@ -197,9 +197,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.~WeChatClientFactory()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   syntax:
     content: protected ~WeChatClientFactory()
@@ -220,9 +220,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   syntax:
     content: protected virtual void Dispose(bool disposing)
@@ -246,9 +246,9 @@ items:
   fullName: WeChatAuto.Components.WeChatClientFactory.WeChatClientList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Components/WeChatClientFactory.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatClientFactory.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 微信客户端列表
   example: []

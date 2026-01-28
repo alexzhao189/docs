@@ -20,9 +20,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   syntax:
     content: public class AddGroupMemberOptions
@@ -51,9 +51,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.AddGroupMemberOptions()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   syntax:
     content: public AddGroupMemberOptions()
@@ -74,9 +74,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.ExceptList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 排除列表
   example: []
@@ -99,9 +99,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.HelloText
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 打招呼文本
   example: []
@@ -124,9 +124,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 自动增加的好友的标签
   example: []
@@ -149,9 +149,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.IntervalSecond
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 间隔时间
   example: []
@@ -174,9 +174,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.PageNo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 页码
   example: []
@@ -199,9 +199,9 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.PageSize
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Models
   summary: 每页数量
   example: []

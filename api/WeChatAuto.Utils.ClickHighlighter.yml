@@ -14,9 +14,9 @@ items:
   fullName: WeChatAuto.Utils.ClickHighlighter
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/ClickHighlighter.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/ClickHighlighter.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: 点击高亮器
   example: []
@@ -45,9 +45,9 @@ items:
   fullName: WeChatAuto.Utils.ClickHighlighter.ShowClick(System.Drawing.Point, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Utils/ClickHighlighter.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/ClickHighlighter.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Utils
   summary: 显示当前鼠标点击
   example: []

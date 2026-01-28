@@ -16,9 +16,9 @@ items:
   fullName: WeChatAuto.Services.WeAutomation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Services/WeAutomation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Services
   syntax:
     content: public static class WeAutomation
@@ -45,9 +45,9 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Services/WeAutomation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Services
   summary: >-
     统一初始化入口 - 使用外部依赖注入框架
@@ -83,9 +83,9 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Services/WeAutomation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Services
   summary: >-
     统一初始化入口 - 使用内部依赖注入框架
@@ -118,9 +118,9 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Config
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/wechatauto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Services/WeAutomation.cs
   assemblies:
-  - wechatauto
+  - WeChatAuto
   namespace: WeChatAuto.Services
   syntax:
     content: public static WeChatConfig Config { get; }
