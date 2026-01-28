@@ -29,7 +29,7 @@ items:
   fullName: WeChatAuto.Components.Sender
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -62,7 +62,7 @@ items:
   fullName: WeChatAuto.Components.Sender.Sender(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -113,7 +113,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetToolBarButton(WeAutoCommon.Enums.ChatBoxToolBarType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -142,7 +142,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVoiceChat()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -164,7 +164,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVoiceChats(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -193,7 +193,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendLiveStreaming()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -215,7 +215,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendVideoChat()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -237,7 +237,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetToolBarButtons()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -262,7 +262,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetContentArea()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -287,7 +287,7 @@ items:
   fullName: WeChatAuto.Components.Sender.GetSendButton()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -312,7 +312,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendMessage(string, OneOf.OneOf<string, string[], System.Collections.Generic.List<string>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -344,7 +344,7 @@ items:
   fullName: WeChatAuto.Components.Sender.PasteImageFiles()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -366,7 +366,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendFile(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -395,7 +395,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendEmoji(OneOf.OneOf<int, string>, System.Collections.Generic.List<string>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -427,7 +427,7 @@ items:
   fullName: WeChatAuto.Components.Sender.ContentArea
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -450,7 +450,7 @@ items:
   fullName: WeChatAuto.Components.Sender.ToolBarButtons
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -473,7 +473,7 @@ items:
   fullName: WeChatAuto.Components.Sender.SendButton
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/Sender.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/Sender.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

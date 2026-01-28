@@ -27,7 +27,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -62,7 +62,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.SubWinList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -100,7 +100,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.GetAllOpenedSubWinNames()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -125,7 +125,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CheckSubWinIsOpen(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -157,7 +157,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CheckSubWinExistAndOpen(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -189,7 +189,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.GetSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -221,7 +221,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CloseAllSubWins()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -243,7 +243,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.CloseSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -272,7 +272,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.RegisterMonitorSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -301,7 +301,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.UnregisterMonitorSubWin(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -330,7 +330,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.AddMessageListener(System.Action<WeChatAuto.Models.MessageContext>, string, System.Action<WeChatAuto.Components.Sender>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -367,7 +367,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.StopMessageListener(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -396,7 +396,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -419,7 +419,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.~SubWinList()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -442,7 +442,7 @@ items:
   fullName: WeChatAuto.Components.SubWinList.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/SubWinList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Components/SubWinList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
