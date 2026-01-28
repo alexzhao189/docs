@@ -15,9 +15,9 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   syntax:
     content: public class MomentsHelper
@@ -46,9 +46,9 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper.ParseMonentItem(FlaUI.Core.AutomationElements.ListBoxItem, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   summary: 解析朋友圈内容
   example: []
@@ -81,9 +81,9 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper.MomentsHelper()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   syntax:
     content: public MomentsHelper()

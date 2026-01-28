@@ -22,9 +22,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 通讯录列表
   example: []
@@ -55,9 +55,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddressBookList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   syntax:
     content: public AddressBookList(Window window, WeChatMainWindow wxWindow, UIThreadInvoker uiThreadInvoker, IServiceProvider serviceProvider)
@@ -87,9 +87,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllFriends()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 获取所有好友
   example: []
@@ -112,9 +112,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.LocateFriend(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 定位好友
   example: []
@@ -144,9 +144,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 获取所有公众号
   example: []
@@ -169,9 +169,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 获取所有待添加好友
   example: []
@@ -201,9 +201,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(string, string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 通过新好友
   example: []
@@ -239,9 +239,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.RemoveFriend(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 移除好友
   example: []
@@ -271,9 +271,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List<string>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 添加好友
   example: []
@@ -306,9 +306,9 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddFriend(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/AddressBookList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: >-
     添加好友

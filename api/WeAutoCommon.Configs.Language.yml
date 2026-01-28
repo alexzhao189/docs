@@ -17,7 +17,7 @@ items:
   fullName: WeAutoCommon.Configs.Language
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs
@@ -46,7 +46,7 @@ items:
   fullName: WeAutoCommon.Configs.Language.Chinese
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs
@@ -67,7 +67,7 @@ items:
   fullName: WeAutoCommon.Configs.Language.ChineseTraditional
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs
@@ -88,7 +88,7 @@ items:
   fullName: WeAutoCommon.Configs.Language.English
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs
@@ -109,7 +109,7 @@ items:
   fullName: WeAutoCommon.Configs.Language.CurrentLanguage
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs

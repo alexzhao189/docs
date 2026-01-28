@@ -21,9 +21,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 静默操作的扩展
   example: []
@@ -53,9 +53,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: >-
     静默点击
@@ -88,9 +88,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 静默输入文本
   example: []
@@ -124,9 +124,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 静默回车
   example: []
@@ -154,9 +154,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window, string[], FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 使用SendKeys的简单方法
   example: []
@@ -187,9 +187,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: >-
     显示点击
@@ -220,9 +220,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 显示点击
   example: []
@@ -250,9 +250,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: >-
     显示点击
@@ -283,9 +283,9 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 显示点击
   example: []

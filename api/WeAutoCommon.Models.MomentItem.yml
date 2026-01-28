@@ -30,7 +30,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -61,7 +61,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.MomentItem(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -87,7 +87,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -111,7 +111,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Equals(WeAutoCommon.Models.MomentItem)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -139,7 +139,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Equals(object)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -169,7 +169,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.GetHashCode()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -193,7 +193,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.GetListItemKey(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -225,7 +225,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Clone()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -250,7 +250,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -275,7 +275,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Content
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -300,7 +300,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Time
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -325,7 +325,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.ListItemName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -350,7 +350,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.ListItemKey
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -378,7 +378,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.ReplyItems
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -403,7 +403,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.Likers
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -428,7 +428,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.IsMyLiked
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -453,7 +453,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.IsMyEndReply
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -481,7 +481,7 @@ items:
   fullName: WeAutoCommon.Models.MomentItem.IsIncludeMyReply
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models

@@ -15,9 +15,9 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   syntax:
     content: public static class ClickEnhanceExtentions
@@ -45,9 +45,9 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions.ClickEnhance(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: >-
     点击增强
@@ -80,9 +80,9 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions.DblClickEnhance(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Extentions
   summary: 双击增强
   example: []

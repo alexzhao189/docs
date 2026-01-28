@@ -17,9 +17,9 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 微信客户端通知图标,封装的微信客户端通知图标，包含通知图标、通知图标点击事件等
   example: []
@@ -52,9 +52,9 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.WeChatNotifyIcon(FlaUI.Core.AutomationElements.Button, System.IServiceProvider, WeChatAuto.Components.WeChatMainWindow)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   syntax:
     content: public WeChatNotifyIcon(Button notifyIcon, IServiceProvider serviceProvider, WeChatMainWindow wxMainWindow)
@@ -82,9 +82,9 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.Click()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 点击通知图标
   example: []
@@ -104,9 +104,9 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   example: []
   syntax:
@@ -127,9 +127,9 @@ items:
   fullName: WeChatAuto.Components.WeChatNotifyIcon.NotifyIcon
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/WeChatNotifyIcon.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/WeChatNotifyIcon.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   syntax:
     content: public Button NotifyIcon { get; }

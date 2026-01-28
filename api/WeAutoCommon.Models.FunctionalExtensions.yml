@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -53,7 +53,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.ToResult<T>(WeAutoCommon.Models.Maybe<T>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -92,7 +92,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -127,7 +127,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Try<T>(System.Func<T>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -163,7 +163,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Bind<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, WeAutoCommon.Models.Result<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -204,7 +204,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Map<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -248,7 +248,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.Match<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, U>, System.Func<string, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -295,7 +295,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.BindAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<WeAutoCommon.Models.Result<U>>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models
@@ -339,7 +339,7 @@ items:
   fullName: WeAutoCommon.Models.FunctionalExtensions.MapAsync<T, U>(WeAutoCommon.Models.Result<T>, System.Func<T, System.Threading.Tasks.Task<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/FunctionalExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/FunctionalExtensions.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Models

@@ -18,7 +18,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums
@@ -39,7 +39,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.发送消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums
@@ -59,7 +59,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.发送文件
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums
@@ -79,7 +79,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.自定义表情
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums
@@ -99,7 +99,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.添加好友
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums
@@ -119,7 +119,7 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.打开子窗口
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/ActionType.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Enums

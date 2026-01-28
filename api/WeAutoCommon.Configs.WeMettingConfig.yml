@@ -14,7 +14,7 @@ items:
   fullName: WeAutoCommon.Configs.WeMettingConfig
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeMettingConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeMettingConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs
@@ -47,7 +47,7 @@ items:
   fullName: WeAutoCommon.Configs.WeMettingConfig.WeMettingConfig()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Configs/WeMettingConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeMettingConfig.cs
   assemblies:
   - weautocommon
   namespace: WeAutoCommon.Configs

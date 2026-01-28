@@ -17,9 +17,9 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public class ChatSimpleMessage
@@ -47,9 +47,9 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   example: []
   syntax:
@@ -71,9 +71,9 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.ChatSimpleMessage()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public ChatSimpleMessage()
@@ -94,9 +94,9 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public string Who { get; set; }
@@ -117,9 +117,9 @@ items:
   fullName: WeChatAuto.Models.ChatSimpleMessage.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Models/ChatSimpleMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Models/ChatSimpleMessage.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Models
   syntax:
     content: public string Message { get; set; }

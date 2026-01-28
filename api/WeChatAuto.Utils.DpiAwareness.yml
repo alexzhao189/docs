@@ -16,9 +16,9 @@ items:
   fullName: WeChatAuto.Utils.DpiAwareness
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/DpiAwareness.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/DpiAwareness.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   syntax:
     content: public static class DpiAwareness
@@ -45,9 +45,9 @@ items:
   fullName: WeChatAuto.Utils.DpiAwareness.SetProcessDPIAware()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/DpiAwareness.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/DpiAwareness.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   summary: >-
     设置进程DPI感知(旧方法)
@@ -73,9 +73,9 @@ items:
   fullName: WeChatAuto.Utils.DpiAwareness.SetProcessDpiAwareness(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/DpiAwareness.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/DpiAwareness.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   summary: >-
     设置进程DPI感知(新方法)
@@ -108,9 +108,9 @@ items:
   fullName: WeChatAuto.Utils.DpiAwareness.SetProcessDpiAwareness()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Utils/DpiAwareness.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Utils/DpiAwareness.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Utils
   summary: >-
     设置进程DPI感知,如果使用库的应用已经设置DPI感知，此方法无效。

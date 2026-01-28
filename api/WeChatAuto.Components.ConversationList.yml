@@ -22,9 +22,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 会话列表
   example: []
@@ -55,9 +55,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ConversationList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   syntax:
     content: public ConversationList(Window window, WeChatMainWindow wxWindow, UIThreadInvoker uiThreadInvoker, IServiceProvider serviceProvider)
@@ -87,9 +87,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetVisibleConversations()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: >-
     获取会话列表可见会话
@@ -115,9 +115,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetAllConversations()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: >-
     获取会话列表所有会话的名称
@@ -143,9 +143,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.LocateConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: >-
     定位会话
@@ -178,9 +178,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ClickConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 点击会话
   example: []
@@ -207,9 +207,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.ClickFirstConversation()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 点击第一个会话
   example: []
@@ -229,9 +229,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.DoubleClickConversation(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 双击会话
   example: []
@@ -258,9 +258,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetVisibleConversationTitles()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 获取会话列表可见会话标题
   example: []
@@ -283,9 +283,9 @@ items:
   fullName: WeChatAuto.Components.ConversationList.GetConversationRoot()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/WeChatAuto/Components/ConversationList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeChatAuto/Components/ConversationList.cs
   assemblies:
-  - WeChatAuto
+  - wechatauto
   namespace: WeChatAuto.Components
   summary: 获取会话列表根节点
   example: []
@@ -809,7 +809,7 @@ references:
   - uid: WeAutoCommon.Models.Conversation
     name: Conversation
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Conversation.cs
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -822,7 +822,7 @@ references:
   - uid: WeAutoCommon.Models.Conversation
     name: Conversation
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/668250e0da726d86eaf7043ef2ae776331b28a23/weautocommon/Models/Conversation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Conversation.cs
   - name: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
