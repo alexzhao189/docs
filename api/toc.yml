@@ -260,6 +260,9 @@ items:
   - uid: WeChatAuto.Models.MessageContext
     name: MessageContext
     type: Class
+  - uid: WeChatAuto.Models.NewFriendContext
+    name: NewFriendContext
+    type: Class
 - uid: WeChatAuto.Services
   name: WeChatAuto.Services
   type: Namespace

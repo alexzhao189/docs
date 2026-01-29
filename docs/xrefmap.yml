@@ -10654,6 +10654,66 @@ references:
   commentId: Overload:WeChatAuto.Models.MessageContext.SystemClientFactory
   fullName: WeChatAuto.Models.MessageContext.SystemClientFactory
   nameWithType: MessageContext.SystemClientFactory
+- uid: WeChatAuto.Models.NewFriendContext
+  name: NewFriendContext
+  href: api/WeChatAuto.Models.NewFriendContext.html
+  commentId: T:WeChatAuto.Models.NewFriendContext
+  fullName: WeChatAuto.Models.NewFriendContext
+  nameWithType: NewFriendContext
+- uid: WeChatAuto.Models.NewFriendContext.#ctor
+  name: NewFriendContext()
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext__ctor
+  commentId: M:WeChatAuto.Models.NewFriendContext.#ctor
+  name.vb: New()
+  fullName: WeChatAuto.Models.NewFriendContext.NewFriendContext()
+  fullName.vb: WeChatAuto.Models.NewFriendContext.New()
+  nameWithType: NewFriendContext.NewFriendContext()
+  nameWithType.vb: NewFriendContext.New()
+- uid: WeChatAuto.Models.NewFriendContext.#ctor*
+  name: NewFriendContext
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext__ctor_
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.#ctor
+  name.vb: New
+  fullName: WeChatAuto.Models.NewFriendContext.NewFriendContext
+  fullName.vb: WeChatAuto.Models.NewFriendContext.New
+  nameWithType: NewFriendContext.NewFriendContext
+  nameWithType.vb: NewFriendContext.New
+- uid: WeChatAuto.Models.NewFriendContext.Label
+  name: Label
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Label
+  commentId: P:WeChatAuto.Models.NewFriendContext.Label
+  fullName: WeChatAuto.Models.NewFriendContext.Label
+  nameWithType: NewFriendContext.Label
+- uid: WeChatAuto.Models.NewFriendContext.Label*
+  name: Label
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Label_
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.Label
+  fullName: WeChatAuto.Models.NewFriendContext.Label
+  nameWithType: NewFriendContext.Label
+- uid: WeChatAuto.Models.NewFriendContext.Name
+  name: Name
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Name
+  commentId: P:WeChatAuto.Models.NewFriendContext.Name
+  fullName: WeChatAuto.Models.NewFriendContext.Name
+  nameWithType: NewFriendContext.Name
+- uid: WeChatAuto.Models.NewFriendContext.Name*
+  name: Name
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Name_
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.Name
+  fullName: WeChatAuto.Models.NewFriendContext.Name
+  nameWithType: NewFriendContext.Name
+- uid: WeChatAuto.Models.NewFriendContext.RemarkName
+  name: RemarkName
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_RemarkName
+  commentId: P:WeChatAuto.Models.NewFriendContext.RemarkName
+  fullName: WeChatAuto.Models.NewFriendContext.RemarkName
+  nameWithType: NewFriendContext.RemarkName
+- uid: WeChatAuto.Models.NewFriendContext.RemarkName*
+  name: RemarkName
+  href: api/WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_RemarkName_
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.RemarkName
+  fullName: WeChatAuto.Models.NewFriendContext.RemarkName
+  nameWithType: NewFriendContext.RemarkName
 - uid: WeChatAuto.Services
   name: WeChatAuto.Services
   href: api/WeChatAuto.Services.html

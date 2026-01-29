@@ -1,0 +1,561 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeChatAuto.Models.NewFriendContext
+  commentId: T:WeChatAuto.Models.NewFriendContext
+  id: NewFriendContext
+  parent: WeChatAuto.Models
+  children:
+  - WeChatAuto.Models.NewFriendContext.#ctor
+  - WeChatAuto.Models.NewFriendContext.Label
+  - WeChatAuto.Models.NewFriendContext.Name
+  - WeChatAuto.Models.NewFriendContext.RemarkName
+  langs:
+  - csharp
+  - vb
+  name: NewFriendContext
+  nameWithType: NewFriendContext
+  fullName: WeChatAuto.Models.NewFriendContext
+  type: Class
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/NewFriendContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 新好友上下文
+  example: []
+  syntax:
+    content: public class NewFriendContext
+    content.vb: Public Class NewFriendContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - WeChatAuto.Models.NewFriendContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Models.NewFriendContext.#ctor
+  commentId: M:WeChatAuto.Models.NewFriendContext.#ctor
+  id: '#ctor'
+  parent: WeChatAuto.Models.NewFriendContext
+  langs:
+  - csharp
+  - vb
+  name: NewFriendContext()
+  nameWithType: NewFriendContext.NewFriendContext()
+  fullName: WeChatAuto.Models.NewFriendContext.NewFriendContext()
+  type: Constructor
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/NewFriendContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  syntax:
+    content: public NewFriendContext()
+    content.vb: Public Sub New()
+  overload: WeChatAuto.Models.NewFriendContext.#ctor*
+  nameWithType.vb: NewFriendContext.New()
+  fullName.vb: WeChatAuto.Models.NewFriendContext.New()
+  name.vb: New()
+- uid: WeChatAuto.Models.NewFriendContext.Name
+  commentId: P:WeChatAuto.Models.NewFriendContext.Name
+  id: Name
+  parent: WeChatAuto.Models.NewFriendContext
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: NewFriendContext.Name
+  fullName: WeChatAuto.Models.NewFriendContext.Name
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/NewFriendContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 好友名称
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: WeChatAuto.Models.NewFriendContext.Name*
+- uid: WeChatAuto.Models.NewFriendContext.RemarkName
+  commentId: P:WeChatAuto.Models.NewFriendContext.RemarkName
+  id: RemarkName
+  parent: WeChatAuto.Models.NewFriendContext
+  langs:
+  - csharp
+  - vb
+  name: RemarkName
+  nameWithType: NewFriendContext.RemarkName
+  fullName: WeChatAuto.Models.NewFriendContext.RemarkName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/NewFriendContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 备注名称
+  example: []
+  syntax:
+    content: public string RemarkName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RemarkName As String
+  overload: WeChatAuto.Models.NewFriendContext.RemarkName*
+- uid: WeChatAuto.Models.NewFriendContext.Label
+  commentId: P:WeChatAuto.Models.NewFriendContext.Label
+  id: Label
+  parent: WeChatAuto.Models.NewFriendContext
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: NewFriendContext.Label
+  fullName: WeChatAuto.Models.NewFriendContext.Label
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/NewFriendContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 标签
+  example: []
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: WeChatAuto.Models.NewFriendContext.Label*
+references:
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
+  isExternal: true
+  href: WeChatAuto.html
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
+  spec.csharp:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+  spec.vb:
+  - uid: WeChatAuto
+    name: WeChatAuto
+    isExternal: true
+    href: WeChatAuto.html
+  - name: .
+  - uid: WeChatAuto.Models
+    name: Models
+    isExternal: true
+    href: WeChatAuto.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: WeChatAuto.Models.NewFriendContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<NewFriendContext>(NewFriendContext)
+  nameWithType: FunctionalExtensions.ToMaybe<NewFriendContext>(NewFriendContext)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Models.NewFriendContext>(WeChatAuto.Models.NewFriendContext)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of NewFriendContext)(NewFriendContext)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Models.NewFriendContext)(WeChatAuto.Models.NewFriendContext)
+  name.vb: ToMaybe(Of NewFriendContext)(NewFriendContext)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.NewFriendContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeChatAuto.Models.NewFriendContext
+    name: NewFriendContext
+    isExternal: true
+    href: WeChatAuto.Models.NewFriendContext.html
+  - name: '>'
+  - name: (
+  - uid: WeChatAuto.Models.NewFriendContext
+    name: NewFriendContext
+    isExternal: true
+    href: WeChatAuto.Models.NewFriendContext.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.NewFriendContext)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeChatAuto.Models.NewFriendContext
+    name: NewFriendContext
+    isExternal: true
+    href: WeChatAuto.Models.NewFriendContext.html
+  - name: )
+  - name: (
+  - uid: WeChatAuto.Models.NewFriendContext
+    name: NewFriendContext
+    isExternal: true
+    href: WeChatAuto.Models.NewFriendContext.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Models.NewFriendContext.#ctor*
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.#ctor
+  isExternal: true
+  href: WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext__ctor
+  name: NewFriendContext
+  nameWithType: NewFriendContext.NewFriendContext
+  fullName: WeChatAuto.Models.NewFriendContext.NewFriendContext
+  nameWithType.vb: NewFriendContext.New
+  fullName.vb: WeChatAuto.Models.NewFriendContext.New
+  name.vb: New
+- uid: WeChatAuto.Models.NewFriendContext.Name*
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.Name
+  isExternal: true
+  href: WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Name
+  name: Name
+  nameWithType: NewFriendContext.Name
+  fullName: WeChatAuto.Models.NewFriendContext.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WeChatAuto.Models.NewFriendContext.RemarkName*
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.RemarkName
+  isExternal: true
+  href: WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_RemarkName
+  name: RemarkName
+  nameWithType: NewFriendContext.RemarkName
+  fullName: WeChatAuto.Models.NewFriendContext.RemarkName
+- uid: WeChatAuto.Models.NewFriendContext.Label*
+  commentId: Overload:WeChatAuto.Models.NewFriendContext.Label
+  isExternal: true
+  href: WeChatAuto.Models.NewFriendContext.html#WeChatAuto_Models_NewFriendContext_Label
+  name: Label
+  nameWithType: NewFriendContext.Label
+  fullName: WeChatAuto.Models.NewFriendContext.Label
