@@ -18,9 +18,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public class ReplyItem
@@ -48,9 +48,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   example: []
   syntax:
@@ -72,9 +72,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ReplyItem()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public ReplyItem()
@@ -95,9 +95,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.Who
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 评论人
   example: []
@@ -120,9 +120,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.Content
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 评论内容
   example: []
@@ -145,9 +145,9 @@ items:
   fullName: WeAutoCommon.Models.ReplyItem.ReplyTo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/MomentItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/MomentItem.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 回复给谁
   example: []

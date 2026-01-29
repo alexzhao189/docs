@@ -6,6 +6,7 @@ items:
   parent: WeAutoCommon.Utils
   children:
   - WeAutoCommon.Utils.RandomWait.Wait(System.Int32,System.Int32)
+  - WeAutoCommon.Utils.RandomWait.WaitAsync(System.Int32,System.Int32)
   langs:
   - csharp
   - vb
@@ -14,9 +15,9 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/RandomWait.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static class RandomWait
@@ -43,9 +44,9 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait.Wait(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/RandomWait.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 等待随机时间
   example: []
@@ -63,6 +64,40 @@ items:
   nameWithType.vb: RandomWait.Wait(Integer, Integer)
   fullName.vb: WeAutoCommon.Utils.RandomWait.Wait(Integer, Integer)
   name.vb: Wait(Integer, Integer)
+- uid: WeAutoCommon.Utils.RandomWait.WaitAsync(System.Int32,System.Int32)
+  commentId: M:WeAutoCommon.Utils.RandomWait.WaitAsync(System.Int32,System.Int32)
+  id: WaitAsync(System.Int32,System.Int32)
+  parent: WeAutoCommon.Utils.RandomWait
+  langs:
+  - csharp
+  - vb
+  name: WaitAsync(int, int)
+  nameWithType: RandomWait.WaitAsync(int, int)
+  fullName: WeAutoCommon.Utils.RandomWait.WaitAsync(int, int)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/RandomWait.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Utils
+  summary: 等待随机时间
+  example: []
+  syntax:
+    content: public static Task WaitAsync(int minTime, int maxTime)
+    parameters:
+    - id: minTime
+      type: System.Int32
+      description: 最小时间,单位:毫秒
+    - id: maxTime
+      type: System.Int32
+      description: 最大时间,单位:毫秒
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function WaitAsync(minTime As Integer, maxTime As Integer) As Task
+  overload: WeAutoCommon.Utils.RandomWait.WaitAsync*
+  nameWithType.vb: RandomWait.WaitAsync(Integer, Integer)
+  fullName.vb: WeAutoCommon.Utils.RandomWait.WaitAsync(Integer, Integer)
+  name.vb: WaitAsync(Integer, Integer)
 references:
 - uid: WeAutoCommon.Utils
   commentId: N:WeAutoCommon.Utils
@@ -346,3 +381,55 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: WeAutoCommon.Utils.RandomWait.WaitAsync*
+  commentId: Overload:WeAutoCommon.Utils.RandomWait.WaitAsync
+  isExternal: true
+  href: WeAutoCommon.Utils.RandomWait.html#WeAutoCommon_Utils_RandomWait_WaitAsync_System_Int32_System_Int32_
+  name: WaitAsync
+  nameWithType: RandomWait.WaitAsync
+  fullName: WeAutoCommon.Utils.RandomWait.WaitAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

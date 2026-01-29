@@ -15,7 +15,7 @@ items:
   fullName: WeAutoCommon.Configs
   type: Namespace
   assemblies:
-  - weautocommon
+  - WeAutoCommon
 references:
 - uid: WeAutoCommon.Configs.WeChatConfig
   commentId: T:WeAutoCommon.Configs.WeChatConfig

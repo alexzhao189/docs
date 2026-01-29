@@ -17,9 +17,9 @@ items:
   fullName: WeAutoCommon.Configs.Language
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public static class Language
@@ -46,9 +46,9 @@ items:
   fullName: WeAutoCommon.Configs.Language.Chinese
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public const string Chinese = "Cn"
@@ -67,9 +67,9 @@ items:
   fullName: WeAutoCommon.Configs.Language.ChineseTraditional
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public const string ChineseTraditional = "CnT"
@@ -88,9 +88,9 @@ items:
   fullName: WeAutoCommon.Configs.Language.English
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public const string English = "En"
@@ -109,9 +109,9 @@ items:
   fullName: WeAutoCommon.Configs.Language.CurrentLanguage
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public static string CurrentLanguage { get; set; }

@@ -20,9 +20,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   summary: 复制类型
   example: []
@@ -43,9 +43,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Picture
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Picture = 0
@@ -63,9 +63,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.File
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: File = 1
@@ -83,9 +83,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Video
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Video = 2
@@ -103,9 +103,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Voice
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Voice = 3
@@ -123,9 +123,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Text
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Text = 4
@@ -143,9 +143,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Link
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Link = 5
@@ -163,9 +163,9 @@ items:
   fullName: WeAutoCommon.Enums.CopyType.Other
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Enums/CopyType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/CopyType.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Other = 6

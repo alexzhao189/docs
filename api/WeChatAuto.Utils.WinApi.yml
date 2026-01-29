@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.SendMessage(nint, uint, nint, nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -81,7 +81,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -113,7 +113,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.WinApi()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

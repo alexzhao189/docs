@@ -15,9 +15,9 @@ items:
   fullName: WeAutoCommon.Utils.EmojiListHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/EmojiListHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/EmojiListHelper.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 表情列表帮助类
   example: []
@@ -46,9 +46,9 @@ items:
   fullName: WeAutoCommon.Utils.EmojiListHelper.Init()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/EmojiListHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/EmojiListHelper.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static void Init()
@@ -66,9 +66,9 @@ items:
   fullName: WeAutoCommon.Utils.EmojiListHelper.Items
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/EmojiListHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/EmojiListHelper.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static List<EmojiItem> Items { get; }

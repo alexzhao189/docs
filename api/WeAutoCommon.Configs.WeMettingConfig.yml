@@ -14,9 +14,9 @@ items:
   fullName: WeAutoCommon.Configs.WeMettingConfig
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeMettingConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeMettingConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   summary: 腾迅会议配置类
   example: []
@@ -47,9 +47,9 @@ items:
   fullName: WeAutoCommon.Configs.WeMettingConfig.WeMettingConfig()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Configs/WeMettingConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Configs/WeMettingConfig.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Configs
   syntax:
     content: public WeMettingConfig()

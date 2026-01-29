@@ -20,7 +20,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -51,7 +51,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.AddGroupMemberOptions()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -74,7 +74,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.ExceptList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -99,7 +99,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.HelloText
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -124,7 +124,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -149,7 +149,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.IntervalSecond
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -174,7 +174,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.PageNo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -199,7 +199,7 @@ items:
   fullName: WeChatAuto.Models.AddGroupMemberOptions.PageSize
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Models/AddGroupMemberOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Models/AddGroupMemberOptions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models

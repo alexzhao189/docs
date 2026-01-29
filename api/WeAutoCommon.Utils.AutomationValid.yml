@@ -14,9 +14,9 @@ items:
   fullName: WeAutoCommon.Utils.AutomationValid
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/AutomationValid.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/AutomationValid.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static class AutomationValid
@@ -43,9 +43,9 @@ items:
   fullName: WeAutoCommon.Utils.AutomationValid.IsValid(FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/AutomationValid.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/AutomationValid.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public static bool IsValid(AutomationElement el)

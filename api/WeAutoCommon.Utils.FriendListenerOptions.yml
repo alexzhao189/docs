@@ -17,9 +17,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public class FriendListenerOptions
@@ -48,9 +48,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.FriendListenerOptions()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public FriendListenerOptions()
@@ -71,9 +71,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 关键字
   example: []
@@ -96,9 +96,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Suffix
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 后缀
   example: []
@@ -121,9 +121,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 标签
   example: []

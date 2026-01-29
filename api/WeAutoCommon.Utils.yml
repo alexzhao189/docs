@@ -21,7 +21,7 @@ items:
   fullName: WeAutoCommon.Utils
   type: Namespace
   assemblies:
-  - weautocommon
+  - WeAutoCommon
 references:
 - uid: WeAutoCommon.Utils.AutomationValid
   commentId: T:WeAutoCommon.Utils.AutomationValid

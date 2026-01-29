@@ -28,7 +28,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -66,7 +66,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.AutoLogger(Microsoft.Extensions.Logging.ILogger<T>)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -92,7 +92,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Log(Microsoft.Extensions.Logging.LogLevel, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -120,7 +120,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Log(Microsoft.Extensions.Logging.LogLevel, string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -150,7 +150,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Trace(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -176,7 +176,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Trace(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -204,7 +204,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Debug(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -230,7 +230,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Debug(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -258,7 +258,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Info(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -284,7 +284,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Info(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -312,7 +312,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Warn(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -338,7 +338,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Warn(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -366,7 +366,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Error(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -392,7 +392,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Error(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -420,7 +420,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Fatal(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -446,7 +446,7 @@ items:
   fullName: WeChatAuto.Utils.AutoLogger<T>.Fatal(string, System.Exception)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/AutoLogger.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/AutoLogger.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

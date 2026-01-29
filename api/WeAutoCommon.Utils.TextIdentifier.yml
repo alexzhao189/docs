@@ -17,9 +17,9 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 文本标识符结构
   example: []
@@ -50,9 +50,9 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.TextIdentifier()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public TextIdentifier()
@@ -73,9 +73,9 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.Cn
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 简体中文
   example: []
@@ -98,9 +98,9 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.CnT
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 繁体中文
   example: []
@@ -123,9 +123,9 @@ items:
   fullName: WeAutoCommon.Utils.TextIdentifier.En
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/WeChatTextIdentifiers.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 英文
   example: []

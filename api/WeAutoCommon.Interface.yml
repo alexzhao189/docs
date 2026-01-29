@@ -13,7 +13,7 @@ items:
   fullName: WeAutoCommon.Interface
   type: Namespace
   assemblies:
-  - weautocommon
+  - WeAutoCommon
 references:
 - uid: WeAutoCommon.Interface.IWeChatWindow
   commentId: T:WeAutoCommon.Interface.IWeChatWindow

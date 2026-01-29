@@ -21,9 +21,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 聊天消息或者操作类型
   example: []
@@ -54,9 +54,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.ChatActionMessage()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public ChatActionMessage()
@@ -77,9 +77,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Type
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 消息类型
   example: []
@@ -102,9 +102,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.ToUser
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 发送给谁
   example: []
@@ -127,9 +127,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.AtUsers
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public List<string> AtUsers { get; set; }
@@ -150,9 +150,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Message
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 消息内容
   example: []
@@ -175,9 +175,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Payload
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 消息负载
   example: []
@@ -200,9 +200,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.Tcs
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 任务完成源
   example: []
@@ -225,9 +225,9 @@ items:
   fullName: WeAutoCommon.Models.ChatActionMessage.IsOpenSubWin
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/ChatActionMessage.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/ChatActionMessage.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: 是否打开聊天子窗口
   example: []

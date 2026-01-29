@@ -22,9 +22,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 用于在UI线程中执行操作的类
   example: []
@@ -56,9 +56,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.UIThreadInvoker(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public UIThreadInvoker(string threadName)
@@ -82,9 +82,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   example: []
   syntax:
@@ -106,9 +106,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Run<T>(System.Func<FlaUI.UIA3.UIA3Automation, T>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 在UI线程中执行操作，返回结果
   example: []
@@ -141,9 +141,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action<FlaUI.UIA3.UIA3Automation>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   summary: 在UI线程中执行操作，不返回结果
   example: []
@@ -173,9 +173,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public virtual void Dispose(bool disposing)
@@ -199,9 +199,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.~UIThreadInvoker()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: protected ~UIThreadInvoker()
@@ -222,9 +222,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   example: []
   syntax:
@@ -245,9 +245,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.ThreadName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public string ThreadName { get; }
@@ -268,9 +268,9 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Automation
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public UIA3Automation Automation { get; }

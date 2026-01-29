@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -48,7 +48,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.WeChatRecordVideo(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -74,7 +74,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.RecordVideo(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -109,7 +109,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo.TargetPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -132,7 +132,7 @@ items:
   fullName: WeChatAuto.Utils.WeChatRecordVideo._VideoRecorder
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/wechatauto/Utils/WeChatRecordVideo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Utils/WeChatRecordVideo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

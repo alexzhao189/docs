@@ -21,9 +21,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   summary: Maybe类，用于封装可能存在的值
   example: []
@@ -61,9 +61,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Some(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public static Maybe<T> Some(T value)
@@ -88,9 +88,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.None()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public static Maybe<T> None()
@@ -112,9 +112,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Maybe<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public Maybe<U> Bind<U>(Func<T, Maybe<U>> binder)
@@ -142,9 +142,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Map<U>(System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public Maybe<U> Map<U>(Func<T, U> mapper)
@@ -172,9 +172,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Match<U>(System.Func<T, U>, System.Func<U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public U Match<U>(Func<T, U> some, Func<U> none)
@@ -204,9 +204,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public T GetValueOrDefault(T defaultValue)
@@ -231,9 +231,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Value
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public T Value { get; set; }
@@ -256,9 +256,9 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.HasValue
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/b2747e9f1257eca562f8698669395603781ae41e/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Models/Maybe.cs
   assemblies:
-  - weautocommon
+  - WeAutoCommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public bool HasValue { get; set; }
