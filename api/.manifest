@@ -440,7 +440,7 @@
   "WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)": "WeChatAuto.Components.AddressBookList.yml",
   "WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)": "WeChatAuto.Components.AddressBookList.yml",
   "WeChatAuto.Components.ChatBody": "WeChatAuto.Components.ChatBody.yml",
-  "WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)": "WeChatAuto.Components.ChatBody.yml",
+  "WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)": "WeChatAuto.Components.ChatBody.yml",
   "WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})": "WeChatAuto.Components.ChatBody.yml",
   "WeChatAuto.Components.ChatBody.ChatContent": "WeChatAuto.Components.ChatBody.yml",
   "WeChatAuto.Components.ChatBody.ChatType": "WeChatAuto.Components.ChatBody.yml",

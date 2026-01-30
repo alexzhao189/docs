@@ -4480,15 +4480,15 @@ references:
   commentId: T:WeChatAuto.Components.ChatBody
   fullName: WeChatAuto.Components.ChatBody
   nameWithType: ChatBody
-- uid: WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
-  name: ChatBody(Window, AutomationElement, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  href: api/WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody__ctor_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_WeAutoCommon_Interface_IWeChatWindow_System_String_WeAutoCommon_Enums_ChatType_WeAutoCommon_Utils_UIThreadInvoker_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_WeChatAuto_Components_ChatContent_
-  commentId: M:WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
-  name.vb: New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  fullName: WeChatAuto.Components.ChatBody.ChatBody(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
-  fullName.vb: WeChatAuto.Components.ChatBody.New(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
-  nameWithType: ChatBody.ChatBody(Window, AutomationElement, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  nameWithType.vb: ChatBody.New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+- uid: WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
+  name: ChatBody(Window, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  href: api/WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody__ctor_FlaUI_Core_AutomationElements_Window_WeAutoCommon_Interface_IWeChatWindow_System_String_WeAutoCommon_Enums_ChatType_WeAutoCommon_Utils_UIThreadInvoker_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_WeChatAuto_Components_ChatContent_
+  commentId: M:WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
+  name.vb: New(Window, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  fullName: WeChatAuto.Components.ChatBody.ChatBody(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
+  fullName.vb: WeChatAuto.Components.ChatBody.New(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
+  nameWithType: ChatBody.ChatBody(Window, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  nameWithType.vb: ChatBody.New(Window, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
 - uid: WeChatAuto.Components.ChatBody.#ctor*
   name: ChatBody
   href: api/WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody__ctor_

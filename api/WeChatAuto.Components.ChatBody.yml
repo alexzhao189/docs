@@ -5,7 +5,7 @@ items:
   id: ChatBody
   parent: WeChatAuto.Components
   children:
-  - WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
+  - WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
   - WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
   - WeChatAuto.Components.ChatBody.ChatContent
   - WeChatAuto.Components.ChatBody.ChatType
@@ -28,7 +28,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -61,7 +61,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.nickName
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -70,29 +70,27 @@ items:
     return:
       type: System.String
     content.vb: Public nickName As String
-- uid: WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
-  commentId: M:WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
-  id: '#ctor(FlaUI.Core.AutomationElements.Window,FlaUI.Core.AutomationElements.AutomationElement,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)'
+- uid: WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
+  commentId: M:WeChatAuto.Components.ChatBody.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)
+  id: '#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,System.String,WeAutoCommon.Enums.ChatType,WeAutoCommon.Utils.UIThreadInvoker,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider,WeChatAuto.Components.ChatContent)'
   parent: WeChatAuto.Components.ChatBody
   langs:
   - csharp
   - vb
-  name: ChatBody(Window, AutomationElement, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  nameWithType: ChatBody.ChatBody(Window, AutomationElement, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  fullName: WeChatAuto.Components.ChatBody.ChatBody(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
+  name: ChatBody(Window, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  nameWithType: ChatBody.ChatBody(Window, IWeChatWindow, string, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  fullName: WeChatAuto.Components.ChatBody.ChatBody(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, string, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   syntax:
-    content: public ChatBody(Window window, AutomationElement chatBodyRoot, IWeChatWindow wxWindow, string title, ChatType chatType, UIThreadInvoker uiThreadInvoker, WeChatMainWindow mainWxWindow, IServiceProvider serviceProvider, ChatContent chatContent)
+    content: public ChatBody(Window window, IWeChatWindow wxWindow, string title, ChatType chatType, UIThreadInvoker uiThreadInvoker, WeChatMainWindow mainWxWindow, IServiceProvider serviceProvider, ChatContent chatContent)
     parameters:
     - id: window
       type: FlaUI.Core.AutomationElements.Window
-    - id: chatBodyRoot
-      type: FlaUI.Core.AutomationElements.AutomationElement
     - id: wxWindow
       type: WeAutoCommon.Interface.IWeChatWindow
     - id: title
@@ -107,11 +105,11 @@ items:
       type: System.IServiceProvider
     - id: chatContent
       type: WeChatAuto.Components.ChatContent
-    content.vb: Public Sub New(window As Window, chatBodyRoot As AutomationElement, wxWindow As IWeChatWindow, title As String, chatType As ChatType, uiThreadInvoker As UIThreadInvoker, mainWxWindow As WeChatMainWindow, serviceProvider As IServiceProvider, chatContent As ChatContent)
+    content.vb: Public Sub New(window As Window, wxWindow As IWeChatWindow, title As String, chatType As ChatType, uiThreadInvoker As UIThreadInvoker, mainWxWindow As WeChatMainWindow, serviceProvider As IServiceProvider, chatContent As ChatContent)
   overload: WeChatAuto.Components.ChatBody.#ctor*
-  nameWithType.vb: ChatBody.New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
-  fullName.vb: WeChatAuto.Components.ChatBody.New(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
-  name.vb: New(Window, AutomationElement, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  nameWithType.vb: ChatBody.New(Window, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
+  fullName.vb: WeChatAuto.Components.ChatBody.New(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, String, WeAutoCommon.Enums.ChatType, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider, WeChatAuto.Components.ChatContent)
+  name.vb: New(Window, IWeChatWindow, String, ChatType, UIThreadInvoker, WeChatMainWindow, IServiceProvider, ChatContent)
 - uid: WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
   commentId: M:WeChatAuto.Components.ChatBody.AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
   id: AddListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender})
@@ -124,7 +122,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.AddListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -159,7 +157,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.StopListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -181,7 +179,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetBubbleListObject()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -206,7 +204,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetAllChatHistory(int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -241,7 +239,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.GetSender()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -266,7 +264,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -292,7 +290,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -315,7 +313,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.~ChatBody()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -338,7 +336,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.MessageBubbleList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -361,7 +359,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.Sender
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -384,7 +382,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.ChatContent
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -407,7 +405,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.ChatType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -430,7 +428,7 @@ items:
   fullName: WeChatAuto.Components.ChatBody.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/WeChatAuto/Components/ChatBody.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/ChatBody.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -844,7 +842,7 @@ references:
 - uid: WeChatAuto.Components.ChatBody.#ctor*
   commentId: Overload:WeChatAuto.Components.ChatBody.#ctor
   isExternal: true
-  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody__ctor_FlaUI_Core_AutomationElements_Window_FlaUI_Core_AutomationElements_AutomationElement_WeAutoCommon_Interface_IWeChatWindow_System_String_WeAutoCommon_Enums_ChatType_WeAutoCommon_Utils_UIThreadInvoker_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_WeChatAuto_Components_ChatContent_
+  href: WeChatAuto.Components.ChatBody.html#WeChatAuto_Components_ChatBody__ctor_FlaUI_Core_AutomationElements_Window_WeAutoCommon_Interface_IWeChatWindow_System_String_WeAutoCommon_Enums_ChatType_WeAutoCommon_Utils_UIThreadInvoker_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_WeChatAuto_Components_ChatContent_
   name: ChatBody
   nameWithType: ChatBody.ChatBody
   fullName: WeChatAuto.Components.ChatBody.ChatBody
@@ -858,13 +856,6 @@ references:
   name: Window
   nameWithType: Window
   fullName: FlaUI.Core.AutomationElements.Window
-- uid: FlaUI.Core.AutomationElements.AutomationElement
-  commentId: T:FlaUI.Core.AutomationElements.AutomationElement
-  parent: FlaUI.Core.AutomationElements
-  isExternal: true
-  name: AutomationElement
-  nameWithType: AutomationElement
-  fullName: FlaUI.Core.AutomationElements.AutomationElement
 - uid: WeAutoCommon.Interface.IWeChatWindow
   commentId: T:WeAutoCommon.Interface.IWeChatWindow
   parent: WeAutoCommon.Interface

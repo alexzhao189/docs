@@ -26,7 +26,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -66,7 +66,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.WeChatClientTool(WeChatClientService)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -95,7 +95,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetAllWeChatClientNames()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -130,7 +130,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetCurrentWeChatClientName()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -165,7 +165,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.GetChatAllHistory(string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -210,7 +210,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessage(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -255,7 +255,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUser(string, string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -303,7 +303,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessageWithAtUsers(string, string, string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -351,7 +351,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.SendMessages(string[], string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -396,7 +396,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVoiceChats(string, string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -441,7 +441,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.StartVideoChat(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -483,7 +483,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.PublishGroupChatNotice(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -528,7 +528,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ClearChatGroupHistory(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
@@ -570,7 +570,7 @@ items:
   fullName: WeChatAuto.MCP.Tools.WeChatClientTool.ForwardMessage(string, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto.mcp/Tools/WeChatClientTool.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/wechatauto.mcp/Tools/WeChatClientTool.cs
   assemblies:
   - WeChatAuto.MCP
   namespace: WeChatAuto.MCP.Tools
