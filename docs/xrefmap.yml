@@ -6898,15 +6898,15 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.AddFriend
   fullName: WeChatAuto.Components.WeChatClient.AddFriend
   nameWithType: WeChatClient.AddFriend
-- uid: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String,System.Boolean)
-  name: AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string, bool)
-  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_AddFriendRequestAutoAcceptAndOpenChatListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__System_String_System_String_System_String_System_Boolean_
-  commentId: M:WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String,System.Boolean)
-  name.vb: AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String, Boolean)
-  fullName: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, string, string, string, bool)
-  fullName.vb: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action(Of WeChatAuto.Models.MessageContext), System.Action(Of WeChatAuto.Components.Sender), String, String, String, Boolean)
-  nameWithType: WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string, bool)
-  nameWithType.vb: WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String, Boolean)
+- uid: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String)
+  name: AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_AddFriendRequestAutoAcceptAndOpenChatListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__System_String_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String)
+  name.vb: AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String)
+  fullName: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, string, string, string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action(Of WeChatAuto.Models.MessageContext), System.Action(Of WeChatAuto.Components.Sender), String, String, String)
+  nameWithType: WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string)
+  nameWithType.vb: WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String)
 - uid: WeChatAuto.Components.WeChatClient.AddFriendRequestAutoAcceptAndOpenChatListener*
   name: AddFriendRequestAutoAcceptAndOpenChatListener
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_AddFriendRequestAutoAcceptAndOpenChatListener_
@@ -8215,15 +8215,15 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.AddFriendDispatch
   fullName: WeChatAuto.Components.WeChatMainWindow.AddFriendDispatch
   nameWithType: WeChatMainWindow.AddFriendDispatch
-- uid: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String,System.Boolean)
-  name: AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string, bool)
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddFriendRequestAutoAcceptAndOpenChatListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__System_String_System_String_System_String_System_Boolean_
-  commentId: M:WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String,System.Boolean)
-  name.vb: AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String, Boolean)
-  fullName: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, string, string, string, bool)
-  fullName.vb: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action(Of WeChatAuto.Models.MessageContext), System.Action(Of WeChatAuto.Components.Sender), String, String, String, Boolean)
-  nameWithType: WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string, bool)
-  nameWithType.vb: WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String, Boolean)
+- uid: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String)
+  name: AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddFriendRequestAutoAcceptAndOpenChatListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__System_String_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String)
+  name.vb: AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, string, string, string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action(Of WeChatAuto.Models.MessageContext), System.Action(Of WeChatAuto.Components.Sender), String, String, String)
+  nameWithType: WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string)
+  nameWithType.vb: WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(Action(Of MessageContext), Action(Of Sender), String, String, String)
 - uid: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener*
   name: AddFriendRequestAutoAcceptAndOpenChatListener
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddFriendRequestAutoAcceptAndOpenChatListener_
