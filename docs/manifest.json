@@ -1410,6 +1410,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WeChatAuto.Models.NewFriendInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeChatAuto.Models.NewFriendInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WeChatAuto.Models.NewFriendInfo",
+      "Summary": "<p sourcefile=\"api/WeChatAuto.Models.NewFriendInfo.yml\" sourcestartlinenumber=\"1\">新好友上下文</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WeChatAuto.Models.yml",
       "output": {
         ".html": {

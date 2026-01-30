@@ -68,7 +68,8 @@ public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, st
 方法定义:
 
 ```
-    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null, string keyWord = null, string suffix = null, string label = null,bool isMonitorSubWin = true)```
+    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null, string keyWord = null, string suffix = null, string label = null
+```
 
 参数说明：
   - callBack：自定义回调函数，当有新好友添加成功时被调用,当自动通过好友申请后，如果好友有消息发送过来，则执行此回调方法,系统注入一个 ```MessageContext```对象支持获取所有聊天信息的上下文支持，具体请参考: [MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
@@ -76,7 +77,6 @@ public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, st
   - keyWord：可选, 设定关键词；仅当好友申请内容包含此关键词时才自动通过。若为```null```，则所有好友申请均会被自动通过
   - suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类
   - label：可选，自动通过时为新好友打上的微信标签，方便分类管理
-  - isMonitorSubWin: 可选，是否启用子窗口监听,即如果子窗口关闭，则自动打开它，默认为true
 
 ### 移除好友申请监听
 

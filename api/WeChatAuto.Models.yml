@@ -8,7 +8,7 @@ items:
   - WeChatAuto.Models.ChatMessageInner
   - WeChatAuto.Models.ChatSimpleMessage
   - WeChatAuto.Models.MessageContext
-  - WeChatAuto.Models.NewFriendContext
+  - WeChatAuto.Models.NewFriendInfo
   langs:
   - csharp
   - vb
@@ -48,13 +48,13 @@ references:
   name: MessageContext
   nameWithType: MessageContext
   fullName: WeChatAuto.Models.MessageContext
-- uid: WeChatAuto.Models.NewFriendContext
-  commentId: T:WeChatAuto.Models.NewFriendContext
+- uid: WeChatAuto.Models.NewFriendInfo
+  commentId: T:WeChatAuto.Models.NewFriendInfo
   isExternal: true
-  href: WeChatAuto.Models.NewFriendContext.html
-  name: NewFriendContext
-  nameWithType: NewFriendContext
-  fullName: WeChatAuto.Models.NewFriendContext
+  href: WeChatAuto.Models.NewFriendInfo.html
+  name: NewFriendInfo
+  nameWithType: NewFriendInfo
+  fullName: WeChatAuto.Models.NewFriendInfo
 - uid: WeChatAuto.Models
   commentId: N:WeChatAuto.Models
   isExternal: true

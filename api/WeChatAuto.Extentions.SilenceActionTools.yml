@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Extentions.SilenceActionTools
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Extentions/SilenceActionTools.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Extentions/SilenceActionTools.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -49,7 +49,7 @@ items:
   fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceClickExt(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Extentions/SilenceActionTools.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Extentions/SilenceActionTools.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -82,7 +82,7 @@ items:
   fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceEnterText(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Extentions/SilenceActionTools.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Extentions/SilenceActionTools.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -118,7 +118,7 @@ items:
   fullName: WeChatAuto.Extentions.SilenceActionTools.SilenceReturn(WeAutoCommon.Interface.IWeChatWindow, FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Extentions/SilenceActionTools.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Extentions/SilenceActionTools.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -148,7 +148,7 @@ items:
   fullName: WeChatAuto.Extentions.SilenceActionTools.SilencePasteSimple(WeAutoCommon.Interface.IWeChatWindow, string[], FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Extentions/SilenceActionTools.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Extentions/SilenceActionTools.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

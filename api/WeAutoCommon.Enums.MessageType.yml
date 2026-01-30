@@ -34,7 +34,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -57,7 +57,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.文字
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -77,7 +77,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.图片
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -97,7 +97,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.语音
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -117,7 +117,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.视频
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -137,7 +137,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.文件
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -157,7 +157,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.聊天记录
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -177,7 +177,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.位置
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -197,7 +197,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.个人名片
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -217,7 +217,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.视频号
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -237,7 +237,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.视频号直播
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -257,7 +257,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.红包
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -277,7 +277,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.微信转账
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -297,7 +297,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.小程序
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -317,7 +317,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.链接
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -337,7 +337,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.表情
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -357,7 +357,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.时间
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -377,7 +377,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.引用
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -397,7 +397,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.笔记
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -417,7 +417,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.拍一拍
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -437,7 +437,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.撤回消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -457,7 +457,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageType.其他
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Enums/MessageType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Enums/MessageType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

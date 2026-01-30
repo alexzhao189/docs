@@ -24,7 +24,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -57,7 +57,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatContent(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Enums.ChatContentType, string, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -95,7 +95,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.GetOwerChatContentImage(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -127,7 +127,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -150,7 +150,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.MainWxWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -173,7 +173,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatContentRoot
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -196,7 +196,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.NewChatContentRoot
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -219,7 +219,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatHeader
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -242,7 +242,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatBody
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -265,7 +265,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -288,7 +288,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.FullTitle
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -313,7 +313,7 @@ items:
   fullName: WeChatAuto.Components.ChatContent.ChatMemberCount
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeChatAuto/Components/ChatContent.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Components/ChatContent.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components

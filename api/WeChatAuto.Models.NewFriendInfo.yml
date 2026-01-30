@@ -1,28 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: WeChatAuto.Utils.WinApi
-  commentId: T:WeChatAuto.Utils.WinApi
-  id: WinApi
-  parent: WeChatAuto.Utils
+- uid: WeChatAuto.Models.NewFriendInfo
+  commentId: T:WeChatAuto.Models.NewFriendInfo
+  id: NewFriendInfo
+  parent: WeChatAuto.Models
   children:
-  - WeChatAuto.Utils.WinApi.#ctor
-  - WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(System.String)
-  - WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
+  - WeChatAuto.Models.NewFriendInfo.#ctor
+  - WeChatAuto.Models.NewFriendInfo.Label
+  - WeChatAuto.Models.NewFriendInfo.Name
+  - WeChatAuto.Models.NewFriendInfo.RemarkName
   langs:
   - csharp
   - vb
-  name: WinApi
-  nameWithType: WinApi
-  fullName: WeChatAuto.Utils.WinApi
+  name: NewFriendInfo
+  nameWithType: NewFriendInfo
+  fullName: WeChatAuto.Models.NewFriendInfo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Utils
+  namespace: WeChatAuto.Models
+  summary: 新好友上下文
+  example: []
   syntax:
-    content: public class WinApi
-    content.vb: Public Class WinApi
+    content: public class NewFriendInfo
+    content.vb: Public Class NewFriendInfo
   inheritance:
   - System.Object
   inheritedMembers:
@@ -34,124 +37,133 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   extensionMethods:
-  - WeChatAuto.Utils.WinApi.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
-- uid: WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
-  commentId: M:WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
-  id: SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
-  parent: WeChatAuto.Utils.WinApi
-  langs:
-  - csharp
-  - vb
-  name: SendMessage(nint, uint, nint, nint)
-  nameWithType: WinApi.SendMessage(nint, uint, nint, nint)
-  fullName: WeChatAuto.Utils.WinApi.SendMessage(nint, uint, nint, nint)
-  type: Method
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Utils/WinApi.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Utils
-  syntax:
-    content: public static extern nint SendMessage(nint hWnd, uint Msg, nint wParam, nint lParam)
-    parameters:
-    - id: hWnd
-      type: System.IntPtr
-    - id: Msg
-      type: System.UInt32
-    - id: wParam
-      type: System.IntPtr
-    - id: lParam
-      type: System.IntPtr
-    return:
-      type: System.IntPtr
-    content.vb: Public Shared Function SendMessage(hWnd As IntPtr, Msg As UInteger, wParam As IntPtr, lParam As IntPtr) As IntPtr
-  overload: WeChatAuto.Utils.WinApi.SendMessage*
-  nameWithType.vb: WinApi.SendMessage(IntPtr, UInteger, IntPtr, IntPtr)
-  fullName.vb: WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr, UInteger, System.IntPtr, System.IntPtr)
-  name.vb: SendMessage(IntPtr, UInteger, IntPtr, IntPtr)
-- uid: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(System.String)
-  commentId: M:WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(System.String)
-  id: GetTopWindowProcessIdByClassName(System.String)
-  parent: WeChatAuto.Utils.WinApi
-  langs:
-  - csharp
-  - vb
-  name: GetTopWindowProcessIdByClassName(string)
-  nameWithType: WinApi.GetTopWindowProcessIdByClassName(string)
-  fullName: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(string)
-  type: Method
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Utils/WinApi.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Utils
-  summary: 获取指定类名的顶层窗口的进程ID
-  example: []
-  syntax:
-    content: public static int GetTopWindowProcessIdByClassName(string className)
-    parameters:
-    - id: className
-      type: System.String
-      description: 要查找的窗口类名
-    return:
-      type: System.Int32
-      description: 最顶层窗口的进程ID
-    content.vb: Public Shared Function GetTopWindowProcessIdByClassName(className As String) As Integer
-  overload: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName*
-  nameWithType.vb: WinApi.GetTopWindowProcessIdByClassName(String)
-  fullName.vb: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(String)
-  name.vb: GetTopWindowProcessIdByClassName(String)
-- uid: WeChatAuto.Utils.WinApi.#ctor
-  commentId: M:WeChatAuto.Utils.WinApi.#ctor
+  - WeChatAuto.Models.NewFriendInfo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Models.NewFriendInfo.#ctor
+  commentId: M:WeChatAuto.Models.NewFriendInfo.#ctor
   id: '#ctor'
-  parent: WeChatAuto.Utils.WinApi
+  parent: WeChatAuto.Models.NewFriendInfo
   langs:
   - csharp
   - vb
-  name: WinApi()
-  nameWithType: WinApi.WinApi()
-  fullName: WeChatAuto.Utils.WinApi.WinApi()
+  name: NewFriendInfo()
+  nameWithType: NewFriendInfo.NewFriendInfo()
+  fullName: WeChatAuto.Models.NewFriendInfo.NewFriendInfo()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Utils
+  namespace: WeChatAuto.Models
   syntax:
-    content: public WinApi()
+    content: public NewFriendInfo()
     content.vb: Public Sub New()
-  overload: WeChatAuto.Utils.WinApi.#ctor*
-  nameWithType.vb: WinApi.New()
-  fullName.vb: WeChatAuto.Utils.WinApi.New()
+  overload: WeChatAuto.Models.NewFriendInfo.#ctor*
+  nameWithType.vb: NewFriendInfo.New()
+  fullName.vb: WeChatAuto.Models.NewFriendInfo.New()
   name.vb: New()
+- uid: WeChatAuto.Models.NewFriendInfo.Name
+  commentId: P:WeChatAuto.Models.NewFriendInfo.Name
+  id: Name
+  parent: WeChatAuto.Models.NewFriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: NewFriendInfo.Name
+  fullName: WeChatAuto.Models.NewFriendInfo.Name
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Models/NewFriendInfo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 好友名称
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: WeChatAuto.Models.NewFriendInfo.Name*
+- uid: WeChatAuto.Models.NewFriendInfo.RemarkName
+  commentId: P:WeChatAuto.Models.NewFriendInfo.RemarkName
+  id: RemarkName
+  parent: WeChatAuto.Models.NewFriendInfo
+  langs:
+  - csharp
+  - vb
+  name: RemarkName
+  nameWithType: NewFriendInfo.RemarkName
+  fullName: WeChatAuto.Models.NewFriendInfo.RemarkName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Models/NewFriendInfo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 备注名称
+  example: []
+  syntax:
+    content: public string RemarkName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RemarkName As String
+  overload: WeChatAuto.Models.NewFriendInfo.RemarkName*
+- uid: WeChatAuto.Models.NewFriendInfo.Label
+  commentId: P:WeChatAuto.Models.NewFriendInfo.Label
+  id: Label
+  parent: WeChatAuto.Models.NewFriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: NewFriendInfo.Label
+  fullName: WeChatAuto.Models.NewFriendInfo.Label
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/wechatauto/Models/NewFriendInfo.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  summary: 标签
+  example: []
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: WeChatAuto.Models.NewFriendInfo.Label*
 references:
-- uid: WeChatAuto.Utils
-  commentId: N:WeChatAuto.Utils
+- uid: WeChatAuto.Models
+  commentId: N:WeChatAuto.Models
   isExternal: true
   href: WeChatAuto.html
-  name: WeChatAuto.Utils
-  nameWithType: WeChatAuto.Utils
-  fullName: WeChatAuto.Utils
+  name: WeChatAuto.Models
+  nameWithType: WeChatAuto.Models
+  fullName: WeChatAuto.Models
   spec.csharp:
   - uid: WeChatAuto
     name: WeChatAuto
     isExternal: true
     href: WeChatAuto.html
   - name: .
-  - uid: WeChatAuto.Utils
-    name: Utils
+  - uid: WeChatAuto.Models
+    name: Models
     isExternal: true
-    href: WeChatAuto.Utils.html
+    href: WeChatAuto.Models.html
   spec.vb:
   - uid: WeChatAuto
     name: WeChatAuto
     isExternal: true
     href: WeChatAuto.html
   - name: .
-  - uid: WeChatAuto.Utils
-    name: Utils
+  - uid: WeChatAuto.Models
+    name: Models
     isExternal: true
-    href: WeChatAuto.Utils.html
+    href: WeChatAuto.Models.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -382,52 +394,52 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: WeChatAuto.Utils.WinApi.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Models.NewFriendInfo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
   commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   parent: WeAutoCommon.Models.FunctionalExtensions
   definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
-  name: ToMaybe<WinApi>(WinApi)
-  nameWithType: FunctionalExtensions.ToMaybe<WinApi>(WinApi)
-  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.WinApi>(WeChatAuto.Utils.WinApi)
-  nameWithType.vb: FunctionalExtensions.ToMaybe(Of WinApi)(WinApi)
-  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.WinApi)(WeChatAuto.Utils.WinApi)
-  name.vb: ToMaybe(Of WinApi)(WinApi)
+  name: ToMaybe<NewFriendInfo>(NewFriendInfo)
+  nameWithType: FunctionalExtensions.ToMaybe<NewFriendInfo>(NewFriendInfo)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Models.NewFriendInfo>(WeChatAuto.Models.NewFriendInfo)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of NewFriendInfo)(NewFriendInfo)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Models.NewFriendInfo)(WeChatAuto.Models.NewFriendInfo)
+  name.vb: ToMaybe(Of NewFriendInfo)(NewFriendInfo)
   spec.csharp:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WinApi)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.NewFriendInfo)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: <
-  - uid: WeChatAuto.Utils.WinApi
-    name: WinApi
+  - uid: WeChatAuto.Models.NewFriendInfo
+    name: NewFriendInfo
     isExternal: true
-    href: WeChatAuto.Utils.WinApi.html
+    href: WeChatAuto.Models.NewFriendInfo.html
   - name: '>'
   - name: (
-  - uid: WeChatAuto.Utils.WinApi
-    name: WinApi
+  - uid: WeChatAuto.Models.NewFriendInfo
+    name: NewFriendInfo
     isExternal: true
-    href: WeChatAuto.Utils.WinApi.html
+    href: WeChatAuto.Models.NewFriendInfo.html
   - name: )
   spec.vb:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.WinApi)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.NewFriendInfo)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: (
   - name: Of
   - name: " "
-  - uid: WeChatAuto.Utils.WinApi
-    name: WinApi
+  - uid: WeChatAuto.Models.NewFriendInfo
+    name: NewFriendInfo
     isExternal: true
-    href: WeChatAuto.Utils.WinApi.html
+    href: WeChatAuto.Models.NewFriendInfo.html
   - name: )
   - name: (
-  - uid: WeChatAuto.Utils.WinApi
-    name: WinApi
+  - uid: WeChatAuto.Models.NewFriendInfo
+    name: NewFriendInfo
     isExternal: true
-    href: WeChatAuto.Utils.WinApi.html
+    href: WeChatAuto.Models.NewFriendInfo.html
   - name: )
 - uid: System
   commentId: N:System
@@ -505,42 +517,23 @@ references:
     name: Models
     isExternal: true
     href: WeAutoCommon.Models.html
-- uid: WeChatAuto.Utils.WinApi.SendMessage*
-  commentId: Overload:WeChatAuto.Utils.WinApi.SendMessage
+- uid: WeChatAuto.Models.NewFriendInfo.#ctor*
+  commentId: Overload:WeChatAuto.Models.NewFriendInfo.#ctor
   isExternal: true
-  href: WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi_SendMessage_System_IntPtr_System_UInt32_System_IntPtr_System_IntPtr_
-  name: SendMessage
-  nameWithType: WinApi.SendMessage
-  fullName: WeChatAuto.Utils.WinApi.SendMessage
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
-  parent: System
+  href: WeChatAuto.Models.NewFriendInfo.html#WeChatAuto_Models_NewFriendInfo__ctor
+  name: NewFriendInfo
+  nameWithType: NewFriendInfo.NewFriendInfo
+  fullName: WeChatAuto.Models.NewFriendInfo.NewFriendInfo
+  nameWithType.vb: NewFriendInfo.New
+  fullName.vb: WeChatAuto.Models.NewFriendInfo.New
+  name.vb: New
+- uid: WeChatAuto.Models.NewFriendInfo.Name*
+  commentId: Overload:WeChatAuto.Models.NewFriendInfo.Name
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.intptr
-  name: nint
-  nameWithType: nint
-  fullName: nint
-  nameWithType.vb: IntPtr
-  fullName.vb: System.IntPtr
-  name.vb: IntPtr
-- uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
-- uid: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName*
-  commentId: Overload:WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName
-  isExternal: true
-  href: WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi_GetTopWindowProcessIdByClassName_System_String_
-  name: GetTopWindowProcessIdByClassName
-  nameWithType: WinApi.GetTopWindowProcessIdByClassName
-  fullName: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName
+  href: WeChatAuto.Models.NewFriendInfo.html#WeChatAuto_Models_NewFriendInfo_Name
+  name: Name
+  nameWithType: NewFriendInfo.Name
+  fullName: WeChatAuto.Models.NewFriendInfo.Name
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -552,24 +545,17 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: WeChatAuto.Models.NewFriendInfo.RemarkName*
+  commentId: Overload:WeChatAuto.Models.NewFriendInfo.RemarkName
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: WeChatAuto.Utils.WinApi.#ctor*
-  commentId: Overload:WeChatAuto.Utils.WinApi.#ctor
+  href: WeChatAuto.Models.NewFriendInfo.html#WeChatAuto_Models_NewFriendInfo_RemarkName
+  name: RemarkName
+  nameWithType: NewFriendInfo.RemarkName
+  fullName: WeChatAuto.Models.NewFriendInfo.RemarkName
+- uid: WeChatAuto.Models.NewFriendInfo.Label*
+  commentId: Overload:WeChatAuto.Models.NewFriendInfo.Label
   isExternal: true
-  href: WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi__ctor
-  name: WinApi
-  nameWithType: WinApi.WinApi
-  fullName: WeChatAuto.Utils.WinApi.WinApi
-  nameWithType.vb: WinApi.New
-  fullName.vb: WeChatAuto.Utils.WinApi.New
-  name.vb: New
+  href: WeChatAuto.Models.NewFriendInfo.html#WeChatAuto_Models_NewFriendInfo_Label
+  name: Label
+  nameWithType: NewFriendInfo.Label
+  fullName: WeChatAuto.Models.NewFriendInfo.Label

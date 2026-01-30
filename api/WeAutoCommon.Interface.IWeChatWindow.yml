@@ -15,7 +15,7 @@ items:
   fullName: WeAutoCommon.Interface.IWeChatWindow
   type: Interface
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Interface/IWeChatWindow.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Interface
@@ -38,7 +38,7 @@ items:
   fullName: WeAutoCommon.Interface.IWeChatWindow.SelfWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Interface/IWeChatWindow.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Interface
@@ -61,7 +61,7 @@ items:
   fullName: WeAutoCommon.Interface.IWeChatWindow.ProcessId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Interface/IWeChatWindow.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Interface

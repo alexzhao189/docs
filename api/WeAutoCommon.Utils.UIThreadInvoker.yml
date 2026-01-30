@@ -22,7 +22,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -56,7 +56,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.UIThreadInvoker(string)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -82,7 +82,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -106,7 +106,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Run<T>(System.Func<FlaUI.UIA3.UIA3Automation, T>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -141,7 +141,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Run(System.Action<FlaUI.UIA3.UIA3Automation>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -173,7 +173,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -199,7 +199,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.~UIThreadInvoker()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -222,7 +222,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -245,7 +245,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.ThreadName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -268,7 +268,7 @@ items:
   fullName: WeAutoCommon.Utils.UIThreadInvoker.Automation
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/08b608f091c1a67103c721173f715fc97aca489c/WeAutoCommon/Utils/UIThreadInvoker.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/28805e0cda734846c98b502fa2ff7f20ff22bf8e/weautocommon/Utils/UIThreadInvoker.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
