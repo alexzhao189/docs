@@ -21,7 +21,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -53,7 +53,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceClickExt(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -88,7 +88,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceEnterText(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -124,7 +124,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilenceReturn(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -154,7 +154,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.SilencePasteSimple(FlaUI.Core.AutomationElements.Window, string[], FlaUI.Core.AutomationElements.TextBox)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -187,7 +187,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -220,7 +220,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, FlaUI.Core.AutomationElements.AutomationElement)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -250,7 +250,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -283,7 +283,7 @@ items:
   fullName: WeChatAuto.Extentions.WindowSlienceAction.ShowAwareClick(FlaUI.Core.AutomationElements.Window, System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Extentions/WindowSlienceAction.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Extentions/WindowSlienceAction.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

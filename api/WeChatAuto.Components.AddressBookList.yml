@@ -12,7 +12,7 @@ items:
   - WeChatAuto.Components.AddressBookList.GetAllOfficialAccount
   - WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(System.String)
   - WeChatAuto.Components.AddressBookList.LocateFriend(System.String)
-  - WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
+  - WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String,System.Boolean)
   - WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
   langs:
   - csharp
@@ -22,7 +22,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -55,7 +55,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddressBookList(FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -87,7 +87,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllFriends()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -112,7 +112,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.LocateFriend(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -144,7 +144,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllOfficialAccount()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -169,7 +169,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -189,26 +189,26 @@ items:
   nameWithType.vb: AddressBookList.GetAllWillAddFriends(String)
   fullName.vb: WeChatAuto.Components.AddressBookList.GetAllWillAddFriends(String)
   name.vb: GetAllWillAddFriends(String)
-- uid: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
-  commentId: M:WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String)
-  id: PassedAllNewFriend(System.String,System.String,System.String)
+- uid: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String,System.Boolean)
+  commentId: M:WeChatAuto.Components.AddressBookList.PassedAllNewFriend(System.String,System.String,System.String,System.Boolean)
+  id: PassedAllNewFriend(System.String,System.String,System.String,System.Boolean)
   parent: WeChatAuto.Components.AddressBookList
   langs:
   - csharp
   - vb
-  name: PassedAllNewFriend(string, string, string)
-  nameWithType: AddressBookList.PassedAllNewFriend(string, string, string)
-  fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(string, string, string)
+  name: PassedAllNewFriend(string, string, string, bool)
+  nameWithType: AddressBookList.PassedAllNewFriend(string, string, string, bool)
+  fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(string, string, string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 通过新好友
   example: []
   syntax:
-    content: public List<string> PassedAllNewFriend(string keyWord = null, string suffix = null, string label = null)
+    content: public List<string> PassedAllNewFriend(string keyWord = null, string suffix = null, string label = null, bool isDelet = true)
     parameters:
     - id: keyWord
       type: System.String
@@ -219,14 +219,17 @@ items:
     - id: label
       type: System.String
       description: 好友标签
+    - id: isDelet
+      type: System.Boolean
+      description: 添加好友成功后是否删除好友申请按钮，默认删除
     return:
       type: System.Collections.Generic.List{System.String}
       description: 通过的新好友昵称列表
-    content.vb: Public Function PassedAllNewFriend(keyWord As String = Nothing, suffix As String = Nothing, label As String = Nothing) As List(Of String)
+    content.vb: Public Function PassedAllNewFriend(keyWord As String = Nothing, suffix As String = Nothing, label As String = Nothing, isDelet As Boolean = True) As List(Of String)
   overload: WeChatAuto.Components.AddressBookList.PassedAllNewFriend*
-  nameWithType.vb: AddressBookList.PassedAllNewFriend(String, String, String)
-  fullName.vb: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(String, String, String)
-  name.vb: PassedAllNewFriend(String, String, String)
+  nameWithType.vb: AddressBookList.PassedAllNewFriend(String, String, String, Boolean)
+  fullName.vb: WeChatAuto.Components.AddressBookList.PassedAllNewFriend(String, String, String, Boolean)
+  name.vb: PassedAllNewFriend(String, String, String, Boolean)
 - uid: WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
   commentId: M:WeChatAuto.Components.AddressBookList.RemoveFriend(System.String)
   id: RemoveFriend(System.String)
@@ -239,7 +242,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.RemoveFriend(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -274,7 +277,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddFriends(System.Collections.Generic.List<string>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -309,7 +312,7 @@ items:
   fullName: WeChatAuto.Components.AddressBookList.AddFriend(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Components/AddressBookList.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Components/AddressBookList.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -967,7 +970,7 @@ references:
 - uid: WeChatAuto.Components.AddressBookList.PassedAllNewFriend*
   commentId: Overload:WeChatAuto.Components.AddressBookList.PassedAllNewFriend
   isExternal: true
-  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_PassedAllNewFriend_System_String_System_String_System_String_
+  href: WeChatAuto.Components.AddressBookList.html#WeChatAuto_Components_AddressBookList_PassedAllNewFriend_System_String_System_String_System_String_System_Boolean_
   name: PassedAllNewFriend
   nameWithType: AddressBookList.PassedAllNewFriend
   fullName: WeChatAuto.Components.AddressBookList.PassedAllNewFriend

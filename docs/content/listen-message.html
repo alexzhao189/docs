@@ -140,7 +140,7 @@
 <p>可通过<a href="../api/WeChatAuto.Components.WeChatClient.html">WeChatClient对象</a>调用<code>AddFriendRequestAutoAcceptAndOpenChatListener</code>方法。</p>
 </blockquote>
 <p>方法定义:</p>
-<pre><code>    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action&lt;MessageContext&gt; callBack, Action&lt;Sender&gt; firstMessageAction = null, string keyWord = null, string suffix = null, string label = null
+<pre><code>    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action&lt;MessageContext&gt; callBack, Action&lt;Sender&gt; firstMessageAction = null, string keyWord = null, string suffix = null, string label = null, bool isDelet = true)    
 </code></pre>
 <p>参数说明：</p>
 <ul>
@@ -149,6 +149,7 @@
 <li>keyWord：可选, 设定关键词；仅当好友申请内容包含此关键词时才自动通过。若为<code>null</code>，则所有好友申请均会被自动通过</li>
 <li>suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类</li>
 <li>label：可选，自动通过时为新好友打上的微信标签，方便分类管理</li>
+<li>isDelet: 添加好友成功后是否删除好友申请按钮，默认删除</li>
 </ul>
 <h3 id="移除好友申请监听">移除好友申请监听</h3>
 <p>方法定义:</p>

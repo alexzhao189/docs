@@ -5,12 +5,15 @@ items:
   id: Maybe`1
   parent: WeAutoCommon.Models
   children:
+  - WeAutoCommon.Models.Maybe`1.BindOrElse``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}},System.Func{WeAutoCommon.Models.Maybe{``0}})
   - WeAutoCommon.Models.Maybe`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})
   - WeAutoCommon.Models.Maybe`1.GetValueOrDefault(`0)
   - WeAutoCommon.Models.Maybe`1.HasValue
   - WeAutoCommon.Models.Maybe`1.Map``1(System.Func{`0,``0})
   - WeAutoCommon.Models.Maybe`1.Match``1(System.Func{`0,``0},System.Func{``0})
   - WeAutoCommon.Models.Maybe`1.None
+  - WeAutoCommon.Models.Maybe`1.OnNone(System.Action)
+  - WeAutoCommon.Models.Maybe`1.OrElse(System.Func{WeAutoCommon.Models.Maybe{`0}})
   - WeAutoCommon.Models.Maybe`1.Some(`0)
   - WeAutoCommon.Models.Maybe`1.Value
   langs:
@@ -21,7 +24,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -61,7 +64,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Some(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -88,7 +91,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.None()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -112,7 +115,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Bind<U>(System.Func<T, WeAutoCommon.Models.Maybe<U>>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -142,7 +145,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Map<U>(System.Func<T, U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -172,7 +175,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Match<U>(System.Func<T, U>, System.Func<U>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -204,7 +207,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault(T)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -219,6 +222,107 @@ items:
   overload: WeAutoCommon.Models.Maybe`1.GetValueOrDefault*
   nameWithType.vb: Maybe(Of T).GetValueOrDefault(T)
   fullName.vb: WeAutoCommon.Models.Maybe(Of T).GetValueOrDefault(T)
+- uid: WeAutoCommon.Models.Maybe`1.OrElse(System.Func{WeAutoCommon.Models.Maybe{`0}})
+  commentId: M:WeAutoCommon.Models.Maybe`1.OrElse(System.Func{WeAutoCommon.Models.Maybe{`0}})
+  id: OrElse(System.Func{WeAutoCommon.Models.Maybe{`0}})
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: OrElse(Func<Maybe<T>>)
+  nameWithType: Maybe<T>.OrElse(Func<Maybe<T>>)
+  fullName: WeAutoCommon.Models.Maybe<T>.OrElse(System.Func<WeAutoCommon.Models.Maybe<T>>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 当Maybe为None时，执行一个委托来提供备用的Maybe值
+  example: []
+  syntax:
+    content: public Maybe<T> OrElse(Func<Maybe<T>> orElse)
+    parameters:
+    - id: orElse
+      type: System.Func{WeAutoCommon.Models.Maybe`1}
+      description: 当为None时执行的委托
+    return:
+      type: WeAutoCommon.Models.Maybe`1
+      description: 如果有值则返回自身，否则返回orElse的结果
+    content.vb: Public Function [OrElse]([orElse] As Func(Of Maybe(Of T))) As Maybe(Of T)
+  overload: WeAutoCommon.Models.Maybe`1.OrElse*
+  nameWithType.vb: Maybe(Of T).OrElse(Func(Of Maybe(Of T)))
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).OrElse(System.Func(Of WeAutoCommon.Models.Maybe(Of T)))
+  name.vb: OrElse(Func(Of Maybe(Of T)))
+- uid: WeAutoCommon.Models.Maybe`1.OnNone(System.Action)
+  commentId: M:WeAutoCommon.Models.Maybe`1.OnNone(System.Action)
+  id: OnNone(System.Action)
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: OnNone(Action)
+  nameWithType: Maybe<T>.OnNone(Action)
+  fullName: WeAutoCommon.Models.Maybe<T>.OnNone(System.Action)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 当Maybe为None时，执行一个Action（副作用操作，如日志记录）
+  example: []
+  syntax:
+    content: public Maybe<T> OnNone(Action onNone)
+    parameters:
+    - id: onNone
+      type: System.Action
+      description: 当为None时执行的Action
+    return:
+      type: WeAutoCommon.Models.Maybe`1
+      description: 返回自身，便于链式调用
+    content.vb: Public Function OnNone(onNone As Action) As Maybe(Of T)
+  overload: WeAutoCommon.Models.Maybe`1.OnNone*
+  nameWithType.vb: Maybe(Of T).OnNone(Action)
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).OnNone(System.Action)
+- uid: WeAutoCommon.Models.Maybe`1.BindOrElse``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}},System.Func{WeAutoCommon.Models.Maybe{``0}})
+  commentId: M:WeAutoCommon.Models.Maybe`1.BindOrElse``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}},System.Func{WeAutoCommon.Models.Maybe{``0}})
+  id: BindOrElse``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}},System.Func{WeAutoCommon.Models.Maybe{``0}})
+  parent: WeAutoCommon.Models.Maybe`1
+  langs:
+  - csharp
+  - vb
+  name: BindOrElse<U>(Func<T, Maybe<U>>, Func<Maybe<U>>)
+  nameWithType: Maybe<T>.BindOrElse<U>(Func<T, Maybe<U>>, Func<Maybe<U>>)
+  fullName: WeAutoCommon.Models.Maybe<T>.BindOrElse<U>(System.Func<T, WeAutoCommon.Models.Maybe<U>>, System.Func<WeAutoCommon.Models.Maybe<U>>)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: Bind的扩展版本：如果有值则执行binder，如果为None则执行orElse
+  example: []
+  syntax:
+    content: public Maybe<U> BindOrElse<U>(Func<T, Maybe<U>> binder, Func<Maybe<U>> orElse)
+    parameters:
+    - id: binder
+      type: System.Func{{T},WeAutoCommon.Models.Maybe{{U}}}
+      description: 当有值时的转换函数
+    - id: orElse
+      type: System.Func{WeAutoCommon.Models.Maybe{{U}}}
+      description: 当为None时的备用函数
+    typeParameters:
+    - id: U
+      description: 目标类型
+    return:
+      type: WeAutoCommon.Models.Maybe{{U}}
+      description: 转换后的Maybe
+    content.vb: Public Function BindOrElse(Of U)(binder As Func(Of T, Maybe(Of U)), [orElse] As Func(Of Maybe(Of U))) As Maybe(Of U)
+  overload: WeAutoCommon.Models.Maybe`1.BindOrElse*
+  nameWithType.vb: Maybe(Of T).BindOrElse(Of U)(Func(Of T, Maybe(Of U)), Func(Of Maybe(Of U)))
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).BindOrElse(Of U)(System.Func(Of T, WeAutoCommon.Models.Maybe(Of U)), System.Func(Of WeAutoCommon.Models.Maybe(Of U)))
+  name.vb: BindOrElse(Of U)(Func(Of T, Maybe(Of U)), Func(Of Maybe(Of U)))
 - uid: WeAutoCommon.Models.Maybe`1.Value
   commentId: P:WeAutoCommon.Models.Maybe`1.Value
   id: Value
@@ -231,7 +335,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.Value
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -256,7 +360,7 @@ items:
   fullName: WeAutoCommon.Models.Maybe<T>.HasValue
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -1067,6 +1171,127 @@ references:
   fullName: WeAutoCommon.Models.Maybe<T>.GetValueOrDefault
   nameWithType.vb: Maybe(Of T).GetValueOrDefault
   fullName.vb: WeAutoCommon.Models.Maybe(Of T).GetValueOrDefault
+- uid: WeAutoCommon.Models.Maybe`1.OrElse*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.OrElse
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_OrElse_System_Func_WeAutoCommon_Models_Maybe__0___
+  name: OrElse
+  nameWithType: Maybe<T>.OrElse
+  fullName: WeAutoCommon.Models.Maybe<T>.OrElse
+  nameWithType.vb: Maybe(Of T).OrElse
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).OrElse
+- uid: System.Func{WeAutoCommon.Models.Maybe`1}
+  commentId: T:System.Func{WeAutoCommon.Models.Maybe`1}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Maybe<T>>
+  nameWithType: Func<Maybe<T>>
+  fullName: System.Func<WeAutoCommon.Models.Maybe<T>>
+  nameWithType.vb: Func(Of Maybe(Of T))
+  fullName.vb: System.Func(Of WeAutoCommon.Models.Maybe(Of T))
+  name.vb: Func(Of Maybe(Of T))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: WeAutoCommon.Models.Maybe`1.OnNone*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.OnNone
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_OnNone_System_Action_
+  name: OnNone
+  nameWithType: Maybe<T>.OnNone
+  fullName: WeAutoCommon.Models.Maybe<T>.OnNone
+  nameWithType.vb: Maybe(Of T).OnNone
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).OnNone
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: WeAutoCommon.Models.Maybe`1.BindOrElse*
+  commentId: Overload:WeAutoCommon.Models.Maybe`1.BindOrElse
+  isExternal: true
+  href: WeAutoCommon.Models.Maybe-1.html#WeAutoCommon_Models_Maybe_1_BindOrElse__1_System_Func__0_WeAutoCommon_Models_Maybe___0___System_Func_WeAutoCommon_Models_Maybe___0___
+  name: BindOrElse
+  nameWithType: Maybe<T>.BindOrElse
+  fullName: WeAutoCommon.Models.Maybe<T>.BindOrElse
+  nameWithType.vb: Maybe(Of T).BindOrElse
+  fullName.vb: WeAutoCommon.Models.Maybe(Of T).BindOrElse
+- uid: System.Func{WeAutoCommon.Models.Maybe{{U}}}
+  commentId: T:System.Func{WeAutoCommon.Models.Maybe{``0}}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Maybe<U>>
+  nameWithType: Func<Maybe<U>>
+  fullName: System.Func<WeAutoCommon.Models.Maybe<U>>
+  nameWithType.vb: Func(Of Maybe(Of U))
+  fullName.vb: System.Func(Of WeAutoCommon.Models.Maybe(Of U))
+  name.vb: Func(Of Maybe(Of U))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: <
+  - name: U
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.Maybe`1
+    name: Maybe
+    isExternal: true
+    href: WeAutoCommon.Models.Maybe-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: U
+  - name: )
+  - name: )
 - uid: WeAutoCommon.Models.Maybe`1.Value*
   commentId: Overload:WeAutoCommon.Models.Maybe`1.Value
   isExternal: true

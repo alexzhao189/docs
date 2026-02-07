@@ -68,7 +68,7 @@ public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, st
 方法定义:
 
 ```
-    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null, string keyWord = null, string suffix = null, string label = null
+    public void AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext> callBack, Action<Sender> firstMessageAction = null, string keyWord = null, string suffix = null, string label = null, bool isDelet = true)    
 ```
 
 参数说明：
@@ -77,6 +77,7 @@ public void AddFriendRequestAutoAcceptListener(Action<List<string>> callBack, st
   - keyWord：可选, 设定关键词；仅当好友申请内容包含此关键词时才自动通过。若为```null```，则所有好友申请均会被自动通过
   - suffix：可选，自动通过时在新好友昵称后添加的后缀，便于管理分类
   - label：可选，自动通过时为新好友打上的微信标签，方便分类管理
+  - isDelet: 添加好友成功后是否删除好友申请按钮，默认删除
 
 ### 移除好友申请监听
 

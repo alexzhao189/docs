@@ -11,8 +11,8 @@ items:
   - WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   - WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
   - WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
-  - WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
-  - WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  - WeAutoCommon.Configs.WeChatConfig.KMDevicePID
+  - WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
   - WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
   - WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
   - WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
@@ -31,7 +31,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -64,7 +64,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.WeChatConfig()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -87,7 +87,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -112,7 +112,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.ListenInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -137,7 +137,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -162,7 +162,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -187,7 +187,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -212,7 +212,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.DebugMode
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -237,7 +237,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -265,7 +265,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -290,7 +290,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -318,7 +318,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -336,56 +336,56 @@ items:
       type: System.Boolean
     content.vb: Public Property EnableMouseKeyboardSimulator As Boolean
   overload: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator*
-- uid: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
-  id: KMDeiviceVID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
+  id: KMDeviceVID
   parent: WeAutoCommon.Configs.WeChatConfig
   langs:
   - csharp
   - vb
-  name: KMDeiviceVID
-  nameWithType: WeChatConfig.KMDeiviceVID
-  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+  name: KMDeviceVID
+  nameWithType: WeChatConfig.KMDeviceVID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
   summary: 键鼠模拟器设备VID
   example: []
   syntax:
-    content: public int KMDeiviceVID { get; set; }
+    content: public int KMDeviceVID { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property KMDeiviceVID As Integer
-  overload: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID*
-- uid: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
-  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
-  id: KMDeivicePID
+    content.vb: Public Property KMDeviceVID As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID*
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDevicePID
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.KMDevicePID
+  id: KMDevicePID
   parent: WeAutoCommon.Configs.WeChatConfig
   langs:
   - csharp
   - vb
-  name: KMDeivicePID
-  nameWithType: WeChatConfig.KMDeivicePID
-  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  name: KMDevicePID
+  nameWithType: WeChatConfig.KMDevicePID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDevicePID
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
   summary: 键鼠模拟器设备PID
   example: []
   syntax:
-    content: public int KMDeivicePID { get; set; }
+    content: public int KMDevicePID { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property KMDeivicePID As Integer
-  overload: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID*
+    content.vb: Public Property KMDevicePID As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.KMDevicePID*
 - uid: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   commentId: P:WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   id: KMVerifyUserData
@@ -398,10 +398,12 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
+  summary: 键鼠模拟器校验数据
+  example: []
   syntax:
     content: public string KMVerifyUserData { get; set; }
     parameters: []
@@ -421,7 +423,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -449,7 +451,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -474,7 +476,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -499,7 +501,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -1013,20 +1015,20 @@ references:
   name: EnableMouseKeyboardSimulator
   nameWithType: WeChatConfig.EnableMouseKeyboardSimulator
   fullName: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
-- uid: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID*
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
   isExternal: true
-  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDeiviceVID
-  name: KMDeiviceVID
-  nameWithType: WeChatConfig.KMDeiviceVID
-  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeiviceVID
-- uid: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID*
-  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDeviceVID
+  name: KMDeviceVID
+  nameWithType: WeChatConfig.KMDeviceVID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
+- uid: WeAutoCommon.Configs.WeChatConfig.KMDevicePID*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMDevicePID
   isExternal: true
-  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDeivicePID
-  name: KMDeivicePID
-  nameWithType: WeChatConfig.KMDeivicePID
-  fullName: WeAutoCommon.Configs.WeChatConfig.KMDeivicePID
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_KMDevicePID
+  name: KMDevicePID
+  nameWithType: WeChatConfig.KMDevicePID
+  fullName: WeAutoCommon.Configs.WeChatConfig.KMDevicePID
 - uid: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData*
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   isExternal: true

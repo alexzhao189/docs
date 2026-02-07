@@ -15,7 +15,7 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Utils/RandomWait.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -44,7 +44,7 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait.Wait(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Utils/RandomWait.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -76,7 +76,7 @@ items:
   fullName: WeAutoCommon.Utils.RandomWait.WaitAsync(int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Utils/RandomWait.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Utils/RandomWait.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils

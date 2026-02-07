@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Utils.ClipboardApi
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Utils/ClipboardApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Utils/ClipboardApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Utils.ClipboardApi.CF_HDROP
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Utils/ClipboardApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Utils/ClipboardApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -68,7 +68,7 @@ items:
   fullName: WeChatAuto.Utils.ClipboardApi.CopyFilesToClipboard(string[])
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Utils/ClipboardApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Utils/ClipboardApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -100,7 +100,7 @@ items:
   fullName: WeChatAuto.Utils.ClipboardApi.CopyFileToClipboard(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeChatAuto/Utils/ClipboardApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeChatAuto/Utils/ClipboardApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

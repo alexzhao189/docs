@@ -89,7 +89,7 @@
 
 
   <h1 id="WeAutoCommon_Models_Maybe_1" data-uid="WeAutoCommon.Models.Maybe`1" class="text-break">
-Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -172,7 +172,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_HasValue" data-uid="WeAutoCommon.Models.Maybe`1.HasValue">
   HasValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -203,7 +203,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_Value" data-uid="WeAutoCommon.Models.Maybe`1.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -234,11 +234,59 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="WeAutoCommon_Models_Maybe_1_BindOrElse_" data-uid="WeAutoCommon.Models.Maybe`1.BindOrElse*"></a>
+
+  <h3 id="WeAutoCommon_Models_Maybe_1_BindOrElse__1_System_Func__0_WeAutoCommon_Models_Maybe___0___System_Func_WeAutoCommon_Models_Maybe___0___" data-uid="WeAutoCommon.Models.Maybe`1.BindOrElse``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}},System.Func{WeAutoCommon.Models.Maybe{``0}})">
+  BindOrElse&lt;U&gt;(Func&lt;T, Maybe&lt;U&gt;&gt;, Func&lt;Maybe&lt;U&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bind的扩展版本：如果有值则执行binder，如果为None则执行orElse</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Maybe&lt;U&gt; BindOrElse&lt;U&gt;(Func&lt;T, Maybe&lt;U&gt;&gt; binder, Func&lt;Maybe&lt;U&gt;&gt; orElse)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>binder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;U&gt;&gt;</dt>
+    <dd><p>当有值时的转换函数</p>
+</dd>
+    <dt><code>orElse</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;U&gt;&gt;</dt>
+    <dd><p>当为None时的备用函数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;U&gt;</dt>
+    <dd><p>转换后的Maybe</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>U</code></dt>
+    <dd><p>目标类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="WeAutoCommon_Models_Maybe_1_Bind_" data-uid="WeAutoCommon.Models.Maybe`1.Bind*"></a>
 
   <h3 id="WeAutoCommon_Models_Maybe_1_Bind__1_System_Func__0_WeAutoCommon_Models_Maybe___0___" data-uid="WeAutoCommon.Models.Maybe`1.Bind``1(System.Func{`0,WeAutoCommon.Models.Maybe{``0}})">
   Bind&lt;U&gt;(Func&lt;T, Maybe&lt;U&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -279,7 +327,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_GetValueOrDefault__0_" data-uid="WeAutoCommon.Models.Maybe`1.GetValueOrDefault(`0)">
   GetValueOrDefault(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +363,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_Map__1_System_Func__0___0__" data-uid="WeAutoCommon.Models.Maybe`1.Map``1(System.Func{`0,``0})">
   Map&lt;U&gt;(Func&lt;T, U&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -356,7 +404,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_Match__1_System_Func__0___0__System_Func___0__" data-uid="WeAutoCommon.Models.Maybe`1.Match``1(System.Func{`0,``0},System.Func{``0})">
   Match&lt;U&gt;(Func&lt;T, U&gt;, Func&lt;U&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -399,7 +447,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
   <h3 id="WeAutoCommon_Models_Maybe_1_None" data-uid="WeAutoCommon.Models.Maybe`1.None">
   None()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -426,11 +474,89 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="WeAutoCommon_Models_Maybe_1_OnNone_" data-uid="WeAutoCommon.Models.Maybe`1.OnNone*"></a>
+
+  <h3 id="WeAutoCommon_Models_Maybe_1_OnNone_System_Action_" data-uid="WeAutoCommon.Models.Maybe`1.OnNone(System.Action)">
+  OnNone(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当Maybe为None时，执行一个Action（副作用操作，如日志记录）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Maybe&lt;T&gt; OnNone(Action onNone)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>onNone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>当为None时执行的Action</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+    <dd><p>返回自身，便于链式调用</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WeAutoCommon_Models_Maybe_1_OrElse_" data-uid="WeAutoCommon.Models.Maybe`1.OrElse*"></a>
+
+  <h3 id="WeAutoCommon_Models_Maybe_1_OrElse_System_Func_WeAutoCommon_Models_Maybe__0___" data-uid="WeAutoCommon.Models.Maybe`1.OrElse(System.Func{WeAutoCommon.Models.Maybe{`0}})">
+  OrElse(Func&lt;Maybe&lt;T&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当Maybe为None时，执行一个委托来提供备用的Maybe值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Maybe&lt;T&gt; OrElse(Func&lt;Maybe&lt;T&gt;&gt; orElse)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orElse</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+    <dd><p>当为None时执行的委托</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WeAutoCommon.Models.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+    <dd><p>如果有值则返回自身，否则返回orElse的结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="WeAutoCommon_Models_Maybe_1_Some_" data-uid="WeAutoCommon.Models.Maybe`1.Some*"></a>
 
   <h3 id="WeAutoCommon_Models_Maybe_1_Some__0_" data-uid="WeAutoCommon.Models.Maybe`1.Some(`0)">
   Some(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -466,7 +592,7 @@ Class Maybe&lt;T&gt;  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/scottfly189/wxauto.net/blob/f9697cc03fadeb9f8d52161a229a267689b2cbfe/WeAutoCommon/Models/Maybe.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/scottfly189/wxauto.net/blob/46eac74c9f97cdf687dfc7d00bdb32beca370652/WeAutoCommon/Models/Maybe.cs" class="edit-link">Edit this page</a>
         </div>
 
 
