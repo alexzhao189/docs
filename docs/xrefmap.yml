@@ -7863,6 +7863,15 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.SendVoiceChats
   fullName: WeChatAuto.Components.WeChatClient.SendVoiceChats
   nameWithType: WeChatClient.SendVoiceChats
+- uid: WeChatAuto.Components.WeChatClient.SendWho(System.String,OneOf.OneOf{System.String,System.String[]})
+  name: SendWho(string, OneOf<string, string[]>)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_SendWho_System_String_OneOf_OneOf_System_String_System_String____
+  commentId: M:WeChatAuto.Components.WeChatClient.SendWho(System.String,OneOf.OneOf{System.String,System.String[]})
+  name.vb: SendWho(String, OneOf(Of String, String()))
+  fullName: WeChatAuto.Components.WeChatClient.SendWho(string, OneOf.OneOf<string, string[]>)
+  fullName.vb: WeChatAuto.Components.WeChatClient.SendWho(String, OneOf.OneOf(Of String, String()))
+  nameWithType: WeChatClient.SendWho(string, OneOf<string, string[]>)
+  nameWithType.vb: WeChatClient.SendWho(String, OneOf(Of String, String()))
 - uid: WeChatAuto.Components.WeChatClient.SendWho(System.String,System.String,OneOf.OneOf{System.String,System.String[]},System.Boolean)
   name: SendWho(string, string, OneOf<string, string[]>, bool)
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_SendWho_System_String_System_String_OneOf_OneOf_System_String_System_String____System_Boolean_
@@ -8973,6 +8982,15 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.SendVoiceChats
   fullName: WeChatAuto.Components.WeChatMainWindow.SendVoiceChats
   nameWithType: WeChatMainWindow.SendVoiceChats
+- uid: WeChatAuto.Components.WeChatMainWindow.SendWho(System.String,OneOf.OneOf{System.String,System.String[]})
+  name: SendWho(string, OneOf<string, string[]>)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_SendWho_System_String_OneOf_OneOf_System_String_System_String____
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.SendWho(System.String,OneOf.OneOf{System.String,System.String[]})
+  name.vb: SendWho(String, OneOf(Of String, String()))
+  fullName: WeChatAuto.Components.WeChatMainWindow.SendWho(string, OneOf.OneOf<string, string[]>)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.SendWho(String, OneOf.OneOf(Of String, String()))
+  nameWithType: WeChatMainWindow.SendWho(string, OneOf<string, string[]>)
+  nameWithType.vb: WeChatMainWindow.SendWho(String, OneOf(Of String, String()))
 - uid: WeChatAuto.Components.WeChatMainWindow.SendWho(System.String,System.String,OneOf.OneOf{System.String,System.String[]})
   name: SendWho(string, string, OneOf<string, string[]>)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_SendWho_System_String_System_String_OneOf_OneOf_System_String_System_String____
