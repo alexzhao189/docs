@@ -26,7 +26,7 @@ WeChatAuto.SDK支持两种消息发送模型:
  ```
  
  其中：
-   - who: 好友昵称，可以是好友或者群昵称,如果为空，则发送给当前主窗口的焦点聊天窗口（注意:发送的窗口必须是可以接收消息的）
+   - who: 好友昵称，可以是好友或者群昵称,可以为空，如果为空，则发送给当前主窗口的焦点聊天窗口（注意:发送的窗口必须是可以接收消息的）
    - message: 消息内容
    - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
    - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -64,7 +64,7 @@ await client.SendWho("测试11","你好，世界！",new string[]{"123321","Alex
 public async Task SendEmoji(string who, OneOf<int, string> emoji, OneOf<string, string[]> atUser = default, bool isOpenChat = false)
 ```
 其中:
-  - who: 好友昵称，可以是好友或者群昵称
+  - who: 好友昵称，可以是好友或者群昵称,可以为空，如果为空，则发送给当前主窗口的焦点聊天窗口发送emoji消息（注意:发送的窗口必须是可以接收消息的）
   - emoji: 可以是表情名称或者描述或者索引,具体索引或者描述等请参考下面的Emoji表
   - atUser: 被@的好友昵称，可以单个好友，也可以是一个好友数组，适用群聊中@好友
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
@@ -246,7 +246,7 @@ public async Task SendFile(string who, OneOf<string, string[]> files, bool isOpe
 ```
 
 其中：
-  - who: 好友昵称
+  - who: 好友昵称,可以为空，如果为空，则发送给当前主窗口的焦点聊天窗口发送文件（注意:发送的窗口必须是可以接收消息的）
   - files: 文件路径,可以是单个文件路径，也可以是多个文件路径，要求文件实际在磁盘中存在
   - isOpenChat: 是否打开子聊天窗口,默认是True:打开,False:不打开
 
