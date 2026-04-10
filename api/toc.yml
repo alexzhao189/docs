@@ -77,6 +77,9 @@ items:
   - uid: WeAutoCommon.Models.EmojiItem
     name: EmojiItem
     type: Class
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
+    type: Class
   - uid: WeAutoCommon.Models.FunctionalExtensions
     name: FunctionalExtensions
     type: Class

@@ -14,7 +14,7 @@ items:
   fullName: WeChatAuto.Extentions.AutoLoggerExtensions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Extentions/AutoLoggerExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Extentions/AutoLoggerExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -44,7 +44,7 @@ items:
   fullName: WeChatAuto.Extentions.AutoLoggerExtensions.AddAutoLogger(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Extentions/AutoLoggerExtensions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Extentions/AutoLoggerExtensions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

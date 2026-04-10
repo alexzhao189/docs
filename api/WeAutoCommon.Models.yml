@@ -9,6 +9,7 @@ items:
   - WeAutoCommon.Models.ChatResponse
   - WeAutoCommon.Models.Conversation
   - WeAutoCommon.Models.EmojiItem
+  - WeAutoCommon.Models.FriendInfo
   - WeAutoCommon.Models.FunctionalExtensions
   - WeAutoCommon.Models.Maybe`1
   - WeAutoCommon.Models.MomentItem
@@ -62,6 +63,13 @@ references:
   name: EmojiItem
   nameWithType: EmojiItem
   fullName: WeAutoCommon.Models.EmojiItem
+- uid: WeAutoCommon.Models.FriendInfo
+  commentId: T:WeAutoCommon.Models.FriendInfo
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html
+  name: FriendInfo
+  nameWithType: FriendInfo
+  fullName: WeAutoCommon.Models.FriendInfo
 - uid: WeAutoCommon.Models.FunctionalExtensions
   commentId: T:WeAutoCommon.Models.FunctionalExtensions
   parent: WeAutoCommon.Models

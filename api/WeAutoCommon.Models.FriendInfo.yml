@@ -1,193 +1,167 @@
 ### YamlMime:ManagedReference
 items:
-- uid: WeAutoCommon.Utils.FriendListenerOptions
-  commentId: T:WeAutoCommon.Utils.FriendListenerOptions
-  id: FriendListenerOptions
-  parent: WeAutoCommon.Utils
+- uid: WeAutoCommon.Models.FriendInfo
+  commentId: T:WeAutoCommon.Models.FriendInfo
+  id: FriendInfo
+  parent: WeAutoCommon.Models
   children:
-  - WeAutoCommon.Utils.FriendListenerOptions.#ctor
-  - WeAutoCommon.Utils.FriendListenerOptions.IsDelet
-  - WeAutoCommon.Utils.FriendListenerOptions.KeyWord
-  - WeAutoCommon.Utils.FriendListenerOptions.Label
-  - WeAutoCommon.Utils.FriendListenerOptions.Suffix
+  - WeAutoCommon.Models.FriendInfo.#ctor
+  - WeAutoCommon.Models.FriendInfo.NickName
+  - WeAutoCommon.Models.FriendInfo.ToString
+  - WeAutoCommon.Models.FriendInfo.WxId
   langs:
   - csharp
   - vb
-  name: FriendListenerOptions
-  nameWithType: FriendListenerOptions
-  fullName: WeAutoCommon.Utils.FriendListenerOptions
+  name: FriendInfo
+  nameWithType: FriendInfo
+  fullName: WeAutoCommon.Models.FriendInfo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
-  namespace: WeAutoCommon.Utils
+  namespace: WeAutoCommon.Models
+  summary: 个人信息
+  example: []
   syntax:
-    content: public class FriendListenerOptions
-    content.vb: Public Class FriendListenerOptions
+    content: public class FriendInfo
+    content.vb: Public Class FriendInfo
   inheritance:
   - System.Object
   inheritedMembers:
   - System.Object.GetType
   - System.Object.MemberwiseClone
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   extensionMethods:
-  - WeAutoCommon.Utils.FriendListenerOptions.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
-- uid: WeAutoCommon.Utils.FriendListenerOptions.#ctor
-  commentId: M:WeAutoCommon.Utils.FriendListenerOptions.#ctor
-  id: '#ctor'
-  parent: WeAutoCommon.Utils.FriendListenerOptions
+  - WeAutoCommon.Models.FriendInfo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Models.FriendInfo.ToString
+  commentId: M:WeAutoCommon.Models.FriendInfo.ToString
+  id: ToString
+  parent: WeAutoCommon.Models.FriendInfo
   langs:
   - csharp
   - vb
-  name: FriendListenerOptions()
-  nameWithType: FriendListenerOptions.FriendListenerOptions()
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.FriendListenerOptions()
+  name: ToString()
+  nameWithType: FriendInfo.ToString()
+  fullName: WeAutoCommon.Models.FriendInfo.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WeAutoCommon.Models.FriendInfo.ToString*
+- uid: WeAutoCommon.Models.FriendInfo.#ctor
+  commentId: M:WeAutoCommon.Models.FriendInfo.#ctor
+  id: '#ctor'
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendInfo()
+  nameWithType: FriendInfo.FriendInfo()
+  fullName: WeAutoCommon.Models.FriendInfo.FriendInfo()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
-  namespace: WeAutoCommon.Utils
+  namespace: WeAutoCommon.Models
   syntax:
-    content: public FriendListenerOptions()
+    content: public FriendInfo()
     content.vb: Public Sub New()
-  overload: WeAutoCommon.Utils.FriendListenerOptions.#ctor*
-  nameWithType.vb: FriendListenerOptions.New()
-  fullName.vb: WeAutoCommon.Utils.FriendListenerOptions.New()
+  overload: WeAutoCommon.Models.FriendInfo.#ctor*
+  nameWithType.vb: FriendInfo.New()
+  fullName.vb: WeAutoCommon.Models.FriendInfo.New()
   name.vb: New()
-- uid: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
-  commentId: P:WeAutoCommon.Utils.FriendListenerOptions.KeyWord
-  id: KeyWord
-  parent: WeAutoCommon.Utils.FriendListenerOptions
+- uid: WeAutoCommon.Models.FriendInfo.NickName
+  commentId: P:WeAutoCommon.Models.FriendInfo.NickName
+  id: NickName
+  parent: WeAutoCommon.Models.FriendInfo
   langs:
   - csharp
   - vb
-  name: KeyWord
-  nameWithType: FriendListenerOptions.KeyWord
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
+  name: NickName
+  nameWithType: FriendInfo.NickName
+  fullName: WeAutoCommon.Models.FriendInfo.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
-  namespace: WeAutoCommon.Utils
-  summary: 关键字
+  namespace: WeAutoCommon.Models
+  summary: 昵称
   example: []
   syntax:
-    content: public string KeyWord { get; set; }
+    content: public string NickName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property KeyWord As String
-  overload: WeAutoCommon.Utils.FriendListenerOptions.KeyWord*
-- uid: WeAutoCommon.Utils.FriendListenerOptions.Suffix
-  commentId: P:WeAutoCommon.Utils.FriendListenerOptions.Suffix
-  id: Suffix
-  parent: WeAutoCommon.Utils.FriendListenerOptions
+    content.vb: Public Property NickName As String
+  overload: WeAutoCommon.Models.FriendInfo.NickName*
+- uid: WeAutoCommon.Models.FriendInfo.WxId
+  commentId: P:WeAutoCommon.Models.FriendInfo.WxId
+  id: WxId
+  parent: WeAutoCommon.Models.FriendInfo
   langs:
   - csharp
   - vb
-  name: Suffix
-  nameWithType: FriendListenerOptions.Suffix
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.Suffix
+  name: WxId
+  nameWithType: FriendInfo.WxId
+  fullName: WeAutoCommon.Models.FriendInfo.WxId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
-  namespace: WeAutoCommon.Utils
-  summary: 后缀
+  namespace: WeAutoCommon.Models
+  summary: 微信ID
   example: []
   syntax:
-    content: public string Suffix { get; set; }
+    content: public string WxId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Suffix As String
-  overload: WeAutoCommon.Utils.FriendListenerOptions.Suffix*
-- uid: WeAutoCommon.Utils.FriendListenerOptions.Label
-  commentId: P:WeAutoCommon.Utils.FriendListenerOptions.Label
-  id: Label
-  parent: WeAutoCommon.Utils.FriendListenerOptions
-  langs:
-  - csharp
-  - vb
-  name: Label
-  nameWithType: FriendListenerOptions.Label
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.Label
-  type: Property
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
-  assemblies:
-  - WeAutoCommon
-  namespace: WeAutoCommon.Utils
-  summary: 标签
-  example: []
-  syntax:
-    content: public string Label { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Label As String
-  overload: WeAutoCommon.Utils.FriendListenerOptions.Label*
-- uid: WeAutoCommon.Utils.FriendListenerOptions.IsDelet
-  commentId: P:WeAutoCommon.Utils.FriendListenerOptions.IsDelet
-  id: IsDelet
-  parent: WeAutoCommon.Utils.FriendListenerOptions
-  langs:
-  - csharp
-  - vb
-  name: IsDelet
-  nameWithType: FriendListenerOptions.IsDelet
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.IsDelet
-  type: Property
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
-  assemblies:
-  - WeAutoCommon
-  namespace: WeAutoCommon.Utils
-  summary: 添加好友成功后是否删除好友申请按钮，默认删除
-  example: []
-  syntax:
-    content: public bool IsDelet { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsDelet As Boolean
-  overload: WeAutoCommon.Utils.FriendListenerOptions.IsDelet*
+    content.vb: Public Property WxId As String
+  overload: WeAutoCommon.Models.FriendInfo.WxId*
 references:
-- uid: WeAutoCommon.Utils
-  commentId: N:WeAutoCommon.Utils
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
   isExternal: true
   href: WeAutoCommon.html
-  name: WeAutoCommon.Utils
-  nameWithType: WeAutoCommon.Utils
-  fullName: WeAutoCommon.Utils
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
   spec.csharp:
   - uid: WeAutoCommon
     name: WeAutoCommon
     isExternal: true
     href: WeAutoCommon.html
   - name: .
-  - uid: WeAutoCommon.Utils
-    name: Utils
+  - uid: WeAutoCommon.Models
+    name: Models
     isExternal: true
-    href: WeAutoCommon.Utils.html
+    href: WeAutoCommon.Models.html
   spec.vb:
   - uid: WeAutoCommon
     name: WeAutoCommon
     isExternal: true
     href: WeAutoCommon.html
   - name: .
-  - uid: WeAutoCommon.Utils
-    name: Utils
+  - uid: WeAutoCommon.Models
+    name: Models
     isExternal: true
-    href: WeAutoCommon.Utils.html
+    href: WeAutoCommon.Models.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -245,30 +219,6 @@ references:
     name: MemberwiseClone
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
 - uid: System.Object.Equals(System.Object)
@@ -418,52 +368,52 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: WeAutoCommon.Utils.FriendListenerOptions.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Models.FriendInfo.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
   commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   parent: WeAutoCommon.Models.FunctionalExtensions
   definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
-  name: ToMaybe<FriendListenerOptions>(FriendListenerOptions)
-  nameWithType: FunctionalExtensions.ToMaybe<FriendListenerOptions>(FriendListenerOptions)
-  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Utils.FriendListenerOptions>(WeAutoCommon.Utils.FriendListenerOptions)
-  nameWithType.vb: FunctionalExtensions.ToMaybe(Of FriendListenerOptions)(FriendListenerOptions)
-  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Utils.FriendListenerOptions)(WeAutoCommon.Utils.FriendListenerOptions)
-  name.vb: ToMaybe(Of FriendListenerOptions)(FriendListenerOptions)
+  name: ToMaybe<FriendInfo>(FriendInfo)
+  nameWithType: FunctionalExtensions.ToMaybe<FriendInfo>(FriendInfo)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Models.FriendInfo>(WeAutoCommon.Models.FriendInfo)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of FriendInfo)(FriendInfo)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Models.FriendInfo)(WeAutoCommon.Models.FriendInfo)
+  name.vb: ToMaybe(Of FriendInfo)(FriendInfo)
   spec.csharp:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.FriendListenerOptions)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.FriendInfo)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: <
-  - uid: WeAutoCommon.Utils.FriendListenerOptions
-    name: FriendListenerOptions
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
     isExternal: true
-    href: WeAutoCommon.Utils.FriendListenerOptions.html
+    href: WeAutoCommon.Models.FriendInfo.html
   - name: '>'
   - name: (
-  - uid: WeAutoCommon.Utils.FriendListenerOptions
-    name: FriendListenerOptions
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
     isExternal: true
-    href: WeAutoCommon.Utils.FriendListenerOptions.html
+    href: WeAutoCommon.Models.FriendInfo.html
   - name: )
   spec.vb:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Utils.FriendListenerOptions)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Models.FriendInfo)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: (
   - name: Of
   - name: " "
-  - uid: WeAutoCommon.Utils.FriendListenerOptions
-    name: FriendListenerOptions
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
     isExternal: true
-    href: WeAutoCommon.Utils.FriendListenerOptions.html
+    href: WeAutoCommon.Models.FriendInfo.html
   - name: )
   - name: (
-  - uid: WeAutoCommon.Utils.FriendListenerOptions
-    name: FriendListenerOptions
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
     isExternal: true
-    href: WeAutoCommon.Utils.FriendListenerOptions.html
+    href: WeAutoCommon.Models.FriendInfo.html
   - name: )
 - uid: System
   commentId: N:System
@@ -514,50 +464,37 @@ references:
   name: FunctionalExtensions
   nameWithType: FunctionalExtensions
   fullName: WeAutoCommon.Models.FunctionalExtensions
-- uid: WeAutoCommon.Models
-  commentId: N:WeAutoCommon.Models
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  href: WeAutoCommon.html
-  name: WeAutoCommon.Models
-  nameWithType: WeAutoCommon.Models
-  fullName: WeAutoCommon.Models
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: WeAutoCommon
-    name: WeAutoCommon
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
-    href: WeAutoCommon.html
-  - name: .
-  - uid: WeAutoCommon.Models
-    name: Models
-    isExternal: true
-    href: WeAutoCommon.Models.html
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
   spec.vb:
-  - uid: WeAutoCommon
-    name: WeAutoCommon
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
-    href: WeAutoCommon.html
-  - name: .
-  - uid: WeAutoCommon.Models
-    name: Models
-    isExternal: true
-    href: WeAutoCommon.Models.html
-- uid: WeAutoCommon.Utils.FriendListenerOptions.#ctor*
-  commentId: Overload:WeAutoCommon.Utils.FriendListenerOptions.#ctor
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WeAutoCommon.Models.FriendInfo.ToString*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.ToString
   isExternal: true
-  href: WeAutoCommon.Utils.FriendListenerOptions.html#WeAutoCommon_Utils_FriendListenerOptions__ctor
-  name: FriendListenerOptions
-  nameWithType: FriendListenerOptions.FriendListenerOptions
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.FriendListenerOptions
-  nameWithType.vb: FriendListenerOptions.New
-  fullName.vb: WeAutoCommon.Utils.FriendListenerOptions.New
-  name.vb: New
-- uid: WeAutoCommon.Utils.FriendListenerOptions.KeyWord*
-  commentId: Overload:WeAutoCommon.Utils.FriendListenerOptions.KeyWord
-  isExternal: true
-  href: WeAutoCommon.Utils.FriendListenerOptions.html#WeAutoCommon_Utils_FriendListenerOptions_KeyWord
-  name: KeyWord
-  nameWithType: FriendListenerOptions.KeyWord
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_ToString
+  name: ToString
+  nameWithType: FriendInfo.ToString
+  fullName: WeAutoCommon.Models.FriendInfo.ToString
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -569,35 +506,27 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: WeAutoCommon.Utils.FriendListenerOptions.Suffix*
-  commentId: Overload:WeAutoCommon.Utils.FriendListenerOptions.Suffix
+- uid: WeAutoCommon.Models.FriendInfo.#ctor*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.#ctor
   isExternal: true
-  href: WeAutoCommon.Utils.FriendListenerOptions.html#WeAutoCommon_Utils_FriendListenerOptions_Suffix
-  name: Suffix
-  nameWithType: FriendListenerOptions.Suffix
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.Suffix
-- uid: WeAutoCommon.Utils.FriendListenerOptions.Label*
-  commentId: Overload:WeAutoCommon.Utils.FriendListenerOptions.Label
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo__ctor
+  name: FriendInfo
+  nameWithType: FriendInfo.FriendInfo
+  fullName: WeAutoCommon.Models.FriendInfo.FriendInfo
+  nameWithType.vb: FriendInfo.New
+  fullName.vb: WeAutoCommon.Models.FriendInfo.New
+  name.vb: New
+- uid: WeAutoCommon.Models.FriendInfo.NickName*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.NickName
   isExternal: true
-  href: WeAutoCommon.Utils.FriendListenerOptions.html#WeAutoCommon_Utils_FriendListenerOptions_Label
-  name: Label
-  nameWithType: FriendListenerOptions.Label
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.Label
-- uid: WeAutoCommon.Utils.FriendListenerOptions.IsDelet*
-  commentId: Overload:WeAutoCommon.Utils.FriendListenerOptions.IsDelet
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_NickName
+  name: NickName
+  nameWithType: FriendInfo.NickName
+  fullName: WeAutoCommon.Models.FriendInfo.NickName
+- uid: WeAutoCommon.Models.FriendInfo.WxId*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.WxId
   isExternal: true
-  href: WeAutoCommon.Utils.FriendListenerOptions.html#WeAutoCommon_Utils_FriendListenerOptions_IsDelet
-  name: IsDelet
-  nameWithType: FriendListenerOptions.IsDelet
-  fullName: WeAutoCommon.Utils.FriendListenerOptions.IsDelet
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_WxId
+  name: WxId
+  nameWithType: FriendInfo.WxId
+  fullName: WeAutoCommon.Models.FriendInfo.WxId

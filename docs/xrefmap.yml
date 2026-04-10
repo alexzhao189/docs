@@ -1507,6 +1507,66 @@ references:
   commentId: Overload:WeAutoCommon.Models.EmojiItem.Value
   fullName: WeAutoCommon.Models.EmojiItem.Value
   nameWithType: EmojiItem.Value
+- uid: WeAutoCommon.Models.FriendInfo
+  name: FriendInfo
+  href: api/WeAutoCommon.Models.FriendInfo.html
+  commentId: T:WeAutoCommon.Models.FriendInfo
+  fullName: WeAutoCommon.Models.FriendInfo
+  nameWithType: FriendInfo
+- uid: WeAutoCommon.Models.FriendInfo.#ctor
+  name: FriendInfo()
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo__ctor
+  commentId: M:WeAutoCommon.Models.FriendInfo.#ctor
+  name.vb: New()
+  fullName: WeAutoCommon.Models.FriendInfo.FriendInfo()
+  fullName.vb: WeAutoCommon.Models.FriendInfo.New()
+  nameWithType: FriendInfo.FriendInfo()
+  nameWithType.vb: FriendInfo.New()
+- uid: WeAutoCommon.Models.FriendInfo.#ctor*
+  name: FriendInfo
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo__ctor_
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.#ctor
+  name.vb: New
+  fullName: WeAutoCommon.Models.FriendInfo.FriendInfo
+  fullName.vb: WeAutoCommon.Models.FriendInfo.New
+  nameWithType: FriendInfo.FriendInfo
+  nameWithType.vb: FriendInfo.New
+- uid: WeAutoCommon.Models.FriendInfo.NickName
+  name: NickName
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_NickName
+  commentId: P:WeAutoCommon.Models.FriendInfo.NickName
+  fullName: WeAutoCommon.Models.FriendInfo.NickName
+  nameWithType: FriendInfo.NickName
+- uid: WeAutoCommon.Models.FriendInfo.NickName*
+  name: NickName
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_NickName_
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.NickName
+  fullName: WeAutoCommon.Models.FriendInfo.NickName
+  nameWithType: FriendInfo.NickName
+- uid: WeAutoCommon.Models.FriendInfo.ToString
+  name: ToString()
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_ToString
+  commentId: M:WeAutoCommon.Models.FriendInfo.ToString
+  fullName: WeAutoCommon.Models.FriendInfo.ToString()
+  nameWithType: FriendInfo.ToString()
+- uid: WeAutoCommon.Models.FriendInfo.ToString*
+  name: ToString
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_ToString_
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.ToString
+  fullName: WeAutoCommon.Models.FriendInfo.ToString
+  nameWithType: FriendInfo.ToString
+- uid: WeAutoCommon.Models.FriendInfo.WxId
+  name: WxId
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_WxId
+  commentId: P:WeAutoCommon.Models.FriendInfo.WxId
+  fullName: WeAutoCommon.Models.FriendInfo.WxId
+  nameWithType: FriendInfo.WxId
+- uid: WeAutoCommon.Models.FriendInfo.WxId*
+  name: WxId
+  href: api/WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_WxId_
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.WxId
+  fullName: WeAutoCommon.Models.FriendInfo.WxId
+  nameWithType: FriendInfo.WxId
 - uid: WeAutoCommon.Models.FunctionalExtensions
   name: FunctionalExtensions
   href: api/WeAutoCommon.Models.FunctionalExtensions.html
@@ -5901,6 +5961,18 @@ references:
   commentId: Overload:WeChatAuto.Components.Navigation.CloseNavigation
   fullName: WeChatAuto.Components.Navigation.CloseNavigation
   nameWithType: Navigation.CloseNavigation
+- uid: WeChatAuto.Components.Navigation.GetWxId
+  name: GetWxId()
+  href: api/WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_GetWxId
+  commentId: M:WeChatAuto.Components.Navigation.GetWxId
+  fullName: WeChatAuto.Components.Navigation.GetWxId()
+  nameWithType: Navigation.GetWxId()
+- uid: WeChatAuto.Components.Navigation.GetWxId*
+  name: GetWxId
+  href: api/WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_GetWxId_
+  commentId: Overload:WeChatAuto.Components.Navigation.GetWxId
+  fullName: WeChatAuto.Components.Navigation.GetWxId
+  nameWithType: Navigation.GetWxId
 - uid: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   name: SwitchNavigation(NavigationType)
   href: api/WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_SwitchNavigation_WeAutoCommon_Enums_NavigationType_
@@ -6051,6 +6123,18 @@ references:
   commentId: Overload:WeChatAuto.Components.Sender.ContentArea
   fullName: WeChatAuto.Components.Sender.ContentArea
   nameWithType: Sender.ContentArea
+- uid: WeChatAuto.Components.Sender.Focuse
+  name: Focuse()
+  href: api/WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_Focuse
+  commentId: M:WeChatAuto.Components.Sender.Focuse
+  fullName: WeChatAuto.Components.Sender.Focuse()
+  nameWithType: Sender.Focuse()
+- uid: WeChatAuto.Components.Sender.Focuse*
+  name: Focuse
+  href: api/WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_Focuse_
+  commentId: Overload:WeChatAuto.Components.Sender.Focuse
+  fullName: WeChatAuto.Components.Sender.Focuse
+  nameWithType: Sender.Focuse
 - uid: WeChatAuto.Components.Sender.FullTitle
   name: FullTitle
   href: api/WeChatAuto.Components.Sender.html#WeChatAuto_Components_Sender_FullTitle
@@ -6429,6 +6513,18 @@ references:
   commentId: Overload:WeChatAuto.Components.SubWin.GetGroupOwner
   fullName: WeChatAuto.Components.SubWin.GetGroupOwner
   nameWithType: SubWin.GetGroupOwner
+- uid: WeChatAuto.Components.SubWin.GetWxId
+  name: GetWxId()
+  href: api/WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_GetWxId
+  commentId: M:WeChatAuto.Components.SubWin.GetWxId
+  fullName: WeChatAuto.Components.SubWin.GetWxId()
+  nameWithType: SubWin.GetWxId()
+- uid: WeChatAuto.Components.SubWin.GetWxId*
+  name: GetWxId
+  href: api/WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_GetWxId_
+  commentId: Overload:WeChatAuto.Components.SubWin.GetWxId
+  fullName: WeChatAuto.Components.SubWin.GetWxId
+  nameWithType: SubWin.GetWxId
 - uid: WeChatAuto.Components.SubWin.InviteChatGroupMember(OneOf.OneOf{System.String,System.String[]},System.String)
   name: InviteChatGroupMember(OneOf<string, string[]>, string)
   href: api/WeChatAuto.Components.SubWin.html#WeChatAuto_Components_SubWin_InviteChatGroupMember_OneOf_OneOf_System_String_System_String____System_String_
@@ -7434,6 +7530,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.GetMomentsListSilence
   fullName: WeChatAuto.Components.WeChatClient.GetMomentsListSilence
   nameWithType: WeChatClient.GetMomentsListSilence
+- uid: WeChatAuto.Components.WeChatClient.GetOwnerInfo
+  name: GetOwnerInfo()
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetOwnerInfo
+  commentId: M:WeChatAuto.Components.WeChatClient.GetOwnerInfo
+  fullName: WeChatAuto.Components.WeChatClient.GetOwnerInfo()
+  nameWithType: WeChatClient.GetOwnerInfo()
+- uid: WeChatAuto.Components.WeChatClient.GetOwnerInfo*
+  name: GetOwnerInfo
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetOwnerInfo_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.GetOwnerInfo
+  fullName: WeChatAuto.Components.WeChatClient.GetOwnerInfo
+  nameWithType: WeChatClient.GetOwnerInfo
 - uid: WeChatAuto.Components.WeChatClient.GetVisibleConversationTitles
   name: GetVisibleConversationTitles()
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetVisibleConversationTitles
@@ -7458,6 +7566,36 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.GetVisibleConversations
   fullName: WeChatAuto.Components.WeChatClient.GetVisibleConversations
   nameWithType: WeChatClient.GetVisibleConversations
+- uid: WeChatAuto.Components.WeChatClient.GetWxid(System.String)
+  name: GetWxid(string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetWxid_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.GetWxid(System.String)
+  name.vb: GetWxid(String)
+  fullName: WeChatAuto.Components.WeChatClient.GetWxid(string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.GetWxid(String)
+  nameWithType: WeChatClient.GetWxid(string)
+  nameWithType.vb: WeChatClient.GetWxid(String)
+- uid: WeChatAuto.Components.WeChatClient.GetWxid*
+  name: GetWxid
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetWxid_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.GetWxid
+  fullName: WeChatAuto.Components.WeChatClient.GetWxid
+  nameWithType: WeChatClient.GetWxid
+- uid: WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber(System.String)
+  name: GetWxidFromPhoneNumber(string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetWxidFromPhoneNumber_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber(System.String)
+  name.vb: GetWxidFromPhoneNumber(String)
+  fullName: WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber(string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber(String)
+  nameWithType: WeChatClient.GetWxidFromPhoneNumber(string)
+  nameWithType.vb: WeChatClient.GetWxidFromPhoneNumber(String)
+- uid: WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber*
+  name: GetWxidFromPhoneNumber
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetWxidFromPhoneNumber_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber
+  fullName: WeChatAuto.Components.WeChatClient.GetWxidFromPhoneNumber
+  nameWithType: WeChatClient.GetWxidFromPhoneNumber
 - uid: WeChatAuto.Components.WeChatClient.InviteChatGroupMember(System.String,OneOf.OneOf{System.String,System.String[]},System.String)
   name: InviteChatGroupMember(string, OneOf<string, string[]>, string)
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_InviteChatGroupMember_System_String_OneOf_OneOf_System_String_System_String____System_String_
@@ -8616,6 +8754,48 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetGroupOwner
   fullName: WeChatAuto.Components.WeChatMainWindow.GetGroupOwner
   nameWithType: WeChatMainWindow.GetGroupOwner
+- uid: WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo
+  name: GetOwnerInfo()
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetOwnerInfo
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo()
+  nameWithType: WeChatMainWindow.GetOwnerInfo()
+- uid: WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo*
+  name: GetOwnerInfo
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetOwnerInfo_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo
+  nameWithType: WeChatMainWindow.GetOwnerInfo
+- uid: WeChatAuto.Components.WeChatMainWindow.GetWxid(System.String)
+  name: GetWxid(string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetWxid_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.GetWxid(System.String)
+  name.vb: GetWxid(String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetWxid(string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.GetWxid(String)
+  nameWithType: WeChatMainWindow.GetWxid(string)
+  nameWithType.vb: WeChatMainWindow.GetWxid(String)
+- uid: WeChatAuto.Components.WeChatMainWindow.GetWxid*
+  name: GetWxid
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetWxid_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetWxid
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetWxid
+  nameWithType: WeChatMainWindow.GetWxid
+- uid: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber(System.String)
+  name: GetWxidFromPhoneNumber(string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetWxidFromPhoneNumber_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber(System.String)
+  name.vb: GetWxidFromPhoneNumber(String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber(string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber(String)
+  nameWithType: WeChatMainWindow.GetWxidFromPhoneNumber(string)
+  nameWithType.vb: WeChatMainWindow.GetWxidFromPhoneNumber(String)
+- uid: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber*
+  name: GetWxidFromPhoneNumber
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetWxidFromPhoneNumber_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber
+  nameWithType: WeChatMainWindow.GetWxidFromPhoneNumber
 - uid: WeChatAuto.Components.WeChatMainWindow.InviteChatGroupMember(System.String,OneOf.OneOf{System.String,System.String[]},System.String)
   name: InviteChatGroupMember(string, OneOf<string, string[]>, string)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_InviteChatGroupMember_System_String_OneOf_OneOf_System_String_System_String____System_String_
@@ -12047,6 +12227,21 @@ references:
   commentId: Overload:WeChatAuto.Utils.WinApi.SendMessage
   fullName: WeChatAuto.Utils.WinApi.SendMessage
   nameWithType: WinApi.SendMessage
+- uid: WeChatAuto.Utils.WinApi.keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
+  name: keybd_event(byte, byte, uint, nuint)
+  href: api/WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi_keybd_event_System_Byte_System_Byte_System_UInt32_System_UIntPtr_
+  commentId: M:WeChatAuto.Utils.WinApi.keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
+  name.vb: keybd_event(Byte, Byte, UInteger, UIntPtr)
+  fullName: WeChatAuto.Utils.WinApi.keybd_event(byte, byte, uint, nuint)
+  fullName.vb: WeChatAuto.Utils.WinApi.keybd_event(Byte, Byte, UInteger, System.UIntPtr)
+  nameWithType: WinApi.keybd_event(byte, byte, uint, nuint)
+  nameWithType.vb: WinApi.keybd_event(Byte, Byte, UInteger, UIntPtr)
+- uid: WeChatAuto.Utils.WinApi.keybd_event*
+  name: keybd_event
+  href: api/WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi_keybd_event_
+  commentId: Overload:WeChatAuto.Utils.WinApi.keybd_event
+  fullName: WeChatAuto.Utils.WinApi.keybd_event
+  nameWithType: WinApi.keybd_event
 - uid: WeChatAuto.Utils.WxLocation
   name: WxLocation
   href: api/WeChatAuto.Utils.WxLocation.html

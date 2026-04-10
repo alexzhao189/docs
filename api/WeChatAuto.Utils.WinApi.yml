@@ -8,6 +8,7 @@ items:
   - WeChatAuto.Utils.WinApi.#ctor
   - WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(System.String)
   - WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
+  - WeChatAuto.Utils.WinApi.keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
   langs:
   - csharp
   - vb
@@ -16,7 +17,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -35,6 +36,38 @@ items:
   - System.Object.GetHashCode
   extensionMethods:
   - WeChatAuto.Utils.WinApi.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.WinApi.keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
+  commentId: M:WeChatAuto.Utils.WinApi.keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
+  id: keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)
+  parent: WeChatAuto.Utils.WinApi
+  langs:
+  - csharp
+  - vb
+  name: keybd_event(byte, byte, uint, nuint)
+  nameWithType: WinApi.keybd_event(byte, byte, uint, nuint)
+  fullName: WeChatAuto.Utils.WinApi.keybd_event(byte, byte, uint, nuint)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/WinApi.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, nuint dwExtraInfo)
+    parameters:
+    - id: bVk
+      type: System.Byte
+    - id: bScan
+      type: System.Byte
+    - id: dwFlags
+      type: System.UInt32
+    - id: dwExtraInfo
+      type: System.UIntPtr
+    content.vb: Public Shared Sub keybd_event(bVk As Byte, bScan As Byte, dwFlags As UInteger, dwExtraInfo As UIntPtr)
+  overload: WeChatAuto.Utils.WinApi.keybd_event*
+  nameWithType.vb: WinApi.keybd_event(Byte, Byte, UInteger, UIntPtr)
+  fullName.vb: WeChatAuto.Utils.WinApi.keybd_event(Byte, Byte, UInteger, System.UIntPtr)
+  name.vb: keybd_event(Byte, Byte, UInteger, UIntPtr)
 - uid: WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
   commentId: M:WeChatAuto.Utils.WinApi.SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
   id: SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)
@@ -47,7 +80,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.SendMessage(nint, uint, nint, nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -81,7 +114,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -113,7 +146,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.WinApi()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -505,6 +538,46 @@ references:
     name: Models
     isExternal: true
     href: WeAutoCommon.Models.html
+- uid: WeChatAuto.Utils.WinApi.keybd_event*
+  commentId: Overload:WeChatAuto.Utils.WinApi.keybd_event
+  isExternal: true
+  href: WeChatAuto.Utils.WinApi.html#WeChatAuto_Utils_WinApi_keybd_event_System_Byte_System_Byte_System_UInt32_System_UIntPtr_
+  name: keybd_event
+  nameWithType: WinApi.keybd_event
+  fullName: WeChatAuto.Utils.WinApi.keybd_event
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UIntPtr
+  commentId: T:System.UIntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uintptr
+  name: nuint
+  nameWithType: nuint
+  fullName: nuint
+  nameWithType.vb: UIntPtr
+  fullName.vb: System.UIntPtr
+  name.vb: UIntPtr
 - uid: WeChatAuto.Utils.WinApi.SendMessage*
   commentId: Overload:WeChatAuto.Utils.WinApi.SendMessage
   isExternal: true
@@ -523,17 +596,6 @@ references:
   nameWithType.vb: IntPtr
   fullName.vb: System.IntPtr
   name.vb: IntPtr
-- uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
 - uid: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName*
   commentId: Overload:WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName
   isExternal: true

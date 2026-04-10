@@ -7,6 +7,7 @@ items:
   children:
   - WeChatAuto.Components.Navigation.#ctor(FlaUI.Core.AutomationElements.Window,WeAutoCommon.Interface.IWeChatWindow,WeAutoCommon.Utils.UIThreadInvoker,System.IServiceProvider)
   - WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
+  - WeChatAuto.Components.Navigation.GetWxId
   - WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   - WeChatAuto.Components.Navigation._wxLocationCaches
   langs:
@@ -17,7 +18,7 @@ items:
   fullName: WeChatAuto.Components.Navigation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -48,7 +49,7 @@ items:
   fullName: WeChatAuto.Components.Navigation._wxLocationCaches
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -69,7 +70,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.Navigation(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -95,6 +96,31 @@ items:
   nameWithType.vb: Navigation.New(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
   fullName.vb: WeChatAuto.Components.Navigation.New(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   name.vb: New(Window, IWeChatWindow, UIThreadInvoker, IServiceProvider)
+- uid: WeChatAuto.Components.Navigation.GetWxId
+  commentId: M:WeChatAuto.Components.Navigation.GetWxId
+  id: GetWxId
+  parent: WeChatAuto.Components.Navigation
+  langs:
+  - csharp
+  - vb
+  name: GetWxId()
+  nameWithType: Navigation.GetWxId()
+  fullName: WeChatAuto.Components.Navigation.GetWxId()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Components
+  summary: 通过导航栏获得窗口的wxid
+  example: []
+  syntax:
+    content: public Task<FriendInfo> GetWxId()
+    return:
+      type: System.Threading.Tasks.Task{WeAutoCommon.Models.FriendInfo}
+      description: 个人信息<xref href="WeAutoCommon.Models.FriendInfo" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetWxId() As Task(Of FriendInfo)
+  overload: WeChatAuto.Components.Navigation.GetWxId*
 - uid: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   commentId: M:WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   id: SwitchNavigation(WeAutoCommon.Enums.NavigationType)
@@ -107,7 +133,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -133,7 +159,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/f78dd2ed6da738991f59940bfa57c40ccaacb688/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -691,6 +717,120 @@ references:
     name: Utils
     isExternal: true
     href: WeAutoCommon.Utils.html
+- uid: WeAutoCommon.Models.FriendInfo
+  commentId: T:WeAutoCommon.Models.FriendInfo
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html
+  name: FriendInfo
+  nameWithType: FriendInfo
+  fullName: WeAutoCommon.Models.FriendInfo
+- uid: WeChatAuto.Components.Navigation.GetWxId*
+  commentId: Overload:WeChatAuto.Components.Navigation.GetWxId
+  isExternal: true
+  href: WeChatAuto.Components.Navigation.html#WeChatAuto_Components_Navigation_GetWxId
+  name: GetWxId
+  nameWithType: Navigation.GetWxId
+  fullName: WeChatAuto.Components.Navigation.GetWxId
+- uid: System.Threading.Tasks.Task{WeAutoCommon.Models.FriendInfo}
+  commentId: T:System.Threading.Tasks.Task{WeAutoCommon.Models.FriendInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FriendInfo>
+  nameWithType: Task<FriendInfo>
+  fullName: System.Threading.Tasks.Task<WeAutoCommon.Models.FriendInfo>
+  nameWithType.vb: Task(Of FriendInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of WeAutoCommon.Models.FriendInfo)
+  name.vb: Task(Of FriendInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Models.FriendInfo
+    name: FriendInfo
+    isExternal: true
+    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: WeChatAuto.Components.Navigation.SwitchNavigation*
   commentId: Overload:WeChatAuto.Components.Navigation.SwitchNavigation
   isExternal: true

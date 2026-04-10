@@ -574,6 +574,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WeAutoCommon.Models.FriendInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeAutoCommon.Models.FriendInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WeAutoCommon.Models.FriendInfo",
+      "Summary": "<p sourcefile=\"api/WeAutoCommon.Models.FriendInfo.yml\" sourcestartlinenumber=\"1\">个人信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WeAutoCommon.Models.FunctionalExtensions.yml",
       "output": {
         ".html": {

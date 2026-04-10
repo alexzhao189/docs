@@ -484,3 +484,26 @@ messageContext.SendMessage(string message, List<string> atUserList = null)
 
 
 > 其他更多操作请参见```MessageContext```类： [MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
+
+### 20. 获取我的wxid
+```
+public async Task<FriendInfo> GetOwnerInfo()
+```
+
+### 21. 通过好友昵称获取wxid
+```
+public async Task<FriendInfo> GetWxid(string who)
+```
+
+其中：
+  - who: 好友昵称，可以为空，如果为空，则获取主窗口当前焦点好友的微信id,返回结果: [FriendInfo](../api/WeAutoCommon.models.FriendInfo.html)
+  - 注意：确保获取的是好友（不是群聊，不是公众号等）窗口，此方法不会弹出错误，只是获取的内容为空
+
+### 22. 通过好友手机号码获取wxid
+```
+public async Task<FriendInfo> GetWxidFromPhoneNumber(string phone)
+```
+
+其中：
+  - phone: 好友手机号码，不能为空,返回结果: [FriendInfo](../api/WeAutoCommon.models.FriendInfo.html)
+  - 注意：如果好友关闭了手机查询等，此方法不会出错，但是获取的内容为空
