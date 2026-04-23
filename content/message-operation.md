@@ -491,6 +491,7 @@ public async Task<FriendInfo> GetOwnerInfo()
 ```
 
 ### 21. 获取好友详情
+
 好友详情包括:
 - NickName: 昵称
 - MemoName：备注名,微信发送消息中，如果有备注名，就使用备注名，如果没有备注名，则使用昵称
@@ -502,22 +503,43 @@ public async Task<FriendInfo> GetOwnerInfo()
 - **WxId**: 微信号，也叫微信ID,每个好友唯一，可以做为业务号
 - AvatarPath: 头像路径,由使用者设置的保存头像位置
 - AvatarImage: 头像的Image对象，可以这样使用```var bitmap = new BitMap(xxx.AvatarImage)```
+- FriendSearchResult: 适用于手机号码查询，通过手机号查询此电话号码对应的用户是好友，还是不是好友，或者没法通过电话号码查询
 
-> 注： 只有好友才有详情，群聊没有个人详情,详情请参见: 
+> 注： 只有好友才有详情，群聊没有个人详情,详情请参见: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
 
 ```
-public async Task<FriendInfo> GetWxid(string who)
+public async Task<FriendInfo> GetFriendInfo(string who, bool fetchImage = true, string avatarPath = default)
 ```
 
 其中：
-  - who: 好友昵称，可以为空，如果为空，则获取主窗口当前焦点好友的微信id,返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
+  - who: 获取好友详情（注意：不能是群聊），包括: 个人微信号、地区、备注、昵称、所属标签、共同群聊数量、来源、对像等信息,可以为空，如果为空，则获取当前聊天的窗口的好友的详情.
+  - fetchImage: 是否获取图像，默认为true,如果设置为false,则不会进行获取头像操作
+  - avatarPath： 头像保存路径，可以为空，如果为空，就不会保存进指定的目录，但会返回Image对象供使用，如果```fetchImage```设置为false,则此参数无效
   - 注意：确保获取的是好友（不是群聊，不是公众号等）窗口，此方法不会弹出错误，只是获取的内容为空
+  - 返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
 
-### 22. 通过好友手机号码获取wxid
+### 22. 通过好友手机号码获取好友详情
+
+好友详情包括:
+- NickName: 昵称
+- MemoName：备注名,微信发送消息中，如果有备注名，就使用备注名，如果没有备注名，则使用昵称
+- Area: 地区，由好友设置，建议仅供参考
+- Lable: 标签,自己设置的标签，可能有0个到多个
+- SameGroupNumber: 群聊共同数量，与好友共在所在的群
+- Signature: 个人签名，好友的个人签名
+- Source: 来源，添加好友的来源
+- **WxId**: 微信号，也叫微信ID,每个好友唯一，可以做为业务号
+- AvatarPath: 头像路径,由使用者设置的保存头像位置
+- AvatarImage: 头像的Image对象，可以这样使用```var bitmap = new BitMap(xxx.AvatarImage)```
+- FriendSearchResult: 适用于手机号码查询，通过手机号查询此电话号码对应的用户是好友，还是不是好友，或者没法通过电话号码查询
+
+
 ```
-public async Task<FriendInfo> GetWxidFromPhoneNumber(string phone)
+    public async Task<FriendInfo> GetFriendInfoFromPhoneNumber(string phone, bool fetchImage = true, string avatarPath = default)
 ```
 
 其中：
-  - phone: 好友手机号码，不能为空,返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
-  - 注意：如果好友关闭了手机查询等，此方法不会出错，但是获取的内容为空
+  - phone: 手机号码，不能为空.
+  - fetchImage: 是否获取图像，默认为true,如果设置为false,则不会进行获取头像操作
+  - avatarPath： 头像保存路径，可以为空，如果为空，就不会保存进指定的目录，但会返回Image对象供使用，如果```fetchImage```设置为false,则此参数无效
+  - 返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
