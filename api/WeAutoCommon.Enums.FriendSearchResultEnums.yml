@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums
+  commentId: T:WeAutoCommon.Enums.FriendSearchResultEnums
+  id: FriendSearchResultEnums
+  parent: WeAutoCommon.Enums
+  children:
+  - WeAutoCommon.Enums.FriendSearchResultEnums.Friend
+  - WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
+  - WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
+  langs:
+  - csharp
+  - vb
+  name: FriendSearchResultEnums
+  nameWithType: FriendSearchResultEnums
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums
+  type: Enum
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/FriendSearchResult.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  summary: 通过wxid查询，或者通过手机号查询结果枚举
+  example: []
+  syntax:
+    content: public enum FriendSearchResultEnums
+    content.vb: Public Enum FriendSearchResultEnums
+  extensionMethods:
+  - WeAutoCommon.Enums.FriendSearchResultEnums.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums.Friend
+  commentId: F:WeAutoCommon.Enums.FriendSearchResultEnums.Friend
+  id: Friend
+  parent: WeAutoCommon.Enums.FriendSearchResultEnums
+  langs:
+  - csharp
+  - vb
+  name: Friend
+  nameWithType: FriendSearchResultEnums.Friend
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums.Friend
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/FriendSearchResult.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: Friend = 0
+    return:
+      type: WeAutoCommon.Enums.FriendSearchResultEnums
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
+  commentId: F:WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
+  id: No_Find
+  parent: WeAutoCommon.Enums.FriendSearchResultEnums
+  langs:
+  - csharp
+  - vb
+  name: No_Find
+  nameWithType: FriendSearchResultEnums.No_Find
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/FriendSearchResult.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: No_Find = 1
+    return:
+      type: WeAutoCommon.Enums.FriendSearchResultEnums
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
+  commentId: F:WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
+  id: NotFriend
+  parent: WeAutoCommon.Enums.FriendSearchResultEnums
+  langs:
+  - csharp
+  - vb
+  name: NotFriend
+  nameWithType: FriendSearchResultEnums.NotFriend
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/FriendSearchResult.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Enums
+  syntax:
+    content: NotFriend = 2
+    return:
+      type: WeAutoCommon.Enums.FriendSearchResultEnums
+references:
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  parent: WeAutoCommon.Models.FunctionalExtensions
+  definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<FriendSearchResultEnums>(FriendSearchResultEnums)
+  nameWithType: FunctionalExtensions.ToMaybe<FriendSearchResultEnums>(FriendSearchResultEnums)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeAutoCommon.Enums.FriendSearchResultEnums>(WeAutoCommon.Enums.FriendSearchResultEnums)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of FriendSearchResultEnums)(FriendSearchResultEnums)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeAutoCommon.Enums.FriendSearchResultEnums)(WeAutoCommon.Enums.FriendSearchResultEnums)
+  name.vb: ToMaybe(Of FriendSearchResultEnums)(FriendSearchResultEnums)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.FriendSearchResultEnums)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - uid: WeAutoCommon.Enums.FriendSearchResultEnums
+    name: FriendSearchResultEnums
+    isExternal: true
+    href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  - name: '>'
+  - name: (
+  - uid: WeAutoCommon.Enums.FriendSearchResultEnums
+    name: FriendSearchResultEnums
+    isExternal: true
+    href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeAutoCommon.Enums.FriendSearchResultEnums)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WeAutoCommon.Enums.FriendSearchResultEnums
+    name: FriendSearchResultEnums
+    isExternal: true
+    href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  - name: )
+  - name: (
+  - uid: WeAutoCommon.Enums.FriendSearchResultEnums
+    name: FriendSearchResultEnums
+    isExternal: true
+    href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  name: ToMaybe<T>(T)
+  nameWithType: FunctionalExtensions.ToMaybe<T>(T)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<T>(T)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of T)(T)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of T)(T)
+  name.vb: ToMaybe(Of T)(T)
+  spec.csharp:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
+    name: ToMaybe
+    isExternal: true
+    href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: WeAutoCommon.Models.FunctionalExtensions
+  commentId: T:WeAutoCommon.Models.FunctionalExtensions
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.FunctionalExtensions.html
+  name: FunctionalExtensions
+  nameWithType: FunctionalExtensions
+  fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models
+  commentId: N:WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Models
+  nameWithType: WeAutoCommon.Models
+  fullName: WeAutoCommon.Models
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Models
+    name: Models
+    isExternal: true
+    href: WeAutoCommon.Models.html
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums
+  commentId: T:WeAutoCommon.Enums.FriendSearchResultEnums
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  name: FriendSearchResultEnums
+  nameWithType: FriendSearchResultEnums
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums

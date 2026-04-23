@@ -485,12 +485,26 @@ messageContext.SendMessage(string message, List<string> atUserList = null)
 
 > 其他更多操作请参见```MessageContext```类： [MessageContext类](../api/WeChatAuto.Models.MessageContext.html)
 
-### 20. 获取我的wxid
+### 20. 获取我的信息
 ```
 public async Task<FriendInfo> GetOwnerInfo()
 ```
 
-### 21. 通过好友昵称获取wxid
+### 21. 获取好友详情
+好友详情包括:
+- NickName: 昵称
+- MemoName：备注名,微信发送消息中，如果有备注名，就使用备注名，如果没有备注名，则使用昵称
+- Area: 地区，由好友设置，建议仅供参考
+- Lable: 标签,自己设置的标签，可能有0个到多个
+- SameGroupNumber: 群聊共同数量，与好友共在所在的群
+- Signature: 个人签名，好友的个人签名
+- Source: 来源，添加好友的来源
+- **WxId**: 微信号，也叫微信ID,每个好友唯一，可以做为业务号
+- AvatarPath: 头像路径,由使用者设置的保存头像位置
+- AvatarImage: 头像的Image对象，可以这样使用```var bitmap = new BitMap(xxx.AvatarImage)```
+
+> 注： 只有好友才有详情，群聊没有个人详情,详情请参见: 
+
 ```
 public async Task<FriendInfo> GetWxid(string who)
 ```

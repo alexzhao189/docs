@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -46,7 +46,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper.ParseMonentItem(FlaUI.Core.AutomationElements.ListBoxItem, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -81,7 +81,7 @@ items:
   fullName: WeChatAuto.Utils.MomentsHelper.MomentsHelper()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MomentsHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MomentsHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

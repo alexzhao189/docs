@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.MessageBubbleParser(WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.AutomationElement, string, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -79,7 +79,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.GetChatType()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -104,7 +104,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.ParseBubble(FlaUI.Core.AutomationElements.AutomationElement, ref System.DateTime?)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

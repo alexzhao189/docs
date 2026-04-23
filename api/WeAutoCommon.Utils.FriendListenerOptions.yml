@@ -18,7 +18,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -49,7 +49,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.FriendListenerOptions()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -72,7 +72,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -97,7 +97,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Suffix
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -122,7 +122,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils
@@ -147,7 +147,7 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.IsDelet
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Utils

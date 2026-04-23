@@ -6,7 +6,16 @@ items:
   parent: WeAutoCommon.Models
   children:
   - WeAutoCommon.Models.FriendInfo.#ctor
+  - WeAutoCommon.Models.FriendInfo.Area
+  - WeAutoCommon.Models.FriendInfo.AvatarImage
+  - WeAutoCommon.Models.FriendInfo.AvatarPath
+  - WeAutoCommon.Models.FriendInfo.FriendSearchResult
+  - WeAutoCommon.Models.FriendInfo.Lable
+  - WeAutoCommon.Models.FriendInfo.MemoName
   - WeAutoCommon.Models.FriendInfo.NickName
+  - WeAutoCommon.Models.FriendInfo.SameGroupNumber
+  - WeAutoCommon.Models.FriendInfo.Signature
+  - WeAutoCommon.Models.FriendInfo.Source
   - WeAutoCommon.Models.FriendInfo.ToString
   - WeAutoCommon.Models.FriendInfo.WxId
   langs:
@@ -17,7 +26,7 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -49,7 +58,7 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -73,7 +82,7 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.FriendInfo()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -96,7 +105,7 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -109,6 +118,156 @@ items:
       type: System.String
     content.vb: Public Property NickName As String
   overload: WeAutoCommon.Models.FriendInfo.NickName*
+- uid: WeAutoCommon.Models.FriendInfo.MemoName
+  commentId: P:WeAutoCommon.Models.FriendInfo.MemoName
+  id: MemoName
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: MemoName
+  nameWithType: FriendInfo.MemoName
+  fullName: WeAutoCommon.Models.FriendInfo.MemoName
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 备注名
+  example: []
+  syntax:
+    content: public string MemoName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemoName As String
+  overload: WeAutoCommon.Models.FriendInfo.MemoName*
+- uid: WeAutoCommon.Models.FriendInfo.Area
+  commentId: P:WeAutoCommon.Models.FriendInfo.Area
+  id: Area
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: FriendInfo.Area
+  fullName: WeAutoCommon.Models.FriendInfo.Area
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 地区,建议仅供参考
+  example: []
+  syntax:
+    content: public string Area { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Area As String
+  overload: WeAutoCommon.Models.FriendInfo.Area*
+- uid: WeAutoCommon.Models.FriendInfo.Lable
+  commentId: P:WeAutoCommon.Models.FriendInfo.Lable
+  id: Lable
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Lable
+  nameWithType: FriendInfo.Lable
+  fullName: WeAutoCommon.Models.FriendInfo.Lable
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 标签
+  example: []
+  syntax:
+    content: public List<string> Lable { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property Lable As List(Of String)
+  overload: WeAutoCommon.Models.FriendInfo.Lable*
+- uid: WeAutoCommon.Models.FriendInfo.SameGroupNumber
+  commentId: P:WeAutoCommon.Models.FriendInfo.SameGroupNumber
+  id: SameGroupNumber
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: SameGroupNumber
+  nameWithType: FriendInfo.SameGroupNumber
+  fullName: WeAutoCommon.Models.FriendInfo.SameGroupNumber
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 共同群数量
+  example: []
+  syntax:
+    content: public string SameGroupNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SameGroupNumber As String
+  overload: WeAutoCommon.Models.FriendInfo.SameGroupNumber*
+- uid: WeAutoCommon.Models.FriendInfo.Signature
+  commentId: P:WeAutoCommon.Models.FriendInfo.Signature
+  id: Signature
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: FriendInfo.Signature
+  fullName: WeAutoCommon.Models.FriendInfo.Signature
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 个性签名
+  example: []
+  syntax:
+    content: public string Signature { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Signature As String
+  overload: WeAutoCommon.Models.FriendInfo.Signature*
+- uid: WeAutoCommon.Models.FriendInfo.Source
+  commentId: P:WeAutoCommon.Models.FriendInfo.Source
+  id: Source
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: FriendInfo.Source
+  fullName: WeAutoCommon.Models.FriendInfo.Source
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 来源
+  example: []
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: WeAutoCommon.Models.FriendInfo.Source*
 - uid: WeAutoCommon.Models.FriendInfo.WxId
   commentId: P:WeAutoCommon.Models.FriendInfo.WxId
   id: WxId
@@ -121,7 +280,7 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.WxId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -134,6 +293,91 @@ items:
       type: System.String
     content.vb: Public Property WxId As String
   overload: WeAutoCommon.Models.FriendInfo.WxId*
+- uid: WeAutoCommon.Models.FriendInfo.AvatarPath
+  commentId: P:WeAutoCommon.Models.FriendInfo.AvatarPath
+  id: AvatarPath
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: AvatarPath
+  nameWithType: FriendInfo.AvatarPath
+  fullName: WeAutoCommon.Models.FriendInfo.AvatarPath
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: 头像路径
+  example: []
+  syntax:
+    content: public string AvatarPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AvatarPath As String
+  overload: WeAutoCommon.Models.FriendInfo.AvatarPath*
+- uid: WeAutoCommon.Models.FriendInfo.AvatarImage
+  commentId: P:WeAutoCommon.Models.FriendInfo.AvatarImage
+  id: AvatarImage
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: AvatarImage
+  nameWithType: FriendInfo.AvatarImage
+  fullName: WeAutoCommon.Models.FriendInfo.AvatarImage
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: >-
+    头像Image
+
+    <pre><code class="lang-csharp">//调用示例
+
+    var image = xxxx.AvatarImage;
+
+    image.Save(xxxxx)</code></pre>
+  example: []
+  syntax:
+    content: public Image AvatarImage { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Image
+    content.vb: Public Property AvatarImage As Image
+  overload: WeAutoCommon.Models.FriendInfo.AvatarImage*
+- uid: WeAutoCommon.Models.FriendInfo.FriendSearchResult
+  commentId: P:WeAutoCommon.Models.FriendInfo.FriendSearchResult
+  id: FriendSearchResult
+  parent: WeAutoCommon.Models.FriendInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendSearchResult
+  nameWithType: FriendInfo.FriendSearchResult
+  fullName: WeAutoCommon.Models.FriendInfo.FriendSearchResult
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Models/FriendInfo.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Models
+  summary: >-
+    查询结果，三种查询结果：已是好友、未查询到或不支持手机号查询、能查询到，但不是好友.
+
+    具体结果请参见:<xref href="WeAutoCommon.Enums.FriendSearchResultEnums" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public FriendSearchResultEnums FriendSearchResult { get; set; }
+    parameters: []
+    return:
+      type: WeAutoCommon.Enums.FriendSearchResultEnums
+    content.vb: Public Property FriendSearchResult As FriendSearchResultEnums
+  overload: WeAutoCommon.Models.FriendInfo.FriendSearchResult*
 references:
 - uid: WeAutoCommon.Models
   commentId: N:WeAutoCommon.Models
@@ -523,6 +767,148 @@ references:
   name: NickName
   nameWithType: FriendInfo.NickName
   fullName: WeAutoCommon.Models.FriendInfo.NickName
+- uid: WeAutoCommon.Models.FriendInfo.MemoName*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.MemoName
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_MemoName
+  name: MemoName
+  nameWithType: FriendInfo.MemoName
+  fullName: WeAutoCommon.Models.FriendInfo.MemoName
+- uid: WeAutoCommon.Models.FriendInfo.Area*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.Area
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_Area
+  name: Area
+  nameWithType: FriendInfo.Area
+  fullName: WeAutoCommon.Models.FriendInfo.Area
+- uid: WeAutoCommon.Models.FriendInfo.Lable*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.Lable
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_Lable
+  name: Lable
+  nameWithType: FriendInfo.Lable
+  fullName: WeAutoCommon.Models.FriendInfo.Lable
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WeAutoCommon.Models.FriendInfo.SameGroupNumber*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.SameGroupNumber
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_SameGroupNumber
+  name: SameGroupNumber
+  nameWithType: FriendInfo.SameGroupNumber
+  fullName: WeAutoCommon.Models.FriendInfo.SameGroupNumber
+- uid: WeAutoCommon.Models.FriendInfo.Signature*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.Signature
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_Signature
+  name: Signature
+  nameWithType: FriendInfo.Signature
+  fullName: WeAutoCommon.Models.FriendInfo.Signature
+- uid: WeAutoCommon.Models.FriendInfo.Source*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.Source
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_Source
+  name: Source
+  nameWithType: FriendInfo.Source
+  fullName: WeAutoCommon.Models.FriendInfo.Source
 - uid: WeAutoCommon.Models.FriendInfo.WxId*
   commentId: Overload:WeAutoCommon.Models.FriendInfo.WxId
   isExternal: true
@@ -530,3 +916,94 @@ references:
   name: WxId
   nameWithType: FriendInfo.WxId
   fullName: WeAutoCommon.Models.FriendInfo.WxId
+- uid: WeAutoCommon.Models.FriendInfo.AvatarPath*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.AvatarPath
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_AvatarPath
+  name: AvatarPath
+  nameWithType: FriendInfo.AvatarPath
+  fullName: WeAutoCommon.Models.FriendInfo.AvatarPath
+- uid: WeAutoCommon.Models.FriendInfo.AvatarImage*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.AvatarImage
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_AvatarImage
+  name: AvatarImage
+  nameWithType: FriendInfo.AvatarImage
+  fullName: WeAutoCommon.Models.FriendInfo.AvatarImage
+- uid: System.Drawing.Image
+  commentId: T:System.Drawing.Image
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums
+  commentId: T:WeAutoCommon.Enums.FriendSearchResultEnums
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  name: FriendSearchResultEnums
+  nameWithType: FriendSearchResultEnums
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums
+- uid: WeAutoCommon.Models.FriendInfo.FriendSearchResult*
+  commentId: Overload:WeAutoCommon.Models.FriendInfo.FriendSearchResult
+  isExternal: true
+  href: WeAutoCommon.Models.FriendInfo.html#WeAutoCommon_Models_FriendInfo_FriendSearchResult
+  name: FriendSearchResult
+  nameWithType: FriendInfo.FriendSearchResult
+  fullName: WeAutoCommon.Models.FriendInfo.FriendSearchResult
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html

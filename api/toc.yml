@@ -35,6 +35,9 @@ items:
   - uid: WeAutoCommon.Enums.CopyType
     name: CopyType
     type: Enum
+  - uid: WeAutoCommon.Enums.FriendSearchResultEnums
+    name: FriendSearchResultEnums
+    type: Enum
   - uid: WeAutoCommon.Enums.MessageSourceType
     name: MessageSourceType
     type: Enum

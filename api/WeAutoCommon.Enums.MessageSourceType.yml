@@ -17,7 +17,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageSourceType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Enums/MessageSourceType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/MessageSourceType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -40,7 +40,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageSourceType.系统消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Enums/MessageSourceType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/MessageSourceType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -60,7 +60,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageSourceType.自己发送消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Enums/MessageSourceType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/MessageSourceType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -80,7 +80,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageSourceType.好友消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Enums/MessageSourceType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/MessageSourceType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -100,7 +100,7 @@ items:
   fullName: WeAutoCommon.Enums.MessageSourceType.其他消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/445b975dc96d44928ae6e324ba328e62a056abde/WeAutoCommon/Enums/MessageSourceType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Enums/MessageSourceType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

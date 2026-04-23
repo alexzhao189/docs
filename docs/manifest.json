@@ -392,6 +392,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WeAutoCommon.Enums.FriendSearchResultEnums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeAutoCommon.Enums.FriendSearchResultEnums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WeAutoCommon.Enums.FriendSearchResultEnums",
+      "Summary": "<p sourcefile=\"api/WeAutoCommon.Enums.FriendSearchResultEnums.yml\" sourcestartlinenumber=\"1\">通过wxid查询，或者通过手机号查询结果枚举</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WeAutoCommon.Enums.MessageSourceType.yml",
       "output": {
         ".html": {

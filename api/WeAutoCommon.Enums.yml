@@ -10,6 +10,7 @@ items:
   - WeAutoCommon.Enums.ChatType
   - WeAutoCommon.Enums.ConversationType
   - WeAutoCommon.Enums.CopyType
+  - WeAutoCommon.Enums.FriendSearchResultEnums
   - WeAutoCommon.Enums.MessageSourceType
   - WeAutoCommon.Enums.MessageType
   - WeAutoCommon.Enums.NavigationType
@@ -71,6 +72,14 @@ references:
   name: CopyType
   nameWithType: CopyType
   fullName: WeAutoCommon.Enums.CopyType
+- uid: WeAutoCommon.Enums.FriendSearchResultEnums
+  commentId: T:WeAutoCommon.Enums.FriendSearchResultEnums
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.FriendSearchResultEnums.html
+  name: FriendSearchResultEnums
+  nameWithType: FriendSearchResultEnums
+  fullName: WeAutoCommon.Enums.FriendSearchResultEnums
 - uid: WeAutoCommon.Enums.MessageSourceType
   commentId: T:WeAutoCommon.Enums.MessageSourceType
   parent: WeAutoCommon.Enums
