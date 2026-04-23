@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocator
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WxLocator.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WxLocator.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocator.LocateElement(FlaUI.Core.AutomationElements.AutomationElement, WeChatAuto.Utils.WxLocation)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WxLocator.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WxLocator.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -89,7 +89,7 @@ items:
   fullName: WeChatAuto.Utils.WxLocator.Locate(FlaUI.Core.AutomationElements.AutomationElement, WeChatAuto.Utils.WxLocation)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WxLocator.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WxLocator.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

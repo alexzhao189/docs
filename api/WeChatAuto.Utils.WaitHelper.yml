@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Utils.WaitHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WaitHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WaitHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -44,7 +44,7 @@ items:
   fullName: WeChatAuto.Utils.WaitHelper.WaitTextBoxReady(FlaUI.Core.AutomationElements.AutomationElement, System.TimeSpan, WeAutoCommon.Utils.UIThreadInvoker)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WaitHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WaitHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -78,7 +78,7 @@ items:
   fullName: WeChatAuto.Utils.WaitHelper.WaitWindowReady(FlaUI.Core.AutomationElements.AutomationElement, System.TimeSpan, WeAutoCommon.Utils.UIThreadInvoker)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Utils/WaitHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WaitHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

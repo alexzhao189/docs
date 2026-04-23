@@ -518,6 +518,16 @@ public async Task<FriendInfo> GetFriendInfo(string who, bool fetchImage = true, 
   - 注意：确保获取的是好友（不是群聊，不是公众号等）窗口，此方法不会弹出错误，只是获取的内容为空
   - 返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
 
+**avatarPath约定**：
+
+头像保存路径：
+
+- 可以仅为路径目录，不携带文件名，如果不携带文件名，文件名即以：每个好友的微信id.png 的形式进行保存
+- 路径也可以为全限定的文件路径，即形式为:路径\头像文件名，如果包含头像文件名，每个好友的微信头像以指定的形式进行保存
+- 路径也可以为空，如果为空，则不将头像进行保存，但会返回头像的Image,使用者可以自行保存、显示或者抛弃
+- 头像保存路径受fetchImage约束，如果fetchImage为false,头像保存路径会失效
+- 如果传入的是路径，必须保证路径在文件系统中是真实存在的
+
 ### 22. 通过好友手机号码获取好友详情
 
 好友详情包括:
@@ -543,3 +553,13 @@ public async Task<FriendInfo> GetFriendInfo(string who, bool fetchImage = true, 
   - fetchImage: 是否获取图像，默认为true,如果设置为false,则不会进行获取头像操作
   - avatarPath： 头像保存路径，可以为空，如果为空，就不会保存进指定的目录，但会返回Image对象供使用，如果```fetchImage```设置为false,则此参数无效
   - 返回结果: [FriendInfo](../api/WeAutoCommon.Models.FriendInfo.html)
+
+**avatarPath约定**：
+
+头像保存路径：
+
+- 可以仅为路径目录，不携带文件名，如果不携带文件名，文件名即以：每个好友的微信id.png 的形式进行保存
+- 路径也可以为全限定的文件路径，即形式为:路径\头像文件名，如果包含头像文件名，每个好友的微信头像以指定的形式进行保存
+- 路径也可以为空，如果为空，则不将头像进行保存，但会返回头像的Image,使用者可以自行保存、显示或者抛弃
+- 头像保存路径受fetchImage约束，如果fetchImage为false,头像保存路径会失效
+- 如果传入的是路径，必须保证路径在文件系统中是真实存在的

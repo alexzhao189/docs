@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -45,7 +45,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -83,7 +83,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -118,7 +118,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Config
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -429,7 +429,7 @@ references:
   - uid: WeAutoCommon.Configs.WeChatConfig
     name: WeChatConfig
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
   - name: '>'
   spec.vb:
   - uid: System.Action`1
@@ -442,7 +442,7 @@ references:
   - uid: WeAutoCommon.Configs.WeChatConfig
     name: WeChatConfig
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/939aadd8724530d6bba4b26a3ed4f5bdad2e0e02/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
   - name: )
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
