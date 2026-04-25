@@ -10809,6 +10809,18 @@ references:
   commentId: Overload:WeChatAuto.Models.ChatContext.TitleInfo
   fullName: WeChatAuto.Models.ChatContext.TitleInfo
   nameWithType: ChatContext.TitleInfo
+- uid: WeChatAuto.Models.ChatContext.ToString
+  name: ToString()
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_ToString
+  commentId: M:WeChatAuto.Models.ChatContext.ToString
+  fullName: WeChatAuto.Models.ChatContext.ToString()
+  nameWithType: ChatContext.ToString()
+- uid: WeChatAuto.Models.ChatContext.ToString*
+  name: ToString
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_ToString_
+  commentId: Overload:WeChatAuto.Models.ChatContext.ToString
+  fullName: WeChatAuto.Models.ChatContext.ToString
+  nameWithType: ChatContext.ToString
 - uid: WeChatAuto.Models.ChatMessageInner
   name: ChatMessageInner
   href: api/WeChatAuto.Models.ChatMessageInner.html

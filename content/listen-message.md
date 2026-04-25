@@ -1,6 +1,104 @@
 # 监听管理
 ---
 
+## 🚀 会话列表切换监听
+
+如果注册了此事件，当会话列表进行切换时触发，可以在回调事件中触发自己的动作，如：读取用户数据库，更改自己的UI等.
+
+> 不知道会话列表的位置？请参见 [POM对象](./glossary.md)的 ```13.ConversationList会话列表组件与Conversation组件```
+
+### 添加会话列表切换监听器
+
+请通过```WeChatMainWindow```调用AddConversationChangeListener()方法, 请参见[WeChatMainWindow](../api/WeChatAuto.Components.WeChatMainWindow.html)类
+
+方法定义:
+
+```
+public void AddConversationChangeListener(Action<ChatContext, CancellationToken> callBack, SynchronizationContext syncContext = null)
+
+```
+
+其中：
+- callBack: 回调方法，当选择的会话项目(item)变化时触发，可以在回调方法中实现自己的业务逻辑，SDK提供一个ChatContext对象与一个CancellationToken对象供调用者使用，具体在下面介绍,ChatContext类参考: [ChatContext类](../api/WeChatAuto.Models.ChatContext.html)。
+- syncContext：同步对象，可以传，也可以不传，如果不传，使用者需要自行解决UI控件跨线程访问的问题，如果传了同步对象，则无需考虑UI控件跨线程访问问题;
+
+调用者如果在主线程中添加会话列表切换事件，在winform应以```SynchronizationContext.Current```的方式传入同步对象,同理WPF中的同步对象也按```SynchronizationContext.Current```传入。
+
+调用者如果在子线程中添加会话列表切换事件，应该先在主线程中（如构造函数）保存```SynchronizationContext.Current```至一个变量（或者字段），然后再传入同步对象.
+
+**注意事宜：**
+
+1. 监听时间间隔默认为：5秒，如果需要修改这个间隔时间，请在WeAutomation初始化的时候修改，如下所示:
+
+```
+WeAutomation.Initialize(options =>
+{
+  ... 其他代码
+  options.ConversationChangeListenerInterval=3,  //在这里修改时间间
+  ... 其他代码
+});
+````
+
+2. 建议不要在此事件中进行微信自动化操作，仅操作自己的UI及获取客户数据，当然进行自动化操作也是可以的，只是不建议
+
+3. 一个winform的调用示例:
+
+```
+var window = client.WxMainWindow;
+
+window.AddConversationChangeListener((context, token) =>
+{
+    Console.WriteLine(context.ToString());
+    //这里调用自己的方法,通过context可以获取自己需要的信息,如：好友/群聊/企业微信的名字等.
+    //如果这里运行的是长任务，可能任务没有运行完，用户又点击了其他的列表项，通过token可以收到外部终止执行的信息，可以运行```token.ThrowIfCancellationRequested();```终止任务
+},SynchronizationContext.Current);
+```
+
+4. 如果传了SynchronizationContext对象，回调事件中不用考虑UI线程切换问题，因为WeChatAuto.SDK已经帮你切回了UI线程，你只需要正常访问UI即可,如果没有传SynchronizationContex对象，如果需要访问UI控件，你必须自行解决跨线程访问UI控件的问题，建议代码形式如下:
+
+```
+Action action = () =>
+{
+    //这里是访问UI控件代码.
+    AppendText(log + Environment.NewLine);
+    txtLog.ScrollToCaret();
+};
+if (txtLog.InvokeRequired)
+{
+    this.Invoke(action); 或 this.BeginInvoke(action);
+}else
+{
+    action();
+}
+```
+
+
+### 移除会话列表切换监听
+
+移除会话列表切换监听，移除后，会话列表切换事件将不会触发
+
+```
+public void RemoveConversationChangeListener()
+```
+
+### 暂停会话列表监听
+
+暂停会话列表监听，暂停后，会话列表切换事件将不会被触发，直到恢复会话列表监听
+
+```
+public void PauseConversationChangeListener()
+```
+
+### 恢复会话列表监听
+
+恢复暂停的会话列表监听，恢复后，会话列表切换事件将会被触发
+
+```
+public void ResumeConversationChangeListener()
+```
+
+
+
 ## 🚀 消息监听
 
 ### 添加消息监听

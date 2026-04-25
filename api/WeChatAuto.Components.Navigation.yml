@@ -19,7 +19,7 @@ items:
   fullName: WeChatAuto.Components.Navigation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Components.Navigation._wxLocationCaches
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -71,7 +71,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.Navigation(FlaUI.Core.AutomationElements.Window, WeAutoCommon.Interface.IWeChatWindow, WeAutoCommon.Utils.UIThreadInvoker, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -109,7 +109,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.GetWxId()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -134,7 +134,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.SaveOwnerAvator(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -166,7 +166,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.SwitchNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -192,7 +192,7 @@ items:
   fullName: WeChatAuto.Components.Navigation.CloseNavigation(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/Navigation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Components/Navigation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -784,7 +784,7 @@ references:
   - uid: WeAutoCommon.Models.FriendInfo
     name: FriendInfo
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Models/FriendInfo.cs
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -797,7 +797,7 @@ references:
   - uid: WeAutoCommon.Models.FriendInfo
     name: FriendInfo
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Models/FriendInfo.cs
   - name: )
 - uid: System.Threading.Tasks.Task`1
   commentId: T:System.Threading.Tasks.Task`1

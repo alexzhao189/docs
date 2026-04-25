@@ -935,6 +935,7 @@
   "WeChatAuto.Models.ChatContext.MainWindow": "WeChatAuto.Models.ChatContext.yml",
   "WeChatAuto.Models.ChatContext.ServiceProvider": "WeChatAuto.Models.ChatContext.yml",
   "WeChatAuto.Models.ChatContext.TitleInfo": "WeChatAuto.Models.ChatContext.yml",
+  "WeChatAuto.Models.ChatContext.ToString": "WeChatAuto.Models.ChatContext.yml",
   "WeChatAuto.Models.ChatMessageInner": "WeChatAuto.Models.ChatMessageInner.yml",
   "WeChatAuto.Models.ChatMessageInner.#ctor": "WeChatAuto.Models.ChatMessageInner.yml",
   "WeChatAuto.Models.ChatMessageInner.ApiKey": "WeChatAuto.Models.ChatMessageInner.yml",

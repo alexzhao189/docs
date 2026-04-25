@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Models.NewFriendInfo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/NewFriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Models.NewFriendInfo.NewFriendInfo()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/NewFriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -73,7 +73,7 @@ items:
   fullName: WeChatAuto.Models.NewFriendInfo.Name
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/NewFriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -98,7 +98,7 @@ items:
   fullName: WeChatAuto.Models.NewFriendInfo.RemarkName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/NewFriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -123,7 +123,7 @@ items:
   fullName: WeChatAuto.Models.NewFriendInfo.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/NewFriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/NewFriendInfo.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models

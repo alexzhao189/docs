@@ -9,6 +9,7 @@ items:
   - WeChatAuto.Models.ChatContext.MainWindow
   - WeChatAuto.Models.ChatContext.ServiceProvider
   - WeChatAuto.Models.ChatContext.TitleInfo
+  - WeChatAuto.Models.ChatContext.ToString
   langs:
   - csharp
   - vb
@@ -17,7 +18,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -31,13 +32,36 @@ items:
   inheritedMembers:
   - System.Object.GetType
   - System.Object.MemberwiseClone
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   extensionMethods:
   - WeChatAuto.Models.ChatContext.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Models.ChatContext.ToString
+  commentId: M:WeChatAuto.Models.ChatContext.ToString
+  id: ToString
+  parent: WeChatAuto.Models.ChatContext
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatContext.ToString()
+  fullName: WeChatAuto.Models.ChatContext.ToString()
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Models
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: WeChatAuto.Models.ChatContext.ToString*
 - uid: WeChatAuto.Models.ChatContext.#ctor
   commentId: M:WeChatAuto.Models.ChatContext.#ctor
   id: '#ctor'
@@ -50,7 +74,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.ChatContext()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -73,7 +97,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.TitleInfo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -101,7 +125,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.ServiceProvider
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -126,7 +150,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.MainWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -227,30 +251,6 @@ references:
     name: MemberwiseClone
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
 - uid: System.Object.Equals(System.Object)
@@ -523,6 +523,48 @@ references:
     name: Models
     isExternal: true
     href: WeAutoCommon.Models.html
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: WeChatAuto.Models.ChatContext.ToString*
+  commentId: Overload:WeChatAuto.Models.ChatContext.ToString
+  isExternal: true
+  href: WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_ToString
+  name: ToString
+  nameWithType: ChatContext.ToString
+  fullName: WeChatAuto.Models.ChatContext.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: WeChatAuto.Models.ChatContext.#ctor*
   commentId: Overload:WeChatAuto.Models.ChatContext.#ctor
   isExternal: true
