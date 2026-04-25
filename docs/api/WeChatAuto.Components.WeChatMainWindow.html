@@ -948,15 +948,15 @@ Class WeChatMainWindow  <a class="header-action link-secondary" title="View sour
   <a class="header-action link-secondary" title="View source" href="https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/WeChatMainWindow.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>添加会话列表切换监听事件
-注意：1.监听时间间隔默认为：5秒，如果需要修改这个间隔时间，请在WeAutomation初始化的时候修改，如下所示:
-2. 建议不要在此事件中进行微信自动化操作，仅操作自己的UI及获取客户数据，当然进行自动化操作也是可以的，只是不建议</p>
+  <div class="markdown level1 summary"><p>添加会话列表切换监听事件</p>
+<p>注意：1.监听时间间隔默认为：5秒，如果需要修改这个间隔时间，请在WeAutomation初始化的时候修改，如下所示:</p>
+<p>2. 建议不要在此事件中进行微信自动化操作，仅操作自己的UI及获取客户数据，当然进行自动化操作也是可以的，只是不建议</p>
 <pre><code class="lang-csharp">WeAutomation.Initialize(options =&gt;
 {
     options.ConversationChangeListenerInterval=3,  //在这里修改时间间
 }</code></pre>
-<p>详情请参考<a class="xref" href="WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval">ConversationChangeListenerInterval</a>
-在winform中的调用示例:</p>
+<p>详情请参考<a class="xref" href="WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval">ConversationChangeListenerInterval</a></p>
+<p>在winform中的调用示例:</p>
 <pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token){
 //在这里写你的业务代码，context含有你需要的信息，如：好友/群聊的标题等
 },SynchronizationContext.Current)</code></pre>

@@ -944,11 +944,12 @@ items:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: >-
-    添加会话列表切换监听事件
+    <p>添加会话列表切换监听事件</p>
 
-    注意：1.监听时间间隔默认为：5秒，如果需要修改这个间隔时间，请在WeAutomation初始化的时候修改，如下所示:
+    <p>注意：1.监听时间间隔默认为：5秒，如果需要修改这个间隔时间，请在WeAutomation初始化的时候修改，如下所示:</p>
 
-    2. 建议不要在此事件中进行微信自动化操作，仅操作自己的UI及获取客户数据，当然进行自动化操作也是可以的，只是不建议
+    <p>2. 建议不要在此事件中进行微信自动化操作，仅操作自己的UI及获取客户数据，当然进行自动化操作也是可以的，只是不建议</p>
+
 
     <pre><code class="lang-csharp">WeAutomation.Initialize(options =&gt;
 
@@ -956,9 +957,10 @@ items:
         options.ConversationChangeListenerInterval=3,  //在这里修改时间间
     }</code></pre>
 
-    详情请参考<xref href="WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval" data-throw-if-not-resolved="false"></xref>
+    <p>详情请参考<xref href="WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval" data-throw-if-not-resolved="false"></xref></p>
 
-    在winform中的调用示例:
+    <p>在winform中的调用示例:</p>
+
 
     <pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token){
 
