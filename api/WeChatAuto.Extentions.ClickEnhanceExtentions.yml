@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -45,7 +45,7 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions.ClickEnhance(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions
@@ -80,7 +80,7 @@ items:
   fullName: WeChatAuto.Extentions.ClickEnhanceExtentions.DblClickEnhance(FlaUI.Core.AutomationElements.AutomationElement, FlaUI.Core.AutomationElements.Window)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Extentions/ClickEnhanceExtentions.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Extentions

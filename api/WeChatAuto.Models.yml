@@ -5,6 +5,7 @@ items:
   id: WeChatAuto.Models
   children:
   - WeChatAuto.Models.AddGroupMemberOptions
+  - WeChatAuto.Models.ChatContext
   - WeChatAuto.Models.ChatMessageInner
   - WeChatAuto.Models.ChatSimpleMessage
   - WeChatAuto.Models.MessageContext
@@ -26,6 +27,13 @@ references:
   name: AddGroupMemberOptions
   nameWithType: AddGroupMemberOptions
   fullName: WeChatAuto.Models.AddGroupMemberOptions
+- uid: WeChatAuto.Models.ChatContext
+  commentId: T:WeChatAuto.Models.ChatContext
+  isExternal: true
+  href: WeChatAuto.Models.ChatContext.html
+  name: ChatContext
+  nameWithType: ChatContext
+  fullName: WeChatAuto.Models.ChatContext
 - uid: WeChatAuto.Models.ChatMessageInner
   commentId: T:WeChatAuto.Models.ChatMessageInner
   isExternal: true

@@ -7,6 +7,7 @@ items:
   - WeChatAuto.Utils.AutoLogger`1
   - WeChatAuto.Utils.ClickHighlighter
   - WeChatAuto.Utils.ClipboardApi
+  - WeChatAuto.Utils.ConversationChangeListener
   - WeChatAuto.Utils.DpiAwareness
   - WeChatAuto.Utils.DrawHightlightHelper
   - WeChatAuto.Utils.MessageBubbleParser
@@ -71,6 +72,13 @@ references:
   name: ClipboardApi
   nameWithType: ClipboardApi
   fullName: WeChatAuto.Utils.ClipboardApi
+- uid: WeChatAuto.Utils.ConversationChangeListener
+  commentId: T:WeChatAuto.Utils.ConversationChangeListener
+  isExternal: true
+  href: WeChatAuto.Utils.ConversationChangeListener.html
+  name: ConversationChangeListener
+  nameWithType: ConversationChangeListener
+  fullName: WeChatAuto.Utils.ConversationChangeListener
 - uid: WeChatAuto.Utils.DpiAwareness
   commentId: T:WeChatAuto.Utils.DpiAwareness
   isExternal: true

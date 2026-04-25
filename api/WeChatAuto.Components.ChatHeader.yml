@@ -5,9 +5,7 @@ items:
   id: ChatHeader
   parent: WeChatAuto.Components
   children:
-  - WeChatAuto.Components.ChatHeader.#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)
-  - WeChatAuto.Components.ChatHeader.ChatInfoButton
-  - WeChatAuto.Components.ChatHeader.ClickChatInfoButton
+  - WeChatAuto.Components.ChatHeader.#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)
   - WeChatAuto.Components.ChatHeader.Title
   - WeChatAuto.Components.ChatHeader.ToString
   langs:
@@ -18,7 +16,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -38,63 +36,44 @@ items:
   - System.Object.GetHashCode
   extensionMethods:
   - WeChatAuto.Components.ChatHeader.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
-- uid: WeChatAuto.Components.ChatHeader.#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)
-  commentId: M:WeChatAuto.Components.ChatHeader.#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)
-  id: '#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)'
+- uid: WeChatAuto.Components.ChatHeader.#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)
+  commentId: M:WeChatAuto.Components.ChatHeader.#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)
+  id: '#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)'
   parent: WeChatAuto.Components.ChatHeader
   langs:
   - csharp
   - vb
-  name: ChatHeader(string, Button, IServiceProvider)
-  nameWithType: ChatHeader.ChatHeader(string, Button, IServiceProvider)
-  fullName: WeChatAuto.Components.ChatHeader.ChatHeader(string, FlaUI.Core.AutomationElements.Button, System.IServiceProvider)
+  name: ChatHeader(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  nameWithType: ChatHeader.ChatHeader(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  fullName: WeChatAuto.Components.ChatHeader.ChatHeader(System.IServiceProvider, FlaUI.Core.AutomationElements.Window, WeAutoCommon.Enums.ChatContentType, WeAutoCommon.Utils.UIThreadInvoker)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 聊天内容区标题区构造函数
   example: []
   syntax:
-    content: public ChatHeader(string title, Button chatInfoButton, IServiceProvider serviceProvider)
+    content: public ChatHeader(IServiceProvider serviceProvider, Window window, ChatContentType chatContentType, UIThreadInvoker _uiMainThreadInvoker)
     parameters:
-    - id: title
-      type: System.String
-      description: 聊天标题
-    - id: chatInfoButton
-      type: FlaUI.Core.AutomationElements.Button
-      description: 聊天信息按钮
     - id: serviceProvider
       type: System.IServiceProvider
       description: 服务提供者<xref href="System.IServiceProvider" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Sub New(title As String, chatInfoButton As Button, serviceProvider As IServiceProvider)
+    - id: window
+      type: FlaUI.Core.AutomationElements.Window
+      description: Header所归属的Window
+    - id: chatContentType
+      type: WeAutoCommon.Enums.ChatContentType
+      description: 窗口是inline还是子窗口
+    - id: _uiMainThreadInvoker
+      type: WeAutoCommon.Utils.UIThreadInvoker
+      description: ''
+    content.vb: Public Sub New(serviceProvider As IServiceProvider, window As Window, chatContentType As ChatContentType, _uiMainThreadInvoker As UIThreadInvoker)
   overload: WeChatAuto.Components.ChatHeader.#ctor*
-  nameWithType.vb: ChatHeader.New(String, Button, IServiceProvider)
-  fullName.vb: WeChatAuto.Components.ChatHeader.New(String, FlaUI.Core.AutomationElements.Button, System.IServiceProvider)
-  name.vb: New(String, Button, IServiceProvider)
-- uid: WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  commentId: M:WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  id: ClickChatInfoButton
-  parent: WeChatAuto.Components.ChatHeader
-  langs:
-  - csharp
-  - vb
-  name: ClickChatInfoButton()
-  nameWithType: ChatHeader.ClickChatInfoButton()
-  fullName: WeChatAuto.Components.ChatHeader.ClickChatInfoButton()
-  type: Method
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Components
-  summary: 点击聊天信息按钮
-  example: []
-  syntax:
-    content: public void ClickChatInfoButton()
-    content.vb: Public Sub ClickChatInfoButton()
-  overload: WeChatAuto.Components.ChatHeader.ClickChatInfoButton*
+  nameWithType.vb: ChatHeader.New(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  fullName.vb: WeChatAuto.Components.ChatHeader.New(System.IServiceProvider, FlaUI.Core.AutomationElements.Window, WeAutoCommon.Enums.ChatContentType, WeAutoCommon.Utils.UIThreadInvoker)
+  name.vb: New(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
 - uid: WeChatAuto.Components.ChatHeader.ToString
   commentId: M:WeChatAuto.Components.ChatHeader.ToString
   id: ToString
@@ -107,7 +86,7 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -133,44 +112,19 @@ items:
   fullName: WeChatAuto.Components.ChatHeader.Title
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Components/ChatHeader.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
   summary: 聊天标题
   example: []
   syntax:
-    content: public string Title { get; set; }
+    content: public HeaderInfo Title { get; }
     parameters: []
     return:
-      type: System.String
-    content.vb: Public Property Title As String
+      type: WeAutoCommon.Models.HeaderInfo
+    content.vb: Public ReadOnly Property Title As HeaderInfo
   overload: WeChatAuto.Components.ChatHeader.Title*
-- uid: WeChatAuto.Components.ChatHeader.ChatInfoButton
-  commentId: P:WeChatAuto.Components.ChatHeader.ChatInfoButton
-  id: ChatInfoButton
-  parent: WeChatAuto.Components.ChatHeader
-  langs:
-  - csharp
-  - vb
-  name: ChatInfoButton
-  nameWithType: ChatHeader.ChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ChatInfoButton
-  type: Property
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Components/ChatHeader.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Components
-  summary: 聊天信息按钮
-  example: []
-  syntax:
-    content: public Button ChatInfoButton { get; set; }
-    parameters: []
-    return:
-      type: FlaUI.Core.AutomationElements.Button
-    content.vb: Public Property ChatInfoButton As Button
-  overload: WeChatAuto.Components.ChatHeader.ChatInfoButton*
 references:
 - uid: WeChatAuto.Components
   commentId: N:WeChatAuto.Components
@@ -539,31 +493,36 @@ references:
 - uid: WeChatAuto.Components.ChatHeader.#ctor*
   commentId: Overload:WeChatAuto.Components.ChatHeader.#ctor
   isExternal: true
-  href: WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader__ctor_System_String_FlaUI_Core_AutomationElements_Button_System_IServiceProvider_
+  href: WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader__ctor_System_IServiceProvider_FlaUI_Core_AutomationElements_Window_WeAutoCommon_Enums_ChatContentType_WeAutoCommon_Utils_UIThreadInvoker_
   name: ChatHeader
   nameWithType: ChatHeader.ChatHeader
   fullName: WeChatAuto.Components.ChatHeader.ChatHeader
   nameWithType.vb: ChatHeader.New
   fullName.vb: WeChatAuto.Components.ChatHeader.New
   name.vb: New
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: FlaUI.Core.AutomationElements.Button
-  commentId: T:FlaUI.Core.AutomationElements.Button
+- uid: FlaUI.Core.AutomationElements.Window
+  commentId: T:FlaUI.Core.AutomationElements.Window
   parent: FlaUI.Core.AutomationElements
   isExternal: true
-  name: Button
-  nameWithType: Button
-  fullName: FlaUI.Core.AutomationElements.Button
+  name: Window
+  nameWithType: Window
+  fullName: FlaUI.Core.AutomationElements.Window
+- uid: WeAutoCommon.Enums.ChatContentType
+  commentId: T:WeAutoCommon.Enums.ChatContentType
+  parent: WeAutoCommon.Enums
+  isExternal: true
+  href: WeAutoCommon.Enums.ChatContentType.html
+  name: ChatContentType
+  nameWithType: ChatContentType
+  fullName: WeAutoCommon.Enums.ChatContentType
+- uid: WeAutoCommon.Utils.UIThreadInvoker
+  commentId: T:WeAutoCommon.Utils.UIThreadInvoker
+  parent: WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.Utils.UIThreadInvoker.html
+  name: UIThreadInvoker
+  nameWithType: UIThreadInvoker
+  fullName: WeAutoCommon.Utils.UIThreadInvoker
 - uid: FlaUI.Core.AutomationElements
   commentId: N:FlaUI.Core.AutomationElements
   isExternal: true
@@ -594,13 +553,60 @@ references:
   - uid: FlaUI.Core.AutomationElements
     name: AutomationElements
     isExternal: true
-- uid: WeChatAuto.Components.ChatHeader.ClickChatInfoButton*
-  commentId: Overload:WeChatAuto.Components.ChatHeader.ClickChatInfoButton
+- uid: WeAutoCommon.Enums
+  commentId: N:WeAutoCommon.Enums
   isExternal: true
-  href: WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ClickChatInfoButton
-  name: ClickChatInfoButton
-  nameWithType: ChatHeader.ClickChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ClickChatInfoButton
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Enums
+  nameWithType: WeAutoCommon.Enums
+  fullName: WeAutoCommon.Enums
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Enums
+    name: Enums
+    isExternal: true
+    href: WeAutoCommon.Enums.html
+- uid: WeAutoCommon.Utils
+  commentId: N:WeAutoCommon.Utils
+  isExternal: true
+  href: WeAutoCommon.html
+  name: WeAutoCommon.Utils
+  nameWithType: WeAutoCommon.Utils
+  fullName: WeAutoCommon.Utils
+  spec.csharp:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
+  spec.vb:
+  - uid: WeAutoCommon
+    name: WeAutoCommon
+    isExternal: true
+    href: WeAutoCommon.html
+  - name: .
+  - uid: WeAutoCommon.Utils
+    name: Utils
+    isExternal: true
+    href: WeAutoCommon.Utils.html
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -632,6 +638,17 @@ references:
   name: ToString
   nameWithType: ChatHeader.ToString
   fullName: WeChatAuto.Components.ChatHeader.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: WeChatAuto.Components.ChatHeader.Title*
   commentId: Overload:WeChatAuto.Components.ChatHeader.Title
   isExternal: true
@@ -639,10 +656,11 @@ references:
   name: Title
   nameWithType: ChatHeader.Title
   fullName: WeChatAuto.Components.ChatHeader.Title
-- uid: WeChatAuto.Components.ChatHeader.ChatInfoButton*
-  commentId: Overload:WeChatAuto.Components.ChatHeader.ChatInfoButton
+- uid: WeAutoCommon.Models.HeaderInfo
+  commentId: T:WeAutoCommon.Models.HeaderInfo
+  parent: WeAutoCommon.Models
   isExternal: true
-  href: WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ChatInfoButton
-  name: ChatInfoButton
-  nameWithType: ChatHeader.ChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ChatInfoButton
+  href: WeAutoCommon.Models.HeaderInfo.html
+  name: HeaderInfo
+  nameWithType: HeaderInfo
+  fullName: WeAutoCommon.Models.HeaderInfo

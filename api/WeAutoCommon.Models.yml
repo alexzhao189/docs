@@ -11,6 +11,7 @@ items:
   - WeAutoCommon.Models.EmojiItem
   - WeAutoCommon.Models.FriendInfo
   - WeAutoCommon.Models.FunctionalExtensions
+  - WeAutoCommon.Models.HeaderInfo
   - WeAutoCommon.Models.Maybe`1
   - WeAutoCommon.Models.MomentItem
   - WeAutoCommon.Models.ReplyItem
@@ -78,6 +79,14 @@ references:
   name: FunctionalExtensions
   nameWithType: FunctionalExtensions
   fullName: WeAutoCommon.Models.FunctionalExtensions
+- uid: WeAutoCommon.Models.HeaderInfo
+  commentId: T:WeAutoCommon.Models.HeaderInfo
+  parent: WeAutoCommon.Models
+  isExternal: true
+  href: WeAutoCommon.Models.HeaderInfo.html
+  name: HeaderInfo
+  nameWithType: HeaderInfo
+  fullName: WeAutoCommon.Models.HeaderInfo
 - uid: WeAutoCommon.Models.Maybe`1
   commentId: T:WeAutoCommon.Models.Maybe`1
   parent: WeAutoCommon.Models

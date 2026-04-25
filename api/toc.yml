@@ -86,6 +86,9 @@ items:
   - uid: WeAutoCommon.Models.FunctionalExtensions
     name: FunctionalExtensions
     type: Class
+  - uid: WeAutoCommon.Models.HeaderInfo
+    name: HeaderInfo
+    type: Class
   - uid: WeAutoCommon.Models.Maybe`1
     name: Maybe<T>
     type: Class
@@ -257,6 +260,9 @@ items:
   - uid: WeChatAuto.Models.AddGroupMemberOptions
     name: AddGroupMemberOptions
     type: Class
+  - uid: WeChatAuto.Models.ChatContext
+    name: ChatContext
+    type: Class
   - uid: WeChatAuto.Models.ChatMessageInner
     name: ChatMessageInner
     type: Class
@@ -291,6 +297,9 @@ items:
     type: Class
   - uid: WeChatAuto.Utils.ClipboardApi
     name: ClipboardApi
+    type: Class
+  - uid: WeChatAuto.Utils.ConversationChangeListener
+    name: ConversationChangeListener
     type: Class
   - uid: WeChatAuto.Utils.DpiAwareness
     name: DpiAwareness

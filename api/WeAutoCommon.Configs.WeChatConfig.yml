@@ -7,6 +7,7 @@ items:
   children:
   - WeAutoCommon.Configs.WeChatConfig.#ctor
   - WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
+  - WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
   - WeAutoCommon.Configs.WeChatConfig.DebugMode
   - WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   - WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
@@ -31,7 +32,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -64,7 +65,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.WeChatConfig()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -87,7 +88,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.DefaultSavePath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -112,7 +113,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.ListenInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -137,7 +138,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.MomentsListenInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -162,7 +163,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.NewUserListenerInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -187,7 +188,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -200,6 +201,31 @@ items:
       type: System.Int32
     content.vb: Public Property MonitorSubWinInterval As Integer
   overload: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval*
+- uid: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  id: ConversationChangeListenerInterval
+  parent: WeAutoCommon.Configs.WeChatConfig
+  langs:
+  - csharp
+  - vb
+  name: ConversationChangeListenerInterval
+  nameWithType: WeChatConfig.ConversationChangeListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  type: Property
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
+  assemblies:
+  - WeAutoCommon
+  namespace: WeAutoCommon.Configs
+  summary: 监听会话列表切换时间间隔，单位：秒
+  example: []
+  syntax:
+    content: public int ConversationChangeListenerInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConversationChangeListenerInterval As Integer
+  overload: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval*
 - uid: WeAutoCommon.Configs.WeChatConfig.DebugMode
   commentId: P:WeAutoCommon.Configs.WeChatConfig.DebugMode
   id: DebugMode
@@ -212,7 +238,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.DebugMode
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -237,7 +263,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -265,7 +291,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.EnableRecordVideo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -290,7 +316,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.TargetVideoPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -318,7 +344,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.EnableMouseKeyboardSimulator
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -348,7 +374,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMDeviceVID
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -373,7 +399,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMDevicePID
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -398,7 +424,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMVerifyUserData
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -423,7 +449,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMOffsetOfClick
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -451,7 +477,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMOutputStringType
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -476,7 +502,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.KMMouseMoveMode
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -501,7 +527,7 @@ items:
   fullName: WeAutoCommon.Configs.WeChatConfig.ProcessDpiAwareness
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Configs/WeChatConfig.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Configs
@@ -969,6 +995,13 @@ references:
   name: MonitorSubWinInterval
   nameWithType: WeChatConfig.MonitorSubWinInterval
   fullName: WeAutoCommon.Configs.WeChatConfig.MonitorSubWinInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval*
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  isExternal: true
+  href: WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval
+  name: ConversationChangeListenerInterval
+  nameWithType: WeChatConfig.ConversationChangeListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
 - uid: WeAutoCommon.Configs.WeChatConfig.DebugMode*
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.DebugMode
   isExternal: true

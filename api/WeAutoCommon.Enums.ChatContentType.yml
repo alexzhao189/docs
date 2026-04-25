@@ -15,7 +15,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatContentType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Enums/ChatContentType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Enums/ChatContentType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -36,7 +36,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatContentType.Inline
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Enums/ChatContentType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Enums/ChatContentType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -56,7 +56,7 @@ items:
   fullName: WeAutoCommon.Enums.ChatContentType.SubWindow
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeAutoCommon/Enums/ChatContentType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeAutoCommon/Enums/ChatContentType.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

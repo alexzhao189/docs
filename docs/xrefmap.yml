@@ -79,6 +79,18 @@ references:
   commentId: Overload:WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   fullName: WeAutoCommon.Configs.WeChatConfig.CaptureUIPath
   nameWithType: WeChatConfig.CaptureUIPath
+- uid: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  name: ConversationChangeListenerInterval
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval
+  commentId: P:WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  nameWithType: WeChatConfig.ConversationChangeListenerInterval
+- uid: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval*
+  name: ConversationChangeListenerInterval
+  href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval_
+  commentId: Overload:WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  fullName: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
+  nameWithType: WeChatConfig.ConversationChangeListenerInterval
 - uid: WeAutoCommon.Configs.WeChatConfig.DebugMode
   name: DebugMode
   href: api/WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_DebugMode
@@ -409,6 +421,12 @@ references:
   commentId: T:WeAutoCommon.Enums.ChatType
   fullName: WeAutoCommon.Enums.ChatType
   nameWithType: ChatType
+- uid: WeAutoCommon.Enums.ChatType.企业微信
+  name: 企业微信
+  href: api/WeAutoCommon.Enums.ChatType.html#WeAutoCommon_Enums_ChatType_____
+  commentId: F:WeAutoCommon.Enums.ChatType.企业微信
+  fullName: WeAutoCommon.Enums.ChatType.企业微信
+  nameWithType: ChatType.企业微信
 - uid: WeAutoCommon.Enums.ChatType.公众号
   name: 公众号
   href: api/WeAutoCommon.Enums.ChatType.html#WeAutoCommon_Enums_ChatType____
@@ -433,6 +451,12 @@ references:
   commentId: F:WeAutoCommon.Enums.ChatType.微信团队
   fullName: WeAutoCommon.Enums.ChatType.微信团队
   nameWithType: ChatType.微信团队
+- uid: WeAutoCommon.Enums.ChatType.文件传输助手
+  name: 文件传输助手
+  href: api/WeAutoCommon.Enums.ChatType.html#WeAutoCommon_Enums_ChatType_______
+  commentId: F:WeAutoCommon.Enums.ChatType.文件传输助手
+  fullName: WeAutoCommon.Enums.ChatType.文件传输助手
+  nameWithType: ChatType.文件传输助手
 - uid: WeAutoCommon.Enums.ChatType.服务通知
   name: 服务通知
   href: api/WeAutoCommon.Enums.ChatType.html#WeAutoCommon_Enums_ChatType_____
@@ -1825,6 +1849,78 @@ references:
   fullName.vb: WeAutoCommon.Models.FunctionalExtensions.Try(Of T)(System.Func(Of T))
   nameWithType: FunctionalExtensions.Try<T>(Func<T>)
   nameWithType.vb: FunctionalExtensions.Try(Of T)(Func(Of T))
+- uid: WeAutoCommon.Models.HeaderInfo
+  name: HeaderInfo
+  href: api/WeAutoCommon.Models.HeaderInfo.html
+  commentId: T:WeAutoCommon.Models.HeaderInfo
+  fullName: WeAutoCommon.Models.HeaderInfo
+  nameWithType: HeaderInfo
+- uid: WeAutoCommon.Models.HeaderInfo.#ctor
+  name: HeaderInfo()
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo__ctor
+  commentId: M:WeAutoCommon.Models.HeaderInfo.#ctor
+  name.vb: New()
+  fullName: WeAutoCommon.Models.HeaderInfo.HeaderInfo()
+  fullName.vb: WeAutoCommon.Models.HeaderInfo.New()
+  nameWithType: HeaderInfo.HeaderInfo()
+  nameWithType.vb: HeaderInfo.New()
+- uid: WeAutoCommon.Models.HeaderInfo.#ctor*
+  name: HeaderInfo
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo__ctor_
+  commentId: Overload:WeAutoCommon.Models.HeaderInfo.#ctor
+  name.vb: New
+  fullName: WeAutoCommon.Models.HeaderInfo.HeaderInfo
+  fullName.vb: WeAutoCommon.Models.HeaderInfo.New
+  nameWithType: HeaderInfo.HeaderInfo
+  nameWithType.vb: HeaderInfo.New
+- uid: WeAutoCommon.Models.HeaderInfo.ChatNumber
+  name: ChatNumber
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_ChatNumber
+  commentId: P:WeAutoCommon.Models.HeaderInfo.ChatNumber
+  fullName: WeAutoCommon.Models.HeaderInfo.ChatNumber
+  nameWithType: HeaderInfo.ChatNumber
+- uid: WeAutoCommon.Models.HeaderInfo.ChatNumber*
+  name: ChatNumber
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_ChatNumber_
+  commentId: Overload:WeAutoCommon.Models.HeaderInfo.ChatNumber
+  fullName: WeAutoCommon.Models.HeaderInfo.ChatNumber
+  nameWithType: HeaderInfo.ChatNumber
+- uid: WeAutoCommon.Models.HeaderInfo.HeaderType
+  name: HeaderType
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_HeaderType
+  commentId: P:WeAutoCommon.Models.HeaderInfo.HeaderType
+  fullName: WeAutoCommon.Models.HeaderInfo.HeaderType
+  nameWithType: HeaderInfo.HeaderType
+- uid: WeAutoCommon.Models.HeaderInfo.HeaderType*
+  name: HeaderType
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_HeaderType_
+  commentId: Overload:WeAutoCommon.Models.HeaderInfo.HeaderType
+  fullName: WeAutoCommon.Models.HeaderInfo.HeaderType
+  nameWithType: HeaderInfo.HeaderType
+- uid: WeAutoCommon.Models.HeaderInfo.Title
+  name: Title
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_Title
+  commentId: P:WeAutoCommon.Models.HeaderInfo.Title
+  fullName: WeAutoCommon.Models.HeaderInfo.Title
+  nameWithType: HeaderInfo.Title
+- uid: WeAutoCommon.Models.HeaderInfo.Title*
+  name: Title
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_Title_
+  commentId: Overload:WeAutoCommon.Models.HeaderInfo.Title
+  fullName: WeAutoCommon.Models.HeaderInfo.Title
+  nameWithType: HeaderInfo.Title
+- uid: WeAutoCommon.Models.HeaderInfo.ToString
+  name: ToString()
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_ToString
+  commentId: M:WeAutoCommon.Models.HeaderInfo.ToString
+  fullName: WeAutoCommon.Models.HeaderInfo.ToString()
+  nameWithType: HeaderInfo.ToString()
+- uid: WeAutoCommon.Models.HeaderInfo.ToString*
+  name: ToString
+  href: api/WeAutoCommon.Models.HeaderInfo.html#WeAutoCommon_Models_HeaderInfo_ToString_
+  commentId: Overload:WeAutoCommon.Models.HeaderInfo.ToString
+  fullName: WeAutoCommon.Models.HeaderInfo.ToString
+  nameWithType: HeaderInfo.ToString
 - uid: WeAutoCommon.Models.Maybe`1
   name: Maybe<T>
   href: api/WeAutoCommon.Models.Maybe-1.html
@@ -5028,21 +5124,6 @@ references:
   commentId: Overload:WeChatAuto.Components.ChatContent.FullTitle
   fullName: WeChatAuto.Components.ChatContent.FullTitle
   nameWithType: ChatContent.FullTitle
-- uid: WeChatAuto.Components.ChatContent.GetOwerChatContentImage(System.Boolean)
-  name: GetOwerChatContentImage(bool)
-  href: api/WeChatAuto.Components.ChatContent.html#WeChatAuto_Components_ChatContent_GetOwerChatContentImage_System_Boolean_
-  commentId: M:WeChatAuto.Components.ChatContent.GetOwerChatContentImage(System.Boolean)
-  name.vb: GetOwerChatContentImage(Boolean)
-  fullName: WeChatAuto.Components.ChatContent.GetOwerChatContentImage(bool)
-  fullName.vb: WeChatAuto.Components.ChatContent.GetOwerChatContentImage(Boolean)
-  nameWithType: ChatContent.GetOwerChatContentImage(bool)
-  nameWithType.vb: ChatContent.GetOwerChatContentImage(Boolean)
-- uid: WeChatAuto.Components.ChatContent.GetOwerChatContentImage*
-  name: GetOwerChatContentImage
-  href: api/WeChatAuto.Components.ChatContent.html#WeChatAuto_Components_ChatContent_GetOwerChatContentImage_
-  commentId: Overload:WeChatAuto.Components.ChatContent.GetOwerChatContentImage
-  fullName: WeChatAuto.Components.ChatContent.GetOwerChatContentImage
-  nameWithType: ChatContent.GetOwerChatContentImage
 - uid: WeChatAuto.Components.ChatContent.MainWxWindow
   name: MainWxWindow
   href: api/WeChatAuto.Components.ChatContent.html#WeChatAuto_Components_ChatContent_MainWxWindow
@@ -5073,15 +5154,15 @@ references:
   commentId: T:WeChatAuto.Components.ChatHeader
   fullName: WeChatAuto.Components.ChatHeader
   nameWithType: ChatHeader
-- uid: WeChatAuto.Components.ChatHeader.#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)
-  name: ChatHeader(string, Button, IServiceProvider)
-  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader__ctor_System_String_FlaUI_Core_AutomationElements_Button_System_IServiceProvider_
-  commentId: M:WeChatAuto.Components.ChatHeader.#ctor(System.String,FlaUI.Core.AutomationElements.Button,System.IServiceProvider)
-  name.vb: New(String, Button, IServiceProvider)
-  fullName: WeChatAuto.Components.ChatHeader.ChatHeader(string, FlaUI.Core.AutomationElements.Button, System.IServiceProvider)
-  fullName.vb: WeChatAuto.Components.ChatHeader.New(String, FlaUI.Core.AutomationElements.Button, System.IServiceProvider)
-  nameWithType: ChatHeader.ChatHeader(string, Button, IServiceProvider)
-  nameWithType.vb: ChatHeader.New(String, Button, IServiceProvider)
+- uid: WeChatAuto.Components.ChatHeader.#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)
+  name: ChatHeader(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader__ctor_System_IServiceProvider_FlaUI_Core_AutomationElements_Window_WeAutoCommon_Enums_ChatContentType_WeAutoCommon_Utils_UIThreadInvoker_
+  commentId: M:WeChatAuto.Components.ChatHeader.#ctor(System.IServiceProvider,FlaUI.Core.AutomationElements.Window,WeAutoCommon.Enums.ChatContentType,WeAutoCommon.Utils.UIThreadInvoker)
+  name.vb: New(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  fullName: WeChatAuto.Components.ChatHeader.ChatHeader(System.IServiceProvider, FlaUI.Core.AutomationElements.Window, WeAutoCommon.Enums.ChatContentType, WeAutoCommon.Utils.UIThreadInvoker)
+  fullName.vb: WeChatAuto.Components.ChatHeader.New(System.IServiceProvider, FlaUI.Core.AutomationElements.Window, WeAutoCommon.Enums.ChatContentType, WeAutoCommon.Utils.UIThreadInvoker)
+  nameWithType: ChatHeader.ChatHeader(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
+  nameWithType.vb: ChatHeader.New(IServiceProvider, Window, ChatContentType, UIThreadInvoker)
 - uid: WeChatAuto.Components.ChatHeader.#ctor*
   name: ChatHeader
   href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader__ctor_
@@ -5091,30 +5172,6 @@ references:
   fullName.vb: WeChatAuto.Components.ChatHeader.New
   nameWithType: ChatHeader.ChatHeader
   nameWithType.vb: ChatHeader.New
-- uid: WeChatAuto.Components.ChatHeader.ChatInfoButton
-  name: ChatInfoButton
-  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ChatInfoButton
-  commentId: P:WeChatAuto.Components.ChatHeader.ChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ChatInfoButton
-  nameWithType: ChatHeader.ChatInfoButton
-- uid: WeChatAuto.Components.ChatHeader.ChatInfoButton*
-  name: ChatInfoButton
-  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ChatInfoButton_
-  commentId: Overload:WeChatAuto.Components.ChatHeader.ChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ChatInfoButton
-  nameWithType: ChatHeader.ChatInfoButton
-- uid: WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  name: ClickChatInfoButton()
-  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ClickChatInfoButton
-  commentId: M:WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ClickChatInfoButton()
-  nameWithType: ChatHeader.ClickChatInfoButton()
-- uid: WeChatAuto.Components.ChatHeader.ClickChatInfoButton*
-  name: ClickChatInfoButton
-  href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_ClickChatInfoButton_
-  commentId: Overload:WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  fullName: WeChatAuto.Components.ChatHeader.ClickChatInfoButton
-  nameWithType: ChatHeader.ClickChatInfoButton
 - uid: WeChatAuto.Components.ChatHeader.Title
   name: Title
   href: api/WeChatAuto.Components.ChatHeader.html#WeChatAuto_Components_ChatHeader_Title
@@ -7626,6 +7683,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.GetChatGroupMemberList
   fullName: WeChatAuto.Components.WeChatClient.GetChatGroupMemberList
   nameWithType: WeChatClient.GetChatGroupMemberList
+- uid: WeChatAuto.Components.WeChatClient.GetChatTitle
+  name: GetChatTitle()
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetChatTitle
+  commentId: M:WeChatAuto.Components.WeChatClient.GetChatTitle
+  fullName: WeChatAuto.Components.WeChatClient.GetChatTitle()
+  nameWithType: WeChatClient.GetChatTitle()
+- uid: WeChatAuto.Components.WeChatClient.GetChatTitle*
+  name: GetChatTitle
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetChatTitle_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.GetChatTitle
+  fullName: WeChatAuto.Components.WeChatClient.GetChatTitle
+  nameWithType: WeChatClient.GetChatTitle
 - uid: WeChatAuto.Components.WeChatClient.GetCurrentChatTitle
   name: GetCurrentChatTitle()
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_GetCurrentChatTitle
@@ -8598,6 +8667,21 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends
   fullName: WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends
   nameWithType: WeChatMainWindow.AddChatGroupMemberToFriends
+- uid: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
+  name: AddConversationChangeListener(Action<ChatContext, CancellationToken>, SynchronizationContext)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddConversationChangeListener_System_Action_WeChatAuto_Models_ChatContext_System_Threading_CancellationToken__System_Threading_SynchronizationContext_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
+  name.vb: AddConversationChangeListener(Action(Of ChatContext, CancellationToken), SynchronizationContext)
+  fullName: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>, System.Threading.SynchronizationContext)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action(Of WeChatAuto.Models.ChatContext, System.Threading.CancellationToken), System.Threading.SynchronizationContext)
+  nameWithType: WeChatMainWindow.AddConversationChangeListener(Action<ChatContext, CancellationToken>, SynchronizationContext)
+  nameWithType.vb: WeChatMainWindow.AddConversationChangeListener(Action(Of ChatContext, CancellationToken), SynchronizationContext)
+- uid: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener*
+  name: AddConversationChangeListener
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddConversationChangeListener_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener
+  nameWithType: WeChatMainWindow.AddConversationChangeListener
 - uid: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action{WeChatAuto.Models.MessageContext},System.Action{WeChatAuto.Components.Sender},System.String,System.String,System.String,System.Boolean)
   name: AddFriendRequestAutoAcceptAndOpenChatListener(Action<MessageContext>, Action<Sender>, string, string, string, bool)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddFriendRequestAutoAcceptAndOpenChatListener_System_Action_WeChatAuto_Models_MessageContext__System_Action_WeChatAuto_Components_Sender__System_String_System_String_System_String_System_Boolean_
@@ -8922,6 +9006,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetChatGroupMemberList
   fullName: WeChatAuto.Components.WeChatMainWindow.GetChatGroupMemberList
   nameWithType: WeChatMainWindow.GetChatGroupMemberList
+- uid: WeChatAuto.Components.WeChatMainWindow.GetChatTitle
+  name: GetChatTitle()
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetChatTitle
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.GetChatTitle
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetChatTitle()
+  nameWithType: WeChatMainWindow.GetChatTitle()
+- uid: WeChatAuto.Components.WeChatMainWindow.GetChatTitle*
+  name: GetChatTitle
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetChatTitle_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetChatTitle
+  fullName: WeChatAuto.Components.WeChatMainWindow.GetChatTitle
+  nameWithType: WeChatMainWindow.GetChatTitle
 - uid: WeChatAuto.Components.WeChatMainWindow.GetCurrentChatTitle
   name: GetCurrentChatTitle()
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_GetCurrentChatTitle
@@ -9153,6 +9249,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.PasteContentToWho
   fullName: WeChatAuto.Components.WeChatMainWindow.PasteContentToWho
   nameWithType: WeChatMainWindow.PasteContentToWho
+- uid: WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener
+  name: PauseConversationChangeListener()
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_PauseConversationChangeListener
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener()
+  nameWithType: WeChatMainWindow.PauseConversationChangeListener()
+- uid: WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener*
+  name: PauseConversationChangeListener
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_PauseConversationChangeListener_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener
+  nameWithType: WeChatMainWindow.PauseConversationChangeListener
 - uid: WeChatAuto.Components.WeChatMainWindow.ProcessId
   name: ProcessId
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ProcessId
@@ -9180,6 +9288,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.QuitChatGroup
   fullName: WeChatAuto.Components.WeChatMainWindow.QuitChatGroup
   nameWithType: WeChatMainWindow.QuitChatGroup
+- uid: WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener
+  name: RemoveConversationChangeListener()
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_RemoveConversationChangeListener
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener()
+  nameWithType: WeChatMainWindow.RemoveConversationChangeListener()
+- uid: WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener*
+  name: RemoveConversationChangeListener
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_RemoveConversationChangeListener_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener
+  nameWithType: WeChatMainWindow.RemoveConversationChangeListener
 - uid: WeChatAuto.Components.WeChatMainWindow.RemoveOwnerChatGroupMember(System.String,OneOf.OneOf{System.String,System.String[]})
   name: RemoveOwnerChatGroupMember(string, OneOf<string, string[]>)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_RemoveOwnerChatGroupMember_System_String_OneOf_OneOf_System_String_System_String____
@@ -9195,6 +9315,18 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.RemoveOwnerChatGroupMember
   fullName: WeChatAuto.Components.WeChatMainWindow.RemoveOwnerChatGroupMember
   nameWithType: WeChatMainWindow.RemoveOwnerChatGroupMember
+- uid: WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener
+  name: ResumeConversationChangeListener()
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ResumeConversationChangeListener
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener()
+  nameWithType: WeChatMainWindow.ResumeConversationChangeListener()
+- uid: WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener*
+  name: ResumeConversationChangeListener
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_ResumeConversationChangeListener_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener
+  fullName: WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener
+  nameWithType: WeChatMainWindow.ResumeConversationChangeListener
 - uid: WeChatAuto.Components.WeChatMainWindow.SaveOwnerAvator(System.String)
   name: SaveOwnerAvator(string)
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_SaveOwnerAvator_System_String_
@@ -10617,6 +10749,66 @@ references:
   commentId: Overload:WeChatAuto.Models.AddGroupMemberOptions.PageSize
   fullName: WeChatAuto.Models.AddGroupMemberOptions.PageSize
   nameWithType: AddGroupMemberOptions.PageSize
+- uid: WeChatAuto.Models.ChatContext
+  name: ChatContext
+  href: api/WeChatAuto.Models.ChatContext.html
+  commentId: T:WeChatAuto.Models.ChatContext
+  fullName: WeChatAuto.Models.ChatContext
+  nameWithType: ChatContext
+- uid: WeChatAuto.Models.ChatContext.#ctor
+  name: ChatContext()
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext__ctor
+  commentId: M:WeChatAuto.Models.ChatContext.#ctor
+  name.vb: New()
+  fullName: WeChatAuto.Models.ChatContext.ChatContext()
+  fullName.vb: WeChatAuto.Models.ChatContext.New()
+  nameWithType: ChatContext.ChatContext()
+  nameWithType.vb: ChatContext.New()
+- uid: WeChatAuto.Models.ChatContext.#ctor*
+  name: ChatContext
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext__ctor_
+  commentId: Overload:WeChatAuto.Models.ChatContext.#ctor
+  name.vb: New
+  fullName: WeChatAuto.Models.ChatContext.ChatContext
+  fullName.vb: WeChatAuto.Models.ChatContext.New
+  nameWithType: ChatContext.ChatContext
+  nameWithType.vb: ChatContext.New
+- uid: WeChatAuto.Models.ChatContext.MainWindow
+  name: MainWindow
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_MainWindow
+  commentId: P:WeChatAuto.Models.ChatContext.MainWindow
+  fullName: WeChatAuto.Models.ChatContext.MainWindow
+  nameWithType: ChatContext.MainWindow
+- uid: WeChatAuto.Models.ChatContext.MainWindow*
+  name: MainWindow
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_MainWindow_
+  commentId: Overload:WeChatAuto.Models.ChatContext.MainWindow
+  fullName: WeChatAuto.Models.ChatContext.MainWindow
+  nameWithType: ChatContext.MainWindow
+- uid: WeChatAuto.Models.ChatContext.ServiceProvider
+  name: ServiceProvider
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_ServiceProvider
+  commentId: P:WeChatAuto.Models.ChatContext.ServiceProvider
+  fullName: WeChatAuto.Models.ChatContext.ServiceProvider
+  nameWithType: ChatContext.ServiceProvider
+- uid: WeChatAuto.Models.ChatContext.ServiceProvider*
+  name: ServiceProvider
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_ServiceProvider_
+  commentId: Overload:WeChatAuto.Models.ChatContext.ServiceProvider
+  fullName: WeChatAuto.Models.ChatContext.ServiceProvider
+  nameWithType: ChatContext.ServiceProvider
+- uid: WeChatAuto.Models.ChatContext.TitleInfo
+  name: TitleInfo
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_TitleInfo
+  commentId: P:WeChatAuto.Models.ChatContext.TitleInfo
+  fullName: WeChatAuto.Models.ChatContext.TitleInfo
+  nameWithType: ChatContext.TitleInfo
+- uid: WeChatAuto.Models.ChatContext.TitleInfo*
+  name: TitleInfo
+  href: api/WeChatAuto.Models.ChatContext.html#WeChatAuto_Models_ChatContext_TitleInfo_
+  commentId: Overload:WeChatAuto.Models.ChatContext.TitleInfo
+  fullName: WeChatAuto.Models.ChatContext.TitleInfo
+  nameWithType: ChatContext.TitleInfo
 - uid: WeChatAuto.Models.ChatMessageInner
   name: ChatMessageInner
   href: api/WeChatAuto.Models.ChatMessageInner.html
@@ -11963,6 +12155,105 @@ references:
   commentId: Overload:WeChatAuto.Utils.ClipboardApi.CopyFilesToClipboard
   fullName: WeChatAuto.Utils.ClipboardApi.CopyFilesToClipboard
   nameWithType: ClipboardApi.CopyFilesToClipboard
+- uid: WeChatAuto.Utils.ConversationChangeListener
+  name: ConversationChangeListener
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html
+  commentId: T:WeChatAuto.Utils.ConversationChangeListener
+  fullName: WeChatAuto.Utils.ConversationChangeListener
+  nameWithType: ConversationChangeListener
+- uid: WeChatAuto.Utils.ConversationChangeListener.#ctor(WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider)
+  name: ConversationChangeListener(UIThreadInvoker, Window, WeChatMainWindow, IServiceProvider)
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener__ctor_WeAutoCommon_Utils_UIThreadInvoker_FlaUI_Core_AutomationElements_Window_WeChatAuto_Components_WeChatMainWindow_System_IServiceProvider_
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.#ctor(WeAutoCommon.Utils.UIThreadInvoker,FlaUI.Core.AutomationElements.Window,WeChatAuto.Components.WeChatMainWindow,System.IServiceProvider)
+  name.vb: New(UIThreadInvoker, Window, WeChatMainWindow, IServiceProvider)
+  fullName: WeChatAuto.Utils.ConversationChangeListener.ConversationChangeListener(WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
+  fullName.vb: WeChatAuto.Utils.ConversationChangeListener.New(WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
+  nameWithType: ConversationChangeListener.ConversationChangeListener(UIThreadInvoker, Window, WeChatMainWindow, IServiceProvider)
+  nameWithType.vb: ConversationChangeListener.New(UIThreadInvoker, Window, WeChatMainWindow, IServiceProvider)
+- uid: WeChatAuto.Utils.ConversationChangeListener.#ctor*
+  name: ConversationChangeListener
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener__ctor_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.#ctor
+  name.vb: New
+  fullName: WeChatAuto.Utils.ConversationChangeListener.ConversationChangeListener
+  fullName.vb: WeChatAuto.Utils.ConversationChangeListener.New
+  nameWithType: ConversationChangeListener.ConversationChangeListener
+  nameWithType.vb: ConversationChangeListener.New
+- uid: WeChatAuto.Utils.ConversationChangeListener.Dispose
+  name: Dispose()
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Dispose
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.Dispose
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Dispose()
+  nameWithType: ConversationChangeListener.Dispose()
+- uid: WeChatAuto.Utils.ConversationChangeListener.Dispose*
+  name: Dispose
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Dispose_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.Dispose
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Dispose
+  nameWithType: ConversationChangeListener.Dispose
+- uid: WeChatAuto.Utils.ConversationChangeListener.DisposeAsync
+  name: DisposeAsync()
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_DisposeAsync
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.DisposeAsync
+  fullName: WeChatAuto.Utils.ConversationChangeListener.DisposeAsync()
+  nameWithType: ConversationChangeListener.DisposeAsync()
+- uid: WeChatAuto.Utils.ConversationChangeListener.DisposeAsync*
+  name: DisposeAsync
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_DisposeAsync_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.DisposeAsync
+  fullName: WeChatAuto.Utils.ConversationChangeListener.DisposeAsync
+  nameWithType: ConversationChangeListener.DisposeAsync
+- uid: WeChatAuto.Utils.ConversationChangeListener.Pause
+  name: Pause()
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Pause
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.Pause
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Pause()
+  nameWithType: ConversationChangeListener.Pause()
+- uid: WeChatAuto.Utils.ConversationChangeListener.Pause*
+  name: Pause
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Pause_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.Pause
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Pause
+  nameWithType: ConversationChangeListener.Pause
+- uid: WeChatAuto.Utils.ConversationChangeListener.Resume
+  name: Resume()
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Resume
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.Resume
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Resume()
+  nameWithType: ConversationChangeListener.Resume()
+- uid: WeChatAuto.Utils.ConversationChangeListener.Resume*
+  name: Resume
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Resume_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.Resume
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Resume
+  nameWithType: ConversationChangeListener.Resume
+- uid: WeChatAuto.Utils.ConversationChangeListener.Star(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
+  name: Star(Action<ChatContext, CancellationToken>, SynchronizationContext)
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Star_System_Action_WeChatAuto_Models_ChatContext_System_Threading_CancellationToken__System_Threading_SynchronizationContext_
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.Star(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
+  name.vb: Star(Action(Of ChatContext, CancellationToken), SynchronizationContext)
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Star(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>, System.Threading.SynchronizationContext)
+  fullName.vb: WeChatAuto.Utils.ConversationChangeListener.Star(System.Action(Of WeChatAuto.Models.ChatContext, System.Threading.CancellationToken), System.Threading.SynchronizationContext)
+  nameWithType: ConversationChangeListener.Star(Action<ChatContext, CancellationToken>, SynchronizationContext)
+  nameWithType.vb: ConversationChangeListener.Star(Action(Of ChatContext, CancellationToken), SynchronizationContext)
+- uid: WeChatAuto.Utils.ConversationChangeListener.Star*
+  name: Star
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Star_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.Star
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Star
+  nameWithType: ConversationChangeListener.Star
+- uid: WeChatAuto.Utils.ConversationChangeListener.Stop
+  name: Stop()
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Stop
+  commentId: M:WeChatAuto.Utils.ConversationChangeListener.Stop
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Stop()
+  nameWithType: ConversationChangeListener.Stop()
+- uid: WeChatAuto.Utils.ConversationChangeListener.Stop*
+  name: Stop
+  href: api/WeChatAuto.Utils.ConversationChangeListener.html#WeChatAuto_Utils_ConversationChangeListener_Stop_
+  commentId: Overload:WeChatAuto.Utils.ConversationChangeListener.Stop
+  fullName: WeChatAuto.Utils.ConversationChangeListener.Stop
+  nameWithType: ConversationChangeListener.Stop
 - uid: WeChatAuto.Utils.DpiAwareness
   name: DpiAwareness
   href: api/WeChatAuto.Utils.DpiAwareness.html

@@ -17,7 +17,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -48,7 +48,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.keybd_event(byte, byte, uint, nuint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -80,7 +80,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.SendMessage(nint, uint, nint, nint)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -114,7 +114,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.GetTopWindowProcessIdByClassName(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -146,7 +146,7 @@ items:
   fullName: WeChatAuto.Utils.WinApi.WinApi()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e8a74ae494f368c38a28679441fe4ffa4777fbd4/WeChatAuto/Utils/WinApi.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/c5704057ea68ac7b8b21154c3593c707e6cf51b9/WeChatAuto/Utils/WinApi.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
