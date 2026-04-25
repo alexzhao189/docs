@@ -955,14 +955,14 @@ items:
 
     {
         options.ConversationChangeListenerInterval=3,  //在这里修改时间间
-    }</code></pre>
+    });</code></pre>
 
     <p>详情请参考<xref href="WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval" data-throw-if-not-resolved="false"></xref></p>
 
     <p>在winform中的调用示例:</p>
 
 
-    <pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token){
+    <pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token)=&gt;{
 
     //在这里写你的业务代码，context含有你需要的信息，如：好友/群聊的标题等
 
@@ -1004,10 +1004,10 @@ items:
     parameters:
     - id: callBack
       type: System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken}
-      description: 回调事件，会传给用户ChatContext对象，详情请参考<xref href="WeChatAuto.Models.ChatContext" data-throw-if-not-resolved="false"></xref>
+      description: 回调事件，会传给用户ChatContext对象，详情请参考<xref href="WeChatAuto.Models.ChatContext" data-throw-if-not-resolved="false"></xref>,如果你执行的是长任务，为了支持用户点击微信任意切换，你应该使用token.ThrowIfCancellationRequested()来支持任务的取消
     - id: syncContext
       type: System.Threading.SynchronizationContext
-      description: SynchronizationContext,使用者可以传入SynchronizationContext.Current,如果不传此参数，使用者需要自行解决UI线程切换的问题(使用xxx.RequireInvoke()的方式)
+      description: SynchronizationContext,使用者可以传入SynchronizationContext.Current,如果不传此参数，使用者需要自行解决UI线程切换的问题(见上面的代码演示)
     content.vb: Public Sub AddConversationChangeListener(callBack As Action(Of ChatContext, CancellationToken), syncContext As SynchronizationContext = Nothing)
   overload: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener*
   nameWithType.vb: WeChatMainWindow.AddConversationChangeListener(Action(Of ChatContext, CancellationToken), SynchronizationContext)

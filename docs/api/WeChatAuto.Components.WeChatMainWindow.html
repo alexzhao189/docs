@@ -954,10 +954,10 @@ Class WeChatMainWindow  <a class="header-action link-secondary" title="View sour
 <pre><code class="lang-csharp">WeAutomation.Initialize(options =&gt;
 {
     options.ConversationChangeListenerInterval=3,  //在这里修改时间间
-}</code></pre>
+});</code></pre>
 <p>详情请参考<a class="xref" href="WeAutoCommon.Configs.WeChatConfig.html#WeAutoCommon_Configs_WeChatConfig_ConversationChangeListenerInterval">ConversationChangeListenerInterval</a></p>
 <p>在winform中的调用示例:</p>
-<pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token){
+<pre><code class="lang-csharp">wechatMainWindow.AddConversationChangeListener((context,token)=&gt;{
 //在这里写你的业务代码，context含有你需要的信息，如：好友/群聊的标题等
 },SynchronizationContext.Current)</code></pre>
 <param>如果传了SynchronizationContext对象，回调事件中不用考虑UI线程切换问题，因为WeChatAuto.SDK已经帮你切回了UI线程，你只需要正常访问UI即可。
@@ -992,10 +992,10 @@ if (txtLog.InvokeRequired)
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>callBack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="WeChatAuto.Models.ChatContext.html">ChatContext</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>&gt;</dt>
-    <dd><p>回调事件，会传给用户ChatContext对象，详情请参考<a class="xref" href="WeChatAuto.Models.ChatContext.html">ChatContext</a></p>
+    <dd><p>回调事件，会传给用户ChatContext对象，详情请参考<a class="xref" href="WeChatAuto.Models.ChatContext.html">ChatContext</a>,如果你执行的是长任务，为了支持用户点击微信任意切换，你应该使用token.ThrowIfCancellationRequested()来支持任务的取消</p>
 </dd>
     <dt><code>syncContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext">SynchronizationContext</a></dt>
-    <dd><p>SynchronizationContext,使用者可以传入SynchronizationContext.Current,如果不传此参数，使用者需要自行解决UI线程切换的问题(使用xxx.RequireInvoke()的方式)</p>
+    <dd><p>SynchronizationContext,使用者可以传入SynchronizationContext.Current,如果不传此参数，使用者需要自行解决UI线程切换的问题(见上面的代码演示)</p>
 </dd>
   </dl>
 
