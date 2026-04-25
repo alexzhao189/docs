@@ -967,6 +967,37 @@ items:
     //在这里写你的业务代码，context含有你需要的信息，如：好友/群聊的标题等
 
     },SynchronizationContext.Current)</code></pre>
+
+    <param>如果传了SynchronizationContext对象，回调事件中不用考虑UI线程切换问题，因为WeChatAuto.SDK已经帮你切回了UI线程，你只需要正常访问UI即可。</param>
+
+    <param>如果没有传SynchronizationContex对象，如果需要访问UI控件，你必须自行解决跨线程访问UI控件的问题，建议代码如下：</param>
+
+
+    <pre><code class="lang-csharp">//如：有一个UI控件名叫：txtLog,是一个TextBox控件，你需要给他赋值,则这样写代码：
+
+    Action action = () =&gt;
+
+    {
+        //这里是访问UI控件代码.
+        if (txtLog.Lines.Length &gt; 10000)
+        {
+            var list = txtLog.Lines.ToList();
+            list.RemoveAt(0);
+            txtLog.Lines = list.ToArray();
+        }
+        txtLog.AppendText(log + Environment.NewLine);
+        txtLog.ScrollToCaret();
+    };
+
+    if (txtLog.InvokeRequired)
+
+    {
+        this.Invoke(action); 或 this.BeginInvoke(action);
+    }else
+
+    {
+        action();
+    }</code></pre>
   example: []
   syntax:
     content: public void AddConversationChangeListener(Action<ChatContext, CancellationToken> callBack, SynchronizationContext syncContext = null)
