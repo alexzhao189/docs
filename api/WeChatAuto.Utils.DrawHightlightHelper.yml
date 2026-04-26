@@ -15,7 +15,7 @@ items:
   fullName: WeChatAuto.Utils.DrawHightlightHelper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Utils/DrawHightlightHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/DrawHightlightHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -44,7 +44,7 @@ items:
   fullName: WeChatAuto.Utils.DrawHightlightHelper.DrawHightlight(FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Utils.UIThreadInvoker)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Utils/DrawHightlightHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/DrawHightlightHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -74,7 +74,7 @@ items:
   fullName: WeChatAuto.Utils.DrawHightlightHelper.DrawHighlightExt(FlaUI.Core.AutomationElements.AutomationElement, WeAutoCommon.Utils.UIThreadInvoker)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Utils/DrawHightlightHelper.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/DrawHightlightHelper.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

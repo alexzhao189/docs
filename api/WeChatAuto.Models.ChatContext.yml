@@ -18,7 +18,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -50,7 +50,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -74,7 +74,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.ChatContext()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -97,7 +97,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.TitleInfo
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -125,7 +125,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.ServiceProvider
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models
@@ -150,7 +150,7 @@ items:
   fullName: WeChatAuto.Models.ChatContext.MainWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeChatAuto/Models/ChatContext.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatContext.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Models

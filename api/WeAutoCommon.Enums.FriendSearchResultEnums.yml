@@ -16,7 +16,7 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -39,7 +39,7 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.Friend
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -59,7 +59,7 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums
@@ -79,7 +79,7 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/6bdd7477436a61db365b5df9e3e7ce607df72b50/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Enums

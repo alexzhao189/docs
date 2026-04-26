@@ -91,7 +91,7 @@ public void PauseConversationChangeListener()
 
 ### 恢复会话列表监听
 
-恢复暂停的会话列表监听，恢复后，会话列表切换事件将会被触发
+恢复暂停的会话列表监听，恢复后，以前通过```AddConversationChangeListener```注册的会话列表切换事件将会被触发
 
 ```
 public void ResumeConversationChangeListener()

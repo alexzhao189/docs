@@ -490,7 +490,23 @@ messageContext.SendMessage(string message, List<string> atUserList = null)
 public async Task<FriendInfo> GetOwnerInfo()
 ```
 
-### 21. 获取好友详情
+### 21. 获取我的头像
+
+保存“我”的头像至指定的位置
+
+方法声明:
+
+```
+public async Task SaveOwnerAvator(string savePath)
+```
+
+其中：
+
+- savePath: 保存的目录与文件名，如: c:\temp\avator.jpg
+
+
+
+### 22. 获取好友详情
 
 好友详情包括:
 - NickName: 昵称
@@ -528,7 +544,7 @@ public async Task<FriendInfo> GetFriendInfo(string who, bool fetchImage = true, 
 - 头像保存路径受fetchImage约束，如果fetchImage为false,头像保存路径会失效
 - 如果传入的是路径，必须保证路径在文件系统中是真实存在的
 
-### 22. 通过好友手机号码获取好友详情
+### 23. 通过好友手机号码获取好友详情
 
 好友详情包括:
 - NickName: 昵称
@@ -563,3 +579,18 @@ public async Task<FriendInfo> GetFriendInfo(string who, bool fetchImage = true, 
 - 路径也可以为空，如果为空，则不将头像进行保存，但会返回头像的Image,使用者可以自行保存、显示或者抛弃
 - 头像保存路径受fetchImage约束，如果fetchImage为false,头像保存路径会失效
 - 如果传入的是路径，必须保证路径在文件系统中是真实存在的
+
+### 24. 修改好友/群聊备注
+
+可以通过```WeChatMainWindow```或者```WeChatClient```类来调用修改备注的功能
+
+方法定义：
+
+```
+public async Task UpdateRemark(string who, string newName)
+```
+
+其中：
+
+- who: 好友/群聊的名称,who可以为空,如果为空，则修改当前聊天窗口的好友/群聊备注,注意：如果不是自有群，有可能他有群的群主会限制修改备注;
+- newName: 新的备注，注意：修改成新的备注名后，微信将优先显示新的备注，以后的调用中who=新的备注名

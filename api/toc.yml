@@ -307,6 +307,9 @@ items:
   - uid: WeChatAuto.Utils.DrawHightlightHelper
     name: DrawHightlightHelper
     type: Class
+  - uid: WeChatAuto.Utils.HumanTyper
+    name: HumanTyper
+    type: Class
   - uid: WeChatAuto.Utils.MessageBubbleParser
     name: MessageBubbleParser
     type: Class

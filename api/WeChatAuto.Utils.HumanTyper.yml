@@ -1,34 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: WeChatAuto.Models.ChatMessageInner
-  commentId: T:WeChatAuto.Models.ChatMessageInner
-  id: ChatMessageInner
-  parent: WeChatAuto.Models
+- uid: WeChatAuto.Utils.HumanTyper
+  commentId: T:WeChatAuto.Utils.HumanTyper
+  id: HumanTyper
+  parent: WeChatAuto.Utils
   children:
-  - WeChatAuto.Models.ChatMessageInner.#ctor
-  - WeChatAuto.Models.ChatMessageInner.ApiKey
-  - WeChatAuto.Models.ChatMessageInner.AtUser
-  - WeChatAuto.Models.ChatMessageInner.ClientName
-  - WeChatAuto.Models.ChatMessageInner.IsNewWindow
-  - WeChatAuto.Models.ChatMessageInner.Message
-  - WeChatAuto.Models.ChatMessageInner.ToUser
+  - WeChatAuto.Utils.HumanTyper.#ctor
+  - WeChatAuto.Utils.HumanTyper.MaxDelay
+  - WeChatAuto.Utils.HumanTyper.MinDelay
+  - WeChatAuto.Utils.HumanTyper.MistakeRate
+  - WeChatAuto.Utils.HumanTyper.PauseRate
+  - WeChatAuto.Utils.HumanTyper.TypeAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
-  name: ChatMessageInner
-  nameWithType: ChatMessageInner
-  fullName: WeChatAuto.Models.ChatMessageInner
+  name: HumanTyper
+  nameWithType: HumanTyper
+  fullName: WeChatAuto.Utils.HumanTyper
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 微信消息内部类
-  example: []
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public class ChatMessageInner
-    content.vb: Public Class ChatMessageInner
+    content: public class HumanTyper
+    content.vb: Public Class HumanTyper
   inheritance:
   - System.Object
   inheritedMembers:
@@ -40,208 +37,180 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   extensionMethods:
-  - WeChatAuto.Models.ChatMessageInner.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
-- uid: WeChatAuto.Models.ChatMessageInner.#ctor
-  commentId: M:WeChatAuto.Models.ChatMessageInner.#ctor
-  id: '#ctor'
-  parent: WeChatAuto.Models.ChatMessageInner
+  - WeChatAuto.Utils.HumanTyper.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.HumanTyper.TypeAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:WeChatAuto.Utils.HumanTyper.TypeAsync(System.String,System.Threading.CancellationToken)
+  id: TypeAsync(System.String,System.Threading.CancellationToken)
+  parent: WeChatAuto.Utils.HumanTyper
   langs:
   - csharp
   - vb
-  name: ChatMessageInner()
-  nameWithType: ChatMessageInner.ChatMessageInner()
-  fullName: WeChatAuto.Models.ChatMessageInner.ChatMessageInner()
+  name: TypeAsync(string, CancellationToken)
+  nameWithType: HumanTyper.TypeAsync(string, CancellationToken)
+  fullName: WeChatAuto.Utils.HumanTyper.TypeAsync(string, System.Threading.CancellationToken)
+  type: Method
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Utils
+  syntax:
+    content: public Task TypeAsync(string text, CancellationToken token = default)
+    parameters:
+    - id: text
+      type: System.String
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function TypeAsync(text As String, token As CancellationToken = Nothing) As Task
+  overload: WeChatAuto.Utils.HumanTyper.TypeAsync*
+  nameWithType.vb: HumanTyper.TypeAsync(String, CancellationToken)
+  fullName.vb: WeChatAuto.Utils.HumanTyper.TypeAsync(String, System.Threading.CancellationToken)
+  name.vb: TypeAsync(String, CancellationToken)
+- uid: WeChatAuto.Utils.HumanTyper.#ctor
+  commentId: M:WeChatAuto.Utils.HumanTyper.#ctor
+  id: '#ctor'
+  parent: WeChatAuto.Utils.HumanTyper
+  langs:
+  - csharp
+  - vb
+  name: HumanTyper()
+  nameWithType: HumanTyper.HumanTyper()
+  fullName: WeChatAuto.Utils.HumanTyper.HumanTyper()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public ChatMessageInner()
+    content: public HumanTyper()
     content.vb: Public Sub New()
-  overload: WeChatAuto.Models.ChatMessageInner.#ctor*
-  nameWithType.vb: ChatMessageInner.New()
-  fullName.vb: WeChatAuto.Models.ChatMessageInner.New()
+  overload: WeChatAuto.Utils.HumanTyper.#ctor*
+  nameWithType.vb: HumanTyper.New()
+  fullName.vb: WeChatAuto.Utils.HumanTyper.New()
   name.vb: New()
-- uid: WeChatAuto.Models.ChatMessageInner.ClientName
-  commentId: P:WeChatAuto.Models.ChatMessageInner.ClientName
-  id: ClientName
-  parent: WeChatAuto.Models.ChatMessageInner
+- uid: WeChatAuto.Utils.HumanTyper.MinDelay
+  commentId: P:WeChatAuto.Utils.HumanTyper.MinDelay
+  id: MinDelay
+  parent: WeChatAuto.Utils.HumanTyper
   langs:
   - csharp
   - vb
-  name: ClientName
-  nameWithType: ChatMessageInner.ClientName
-  fullName: WeChatAuto.Models.ChatMessageInner.ClientName
+  name: MinDelay
+  nameWithType: HumanTyper.MinDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MinDelay
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 微信客户端名称
-  example: []
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public string ClientName { get; set; }
+    content: public int MinDelay { get; set; }
     parameters: []
     return:
-      type: System.String
-    content.vb: Public Property ClientName As String
-  overload: WeChatAuto.Models.ChatMessageInner.ClientName*
-- uid: WeChatAuto.Models.ChatMessageInner.Message
-  commentId: P:WeChatAuto.Models.ChatMessageInner.Message
-  id: Message
-  parent: WeChatAuto.Models.ChatMessageInner
+      type: System.Int32
+    content.vb: Public Property MinDelay As Integer
+  overload: WeChatAuto.Utils.HumanTyper.MinDelay*
+- uid: WeChatAuto.Utils.HumanTyper.MaxDelay
+  commentId: P:WeChatAuto.Utils.HumanTyper.MaxDelay
+  id: MaxDelay
+  parent: WeChatAuto.Utils.HumanTyper
   langs:
   - csharp
   - vb
-  name: Message
-  nameWithType: ChatMessageInner.Message
-  fullName: WeChatAuto.Models.ChatMessageInner.Message
+  name: MaxDelay
+  nameWithType: HumanTyper.MaxDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MaxDelay
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 消息内容
-  example: []
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public string Message { get; set; }
+    content: public int MaxDelay { get; set; }
     parameters: []
     return:
-      type: System.String
-    content.vb: Public Property Message As String
-  overload: WeChatAuto.Models.ChatMessageInner.Message*
-- uid: WeChatAuto.Models.ChatMessageInner.ToUser
-  commentId: P:WeChatAuto.Models.ChatMessageInner.ToUser
-  id: ToUser
-  parent: WeChatAuto.Models.ChatMessageInner
+      type: System.Int32
+    content.vb: Public Property MaxDelay As Integer
+  overload: WeChatAuto.Utils.HumanTyper.MaxDelay*
+- uid: WeChatAuto.Utils.HumanTyper.MistakeRate
+  commentId: P:WeChatAuto.Utils.HumanTyper.MistakeRate
+  id: MistakeRate
+  parent: WeChatAuto.Utils.HumanTyper
   langs:
   - csharp
   - vb
-  name: ToUser
-  nameWithType: ChatMessageInner.ToUser
-  fullName: WeChatAuto.Models.ChatMessageInner.ToUser
+  name: MistakeRate
+  nameWithType: HumanTyper.MistakeRate
+  fullName: WeChatAuto.Utils.HumanTyper.MistakeRate
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 发送给谁,可以单人也可以群发
-  example: []
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public OneOf<string, string[]> ToUser { get; set; }
+    content: public int MistakeRate { get; set; }
     parameters: []
     return:
-      type: OneOf.OneOf{System.String,System.String[]}
-    content.vb: Public Property ToUser As OneOf(Of String, String())
-  overload: WeChatAuto.Models.ChatMessageInner.ToUser*
-- uid: WeChatAuto.Models.ChatMessageInner.AtUser
-  commentId: P:WeChatAuto.Models.ChatMessageInner.AtUser
-  id: AtUser
-  parent: WeChatAuto.Models.ChatMessageInner
+      type: System.Int32
+    content.vb: Public Property MistakeRate As Integer
+  overload: WeChatAuto.Utils.HumanTyper.MistakeRate*
+- uid: WeChatAuto.Utils.HumanTyper.PauseRate
+  commentId: P:WeChatAuto.Utils.HumanTyper.PauseRate
+  id: PauseRate
+  parent: WeChatAuto.Utils.HumanTyper
   langs:
   - csharp
   - vb
-  name: AtUser
-  nameWithType: ChatMessageInner.AtUser
-  fullName: WeChatAuto.Models.ChatMessageInner.AtUser
+  name: PauseRate
+  nameWithType: HumanTyper.PauseRate
+  fullName: WeChatAuto.Utils.HumanTyper.PauseRate
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/HumanTyper.cs
   assemblies:
   - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: '@谁,可以单人也可以多人'
-  example: []
+  namespace: WeChatAuto.Utils
   syntax:
-    content: public OneOf<string, string[]> AtUser { get; set; }
+    content: public int PauseRate { get; set; }
     parameters: []
     return:
-      type: OneOf.OneOf{System.String,System.String[]}
-    content.vb: Public Property AtUser As OneOf(Of String, String())
-  overload: WeChatAuto.Models.ChatMessageInner.AtUser*
-- uid: WeChatAuto.Models.ChatMessageInner.IsNewWindow
-  commentId: P:WeChatAuto.Models.ChatMessageInner.IsNewWindow
-  id: IsNewWindow
-  parent: WeChatAuto.Models.ChatMessageInner
-  langs:
-  - csharp
-  - vb
-  name: IsNewWindow
-  nameWithType: ChatMessageInner.IsNewWindow
-  fullName: WeChatAuto.Models.ChatMessageInner.IsNewWindow
-  type: Property
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 是否打开新窗口发送
-  example: []
-  syntax:
-    content: public bool IsNewWindow { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsNewWindow As Boolean
-  overload: WeChatAuto.Models.ChatMessageInner.IsNewWindow*
-- uid: WeChatAuto.Models.ChatMessageInner.ApiKey
-  commentId: P:WeChatAuto.Models.ChatMessageInner.ApiKey
-  id: ApiKey
-  parent: WeChatAuto.Models.ChatMessageInner
-  langs:
-  - csharp
-  - vb
-  name: ApiKey
-  nameWithType: ChatMessageInner.ApiKey
-  fullName: WeChatAuto.Models.ChatMessageInner.ApiKey
-  type: Property
-  source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Models/ChatMessageInner.cs
-  assemblies:
-  - WeChatAuto
-  namespace: WeChatAuto.Models
-  summary: 接口KEY
-  example: []
-  syntax:
-    content: public string ApiKey { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property ApiKey As String
-  overload: WeChatAuto.Models.ChatMessageInner.ApiKey*
+      type: System.Int32
+    content.vb: Public Property PauseRate As Integer
+  overload: WeChatAuto.Utils.HumanTyper.PauseRate*
 references:
-- uid: WeChatAuto.Models
-  commentId: N:WeChatAuto.Models
+- uid: WeChatAuto.Utils
+  commentId: N:WeChatAuto.Utils
   isExternal: true
   href: WeChatAuto.html
-  name: WeChatAuto.Models
-  nameWithType: WeChatAuto.Models
-  fullName: WeChatAuto.Models
+  name: WeChatAuto.Utils
+  nameWithType: WeChatAuto.Utils
+  fullName: WeChatAuto.Utils
   spec.csharp:
   - uid: WeChatAuto
     name: WeChatAuto
     isExternal: true
     href: WeChatAuto.html
   - name: .
-  - uid: WeChatAuto.Models
-    name: Models
+  - uid: WeChatAuto.Utils
+    name: Utils
     isExternal: true
-    href: WeChatAuto.Models.html
+    href: WeChatAuto.Utils.html
   spec.vb:
   - uid: WeChatAuto
     name: WeChatAuto
     isExternal: true
     href: WeChatAuto.html
   - name: .
-  - uid: WeChatAuto.Models
-    name: Models
+  - uid: WeChatAuto.Utils
+    name: Utils
     isExternal: true
-    href: WeChatAuto.Models.html
+    href: WeChatAuto.Utils.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -472,52 +441,52 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: WeChatAuto.Models.ChatMessageInner.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
+- uid: WeChatAuto.Utils.HumanTyper.WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1
   commentId: M:WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   parent: WeAutoCommon.Models.FunctionalExtensions
   definition: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(``0)
   href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
-  name: ToMaybe<ChatMessageInner>(ChatMessageInner)
-  nameWithType: FunctionalExtensions.ToMaybe<ChatMessageInner>(ChatMessageInner)
-  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Models.ChatMessageInner>(WeChatAuto.Models.ChatMessageInner)
-  nameWithType.vb: FunctionalExtensions.ToMaybe(Of ChatMessageInner)(ChatMessageInner)
-  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Models.ChatMessageInner)(WeChatAuto.Models.ChatMessageInner)
-  name.vb: ToMaybe(Of ChatMessageInner)(ChatMessageInner)
+  name: ToMaybe<HumanTyper>(HumanTyper)
+  nameWithType: FunctionalExtensions.ToMaybe<HumanTyper>(HumanTyper)
+  fullName: WeAutoCommon.Models.FunctionalExtensions.ToMaybe<WeChatAuto.Utils.HumanTyper>(WeChatAuto.Utils.HumanTyper)
+  nameWithType.vb: FunctionalExtensions.ToMaybe(Of HumanTyper)(HumanTyper)
+  fullName.vb: WeAutoCommon.Models.FunctionalExtensions.ToMaybe(Of WeChatAuto.Utils.HumanTyper)(WeChatAuto.Utils.HumanTyper)
+  name.vb: ToMaybe(Of HumanTyper)(HumanTyper)
   spec.csharp:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.ChatMessageInner)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.HumanTyper)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: <
-  - uid: WeChatAuto.Models.ChatMessageInner
-    name: ChatMessageInner
+  - uid: WeChatAuto.Utils.HumanTyper
+    name: HumanTyper
     isExternal: true
-    href: WeChatAuto.Models.ChatMessageInner.html
+    href: WeChatAuto.Utils.HumanTyper.html
   - name: '>'
   - name: (
-  - uid: WeChatAuto.Models.ChatMessageInner
-    name: ChatMessageInner
+  - uid: WeChatAuto.Utils.HumanTyper
+    name: HumanTyper
     isExternal: true
-    href: WeChatAuto.Models.ChatMessageInner.html
+    href: WeChatAuto.Utils.HumanTyper.html
   - name: )
   spec.vb:
-  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Models.ChatMessageInner)
+  - uid: WeAutoCommon.Models.FunctionalExtensions.ToMaybe``1(WeChatAuto.Utils.HumanTyper)
     name: ToMaybe
     isExternal: true
     href: WeAutoCommon.Models.FunctionalExtensions.html#WeAutoCommon_Models_FunctionalExtensions_ToMaybe__1___0_
   - name: (
   - name: Of
   - name: " "
-  - uid: WeChatAuto.Models.ChatMessageInner
-    name: ChatMessageInner
+  - uid: WeChatAuto.Utils.HumanTyper
+    name: HumanTyper
     isExternal: true
-    href: WeChatAuto.Models.ChatMessageInner.html
+    href: WeChatAuto.Utils.HumanTyper.html
   - name: )
   - name: (
-  - uid: WeChatAuto.Models.ChatMessageInner
-    name: ChatMessageInner
+  - uid: WeChatAuto.Utils.HumanTyper
+    name: HumanTyper
     isExternal: true
-    href: WeChatAuto.Models.ChatMessageInner.html
+    href: WeChatAuto.Utils.HumanTyper.html
   - name: )
 - uid: System
   commentId: N:System
@@ -595,23 +564,13 @@ references:
     name: Models
     isExternal: true
     href: WeAutoCommon.Models.html
-- uid: WeChatAuto.Models.ChatMessageInner.#ctor*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.#ctor
+- uid: WeChatAuto.Utils.HumanTyper.TypeAsync*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.TypeAsync
   isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner__ctor
-  name: ChatMessageInner
-  nameWithType: ChatMessageInner.ChatMessageInner
-  fullName: WeChatAuto.Models.ChatMessageInner.ChatMessageInner
-  nameWithType.vb: ChatMessageInner.New
-  fullName.vb: WeChatAuto.Models.ChatMessageInner.New
-  name.vb: New
-- uid: WeChatAuto.Models.ChatMessageInner.ClientName*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.ClientName
-  isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_ClientName
-  name: ClientName
-  nameWithType: ChatMessageInner.ClientName
-  fullName: WeChatAuto.Models.ChatMessageInner.ClientName
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_TypeAsync_System_String_System_Threading_CancellationToken_
+  name: TypeAsync
+  nameWithType: HumanTyper.TypeAsync
+  fullName: WeChatAuto.Utils.HumanTyper.TypeAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -623,135 +582,132 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: WeChatAuto.Models.ChatMessageInner.Message*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.Message
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_Message
-  name: Message
-  nameWithType: ChatMessageInner.Message
-  fullName: WeChatAuto.Models.ChatMessageInner.Message
-- uid: WeChatAuto.Models.ChatMessageInner.ToUser*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.ToUser
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_ToUser
-  name: ToUser
-  nameWithType: ChatMessageInner.ToUser
-  fullName: WeChatAuto.Models.ChatMessageInner.ToUser
-- uid: OneOf.OneOf{System.String,System.String[]}
-  commentId: T:OneOf.OneOf{System.String,System.String[]}
-  parent: OneOf
-  definition: OneOf.OneOf`2
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: OneOf<string, string[]>
-  nameWithType: OneOf<string, string[]>
-  fullName: OneOf.OneOf<string, string[]>
-  nameWithType.vb: OneOf(Of String, String())
-  fullName.vb: OneOf.OneOf(Of String, String())
-  name.vb: OneOf(Of String, String())
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: OneOf.OneOf`2
-    name: OneOf
+  - uid: System
+    name: System
     isExternal: true
-  - name: <
-  - uid: System.String
-    name: string
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: '>'
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: OneOf.OneOf`2
-    name: OneOf
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: )
-- uid: OneOf.OneOf`2
-  commentId: T:OneOf.OneOf`2
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: OneOf<T0, T1>
-  nameWithType: OneOf<T0, T1>
-  fullName: OneOf.OneOf<T0, T1>
-  nameWithType.vb: OneOf(Of T0, T1)
-  fullName.vb: OneOf.OneOf(Of T0, T1)
-  name.vb: OneOf(Of T0, T1)
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
   spec.csharp:
-  - uid: OneOf.OneOf`2
-    name: OneOf
+  - uid: System
+    name: System
     isExternal: true
-  - name: <
-  - name: T0
-  - name: ','
-  - name: " "
-  - name: T1
-  - name: '>'
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
   spec.vb:
-  - uid: OneOf.OneOf`2
-    name: OneOf
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T0
-  - name: ','
-  - name: " "
-  - name: T1
-  - name: )
-- uid: OneOf
-  commentId: N:OneOf
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: WeChatAuto.Utils.HumanTyper.#ctor*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.#ctor
   isExternal: true
-  name: OneOf
-  nameWithType: OneOf
-  fullName: OneOf
-- uid: WeChatAuto.Models.ChatMessageInner.AtUser*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.AtUser
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper__ctor
+  name: HumanTyper
+  nameWithType: HumanTyper.HumanTyper
+  fullName: WeChatAuto.Utils.HumanTyper.HumanTyper
+  nameWithType.vb: HumanTyper.New
+  fullName.vb: WeChatAuto.Utils.HumanTyper.New
+  name.vb: New
+- uid: WeChatAuto.Utils.HumanTyper.MinDelay*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MinDelay
   isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_AtUser
-  name: AtUser
-  nameWithType: ChatMessageInner.AtUser
-  fullName: WeChatAuto.Models.ChatMessageInner.AtUser
-- uid: WeChatAuto.Models.ChatMessageInner.IsNewWindow*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.IsNewWindow
-  isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_IsNewWindow
-  name: IsNewWindow
-  nameWithType: ChatMessageInner.IsNewWindow
-  fullName: WeChatAuto.Models.ChatMessageInner.IsNewWindow
-- uid: System.Boolean
-  commentId: T:System.Boolean
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MinDelay
+  name: MinDelay
+  nameWithType: HumanTyper.MinDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MinDelay
+- uid: System.Int32
+  commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: WeChatAuto.Models.ChatMessageInner.ApiKey*
-  commentId: Overload:WeChatAuto.Models.ChatMessageInner.ApiKey
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WeChatAuto.Utils.HumanTyper.MaxDelay*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MaxDelay
   isExternal: true
-  href: WeChatAuto.Models.ChatMessageInner.html#WeChatAuto_Models_ChatMessageInner_ApiKey
-  name: ApiKey
-  nameWithType: ChatMessageInner.ApiKey
-  fullName: WeChatAuto.Models.ChatMessageInner.ApiKey
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MaxDelay
+  name: MaxDelay
+  nameWithType: HumanTyper.MaxDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MaxDelay
+- uid: WeChatAuto.Utils.HumanTyper.MistakeRate*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MistakeRate
+  isExternal: true
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MistakeRate
+  name: MistakeRate
+  nameWithType: HumanTyper.MistakeRate
+  fullName: WeChatAuto.Utils.HumanTyper.MistakeRate
+- uid: WeChatAuto.Utils.HumanTyper.PauseRate*
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.PauseRate
+  isExternal: true
+  href: WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_PauseRate
+  name: PauseRate
+  nameWithType: HumanTyper.PauseRate
+  fullName: WeChatAuto.Utils.HumanTyper.PauseRate

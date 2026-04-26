@@ -10,6 +10,7 @@ items:
   - WeChatAuto.Utils.ConversationChangeListener
   - WeChatAuto.Utils.DpiAwareness
   - WeChatAuto.Utils.DrawHightlightHelper
+  - WeChatAuto.Utils.HumanTyper
   - WeChatAuto.Utils.MessageBubbleParser
   - WeChatAuto.Utils.MomentsContext
   - WeChatAuto.Utils.MomentsHelper
@@ -93,6 +94,13 @@ references:
   name: DrawHightlightHelper
   nameWithType: DrawHightlightHelper
   fullName: WeChatAuto.Utils.DrawHightlightHelper
+- uid: WeChatAuto.Utils.HumanTyper
+  commentId: T:WeChatAuto.Utils.HumanTyper
+  isExternal: true
+  href: WeChatAuto.Utils.HumanTyper.html
+  name: HumanTyper
+  nameWithType: HumanTyper
+  fullName: WeChatAuto.Utils.HumanTyper
 - uid: WeChatAuto.Utils.MessageBubbleParser
   commentId: T:WeChatAuto.Utils.MessageBubbleParser
   isExternal: true

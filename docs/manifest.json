@@ -1620,6 +1620,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WeChatAuto.Utils.HumanTyper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeChatAuto.Utils.HumanTyper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WeChatAuto.Utils.HumanTyper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WeChatAuto.Utils.MessageBubbleParser.yml",
       "output": {
         ".html": {

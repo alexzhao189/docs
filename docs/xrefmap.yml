@@ -8394,6 +8394,21 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatClient.UpdateGroupNotice
   fullName: WeChatAuto.Components.WeChatClient.UpdateGroupNotice
   nameWithType: WeChatClient.UpdateGroupNotice
+- uid: WeChatAuto.Components.WeChatClient.UpdateRemark(System.String,System.String)
+  name: UpdateRemark(string, string)
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_UpdateRemark_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatClient.UpdateRemark(System.String,System.String)
+  name.vb: UpdateRemark(String, String)
+  fullName: WeChatAuto.Components.WeChatClient.UpdateRemark(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatClient.UpdateRemark(String, String)
+  nameWithType: WeChatClient.UpdateRemark(string, string)
+  nameWithType.vb: WeChatClient.UpdateRemark(String, String)
+- uid: WeChatAuto.Components.WeChatClient.UpdateRemark*
+  name: UpdateRemark
+  href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_UpdateRemark_
+  commentId: Overload:WeChatAuto.Components.WeChatClient.UpdateRemark
+  fullName: WeChatAuto.Components.WeChatClient.UpdateRemark
+  nameWithType: WeChatClient.UpdateRemark
 - uid: WeChatAuto.Components.WeChatClient.WindowMax
   name: WindowMax()
   href: api/WeChatAuto.Components.WeChatClient.html#WeChatAuto_Components_WeChatClient_WindowMax
@@ -9708,6 +9723,21 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.UpdateGroupNotice
   fullName: WeChatAuto.Components.WeChatMainWindow.UpdateGroupNotice
   nameWithType: WeChatMainWindow.UpdateGroupNotice
+- uid: WeChatAuto.Components.WeChatMainWindow.UpdateRemark(System.String,System.String)
+  name: UpdateRemark(string, string)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_UpdateRemark_System_String_System_String_
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.UpdateRemark(System.String,System.String)
+  name.vb: UpdateRemark(String, String)
+  fullName: WeChatAuto.Components.WeChatMainWindow.UpdateRemark(string, string)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.UpdateRemark(String, String)
+  nameWithType: WeChatMainWindow.UpdateRemark(string, string)
+  nameWithType.vb: WeChatMainWindow.UpdateRemark(String, String)
+- uid: WeChatAuto.Components.WeChatMainWindow.UpdateRemark*
+  name: UpdateRemark
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_UpdateRemark_
+  commentId: Overload:WeChatAuto.Components.WeChatMainWindow.UpdateRemark
+  fullName: WeChatAuto.Components.WeChatMainWindow.UpdateRemark
+  nameWithType: WeChatMainWindow.UpdateRemark
 - uid: WeChatAuto.Components.WeChatMainWindow.Window
   name: Window
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_Window
@@ -12335,6 +12365,93 @@ references:
   commentId: Overload:WeChatAuto.Utils.DrawHightlightHelper.DrawHightlight
   fullName: WeChatAuto.Utils.DrawHightlightHelper.DrawHightlight
   nameWithType: DrawHightlightHelper.DrawHightlight
+- uid: WeChatAuto.Utils.HumanTyper
+  name: HumanTyper
+  href: api/WeChatAuto.Utils.HumanTyper.html
+  commentId: T:WeChatAuto.Utils.HumanTyper
+  fullName: WeChatAuto.Utils.HumanTyper
+  nameWithType: HumanTyper
+- uid: WeChatAuto.Utils.HumanTyper.#ctor
+  name: HumanTyper()
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper__ctor
+  commentId: M:WeChatAuto.Utils.HumanTyper.#ctor
+  name.vb: New()
+  fullName: WeChatAuto.Utils.HumanTyper.HumanTyper()
+  fullName.vb: WeChatAuto.Utils.HumanTyper.New()
+  nameWithType: HumanTyper.HumanTyper()
+  nameWithType.vb: HumanTyper.New()
+- uid: WeChatAuto.Utils.HumanTyper.#ctor*
+  name: HumanTyper
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper__ctor_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.#ctor
+  name.vb: New
+  fullName: WeChatAuto.Utils.HumanTyper.HumanTyper
+  fullName.vb: WeChatAuto.Utils.HumanTyper.New
+  nameWithType: HumanTyper.HumanTyper
+  nameWithType.vb: HumanTyper.New
+- uid: WeChatAuto.Utils.HumanTyper.MaxDelay
+  name: MaxDelay
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MaxDelay
+  commentId: P:WeChatAuto.Utils.HumanTyper.MaxDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MaxDelay
+  nameWithType: HumanTyper.MaxDelay
+- uid: WeChatAuto.Utils.HumanTyper.MaxDelay*
+  name: MaxDelay
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MaxDelay_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MaxDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MaxDelay
+  nameWithType: HumanTyper.MaxDelay
+- uid: WeChatAuto.Utils.HumanTyper.MinDelay
+  name: MinDelay
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MinDelay
+  commentId: P:WeChatAuto.Utils.HumanTyper.MinDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MinDelay
+  nameWithType: HumanTyper.MinDelay
+- uid: WeChatAuto.Utils.HumanTyper.MinDelay*
+  name: MinDelay
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MinDelay_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MinDelay
+  fullName: WeChatAuto.Utils.HumanTyper.MinDelay
+  nameWithType: HumanTyper.MinDelay
+- uid: WeChatAuto.Utils.HumanTyper.MistakeRate
+  name: MistakeRate
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MistakeRate
+  commentId: P:WeChatAuto.Utils.HumanTyper.MistakeRate
+  fullName: WeChatAuto.Utils.HumanTyper.MistakeRate
+  nameWithType: HumanTyper.MistakeRate
+- uid: WeChatAuto.Utils.HumanTyper.MistakeRate*
+  name: MistakeRate
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_MistakeRate_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.MistakeRate
+  fullName: WeChatAuto.Utils.HumanTyper.MistakeRate
+  nameWithType: HumanTyper.MistakeRate
+- uid: WeChatAuto.Utils.HumanTyper.PauseRate
+  name: PauseRate
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_PauseRate
+  commentId: P:WeChatAuto.Utils.HumanTyper.PauseRate
+  fullName: WeChatAuto.Utils.HumanTyper.PauseRate
+  nameWithType: HumanTyper.PauseRate
+- uid: WeChatAuto.Utils.HumanTyper.PauseRate*
+  name: PauseRate
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_PauseRate_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.PauseRate
+  fullName: WeChatAuto.Utils.HumanTyper.PauseRate
+  nameWithType: HumanTyper.PauseRate
+- uid: WeChatAuto.Utils.HumanTyper.TypeAsync(System.String,System.Threading.CancellationToken)
+  name: TypeAsync(string, CancellationToken)
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_TypeAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:WeChatAuto.Utils.HumanTyper.TypeAsync(System.String,System.Threading.CancellationToken)
+  name.vb: TypeAsync(String, CancellationToken)
+  fullName: WeChatAuto.Utils.HumanTyper.TypeAsync(string, System.Threading.CancellationToken)
+  fullName.vb: WeChatAuto.Utils.HumanTyper.TypeAsync(String, System.Threading.CancellationToken)
+  nameWithType: HumanTyper.TypeAsync(string, CancellationToken)
+  nameWithType.vb: HumanTyper.TypeAsync(String, CancellationToken)
+- uid: WeChatAuto.Utils.HumanTyper.TypeAsync*
+  name: TypeAsync
+  href: api/WeChatAuto.Utils.HumanTyper.html#WeChatAuto_Utils_HumanTyper_TypeAsync_
+  commentId: Overload:WeChatAuto.Utils.HumanTyper.TypeAsync
+  fullName: WeChatAuto.Utils.HumanTyper.TypeAsync
+  nameWithType: HumanTyper.TypeAsync
 - uid: WeChatAuto.Utils.MessageBubbleParser
   name: MessageBubbleParser
   href: api/WeChatAuto.Utils.MessageBubbleParser.html
