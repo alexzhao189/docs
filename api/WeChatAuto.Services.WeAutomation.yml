@@ -8,6 +8,7 @@ items:
   - WeChatAuto.Services.WeAutomation.Config
   - WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WeAutoCommon.Configs.WeChatConfig})
   - WeChatAuto.Services.WeAutomation.Initialize(System.Action{WeAutoCommon.Configs.WeChatConfig})
+  - WeChatAuto.Services.WeAutomation.currentContext
   langs:
   - csharp
   - vb
@@ -16,7 +17,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -33,6 +34,27 @@ items:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
+- uid: WeChatAuto.Services.WeAutomation.currentContext
+  commentId: F:WeChatAuto.Services.WeAutomation.currentContext
+  id: currentContext
+  parent: WeChatAuto.Services.WeAutomation
+  langs:
+  - csharp
+  - vb
+  name: currentContext
+  nameWithType: WeAutomation.currentContext
+  fullName: WeChatAuto.Services.WeAutomation.currentContext
+  type: Field
+  source:
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Services/WeAutomation.cs
+  assemblies:
+  - WeChatAuto
+  namespace: WeChatAuto.Services
+  syntax:
+    content: public static SynchronizationContext currentContext
+    return:
+      type: System.Threading.SynchronizationContext
+    content.vb: Public Shared currentContext As SynchronizationContext
 - uid: WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WeAutoCommon.Configs.WeChatConfig})
   commentId: M:WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WeAutoCommon.Configs.WeChatConfig})
   id: Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WeAutoCommon.Configs.WeChatConfig})
@@ -45,7 +67,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -83,7 +105,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Initialize(System.Action<WeAutoCommon.Configs.WeChatConfig>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -118,7 +140,7 @@ items:
   fullName: WeChatAuto.Services.WeAutomation.Config
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Services/WeAutomation.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Services/WeAutomation.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Services
@@ -394,6 +416,41 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Threading.SynchronizationContext
+  commentId: T:System.Threading.SynchronizationContext
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext
+  name: SynchronizationContext
+  nameWithType: SynchronizationContext
+  fullName: System.Threading.SynchronizationContext
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
 - uid: WeChatAuto.Services.WeAutomation.Initialize*
   commentId: Overload:WeChatAuto.Services.WeAutomation.Initialize
   isExternal: true
@@ -429,7 +486,7 @@ references:
   - uid: WeAutoCommon.Configs.WeChatConfig
     name: WeChatConfig
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Configs/WeChatConfig.cs
   - name: '>'
   spec.vb:
   - uid: System.Action`1
@@ -442,7 +499,7 @@ references:
   - uid: WeAutoCommon.Configs.WeChatConfig
     name: WeChatConfig
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Configs/WeChatConfig.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Configs/WeChatConfig.cs
   - name: )
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection

@@ -17,7 +17,7 @@ items:
   fullName: WeAutoCommon.Models.EmojiItem
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Models/EmojiItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/EmojiItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -50,7 +50,7 @@ items:
   fullName: WeAutoCommon.Models.EmojiItem.EmojiItem()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Models/EmojiItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/EmojiItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -73,7 +73,7 @@ items:
   fullName: WeAutoCommon.Models.EmojiItem.Index
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Models/EmojiItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/EmojiItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -98,7 +98,7 @@ items:
   fullName: WeAutoCommon.Models.EmojiItem.Value
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Models/EmojiItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/EmojiItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models
@@ -123,7 +123,7 @@ items:
   fullName: WeAutoCommon.Models.EmojiItem.Description
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeAutoCommon/Models/EmojiItem.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/EmojiItem.cs
   assemblies:
   - WeAutoCommon
   namespace: WeAutoCommon.Models

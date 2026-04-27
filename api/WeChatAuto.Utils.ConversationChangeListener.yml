@@ -20,7 +20,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -56,7 +56,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.ConversationChangeListener(WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.Window, WeChatAuto.Components.WeChatMainWindow, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -88,7 +88,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.Star(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>, System.Threading.SynchronizationContext)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -120,7 +120,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.Pause()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -142,7 +142,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.Resume()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -164,7 +164,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.Stop()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -186,7 +186,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -209,7 +209,7 @@ items:
   fullName: WeChatAuto.Utils.ConversationChangeListener.DisposeAsync()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/7d6b8d0af43ce9afc652a5ce1a7dcce50484f47c/WeChatAuto/Utils/ConversationChangeListener.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/ConversationChangeListener.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

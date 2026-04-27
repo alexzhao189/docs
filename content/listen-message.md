@@ -14,17 +14,13 @@
 方法定义:
 
 ```
-public void AddConversationChangeListener(Action<ChatContext, CancellationToken> callBack, SynchronizationContext syncContext = null)
+public void AddConversationChangeListener(Action<ChatContext, CancellationToken> callBack)
 
 ```
 
 其中：
 - callBack: 回调方法，当选择的会话项目(item)变化时触发，可以在回调方法中实现自己的业务逻辑，SDK提供一个ChatContext对象与一个CancellationToken对象供调用者使用，具体在下面介绍,ChatContext类参考: [ChatContext类](../api/WeChatAuto.Models.ChatContext.html)。
-- syncContext：同步对象，可以传，也可以不传，如果不传，使用者需要自行解决UI控件跨线程访问的问题，如果传了同步对象，则无需考虑UI控件跨线程访问问题;
 
-调用者如果在主线程中添加会话列表切换事件，在winform应以```SynchronizationContext.Current```的方式传入同步对象,同理WPF中的同步对象也按```SynchronizationContext.Current```传入。
-
-调用者如果在子线程中添加会话列表切换事件，应该先在主线程中（如构造函数）保存```SynchronizationContext.Current```至一个变量（或者字段），然后再传入同步对象.
 
 **注意事宜：**
 
@@ -51,25 +47,7 @@ window.AddConversationChangeListener((context, token) =>
     Console.WriteLine(context.ToString());
     //这里调用自己的方法,通过context可以获取自己需要的信息,如：好友/群聊/企业微信的名字等.
     //如果这里运行的是长任务，可能任务没有运行完，用户又点击了其他的列表项，通过token可以收到外部终止执行的信息，可以运行```token.ThrowIfCancellationRequested();```终止任务
-},SynchronizationContext.Current);
-```
-
-4. 如果传了SynchronizationContext对象，回调事件中不用考虑UI线程切换问题，因为WeChatAuto.SDK已经帮你切回了UI线程，你只需要正常访问UI即可,如果没有传SynchronizationContex对象，如果需要访问UI控件，你必须自行解决跨线程访问UI控件的问题，建议代码形式如下:
-
-```
-Action action = () =>
-{
-    //这里是访问UI控件代码.
-    AppendText(log + Environment.NewLine);
-    txtLog.ScrollToCaret();
-};
-if (txtLog.InvokeRequired)
-{
-    this.Invoke(action); 或 this.BeginInvoke(action);
-}else
-{
-    action();
-}
+});
 ```
 
 

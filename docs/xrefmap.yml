@@ -8682,15 +8682,15 @@ references:
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends
   fullName: WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends
   nameWithType: WeChatMainWindow.AddChatGroupMemberToFriends
-- uid: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
-  name: AddConversationChangeListener(Action<ChatContext, CancellationToken>, SynchronizationContext)
-  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddConversationChangeListener_System_Action_WeChatAuto_Models_ChatContext_System_Threading_CancellationToken__System_Threading_SynchronizationContext_
-  commentId: M:WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken},System.Threading.SynchronizationContext)
-  name.vb: AddConversationChangeListener(Action(Of ChatContext, CancellationToken), SynchronizationContext)
-  fullName: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>, System.Threading.SynchronizationContext)
-  fullName.vb: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action(Of WeChatAuto.Models.ChatContext, System.Threading.CancellationToken), System.Threading.SynchronizationContext)
-  nameWithType: WeChatMainWindow.AddConversationChangeListener(Action<ChatContext, CancellationToken>, SynchronizationContext)
-  nameWithType.vb: WeChatMainWindow.AddConversationChangeListener(Action(Of ChatContext, CancellationToken), SynchronizationContext)
+- uid: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken})
+  name: AddConversationChangeListener(Action<ChatContext, CancellationToken>)
+  href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddConversationChangeListener_System_Action_WeChatAuto_Models_ChatContext_System_Threading_CancellationToken__
+  commentId: M:WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action{WeChatAuto.Models.ChatContext,System.Threading.CancellationToken})
+  name.vb: AddConversationChangeListener(Action(Of ChatContext, CancellationToken))
+  fullName: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>)
+  fullName.vb: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action(Of WeChatAuto.Models.ChatContext, System.Threading.CancellationToken))
+  nameWithType: WeChatMainWindow.AddConversationChangeListener(Action<ChatContext, CancellationToken>)
+  nameWithType.vb: WeChatMainWindow.AddConversationChangeListener(Action(Of ChatContext, CancellationToken))
 - uid: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener*
   name: AddConversationChangeListener
   href: api/WeChatAuto.Components.WeChatMainWindow.html#WeChatAuto_Components_WeChatMainWindow_AddConversationChangeListener_
@@ -11919,6 +11919,12 @@ references:
   commentId: Overload:WeChatAuto.Services.WeAutomation.Initialize
   fullName: WeChatAuto.Services.WeAutomation.Initialize
   nameWithType: WeAutomation.Initialize
+- uid: WeChatAuto.Services.WeAutomation.currentContext
+  name: currentContext
+  href: api/WeChatAuto.Services.WeAutomation.html#WeChatAuto_Services_WeAutomation_currentContext
+  commentId: F:WeChatAuto.Services.WeAutomation.currentContext
+  fullName: WeChatAuto.Services.WeAutomation.currentContext
+  nameWithType: WeAutomation.currentContext
 - uid: WeChatAuto.Utils
   name: WeChatAuto.Utils
   href: api/WeChatAuto.Utils.html
