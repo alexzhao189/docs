@@ -13,7 +13,7 @@ items:
   fullName: WeAutoCommon.Simulator
   type: Namespace
   assemblies:
-  - WeAutoCommon
+  - weautocommon
 references:
 - uid: WeAutoCommon.Simulator.Skm
   commentId: T:WeAutoCommon.Simulator.Skm

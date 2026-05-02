@@ -25,7 +25,7 @@ items:
   fullName: WeAutoCommon.Models
   type: Namespace
   assemblies:
-  - WeAutoCommon
+  - weautocommon
 references:
 - uid: WeAutoCommon.Models.ChatActionMessage
   commentId: T:WeAutoCommon.Models.ChatActionMessage

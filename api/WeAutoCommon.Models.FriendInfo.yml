@@ -26,9 +26,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 个人信息
   example: []
@@ -58,9 +58,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.ToString()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   example: []
   syntax:
@@ -82,9 +82,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.FriendInfo()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   syntax:
     content: public FriendInfo()
@@ -105,9 +105,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 昵称
   example: []
@@ -130,9 +130,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.MemoName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 备注名
   example: []
@@ -155,9 +155,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.Area
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 地区,建议仅供参考
   example: []
@@ -180,9 +180,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.Lable
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 标签
   example: []
@@ -205,9 +205,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.SameGroupNumber
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 共同群数量
   example: []
@@ -230,9 +230,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.Signature
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 个性签名
   example: []
@@ -255,9 +255,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.Source
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 来源
   example: []
@@ -280,9 +280,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.WxId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 微信ID
   example: []
@@ -305,9 +305,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.AvatarPath
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: 头像路径
   example: []
@@ -330,9 +330,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.AvatarImage
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     头像Image
@@ -362,9 +362,9 @@ items:
   fullName: WeAutoCommon.Models.FriendInfo.FriendSearchResult
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Models
   summary: >-
     查询结果，三种查询结果：已是好友、未查询到或不支持手机号查询、能查询到，但不是好友.

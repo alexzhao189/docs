@@ -101,7 +101,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -141,7 +141,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.WeChatMainWindow(WeChatAuto.Components.WeChatClientFactory, System.IServiceProvider, int)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -176,7 +176,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ClearAllEvent()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -198,7 +198,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendMessageDispatch(WeAutoCommon.Models.ChatActionMessage)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -223,7 +223,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendEmojiDispatch(WeAutoCommon.Models.ChatActionMessage, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -253,7 +253,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendFileDispatch(WeAutoCommon.Models.ChatActionMessage)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -278,7 +278,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.OpenSubWinDispatch(WeAutoCommon.Models.ChatActionMessage)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -303,7 +303,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.WindowTop(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -332,7 +332,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.WindowMin()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -354,7 +354,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.WindowMax()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -376,7 +376,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.WindowRestore()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -398,7 +398,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.NavigationSwitch(WeAutoCommon.Enums.NavigationType)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -424,7 +424,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendWho(string, string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -464,7 +464,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.FocusWho(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -493,7 +493,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.PasteContentToWho(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -525,7 +525,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendWhos(string[], string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -565,7 +565,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendWhoAndOpenChat(string, string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -602,7 +602,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendWhosAndOpenChat(string[], string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -639,7 +639,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendVoiceChat(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -671,7 +671,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendVoiceChats(string, string[], bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -706,7 +706,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendVideoChat(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -738,7 +738,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendLiveStreaming(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -770,7 +770,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetAllChatHistory(string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -808,7 +808,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetCurrentChatTitle()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -845,7 +845,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetChatTitle()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -870,7 +870,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ForwardMessage(string, string, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -908,7 +908,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.FindAndOpenFriendOrGroup(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -940,7 +940,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddConversationChangeListener(System.Action<WeChatAuto.Models.ChatContext, System.Threading.CancellationToken>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -992,7 +992,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.RemoveConversationChangeListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1014,7 +1014,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.PauseConversationChangeListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1036,7 +1036,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ResumeConversationChangeListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1058,7 +1058,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendFile(string, OneOf.OneOf<string, string[]>, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1095,7 +1095,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendFiles(string[], OneOf.OneOf<string, string[]>, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1132,7 +1132,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendEmoji(string, OneOf.OneOf<int, string>, OneOf.OneOf<string, string[]>, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1172,7 +1172,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SendEmojis(string[], OneOf.OneOf<int, string>, OneOf.OneOf<string, string[]>, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1212,7 +1212,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.UpdateRemark(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1247,7 +1247,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SaveOwnerAvator(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1279,7 +1279,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetOwnerInfo()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1304,7 +1304,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetFriendInfo(string, bool, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1345,7 +1345,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetWxid(string, bool, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1386,7 +1386,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetFriendInfoFromPhoneNumber(string, bool, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1424,7 +1424,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetWxidFromPhoneNumber(string, bool, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1462,7 +1462,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddMessageListener(string, System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1502,7 +1502,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddTransferMessageListener(string, System.Action<WeChatAuto.Models.MessageContext>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1542,7 +1542,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddNewFriendAutoPassedListener(System.Action<System.Collections.Generic.List<string>>, string, string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1580,7 +1580,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddFriendRequestAutoAcceptAndOpenChatListener(System.Action<WeChatAuto.Models.MessageContext>, System.Action<WeChatAuto.Components.Sender>, string, string, string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1624,7 +1624,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.StopMessageListener(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1653,7 +1653,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.StopNewUserListener()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1675,7 +1675,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetChatGroupMemberList(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1707,7 +1707,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.IsChatGroupMember(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1742,7 +1742,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.IsOwnerChatGroup(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1774,7 +1774,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.GetGroupOwner(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1806,7 +1806,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ClearChatGroupHistory(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1837,7 +1837,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.QuitChatGroup(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1868,7 +1868,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SetMessageWithoutInterruption(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1903,7 +1903,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SetSaveToAddress(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1938,7 +1938,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SetChatTop(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -1973,7 +1973,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupMemo(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2008,7 +2008,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ChangeOwnerChatGroupName(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2043,7 +2043,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.CreateOrUpdateOwnerChatGroup(string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2081,7 +2081,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.CheckFriendExist(string, bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2116,7 +2116,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddOwnerChatGroupMember(string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2151,7 +2151,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.DeleteOwnerChatGroup(string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2186,7 +2186,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.RemoveOwnerChatGroupMember(string, OneOf.OneOf<string, string[]>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2221,7 +2221,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.InviteChatGroupMember(string, OneOf.OneOf<string, string[]>, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2259,7 +2259,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends(string, OneOf.OneOf<string, string[]>, int, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2300,7 +2300,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddChatGroupMemberToFriends(string, OneOf.OneOf<string, string[]>, int, string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2344,7 +2344,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddAllChatGroupMemberToFriends(string, System.Collections.Generic.List<string>, int, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2385,7 +2385,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddAllChatGroupMemberToFriends(string, System.Collections.Generic.List<string>, int, string, string, int, int)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2444,7 +2444,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddAllChatGroupMemberToFriends(string, System.Action<WeChatAuto.Models.AddGroupMemberOptions>)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2479,7 +2479,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.UpdateGroupNotice(string, string)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2514,7 +2514,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Dispose()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2537,7 +2537,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.~WeChatMainWindow()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2560,7 +2560,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Dispose(bool)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2586,7 +2586,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ToolBar
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2609,7 +2609,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Navigation
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2632,7 +2632,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Conversations
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2655,7 +2655,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.AddressBook
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2678,7 +2678,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Search
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2701,7 +2701,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.MainChatContent
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2724,7 +2724,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SubWinList
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2747,7 +2747,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.ProcessId
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2773,7 +2773,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.NickName
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2796,7 +2796,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Window
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2819,7 +2819,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Client
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2842,7 +2842,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.SelfWindow
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2868,7 +2868,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.weChatClientFactory
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2891,7 +2891,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.Moments
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -2914,7 +2914,7 @@ items:
   fullName: WeChatAuto.Components.WeChatMainWindow.UiMainThreadInvoker
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Components/WeChatMainWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Components/WeChatMainWindow.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Components
@@ -3216,7 +3216,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.AutomationElement
@@ -3232,7 +3232,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.AutomationElement
@@ -3259,7 +3259,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3281,7 +3281,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3314,7 +3314,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: System.String
@@ -3338,7 +3338,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: System.String
@@ -3370,7 +3370,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3386,7 +3386,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3490,7 +3490,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.AutomationElement
@@ -3506,7 +3506,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.AutomationElement
@@ -3540,7 +3540,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3562,7 +3562,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3594,7 +3594,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: System.String
@@ -3618,7 +3618,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: System.String
@@ -3649,7 +3649,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -3665,7 +3665,7 @@ references:
   - uid: WeAutoCommon.Interface.IWeChatWindow
     name: IWeChatWindow
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   - name: ','
   - name: " "
   - uid: FlaUI.Core.AutomationElements.TextBox
@@ -4416,7 +4416,7 @@ references:
 - uid: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
   commentId: P:WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
   isExternal: true
-  href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Configs/WeChatConfig.cs
+  href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Configs/WeChatConfig.cs
   name: ConversationChangeListenerInterval
   nameWithType: WeChatConfig.ConversationChangeListenerInterval
   fullName: WeAutoCommon.Configs.WeChatConfig.ConversationChangeListenerInterval
@@ -4657,7 +4657,7 @@ references:
   - uid: WeAutoCommon.Models.FriendInfo
     name: FriendInfo
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -4670,7 +4670,7 @@ references:
   - uid: WeAutoCommon.Models.FriendInfo
     name: FriendInfo
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/FriendInfo.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/FriendInfo.cs
   - name: )
 - uid: WeChatAuto.Components.WeChatMainWindow.GetFriendInfo*
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.GetFriendInfo
@@ -5114,7 +5114,7 @@ references:
   - uid: WeAutoCommon.Models.ChatResponse
     name: ChatResponse
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/ChatResponse.cs
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -5127,7 +5127,7 @@ references:
   - uid: WeAutoCommon.Models.ChatResponse
     name: ChatResponse
     isExternal: true
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Models/ChatResponse.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Models/ChatResponse.cs
   - name: )
 - uid: WeChatAuto.Components.WeChatMainWindow.DeleteOwnerChatGroup*
   commentId: Overload:WeChatAuto.Components.WeChatMainWindow.DeleteOwnerChatGroup
@@ -5406,7 +5406,7 @@ references:
   commentId: P:WeAutoCommon.Interface.IWeChatWindow.ProcessId
   parent: WeAutoCommon.Interface.IWeChatWindow
   isExternal: true
-  href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+  href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   name: ProcessId
   nameWithType: IWeChatWindow.ProcessId
   fullName: WeAutoCommon.Interface.IWeChatWindow.ProcessId
@@ -5487,7 +5487,7 @@ references:
   commentId: P:WeAutoCommon.Interface.IWeChatWindow.SelfWindow
   parent: WeAutoCommon.Interface.IWeChatWindow
   isExternal: true
-  href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Interface/IWeChatWindow.cs
+  href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Interface/IWeChatWindow.cs
   name: SelfWindow
   nameWithType: IWeChatWindow.SelfWindow
   fullName: WeAutoCommon.Interface.IWeChatWindow.SelfWindow

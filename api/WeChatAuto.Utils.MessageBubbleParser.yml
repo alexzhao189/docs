@@ -16,7 +16,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -47,7 +47,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.MessageBubbleParser(WeAutoCommon.Utils.UIThreadInvoker, FlaUI.Core.AutomationElements.AutomationElement, string, System.IServiceProvider)
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -79,7 +79,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.GetChatType()
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils
@@ -104,7 +104,7 @@ items:
   fullName: WeChatAuto.Utils.MessageBubbleParser.ParseBubble(FlaUI.Core.AutomationElements.AutomationElement, ref System.DateTime?)
   type: Method
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeChatAuto/Utils/MessageBubbleParser.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeChatAuto3_9_12_xx/WeChatAuto/Utils/MessageBubbleParser.cs
   assemblies:
   - WeChatAuto
   namespace: WeChatAuto.Utils

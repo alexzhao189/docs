@@ -16,9 +16,9 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   summary: 通过wxid查询，或者通过手机号查询结果枚举
   example: []
@@ -39,9 +39,9 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.Friend
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: Friend = 0
@@ -59,9 +59,9 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.No_Find
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: No_Find = 1
@@ -79,9 +79,9 @@ items:
   fullName: WeAutoCommon.Enums.FriendSearchResultEnums.NotFriend
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/FriendSearchResult.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/FriendSearchResult.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: NotFriend = 2

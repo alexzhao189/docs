@@ -18,9 +18,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType
   type: Enum
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: public enum ActionType
@@ -39,9 +39,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.发送消息
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: 发送消息 = 0
@@ -59,9 +59,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.发送文件
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: 发送文件 = 1
@@ -79,9 +79,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.自定义表情
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: 自定义表情 = 2
@@ -99,9 +99,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.添加好友
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: 添加好友 = 3
@@ -119,9 +119,9 @@ items:
   fullName: WeAutoCommon.Enums.ActionType.打开子窗口
   type: Field
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Enums/ActionType.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Enums/ActionType.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Enums
   syntax:
     content: 打开子窗口 = 4

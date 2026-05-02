@@ -18,9 +18,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions
   type: Class
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public class FriendListenerOptions
@@ -49,9 +49,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.FriendListenerOptions()
   type: Constructor
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   syntax:
     content: public FriendListenerOptions()
@@ -72,9 +72,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.KeyWord
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 关键字
   example: []
@@ -97,9 +97,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Suffix
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 后缀
   example: []
@@ -122,9 +122,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.Label
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 标签
   example: []
@@ -147,9 +147,9 @@ items:
   fullName: WeAutoCommon.Utils.FriendListenerOptions.IsDelet
   type: Property
   source:
-    href: https://github.com/scottfly189/wxauto.net/blob/e529f392d246183c1a812526ad97bb7daa6dceb6/WeAutoCommon/Utils/FriendListenerOptions.cs
+    href: https://github.com/scottfly189/wxauto.net/blob/425bba41f9b5e8d52edfddcee4babff7f058fc12/WeAutoCommon/Utils/FriendListenerOptions.cs
   assemblies:
-  - WeAutoCommon
+  - weautocommon
   namespace: WeAutoCommon.Utils
   summary: 添加好友成功后是否删除好友申请按钮，默认删除
   example: []

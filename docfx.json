@@ -4,13 +4,13 @@
     {
       "src": [
         {
-          "src": "../src",
+          "src": "../../src",
           "files": [
             "WeAutoCommon/bin/Debug/net10.0-windows/WeAutoCommon.dll",
-		      	"WeChatAuto/bin/Debug/net10.0-windows/WeChatAuto.dll",
-		      	"WeChatAuto.MCP/bin/Debug/net10.0-windows/WeChatAuto.MCP.dll"
+		      	"WeChatAuto3_9_12_xx/WeChatAuto/bin/Debug/net10.0-windows/WeChatAuto.dll",
+		      	"WeChatAuto3_9_12_xx/WeChatAuto.MCP/bin/Debug/net10.0-windows/WeChatAuto.MCP.dll"
           ],
-		  "cwd": "../src"
+		  "cwd": "../../src"
         }
       ],
       "dest": "api"
